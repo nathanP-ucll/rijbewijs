@@ -1,0 +1,41 @@
+{
+  "LICH-001": {
+    "url": "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+    "titel": "Koninklijk besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer en van het gebruik van de openbare weg (geconsolideerd)",
+    "uitgever": "Wegcode.be (Vias institute, in opdracht van FOD Mobiliteit)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Art. 3 en 4: bevoegde personen, bevelen (arm rechtop, armen horizontaal, rood licht zwaaien), kentekens, verplaatsen voertuigen",
+      "Art. 5 en 6: bindende kracht en rangorde (bevoegde persoon > verkeerstekens > verkeersregels); voorrangsborden vervallen bij werkende lichten behalve knipperoranje, lichten boven rijstroken, B22/B23",
+      "Art. 14: kruispunt vrijmaken, niet oprijden bij belemmerd verkeer",
+      "Art. 40.4.1, 42.4: voetgangers en lichten/bevoegde personen",
+      "Art. 41.3: signaalgevers, wegkapiteins, werfopzichters, C3-schijf",
+      "Art. 61: betekenis rood/oranje/groen, pijlen, fietslichten, volgorde, plaatsing (gewestelijke varianten), B22/B23 via 61.5 en art. 67",
+      "Art. 62: ontruimingspijl; 62bis: lichten boven rijstroken; 63: voetgangers- en combinatielichten; 64: knipperlichten",
+      "Art. 77.6: opstelvak voor fietsers"
+    ]
+  },
+  "LICH-002": {
+    "url": "https://www.wegcode.be/nl/regelgeving/2024005817~0mocswfbry",
+    "titel": "Koninklijk besluit van 3 juni 2024 betreffende de Code van de openbare weg (federaal)",
+    "uitgever": "Wegcode.be (Vias institute, in opdracht van FOD Mobiliteit)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Art. 86: in werking vanaf 1 juni 2027, samen met de Brusselse, Vlaamse en Waalse code; vervangt KB 1 december 1975",
+      "Art. 4 tot 6: bevelen van bevoegde personen, signaalgevers (vest, C3-schijf, geen aanwijzingen bij lichten of op (auto)snelwegen), nieuwe rangorde",
+      "Art. 57 tot 62: lichten, oranje knipperende pijl bij ontruiming, fietssilhouet met pijlen geldt voor alle richtingen"
+    ]
+  },
+  "LICH-003": {
+    "url": "https://codex.vlaanderen.be/PrintDocument.ashx?id=1035575",
+    "titel": "Ministerieel besluit van 11 oktober 1976 houdende de minimum afmetingen en de bijzondere plaatsingsvoorwaarden van de verkeerstekens",
+    "uitgever": "Vlaamse overheid (Codex Vlaanderen)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Oranje licht na groen brandt ongeveer 3 tot 5 seconden; voor fietsers en bromfietsen ongeveer 3 seconden"
+    ]
+  }
+}

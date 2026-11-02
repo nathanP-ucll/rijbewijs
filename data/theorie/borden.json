@@ -1,0 +1,2090 @@
+{
+  "thema": "borden",
+  "les": 1,
+  "blokken": [
+    {
+      "id": "borden-indeling",
+      "curriculum": [
+        "T01",
+        "T02",
+        "T03",
+        "T04",
+        "T05",
+        "T06",
+        "T07",
+        "T10"
+      ],
+      "titel": "Verkeerstekens: indeling en rangorde",
+      "uitleg": "De wegcode (KB van 1 december 1975) deelt de verkeersborden in **zes categorieën** in. Elke categorie heeft een eigen letter in de bordcode. Daarnaast bestaan er wegmarkeringen, onderborden en borden met zonale geldigheid.\n\nWie op de weg rijdt, moet verkeerslichten, verkeersborden en wegmarkeringen volgen, op voorwaarde dat ze regelmatig van vorm, voldoende zichtbaar en correct geplaatst zijn.",
+      "regels": [
+        {
+          "code": "A",
+          "naam": "Gevaarsborden",
+          "betekenis": "Waarschuwen voor een gevaar of bijzondere situatie voor je op de weg."
+        },
+        {
+          "code": "B",
+          "naam": "Verkeersborden betreffende de voorrang",
+          "betekenis": "Regelen wie voorrang heeft of moet verlenen."
+        },
+        {
+          "code": "C",
+          "naam": "Verbodsborden",
+          "betekenis": "Leggen een verbod op, inclusief de borden die een verbod doen eindigen en de snelheidsbeperking."
+        },
+        {
+          "code": "D",
+          "naam": "Gebodsborden",
+          "betekenis": "Leggen een verplichting op, bv. een richting, rotonde of fietspad."
+        },
+        {
+          "code": "E",
+          "naam": "Borden betreffende stilstaan en parkeren",
+          "betekenis": "Verbieden of regelen stilstaan en parkeren."
+        },
+        {
+          "code": "F",
+          "naam": "Aanwijzingsborden",
+          "betekenis": "Geven informatie of aanwijzingen: bebouwde kom, autosnelweg, rijstroken, bewegwijzering, zones."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Rangorde",
+          "tekst": "Bevelen van bevoegde personen (bv. een agent) gaan boven de verkeerstekens. Verkeerstekens gaan boven de gewone verkeersregels."
+        },
+        {
+          "type": "letop",
+          "titel": "Nieuwe wegcode in 2027",
+          "tekst": "De nieuwe Code van de openbare weg met vernieuwde borden treedt pas in werking op 1 juni 2027 (uitgesteld van 1 september 2026). Tot dan geldt het KB van 1 december 1975. In deze cursus leer je de huidige borden. Oude borden behouden tijdens een overgangsperiode hun betekenis."
+        },
+        {
+          "type": "tip",
+          "titel": "Borden in paren",
+          "tekst": "Veel borden komen in paren: een begin-bord en een einde-bord, bv. C35/C37, C39/C41, C43/C45, B9/B11, F5/F7, F9/F11 en F4a/F4b. Leer de letter bij de categorie, daarna het nummer."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "A1a",
+        "B1",
+        "C1",
+        "D1_rechtdoor",
+        "E1",
+        "F1a"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-004",
+        "BORD-005"
+      ]
+    },
+    {
+      "id": "borden-gevaar-weg",
+      "curriculum": [
+        "T01"
+      ],
+      "titel": "Gevaarsborden: bochten, helling, wegdek",
+      "uitleg": "Gevaarsborden waarschuwen voor een gevaarlijke plaats. In het Vlaams en Brussels Gewest staan ze in principe rechts van de weg en ongeveer **150 m** voor de gevaarlijke plaats. Staan ze op een andere afstand, dan staat de afstand bij benadering op een onderbord. De lengte van een gevaarlijk stuk weg kan op een onderbord worden aangeduid.",
+      "regels": [
+        {
+          "code": "A1a",
+          "naam": "Gevaarlijke bocht naar links",
+          "betekenis": "Een gevaarlijke bocht naar links."
+        },
+        {
+          "code": "A1b",
+          "naam": "Gevaarlijke bocht naar rechts",
+          "betekenis": "Een gevaarlijke bocht naar rechts."
+        },
+        {
+          "code": "A1c",
+          "naam": "Dubbele bocht, eerste naar links",
+          "betekenis": "Twee of meer opeenvolgende bochten, de eerste naar links."
+        },
+        {
+          "code": "A1d",
+          "naam": "Dubbele bocht, eerste naar rechts",
+          "betekenis": "Twee of meer opeenvolgende bochten, de eerste naar rechts."
+        },
+        {
+          "code": "A3",
+          "naam": "Gevaarlijke daling",
+          "betekenis": "Een gevaarlijke daling."
+        },
+        {
+          "code": "A5",
+          "naam": "Steile helling",
+          "betekenis": "Een steile helling."
+        },
+        {
+          "code": "A7a",
+          "naam": "Rijbaanversmalling",
+          "betekenis": "De rijbaan wordt smaller; het symbool toont aan welke zijde(n)."
+        },
+        {
+          "code": "A7b",
+          "naam": "Rijbaanversmalling",
+          "betekenis": "Variant van A7a; het symbool toont de zijde van de versmalling."
+        },
+        {
+          "code": "A7c",
+          "naam": "Rijbaanversmalling",
+          "betekenis": "Variant van A7a; het symbool toont de zijde van de versmalling."
+        },
+        {
+          "code": "A9",
+          "naam": "Beweegbare brug",
+          "betekenis": "Een brug die kan opengaan (bv. voor schepen)."
+        },
+        {
+          "code": "A11",
+          "naam": "Uitweg op een kaai of oever",
+          "betekenis": "De weg eindigt aan een kaai of oever: gevaar om in het water te rijden."
+        },
+        {
+          "code": "A13",
+          "naam": "Uitholling overdwars of ezelsrug",
+          "betekenis": "Een kuil of bult dwars op de weg."
+        },
+        {
+          "code": "A14",
+          "naam": "Verhoogde inrichting(en)",
+          "betekenis": "Een verkeersdrempel of -plateau: rij er aan maximaal 30 km/u over."
+        },
+        {
+          "code": "A15",
+          "naam": "Glibberige rijbaan",
+          "betekenis": "De rijbaan kan glad zijn. Een onderbord kan sneeuw of ijzel aanduiden."
+        },
+        {
+          "code": "A17",
+          "naam": "Kiezelprojectie",
+          "betekenis": "Losliggende steentjes kunnen weggeslingerd worden."
+        },
+        {
+          "code": "A19",
+          "naam": "Vallende stenen",
+          "betekenis": "Er kunnen stenen of rotsblokken op de weg vallen."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "A14 en verhoogde inrichtingen",
+          "tekst": "Op wegen met een verhoogde inrichting (aangekondigd door A14 en F87, of binnen een zone 30) nader je dubbel voorzichtig en rij je er over aan hoogstens 30 km/u. Op een verhoogde inrichting is links inhalen, stilstaan en parkeren verboden."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "A1a",
+        "A1b",
+        "A1c",
+        "A1d",
+        "A3",
+        "A5",
+        "A7a",
+        "A7b",
+        "A7c",
+        "A9",
+        "A11",
+        "A13",
+        "A14",
+        "A15",
+        "A17",
+        "A19"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002",
+        "BORD-006"
+      ]
+    },
+    {
+      "id": "borden-gevaar-weggebruikers",
+      "curriculum": [
+        "T01"
+      ],
+      "titel": "Gevaarsborden: weggebruikers, verkeer en overwegen",
+      "uitleg": "Deze gevaarsborden waarschuwen voor andere weggebruikers, dieren, werken, verkeerslichten of een spoorweg. Bij A45 en A47 geldt een uitzondering op de afstand: die staan aan of vlak bij de overweg zelf.",
+      "regels": [
+        {
+          "code": "A21",
+          "naam": "Oversteekplaats voor voetgangers",
+          "betekenis": "Voetgangers kunnen hier oversteken."
+        },
+        {
+          "code": "A23",
+          "naam": "Plaats waar speciaal veel kinderen komen",
+          "betekenis": "Bv. bij een school of speelplein: wees extra alert."
+        },
+        {
+          "code": "A25",
+          "naam": "Oversteekplaats voor fietsers en tweewielige bromfietsen",
+          "betekenis": "Ook: plaats waar zij van een fietspad op de rijbaan komen."
+        },
+        {
+          "code": "A27",
+          "naam": "Doortocht van groot wild",
+          "betekenis": "Wilde dieren kunnen de weg oversteken."
+        },
+        {
+          "code": "A29",
+          "naam": "Doortocht van vee",
+          "betekenis": "Vee kan de weg oversteken."
+        },
+        {
+          "code": "A31",
+          "naam": "Werken",
+          "betekenis": "Er zijn werken op of naast de weg."
+        },
+        {
+          "code": "A33",
+          "naam": "Verkeerslichten",
+          "betekenis": "Verderop staan verkeerslichten."
+        },
+        {
+          "code": "A35",
+          "naam": "Overtocht van vliegtuigen op geringe hoogte",
+          "betekenis": "Vliegtuigen vliegen laag over de weg."
+        },
+        {
+          "code": "A37",
+          "naam": "Zijwind",
+          "betekenis": "Op dit stuk kan er sterke zijwind zijn."
+        },
+        {
+          "code": "A39",
+          "naam": "Tweerichtingsverkeer na eenrichtingsverkeer",
+          "betekenis": "Na een stuk met eenrichtingsverkeer is verkeer in twee richtingen toegelaten."
+        },
+        {
+          "code": "A41",
+          "naam": "Overweg met slagbomen",
+          "betekenis": "Aankondiging van een overweg met slagbomen."
+        },
+        {
+          "code": "A43",
+          "naam": "Overweg zonder slagbomen",
+          "betekenis": "Aankondiging van een overweg zonder slagbomen."
+        },
+        {
+          "code": "A45",
+          "naam": "Overweg voor enkel spoor",
+          "betekenis": "Kruis aan de overweg zelf: één spoor."
+        },
+        {
+          "code": "A47",
+          "naam": "Overweg voor twee of meer sporen",
+          "betekenis": "Kruis aan de overweg zelf: meerdere sporen."
+        },
+        {
+          "code": "A49",
+          "naam": "Kruising met sporen in de rijbaan",
+          "betekenis": "Sporen (bv. tram) liggen in of dwars over de rijbaan."
+        },
+        {
+          "code": "A50",
+          "naam": "File",
+          "betekenis": "Mogelijke file verderop."
+        },
+        {
+          "code": "A51",
+          "naam": "Gevaar zonder eigen symbool",
+          "betekenis": "Een onderbord vertelt welk gevaar het is."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "A21 en A25 verwarring",
+          "tekst": "A21 toont voetgangers, A25 toont een fiets. Het bord F50bis herinnert bestuurders die van richting veranderen aan fietsers die dezelfde weg volgen."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "A21",
+        "A23",
+        "A25",
+        "A27",
+        "A29",
+        "A31",
+        "A33",
+        "A35",
+        "A37",
+        "A39",
+        "A41",
+        "A43",
+        "A45",
+        "A47",
+        "A49",
+        "A50",
+        "A51"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-008"
+      ]
+    },
+    {
+      "id": "borden-voorrang",
+      "curriculum": [
+        "T02"
+      ],
+      "titel": "Voorrangsborden (B)",
+      "uitleg": "Voorrangsborden staan in principe rechts van de weg (mogen boven de rijbaan of links herhaald worden). Een onderbord met de vorm van het kruispunt kan bij B1, B3, B5, B7 en B15 (en eventueel B9) het tracé van de voorrangsweg tonen.\n\nVoorrangsborden gelden alleen als de verkeerslichten uit staan of niet werken. Werken de verkeerslichten wel, dan gaan die voor. Uitzonderingen: het oranjegeel knipperlicht, lichten boven rijstroken en de borden B22 en B23.",
+      "regels": [
+        {
+          "code": "B1",
+          "naam": "Voorrang verlenen",
+          "betekenis": "Je moet voorrang geven aan het verkeer op de kruisende weg en zo nodig stoppen. Op de grond: haaientanden."
+        },
+        {
+          "code": "B3",
+          "naam": "Aankondiging van B1",
+          "betekenis": "Kondigt B1 aan op de aangeduide afstand."
+        },
+        {
+          "code": "B5",
+          "naam": "Stoppen en voorrang verlenen",
+          "betekenis": "Je moet altijd stoppen, aan de stopstreep, en voorrang verlenen."
+        },
+        {
+          "code": "B7",
+          "naam": "Aankondiging van B5",
+          "betekenis": "Kondigt B5 aan op de aangeduide afstand."
+        },
+        {
+          "code": "B9",
+          "naam": "Voorrangsweg",
+          "betekenis": "Je hebt voorrang op kruispunten tot het einde-bord. Buiten de bebouwde kom is parkeren op de rijbaan van een weg met B9 verboden."
+        },
+        {
+          "code": "B11",
+          "naam": "Einde van voorrangsweg",
+          "betekenis": "De voorrangsweg eindigt; de gewone regels (voorrang van rechts) gelden weer, tenzij andere borden."
+        },
+        {
+          "code": "B13",
+          "naam": "Aankondiging van B11",
+          "betekenis": "Kondigt het einde van de voorrangsweg aan op de aangeduide afstand."
+        },
+        {
+          "code": "B15",
+          "naam": "Voorrang (kruispunt)",
+          "betekenis": "Je hebt voorrang op dit kruispunt; het symbool toont de voorrangsweg."
+        },
+        {
+          "code": "B17",
+          "naam": "Kruispunt met voorrang van rechts",
+          "betekenis": "Aankondiging dat op het kruispunt de regel voorrang van rechts geldt."
+        },
+        {
+          "code": "B19",
+          "naam": "Smalle doorgang: voorrang verlenen",
+          "betekenis": "Je moet voorrang geven aan tegenliggers."
+        },
+        {
+          "code": "B21",
+          "naam": "Smalle doorgang: voorrang",
+          "betekenis": "Je hebt voorrang op tegenliggers."
+        },
+        {
+          "code": "B22",
+          "naam": "Fietsers rechts af bij rood of oranjegeel",
+          "betekenis": "Fietsers en speed pedelecs mogen het verkeerslicht voorbijrijden om rechts af te slaan, mits voorrang te verlenen."
+        },
+        {
+          "code": "B23",
+          "naam": "Fietsers rechtdoor bij rood of oranjegeel",
+          "betekenis": "Idem, maar om rechtdoor te rijden. Enkel als zij geen verkeersstroom hoeven te dwarsen."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Stopstreep en haaientanden",
+          "tekst": "Een witte doorlopende dwarse streep geeft bij B5 of een verkeerslicht aan waar je moet stoppen. Witte driehoeken (haaientanden) geven bij B1 aan waar je zo nodig moet stoppen om voorrang te verlenen."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Stop-bord is geen voorrang-bord",
+          "tekst": "B5 betekent altijd stoppen, ook als er geen verkeer is. B1 vraagt enkel te stoppen als het nodig is."
+        },
+        {
+          "type": "letop",
+          "titel": "Enkel voor fietsers",
+          "tekst": "B22 en B23 gelden alleen voor fietsers en speed pedelecs, niet voor auto's of bromfietsen. Zij moeten voorrang verlenen aan de andere weggebruikers."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "B1",
+        "B3",
+        "B5",
+        "B7",
+        "B9",
+        "B11",
+        "B13",
+        "B15",
+        "B17",
+        "B19",
+        "B21",
+        "B22",
+        "B23"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-006",
+        "BORD-007"
+      ]
+    },
+    {
+      "id": "borden-verbod-toegang",
+      "curriculum": [
+        "T03"
+      ],
+      "titel": "Verbodsborden: toegang en afmetingen",
+      "uitleg": "Verbodsborden staan rechts (of boven de rijbaan) en mogen worden aangekondigd door een gelijkaardig bord met een onderbord dat de afstand toont. Een onderbord M2 vult C1 en C3 aan als het verbod niet geldt voor fietsers; M3 als ook bromfietsen klasse A zijn uitgezonderd.",
+      "regels": [
+        {
+          "code": "C1",
+          "naam": "Verboden richting",
+          "betekenis": "Je mag deze weg niet inrijden (voor elke bestuurder)."
+        },
+        {
+          "code": "C3",
+          "naam": "Verboden toegang in beide richtingen",
+          "betekenis": "Geen enkele bestuurder mag in deze weg."
+        },
+        {
+          "code": "C5",
+          "naam": "Verboden voor motorvoertuigen met meer dan twee wielen en motor met zijspan",
+          "betekenis": "Met onderbord ‘Uitgezonderd 2+’ of ‘3+’: enkel voor voertuigen met voldoende inzittenden en openbaar vervoer."
+        },
+        {
+          "code": "C6",
+          "naam": "Verboden voor terreinvoertuigen met vier wielen (quads)",
+          "betekenis": "Open carrosserie, motorstuur, zadel."
+        },
+        {
+          "code": "C7",
+          "naam": "Verboden voor motorfietsen",
+          "betekenis": "Geen motorfietsen."
+        },
+        {
+          "code": "C9",
+          "naam": "Verboden voor bromfietsen",
+          "betekenis": "Geen bromfietsen."
+        },
+        {
+          "code": "C11",
+          "naam": "Verboden voor rijwielen",
+          "betekenis": "Geen fietsen."
+        },
+        {
+          "code": "C13",
+          "naam": "Verboden voor gespannen",
+          "betekenis": "Geen paard en kar."
+        },
+        {
+          "code": "C15",
+          "naam": "Verboden voor ruiters",
+          "betekenis": "Geen ruiters."
+        },
+        {
+          "code": "C17",
+          "naam": "Verboden voor handkarren",
+          "betekenis": "Geen handkarren."
+        },
+        {
+          "code": "C19",
+          "naam": "Verboden voor voetgangers",
+          "betekenis": "Voetgangers mogen hier niet."
+        },
+        {
+          "code": "C21",
+          "naam": "Maximale massa",
+          "betekenis": "Verboden voor voertuigen met beladen massa boven de aangeduide waarde."
+        },
+        {
+          "code": "C22",
+          "naam": "Verboden voor autocars",
+          "betekenis": "Geen autocars."
+        },
+        {
+          "code": "C23",
+          "naam": "Verboden voor vrachtvoertuigen",
+          "betekenis": "Geen voertuigen voor goederenvervoer; met onderbord enkel boven de aangeduide massa."
+        },
+        {
+          "code": "C24a",
+          "naam": "Verboden voor voertuigen met gevaarlijke goederen",
+          "betekenis": "Een onderbord met B, C, D of E verwijst naar tunnelcategorieën."
+        },
+        {
+          "code": "C24b",
+          "naam": "Verboden voor ontvlambare of ontplofbare stoffen",
+          "betekenis": "Geen voertuigen die zulke stoffen vervoeren."
+        },
+        {
+          "code": "C24c",
+          "naam": "Verboden voor verontreinigende stoffen",
+          "betekenis": "Geen voertuigen die zulke stoffen vervoeren."
+        },
+        {
+          "code": "C25",
+          "naam": "Maximale lengte",
+          "betekenis": "Verboden voor voertuigen of slepen, lading inbegrepen, langer dan de aangeduide lengte."
+        },
+        {
+          "code": "C27",
+          "naam": "Maximale breedte",
+          "betekenis": "Verboden voor voertuigen breder dan aangeduid, lading inbegrepen."
+        },
+        {
+          "code": "C29",
+          "naam": "Maximale hoogte",
+          "betekenis": "Verboden voor voertuigen hoger dan aangeduid, lading inbegrepen."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "C1 en C3",
+          "tekst": "C1 verbiedt het inrijden van een weg in één richting (voor elke bestuurder). C3 verbiedt toegang in beide richtingen. Een onderbord M2 bij C1 of C3 laat fietsers toe. In een schoolstraat staat het bord C3 met een onderbord."
+        },
+        {
+          "type": "letop",
+          "titel": "Massa betekent maximale toegelaten massa",
+          "tekst": "Bij C21 gaat het om de massa in beladen toestand. Bij C23 en parkeerborden wijst een gewichtsaanduiding op de maximale toegelaten massa (MTM) van het voertuig."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "C1",
+        "C3",
+        "C5",
+        "C6",
+        "C7",
+        "C9",
+        "C11",
+        "C13",
+        "C15",
+        "C17",
+        "C19",
+        "C21",
+        "C22",
+        "C23",
+        "C24a",
+        "C24b",
+        "C24c",
+        "C25",
+        "C27",
+        "C29"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-007",
+        "BORD-008"
+      ]
+    },
+    {
+      "id": "borden-verbod-manoeuvres-snelheid",
+      "curriculum": [
+        "T03"
+      ],
+      "titel": "Verbodsborden: afslaan, keren, inhalen, snelheid en einde-verbod",
+      "uitleg": "De meeste verbodsborden gelden vanaf het bord tot en met het volgende kruispunt. Een verbod kan ook eindigen door een eigen einde-bord.\n\n- **C31a/C31b**: verbod om aan het volgende kruispunt af te slaan in de richting van de pijl (links of rechts).\n- **C33**: verbod te keren, tot en met het volgende kruispunt.\n- **C35**: verbod om links in te halen voor een gespan of voertuig met meer dan twee wielen. **C37** beëindigt dit verbod.\n- **C39**: hetzelfde verbod, maar enkel voor voertuigen voor het vervoer van zaken met een MTM boven 3.500 kg. **C41** beëindigt dit.\n- **C43**: maximumsnelheid. **C45**: einde van die snelheidsbeperking.\n- **C46**: einde van alle plaatselijke verbodsbepalingen voor voertuigen in beweging.\n- **C47**: tolpost, stoppen verplicht.",
+      "regels": [
+        {
+          "code": "C31a",
+          "naam": "Verbod links af te slaan",
+          "betekenis": "Aan het volgend kruispunt niet naar links afslaan."
+        },
+        {
+          "code": "C31b",
+          "naam": "Verbod rechts af te slaan",
+          "betekenis": "Aan het volgend kruispunt niet naar rechts afslaan."
+        },
+        {
+          "code": "C33",
+          "naam": "Verbod te keren",
+          "betekenis": "Tot en met het volgend kruispunt niet keren."
+        },
+        {
+          "code": "C35",
+          "naam": "Inhaalverbod",
+          "betekenis": "Links inhalen van gespannen en voertuigen met meer dan twee wielen verboden."
+        },
+        {
+          "code": "C37",
+          "naam": "Einde inhaalverbod",
+          "betekenis": "Het verbod van C35 eindigt."
+        },
+        {
+          "code": "C39",
+          "naam": "Inhaalverbod voor zware voertuigen",
+          "betekenis": "Verboden voor voertuigen voor vervoer van zaken met MTM boven 3.500 kg."
+        },
+        {
+          "code": "C41",
+          "naam": "Einde inhaalverbod voor zware voertuigen",
+          "betekenis": "Het verbod van C39 eindigt."
+        },
+        {
+          "code": "C43",
+          "naam": "Maximumsnelheid",
+          "betekenis": "Je mag niet sneller rijden dan het getal. Geldt tot het volgend kruispunt of tot een nieuw C43/begin of einde van bebouwde kom, woonerf/erf of voetgangerszone."
+        },
+        {
+          "code": "C45",
+          "naam": "Einde van de snelheidsbeperking",
+          "betekenis": "De beperking van C43 eindigt."
+        },
+        {
+          "code": "C46",
+          "naam": "Einde van alle verbodsbepalingen",
+          "betekenis": "Alle plaatselijke verboden voor rijdende voertuigen eindigen."
+        },
+        {
+          "code": "C47",
+          "naam": "Tolpost",
+          "betekenis": "Je mag niet voorbij zonder te stoppen."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "C43 binnen de bebouwde kom",
+          "tekst": "Staat C43 met 30 km per uur boven F1, F1a of F1b, dan geldt 30 km/u op alle openbare wegen in die bebouwde kom. Dan hoort C45 met dezelfde snelheid boven het bord F3a/F3b."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Snelheidsbord is een maximum, geen aanbeveling",
+          "tekst": "Je moet je snelheid altijd aanpassen aan weer, drukte en zicht. Het getal op C43 is de bovengrens, niet de snelheid die je moet rijden."
+        }
+      ],
+      "uitzonderingen": [
+        "C31 en C33 en C47 kunnen niet met zonale geldigheid worden aangegeven."
+      ],
+      "afbeeldingen": [
+        "C31a",
+        "C31b",
+        "C33",
+        "C35",
+        "C37",
+        "C39",
+        "C41",
+        "C43_30",
+        "C43_50",
+        "C43_70",
+        "C43_90",
+        "C45_50",
+        "C46",
+        "C47"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002"
+      ]
+    },
+    {
+      "id": "borden-gebod",
+      "curriculum": [
+        "T04"
+      ],
+      "titel": "Gebodsborden (D)",
+      "uitleg": "Gebodsborden leggen een verplichting op. Ze staan op de plaats waar ze het best zichtbaar zijn en kunnen worden aangekondigd door een gelijkaardig bord met een onderbord met de afstand. De stand van de pijl op D1, D3 en D4 hangt af van de plaats.",
+      "regels": [
+        {
+          "code": "D1",
+          "naam": "Verplichte richting",
+          "betekenis": "Je moet de richting van de pijl volgen. Op een hindernis geplaatst: aan de kant van de pijl voorbijrijden."
+        },
+        {
+          "code": "D3",
+          "naam": "Verplichte keuze uit de pijlen",
+          "betekenis": "Je moet een van de aangeduide richtingen volgen."
+        },
+        {
+          "code": "D4",
+          "naam": "Verplichte richting voor gevaarlijke goederen",
+          "betekenis": "Voertuigen met gevaarlijke goederen moeten de pijl volgen; onderbord B, C, D of E verwijst naar de tunnelcategorie."
+        },
+        {
+          "code": "D5",
+          "naam": "Verplicht rondgaand verkeer",
+          "betekenis": "Rotonde of plein waar je de aangeduide richting moet volgen."
+        },
+        {
+          "code": "D7",
+          "naam": "Verplicht fietspad",
+          "betekenis": "Een berijdbaar fietspad dat fietsers en tweewielige bromfietsen klasse A moeten volgen (in hun rijrichting)."
+        },
+        {
+          "code": "D9",
+          "naam": "Deel van de weg voor voetgangers, fietsen en bromfietsen klasse A",
+          "betekenis": "Voorbehouden deel van de weg voor deze weggebruikers; voetgangers volgen dit deel."
+        },
+        {
+          "code": "D10",
+          "naam": "Deel van de weg voor voetgangers en fietsers",
+          "betekenis": "Fietsers moeten dit deel gebruiken; voetgangers volgen het ook."
+        },
+        {
+          "code": "D11",
+          "naam": "Verplichte weg voor voetgangers",
+          "betekenis": "Voetgangers moeten dit pad volgen."
+        },
+        {
+          "code": "D13",
+          "naam": "Verplichte weg voor ruiters",
+          "betekenis": "Ruiters moeten dit pad volgen."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "D1 en de linkerkant",
+          "tekst": "Zuilen, verkeersgeleiders en vluchtheuvels laat je normaal aan je linkerhand. D1 kan een verplichting opleggen om slechts langs één zijde voorbij te rijden."
+        },
+        {
+          "type": "regel",
+          "titel": "Onderborden bij D1 en D7",
+          "tekst": "Een onderbord M2 bij D1 betekent: gebod geldt niet voor fietsers (M3: ook niet voor bromfietsen A). Bij D7 betekent M6 dat ook bromfietsen klasse B het fietspad moeten volgen, M7 dat ze het niet mogen volgen."
+        },
+        {
+          "type": "letop",
+          "titel": "Snelheidsgrens voor snelle bromfietsen en speed pedelecs",
+          "tekst": "Bij maximaal 50 km/u mogen bromfietsen klasse B en speed pedelecs een D7-fietspad volgen (speed pedelecs ook D9), als ze anderen niet in gevaar brengen. Is een hogere snelheid toegelaten, dan moeten ze dat fietspad volgen als het er is en bruikbaar is."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "D1_rechtdoor",
+        "D1_links",
+        "D1_rechts",
+        "D3a",
+        "D3b",
+        "D4",
+        "D5",
+        "D7",
+        "D9",
+        "D10",
+        "D11",
+        "D13"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-007"
+      ]
+    },
+    {
+      "id": "borden-parkeren-verbod",
+      "curriculum": [
+        "T05"
+      ],
+      "titel": "Parkeer- en stilstaanverbod (E1, E3, E5, E7, E11)",
+      "uitleg": "De borden E1 en E3 gelden langs de kant van de weg waar ze staan, vanaf het bord tot het volgende kruispunt, op de rijbaan en de berm. Een opschrift mag de periode aanduiden (bv. van 7 tot 19 u, van maandag tot vrijdag).",
+      "regels": [
+        {
+          "code": "E1",
+          "naam": "Parkeerverbod",
+          "betekenis": "Je mag hier niet parkeren, maar wel kort stilstaan (in- en uitstappen, laden en lossen)."
+        },
+        {
+          "code": "E3",
+          "naam": "Stilstaan en parkeren verboden",
+          "betekenis": "Je mag hier niet stilstaan en niet parkeren."
+        },
+        {
+          "code": "E5",
+          "naam": "Beurtelings parkeren: verbod 1e tot 15e",
+          "betekenis": "Parkeerverbod van de 1e tot de 15e van de maand."
+        },
+        {
+          "code": "E7",
+          "naam": "Beurtelings parkeren: verbod 16e tot einde maand",
+          "betekenis": "Parkeerverbod van de 16e tot het einde van de maand."
+        },
+        {
+          "code": "E11",
+          "naam": "Halfmaandelijks parkeren in de hele bebouwde kom",
+          "betekenis": "Staat boven F1/F1a/F1b: beurtelings parkeren in heel de bebouwde kom."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Wisselen van kant",
+          "tekst": "Bij E5/E7 en E11 verander je van kant op de laatste dag van elke periode, tussen 19.30 u en 20.00 u."
+        },
+        {
+          "type": "regel",
+          "titel": "Begin, einde en afstand",
+          "tekst": "Een bord met pijl naar rechts of links geeft begin of einde van de reglementering aan. Een bord met een afstand geldt over die korte afstand. Zonder einde-bord geldt het verbod tot het volgende kruispunt."
+        },
+        {
+          "type": "tip",
+          "titel": "Stilstaan versus parkeren",
+          "tekst": "E1 verbiedt parkeren, E3 verbiedt ook stilstaan. Remember: E3 heeft een kruis in plaats van één streep."
+        },
+        {
+          "type": "letop",
+          "titel": "Verdwijnende borden",
+          "tekst": "E5, E7 en E11 verliezen hun betekenis op 1 juni 2027 (nieuwe code). Tot dan blijven ze geldig."
+        }
+      ],
+      "uitzonderingen": [
+        "E5, E7 en E11 kunnen geen zonale geldigheid krijgen.",
+        "Op het trottoir gelden E1/E3 enkel als een onderbord voor fietsen, voortbewegingstoestellen of bromfietsen ze aanvult."
+      ],
+      "afbeeldingen": [
+        "E1",
+        "E3",
+        "E5",
+        "E7",
+        "E11",
+        "E3_begin",
+        "E3_einde"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002",
+        "BORD-003"
+      ]
+    },
+    {
+      "id": "borden-parkeren-toegelaten",
+      "curriculum": [
+        "T05"
+      ],
+      "titel": "Parkeren toegelaten of voorbehouden (E9)",
+      "uitleg": "De E9-borden tonen waar je mag parkeren of waar het parkeren aan bepaalde voertuigen voorbehouden is. De borden E9a tot E9d en E9h tot E9j gelden alleen voor de parking waar ze staan.\n\nEen onderbord kan de regeling nader bepalen: parkeerschijf, personen met een handicap, laden en lossen, elektrisch laden, betalend, parkeerkaart/bewoners.",
+      "regels": [
+        {
+          "code": "E9a",
+          "naam": "Parkeren toegelaten",
+          "betekenis": "Basis-parkeerbord; kan aangevuld worden met onderborden of symbolen."
+        },
+        {
+          "code": "E9b",
+          "naam": "Parkeren voor motorfietsen, personenauto's, auto's voor dubbelgebruik en minibussen",
+          "betekenis": "Andere voertuigen mogen er niet staan."
+        },
+        {
+          "code": "E9c",
+          "naam": "Parkeren voor bestelwagens en vrachtauto's",
+          "betekenis": "Voorbehouden voor deze categorie."
+        },
+        {
+          "code": "E9d",
+          "naam": "Parkeren voor autocars",
+          "betekenis": "Voorbehouden voor autocars."
+        },
+        {
+          "code": "E9e",
+          "naam": "Verplicht parkeren op de berm of het trottoir",
+          "betekenis": "Je moet volledig op de berm of het trottoir staan."
+        },
+        {
+          "code": "E9f",
+          "naam": "Verplicht parkeren deels op de berm of het trottoir",
+          "betekenis": "Deels op de berm/het trottoir, deels op de rijbaan."
+        },
+        {
+          "code": "E9g",
+          "naam": "Verplicht parkeren op de rijbaan",
+          "betekenis": "Je moet op de rijbaan parkeren."
+        },
+        {
+          "code": "E9h",
+          "naam": "Parkeren voor kampeerwagens",
+          "betekenis": "Voorbehouden voor kampeerauto's."
+        },
+        {
+          "code": "E9i",
+          "naam": "Parkeren voor motorfietsen",
+          "betekenis": "Voorbehouden voor motorfietsen."
+        },
+        {
+          "code": "E9j",
+          "naam": "Parkeren met tijdsgebonden regeling",
+          "betekenis": "Bv. fietsen overdag en auto's 's avonds: de uren staan op het bord."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Onderborden bij parkeren",
+          "tekst": "- Parkeerschijf: beperkte parkeertijd, schijf verplicht.\n- Symbool voor personen met een handicap: parkeerplaats voorbehouden voor hen.\n- ‘Betalend’: parkeren volgens de betalende regeling.\n- ‘Bewoners’, ‘parkeerkaart’ of ‘autodelen’: voorbehouden voor wie de kaart achter de voorruit heeft.\n- Symbool elektrisch of hybride voertuig: voorbehouden voor die voertuigen; waar een publieke laadpaal staat, moet je ermee verbonden zijn.\n- Symbool laden en lossen: plaats voor het laden en lossen van goederen."
+        },
+        {
+          "type": "letop",
+          "titel": "Parkeren is ook laden",
+          "tekst": "Tanken of de batterij van een elektrisch of hybride voertuig opladen wordt als parkeren beschouwd."
+        },
+        {
+          "type": "regel",
+          "titel": "Parkeerstrook op rijbaan",
+          "tekst": "Op een rijbaan verdeeld in rijstroken is parkeren verboden, behalve waar E9a of E9b staat."
+        }
+      ],
+      "uitzonderingen": [
+        "Voor E9-borden gelden de pijlen begin/einde niet bij parkings die enkel op hun eigen terrein gelden."
+      ],
+      "afbeeldingen": [
+        "E9a",
+        "E9a_parkeerschijf",
+        "E9a_handicap",
+        "E9a_elektrisch",
+        "E9b",
+        "E9c",
+        "E9d",
+        "E9e",
+        "E9f",
+        "E9g",
+        "E9h",
+        "E9i",
+        "E9j"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-006",
+        "BORD-007"
+      ]
+    },
+    {
+      "id": "borden-aanwijzing-zones-bebouwde-kom",
+      "curriculum": [
+        "T06"
+      ],
+      "titel": "Aanwijzingsborden: bebouwde kom, zone 30, woonerf en erf",
+      "uitleg": "Deze F-borden tonen waar speciale snelheids- en gedragsregels beginnen en eindigen. Ze staan rechts aan elke toegang; links mag herhaald worden.",
+      "regels": [
+        {
+          "code": "F1a",
+          "naam": "Begin van een bebouwde kom",
+          "betekenis": "Vanaf hier gelden de regels van de bebouwde kom."
+        },
+        {
+          "code": "F1b",
+          "naam": "Begin van een bebouwde kom (variant)",
+          "betekenis": "Zelfde betekenis als F1a."
+        },
+        {
+          "code": "F3a",
+          "naam": "Einde van een bebouwde kom",
+          "betekenis": "Je verlaat de bebouwde kom."
+        },
+        {
+          "code": "F3b",
+          "naam": "Einde van een bebouwde kom (variant)",
+          "betekenis": "Zelfde betekenis als F3a."
+        },
+        {
+          "code": "F4a",
+          "naam": "Begin zone 30",
+          "betekenis": "Maximaal 30 km/u in de hele zone."
+        },
+        {
+          "code": "F4b",
+          "naam": "Einde zone 30",
+          "betekenis": "De zone met 30 km/u eindigt."
+        },
+        {
+          "code": "F12a",
+          "naam": "Begin woonerf of erf",
+          "betekenis": "Bijzondere regels: voetgangers mogen de hele weg gebruiken, snelheid max. 20 km/u."
+        },
+        {
+          "code": "F12b",
+          "naam": "Einde woonerf of erf",
+          "betekenis": "Je verlaat het woonerf of erf."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Snelheid in de bebouwde kom",
+          "tekst": "Wat F1a/F1b betekent voor je snelheid, hangt af van het gewest.",
+          "gewest": {
+            "vlaanderen": "Maximum 50 km/u binnen de bebouwde kom, tenzij een bord anders aangeeft.",
+            "wallonie": "Maximum 50 km/u binnen de bebouwde kom, tenzij een bord anders aangeeft.",
+            "brussel": "Maximum 30 km/u binnen de bebouwde kom, tenzij een bord anders aangeeft."
+          }
+        },
+        {
+          "type": "regel",
+          "titel": "Woonerf of erf",
+          "tekst": "Voetgangers mogen de hele breedte van de weg gebruiken en er spelen. Bestuurders mogen max. 20 km/u rijden, mogen voetgangers niet in gevaar brengen of hinderen, moeten zo nodig stoppen en zijn dubbel voorzichtig bij kinderen. Parkeren mag alleen op gemarkeerde plaatsen met de letter P of waar een bord het toelaat."
+        },
+        {
+          "type": "regel",
+          "titel": "Zone 30",
+          "tekst": "Binnen F4a/F4b is de snelheid beperkt tot 30 km/u. Verhoogde inrichtingen in zo'n zone neem je met hoogstens 30 km/u."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "20 versus 30",
+          "tekst": "In een woonerf of erf is de limiet 20 km/u, niet 30. In een zone 30 is die 30 km/u."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "F1a",
+        "F1b",
+        "F3a",
+        "F3b",
+        "F4a",
+        "F4b",
+        "F12a",
+        "F12b"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002"
+      ]
+    },
+    {
+      "id": "borden-aanwijzing-snelweg-autoweg",
+      "curriculum": [
+        "T06"
+      ],
+      "titel": "Aanwijzingsborden: autosnelweg, autoweg en tunnel",
+      "uitleg": "De bijzondere verkeersregels voor autosnelwegen of autowegen gelden vanaf de plaats waar het begin-bord staat. De borden staan rechts en mogen links herhaald worden.",
+      "regels": [
+        {
+          "code": "F5",
+          "naam": "Begin of oprit van een autosnelweg",
+          "betekenis": "Vanaf hier gelden de regels voor autosnelwegen."
+        },
+        {
+          "code": "F7",
+          "naam": "Einde van een autosnelweg",
+          "betekenis": "De autosnelwegregels eindigen."
+        },
+        {
+          "code": "F9",
+          "naam": "Autoweg",
+          "betekenis": "Begin van een autoweg: bijzondere regels van autowegen gelden."
+        },
+        {
+          "code": "F11",
+          "naam": "Einde van een autoweg",
+          "betekenis": "De autowegregels eindigen."
+        },
+        {
+          "code": "F8",
+          "naam": "Tunnel",
+          "betekenis": "Tunnel langer dan 500 m. Onderborden geven lengte en naam."
+        },
+        {
+          "code": "F23a",
+          "naam": "Nummer van een gewone weg",
+          "betekenis": "Wegnummer van een gewone weg."
+        },
+        {
+          "code": "F23b",
+          "naam": "Nummer van een autosnelweg",
+          "betekenis": "Wegnummer van een autosnelweg."
+        },
+        {
+          "code": "F23c",
+          "naam": "Nummer van een internationale weg",
+          "betekenis": "Nummer van een internationale weg."
+        },
+        {
+          "code": "F23d",
+          "naam": "Nummer van een ring",
+          "betekenis": "Nummer van een ring."
+        },
+        {
+          "code": "F95",
+          "naam": "Noodstopstrook",
+          "betekenis": "Een strook om in nood te stoppen."
+        },
+        {
+          "code": "F98",
+          "naam": "Vluchthaven",
+          "betekenis": "Plaats om te schuilen. Onderbord toont noodtelefoon en brandblusser."
+        },
+        {
+          "code": "F52",
+          "naam": "Nooduitgang in tunnel",
+          "betekenis": "Aankondiging van een nooduitgang."
+        },
+        {
+          "code": "F52bis",
+          "naam": "Vluchtroute",
+          "betekenis": "Toont richting en afstand in meter naar de dichtstbijzijnde nooduitgang."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Symbool op wegwijzers",
+          "tekst": "De symbolen van F5 (autosnelweg) en F9 (autoweg) mogen op wegwijzers F25, F27, F29, F31, F39 en F41 staan om aan te geven dat de aangeduide route over een autosnelweg of autoweg gaat."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "F5",
+        "F7",
+        "F8",
+        "F9",
+        "F11",
+        "F23a",
+        "F23b",
+        "F23c",
+        "F23d",
+        "F52",
+        "F52bis",
+        "F95",
+        "F98"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-008"
+      ]
+    },
+    {
+      "id": "borden-aanwijzing-rijstroken",
+      "curriculum": [
+        "T06"
+      ],
+      "titel": "Aanwijzingsborden: rijstroken, voorsorteren en eenrichting",
+      "uitleg": "Deze F-borden zeggen je welke rijstrook welke richting uitgaat en regelen eenrichtingsverkeer. Ze zijn bij het voorsorteren belangrijk.",
+      "regels": [
+        {
+          "code": "F13",
+          "naam": "Aankondiging van pijlen op de rijbaan / rijstrookkeuze",
+          "betekenis": "Je moet een rijstrook kiezen volgens de pijlen. Mag aangevuld worden voor voorsorteerstroken van fietsers."
+        },
+        {
+          "code": "F14",
+          "naam": "Opstelvak voor fietsers",
+          "betekenis": "Plaats waar fietsers en tweewielige bromfietsen zich opstellen."
+        },
+        {
+          "code": "F15",
+          "naam": "Keuze van een richting",
+          "betekenis": "Pijl omhoog/omlaag: doorgaand, schuin: afslaand; het aantal pijlen is het aantal rijstroken."
+        },
+        {
+          "code": "F17",
+          "naam": "Busstrook",
+          "betekenis": "Toont rijstroken van een rijbaan met een strook voor autobussen."
+        },
+        {
+          "code": "F18",
+          "naam": "Overrijdbare bedding",
+          "betekenis": "Een overrijdbare bedding voor geregeld openbaar vervoer."
+        },
+        {
+          "code": "F19",
+          "naam": "Eenrichtingsverkeer",
+          "betekenis": "Verkeer in één richting toegelaten."
+        },
+        {
+          "code": "F21",
+          "naam": "Links of rechts voorbijrijden",
+          "betekenis": "Beide kanten mogen voorbijgereden worden."
+        },
+        {
+          "code": "F45",
+          "naam": "Doodlopende weg",
+          "betekenis": "Geen doorgang."
+        },
+        {
+          "code": "F45b",
+          "naam": "Doodlopende weg, behalve voetgangers en fietsers",
+          "betekenis": "Voetgangers en fietsers kunnen er wel door."
+        },
+        {
+          "code": "F79",
+          "naam": "Vermindering aantal rijstroken (werken)",
+          "betekenis": "Voorwegwijzer bij werken."
+        },
+        {
+          "code": "F81",
+          "naam": "Uitwijking (werken)",
+          "betekenis": "Voorwegwijzer die een uitwijking aankondigt."
+        },
+        {
+          "code": "F83",
+          "naam": "Doorsteek middenberm",
+          "betekenis": "Aankondiging bij werken."
+        },
+        {
+          "code": "F85",
+          "naam": "Tweerichtingsverkeer op eenrichtingsrijbaan",
+          "betekenis": "Op een deel van de rijbaan geldt verkeer in beide richtingen."
+        },
+        {
+          "code": "F87",
+          "naam": "Verhoogde inrichting(en)",
+          "betekenis": "Aankondiging van een drempel of plateau."
+        },
+        {
+          "code": "F89",
+          "naam": "Aankondiging voor bepaalde rijstroken",
+          "betekenis": "Voorwegwijzer van een gevaar of regel die enkel voor sommige rijstroken geldt."
+        },
+        {
+          "code": "F91",
+          "naam": "Gevaar of regel voor bepaalde rijstroken",
+          "betekenis": "Geldt enkel voor de aangeduide rijstrook(stroken)."
+        },
+        {
+          "code": "F97",
+          "naam": "Versmalling van rijstrookomvang",
+          "betekenis": "De rijstrook wordt smaller."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Plaats op de rijbaan",
+          "tekst": "Je rijdt normaal zo dicht mogelijk bij de rechterrand van de rijbaan. Uitzonderingen: op pleinen en wanneer je F13 of F15 volgt. Daarna keer je zo snel mogelijk terug naar rechts."
+        },
+        {
+          "type": "regel",
+          "titel": "Onderborden bij F19",
+          "tekst": "Een onderbord M4 betekent dat fietsers in beide richtingen mogen rijden; M5 voegt tweewielige bromfietsen klasse A toe."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "F13",
+        "F14",
+        "F15",
+        "F17",
+        "F18",
+        "F19",
+        "F21",
+        "F45",
+        "F45b",
+        "F79",
+        "F81",
+        "F83",
+        "F85",
+        "F87",
+        "F89",
+        "F91",
+        "F97"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-003"
+      ]
+    },
+    {
+      "id": "borden-busstrook",
+      "curriculum": [
+        "T06",
+        "T10"
+      ],
+      "titel": "Busstrook (F17) en overrijdbare bedding (F18)",
+      "uitleg": "Een busstrook wordt afgebakend door het bord F17 en een of twee brede onderbroken witte strepen of dambordmarkering. De busstrook maakt **geen deel uit van de rijbaan**.\n\nToegelaten zijn de voertuigen van geregelde diensten voor openbaar vervoer. Andere categorieën mogen er enkel rijden als hun symbool of vermelding op F17 of op een onderbord staat.",
+      "regels": [
+        {
+          "code": "a",
+          "naam": "Schoolvervoer",
+          "betekenis": "Enkel met F17-symbool en een bord op het voertuig."
+        },
+        {
+          "code": "b",
+          "naam": "Taxi's",
+          "betekenis": "Enkel met symbool of woord ‘TAXI’ op F17 of onderbord."
+        },
+        {
+          "code": "c",
+          "naam": "Fietsen",
+          "betekenis": "Enkel met fietssymbool."
+        },
+        {
+          "code": "d",
+          "naam": "Bromfietsen",
+          "betekenis": "Enkel met symbool; de klasse mag worden aangeduid."
+        },
+        {
+          "code": "e",
+          "naam": "Motorfietsen",
+          "betekenis": "Enkel met symbool."
+        },
+        {
+          "code": "f",
+          "naam": "Voertuigen met meer dan 8 zitplaatsen",
+          "betekenis": "Zonder bestuurder gerekend."
+        },
+        {
+          "code": "g",
+          "naam": "Woon-werkverkeer",
+          "betekenis": "Enkel met symbool en een bord op het voertuig."
+        },
+        {
+          "code": "h",
+          "naam": "Voertuigen met 2, 3 of 4 inzittenden",
+          "betekenis": "Naargelang de vermelding."
+        },
+        {
+          "code": "i",
+          "naam": "Duurzame mobiliteit",
+          "betekenis": "Enkel met symbool en bord op het voertuig."
+        },
+        {
+          "code": "j",
+          "naam": "Vervoer van personen met een handicap",
+          "betekenis": "Enkel met symbool en bord op het voertuig."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Andere voertuigen op de busstrook",
+          "tekst": "Je mag de busstrook gebruiken om een hindernis op de rijbaan te omzeilen, om vlak bij een kruispunt van richting te veranderen, om hem te dwarsen op een kruispunt of om een oprit, eigendom of parkeerplaats langs de busstrook in of uit te rijden."
+        },
+        {
+          "type": "regel",
+          "titel": "Fietsers op de busstrook",
+          "tekst": "Mogen fietsers de busstrook of overrijdbare bedding volgen, dan moeten ze achter elkaar rijden."
+        },
+        {
+          "type": "letop",
+          "titel": "Overgangsperiode",
+          "tekst": "F17, F18 en de markeringen van de busstrook verliezen hun betekenis op 1 juni 2030 (nieuwe code). Tot dan blijft de huidige regeling gelden."
+        }
+      ],
+      "uitzonderingen": [
+        "Bij een overrijdbare bedding (F18) mogen andere voertuigen enkel een hindernis omzeilen, de bedding dwarsen op kruispunten of een eigendom of parking bereiken. Ze mogen er niet van richting veranderen zoals bij F17."
+      ],
+      "afbeeldingen": [
+        "F17",
+        "F17_taxi",
+        "F18",
+        "markering-busstrook"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-003"
+      ]
+    },
+    {
+      "id": "borden-wegwijzers-voorzieningen",
+      "curriculum": [
+        "T06"
+      ],
+      "titel": "Aanwijzingsborden: bewegwijzering en voorzieningen",
+      "uitleg": "Deze F-borden geven informatie over bestemmingen en voorzieningen langs de weg. Voor het examen gaat het vooral om herkennen van de soort.",
+      "regels": [
+        {
+          "code": "F25",
+          "naam": "Voorwegwijzer",
+          "betekenis": "Kondigt vooraf een richting aan."
+        },
+        {
+          "code": "F29",
+          "naam": "Wegwijzer",
+          "betekenis": "Wijst naar een bestemming; afstand in km mag erbij."
+        },
+        {
+          "code": "F31",
+          "naam": "Wegwijzer autosnelweg",
+          "betekenis": "Reisweg over een autosnelweg."
+        },
+        {
+          "code": "F33a",
+          "naam": "Bewegwijzering ver weg",
+          "betekenis": "Luchthaven, ziekenhuis, haven, industriepark, enz."
+        },
+        {
+          "code": "F34a",
+          "naam": "Bewegwijzering nabije instellingen",
+          "betekenis": "Openbare of algemene instellingen zoals bibliotheek, politie, school."
+        },
+        {
+          "code": "F34b",
+          "naam": "Aanbevolen route voor weggebruikers",
+          "betekenis": "Voor fietsers, ruiters of voetgangers."
+        },
+        {
+          "code": "F35",
+          "naam": "Wegwijzer toeristisch",
+          "betekenis": "Sport- en recreatiecentrum, monument, enz."
+        },
+        {
+          "code": "F37",
+          "naam": "Wegwijzer overnachting en restaurant",
+          "betekenis": "Jeugdherberg, kampeerterrein, restaurant."
+        },
+        {
+          "code": "F39",
+          "naam": "Voorwegwijzer omlegging",
+          "betekenis": "Kondigt een omleiding aan."
+        },
+        {
+          "code": "F41",
+          "naam": "Wegwijzer omleggingsweg",
+          "betekenis": "Volg deze route."
+        },
+        {
+          "code": "F43",
+          "naam": "Plaatsnaambord",
+          "betekenis": "Naam van de gemeente of plaats."
+        },
+        {
+          "code": "F47",
+          "naam": "Einde van de werken",
+          "betekenis": "De werken zijn voorbij."
+        },
+        {
+          "code": "F49",
+          "naam": "Oversteekplaats voor voetgangers",
+          "betekenis": "Hier steken voetgangers over."
+        },
+        {
+          "code": "F50",
+          "naam": "Oversteekplaats voor fietsers",
+          "betekenis": "Oversteek voor fietsers en tweewielige bromfietsen."
+        },
+        {
+          "code": "F50bis",
+          "naam": "Fietsers bij afslaan",
+          "betekenis": "Waarschuwt bestuurders die afslaan voor fietsers die dezelfde weg volgen."
+        },
+        {
+          "code": "F51",
+          "naam": "Ondergrondse of bovengrondse oversteek",
+          "betekenis": "Tunnel of brug voor voetgangers."
+        },
+        {
+          "code": "F53",
+          "naam": "Verplegingsinrichting",
+          "betekenis": "Ziekenhuis of dergelijke."
+        },
+        {
+          "code": "F55",
+          "naam": "Hulppost",
+          "betekenis": "Hulppost."
+        },
+        {
+          "code": "F59",
+          "naam": "Parking",
+          "betekenis": "Aankondiging van een parking."
+        },
+        {
+          "code": "F60",
+          "naam": "Overdekte parking",
+          "betekenis": "Parkeergarage."
+        },
+        {
+          "code": "F61",
+          "naam": "Telefoon",
+          "betekenis": "Telefoon beschikbaar."
+        },
+        {
+          "code": "F62",
+          "naam": "Noodtelefoon",
+          "betekenis": "Telefoon voor noodgevallen."
+        },
+        {
+          "code": "F63",
+          "naam": "Tankstation",
+          "betekenis": "Brandstoffen zoals benzine, diesel, LPG, CNG, LNG, waterstof, elektriciteit."
+        },
+        {
+          "code": "F65",
+          "naam": "Hotel of motel",
+          "betekenis": "Overnachting."
+        },
+        {
+          "code": "F67",
+          "naam": "Restaurant",
+          "betekenis": "Eetgelegenheid."
+        },
+        {
+          "code": "F69",
+          "naam": "Drankgelegenheid",
+          "betekenis": "Café of dergelijke."
+        },
+        {
+          "code": "F71",
+          "naam": "Kampeerterrein",
+          "betekenis": "Camping."
+        },
+        {
+          "code": "F73",
+          "naam": "Caravanterrein",
+          "betekenis": "Plaats voor caravans."
+        },
+        {
+          "code": "F75",
+          "naam": "Jeugdherberg",
+          "betekenis": "Overnachting voor jongeren."
+        },
+        {
+          "code": "F77",
+          "naam": "Toeristische info",
+          "betekenis": "Toerismekantoor of informatiepunt."
+        }
+      ],
+      "kaders": [],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "F25",
+        "F29",
+        "F31",
+        "F33a",
+        "F34a",
+        "F34b1",
+        "F35",
+        "F37",
+        "F39",
+        "F41",
+        "F43",
+        "F47",
+        "F49",
+        "F50",
+        "F50bis",
+        "F51",
+        "F53",
+        "F55",
+        "F59",
+        "F60",
+        "F61",
+        "F62",
+        "F63",
+        "F65",
+        "F67",
+        "F69",
+        "F71",
+        "F73",
+        "F75",
+        "F77"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-008"
+      ]
+    },
+    {
+      "id": "borden-zwakke-weggebruikers",
+      "curriculum": [
+        "T07"
+      ],
+      "titel": "Borden voor voetgangers, fietsers en ruiters",
+      "uitleg": "Een aantal borden uit verschillende categorieën hebben te maken met voetgangers, fietsers en ruiters. Je moet ze op zicht herkennen en weten wie er mag.",
+      "regels": [
+        {
+          "code": "D7",
+          "naam": "Verplicht fietspad",
+          "betekenis": "Fietsers en bromfietsen klasse A moeten dit fietspad volgen."
+        },
+        {
+          "code": "D9",
+          "naam": "Deel voor voetgangers, fietsen en bromfietsen klasse A",
+          "betekenis": "Voorbehouden deel; fietspad voor fietsers en bromfietsen A."
+        },
+        {
+          "code": "D10",
+          "naam": "Deel voor voetgangers en fietsers",
+          "betekenis": "Fietsers moeten dit deel gebruiken."
+        },
+        {
+          "code": "D11",
+          "naam": "Verplichte weg voor voetgangers",
+          "betekenis": "Voetgangers moeten dit pad volgen."
+        },
+        {
+          "code": "D13",
+          "naam": "Verplichte weg voor ruiters",
+          "betekenis": "Ruiters moeten dit pad volgen."
+        },
+        {
+          "code": "C11",
+          "naam": "Verboden voor rijwielen",
+          "betekenis": "Fietsers mogen niet door."
+        },
+        {
+          "code": "C15",
+          "naam": "Verboden voor ruiters",
+          "betekenis": "Geen ruiters."
+        },
+        {
+          "code": "C19",
+          "naam": "Verboden voor voetgangers",
+          "betekenis": "Geen voetgangers."
+        },
+        {
+          "code": "F99a",
+          "naam": "Begin weg voor voetgangers, fietsers, ruiters en speed pedelecs",
+          "betekenis": "Dubbel voorzichtig; max. 30 km/u."
+        },
+        {
+          "code": "F99b",
+          "naam": "Idem met aanduiding van de delen",
+          "betekenis": "Iedereen blijft op zijn deel, maar mag het andere deel gebruiken als de ander vrij kan passeren."
+        },
+        {
+          "code": "F99c",
+          "naam": "Begin weg voor landbouwvoertuigen, voetgangers, fietsers, ruiters en speed pedelecs",
+          "betekenis": "Landbouwvoertuigen toegelaten."
+        },
+        {
+          "code": "F101a",
+          "naam": "Einde weg voor voetgangers, fietsers, ruiters en speed pedelecs",
+          "betekenis": "Einde van de F99a-regels."
+        },
+        {
+          "code": "F101b",
+          "naam": "Einde weg met delen",
+          "betekenis": "Einde van F99b."
+        },
+        {
+          "code": "F101c",
+          "naam": "Einde weg met landbouwvoertuigen",
+          "betekenis": "Einde van F99c."
+        },
+        {
+          "code": "F103",
+          "naam": "Begin voetgangerszone",
+          "betekenis": "Enkel voetgangers; max. stapvoets voor wie toegelaten is."
+        },
+        {
+          "code": "F105",
+          "naam": "Einde voetgangerszone",
+          "betekenis": "Je verlaat de voetgangerszone."
+        },
+        {
+          "code": "F111",
+          "naam": "Begin fietszone",
+          "betekenis": "Specifieke regels voor fietsers; motorvoertuigen mogen de fietsers niet inhalen, max. 30 km/u."
+        },
+        {
+          "code": "F113",
+          "naam": "Einde fietszone",
+          "betekenis": "Einde van de fietszone."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Voetgangerszone",
+          "tekst": "Enkel voetgangers hebben toegang, met enkele uitzonderingen (onderhoud, hulpdiensten, openbaar vervoer, voertuigen van bewoners met vrije doorgangskaart, enz.). Wie toegelaten is, rijdt stapvoets en laat voetgangers voorrang. Parkeren is verboden."
+        },
+        {
+          "type": "regel",
+          "titel": "Fietszone",
+          "tekst": "Fietsers mogen de hele breedte van de rijbaan gebruiken als de rijbaan één richting heeft, anders de rechterhelft. Motorvoertuigen hebben toegang maar mogen niet inhalen. Maximum 30 km/u."
+        },
+        {
+          "type": "regel",
+          "titel": "Schoolstraat",
+          "tekst": "In een schoolstraat (aangeduid met C3 met onderbord) is de weg voorbehouden voor voetgangers, rijwielen en speed pedelecs. Enkel prioritaire voertuigen en voertuigen met een vergunning hebben toegang. Je rijdt stapvoets."
+        },
+        {
+          "type": "letop",
+          "titel": "Fietsstraat is nu fietszone",
+          "tekst": "Sinds 1 april 2023 heet het geen ‘fietsstraat’ meer maar ‘fietszone’. Oude F111/F113-borden met de vermelding ‘Fietsstraat’ mogen nog tot 1 januari 2035 blijven staan."
+        },
+        {
+          "type": "regel",
+          "titel": "Speelstraat",
+          "tekst": "In een speelstraat is de volledige straat voor spelen bedoeld. Alleen bewoners, prioritaire voertuigen, voertuigen met vergunning en fietsers hebben toegang. Je rijdt stapvoets."
+        }
+      ],
+      "uitzonderingen": [
+        "De bromfietsen klasse B en speed pedelecs hebben bijzondere regels op fietspaden, zie D7 en D9."
+      ],
+      "afbeeldingen": [
+        "D7",
+        "D9",
+        "D10",
+        "D11",
+        "D13",
+        "C11",
+        "C15",
+        "C19",
+        "F99a",
+        "F99b",
+        "F99c",
+        "F101a",
+        "F101b",
+        "F101c",
+        "F103",
+        "F105",
+        "F111",
+        "F113"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-006"
+      ]
+    },
+    {
+      "id": "borden-zonale-geldigheid",
+      "curriculum": [
+        "T07"
+      ],
+      "titel": "Borden met zonale geldigheid (Z-borden)",
+      "uitleg": "Sommige verbods- en parkeerborden kunnen een hele **zone** aanduiden. Het begin staat op een bord met witte achtergrond rechts aan elke toegang; een eigen eindebord (gelijkaardig) toont het einde. De regel geldt dan op alle wegen in de zone, behalve waar een bord een andere regeling aanduidt.\n\nIn de volksmond heten deze ‘Z-borden’; de wegcode spreekt van signalisatie met zonale geldigheid.",
+      "regels": [
+        {
+          "code": "Z-C43",
+          "naam": "Zonale snelheid",
+          "betekenis": "Snelheidszone. Enkel 30 km/u, 50 km/u (buiten bebouwde kom, in bebouwde of drukbezochte zone) of 70 km/u (buiten bebouwde kom)."
+        },
+        {
+          "code": "Z-C21",
+          "naam": "Zone met maximale massa",
+          "betekenis": "Toegang verboden voor voertuigen boven de aangeduide massa."
+        },
+        {
+          "code": "Z-C35",
+          "naam": "Zone met inhaalverbod",
+          "betekenis": "Verbod om gespan of meer dan tweewielig voertuig links in te halen."
+        },
+        {
+          "code": "Z-E1",
+          "naam": "Zone met parkeerverbod",
+          "betekenis": "Geen parkeren in de zone."
+        },
+        {
+          "code": "Z-E3",
+          "naam": "Zone met stilstaan- en parkeerverbod",
+          "betekenis": "Geen stilstaan en parkeren in de zone."
+        },
+        {
+          "code": "Z-E9a",
+          "naam": "Zone met parkeerregeling",
+          "betekenis": "Bv. beperkte parkeertijd (blauwe zone) of voorbehouden parkeren."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Welke borden kunnen zonaal zijn?",
+          "tekst": "Alle verbodsborden behalve C1, C31, C33 en C47, en alle parkeerborden behalve E5, E7 en E11."
+        },
+        {
+          "type": "regel",
+          "titel": "Herhaling en aankondiging",
+          "tekst": "Een zonale regel mag herhaald worden met het woord ‘Herhaling’ en mag aangekondigd worden met een afstand. Maximaal twee reglementeringen mogen bij de toegang tot een zone gesignaleerd worden."
+        },
+        {
+          "type": "regel",
+          "titel": "Zonale snelheid",
+          "tekst": "Binnen de zone geldt de zonale snelheid vanaf de volgende kruising opnieuw nadat een ander C43-bord iets anders aanduidt. Binnen de zone mag geen C43 met een hogere snelheid staan."
+        }
+      ],
+      "uitzonderingen": [
+        "Voor zone 30 gebruikt men F4a/F4b als aparte borden."
+      ],
+      "afbeeldingen": [
+        "ZC43_30",
+        "ZC43_50",
+        "ZC43_70",
+        "ZC21",
+        "ZC35",
+        "ZE1",
+        "ZE3",
+        "ZE9a"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002",
+        "BORD-007"
+      ]
+    },
+    {
+      "id": "borden-onderborden",
+      "curriculum": [
+        "T07"
+      ],
+      "titel": "Aanvullende panelen (onderborden)",
+      "uitleg": "Een onderbord vult de betekenis van een bord aan, preciseert of beperkt ze. De onderborden hebben normaal een **wit opschrift op een blauwe achtergrond**. De onderborden voor fietsen, voortbewegingstoestellen en tweewielige bromfietsen (modellen M) zijn **zwart op wit**.\n\nIn handelscatalogi worden deze panelen soms als ‘G-reeks’ of ‘M-reeks’ aangeduid; de wegcode zelf spreekt van onderborden (modellen M).",
+      "regels": [
+        {
+          "code": "M2",
+          "naam": "Uitgezonderd fietsers",
+          "betekenis": "Bij C1, C3, D1 en F19: geldt niet voor fietsers."
+        },
+        {
+          "code": "M3",
+          "naam": "Uitgezonderd fietsers en bromfietsen klasse A",
+          "betekenis": "Idem, plus bromfietsen A."
+        },
+        {
+          "code": "M4",
+          "naam": "Fietsers in beide richtingen",
+          "betekenis": "Bij F19: fietsers mogen in twee richtingen."
+        },
+        {
+          "code": "M5",
+          "naam": "Fietsers en bromfietsen A in beide richtingen",
+          "betekenis": "Bij F19."
+        },
+        {
+          "code": "M6",
+          "naam": "Verplicht voor bromfietsen klasse B",
+          "betekenis": "Bij D7: ook bromfietsen B moeten het fietspad volgen."
+        },
+        {
+          "code": "M7",
+          "naam": "Verboden voor bromfietsen klasse B",
+          "betekenis": "Bij D7: bromfietsen B mogen het fietspad niet volgen."
+        },
+        {
+          "code": "M11",
+          "naam": "Uitgezonderd speed pedelecs",
+          "betekenis": "Het verbod/gebod geldt niet voor speed pedelecs."
+        },
+        {
+          "code": "M12",
+          "naam": "Uitgezonderd bromfietsen A en speed pedelecs",
+          "betekenis": "Idem voor beide."
+        },
+        {
+          "code": "M13",
+          "naam": "Fietspad verplicht voor speed pedelecs",
+          "betekenis": "Bij D7."
+        },
+        {
+          "code": "M15",
+          "naam": "Fietspad verboden voor speed pedelecs",
+          "betekenis": "Bij D7."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Tijdsbeperking",
+          "tekst": "Onderborden met een tijdsaanduiding (zwart op wit of wit op blauw) beperken een bord tot bepaalde uren of dagen."
+        },
+        {
+          "type": "regel",
+          "titel": "Afstand en lengte",
+          "tekst": "Een onderbord kan de afstand tot het gevaar of verbod tonen of de lengte van een gevaarlijk stuk weg."
+        },
+        {
+          "type": "regel",
+          "titel": "Gevaarlijke goederen",
+          "tekst": "Bij C24a en D4 duidt een onderbord met B, C, D of E de tunnelcategorie aan."
+        },
+        {
+          "type": "regel",
+          "titel": "Begin- en einde-pijlen",
+          "tekst": "Bij parkeerborden tonen pijlen het begin of einde van de reglementering. Een bord met afstand geldt over die afstand; ‘herhaling’ onderborden herhalen de regel."
+        },
+        {
+          "type": "regel",
+          "titel": "Uitrit rechts",
+          "tekst": "Een onderbord kan aangeven dat een bord enkel voor een uitrit rechts van de rijbaan geldt. Dit gebruik je enkel op rijbanen met meerdere rijstroken in dezelfde richting."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "M2",
+        "M3",
+        "M4",
+        "M5",
+        "M6",
+        "M7",
+        "M11",
+        "M12",
+        "M13",
+        "M15",
+        "onderbord-afstand",
+        "onderbord-tijd"
+      ],
+      "bronnen": [
+        "BORD-001",
+        "BORD-002",
+        "BORD-007"
+      ]
+    },
+    {
+      "id": "markeringen-strepen",
+      "curriculum": [
+        "T10"
+      ],
+      "titel": "Wegmarkeringen: overlangse strepen",
+      "uitleg": "Witte overlangse strepen verdelen de rijstroken. Een gele onderbroken streep op de rand van de rijbaan heeft een eigen betekenis.",
+      "regels": [
+        {
+          "code": "Doorlopende streep",
+          "naam": "Witte doorlopende streep",
+          "betekenis": "Het is verboden de streep te overschrijden. Scheidt ze de rijrichtingen, dan mag je er niet links van rijden."
+        },
+        {
+          "code": "Onderbroken streep",
+          "naam": "Witte onderbroken streep",
+          "betekenis": "Overschrijden verboden, behalve om in te halen, links af te slaan, te keren of van rijstrook te veranderen."
+        },
+        {
+          "code": "Korte trekken",
+          "naam": "Onderbroken streep met korte trekken, dicht bij elkaar",
+          "betekenis": "Kondigt een doorlopende streep aan."
+        },
+        {
+          "code": "Streepcombinatie",
+          "naam": "Doorlopende en onderbroken streep naast elkaar",
+          "betekenis": "Je let alleen op de streep aan jouw kant. Wie de streep overschreed om in te halen, mag terug."
+        },
+        {
+          "code": "Fietspad",
+          "naam": "Twee evenwijdige onderbroken strepen",
+          "betekenis": "Het deel ertussen is een fietspad, te smal voor autoverkeer."
+        },
+        {
+          "code": "Gele onderbroken streep",
+          "naam": "Gele onderbroken streep op de rand van de rijbaan",
+          "betekenis": "Langs deze streep is parkeren op de rijbaan verboden."
+        },
+        {
+          "code": "Brede witte streep",
+          "naam": "Brede doorlopende witte streep op de rijbaan",
+          "betekenis": "Duidt de denkbeeldige rand van de rijbaan aan; wat verder ligt is voorbehouden voor stilstaan en parkeren (niet op autosnelwegen en autowegen)."
+        },
+        {
+          "code": "Spitsstrook",
+          "naam": "Onderbroken streep met kortere tussenafstanden en langere trekken",
+          "betekenis": "Dit duidt een spitsstrook af."
+        },
+        {
+          "code": "Oranje strepen",
+          "naam": "Oranje strepen of spijkers bij werken",
+          "betekenis": "Voorlopige markering bij werken, heeft dezelfde betekenis als de witte strepen en maakt witte markeringen op die plaats waardeloos."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Gele lijnen",
+          "tekst": "In de wegcode heeft enkel de gele onderbroken rand-streep (parkeerverbod op de rijbaan langs de streep) een betekenis. Andere gele markeringen worden in de wegcode niet beschreven."
+        },
+        {
+          "type": "regel",
+          "titel": "Spitsstrook",
+          "tekst": "Het gebruik van een spitsstrook wordt geregeld door signalisatie of verkeerslichten. Als die niet werken, mag je er niet rijden, behalve om de autosnelweg op of af te rijden of om van richting te veranderen."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "markering-doorlopend",
+        "markering-onderbroken",
+        "markering-combinatie",
+        "markering-fietspad",
+        "markering-geel-rand",
+        "markering-spitsstrook"
+      ],
+      "bronnen": [
+        "BORD-001"
+      ]
+    },
+    {
+      "id": "markeringen-dwars-pijlen",
+      "curriculum": [
+        "T10"
+      ],
+      "titel": "Wegmarkeringen: dwarsstrepen, zebrapad en pijlen",
+      "uitleg": "Dwarsmarkeringen en pijlen op de rijbaan herhalen of preciseren de borden.",
+      "regels": [
+        {
+          "code": "Stopstreep",
+          "naam": "Witte doorlopende dwarsstreep",
+          "betekenis": "Hier moet je stoppen bij B5 of een verkeerslicht."
+        },
+        {
+          "code": "Haaientanden",
+          "naam": "Dwarsstreep van witte driehoeken",
+          "betekenis": "Hier moet je zo nodig stoppen om voorrang te verlenen (bij B1)."
+        },
+        {
+          "code": "Zebrapad",
+          "naam": "Witte banden evenwijdig met de rijbaan",
+          "betekenis": "Oversteekplaats voor voetgangers."
+        },
+        {
+          "code": "Fietsoversteek",
+          "naam": "Twee onderbroken strepen van witte vierkanten of parallellogrammen",
+          "betekenis": "Oversteekplaats voor fietsers en tweewielige bromfietsen."
+        },
+        {
+          "code": "Voorsorteerpijlen",
+          "naam": "Witte pijlen voor een kruispunt",
+          "betekenis": "Je volgt de rijstrook voor de richting die je uit wilt; op het kruispunt volg je een van de richtingen van je strook."
+        },
+        {
+          "code": "Rijstrookverminderingspijlen",
+          "naam": "Pijlen bij een onderbroken streep die een doorlopende aankondigt",
+          "betekenis": "Een vermindering van het aantal rijstroken."
+        },
+        {
+          "code": "Opschriften",
+          "naam": "Witte opschriften op de rijbaan",
+          "betekenis": "Herhalen de aanwijzing van verkeersborden."
+        },
+        {
+          "code": "Verdrijvingsvlakken",
+          "naam": "Witte evenwijdige schuine strepen",
+          "betekenis": "Je mag er niet rijden, stilstaan of parkeren."
+        },
+        {
+          "code": "Opstelvak fietsers",
+          "naam": "Zone met fietssymbool tussen twee stopstrepen",
+          "betekenis": "Fietsers stellen zich hier enkel tijdens rood op; andere bestuurders stoppen voor de eerste stopstreep."
+        },
+        {
+          "code": "Voorsorteerstrook fietsers",
+          "naam": "Strook met fietssymbool en pijl",
+          "betekenis": "Voorbehouden voor fietsers en tweewielige bromfietsen."
+        },
+        {
+          "code": "Dambordmarkering",
+          "naam": "Witte vierkanten",
+          "betekenis": "Bakent de overrijdbare bedding van het openbaar vervoer of een overweg af; stilstaan en parkeren verboden."
+        },
+        {
+          "code": "Parkeervakken",
+          "naam": "Witte markeringen op een parkeerstrook",
+          "betekenis": "Tonen waar voertuigen moeten staan."
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Zebrapad en parkeren",
+          "tekst": "Stilstaan en parkeren is verboden op een oversteekplaats voor voetgangers en op de rijbaan binnen 5 meter ervoor."
+        },
+        {
+          "type": "regel",
+          "titel": "Voetgangers en oversteekplaats",
+          "tekst": "Is er binnen ongeveer 20 m een oversteekplaats voor voetgangers, dan moeten voetgangers die gebruiken."
+        },
+        {
+          "type": "tip",
+          "titel": "Stopstreep versus haaientanden",
+          "tekst": "Ononderbroken streep = verplicht stoppen (B5 of rood licht). Driehoeken = stoppen enkel als dat nodig is om voorrang te verlenen (B1)."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "markering-stopstreep",
+        "markering-haaientanden",
+        "markering-zebrapad",
+        "markering-fietsoversteek",
+        "markering-voorsorteerpijlen",
+        "markering-verdrijvingsvlak",
+        "markering-opstelvak-fietsers",
+        "markering-dambord"
+      ],
+      "bronnen": [
+        "BORD-001"
+      ]
+    }
+  ]
+}

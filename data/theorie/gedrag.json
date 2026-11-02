@@ -1,0 +1,754 @@
+{
+  "thema": "gedrag",
+  "les": 4,
+  "blokken": [
+    {
+      "id": "gedrag-alcohol-grenzen",
+      "curriculum": [
+        "T29"
+      ],
+      "titel": "Alcohol: de wettelijke grenzen",
+      "uitleg": "Rijden onder invloed van alcohol wordt beoordeeld met een meting: een **ademtest** (in mg alcohol per liter uitgeademde lucht) of een **bloedproef** (in gram alcohol per liter bloed, g/l; 1 g/l = 1 promille). Er zijn drie belangrijke grenzen:\n\n- **Gewone bestuurders**: vanaf **0,5 g/l** bloed (0,5 promille) of **0,22 mg/l** uitgeademde lucht ben je strafbaar.\n- **Professionele bestuurders**: een lagere grens, vanaf **0,2 g/l** bloed of **0,09 mg/l** adem.\n- Wie hoger scoort, krijgt zwaardere gevolgen. Vanaf ongeveer **0,8 g/l** (0,35 mg/l) wordt je rijbewijs bovendien ter plaatse **15 dagen ingetrokken**.\n\nZelfs een lage hoeveelheid alcohol (al vanaf ongeveer 0,2 g/l) kan je rijgedrag beïnvloeden. De enige veilige keuze is dus: als je rijdt, drink je niet.",
+      "regels": [
+        {
+          "bestuurder": "Gewone bestuurder (ook beginnende bestuurder, nu nog)",
+          "bloed (g/l)": "0,5",
+          "adem (mg/l)": "0,22"
+        },
+        {
+          "bestuurder": "Professionele bestuurder",
+          "bloed (g/l)": "0,2",
+          "adem (mg/l)": "0,09"
+        },
+        {
+          "bestuurder": "Rijbewijs 15 dagen ingetrokken ter plaatse",
+          "bloed (g/l)": "vanaf 0,8",
+          "adem (mg/l)": "vanaf 0,35"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Rijverbod van 12 uur",
+          "tekst": "Is je test positief, dan krijg je een onmiddellijk rijverbod van **12 uur**. Sinds 1 juli 2026 is dat altijd 12 uur; vroeger liep het verbod uiteen van 2 tot 12 uur, afhankelijk van het alcoholgehalte. Daarna moet je opnieuw blazen: je mag pas weer rijden als de test negatief is en je geen tekenen van dronkenschap meer vertoont."
+        },
+        {
+          "type": "letop",
+          "titel": "Promille en mg/l niet verwarren",
+          "tekst": "Het zijn twee verschillende meeteenheden voor dezelfde grens. 0,5 promille in het bloed komt overeen met 0,22 mg/l in de adem. Bij een examenvraag: lees goed welke eenheid gevraagd wordt."
+        },
+        {
+          "type": "tip",
+          "titel": "BOB",
+          "tekst": "BOB is de bestuurder die de hele avond **niets** drinkt en de anderen veilig thuisbrengt. BOB is een sensibiliseringscampagne van Vias, politie en brouwers, geen wettelijk statuut: voor een 'BOB' gelden dezelfde alcoholgrenzen als voor iedereen."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "schema-alcohol-grenzen"
+      ],
+      "bronnen": [
+        "GEDR-003",
+        "GEDR-010",
+        "GEDR-011",
+        "GEDR-013",
+        "GEDR-016",
+        "GEDR-017"
+      ]
+    },
+    {
+      "id": "gedrag-alcohol-beginners",
+      "curriculum": [
+        "T29"
+      ],
+      "titel": "Beginnende bestuurders en alcohol",
+      "uitleg": "Op dit moment geldt voor beginnende bestuurders **dezelfde grens als voor gewone bestuurders**: 0,5 g/l (0,22 mg/l).\n\nDe federale regering heeft in oktober 2026 wel **aangekondigd** dat er vanaf **2027** een grens van **0,2 promille** komt voor bestuurders die hun rijbewijs minder dan **3 jaar** hebben. Dat is een aankondiging: de definitieve wettekst en de ingangsdatum waren bij het opstellen van deze cursus nog niet gepubliceerd.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Aangekondigd, nog geen wet",
+          "tekst": "Leer voor het examen de huidige grens (0,5 promille voor gewone bestuurders). Volg de nieuwsberichten: de verlaging voor beginnende bestuurders (0,2 promille, minder dan 3 jaar rijbewijs) is aangekondigd voor 2027."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-012"
+      ]
+    },
+    {
+      "id": "gedrag-alcoholslot",
+      "curriculum": [
+        "T29"
+      ],
+      "titel": "Alcoholslot",
+      "uitleg": "Een **alcoholslot** is een blaastoestel in de wagen: de motor start pas na een blaastest die onder **0,09 mg/l** blijft (minder dan 0,2 promille). De rechter kan het opleggen na een veroordeling voor rijden onder invloed.\n\n- **Verplicht** voor de rechter bij een alcoholintoxicatie van minstens **1,8 promille** (de rechter moet afwijken uitdrukkelijk motiveren), of bij zware recidive: tweemaal minstens **1,2 promille** binnen **3 jaar**.\n- **Mogelijk** (niet verplicht) vanaf 0,8 promille, bij dronkenschap of lichtere recidive.\n- Duur: **1 tot 3 jaar**, of levenslang.\n- Het slot moet door een erkend dienstencentrum in elk voertuig geplaatst worden dat je wil besturen; je betaalt de kosten zelf en volgt een omkaderingsprogramma.\n- Zonder alcoholslot mag je gedurende de veroordeling geen motorvoertuig besturen waarvoor een rijbewijs nodig is.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Bij alcoholverslaving",
+          "tekst": "Is er sprake van alcoholverslaving, dan is een alcoholslot niet mogelijk. De rechter kan de bestuurder dan tijdelijk of blijvend ongeschikt verklaren om te rijden."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-005"
+      ]
+    },
+    {
+      "id": "gedrag-drugs",
+      "curriculum": [
+        "T29"
+      ],
+      "titel": "Drugs achter het stuur",
+      "uitleg": "Voor illegale drugs geldt in België **nultolerantie**: er is geen toegelaten hoeveelheid. Ook wie 'nog maar een beetje' gebruikt heeft, kan strafbaar zijn.\n\nDe politie stelt het in drie stappen vast:\n\n1. **Uiterlijke tekenen**: aan de hand van een checklist (ogen, gezicht, gedrag, taal, gang...). Bij minstens 3 tekenen uit minstens 2 verschillende categorieën volgt de volgende stap. Na een ongeval wordt de checklist overgeslagen.\n2. **Speekseltest** op de weg: een snelle eerste vaststelling. Er geldt een technische drempel om zeker te zijn dat de stof aanwezig is.\n3. **Speekselanalyse in een erkend laboratorium**: dit is het bewijs voor de rechter.\n\nNiet alle drugs worden door de speekseltest opgespoord. Merkt de politie toch dat je in een toestand verkeert die op dronkenschap lijkt, dan kan je ook daarvoor gestraft worden.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "zwarefout",
+          "titel": "Alcohol en drugs combineren",
+          "tekst": "Wie drugs combineert met alcohol (of met andere drugs), heeft een nog veel groter ongevalsrisico. Cannabis, het meest gebruikte product, verdubbelt het ongevalsrisico."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-006",
+        "GEDR-016"
+      ]
+    },
+    {
+      "id": "gedrag-gsm",
+      "curriculum": [
+        "T30"
+      ],
+      "titel": "Gsm, scherm en handsfree",
+      "uitleg": "Artikel 8.4 van de wegcode: als bestuurder mag je **geen mobiel elektronisch apparaat met een scherm gebruiken, vasthouden of manipuleren**, tenzij het in een daartoe bestemde **houder** aan het voertuig is bevestigd. Dat geldt voor gsm, smartphone en tablet.\n\n- **Bellen kan wel handsfree** (bv. met een carkit of bluetooth), zolang je het toestel niet vasthoudt of bedient.\n- **GPS of telefoon als navigatie** mag als het toestel stevig in een houder zit. Programmeer je route vóór je vertrekt.\n- **Stilstaan aan een rood licht of in de file telt niet als 'stilstaan'**: in de wegcode is een stilstaand voertuig er een dat niet langer stilstaat dan nodig om in- of uit te stappen of om te laden en te lossen. Wie in de rij staat voor een rood licht, mag dus zijn gsm niet vasthouden.\n- Alleen als je voertuig **geparkeerd** is, mag je het toestel wel gebruiken.",
+      "regels": [
+        {
+          "situatie": "Gsm in de hand tijdens het rijden",
+          "toegelaten?": "Nee"
+        },
+        {
+          "situatie": "Gsm in de hand aan een rood licht",
+          "toegelaten?": "Nee"
+        },
+        {
+          "situatie": "Handsfree bellen zonder het toestel vast te houden",
+          "toegelaten?": "Ja"
+        },
+        {
+          "situatie": "Scherm (GPS/gsm) in een vaste houder",
+          "toegelaten?": "Ja, maar kijk niet te lang"
+        },
+        {
+          "situatie": "Gsm gebruiken terwijl je geparkeerd bent",
+          "toegelaten?": "Ja"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Ook handsfree leidt af",
+          "tekst": "De wet verbiedt het vasthouden, niet het praten zelf. Toch blijft een gesprek een afleiding: je reageert trager. Houd het kort en stop als het drukker wordt."
+        },
+        {
+          "type": "gewest",
+          "titel": "Nieuwe wegcode 2027",
+          "tekst": "De nieuwe Code van de openbare weg (vanaf 1 juni 2027) behoudt het verbod en voegt toe dat het ook geldt voor wie een bestuurder begeleidt tijdens de rijopleiding.",
+          "gewest": {
+            "vlaanderen": "Vanaf 1 juni 2027 ook van toepassing op de begeleider tijdens de rijopleiding.",
+            "wallonie": "Zelfde regel in de nieuwe federale code.",
+            "brussel": "Zelfde regel in de nieuwe federale code."
+          }
+        }
+      ],
+      "uitzonderingen": [
+        "Voertuig stilstaand of geparkeerd in de zin van de wegcode (niet in het verkeer wachten voor een rood licht)."
+      ],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-002"
+      ]
+    },
+    {
+      "id": "gedrag-afleiding",
+      "curriculum": [
+        "T30"
+      ],
+      "titel": "Afleiding achter het stuur",
+      "uitleg": "Een bestuurder moet altijd in staat zijn alle nodige rijbewegingen uit te voeren en zijn voertuig **voortdurend goed in de hand** te hebben (art. 8.3). Alles wat je aandacht, je ogen of je handen van het verkeer haalt, is een afleiding.\n\nVoorbeelden van afleiding zijn je gsm, een scherm, eten of zoeken in de auto, of een heftig gesprek.\n\nHoe sneller je rijdt, hoe verder je 'blind' rijdt tijdens één blik weg van de weg. Bij 50 km/u leg je in 2 seconden al ongeveer 28 meter af.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Voorbereiden vóór vertrek",
+          "tekst": "Stel je route, muziek en temperatuur in vóór je wegrijdt. Leg dingen die je nodig hebt binnen handbereik en laat je gsm in de houder of in je tas."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-008"
+      ]
+    },
+    {
+      "id": "gedrag-vermoeidheid",
+      "curriculum": [
+        "T30"
+      ],
+      "titel": "Vermoeidheid achter het stuur",
+      "uitleg": "Slaperigheid maakt je trager en minder alert, tot je zelfs even 'wegdommelt' (microslaap). Je merkt dat vaak te laat.\n\nVias adviseert:\n\n- **Pauzeer na maximaal 2 uur rijden.**\n- Voel je je slaperig? Doe op een veilige plek een **dutje van maximaal 20 minuten**. Een koffie vlak voor het dutje helpt omdat de cafeïne na ongeveer 20 minuten werkt.\n- **Vertrek uitgerust** en wissel van bestuurder als dat kan.\n- Slaan pauzes over? Het risico stijgt net in de laatste kilometers van de rit.\n\nPauzeren en een kort dutje zijn de aanbevolen oplossingen bij slaperigheid.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "zwarefout",
+          "titel": "Doorrijden 'tot ik er ben'",
+          "tekst": "Wie slaperig is en toch doorrijdt, loopt een groot risico. Vias merkt op dat veel bestuurders pas stoppen wanneer de eerste tekenen van slaperigheid al opduiken: pauzeer dus op tijd."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-009"
+      ]
+    },
+    {
+      "id": "gedrag-medicatie",
+      "curriculum": [
+        "T30"
+      ],
+      "titel": "Medicijnen en rijgeschiktheid",
+      "uitleg": "Sommige geneesmiddelen (slaap- en kalmeermiddelen, bepaalde antidepressiva, sterke pijnstillers) vertragen je reacties of maken je slaperig. Voor geneesmiddelen bestaat er **geen vaste grenswaarde** zoals bij alcohol: de politie of een arts beoordeelt of **jouw rijvaardigheid** aangetast is. Wie door geneesmiddelen in een toestand verkeert die op dronkenschap lijkt, mag niet rijden.\n\n- Vraag bij een nieuw geneesmiddel aan je **arts of apotheker** of je mag rijden.\n- Lees de **bijsluiter**.\n- Combineer geneesmiddelen **nooit** met alcohol: dat versterkt het effect aanzienlijk.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Zonder grenswaarde ook strafbaar",
+          "tekst": "Je kan gestraft worden als je rijvaardigheid door geneesmiddelen zichtbaar aangetast is, ook al is het geneesmiddel legaal en voorgeschreven."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-007",
+        "GEDR-016"
+      ]
+    },
+    {
+      "id": "gedrag-gordel",
+      "curriculum": [
+        "T31"
+      ],
+      "titel": "De veiligheidsgordel",
+      "uitleg": "In een personenwagen moeten de bestuurder en alle passagiers de veiligheidsgordel dragen op **alle plaatsen die ermee uitgerust zijn**, dus ook achterin. De gordel en het kinderzitje moeten zo gebruikt worden dat de beschermende werking ervan niet verminderd wordt.\n\nVrijgesteld van de gordelplicht zijn onder meer:\n\n- bestuurders die **achteruit rijden**;\n- **taxichauffeurs** met een klant aan boord;\n- personen met een **medisch attest** (vrijstelling van de minister);\n- prioritaire voertuigen (hulpdiensten) in bepaalde situaties, en postbeambten tijdens de postbedeling op korte afstand tussen de stops.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Waarom ook achterin?",
+          "tekst": "Een niet-vastgegespte passagier achterin kan bij een botsing de andere inzittenden in gevaar brengen. Vandaar de plicht voor alle plaatsen met gordel."
+        }
+      ],
+      "uitzonderingen": [
+        "Achteruit rijden",
+        "Taxichauffeur met klant",
+        "Medische vrijstelling",
+        "Prioritaire voertuigen in bepaalde situaties",
+        "Postbeambten tijdens de postbedeling"
+      ],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001"
+      ]
+    },
+    {
+      "id": "gedrag-kinderzitjes",
+      "curriculum": [
+        "T31"
+      ],
+      "titel": "Kinderen in de auto: kinderzitje en kinderbeveiligingssysteem",
+      "uitleg": "Een kind dat **jonger is dan 18 jaar én kleiner dan 135 cm** moet in een voor hem geschikt **kinderbeveiligingssysteem** (een voor het kind geschikt zitje of zitverhoger) zitten. Zodra een kind **135 cm of groter** is, gebruikt het de gewone veiligheidsgordel.\n\n- Het zitje mag **vooraan** staan, op voorwaarde dat de zitplaats een veiligheidsgordel heeft.\n- Een **achterwaarts gericht** zitje op een zitplaats met **voorairbag** mag enkel als die airbag **uitgeschakeld** is (of automatisch voldoende uitschakelt).\n- Op een zitplaats **zonder gordel** mag geen kind jonger dan **3 jaar** zitten. Vooraan zonder gordel mag geen kind jonger dan 18 jaar en kleiner dan 135 cm.\n- Een zitje moet goed passen bij het kind (lengte/gewicht) en correct vastgemaakt zijn (gordel of Isofix).",
+      "regels": [
+        {
+          "leeftijd / lengte": "Kleiner dan 135 cm (en jonger dan 18 jaar)",
+          "regel": "Altijd in een geschikt kinderbeveiligingssysteem"
+        },
+        {
+          "leeftijd / lengte": "135 cm of groter",
+          "regel": "Gewone veiligheidsgordel"
+        },
+        {
+          "leeftijd / lengte": "Jonger dan 3 jaar",
+          "regel": "Nooit op een zitplaats zonder gordel; altijd in zitje"
+        },
+        {
+          "leeftijd / lengte": "Voorste plaats met voorairbag",
+          "regel": "Achterwaarts zitje alleen met uitgeschakelde airbag"
+        },
+        {
+          "leeftijd / lengte": "Voorste plaats zonder gordel",
+          "regel": "Geen kind <18 jaar en <135 cm"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Beide voorwaarden tellen",
+          "tekst": "De zitjesplicht geldt voor kinderen die én jonger zijn dan 18 jaar én kleiner dan 135 cm. Ben je 135 cm of groter, dan gebruik je de gewone gordel."
+        },
+        {
+          "type": "tip",
+          "titel": "Normen",
+          "tekst": "Kies een goedgekeurd zitje met het oranje ECE-keurmerk (R44 of de nieuwere i-Size/R129). Volgens Brussels Mobiliteit mogen in de EU sinds 1 september 2024 enkel nog R129-zitjes verkocht worden."
+        }
+      ],
+      "uitzonderingen": [
+        "Taxi's en voertuigen met meer dan 8 zitplaatsen: zie blok gedrag-kinderzitjes-uitzonderingen."
+      ],
+      "afbeeldingen": [
+        "schema-kinderzitje-regels"
+      ],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-004",
+        "GEDR-019"
+      ]
+    },
+    {
+      "id": "gedrag-kinderzitjes-uitzonderingen",
+      "curriculum": [
+        "T31"
+      ],
+      "titel": "Kinderen vervoeren: uitzonderingen",
+      "uitleg": "Er bestaan enkele uitzonderingen op de zitjesplicht voor kinderen van **3 jaar of ouder** en kleiner dan 135 cm:\n\n- **Derde kind**: als er na het plaatsen van twee kinderzitjes geen derde zitje meer past, mag een derde kind (3 jaar of ouder) achterin zitten **met de veiligheidsgordel**.\n- **Occasioneel vervoer over korte afstand**: ontbreken er zitjes, dan mogen kinderen van 3+ achterin met de gordel mee. Dit geldt **niet** als een ouder het voertuig bestuurt.\n- **Taxi's**: is er geen kinderzitje aanwezig, dan moet het kind op een andere plaats dan vooraan zitten. Is er wel een zitje, dan moet het gebruikt worden.\n- **Voertuigen met meer dan 8 zitplaatsen** (zonder bestuurder): de verplichting van het kinderbeveiligingssysteem geldt niet.\n\nVoor **brommers en motorfietsen** gelden aparte regels: kinderen jonger dan 3 jaar worden niet vervoerd; kinderen van 3 tot 8 jaar enkel op een tweewieler tot 125 cm³ en dan in een geschikt kinderbeveiligingssysteem.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Altijd achterin",
+          "tekst": "Elke uitzondering voor kinderen zonder zitje geldt enkel voor zitplaatsen die **niet vooraan** zijn."
+        }
+      ],
+      "uitzonderingen": [
+        "Derde kind (≥ 3 jaar) met gordel",
+        "Korte, occasionele rit zonder ouder als bestuurder",
+        "Taxi zonder zitje: niet vooraan",
+        "Voertuigen met meer dan 8 zitplaatsen"
+      ],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-004"
+      ]
+    },
+    {
+      "id": "gedrag-lading",
+      "curriculum": [
+        "T31"
+      ],
+      "titel": "Lading vervoeren",
+      "uitleg": "De lading van een voertuig moet zo geplaatst zijn dat ze bij normale wegomstandigheden:\n\n- het **zicht van de bestuurder niet hindert**;\n- **geen gevaar** voor de bestuurder, passagiers of andere weggebruikers vormt;\n- **geen schade** aan de weg of aan eigendommen kan veroorzaken;\n- **niet op de weg kan slepen of vallen**;\n- de **stabiliteit** van het voertuig niet in het gedrang brengt;\n- de **lichten, reflectoren en nummerplaat** niet onzichtbaar maakt.\n\nMiddelen om lading vast te maken (banden, netten, dekzeilen) moeten in goede staat zijn, correct gebruikt worden en de lading nauw omsluiten. Lange stukken moeten zo vastgemaakt zijn dat ze bij schommelen niet buiten de zijomtrek van het voertuig komen.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Ladingzekering zware voertuigen",
+          "tekst": "Vlaanderen heeft in artikel 45bis specifieke ladingzekeringsregels voor zware voertuigen (categorieën N2, N3, O3, O4 en bepaalde tractoren). Het systeem moet bijvoorbeeld bestand zijn tegen een vertraging van 0,8 g vooruit en 0,5 g naar achter en opzij.",
+          "gewest": {
+            "vlaanderen": "Aanvullend artikel 45bis (ladingzekering) voor zware voertuigen.",
+            "wallonie": "Geen aanvullend artikel 45bis.",
+            "brussel": "Geen aanvullend artikel 45bis."
+          }
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001"
+      ]
+    },
+    {
+      "id": "gedrag-lichten-wanneer",
+      "curriculum": [
+        "T32"
+      ],
+      "titel": "Wanneer rijd je met licht?",
+      "uitleg": "Je moet je verlichting gebruiken **tussen het vallen van de avond en het aanbreken van de dag**, en **altijd wanneer je niet meer duidelijk kan zien tot op ongeveer 200 meter** (bv. bij mist, hevige regen of sneeuw).\n\nVoor een personenwagen betekent dat vooraan **dimlichten of grootlichten** en achteraan de **rode lichten**.\n\nOverdag, bij goed zicht, is het dimlicht in een auto niet verplicht. Nieuwere auto's hebben **dagrijlichten**; die zijn alleen voor het zichtbaar zijn van voren bedoeld.",
+      "regels": [
+        {
+          "situatie": "Overdag, goed zicht",
+          "licht": "Geen verplichte verlichting (dagrijlicht van nieuwere auto's volstaat)"
+        },
+        {
+          "situatie": "Avond, nacht of zicht < 200 m",
+          "licht": "Dimlichten of grootlichten vooraan + rode achterlichten"
+        },
+        {
+          "situatie": "Mist, sneeuw of felle regen",
+          "licht": "Dimlicht; voormistlichten mogen; achtermistlicht bij zicht < 100 m of felle regen"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "zwarefout",
+          "titel": "Enkel dagrijlicht bij slecht zicht",
+          "tekst": "Dagrijlichten branden enkel vooraan. Rij je bij regen, mist of in de schemering enkel met dagrijlicht, dan zijn je achterlichten niet ontstoken en zie je achterliggers je veel later. Zet dan zelf het dimlicht aan."
+        },
+        {
+          "type": "gewest",
+          "titel": "Motorfietsen en bromfietsen",
+          "tekst": "Tweewielige bromfietsen en motorfietsen rijden altijd met dimlicht en rood achterlicht, ook overdag.",
+          "gewest": {
+            "vlaanderen": "Dimlicht + rood achterlicht bestendig.",
+            "wallonie": "Zelfde.",
+            "brussel": "Zelfde."
+          }
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "schema-lichten-overzicht"
+      ],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-002",
+        "GEDR-014"
+      ]
+    },
+    {
+      "id": "gedrag-grootlicht-dimlicht",
+      "curriculum": [
+        "T32"
+      ],
+      "titel": "Grootlicht of dimlicht?",
+      "uitleg": "Je mag dimlicht en grootlicht kiezen, maar je moet het **grootlicht doven en door dimlicht vervangen** in deze gevallen:\n\n- bij het **naderen van een tegenligger** op voldoende afstand, en altijd zodra een bestuurder zijn grootlichten snel aan- en uitknippert om te zeggen dat hij verblind wordt;\n- bij het **naderen van een spoorvoertuig of boot** waarvan de bestuurder verblind kan worden;\n- wanneer je een ander voertuig **volgt op minder dan 50 meter** (behalve tijdens het inhalen);\n- wanneer de rijbaan **onafgebroken en voldoende verlicht** is, zodat je ongeveer 100 meter duidelijk kan zien.\n\nLichten mogen andere weggebruikers nooit verblinden.",
+      "regels": [
+        {
+          "situatie": "Tegenligger nadert",
+          "licht": "Dimlicht"
+        },
+        {
+          "situatie": "Je volgt een voertuig op minder dan 50 m",
+          "licht": "Dimlicht (behalve bij het inhalen)"
+        },
+        {
+          "situatie": "Rijbaan voldoende verlicht (zicht ± 100 m)",
+          "licht": "Dimlicht"
+        },
+        {
+          "situatie": "Donkere weg, geen verkeer",
+          "licht": "Grootlicht toegelaten"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Lichtsein",
+          "tekst": "Tussen avond en dag mag je de claxon vervangen door kort afwisselend grootlicht en dimlicht aan te zetten, behalve bij dreigend gevaar. In de nieuwe Code van de openbare weg (vanaf 1 juni 2027) staat bij het volgen van een voertuig 'op korte afstand' in plaats van '50 meter'."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-002"
+      ]
+    },
+    {
+      "id": "gedrag-mistlichten",
+      "curriculum": [
+        "T32"
+      ],
+      "titel": "Mistlichten",
+      "uitleg": "**Voormistlichten** mogen enkel bij **mist, sneeuwval of felle regen**. Ze mogen het dimlicht of grootlicht vervangen of er samen mee branden.\n\n**Achtermistlichten** (als je wagen ze heeft) **moeten** gebruikt worden bij mist of sneeuwval die het zicht beperken tot **minder dan ongeveer 100 meter**, en ook bij **felle regen**. In alle andere omstandigheden mogen ze **niet** branden, omdat ze achterliggers verblinden.",
+      "regels": [
+        {
+          "licht": "Voormistlicht",
+          "wanneer": "Mist, sneeuwval of felle regen (mag)"
+        },
+        {
+          "licht": "Achtermistlicht",
+          "wanneer": "Zicht < 100 m door mist of sneeuw, of felle regen (verplicht); anders verboden"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Achtermistlicht",
+          "tekst": "Het achtermistlicht mag in geen enkele andere omstandigheid gebruikt worden dan bij mist of sneeuw (zicht minder dan ongeveer 100 m) of felle regen. Zet het uit zodra het zicht beter wordt."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-015"
+      ]
+    },
+    {
+      "id": "gedrag-parkeerlicht",
+      "curriculum": [
+        "T32"
+      ],
+      "titel": "Lichten bij stilstaan en parkeren",
+      "uitleg": "Staat je auto 's nachts of bij slecht zicht stil op de openbare weg, dan moet ze zichtbaar zijn: vooraan **standlichten** (wit of geel) en achteraan **rode lichten**. Bij mist, sneeuw of felle regen mogen ook dimlichten of mistlichten gebruikt worden.\n\n**Binnen de bebouwde kom** mag je de standlichten vervangen door één **parkeerlicht**, op voorwaarde dat de auto **evenwijdig met de as van de rijbaan** staat en er **geen aanhangwagen** aan gekoppeld is. Enkel het parkeerlicht aan de kant van de rijbaan (de aslijn) mag branden.\n\nDe verlichting is maar verplicht wanneer de openbare verlichting het voertuig niet duidelijk zichtbaar maakt van op ongeveer **100 meter**.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Parkeerlicht aan de rijbaankant",
+          "tekst": "Het parkeerlicht dat brandt, is dat aan de kant van de rijbaan, niet aan de kant van het trottoir."
+        },
+        {
+          "type": "gewest",
+          "titel": "Nieuwe wegcode 2027",
+          "tekst": "In de nieuwe Code van de openbare weg (vanaf 1 juni 2027) is de verlichting bij parkeren binnen de bebouwde kom niet meer verplicht.",
+          "gewest": {
+            "vlaanderen": "Vanaf 1 juni 2027: parkeerverlichting binnen de bebouwde kom niet verplicht.",
+            "wallonie": "Zelfde regel.",
+            "brussel": "Zelfde regel."
+          }
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-002"
+      ]
+    },
+    {
+      "id": "gedrag-reactietijd",
+      "curriculum": [
+        "T33"
+      ],
+      "titel": "Reactietijd en reactieafstand",
+      "uitleg": "Tussen het moment dat je gevaar ziet en het moment dat je echt remt, gaat tijd voorbij: de **reactietijd**. In die tijd rijdt je auto gewoon verder aan dezelfde snelheid; de afgelegde weg is de **reactieafstand**.\n\n- Politie.be rekent met een normale reactietijd van **1 seconde**.\n- Bij een volledig onverwachte gebeurtenis is de reactietijd gemiddeld **ongeveer 1,5 seconden** (onderzoek geciteerd door Vias).\n- **Vuistregel reactieafstand (m) = (snelheid : 10) × 3** (bij 1 s reactietijd).\n- De reactietijd verandert niet met de snelheid, maar de afstand wel: hoe sneller je rijdt, hoe verder je 'blind' doorrijdt.\n\nAlcohol, drugs, bepaalde geneesmiddelen, vermoeidheid en afleiding **verlengen** je reactietijd.",
+      "regels": [
+        {
+          "snelheid (km/u)": "30",
+          "reactieafstand (m)": "9"
+        },
+        {
+          "snelheid (km/u)": "50",
+          "reactieafstand (m)": "15"
+        },
+        {
+          "snelheid (km/u)": "70",
+          "reactieafstand (m)": "21"
+        },
+        {
+          "snelheid (km/u)": "90",
+          "reactieafstand (m)": "27"
+        },
+        {
+          "snelheid (km/u)": "120",
+          "reactieafstand (m)": "36"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "tip",
+          "titel": "Rekenvoorbeeld",
+          "tekst": "Bij 70 km/u: 70 : 10 = 7, en 7 × 3 = **21 m** reactieafstand."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "schema-stopafstand"
+      ],
+      "bronnen": [
+        "GEDR-018",
+        "GEDR-008",
+        "GEDR-006",
+        "GEDR-007",
+        "GEDR-009"
+      ]
+    },
+    {
+      "id": "gedrag-remweg",
+      "curriculum": [
+        "T33"
+      ],
+      "titel": "Remweg en stopafstand",
+      "uitleg": "De **remafstand** (remweg) is de afstand die je auto nodig heeft vanaf het moment dat je remt tot stilstand. Ze groeit met het **kwadraat van de snelheid**: dubbel zo snel rijden betekent een remweg die ongeveer **vier keer** zo lang is.\n\nVuistregel van de politie voor een droog wegdek:\n\n- **Remafstand (m) = (snelheid : 10) × (snelheid : 10) : 2**\n- **Stopafstand = reactieafstand + remafstand**\n\nOp **nat of glad wegdek** is de remafstand (en dus de stopafstand) aanzienlijk langer.",
+      "regels": [
+        {
+          "snelheid (km/u)": "30",
+          "reactieafstand (m)": "9",
+          "remafstand (m)": "4,5",
+          "stopafstand (m)": "13,5"
+        },
+        {
+          "snelheid (km/u)": "50",
+          "reactieafstand (m)": "15",
+          "remafstand (m)": "12,5",
+          "stopafstand (m)": "27,5"
+        },
+        {
+          "snelheid (km/u)": "70",
+          "reactieafstand (m)": "21",
+          "remafstand (m)": "24,5",
+          "stopafstand (m)": "45,5"
+        },
+        {
+          "snelheid (km/u)": "90",
+          "reactieafstand (m)": "27",
+          "remafstand (m)": "40,5",
+          "stopafstand (m)": "67,5"
+        },
+        {
+          "snelheid (km/u)": "120",
+          "reactieafstand (m)": "36",
+          "remafstand (m)": "72",
+          "stopafstand (m)": "108"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Dit zijn vuistregels",
+          "tekst": "De getallen gelden voor een goede auto, goede banden en droog wegdek. Op nat, glad wegdek, met versleten banden of een zwaar beladen wagen wordt de stopafstand langer. Rond bij een oefening niet af zonder de vraag goed te lezen."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Remmen is niet hetzelfde als stoppen",
+          "tekst": "Wie enkel de remafstand onthoudt, vergeet de reactieafstand. Bij 50 km/u is de stopafstand 15 m + 12,5 m = 27,5 m; bij 120 km/u is dat 36 m + 72 m = 108 m."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "schema-stopafstand"
+      ],
+      "bronnen": [
+        "GEDR-018",
+        "GEDR-008"
+      ]
+    },
+    {
+      "id": "gedrag-volgafstand",
+      "curriculum": [
+        "T33"
+      ],
+      "titel": "Volgafstand en de tweeseconderegel",
+      "uitleg": "De wegcode zegt dat je rekening houdend met je snelheid een **voldoende veiligheidsafstand** moet houden tot je voorligger en dat je in alle omstandigheden moet kunnen stoppen voor een **voorzienbare hindernis** (art. 10).\n\nVoor personenwagens staat er in de huidige wegcode **geen vast getal**. De raad van Vias en de politie is de **tweeseconderegel**: houd minstens zoveel afstand dat je er **2 seconden** over doet om het punt te bereiken waar je voorligger nu rijdt.\n\n**Zo tel je het:** kies een vast punt langs de weg (paal, bord, brugpijler). Zodra je voorligger er voorbij is, begin je te tellen. Bereik je het punt voor je twee seconden geteld hebt, dan rijd je te dicht.\n\n- Op een **nat wegdek**: tel **3 seconden**.\n- Bij vermoeidheid of weinig ervaring: houd ook meer dan 2 seconden.\n\nIn de **nieuwe Code van de openbare weg** (vanaf 1 juni 2027) wordt dit voor wegen met een maximumsnelheid boven 50 km/u een wettelijk minimum van **ten minste 2 seconden**.",
+      "regels": [
+        {
+          "snelheid (km/u)": "30",
+          "afstand bij 2 s (m)": "17"
+        },
+        {
+          "snelheid (km/u)": "50",
+          "afstand bij 2 s (m)": "28"
+        },
+        {
+          "snelheid (km/u)": "70",
+          "afstand bij 2 s (m)": "39"
+        },
+        {
+          "snelheid (km/u)": "90",
+          "afstand bij 2 s (m)": "50"
+        },
+        {
+          "snelheid (km/u)": "120",
+          "afstand bij 2 s (m)": "67"
+        }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Zware voertuigen",
+          "tekst": "Buiten de bebouwde kom moeten bestuurders van voertuigen met een maximale toegelaten massa van meer dan 7,5 ton of langer dan 7 meter minstens **50 meter** afstand houden tot elkaar. Op bruggen is dat 15 meter voor voertuigen boven 7,5 ton."
+        },
+        {
+          "type": "gewest",
+          "titel": "Vanaf 1 juni 2027",
+          "tekst": "De nieuwe Code van de openbare weg schrijft een volgafstand van ten minste 2 seconden voor op wegen waar de maximumsnelheid hoger ligt dan 50 km/u.",
+          "gewest": {
+            "vlaanderen": "Vanaf 1 juni 2027: minstens 2 seconden boven 50 km/u.",
+            "wallonie": "Zelfde federale regel.",
+            "brussel": "Zelfde federale regel."
+          }
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [
+        "schema-volgafstand-2sec"
+      ],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-002",
+        "GEDR-008",
+        "GEDR-018"
+      ]
+    },
+    {
+      "id": "gedrag-weer-regen",
+      "curriculum": [
+        "T33"
+      ],
+      "titel": "Rijden in de regen",
+      "uitleg": "Bij nat wegdek wordt de remafstand langer en wordt je zicht slechter. Daarom:\n\n- **Pas je snelheid aan** (art. 10: weersomstandigheden en staat van de weg moeten je snelheid bepalen).\n- **Houd meer afstand**: tel **3 seconden** in plaats van 2.\n- Zet je **dimlicht** aan als je niet meer duidelijk kan zien tot op ongeveer 200 meter. Bij felle regen moet het **achtermistlicht** (indien aanwezig) branden en mag het voormistlicht gebruikt worden.\n\nGebruik geen cruise control op gladde wegen.",
+      "regels": [],
+      "kaders": [],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-008",
+        "GEDR-015",
+        "GEDR-018"
+      ]
+    },
+    {
+      "id": "gedrag-weer-mist",
+      "curriculum": [
+        "T33",
+        "T32"
+      ],
+      "titel": "Rijden in de mist",
+      "uitleg": "Bij mist is je zicht beperkt. De wegcode eist dat je je snelheid aanpast aan **het zicht en de weersomstandigheden**, dat je een voldoende veiligheidsafstand houdt en dat je kan stoppen voor een voorzienbare hindernis.\n\n- **Vertraag** en houd extra afstand.\n- Gebruik **dimlicht**. **Voormistlichten** mogen bij mist, sneeuwval of felle regen.\n- **Achtermistlichten** zijn **verplicht bij zicht < ongeveer 100 m**.\n- Doof het achtermistlicht zodra het zicht beter wordt.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "zwarefout",
+          "titel": "Mistlicht te lang laten branden",
+          "tekst": "Een achtermistlicht dat blijft branden bij beter zicht verblindt de bestuurder achter jou."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-001",
+        "GEDR-015"
+      ]
+    },
+    {
+      "id": "gedrag-weer-ijs",
+      "curriculum": [
+        "T33"
+      ],
+      "titel": "Rijden bij ijzel, sneeuw en gladheid",
+      "uitleg": "Op gladde wegen wordt de remafstand veel langer.\n\n- **Ontdooi en ontijs je hele voorruit** vóór je vertrekt; enkel een kijkgaatje vrijkrabben is niet voldoende.\n- **Houd meer afstand** tot je voorligger en rij trager.\n- Wees extra voorzichtig op **bruggen**: daar ontstaan ijsplekken het eerst.\n- Gebruik **geen cruise control** op gladde wegen.\n- Winterbanden geven je geen vrijbrief om risico's te nemen: pas je rijstijl altijd aan.",
+      "regels": [],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Zicht",
+          "tekst": "Een niet-ijsvrije voorruit is een verkeersovertreding en kan je een boete opleveren."
+        }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": [],
+      "bronnen": [
+        "GEDR-015"
+      ]
+    }
+  ]
+}

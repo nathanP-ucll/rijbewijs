@@ -1,0 +1,415 @@
+{
+  "thema": "plaats",
+  "les": 3,
+  "blokken": [
+    {
+      "id": "plaats-rechts-rijden",
+      "curriculum": ["T23"],
+      "titel": "Rechts rijden en de rijbaan volgen",
+      "uitleg": "De rijbaan is het deel van de weg dat voor voertuigen is ingericht. Volg altijd de rijbaan en rij **zo dicht mogelijk bij de rechterrand** ervan. Dat geldt ook op de autosnelweg en autoweg: daar is de rechterrijstrook je gewone plaats.\n- Rijstrookmarkeringen volg je altijd.\n- Op een rotonde rijd je niet per se zo dicht mogelijk bij de rechterrand.\n- Op een plein mag je afwijken van de rechterrand.\n- Wie een bord F13 of F15 volgt, keert naar rechts terug zodra de omstandigheden het toelaten.\n- Bij gescheiden rijbanen (bijvoorbeeld door een middenberm) rij je nooit op de rijbaan links van jou.",
+      "regels": [
+        { "situatie": "Rijbaan zonder rijstroken, twee richtingen", "plaats": "Zo dicht mogelijk bij de rechterrand" },
+        { "situatie": "Rijbaan met rijstrookmarkeringen", "plaats": "Binnen je rijstrook, markeringen volgen" },
+        { "situatie": "Gescheiden rijbanen", "plaats": "Nooit op de rijbaan links van je rijrichting" },
+        { "situatie": "Rotonde", "plaats": "Je hoeft niet zo dicht mogelijk bij de rechterrand te rijden" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Basisregel", "tekst": "Zo dicht mogelijk bij de rechterrand van de rijbaan blijven (art. 9.3.1 van de wegcode)." },
+        { "type": "zwarefout", "titel": "Midden op de weg rijden", "tekst": "Op een tweerichtingsweg zonder rijstroken kies je nooit zelf het midden van de weg omdat het 'er genoeg plaats is'. Tegenliggers hebben recht op hun helft." }
+      ],
+      "uitzonderingen": [
+        "Op pleinen mag je afwijken van de rechterrand.",
+        "Motorfietsers mogen de volledige breedte van hun rijstrook gebruiken."
+      ],
+      "afbeeldingen": ["schema-plaats-rechts-rijden"],
+      "bronnen": ["PLAA-001", "PLAA-005"]
+    },
+    {
+      "id": "plaats-rijstroken-bebouwde-kom",
+      "curriculum": ["T23"],
+      "titel": "Rijstroken kiezen en in meerdere rijen rijden",
+      "uitleg": "Binnen de bebouwde kom mag je de rijstrook kiezen die het best bij je bestemming past, in twee gevallen:\n- op een **eenrichtingsrijbaan** die in rijstroken is verdeeld;\n- op een **tweerichtingsrijbaan met minstens vier rijstroken**, waarvan er minstens twee per rijrichting zijn.\n\nBuiten die gevallen blijf je rechts. Als de verkeersdichtheid het rechtvaardigt, mag het verkeer in meerdere rijen rijden: op eenrichtingsrijbanen, op tweerichtingsrijbanen met vier of meer rijstroken (enkel op de stroken van je eigen richting) en op rijbanen met verkeerslichten boven de rijstroken.\n\nWie in meerdere rijen rijdt en sneller rijdt dan een naastliggende rij, haalt daarmee niet in.",
+      "regels": [
+        { "wegtype": "Eenrichtingsrijbaan met rijstroken", "keuze": "Vrij te kiezen in de bebouwde kom" },
+        { "wegtype": "Tweerichtingsrijbaan, minstens 4 stroken (2+2)", "keuze": "Vrij te kiezen in de bebouwde kom, enkel eigen richting" },
+        { "wegtype": "Buiten de bebouwde kom, gewone weg", "keuze": "Zo dicht mogelijk bij de rechterrand" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Afslaan bij rijstrookgebonden verkeer", "tekst": "Rij je in meerdere rijen, dan sla je rechts af vanuit de rechterstrook en links af vanuit de linkerstrook (art. 19.6)." },
+        { "type": "letop", "titel": "Bestemmingsborden", "tekst": "Volg de aanwijzingen van de borden F13 en F15 boven of langs de rijstroken; wie ze volgt, haalt niet in als hij sneller rijdt dan een andere rij." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["schema-rijstroken-bebouwde-kom", "F13", "F15"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "plaats-fietspad-zwakke-weggebruikers",
+      "curriculum": ["T23"],
+      "titel": "Fietspaden en zwakke weggebruikers",
+      "uitleg": "Een fietspad is het deel van de weg dat voor fietsen en tweewielige bromfietsen klasse A is voorbehouden. Het wordt aangeduid met borden D7 of D9 of met witte onderbroken markeringen en **maakt geen deel uit van de rijbaan**.\n- Fietsers en bromfietsers klasse A moeten een bruikbaar fietspad volgen dat **rechts** van hen ligt en afgebakend is. Ligt het links, dan volgen ze het niet.\n- Mag je als fietser of bromfietser A van het fietspad af? Ja, om van richting te veranderen, in te halen of een hindernis te ontwijken.\n- Bromfietsers klasse B en speed pedelecs mogen het fietspad (D7 of markeringen) volgen waar de maximumsnelheid 50 km/u of lager is, zonder anderen in gevaar te brengen. Bij een hogere snelheidsbeperking moeten ze dat fietspad volgen als het bruikbaar is.\n- Zonder fietspad mogen fietsers en bromfietsers A de gelijkgrondse berm of een parkeerstrook volgen, zolang ze rechts rijden en voorrang verlenen aan wie daar rijdt.\n- Fietsers jonger dan 10 jaar mogen altijd het trottoir of een verhoogde berm volgen.\n\nAls bestuurder let je extra op fietsers, voetgangers en bromfietsers wanneer je afslaat, een parkeerplaats verlaat of een deur opent: zij hebben vaak voorrang.",
+      "regels": [
+        { "weggebruiker": "Fietser, bromfiets klasse A", "fietspad": "Moet bruikbaar, afgebakend fietspad rechts van hem volgen" },
+        { "weggebruiker": "Bromfiets klasse B en speed pedelec, snelheid ter plaatse max. 50 km/u", "fietspad": "Mag het fietspad (D7 of markeringen) volgen, zonder anderen in gevaar te brengen" },
+        { "weggebruiker": "Bromfiets klasse B en speed pedelec, hogere snelheidsbeperking", "fietspad": "Moet het bruikbare fietspad (D7 of markeringen) volgen" },
+        { "weggebruiker": "Fietser jonger dan 10 jaar", "fietspad": "Mag altijd het trottoir of een verhoogde berm volgen" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Voorrang aan het fietspad", "tekst": "Wie een manoeuvre uitvoert, verleent voorrang aan wie het trottoir of het fietspad gebruikt (art. 12.4bis)." },
+        { "type": "letop", "titel": "Fietspad is geen rijbaan", "tekst": "Stilstaan en parkeren op een fietspad is verboden, en ook op minder dan 5 m vóór de plaats waar fietsers het fietspad verlaten of oprijden." },
+        { "type": "tip", "titel": "Dode hoek", "tekst": "Kijk bij het rechts afslaan altijd in je rechterspiegel en over je schouder naar fietsers en bromfietsers die langs rechts kunnen komen." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["D7", "D9", "schema-fietspad-markering"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "plaats-busstrook",
+      "curriculum": ["T23"],
+      "titel": "Busstrook en bijzondere overrijdbare bedding",
+      "uitleg": "Een **busstrook** (aangeduid met F17 en brede witte onderbroken strepen of een dambordmarkering) is een deel van de weg voor het openbaar vervoer en eventuele andere categorieën die op de borden vermeld staan (bijvoorbeeld taxi's, fietsers of voertuigen met bepaalde bezetting). Sinds het KB van 12 maart 2023 **maken de busstrook en de bijzondere overrijdbare bedding (F18) geen deel meer uit van de rijbaan**.\n- Andere voertuigen mogen de busstrook enkel gebruiken om een hindernis te omzeilen, om vlak bij een kruispunt af te slaan, om het kruispunt over te steken of om een eigendom in of uit te rijden.\n- Wie de busstrook mag gebruiken, hangt af van de bordaanduiding en van het soort weg (gewestweg of niet).",
+      "regels": [
+        { "element": "Busstrook (F17)", "kenmerk": "Brede witte onderbroken strepen of dambordmarkering, geen deel van de rijbaan" },
+        { "element": "Bijzondere overrijdbare bedding (F18)", "kenmerk": "Brede doorlopende strepen of dambordmarkering, geen deel van de rijbaan, verkeerslichten volgen" }
+      ],
+      "kaders": [
+        { "type": "letop", "titel": "Wijziging 2023", "tekst": "Het KB van 12 maart 2023 herwerkte de regels voor busstrook en bijzondere overrijdbare bedding. Ga bij twijfel altijd af op de borden en onderborden ter plaatse." },
+        { "type": "tip", "titel": "Toekomst", "tekst": "In de nieuwe Code van de openbare weg (vanaf 1 juni 2027) is stilstaan op de busstrook bijkomend verboden. Tot dan geldt de wegcode van 1975." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["F17", "F18"],
+      "bronnen": ["PLAA-001", "PLAA-003", "PLAA-007"]
+    },
+    {
+      "id": "plaats-reddingsstrook-file",
+      "curriculum": ["T23", "T25"],
+      "titel": "Reddingsstrook bij file",
+      "uitleg": "Bij filevorming vorm je een **reddingsstrook** (de vrije ruimte tussen twee rijstroken in een file). Dat is verplicht op alle wegen met minstens twee rijstroken in dezelfde richting, ook binnen de bebouwde kom, vanaf het ogenblik dat de file ontstaat, dus ook zonder dat er al een hulpdienst nadert. Sinds 1 oktober 2020.\n- **Twee rijstroken**: wie links rijdt gaat uiterst links, wie rechts rijdt gaat uiterst rechts.\n- **Drie of meer rijstroken**: wie links rijdt gaat uiterst links, alle anderen gaan zo ver mogelijk naar rechts.\n- Je blijft binnen de rijbaan: je maakt de strook niet door op de pechstrook of op het fietspad te rijden, tenzij er niets anders mogelijk is wanneer een hulpdienst van achter nadert.",
+      "regels": [
+        { "rijstroken": "2", "linkse strook": "Uiterst links", "andere stroken": "Rechtse strook uiterst rechts" },
+        { "rijstroken": "3 of meer", "linkse strook": "Uiterst links", "andere stroken": "Alle andere uiterst rechts" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Wanneer?", "tekst": "Zodra er file ontstaat op een weg met minstens twee rijstroken in dezelfde richting, dus niet pas als je een sirene hoort." },
+        { "type": "letop", "titel": "Motorfietsen", "tekst": "Motorfietsen mogen de reddingsstrook enkel gebruiken als ze maximaal 50 km/u rijden en niet meer dan 20 km/u trager dan het overige verkeer, en er geen hulpdienst nadert. Dat staat op de FOD-pagina met de huidige regels; in de nieuwe wegcode van 2027 wordt dit anders geregeld." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["schema-reddingsstrook-2", "schema-reddingsstrook-3"],
+      "bronnen": ["PLAA-001", "PLAA-002", "PLAA-003"]
+    },
+    {
+      "id": "kruisen",
+      "curriculum": ["T24"],
+      "titel": "Kruisen",
+      "uitleg": "Kruisen is voorbijrijden aan een tegenligger. Je kruist **rechts**, met voldoende zijdelingse afstand, zo nodig door naar rechts uit te wijken.\n- Wordt je gehinderd door een obstakel of andere weggebruikers, dan vertraag je of stop je.\n- Is de rijbaan te smal, dan mag je de gelijkgrondse berm of de zijdelingse strook gebruiken, zolang je niemand in gevaar brengt.",
+      "regels": [],
+      "kaders": [
+        { "type": "regel", "titel": "Kruisen = rechts", "tekst": "Kruis tegenliggers aan je rechterkant, met voldoende ruimte opzij (art. 15)." }
+      ],
+      "uitzonderingen": [
+        "Spoorvoertuigen die de rijbaan volgen mogen onder voorwaarden links gekruist worden."
+      ],
+      "afbeeldingen": ["schema-kruisen"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "inhalen-regels",
+      "curriculum": ["T24"],
+      "titel": "Inhalen: links, veilig en met richtingaanwijzer",
+      "uitleg": "Inhalen betekent een bewegend voertuig voorbijrijden. Je haalt **links** in, behalve als de voorligger links wil afslaan of links is opgesteld.\n- Vergewis je dat het veilig kan: voldoende vrije weg voor je, niemand die jou al inhaalt, terugkeren naar rechts mogelijk en je rijdt voldoende sneller dan het voertuig dat je inhaalt.\n- Geef **tijdig** een richtingaanwijzer vóór je uitwijkt en opnieuw vóór je naar rechts terugkeert.\n- Houd voldoende zijdelingse afstand tot wie je inhaalt.\n- Na het inhalen keer je naar rechts terug, tenzij je meteen opnieuw inhaalt (op wegen met vier of meer rijstroken enkel op de stroken van je eigen richting, of op een eenrichtingsweg).\n- Wie links wordt ingehaald, wijkt zo ver mogelijk naar rechts en **versnelt niet**.\n- Spoorvoertuigen (tram) worden **rechts** ingehaald, ook als ze stilstaan, behalve bij een hindernis of op eenrichtingswegen waar het verkeer dat rechtvaardigt.\n- Rij je in meerdere rijen (art. 9.4 of 9.5) of volg je F13/F15, dan is sneller rijden dan de rij naast jou geen inhalen.",
+      "regels": [
+        { "stap": "1. Controleren", "inhoud": "Weg voor je vrij? Niemand die jou inhaalt? Terugkeren mogelijk?" },
+        { "stap": "2. Seinen", "inhoud": "Linker richtingaanwijzer, tijdig" },
+        { "stap": "3. Uitwijken en voorbijrijden", "inhoud": "Voldoende zijdelingse afstand, sneller rijden dan de ingehaalde" },
+        { "stap": "4. Terugkeren", "inhoud": "Rechter richtingaanwijzer, terug naar rechts zodra het veilig kan" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Altijd links", "tekst": "Inhalen gebeurt links (art. 16.3), tenzij de voorligger links afslaat of links is opgesteld." },
+        { "type": "zwarefout", "titel": "Rechts inhalen", "tekst": "Rechts voorbijrijden aan een voertuig op een andere rijstrook mag niet, behalve in druk verkeer, in een file of om een andere richting te volgen. Het blijft inhalen en dus een overtreding als de uitzonderingen niet gelden." },
+        { "type": "letop", "titel": "Ingehaald worden", "tekst": "Versnellen terwijl je links wordt ingehaald is verboden. Maak ruimte en laat de inhaler voorbij." }
+      ],
+      "uitzonderingen": [
+        "Tram en andere spoorvoertuigen op de rijbaan worden rechts ingehaald.",
+        "Voorligger die links afslaat of links is opgesteld: dan haal je rechts in.",
+        "Motorfietsers tussen rijstroken (maximaal 50 km/u en maximaal 20 km/u sneller dan de rij) halen volgens de wegcode niet in."
+      ],
+      "afbeeldingen": ["schema-inhalen-links"],
+      "bronnen": ["PLAA-001", "PLAA-005"]
+    },
+    {
+      "id": "inhaalverbod",
+      "curriculum": ["T24"],
+      "titel": "Wanneer is links inhalen verboden?",
+      "uitleg": "Je mag niet links inhalen als je **niet ver genoeg kunt zien** of kunt vaststellen dat de weg vrij is. Daarnaast is inhalen verboden op bepaalde plaatsen of momenten:\n- bij een overweg met de borden A45 of A47, tenzij er slagbomen of verkeerslichten zijn;\n- op kruispunten (met voorrang van rechts, of op andere kruispunten wanneer jij voorrang moet verlenen);\n- bij een heuvelkruin of bocht met onvoldoende zicht, tenzij je de witte doorlopende streep niet overschrijdt;\n- wanneer de voorligger zelf een ander voertuig inhaalt (**tripleren**), tenzij er minstens drie rijstroken in jouw richting zijn;\n- wanneer de voorligger stopt voor of nadert tot een oversteekplaats zonder geregeld verkeer;\n- op verhoogde inrichtingen.\n\nHet **verkeersbord C35** verbiedt links inhalen van voertuigen met meer dan twee wielen en gespannen, vanaf het bord tot en met het volgende kruispunt. **C37** heft dat op. **C39** verbiedt het aan goederenvoertuigen en combinaties met een maximaal toegelaten massa boven 3.500 kg; **C41** heft dat op.\n\nEen **doorlopende witte streep** mag je niet overschrijden: je kan dus ook niet inhalen als daarvoor de streep overschreden moet worden. Een onderbroken streep mag je overschrijden om in te halen.",
+      "regels": [
+        { "bord": "C35", "betekenis": "Inhaalverbod (links) voor voertuigen met meer dan twee wielen en gespannen, tot en met het volgende kruispunt" },
+        { "bord": "C37", "betekenis": "Einde van het inhaalverbod C35" },
+        { "bord": "C39", "betekenis": "Inhaalverbod voor goederenvoertuigen en combinaties van meer dan 3.500 kg, tot en met het volgende kruispunt" },
+        { "bord": "C41", "betekenis": "Einde van het inhaalverbod C39" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Geen zicht, geen inhaalmanoeuvre", "tekst": "Je mag links enkel inhalen als je tegenliggers ver genoeg kunt zien (art. 17.1)." },
+        { "type": "letop", "titel": "Inhaalverbod en ritsen", "tekst": "Een inhaalverbod verhindert het ritsen niet: bij sterk vertraagd verkeer pas je het ritsen gewoon toe." },
+        { "type": "letop", "titel": "Toekomstige wijziging", "tekst": "Pas vanaf 1 juni 2027 (nieuwe Code van de openbare weg) geldt C35 ook voor motorfietsen en wordt tripleren strenger beperkt. Tot dan gelden de regels hierboven." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["C35", "C37", "C39", "C41", "schema-inhaalverbod-zicht"],
+      "bronnen": ["PLAA-001", "PLAA-003", "PLAA-006"]
+    },
+    {
+      "id": "richtingaanwijzers-gebruik",
+      "curriculum": ["T25"],
+      "titel": "Richtingaanwijzers: wanneer en hoe lang",
+      "uitleg": "Vóór elke beweging die een **zijdelingse verplaatsing** inhoudt of je **rijrichting verandert**, kondig je dat tijdig aan met de richtingaanwijzers (art. 13). Zodra de beweging is uitgevoerd, stopt de aanduiding.\n- Voor links inhalen en voor het terugkeren naar rechts na het inhalen.\n- Voor rechts of links afslaan.\n- Bij het verlaten van een rotonde, niet bij het oprijden ervan.\n- Voor het van rijstrook veranderen, het wegrijden van een parkeerplaats of het keren.\n\nEen richtingaanwijzer **geeft geen voorrang**: hij kondigt aan wat je gaat doen. Vergewis je eerst dat het veilig kan.",
+      "regels": [
+        { "manoeuvre": "Links inhalen", "sein": "Links, tijdig" },
+        { "manoeuvre": "Terugkeren naar rechts na inhalen", "sein": "Rechts" },
+        { "manoeuvre": "Rechts afslaan", "sein": "Rechts" },
+        { "manoeuvre": "Links afslaan", "sein": "Links" },
+        { "manoeuvre": "Rotonde oprijden", "sein": "Geen sein" },
+        { "manoeuvre": "Rotonde verlaten", "sein": "Rechts" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Tijdig en kort", "tekst": "Seinen vóór de beweging begint en stoppen met seinen zodra ze uitgevoerd is (art. 13). De wet geeft geen vast aantal meters of seconden." },
+        { "type": "letop", "titel": "Alarmlichten", "tekst": "Alle richtingaanwijzers tegelijk (alarmlichten) gebruik je enkel in de door de wegcode voorziene gevallen of om te waarschuwen voor dreigend gevaar." },
+        { "type": "tip", "titel": "Armteken", "tekst": "Heeft een voertuig geen richtingaanwijzers (bijvoorbeeld een fiets), dan geeft de bestuurder indien mogelijk een armteken." }
+      ],
+      "uitzonderingen": [
+        "Bij het oprijden van een rotonde geef je geen richtingsaanduiding.",
+        "Motorfietsers die de volle breedte van hun rijstrook gebruiken, voeren daarmee geen manoeuvre uit en moeten daarvoor niet seinen."
+      ],
+      "afbeeldingen": ["schema-richtingaanwijzers"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "richting-wijzigen-afslaan",
+      "curriculum": ["T25"],
+      "titel": "Richting wijzigen: rechts en links afslaan",
+      "uitleg": "Voor je afslaat, vergewis je dat het zonder gevaar kan, ook voor achterliggers.\n**Rechts afslaan**: sein rechts, blijf zo dicht mogelijk bij de rechterkant, neem de bocht met matige snelheid en zo kort mogelijk.\n**Links afslaan**: sein links. Op een tweerichtingsweg houd je links van de middenlijn zonder tegenliggers te hinderen; op een eenrichtingsweg rij je zo dicht mogelijk bij de linkerrand. Verleen voorrang aan tegenliggers, neem de bocht met matige snelheid en op een kruispunt zo ruim mogelijk.\n\nVerleen ook voorrang aan weggebruikers op de andere delen van de weg die je oprijdt en aan **voetgangers** die oversteken op de weg die je gaat oprijden.",
+      "regels": [
+        { "afslag": "Rechts", "plaats": "Zo dicht mogelijk bij de rechterkant", "bocht": "Kort, matige snelheid" },
+        { "afslag": "Links (tweerichtingsweg)", "plaats": "Links van de middenlijn, tegenliggers niet hinderen", "bocht": "Ruim op een kruispunt" },
+        { "afslag": "Links (eenrichtingsweg)", "plaats": "Zo dicht mogelijk bij de linkerrand", "bocht": "Ruim op een kruispunt" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Voorrang aan voetgangers", "tekst": "Wie afslaat, laat voetgangers voorgaan die de weg oversteken waar hij zal binnenrijden (art. 19.5)." },
+        { "type": "zwarefout", "titel": "Te vroeg of te scherp links afslaan", "tekst": "Wie bij het links afslaan de bocht afsnijdt, hindert tegenliggers en andere afslaande voertuigen." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["schema-afslaan-rechts-links"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "van-rijstrook-veranderen",
+      "curriculum": ["T25", "T28"],
+      "titel": "Van rijstrook veranderen",
+      "uitleg": "Van rijstrook veranderen is een **manoeuvre** (art. 12.4). Je verleent voorrang aan de andere weggebruikers en rijdt pas verder als het zonder gevaar kan, rekening houdend met positie, snelheid en afstand van de anderen (art. 12.5).\n- Kijk in je spiegels en over je schouder (dode hoek).\n- Geef tijdig een richtingaanwijzer.\n- Een **doorlopende streep** mag je niet overschrijden; een **onderbroken streep** mag je overschrijden om van rijstrook te veranderen (en om in te halen, links af te slaan of te keren).\n- Wie bij het ritsen van rijstrook wisselt, voert geen manoeuvre uit en volgt de beurtelingse regel.",
+      "regels": [
+        { "markering": "Doorlopende witte streep", "betekenis": "Niet overschrijden en niet links ervan rijden als ze twee rijrichtingen scheidt" },
+        { "markering": "Onderbroken witte streep", "betekenis": "Overschrijden mag om in te halen, links af te slaan, te keren of van rijstrook te veranderen" },
+        { "markering": "Kortere, dichtere trekken", "betekenis": "Kondigt een doorlopende streep aan" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Manoeuvre", "tekst": "Wie van rijstrook verandert, geeft voorrang aan de weggebruikers op de rijstrook waar hij heen wil." },
+        { "type": "tip", "titel": "Volgorde", "tekst": "Spiegel, richtingaanwijzer, schouderblik, dan pas bewegen." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["schema-rijstrook-wisselen"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "ritsen",
+      "curriculum": ["T25"],
+      "titel": "Ritsen",
+      "uitleg": "Ritsen is **verplicht** sinds 1 maart 2014. Het geldt bij **sterk vertraagd verkeer** op alle wegen met minstens twee rijstroken in dezelfde richting, dus ook binnen de bebouwde kom, en zonder dat een bord het aangeeft. Het geldt voor alle bestuurders.\n- Wanneer een rijstrook eindigt of geblokkeerd is, rijd je door tot **vlak voor de versmalling** en voeg je daar pas in.\n- De bestuurders op de vrije rijstrook laten **beurtelings één** invoegende bestuurder voor.\n- Zijn beide rijstroken geblokkeerd, dan gaat de voorrang eerst naar de bestuurder op de rechterrijstrook en dan naar die op de linkerrijstrook.\n- Ritsen blijft van toepassing als er een inhaalverbod geldt.\n- Bij het oprijden van de autosnelweg ritsen we niet: daar verleen je voorrang aan wie al op de autosnelweg rijdt.",
+      "regels": [
+        { "situatie": "Eén rijstrook eindigt of is geblokkeerd", "regel": "Invoegen vlak voor de versmalling, vrije rijstrook laat beurtelings één voertuig in" },
+        { "situatie": "Beide rijstroken geblokkeerd", "regel": "Eerst één van rechts, dan één van links" },
+        { "situatie": "Normaal verkeer (niet sterk vertraagd)", "regel": "Geen ritsen: gewone voorrangsregels en manoeuvreregels" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Ritsen is verplicht", "tekst": "Niet ritsen is een inbreuk van de eerste graad. Het staat in art. 12bis van de wegcode." },
+        { "type": "zwarefout", "titel": "Te vroeg invoegen", "tekst": "Invoegen doe je bij de versmalling zelf, niet al 100 m ervoor. Rij door tot aan de versmalling." },
+        { "type": "letop", "titel": "Oprit autosnelweg", "tekst": "Bij het oprijden van de autosnelweg heb je nooit voorrang. Een bestuurder die je laat invoegen, doet dat uit hoffelijkheid." }
+      ],
+      "uitzonderingen": [
+        "Ritsen geldt enkel bij sterk vertraagd verkeer, niet bij vlot verkeer.",
+        "Op een oprit van de autosnelweg is er geen ritsen, maar verleen je voorrang."
+      ],
+      "afbeeldingen": ["schema-ritsen", "schema-ritsen-twee-geblokkeerd"],
+      "bronnen": ["PLAA-001", "PLAA-002", "PLAA-004"]
+    },
+    {
+      "id": "stilstaan-parkeren-definities",
+      "curriculum": ["T27"],
+      "titel": "Stilstaan of parkeren: het verschil",
+      "uitleg": "De wegcode maakt een onderscheid tussen **stilstaan** en **parkeren**, want de verboden verschillen.\n- **Stilstaan**: het voertuig staat niet langer stil dan nodig is om personen in of uit te laten stappen of om te laden of te lossen.\n- **Parkeren**: het voertuig staat langer stil dan dat. Ook tanken of een elektrisch of hybride voertuig opladen telt als parkeren.\n\nHet **stilstaan- en parkeerverbod** (art. 24) verbiedt beide. Het **parkeerverbod** (art. 25) verbiedt enkel parkeren: korte stilstand voor in- of uitstappen of laden en lossen mag er nog, behalve als een ander verbod geldt. Algemeen is het verboden stil te staan of te parkeren waar je anderen in gevaar brengt of onnodig hindert.",
+      "regels": [
+        { "begrip": "Stilstaan", "betekenis": "Niet langer dan nodig om in- of uit te stappen of te laden en te lossen" },
+        { "begrip": "Parkeren", "betekenis": "Langer stilstaan; tanken en opladen tellen ook mee" },
+        { "begrip": "Stilstaan- en parkeerverbod (art. 24, E3)", "betekenis": "Geen van beide toegelaten" },
+        { "begrip": "Parkeerverbod (art. 25, E1)", "betekenis": "Enkel parkeren verboden, kort stilstaan mag" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Bestuurder blijft verantwoordelijk", "tekst": "Het voertuig stilzetten mag nooit gevaar of onnodige hinder voor anderen veroorzaken." },
+        { "type": "tip", "titel": "Bord als geheugensteun", "tekst": "E1 = parkeren verboden (stilstaan mag). E3 = stilstaan en parkeren verboden." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["E1", "E3"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "parkeren-plaats-en-manier",
+      "curriculum": ["T27"],
+      "titel": "Hoe en waar je stilstaat of parkeert",
+      "uitleg": "Een stilstaand of geparkeerd voertuig staat aan de **rechterkant** van de weg in zijn rijrichting. Op eenrichtingswegen mag het langs beide kanten.\n- Bij voorkeur **naast de rijbaan** op een gelijkgrondse berm (buiten de bebouwde kom ook op een verhoogde berm).\n- Moet een berm door voetgangers gebruikt worden, laat dan een doorgang van minstens **1,50 m** langs de buitenrand van de weg vrij.\n- Is de berm te smal, dan parkeer je deels op de berm en deels op de rijbaan (of op de zijdelingse strook). Is er geen bruikbare berm, dan parkeer je op de rijbaan.\n- Op de rijbaan sta je **zo ver mogelijk van de middenlijn**, evenwijdig met de rand en **in één rij**. Dus niet dubbel geparkeerd naast een ander voertuig.\n- Motorfietsen zonder zijspan of aanhangwagen mogen haaks op de rand staan zonder de markering te overschrijden.\n- Fietsen, tweewielige bromfietsen en voortbewegingstoestellen voor personen met beperkte mobiliteit staan buiten de rijbaan en de parkeerstroken, zonder te hinderen.",
+      "regels": [
+        { "plaats": "Rijbaan", "eis": "Rechts, zo ver mogelijk van de middenlijn, in één rij" },
+        { "plaats": "Gelijkgrondse berm", "eis": "Toegelaten, 1,50 m doorgang voor voetgangers vrijhouden" },
+        { "plaats": "Eenrichtingsweg", "eis": "Links of rechts" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "In één rij", "tekst": "Naast een reeds geparkeerd voertuig aan de rijbaanzijde bijparkeren (dubbel parkeren) is niet toegelaten (art. 23.2)." },
+        { "type": "letop", "titel": "Onnodige hinder", "tekst": "Zelfs als er geen specifiek verbod geldt, parkeer je nooit zo dat anderen onnodig gehinderd worden." }
+      ],
+      "uitzonderingen": [
+        "Op een eenrichtingsweg mag je aan beide kanten staan.",
+        "Motorfietsen mogen ook buiten de rijbaan en de parkeerstroken staan als ze niemand hinderen of in gevaar brengen."
+      ],
+      "afbeeldingen": ["schema-parkeren-rijbaan", "schema-parkeren-berm"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "stilstaan-parkeerverbod-plaatsen",
+      "curriculum": ["T27"],
+      "titel": "Waar mag je niet stilstaan of parkeren? (art. 24)",
+      "uitleg": "Het **stilstaan- en parkeerverbod** geldt op deze plaatsen (tenzij een plaatselijk reglement of bord iets anders bepaalt):\n- op het **trottoir** en op verhoogde bermen in de bebouwde kom;\n- op **fietspaden**, en op minder dan 5 m vóór de plaats waar fietsers het fietspad moeten verlaten of oprijden;\n- op **overwegen**;\n- op een **oversteekplaats** (voetgangers, fietsers en bromfietsers) en op de rijbaan op **minder dan 5 m vóór** die oversteekplaats;\n- op de rijbaan in **tunnels** en onderdoorgangen en onder bruggen (tenzij plaatselijk toegelaten);\n- op de rijbaan bij een **heuvelkruin** of in een **bocht** met onvoldoende zicht;\n- op een kruispunt en op minder dan **5 m** van de verlenging van de dichtstbijzijnde rand van de kruisende weg;\n- op minder dan **20 m vóór verkeerslichten** (op kruispunten en daarbuiten).",
+      "regels": [
+        { "plaats": "Trottoir, verhoogde berm in bebouwde kom", "afstand": "-" },
+        { "plaats": "Fietspad", "afstand": "ook minder dan 5 m vóór waar fietsers het fietspad verlaten of oprijden" },
+        { "plaats": "Overweg", "afstand": "-" },
+        { "plaats": "Oversteekplaats", "afstand": "op de rijbaan minder dan 5 m ervoor" },
+        { "plaats": "Kruispunt", "afstand": "minder dan 5 m van de verlenging van de kruisende rijbaanrand" },
+        { "plaats": "Verkeerslichten", "afstand": "minder dan 20 m ervoor" },
+        { "plaats": "Tunnel, onderdoorgang, onder brug", "afstand": "op de rijbaan" },
+        { "plaats": "Heuvelkruin, bocht met onvoldoende zicht", "afstand": "op de rijbaan" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Zebrapad", "tekst": "Op de rijbaan voor een zebrapad mag je op minder dan 5 m niet stilstaan of parkeren (art. 24.4)." },
+        { "type": "letop", "titel": "Plaatselijke reglementen", "tekst": "Veel van deze verboden gelden 'behoudens plaatselijke reglementering'. Volg altijd de borden en markeringen ter plaatse." },
+        { "type": "tip", "titel": "Examentip", "tekst": "5 m bij oversteekplaats en kruispunt, 20 m bij verkeerslichten." }
+      ],
+      "uitzonderingen": [
+        "Motorfietsen mogen volgens art. 23.4 buiten de rijbaan en parkeerstroken staan, ook op het trottoir, zonder te hinderen of in gevaar te brengen.",
+        "Fietsen en tweewielige bromfietsen mogen volgens art. 23.3 buiten de rijbaan staan zonder te hinderen."
+      ],
+      "afbeeldingen": ["E3", "schema-parkeerafstanden", "schema-stilstaanverbod-zebrapad"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "parkeerverbod-plaatsen",
+      "curriculum": ["T27"],
+      "titel": "Waar mag je niet parkeren? (art. 25)",
+      "uitleg": "Het **parkeerverbod** (stilstaan mag er nog kort) geldt onder meer:\n- op minder dan **1 m** vóór of achter een ander stilstaand of geparkeerd voertuig, of waar het in- of uitstappen van anderen daardoor onmogelijk wordt;\n- op minder dan **15 m** aan weerszijden van een bord dat een bus-, trolleybus- of tramhalte aanduidt;\n- vóór de **opritten** van eigendommen, tenzij je nummerplaat leesbaar zichtbaar is vanaf die oprit;\n- waar voetgangers, fietsers of bromfietsers de rijbaan op moeten om je voertuig te omzeilen;\n- waar je de toegang tot parkeerplaatsen buiten de rijbaan blokkeert of spoorvoertuigen hindert;\n- waar de vrije rijbaan **minder dan 3 m** breed zou blijven;\n- buiten de bebouwde kom op een rijbaan met voorrangsbord B9;\n- langs de **gele onderbroken streep** op de rand van de rijbaan;\n- aan een tweerichtingsrijbaan tegenover een ander geparkeerd voertuig als er zo nog nauwelijks twee voertuigen kunnen kruisen;\n- op plaatsen voor personen met een handicap, tenzij je de bijhorende kaart hebt;\n- op rijbanen die in rijstroken zijn verdeeld (tenzij E9a of E9b het toelaat).\n\nVerder is het verboden voertuigen op de openbare weg te koop of te huur aan te bieden.",
+      "regels": [
+        { "plaats": "Tot ander geparkeerd voertuig", "afstand": "minder dan 1 m ervoor of erachter" },
+        { "plaats": "Bus-, trolleybus-, tramhalte", "afstand": "minder dan 15 m aan weerszijden van het haltebord" },
+        { "plaats": "Oprit van een eigendom", "afstand": "verboden, tenzij nummerplaat leesbaar zichtbaar vanaf de oprit" },
+        { "plaats": "Rijbaan zou smaller dan 3 m blijven", "afstand": "verboden" },
+        { "plaats": "Gele onderbroken streep op de rijbaanrand", "afstand": "parkeren verboden" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Bushalte", "tekst": "Minder dan 15 m aan weerszijden van het haltebord geldt het parkeerverbod (art. 25.1.2°)." },
+        { "type": "letop", "titel": "Gele lijn", "tekst": "Een gele onderbroken streep op de rand van de rijbaan betekent: parkeren op de rijbaan langs die streep verboden (art. 75.1.2°)." }
+      ],
+      "uitzonderingen": [
+        "Voor een oprit mag je parkeren als je nummerplaat leesbaar zichtbaar is vanaf die oprit."
+      ],
+      "afbeeldingen": ["E1", "schema-parkeerafstanden", "schema-gele-streep"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "parkeerborden-en-markeringen",
+      "curriculum": ["T27"],
+      "titel": "Parkeerborden en -markeringen",
+      "uitleg": "Een E-bord geldt aan de kant waar het staat, tot het volgende kruispunt (of tot een bord einde).\n- **E1**: parkeerverbod.\n- **E3**: stilstaan- en parkeerverbod; een opschrift kan de periode aanduiden.\n- **E5** en **E7**: beurtelings parkeren: E5 verbiedt parkeren van de 1e tot de 15e van de maand, E7 van de 16e tot het einde van de maand.\n- **E9a**: parkeren toegelaten. **E9b** tot **E9d**: enkel voor bepaalde categorieën (personenwagens en minibussen, bestelwagens en vrachtwagens, autocars).\n- Een **onderbord** kan de regel verfijnen: parkeerschijf, betalend, ticket, personen met een handicap, bewoners/autodelen, laden en lossen, elektrische voertuigen.\n\nOp de rijbaan: een **brede witte doorlopende streep** (denkbeeldige rand) bakent een deel af dat voor stilstaan en parkeren bestemd is (niet op autosnelwegen en autowegen). Een **gele onderbroken streep** langs de rand betekent parkeerverbod.",
+      "regels": [
+        { "bord": "E1", "betekenis": "Parkeerverbod" },
+        { "bord": "E3", "betekenis": "Stilstaan- en parkeerverbod" },
+        { "bord": "E5", "betekenis": "Parkeerverbod van de 1e tot de 15e van de maand" },
+        { "bord": "E7", "betekenis": "Parkeerverbod van de 16e tot het einde van de maand" },
+        { "bord": "E9a", "betekenis": "Parkeren toegelaten" },
+        { "bord": "E9b-E9d", "betekenis": "Parkeren voorbehouden aan bepaalde voertuigcategorieën" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Geldigheid", "tekst": "Het bord geldt aan de kant van de weg waar het staat, tot het volgende kruispunt of tot een bord dat het einde aanduidt (art. 70.2.2)." },
+        { "type": "letop", "titel": "Beurtelings parkeren", "tekst": "Het halfmaandelijks beurtelings parkeren (E5/E7, E11) bestaat nog tot de nieuwe Code van de openbare weg op 1 juni 2027; dan wordt het afgeschaft." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["E1", "E3", "E5", "E7", "E9a", "E9b", "E11", "schema-parkeerstrook-markering"],
+      "bronnen": ["PLAA-001", "PLAA-003"]
+    },
+    {
+      "id": "blauwe-zone-betalend-parkeren",
+      "curriculum": ["T27"],
+      "titel": "Blauwe zone, betalend parkeren en parkeerduur",
+      "uitleg": "In een **blauwe zone** (parkeren met beperkte duur) leg je de **parkeerschijf** achter de voorruit. Je stelt de schijf in op het uur van aankomst, afgerond naar het eerstvolgende streepje (aankomst 10.05 u: zet de schijf op 10.30 u). Alleen het model van de wegcode sinds 31 maart 2003 is geldig. Binnen een blauwe zone geldt de beperking op weekdagen (of op de bordaanduiding), gewoonlijk van 9 tot 18 uur, en de maximumduur bedraagt 2 uur tenzij borden iets anders aangeven. Een gemeentelijke parkeerkaart kan de schijf vervangen.\n\nBij **betalend parkeren** volg je de instructies van de parkeerautomaat. Is de automaat defect, gebruik dan de parkeerschijf. Op plaatsen voor personen met een handicap gelden de tijdsbeperkingen niet als je de speciale kaart achter de voorruit legt; de kaart vervangt de schijf.\n\n**Langdurig parkeren**: voertuigen die niet kunnen rijden en aanhangwagens mogen niet langer dan 24 opeenvolgende uren geparkeerd blijven. Binnen de bebouwde kom geldt voor personenauto's, trekkers en voertuigen of aanhangwagens boven 7,5 t een maximum van 8 opeenvolgende uren (behalve op E9a, E9c of E9d). Reclamevoertuigen mogen maximaal 3 opeenvolgende uren geparkeerd staan.",
+      "regels": [
+        { "situatie": "Blauwe zone", "wat je doet": "Parkeerschijf, ingesteld op het eerstvolgende streepje na aankomst" },
+        { "situatie": "Betalende zone", "wat je doet": "Betalen via automaat of kaart; defecte automaat: parkeerschijf" },
+        { "situatie": "Voertuig dat niet kan rijden, aanhangwagen", "wat je doet": "Maximaal 24 opeenvolgende uren parkeren" },
+        { "situatie": "Bebouwde kom: personenauto, trekker", "wat je doet": "Maximaal 8 opeenvolgende uren (behalve E9a, E9c, E9d)" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Schijf instellen", "tekst": "Is de toegestane tijd verstreken, dan moet je vertrekken: je kunt de schijf niet gewoon opnieuw instellen." },
+        { "type": "zwarefout", "titel": "Schijf verdraaien", "tekst": "Een valse aanduiding op de parkeerschijf is verboden." },
+        { "type": "tip", "titel": "Motorfietsen", "tekst": "In een blauwe zone hebben motorfietsen geen parkeerschijf nodig." }
+      ],
+      "uitzonderingen": [
+        "Wie voor zijn eigen oprit staat met leesbare nummerplaat, moet in een zone zonder bewonerskaart geen schijf leggen.",
+        "Personen met een handicap-kaart: de kaart vervangt de schijf."
+      ],
+      "afbeeldingen": ["schema-parkeerschijf", "E9a"],
+      "bronnen": ["PLAA-001", "PLAA-002"]
+    },
+    {
+      "id": "keren-achteruitrijden",
+      "curriculum": ["T28"],
+      "titel": "Keren en achteruitrijden",
+      "uitleg": "Keren en achteruitrijden zijn **manoeuvres** (art. 12.4). Je verleent voorrang aan alle andere weggebruikers (voetgangers, fietsers en voertuigen) en rijdt pas verder als het zonder gevaar kan (art. 12.5).\n- Kies een plaats waar je goed zicht hebt en niemand hindert.\n- Vergewis je met spiegels en schouderblik.\n- Een **doorlopende streep** mag je niet overschrijden, dus niet keren over een doorlopende streep. Over een onderbroken streep mag je keren.\n- Achteruitrijlichten mogen andere bestuurders niet hinderen.\n- Op **autosnelwegen en autowegen** zijn keren en achteruitrijden altijd verboden, ook niet via een dwarsverbinding.\n- De gordelplicht geldt niet tijdens het achteruitrijden.",
+      "regels": [
+        { "plaats": "Gewone weg", "keren/achteruit": "Toegelaten als het veilig kan en je voorrang verleent" },
+        { "plaats": "Over een doorlopende witte streep", "keren/achteruit": "Niet toegelaten, de streep mag niet overschreden worden" },
+        { "plaats": "Autosnelweg, autoweg", "keren/achteruit": "Verboden" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Voorrang", "tekst": "Wie keert of achteruit rijdt, geeft voorrang aan alle andere weggebruikers (art. 12.4)." },
+        { "type": "letop", "titel": "Vergewis je vooraf", "tekst": "Achteruit rijdt je traag, met zicht op alle zijden, en liefst met hulp van een tweede persoon als het zicht beperkt is." },
+        { "type": "zwarefout", "titel": "Keren op de autosnelweg", "tekst": "Wie een afrit gemist heeft, rijdt door naar de volgende afrit. Keren of achteruit rijden is nooit toegelaten." }
+      ],
+      "uitzonderingen": [
+        "Keren over een onderbroken witte streep is toegelaten."
+      ],
+      "afbeeldingen": ["schema-keren", "schema-achteruitrijden"],
+      "bronnen": ["PLAA-001"]
+    },
+    {
+      "id": "voorsorteren",
+      "curriculum": ["T28", "T25"],
+      "titel": "Voorsorteren",
+      "uitleg": "Voorsorteren is tijdig de juiste rijstrook kiezen voor je richting.\n- Heb je rijstrookmarkeringen, dan volg je die en kies je de rijstrook die het best bij je bestemming past.\n- **Rechts afslaan**: zo dicht mogelijk bij de rechterkant.\n- **Links afslaan** op een tweerichtingsweg: links van de middenlijn, zonder tegenliggers te hinderen; op een eenrichtingsweg zo dicht mogelijk bij de linkerrand.\n- Rijd je in een bebouwde kom op meerdere rijstroken (art. 9.4 of 9.5), dan sla je rechts af vanuit de rechterstrook en links af vanuit de linkerstrook.\n- Volg de borden F13 en F15 die de richting per rijstrook aangeven.\n- Op een rotonde seinen: geen sein bij het oprijden, wel bij het verlaten.",
+      "regels": [
+        { "richting": "Rechts", "rijstrook": "Rechterrand / rechterstrook" },
+        { "richting": "Links, tweerichtingsweg", "rijstrook": "Links van de middenlijn, tegenliggers niet hinderen" },
+        { "richting": "Links, eenrichtingsweg", "rijstrook": "Zo dicht mogelijk bij de linkerrand / linkerstrook" },
+        { "richting": "Rechtdoor", "rijstrook": "Volgens pijlen en borden" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Rijstrookgebonden verkeer", "tekst": "Bij verkeer volgens art. 9.4 of 9.5: rechts afslaan vanuit de rechterstrook, links afslaan vanuit de linkerstrook (art. 19.6)." },
+        { "type": "tip", "titel": "Tijdig kiezen", "tekst": "Kies je rijstrook ruim voor het kruispunt en pas dan aan het verkeer aan." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["F13", "F15", "schema-voorsorteren"],
+      "bronnen": ["PLAA-001"]
+    }
+  ]
+}

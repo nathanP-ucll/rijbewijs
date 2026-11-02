@@ -1,0 +1,122 @@
+{
+  "VOOR-001": {
+    "url": "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+    "titel": "Koninklijk Besluit van 1 december 1975 houdende algemeen reglement op de politie van het wegverkeer (Wegcode), geconsolideerde tekst",
+    "uitgever": "Vlaamse Codex (Vlaamse overheid)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Art. 2: definities kruispunt (2.9), rotonde (2.39: D5, toegang B1/B5), woonerf/erf (2.32), pad (2.5), aardeweg (2.6), plein (2.10), middenberm (2.44)",
+      "Art. 3-4: bevoegde personen; bevelen onmiddellijk opvolgen. Art. 6: bevoegde personen gaan boven verkeerstekens, die boven verkeersregels; werkende lichten gaan voor voorrangsborden op dezelfde weg (6.3)",
+      "Art. 9.2: gescheiden rijbanen, links gelegen rijbaan niet volgen; 9.3.1: op rotonde/plein niet verplicht zo dicht mogelijk bij de rechterrand; 9.7 pechstrook",
+      "Art. 12.1 voorrang aan spoorvoertuigen; 12.2 dubbel voorzichtig op kruispunt; 12.3.1 voorrang van rechts + uitzonderingen (rotonde, verboden rijrichting) + B1/B5 en aardeweg/pad; 12.3.2 opgeheven; 12.4 manoeuvres; 12.4bis trottoir/fietspad; 12.5 verder rijden zonder gevaar; 12bis ritsen",
+      "Art. 19: richtingaanwijzers (rotonde oprijden niet, verlaten wel); 19.3.3 linksaf: voorrang aan tegenliggers; 19.4-19.5 voorrang aan bestuurders en voetgangers",
+      "Art. 22bis woonerf/erf (voetgangers, 20 km/u, parkeren)",
+      "Art. 32.2-32.3 oranjegele knipperlichten; art. 37 prioritaire voertuigen (blauwe lichten + geluidstoestel, dringende opdracht, rood licht); art. 38 gedrag tegenover prioritaire voertuigen; art. 39 bus verlaat halte binnen bebouwde kom; 43.2 bijzondere overrijdbare bedding en fietsers",
+      "Art. 67.3: betekenis B1, B3, B5, B7, B9, B11, B13, B15, B17, B19, B21, B22, B23. Art. 71: F12a/F12b. Geldigheid van de consolidatie: tot 31/05/2027"
+    ]
+  },
+  "VOOR-002": {
+    "url": "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+    "titel": "Koninklijk besluit van 1 december 1975 (Wegcode) - tekst op wegcode.be",
+    "uitgever": "FOD Mobiliteit en Vervoer (wegcode.be)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Pagina laatst bijgewerkt 30 oktober 2026; het reglement vervalt op 1 juni 2027",
+      "Art. 6.3: bij werkende verkeerslichten gelden voorrangsborden op dezelfde weg niet (niet voor knipperend oranjegeel, rijstrooklichten, B22, B23)",
+      "Art. 2.44 definitie middenberm; art. 12.1-12.3.1 bevestigd"
+    ]
+  },
+  "VOOR-003": {
+    "url": "https://www.wegcode.be/nl/verkeersreglement/fietsers-en-de-wegcode",
+    "titel": "Fietsers en de wegcode (rotonde, voorrangsborden, fietspad kruisen)",
+    "uitgever": "FOD Mobiliteit en Vervoer (wegcode.be)",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Rotonde (art. 2.39 en 12.3.1): voorrang aan bestuurders die al op de rotonde zijn; uitkijken voor voertuigen die oprijden",
+      "B1: voorrang verlenen; B5: stoppen en voorrang verlenen; B17: op het eerstvolgende kruispunt voorrang van rechts",
+      "Art. 12.4: einde fietspad rechtdoor naar rijbaan blijft voorrang behouden"
+    ]
+  },
+  "VOOR-004": {
+    "url": "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-voorrang-fietsers/rotondes/",
+    "titel": "Voorrang en veilig fietsen op rotondes met en zonder fietspad",
+    "uitgever": "Vlaamse Stichting Verkeerskunde (VSV)",
+    "type": "betrouwbaar",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Fietser zonder fietspad: voorrang aan wie al op de rotonde rijdt, daarna voorrang op wie oprijdt/verlaat",
+      "Doorlopend fietspad op de rotonde: bestuurders die verlaten en oprijden geven voorrang aan fietser",
+      "Fietspad rond de rotonde: onderbroken bij oversteekplaatsen met haaientanden en voorrangsborden; fietser verleent voorrang aan wie verlaat en oprijdt",
+      "Pagina verwijst naar art. 9.3.1 en 12.3.1; update 23.09.2025"
+    ]
+  },
+  "VOOR-005": {
+    "url": "https://mobilit.belgium.be/nl/weg/rijden/code-van-de-openbare-weg",
+    "titel": "Code van de openbare weg (01/06/2027)",
+    "uitgever": "FOD Mobiliteit en Vervoer",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Nieuwe Code van de openbare weg treedt in werking op 1 juni 2027 (uitgesteld van 1 september 2026)",
+      "Tot dan blijft het KB van 1 december 1975 gelden; pagina bijgewerkt 15/07/2026"
+    ]
+  },
+  "VOOR-006": {
+    "url": "https://www.vlaanderen.be/departement-mobiliteit-en-openbare-werken/inwerkingtreding-nieuwe-wegcode-uitgesteld-naar-1-juni-2027",
+    "titel": "Inwerkingtreding nieuwe wegcode uitgesteld naar 1 juni 2027",
+    "uitgever": "Vlaamse overheid, Departement Mobiliteit en Openbare Werken",
+    "type": "officieel",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Bevestigt uitstel van de nieuwe wegcode naar 1 juni 2027"
+    ]
+  },
+  "VOOR-007": {
+    "url": "https://permispass.be/nl/theorie/module-03",
+    "titel": "Voorrang van rechts en de voorrangsregels (module 3)",
+    "uitgever": "Permispass (rijopleidingsplatform)",
+    "type": "betrouwbaar",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Rangorde bevoegde persoon, lichten, borden, algemene regels; knipperend oranje beveelt niet",
+      "Uitrit van garage/parkeerplaats/tankstation is een manoeuvre; rotonde zonder verplicht-rondgaand-bord is een gewoon plein met voorrang van rechts",
+      "Tram en trein gaan altijd voor; blauw licht + sirene: weg vrijmaken; oranje zwaailicht geeft geen voorrang; bus verlaat halte binnen bebouwde kom",
+      "Middenberm: niet op te smalle berm blijven staan (enkel als praktisch advies gebruikt)"
+    ]
+  },
+  "VOOR-008": {
+    "url": "https://www.pocketdriver.be/nl/leerstof-rijbewijs-b/kruisen-inhalen-afslaan.html",
+    "titel": "Kruisen, inhalen en afslaan - Rijbewijs B",
+    "uitgever": "PocketDriver",
+    "type": "betrouwbaar",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Linksaf: voorrang aan tegenliggers die rechtdoor rijden of de rijbaan verlaten; ruime bocht; tijdig aankondigen",
+      "Bij afslaan voorrang aan voetgangers die de op te rijden rijbaan oversteken"
+    ]
+  },
+  "VOOR-009": {
+    "url": "https://www.gratisrijbewijsonline.be/theorie/leerstof-rijbewijs-b/de-voorrang-en-afslaan",
+    "titel": "Manoeuvres en voorrang bij het afslaan",
+    "uitgever": "Gratis Rijbewijs Online",
+    "type": "betrouwbaar",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Rechtdoor heeft voorrang op linksaf; rechtsaf heeft voorrang op linksaf-tegenligger",
+      "B17 voorrang van rechts, B1 en B5 definities; manoeuvres moeten voorrang verlenen"
+    ]
+  },
+  "VOOR-010": {
+    "url": "https://mijnadvocaten.be/verkeersrecht/voorrang-van-rechts-art-12-3-1-wegcode/",
+    "titel": "Voorrang van rechts (art. 12.3.1 Wegcode)",
+    "uitgever": "Alto Advocaten",
+    "type": "betrouwbaar",
+    "opgehaald": "2026-11-02",
+    "feiten": [
+      "Sinds 1 maart 2007 verliest de voorrangsgerechtigde zijn voorrang niet door te stoppen (misleiding blijft een beperking)"
+    ]
+  }
+}

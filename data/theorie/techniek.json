@@ -1,0 +1,206 @@
+{
+  "thema": "techniek",
+  "les": 4,
+  "blokken": [
+    {
+      "id": "techniek-banden",
+      "curriculum": ["T38"],
+      "titel": "Banden: profiel, spanning en slijtage",
+      "uitleg": "Je banden zijn het enige contact tussen jouw auto en de weg. Goede banden bepalen hoe snel je stilstaat en hoe stabiel je in de bocht ligt.\n\n**Profieldiepte**\n- Wettelijk minimum in België: **1,6 mm**, over de volledige breedte van het loopvlak.\n- Dat minimum geldt voor zomer-, winter- en allseasonbanden.\n- In de groeven zitten kleine verhogingen (slijtage-indicatoren, TWI). Liggen die gelijk met het loopvlak, dan zit je op 1,6 mm.\n- Experts raden aan veel vroeger te vervangen: zomerbanden rond **3 mm**, winterbanden onder **4 mm**.\n\n**Bandenspanning**\n- Controleer minstens **eens per maand** en voor een lange rit.\n- Meet altijd bij **koude** banden: warme banden geven een te hoge waarde.\n- De juiste waarde staat op een sticker (bestuurdersportier of tankdop) of in het instructieboekje. Ze kan verschillen voor voor- en achterbanden en bij zware belading.\n\n**Slijtage lezen**\n- Buitenkanten versleten: spanning te laag.\n- Middenstuk versleten: spanning te hoog.\n- Ongelijke slijtage of trillend stuur: onbalans, ophanging of uitlijning nakijken.\n- Bult of bobbel in de flank of het loopvlak: band vervangen.\n\n**Leeftijd**\n- De productiedatum staat als viercijferige code op de flank (eerste twee cijfers = week, laatste twee = jaar).\n- Na 4 à 5 jaar laat je banden best nakijken; na **10 jaar** vervang je ze, ook al zijn ze nog niet versleten.\n\n**Winterbanden**\n- In België **niet verplicht**, wel aanbevolen: ze grijpen beter bij lage temperaturen (onder ongeveer 7 graden) en op nat, koud wegdek.",
+      "regels": [
+        { "grootheid": "Wettelijk minimum profieldiepte", "waarde": "1,6 mm" },
+        { "grootheid": "Aanbevolen vervanging zomerband", "waarde": "rond 3 mm" },
+        { "grootheid": "Aanbevolen vervanging winterband", "waarde": "onder 4 mm" },
+        { "grootheid": "Bandenspanning controleren", "waarde": "maandelijks, bij koude banden" },
+        { "grootheid": "Maximumleeftijd band", "waarde": "10 jaar (daarna vervangen)" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Het wettelijk minimum", "tekst": "De wet eist 1,6 mm profieldiepte over de volledige breedte van de band. Dat is een ondergrens, geen advies." },
+        { "type": "tip", "titel": "Vervang liever vroeger", "tekst": "Met minder profiel verdrijft de band water slechter: je remweg op nat wegdek wordt langer en je kan sneller aquaplanen." },
+        { "type": "letop", "titel": "Winterbanden", "tekst": "Winterbanden zijn in België niet wettelijk verplicht. Ook voor winterbanden geldt hetzelfde wettelijke minimum van 1,6 mm." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["tech-profielmeter", "tech-bandenspanning-slijtage"],
+      "bronnen": ["TECH-008", "TECH-009"]
+    },
+    {
+      "id": "techniek-onderhoud",
+      "curriculum": ["T38"],
+      "titel": "Onderhoud: vloeistoffen, lichten en ruitenwissers",
+      "uitleg": "Met een paar eenvoudige controles voorkom je pech en gevaarlijke situaties.\n\n**Motorolie**\n- Controleer het peil ongeveer **maandelijks**, bij een stilstaande, vlakke wagen.\n- Het peil hoort halverwege tussen minimum en maximum te zitten.\n- Rood olielampje tijdens het rijden: stoppen en controleren.\n\n**Remvloeistof**\n- Remvloeistof neemt vocht op uit de lucht. Daardoor zakt het kookpunt en kunnen er bij zwaar remmen dampbellen ontstaan, waardoor je rem minder goed werkt.\n- Ze wordt daarom meestal **om de twee jaar** vervangen (volg het onderhoudsschema van je auto).\n- Zakt het peil duidelijk, dan kan er een lek zijn: laat het nakijken.\n\n**Koelvloeistof**\n- Gebruik altijd het juiste type; niet alle koelvloeistoffen zijn mengbaar.\n- Moet je kort na elkaar twee keer bijvullen, dan is er waarschijnlijk iets mis: naar de garage.\n\n**Ruitenwissers en sproeiervloeistof**\n- Vervang wissers die strepen trekken of stuiteren.\n- Vul het reservoir regelmatig bij; in de winter met vorstbestendige vloeistof.\n\n**Verlichting en banden**\n- Controleer regelmatig of alle lichten werken, ook de remlichten. Een lampje van de verlichting op het dashboard kan op een defecte lamp wijzen.\n- Bandenspanning: zie het blok over banden.\n\n**Accu**\n- De meeste pech in de winter komt door een slechte accu. Laat hem tijdig doormeten.",
+      "regels": [
+        { "onderdeel": "Motorolie", "actie": "peil maandelijks nakijken" },
+        { "onderdeel": "Remvloeistof", "actie": "meestal om de twee jaar vervangen" },
+        { "onderdeel": "Koelvloeistof", "actie": "peil controleren, juiste soort gebruiken" },
+        { "onderdeel": "Ruitenwissers", "actie": "vervangen bij strepen of stuiteren" },
+        { "onderdeel": "Sproeiervloeistof", "actie": "bijvullen, in de winter vorstbestendig" }
+      ],
+      "kaders": [
+        { "type": "tip", "titel": "Waarom remvloeistof vervangen?", "tekst": "Door opgenomen vocht kookt de remvloeistof bij een lagere temperatuur. Dampbellen laten zich samenpersen, dus je remvoet zakt dieper en je rem werkt minder." },
+        { "type": "letop", "titel": "Oververhitte motor", "tekst": "Een rood koelvloeistoflampje betekent: veilig stoppen en de motor laten afkoelen. Open de dop niet zolang alles heet is." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["tech-motorruimte"],
+      "bronnen": ["TECH-010", "TECH-011", "TECH-012"]
+    },
+    {
+      "id": "techniek-keuring",
+      "curriculum": ["T38"],
+      "titel": "Technische keuring van personenwagens",
+      "uitleg": "De technische keuring controleert of je auto veilig en niet te vervuilend is.\n\n**Wanneer in Vlaanderen?**\n- De **eerste keuring** is vier jaar nadat de wagen voor het eerst in het verkeer werd gebracht (eerste inschrijving).\n- Daarna moet je wagen in Vlaanderen **om de twee jaar** naar de keuring. Tot en met augustus 2026 was dat jaarlijks voor oudere wagens; vanaf **1 september 2026** geldt de tweejaarlijkse termijn voor alle personenwagens, ongeacht kilometerstand of leeftijd.\n- Taxi's en ziekenwagens gaan vanaf 1 september 2026 van om de zes maanden naar **jaarlijks**.\n\n**Hybride en elektrisch**\n- Ook elektrische en hybride wagens gaan voor het eerst na vier jaar.\n- Een volledig elektrische auto heeft geen uitlaat en dus geen uitstoottest. Een plug-inhybride (met verbrandingsmotor) krijgt die wel.\n\n**Vlaanderen is niet heel België**\n- De nieuwe termijnen gelden voor Vlaanderen. Brussel en Wallonië hebben eigen regels.",
+      "regels": [
+        { "situatie": "Eerste keuring personenwagen", "termijn": "4 jaar na eerste inschrijving" },
+        { "situatie": "Daarna (Vlaanderen, vanaf 1 september 2026)", "termijn": "om de 2 jaar" },
+        { "situatie": "Taxi / ziekenwagen (vanaf 1 september 2026)", "termijn": "jaarlijks" }
+      ],
+      "kaders": [
+        { "type": "gewest", "titel": "Keuring per gewest", "tekst": "De tweejaarlijkse keuring na de eerste keuring is een Vlaamse regeling.", "gewest": { "vlaanderen": "Eerste keuring na 4 jaar, daarna om de 2 jaar (vanaf 1 september 2026).", "wallonie": "Eigen regels; de Vlaamse termijnen gelden daar niet.", "brussel": "Eigen regels; de Vlaamse termijnen gelden daar niet." } },
+        { "type": "letop", "titel": "Recent veranderd", "tekst": "Oudere bronnen noemen nog een jaarlijkse keuring of een grens van 160.000 km. Die info is achterhaald." }
+      ],
+      "uitzonderingen": ["Voor een wagen waarvan het keuringsbewijs al voor 1 september 2026 verviel, golden nog de oude regels."],
+      "afbeeldingen": ["tech-keuring-tijdlijn"],
+      "bronnen": ["TECH-001", "TECH-002", "TECH-003", "TECH-004"]
+    },
+    {
+      "id": "techniek-uitrusting",
+      "curriculum": ["T38"],
+      "titel": "Verplichte uitrusting in de auto",
+      "uitleg": "In een personenwagen moeten vier zaken aan boord zijn:\n\n- **Gevarendriehoek**\n- **Brandblusser** van minstens 1 kg, goedgekeurd en snel bereikbaar\n- **Fluohesje**, minstens één (voor de bestuurder)\n- **Verbanddoos** (EHBO-set)\n\n**De gevarendriehoek gebruiken**\n- Gebruik hem bij pech, ongeval of verloren lading die je niet meteen kan weghalen.\n- Plaats hem op gewone wegen **30 m** achter het voertuig.\n- Op de autosnelweg plaats je hem op **100 m**.\n\n**Het fluohesje**\n- Verplicht sinds 1 juni 2009.\n- Trek het aan **voor je uitstapt**, dus bewaar het binnen handbereik en niet in de koffer.\n\n**De brandblusser**\n- Controleer de vervaldatum en of het zegel intact is.\n- Bewaar hem binnen handbereik van de bestuurder, niet diep weggestopt.\n\n**Bij pech op de autosnelweg**\n- Hesje aan, uitstappen langs de kant van de berm, driehoek plaatsen en achter de vangrail wachten.",
+      "regels": [
+        { "voorwerp": "Gevarendriehoek", "eis": "verplicht; 30 m achter de wagen, 100 m op autosnelweg" },
+        { "voorwerp": "Brandblusser", "eis": "minstens 1 kg, goedgekeurd, bereikbaar, niet vervallen" },
+        { "voorwerp": "Fluohesje", "eis": "minstens 1; aantrekken voor je uitstapt" },
+        { "voorwerp": "Verbanddoos", "eis": "minstens 1 per voertuig, volledig" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Afstand van de driehoek", "tekst": "30 meter achter het voertuig buiten de autosnelweg, 100 meter op de autosnelweg." },
+        { "type": "zwarefout", "titel": "Hesje in de koffer", "tekst": "Een hesje dat in de koffer ligt, trek je pas aan nadat je al op de gevaarlijke plek staat. Bewaar het binnen handbereik." }
+      ],
+      "uitzonderingen": ["Binnen de bebouwde kom kan de driehoek dichter bij de wagen of op de wagen geplaatst worden wanneer 30 m niet haalbaar is."],
+      "afbeeldingen": ["tech-uitrusting"],
+      "bronnen": ["TECH-005", "TECH-006", "TECH-007"]
+    },
+    {
+      "id": "techniek-dashboard-kleuren",
+      "curriculum": ["T39"],
+      "titel": "Dashboardlampjes: de kleurcode",
+      "uitleg": "De kleur van een controlelampje zegt hoe dringend het is.\n\n- **Rood**: gevaar of veiligheid. Veilig stoppen en de oorzaak nagaan. Doorrijden kan schade of gevaar geven.\n- **Oranje (geel)**: een systeem werkt niet goed of moet nagekeken worden. Je kan meestal nog rustig doorrijden naar een garage, maar stel het niet uit.\n- **Groen**: een systeem staat aan en werkt (bv. richtingaanwijzer, stadslichten, cruisecontrol).\n- **Blauw**: enkel het **grootlicht** is aan.\n\n**Opmerkingen**\n- Veel lampjes branden even bij het contact zetten als zelftest en doven dan. Blijft er één branden, dan is er iets aan de hand.\n- Een **knipperend** motorlampje is ernstiger dan een brandend lampje: veilig stoppen.\n- Symbolen kunnen per merk en model verschillen. De handleiding van de auto is de laatste referentie.",
+      "regels": [
+        { "kleur": "Rood", "betekenis": "gevaar of veiligheid: veilig stoppen en nagaan" },
+        { "kleur": "Oranje / geel", "betekenis": "storing of nazicht nodig: snel naar de garage" },
+        { "kleur": "Groen", "betekenis": "systeem is aan en werkt" },
+        { "kleur": "Blauw", "betekenis": "grootlicht aan" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Rood = stoppen", "tekst": "Bij een rood lampje zet je de wagen veilig aan de kant en zoek je de oorzaak, of bel je pechhulp." },
+        { "type": "letop", "titel": "Blauw is geen waarschuwing", "tekst": "Een blauw lampje wil gewoon zeggen dat je grootlicht brandt. Schakel het uit bij tegenliggers." }
+      ],
+      "uitzonderingen": ["Het exacte symbool en de exacte kleur van sommige lampjes kunnen per merk verschillen."],
+      "afbeeldingen": ["tech-dashboard-kleuren"],
+      "bronnen": ["TECH-012", "TECH-013"]
+    },
+    {
+      "id": "techniek-dashboard-symbolen",
+      "curriculum": ["T39"],
+      "titel": "De belangrijkste dashboardsymbolen",
+      "uitleg": "Leer deze symbolen kennen. Daarna weet je wat je moet doen.\n\n**Rood: stoppen**\n- **Oliedruk** (oliekannetje): te lage oliedruk, vaak laag oliepeil. Stoppen, motor uit, peil controleren. Blijft het branden: niet verder rijden en pechhulp bellen.\n- **Remmen**: te weinig remvloeistof, handrem nog aan of een probleem in het remsysteem. Eerst handrem controleren; doorrijden kan gevaarlijk zijn.\n- **Accu / laadcircuit**: het lampje moet na het starten doven. Blijft het branden, dan is er een probleem met dynamo, kabel of aandrijfriem: stoppen op een veilige plek.\n- **Koelvloeistof / temperatuur**: motor te warm of koelvloeistof op. Stoppen en laten afkoelen.\n\n**Oranje: laten nakijken**\n- **Airbag**: de airbag of gordelspanner werkt mogelijk niet. Je moet niet onmiddellijk stoppen, maar laat het snel nakijken.\n- **Motor (check engine)**: storing in motor of elektronica van brandstof en ontsteking. Knippert het lampje, dan is het ernstiger: veilig stoppen.\n- **ABS**: storing in het antiblokkeersysteem. Je remt nog, maar zonder ABS: rustig rijden en laten nakijken.\n- **ESP/ESC**: knippert tijdens het rijden = het systeem grijpt in (glad wegdek, rustiger rijden). Blijft het branden = storing.\n- **Dieselfilter (roetfilter)**: filter verstopt of defect. Laat het nakijken; bij duidelijk vermogensverlies niet verder rijden.\n- **Stuurbekrachtiging**: stuur wordt zwaarder.\n- **Verlichting**: een lamp (ook remlicht) is defect.\n- **Bandenspanning (TPMS)**: spanning in een of meer banden is te laag. Controleer de banden en pomp ze op.\n\n**Gloeibougie (diesel)**\n- Brandt tijdens het voorgloeien; wacht tot het gedoofd is voor je start. Knippert het lampje of blijft het branden tijdens het rijden, dan is er een storing: naar de garage.",
+      "regels": [
+        { "symbool": "Oliedruk", "reactie": "stoppen, peil controleren, bij blijven branden pechhulp" },
+        { "symbool": "Remmen", "reactie": "handrem controleren, remvloeistof; niet zomaar doorrijden" },
+        { "symbool": "Accu / laadcircuit", "reactie": "stoppen op veilige plek, pechhulp" },
+        { "symbool": "Koelvloeistof / temperatuur", "reactie": "stoppen, laten afkoelen" },
+        { "symbool": "Airbag", "reactie": "snel laten nakijken" },
+        { "symbool": "Motorstoring", "reactie": "naar garage; knipperend = veilig stoppen" },
+        { "symbool": "ABS", "reactie": "rustig remmen, laten nakijken" },
+        { "symbool": "ESP / ESC", "reactie": "knipperend = systeem grijpt in; blijvend = storing" },
+        { "symbool": "Dieselfilter", "reactie": "laten nakijken; bij vermogensverlies niet verder" },
+        { "symbool": "Bandenspanning", "reactie": "banden controleren en oppompen" }
+      ],
+      "kaders": [
+        { "type": "tip", "titel": "Knipperen betekent ernstiger of actief", "tekst": "Bij het motorlampje wijst knipperen op een ernstiger probleem. Bij ESP wijst knipperen erop dat het systeem net ingrijpt." },
+        { "type": "letop", "titel": "Kleur kan verschillen", "tekst": "Niet elk merk toont dezelfde kleur voor dezelfde functie (bv. bandenspanning, accu). Leer de betekenis en raadpleeg de handleiding." }
+      ],
+      "uitzonderingen": ["Het motorsymbool kan per merk een andere betekenis hebben (injectie, uitlaat, katalysator of onderhoudsmelding); zie de handleiding."],
+      "afbeeldingen": ["tech-dashboard-rood", "tech-dashboard-oranje", "tech-dashboard-groen-blauw"],
+      "bronnen": ["TECH-012", "TECH-013"]
+    },
+    {
+      "id": "techniek-zuinig-rijden",
+      "curriculum": ["T40"],
+      "titel": "Zuinig en milieubewust rijden",
+      "uitleg": "Met de juiste rijstijl kan je ongeveer **10 % brandstof** besparen. Je stoot ook minder CO2 uit en rijdt rustiger en veiliger.\n\n**Rijstijl**\n- **Anticipeer**: kijk ver vooruit, zodat je minder moet remmen en optrekken.\n- **Rij gelijkmatig** en hou een zo constante snelheid aan.\n- **Schakel vroeg op**, rond 2.000 à 2.500 toeren, en rij zo vaak mogelijk met een laag toerental.\n- **Vertragen**: schakel niet terug, maar laat de auto uitrollen in de versnelling waar je in zit.\n- Zet de motor uit bij langere stops (bv. aan een brug die open staat of een spoorwegovergang), en start daarna zonder gas te geven.\n\n**De auto**\n- Controleer de **bandenspanning** maandelijks: zachte banden rollen zwaarder en verhogen het verbruik.\n- Haal onnodige **lading** uit de auto: extra gewicht kost brandstof.\n- Gebruik **airco** en een **dakkoffer** bewust: ze verhogen het verbruik. Haal een lege dakkoffer eraf.\n- Een **toerenteller, cruisecontrol of boordcomputer** helpt je op koers te blijven.",
+      "regels": [
+        { "tip": "Anticiperen en gelijkmatig rijden", "effect": "minder remmen en optrekken" },
+        { "tip": "Vroeg opschakelen (2.000-2.500 toeren)", "effect": "lager toerental, lager verbruik" },
+        { "tip": "Uitrollen i.p.v. terugschakelen", "effect": "geen brandstof nodig tijdens uitrollen" },
+        { "tip": "Bandenspanning maandelijks controleren", "effect": "minder rolweerstand" },
+        { "tip": "Dakkoffer en ballast weg", "effect": "minder luchtweerstand en gewicht" }
+      ],
+      "kaders": [
+        { "type": "tip", "titel": "Besparing in de praktijk", "tekst": "Met een zuinige rijstijl is een besparing van ongeveer 10 % haalbaar." },
+        { "type": "letop", "titel": "Zuinig ≠ traag", "tekst": "Zuinig rijden betekent niet dat je het verkeer ophoudt. Hou je aan de snelheidsregels en rij gelijkmatig mee met de verkeersstroom." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["tech-zuinig-rijden"],
+      "bronnen": ["TECH-014", "TECH-011", "TECH-009"]
+    },
+    {
+      "id": "techniek-milieu-euronorm",
+      "curriculum": ["T40"],
+      "titel": "Uitstoot: Euronormen en CO2",
+      "uitleg": "Een brandstofmotor stoot gassen uit. Sommige zijn schadelijk voor de gezondheid, andere versterken het broeikaseffect.\n\n**Schadelijke stoffen en de Euronorm**\n- De Europese **Euronormen** leggen grenzen vast voor de uitstoot van onder meer **stikstofoxiden (NOx)**, **fijn stof**, koolmonoxide en koolwaterstoffen.\n- Je auto behoort tot een Euronorm (Euro 1, 2, ... 6). Een hoger cijfer betekent strengere grenzen en dus een schonere auto.\n- De Euronorm van je auto staat op het **inschrijvingsbewijs** en op de **Car-Pass**.\n- In een lage-emissiezone bepaalt de Euronorm (of de datum van eerste inschrijving) of je binnen mag.\n\n**CO2**\n- CO2 is een broeikasgas dat ontstaat bij het verbranden van benzine en diesel. Hoe minder je verbruikt, hoe minder CO2 je uitstoot.\n- Een elektrische auto stoot zelf geen uitlaatgassen uit.\n\n**Dieselfilter**\n- Dieselwagens hebben een roetfilter (partikelfilter) die fijn stof vasthoudt. Brandt het dieselfilterlampje, laat het dan nakijken.",
+      "regels": [
+        { "begrip": "Euronorm", "betekenis": "Europese grenswaarden voor schadelijke uitstoot (NOx, fijn stof, ...)" },
+        { "begrip": "Hoger Euro-cijfer", "betekenis": "strengere norm, schonere auto" },
+        { "begrip": "Waar staat de Euronorm?", "betekenis": "inschrijvingsbewijs en Car-Pass" },
+        { "begrip": "CO2", "betekenis": "broeikasgas; neemt af met lager brandstofverbruik" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Waar vind je de Euronorm?", "tekst": "Op het inschrijvingsbewijs en op de Car-Pass van de wagen." },
+        { "type": "tip", "titel": "Minder verbruik = minder CO2", "tekst": "Zuinig rijden verlaagt je verbruik en dus je CO2-uitstoot." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["tech-euronorm"],
+      "bronnen": ["TECH-019", "TECH-015", "TECH-012"]
+    },
+    {
+      "id": "techniek-lez",
+      "curriculum": ["T40"],
+      "titel": "Lage-emissiezones (LEZ)",
+      "uitleg": "Een **lage-emissiezone (LEZ)** is een gebied waar enkel voertuigen met een voldoende lage uitstoot vrij mogen rijden.\n\n**Waar?**\n- In Vlaanderen hebben **Antwerpen** en **Gent** een LEZ.\n- Ook **Brussel** is bijna volledig een LEZ, met eigen toegangsvoorwaarden.\n- Wallonië heeft geen regionale LEZ meer.\n\n**Hoe herken je een LEZ?**\n- Een LEZ is afgebakend met **speciale verkeersborden** en geldt **24 uur op 24, 7 dagen op 7**.\n\n**Wie mag binnen?**\n- Of je binnen mag hangt af van je voertuigcategorie, brandstof en **Euronorm** (of de datum van eerste inschrijving).\n- De regels gelden voor auto's, bestelwagens, bussen, vrachtwagens en dergelijke op diesel, benzine, gas of hybride.\n- **Altijd welkom**: elektrische en waterstofvoertuigen, bromfietsen en motorfietsen, en hulpdiensten.\n- Voor Antwerpen en Gent blijven in 2026 diesel **Euro 5** en benzine **Euro 2** nog toegelaten, omdat de geplande verstrenging werd ingetrokken.\n- In **Brussel** zijn de voorwaarden strenger: diesel minstens **Euro 6**, benzine minstens **Euro 3**.\n\n**Buitenlandse voertuigen en dagpas**\n- Voertuigen met een buitenlandse nummerplaat moeten zich registreren. Die registratie geldt voor Gent en Antwerpen samen, maar niet voor Brussel.\n- Mag je voertuig er niet in, dan kan je soms een **dagpas** kopen. Die geldt enkel in de stad waar je ze kocht. In Brussel kost ze 35 euro.\n\n**Zonder toelating**\n- Rijd je een LEZ binnen zonder toelating, dan riskeer je een boete.",
+      "regels": [
+        { "stad": "Antwerpen", "toegang": "LEZ, 24/7; diesel Euro 5 en benzine Euro 2 nog toegelaten (2026)" },
+        { "stad": "Gent", "toegang": "LEZ, 24/7; diesel Euro 5 en benzine Euro 2 nog toegelaten (2026)" },
+        { "stad": "Brussel", "toegang": "LEZ, 24/7; diesel min. Euro 6, benzine min. Euro 3" }
+      ],
+      "kaders": [
+        { "type": "gewest", "titel": "LEZ per gewest", "tekst": "De regels verschillen per gewest.", "gewest": { "vlaanderen": "LEZ in Antwerpen en Gent.", "wallonie": "Geen regionale LEZ meer.", "brussel": "Bijna heel Brussel is een LEZ, met strengere voorwaarden." } },
+        { "type": "tip", "titel": "Altijd binnen", "tekst": "Elektrische en waterstofauto's, bromfietsen en motorfietsen mogen altijd binnen een LEZ." },
+        { "type": "letop", "titel": "Normen kunnen veranderen", "tekst": "De toegangsvoorwaarden worden regelmatig aangepast. Controleer ze voor je vertrekt op de website van de stad of het gewest." }
+      ],
+      "uitzonderingen": ["Hulpdiensten en militaire voertuigen mogen altijd binnen.", "Voertuigen voor personen met een beperking en oldtimers vallen onder een eigen regeling en moeten zich soms registreren."],
+      "afbeeldingen": ["tech-lez-bord", "tech-lez-kaart"],
+      "bronnen": ["TECH-015", "TECH-016", "TECH-017", "TECH-020"]
+    },
+    {
+      "id": "techniek-hybride-elektrisch",
+      "curriculum": ["T40"],
+      "titel": "Hybride en elektrische auto's",
+      "uitleg": "Hybride en elektrische auto's gebruiken (deels) een elektromotor. Dat kan het verbruik en de uitstoot verlagen.\n\n**Soorten hybride**\n- **Micro-hybride**: enkel een start-stopsysteem dat de motor uitzet bij stilstand.\n- **Mild hybrid**: een kleine elektromotor ondersteunt de brandstofmotor.\n- **Full hybrid**: grotere motor en batterij. De batterij laadt tijdens het rijden en het remmen. Je rijdt vooral stadsritten een stuk elektrisch.\n- **Plug-inhybride**: grotere batterij die je met een kabel laadt. Tot ongeveer 50 km volledig elektrisch.\n\n**Regeneratief remmen**\n- Bij het afremmen werkt de elektromotor als generator. De energie die anders verloren gaat, wordt in de batterij opgeslagen.\n\n**Volledig elektrisch**\n- Geen uitlaat en dus geen uitlaatgassen, en geen uitstoottest bij de keuring.\n- Altijd welkom in lage-emissiezones.\n\n**Plug-inhybride: opladen!**\n- Een plug-in heeft enkel zin als je hem regelmatig oplaadt. Anders rijd je meestal op de brandstofmotor.",
+      "regels": [
+        { "type": "Micro-hybride", "kenmerk": "enkel start-stop" },
+        { "type": "Mild hybrid", "kenmerk": "kleine elektromotor ondersteunt de brandstofmotor" },
+        { "type": "Full hybrid", "kenmerk": "batterij laadt tijdens rijden en remmen" },
+        { "type": "Plug-inhybride", "kenmerk": "batterij te laden met kabel; tot ca. 50 km elektrisch" },
+        { "type": "Elektrisch", "kenmerk": "geen uitlaatgassen" }
+      ],
+      "kaders": [
+        { "type": "regel", "titel": "Regeneratief remmen", "tekst": "Bij afremmen wint de auto energie terug en slaat die op in de batterij." },
+        { "type": "tip", "titel": "Keuring", "tekst": "Een elektrische wagen heeft geen uitstoottest bij de keuring. Een plug-inhybride, die ook een verbrandingsmotor heeft, wel." }
+      ],
+      "uitzonderingen": [],
+      "afbeeldingen": ["tech-hybride-soorten"],
+      "bronnen": ["TECH-018", "TECH-004", "TECH-015"]
+    }
+  ]
+}

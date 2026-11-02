@@ -1,0 +1,370 @@
+{
+  "thema": "snelheden",
+  "les": 1,
+  "blokken": [
+    {
+      "id": "snelheden-overzicht-gewest",
+      "curriculum": ["T08"],
+      "titel": "Snelheden per gewest: overzicht",
+      "uitleg": "De maximumsnelheid hangt af van **waar** je rijdt (binnen of buiten de bebouwde kom, soort weg) en van **in welk gewest** je rijdt. Een verkeersbord (bijvoorbeeld C43 of F4a) gaat altijd voor op de algemene regel. Onderstaande tabel geldt voor personenwagens (max. 3,5 ton) wanneer er geen bord iets anders zegt.",
+      "regels": [
+        { "wegtype": "Binnen de bebouwde kom", "vlaanderen": "50 km/u", "wallonie": "50 km/u (30 km/u op delen voor voetgangers/fietsers met D9 of D10)", "brussel": "30 km/u" },
+        { "wegtype": "Buiten de bebouwde kom, gewone weg", "vlaanderen": "70 km/u (90 km/u enkel waar een bord C43 '90' staat)", "wallonie": "90 km/u (70 km/u op de middenrijbaan)", "brussel": "70 km/u" },
+        { "wegtype": "Buiten de bebouwde kom, 2x2 rijstroken gescheiden door enkel markeringen", "vlaanderen": "70 km/u (90 km/u met bord C43 '90')", "wallonie": "90 km/u", "brussel": "70 km/u" },
+        { "wegtype": "Buiten de bebouwde kom, 2x2 rijstroken met fysieke middenberm", "vlaanderen": "120 km/u", "wallonie": "120 km/u", "brussel": "120 km/u" },
+        { "wegtype": "Autosnelweg (F5)", "vlaanderen": "120 km/u", "wallonie": "120 km/u", "brussel": "120 km/u" },
+        { "wegtype": "Zone 30 (F4a/F4b)", "vlaanderen": "30 km/u", "wallonie": "30 km/u", "brussel": "30 km/u" },
+        { "wegtype": "Woonerf en erf (F12a/F12b)", "vlaanderen": "20 km/u", "wallonie": "20 km/u", "brussel": "20 km/u" }
+      ],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Wat is de standaardsnelheid zonder bord?",
+          "tekst": "Het verschil tussen de gewesten zit vooral in de bebouwde kom en op gewone wegen buiten de bebouwde kom.",
+          "gewest": {
+            "vlaanderen": "Bebouwde kom 50, buiten de bebouwde kom 70 (sinds 2017 de standaard; 90 enkel met bord C43 '90').",
+            "wallonie": "Bebouwde kom 50, buiten de bebouwde kom 90 (70 op een middenrijbaan).",
+            "brussel": "Bebouwde kom 30 (sinds 1 januari 2021), buiten de bebouwde kom 70."
+          }
+        },
+        {
+          "type": "letop",
+          "titel": "Een bord wint van de algemene regel",
+          "tekst": "Staat er een bord C43 (maximumsnelheid), dan geldt dat bord in plaats van de tabel, tot het einde van de maatregel. Het kan lager of hoger zijn dan de standaardsnelheid."
+        },
+        {
+          "type": "tip",
+          "titel": "Onthoud het trio",
+          "tekst": "Bebouwde kom: Brussel 30, de rest 50. Buiten de bebouwde kom: Wallonie 90, de rest 70. Autosnelweg: overal 120."
+        }
+      ],
+      "afbeeldingen": ["C43-50", "C43-70", "C43-90", "F5"],
+      "bronnen": ["SNEL-001", "SNEL-002", "SNEL-003", "SNEL-007"]
+    },
+    {
+      "id": "snelheden-bebouwde-kom",
+      "curriculum": ["T08"],
+      "titel": "De bebouwde kom: begin, einde en snelheid",
+      "uitleg": "Een **bebouwde kom** is een gebied met bebouwing waarvan de toegangswegen zijn aangeduid met het bord F1 (F1a of F1b) en de uitgangen met het bord F3 (F3a of F3b). Je herkent het begin dus aan het bord F1a/F1b en het einde aan F3a/F3b. Het bord staat rechts van de weg en mag links herhaald worden. Het bord zelf bepaalt de grens, niet het aantal huizen dat je ziet.\n\nWat het bord F1 betekent voor je snelheid, hangt af van het gewest:\n- Vlaanderen en Wallonie: maximaal **50 km/u**.\n- Brussels Hoofdstedelijk Gewest: maximaal **30 km/u**.",
+      "regels": [
+        { "begrip": "Begin bebouwde kom", "bord": "F1a / F1b", "betekenis": "Je rijdt de bebouwde kom binnen; de standaardsnelheid voor dat gewest geldt." },
+        { "begrip": "Einde bebouwde kom", "bord": "F3a / F3b", "betekenis": "Je verlaat de bebouwde kom; de snelheidsregels buiten de bebouwde kom gelden weer." }
+      ],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Snelheid na het bord F1",
+          "tekst": "Het F1-bord zelf toont geen cijfer, maar de wegcode koppelt er een snelheid aan.",
+          "gewest": {
+            "vlaanderen": "50 km/u in de bebouwde kom.",
+            "wallonie": "50 km/u in de bebouwde kom (30 km/u op gedeelten met D9 of D10).",
+            "brussel": "30 km/u in de bebouwde kom."
+          }
+        },
+        {
+          "type": "regel",
+          "titel": "Terug naar de standaardsnelheid",
+          "tekst": "Staat er in de bebouwde kom een bord C43 met een andere snelheid, dan geldt vanaf het volgende kruispunt weer de standaardsnelheid (30 in Brussel, 50 in Vlaanderen en Wallonie). Na het einde van een zone 30, een erf of een schoolomgeving geldt die standaardsnelheid ook weer."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Niet gokken op het aantal huizen",
+          "tekst": "Je beslist niet zelf of je 'in de bebouwde kom' bent. Alleen de borden F1 en F3 leggen de grens vast."
+        }
+      ],
+      "uitzonderingen": [
+        "Een bord C43 kan in de bebouwde kom een lagere of hogere snelheid opleggen.",
+        "Lagere limieten voor bepaalde voertuigen (bijvoorbeeld bromfietsen) blijven ook in de bebouwde kom gelden."
+      ],
+      "afbeeldingen": ["F1a", "F1b", "F3a", "F3b"],
+      "bronnen": ["SNEL-001", "SNEL-002", "SNEL-004"]
+    },
+    {
+      "id": "snelheden-brussel-30",
+      "curriculum": ["T08"],
+      "titel": "Brussel: 30 km/u als norm",
+      "uitleg": "In het Brussels Hoofdstedelijk Gewest is **30 km/u** sinds **1 januari 2021** de algemene snelheid binnen de bebouwde kom. Alleen op een beperkt aantal grote assen blijft 50 of 70 km/u gelden, en dat wordt met borden aangeduid. In woonerven geldt 20 km/u.\n\nWie van de ene limiet naar de andere rijdt, let dus altijd op borden: zonder bord geldt in Brussel de bebouwde kom-regel van 30 km/u.",
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Zelfde plaats, andere limiet",
+          "tekst": "Op een straat in de bebouwde kom zonder bord:",
+          "gewest": {
+            "vlaanderen": "50 km/u.",
+            "wallonie": "50 km/u.",
+            "brussel": "30 km/u."
+          }
+        },
+        {
+          "type": "letop",
+          "titel": "Grote assen",
+          "tekst": "Op sommige Brusselse assen staat een bord C43 met 50 of 70. Na een kruispunt zonder nieuw bord geldt weer 30 km/u."
+        }
+      ],
+      "uitzonderingen": [
+        "Het F1-bord in Brussel betekent dat 30 km/u geldt, tenzij een bord C43 iets anders aangeeft.",
+        "Buiten de bebouwde kom blijft de Brusselse standaard 70 km/u."
+      ],
+      "afbeeldingen": ["F1a", "C43-30", "C43-50", "C43-70"],
+      "bronnen": ["SNEL-001", "SNEL-004", "SNEL-006"]
+    },
+    {
+      "id": "snelheden-buiten-bebouwde-kom",
+      "curriculum": ["T08"],
+      "titel": "Buiten de bebouwde kom",
+      "uitleg": "Buiten de bebouwde kom verschilt de standaardsnelheid per gewest:\n- **Vlaanderen**: 70 km/u. Een hogere snelheid van 90 km/u geldt enkel waar het bord **C43 '90'** staat.\n- **Brussel**: 70 km/u.\n- **Wallonie**: 90 km/u; op de middenrijbaan 70 km/u.\n\nOp wegen met minstens twee rijstroken per richting hangt de limiet af van de scheiding tussen de rijrichtingen: bij een **fysieke middenberm** geldt overal 120 km/u, bij enkel **markeringen** geldt de gewone gewestlimiet (70 in Vlaanderen en Brussel, 90 in Wallonie; in Vlaanderen 90 met bord C43 '90').",
+      "regels": [
+        { "situatie": "Gewone weg", "vlaanderen": "70 (90 met C43 '90')", "wallonie": "90", "brussel": "70" },
+        { "situatie": "Middenrijbaan", "vlaanderen": "70", "wallonie": "70", "brussel": "70" },
+        { "situatie": "2x2, enkel markeringen", "vlaanderen": "70 (90 met C43 '90')", "wallonie": "90", "brussel": "70" },
+        { "situatie": "2x2, fysieke middenberm", "vlaanderen": "120", "wallonie": "120", "brussel": "120" }
+      ],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Gewone weg buiten de bebouwde kom, geen bord",
+          "tekst": "Dit is het meest gevraagde verschil.",
+          "gewest": {
+            "vlaanderen": "70 km/u (sinds 1 januari 2017). 90 enkel met bord C43 '90'.",
+            "wallonie": "90 km/u.",
+            "brussel": "70 km/u."
+          }
+        },
+        {
+          "type": "zwarefout",
+          "titel": "'Buiten de bebouwde kom is het overal 90'",
+          "tekst": "Dat klopt niet meer. In Vlaanderen en Brussel is de standaard 70. Alleen Wallonie heeft 90 als algemene regel."
+        },
+        {
+          "type": "tip",
+          "titel": "120 is een kwestie van scheiding",
+          "tekst": "Buiten de autosnelweg haal je enkel 120 als de twee rijrichtingen echt gescheiden zijn door een middenberm of ander fysiek obstakel. Alleen witte lijnen volstaan niet."
+        }
+      ],
+      "uitzonderingen": [
+        "Bord C43 kan een lagere of hogere snelheid opleggen.",
+        "Zwaardere voertuigen en bussen hebben eigen lagere limieten (zie blok 'Snelheid naargelang het voertuig').",
+        "Een vakantiezone buiten de bebouwde kom kan met een zonaal bord C43 (50 of 70) en bord A51 afgebakend zijn."
+      ],
+      "afbeeldingen": ["C43-70", "C43-90", "C45"],
+      "bronnen": ["SNEL-001", "SNEL-002", "SNEL-003", "SNEL-007"]
+    },
+    {
+      "id": "snelheden-autosnelweg-autoweg",
+      "curriculum": ["T08"],
+      "titel": "Autosnelweg en autoweg",
+      "uitleg": "Een **autosnelweg** begint bij bord F5 en eindigt bij bord F7. Daar geldt in elk gewest een maximum van **120 km/u** en een minimum van **70 km/u**, tenzij een bord C43 een lagere snelheid oplegt. Wie door omstandigheden (verkeer, weer) trager moet rijden, past zijn snelheid aan.\n\nVoertuigen die op een vlakke weg geen 70 km/u kunnen halen, mogen de autosnelweg niet op.\n\nEen **autoweg** (bord F9) heeft geen eigen snelheidsregel en ook geen minimumsnelheid. De maximumsnelheid volgt de omgeving: binnen of buiten de bebouwde kom en de gewestregels. Alleen motorvoertuigen en hun aanhangwagens zijn er toegelaten, geen bromfietsen en landbouwvoertuigen.",
+      "regels": [
+        { "weg": "Autosnelweg (F5 tot F7)", "maximum": "120 km/u", "minimum": "70 km/u (tenzij C43 lager of omstandigheden)" },
+        { "weg": "Autoweg (F9)", "maximum": "volgt de gewone regels voor die plek", "minimum": "geen" }
+      ],
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Autosnelweg: overal gelijk",
+          "tekst": "De 120 is niet gewestgebonden.",
+          "gewest": {
+            "vlaanderen": "120 km/u (bussen en voertuigen boven 3,5 ton: 90).",
+            "wallonie": "120 km/u (bussen en voertuigen boven 3,5 ton: 90).",
+            "brussel": "120 km/u in theorie, maar bijna overal lager aangeduid met borden (bussen en voertuigen boven 3,5 ton: 90)."
+          }
+        },
+        {
+          "type": "letop",
+          "titel": "Autoweg is geen autosnelweg",
+          "tekst": "Op een autoweg geldt niet automatisch 120. Zonder middenberm tussen de rijrichtingen volg je de gewone limiet van het gewest of het bord."
+        }
+      ],
+      "uitzonderingen": [
+        "Autocars met gordels op alle zitplaatsen en een snelheidsbegrenzer tot 100 km/u mogen op de autosnelweg 100 km/u rijden.",
+        "De minimumsnelheid van 70 km/u geldt niet wanneer een bord C43 een lagere snelheid oplegt."
+      ],
+      "afbeeldingen": ["F5", "F7", "F9"],
+      "bronnen": ["SNEL-001", "SNEL-003", "SNEL-007"]
+    },
+    {
+      "id": "snelheden-zone-30",
+      "curriculum": ["T09"],
+      "titel": "Zone 30",
+      "uitleg": "Een **zone 30** begint bij bord **F4a** en eindigt bij bord **F4b**. Binnen die zone mag je maximaal **30 km/u** rijden, in alle gewesten. De borden staan rechts van de weg en mogen links herhaald worden.\n\nVerhoogde inrichtingen (zoals een verkeersdrempel) mag je met hoogstens 30 km/u overrijden, met dubbele voorzichtigheid. Dit geldt zeker binnen een zone F4a/F4b.\n\nNa het einde van de zone (F4b) geldt in de bebouwde kom weer de standaardsnelheid: 50 in Vlaanderen en Wallonie, 30 in Brussel.",
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Wat geldt nadat je de zone 30 verlaat?",
+          "tekst": "Na F4b val je terug op de bebouwde-komregel (als je nog in de bebouwde kom zit).",
+          "gewest": {
+            "vlaanderen": "Terug 50 km/u in de bebouwde kom.",
+            "wallonie": "Terug 50 km/u in de bebouwde kom.",
+            "brussel": "Blijft 30 km/u (de standaard in de bebouwde kom)."
+          }
+        },
+        {
+          "type": "regel",
+          "titel": "Begin en einde",
+          "tekst": "F4a = begin zone 30, F4b = einde zone 30. De 30 km/u geldt over de hele zone, ook op zijstraten binnen de zone."
+        },
+        {
+          "type": "tip",
+          "titel": "Drempel in een zone",
+          "tekst": "Een drempel (A14 en F87) overrijd je met hoogstens 30 km/u. In een zone 30 volgt dit uit de zone zelf."
+        }
+      ],
+      "afbeeldingen": ["F4a", "F4b", "A14", "F87"],
+      "bronnen": ["SNEL-001", "SNEL-003", "SNEL-007"]
+    },
+    {
+      "id": "snelheden-woonerf-erf",
+      "curriculum": ["T09"],
+      "titel": "Woonerf en erf",
+      "uitleg": "Een **woonerf** of **erf** begint bij bord **F12a** en eindigt bij **F12b**. In een woonerf overweegt de woonfunctie; een erf lijkt erop, maar daar kunnen ook ambacht, handel, toerisme, onderwijs en recreatie voorkomen.\n\nDe regels in een woonerf of erf:\n- De snelheid is beperkt tot **20 km/u**.\n- Voetgangers mogen de volledige breedte van de weg gebruiken, en spelen is er toegelaten.\n- Bestuurders mogen voetgangers niet in gevaar brengen of hinderen, moeten zo nodig stoppen en zijn dubbel voorzichtig ten aanzien van kinderen.\n- Parkeren mag enkel op afgebakende plaatsen met een P of waar een bord het toelaat.",
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Woonerf of erf",
+          "tekst": "Deze regel is in het hele land dezelfde.",
+          "gewest": {
+            "vlaanderen": "20 km/u.",
+            "wallonie": "20 km/u.",
+            "brussel": "20 km/u."
+          }
+        },
+        {
+          "type": "letop",
+          "titel": "Voetgangers gebruiken de hele weg",
+          "tekst": "Voetgangers mogen de volledige breedte van de weg gebruiken en er spelen. Als bestuurder mag je hen niet hinderen of in gevaar brengen, al mogen ook de voetgangers het verkeer niet nodeloos belemmeren."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Zone 30 en woonerf verwisselen",
+          "tekst": "Zone 30 (F4a/F4b) = 30 km/u. Woonerf of erf (F12a/F12b) = 20 km/u. Het cijfer en het bord horen bij elkaar."
+        }
+      ],
+      "uitzonderingen": [
+        "Na het einde van een woonerf of erf in een bebouwde kom geldt weer de standaardsnelheid van het gewest."
+      ],
+      "afbeeldingen": ["F12a", "F12b"],
+      "bronnen": ["SNEL-001", "SNEL-003", "SNEL-004"]
+    },
+    {
+      "id": "snelheden-schoolomgeving",
+      "curriculum": ["T09"],
+      "titel": "Schoolomgeving",
+      "uitleg": "Een **schoolomgeving** is een zone van een of meer openbare wegen, inclusief de toegang tot een school, waarvan begin en einde zijn afgebakend met de borden **F4a** en **F4b**. Bij het bord F4a staat het waarschuwingsbord **A23** (school). Omdat het om een F4a/F4b-zone gaat, geldt er een maximum van **30 km/u**, binnen of buiten de bebouwde kom.\n\nNa het einde van de schoolomgeving geldt weer de standaardsnelheid van het gewest als je nog in de bebouwde kom zit (50 in Vlaanderen en Wallonie, 30 in Brussel).",
+      "kaders": [
+        {
+          "type": "gewest",
+          "titel": "Schoolomgeving",
+          "tekst": "De regel is landelijk dezelfde; het verschil zit in wat er daarna geldt.",
+          "gewest": {
+            "vlaanderen": "30 km/u in de schoolomgeving; daarna in de bebouwde kom terug 50.",
+            "wallonie": "30 km/u in de schoolomgeving; daarna in de bebouwde kom terug 50.",
+            "brussel": "30 km/u in de schoolomgeving; daarna in de bebouwde kom blijft het 30."
+          }
+        },
+        {
+          "type": "tip",
+          "titel": "Extra voorzichtig bij schooluren",
+          "tekst": "Kinderen steken onverwacht over. Wie dubbel voorzichtig is, houdt ruim onder de limiet rekening met de afstand die hij nodig heeft om te stoppen."
+        }
+      ],
+      "afbeeldingen": ["F4a", "F4b", "A23"],
+      "bronnen": ["SNEL-001", "SNEL-003"]
+    },
+    {
+      "id": "snelheden-c43-zones",
+      "curriculum": ["T08", "T09"],
+      "titel": "Bord C43, zonale snelheid en het einde ervan",
+      "uitleg": "Het bord **C43** legt een maximumsnelheid op. Het geldt vanaf het bord tot en met het volgende kruispunt, of tot een ander bord C43, of tot het begin of einde van een bebouwde kom, woonerf, erf of voetgangerszone. Het einde van de maatregel kan met het bord **C45** worden aangeduid.\n\nMet een **zonale** C43 geldt de snelheid in een hele zone, tot het bord dat het einde van de zone aangeeft. Binnen zo'n snelheidszone staat een bord C43 dat een hogere snelheid dan de zone toelaat niet; staat er toch een afwijkend C43, dan geldt vanaf het volgende kruispunt weer de zonale snelheid.\n\nWordt in een bebouwde kom een C43 '30' geplaatst boven het bord F1, dan geldt dit op alle openbare wegen in die kom.",
+      "regels": [
+        { "bord": "C43", "betekenis": "Maximumsnelheid; geldt tot en met het volgende kruispunt of tot een bord dat de maatregel beeindigt" },
+        { "bord": "C43 met zonale geldigheid", "betekenis": "Maximumsnelheid geldt in de hele zone tot het zone-einde" },
+        { "bord": "C45", "betekenis": "Einde van de snelheidsbeperking van een C43" }
+      ],
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Na het kruispunt",
+          "tekst": "Een gewoon C43 geldt tot en met het volgende kruispunt. Daarna val je terug op de algemene regel van het gewest, tenzij een nieuw bord het anders zegt."
+        },
+        {
+          "type": "gewest",
+          "titel": "Terugval na een afwijkend C43 in de bebouwde kom",
+          "tekst": "Wat geldt er na het volgende kruispunt zonder nieuw bord?",
+          "gewest": {
+            "vlaanderen": "Terug 50 km/u.",
+            "wallonie": "Terug 50 km/u.",
+            "brussel": "Terug 30 km/u."
+          }
+        }
+      ],
+      "uitzonderingen": [
+        "Een vakantiezone buiten de bebouwde kom wordt afgebakend met een zonaal C43 (50 of 70) samen met bord A51 'vakantiezone'."
+      ],
+      "afbeeldingen": ["C43-30", "C43-50", "C43-70", "C43-90", "C45", "A51"],
+      "bronnen": ["SNEL-001"]
+    },
+    {
+      "id": "snelheden-voertuigtype",
+      "curriculum": ["T08"],
+      "titel": "Snelheid naargelang het voertuig",
+      "uitleg": "Naast de snelheid van de weg zijn er lagere limieten voor bepaalde voertuigen. Die gelden bovenop de tabel van het gewest en dus ook voor een voertuig met aanhangwagen: wat telt is de maximale toegelaten massa van het voertuig of van de hele combinatie.\n\n- Voertuigen en combinaties van meer dan **3,5 ton** max. toegelaten massa: **90 km/u** op autosnelwegen en op wegen met fysiek gescheiden 2x2 rijstroken.\n- **Bussen en autocars**: **75 km/u** op gewone wegen (90 op autosnelweg; autocars met gordels en snelheidsbegrenzer 100).\n- Voertuigen op luchtbanden met een massa boven **7,5 ton**: **60 km/u** op gewone wegen.\n- Bromfiets klasse B: **45 km/u**; bromfiets klasse A: **25 km/u**.",
+      "regels": [
+        { "voertuig": "Personenwagen (<= 3,5 t), ook met aanhangwagen zolang de combinatie <= 3,5 t blijft", "limiet": "gewone limiet van de weg" },
+        { "voertuig": "Voertuig of combinatie > 3,5 t", "limiet": "90 km/u op autosnelweg" },
+        { "voertuig": "Bus of autocar", "limiet": "75 km/u op gewone wegen; 90 op autosnelweg (100 voor autocar met gordels en begrenzer)" },
+        { "voertuig": "Voertuig > 7,5 t op luchtbanden", "limiet": "60 km/u op gewone wegen" },
+        { "voertuig": "Bromfiets klasse B", "limiet": "45 km/u" },
+        { "voertuig": "Bromfiets klasse A", "limiet": "25 km/u" }
+      ],
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "De combinatie telt",
+          "tekst": "Met een aanhangwagen telt de maximale toegelaten massa van de hele combinatie. Zit je boven 3,5 ton, dan val je onder de lagere limiet van zwaardere voertuigen."
+        },
+        {
+          "type": "regel",
+          "titel": "De laagste limiet wint",
+          "tekst": "Je mag nooit sneller dan de wegsnelheid en ook nooit sneller dan de limiet van je voertuigtype. Je volgt dus altijd de laagste."
+        }
+      ],
+      "afbeeldingen": [],
+      "bronnen": ["SNEL-001", "SNEL-002"]
+    },
+    {
+      "id": "snelheden-aangepast",
+      "curriculum": ["T08"],
+      "titel": "Aangepaste snelheid: weer, zicht en omstandigheden",
+      "uitleg": "De maximumsnelheid is een **maximum**, geen streefsnelheid. Je moet je snelheid altijd regelen zoals de omstandigheden vereisen: aanwezigheid van andere weggebruikers (vooral de kwetsbaarste), weer, plaatsgesteldheid, verkeersdichtheid, zicht, de staat van de weg en de staat en lading van je voertuig. Je snelheid mag geen oorzaak van ongevallen zijn en het verkeer niet hinderen.\n\nHou ook een voldoende veiligheidsafstand tot je voorligger en zorg dat je altijd kunt stoppen voor een hindernis die je kunt voorzien. In artikel 11 staan geen aparte lagere limieten voor regen of mist; het gaat om 'aangepast rijden' volgens artikel 10. Rij je te traag zonder geldige reden, dan hinder je anderen en dat is ook niet toegelaten.",
+      "kaders": [
+        {
+          "type": "regel",
+          "titel": "Altijd kunnen stoppen",
+          "tekst": "Je moet in alle omstandigheden kunnen stoppen voor een hindernis die je kunt voorzien. Slecht zicht of een natte weg betekent dus trager rijden."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Op de limiet rijden 'omdat het mag'",
+          "tekst": "Mag je 70, maar is het mistig of glad, dan kan 70 te snel zijn. De limiet verleent geen recht om die snelheid te rijden."
+        }
+      ],
+      "afbeeldingen": [],
+      "bronnen": ["SNEL-001", "SNEL-003"]
+    },
+    {
+      "id": "snelheden-actualiteit",
+      "curriculum": ["T08"],
+      "titel": "Actualiteit: wat verandert er?",
+      "uitleg": "De snelheidsregels in deze cursus komen uit het koninklijk besluit van 1 december 1975 (geconsolideerde tekst, laatst bijgewerkt op 30 oktober 2026). Een nieuwe, hervormde Code van de openbare weg is gepland, maar werd uitgesteld van 1 september 2026 naar **1 juni 2027**. Tot dan blijven de huidige regels gelden.",
+      "kaders": [
+        {
+          "type": "letop",
+          "titel": "Examen nu",
+          "tekst": "Voor een theorie-examen vandaag gelden de huidige snelheidsregels uit dit hoofdstuk."
+        }
+      ],
+      "afbeeldingen": [],
+      "bronnen": ["SNEL-001", "SNEL-005"]
+    }
+  ]
+}
