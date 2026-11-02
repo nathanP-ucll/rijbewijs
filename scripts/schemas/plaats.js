@@ -150,6 +150,32 @@ mk('schema-stilstaanverbod-zebrapad', 'Stilstaan en parkeren: niet op en niet vl
     { id: 'ver-weg', x: 12, y: 51, w: 13, h: 14, label: 'Hier staat een auto ver van het zebrapad', correct: false },
   ] });
 
+// neutrale oefenvariant van het zebrapad-schema: enkel straat, zebrapad en genummerde zones (geen arcering, kruisjes, vinkjes of afstanden)
+(function () {
+  const zones = [
+    { nr: 1, x: 113, y: 305, w: 65, h: 75 },
+    { nr: 2, x: 335, y: 305, w: 65, h: 75 },
+    { nr: 3, x: 460, y: 230, w: 65, h: 75 },
+  ];
+  const e = mk('schema-stilstaanverbod-zebrapad-oefening', 'Straat met zebrapad en drie genummerde zones (oefening)',
+    'Een straat met twee rijstroken en een zebrapad. Het verkeer rijdt rechts: in de onderste rijstrook naar rechts, in de bovenste naar links (aangeduid met pijlen). Langs de rijbaan zijn drie genummerde zones aangeduid: zone 1 ligt in de onderste strook links van het zebrapad op enige afstand, zone 2 in de onderste strook tegen het zebrapad aan, zone 3 in de bovenste strook tegen het zebrapad aan.',
+    'stilstaan-parkeerverbod-plaatsen', ['PLAA-001'], (s) => {
+      street(s, 230, 150);
+      s.line(0, 233, 800, 233, '#fff', 2); s.line(0, 377, 800, 377, '#fff', 2);
+      s.zebra(400, 230, 60, 150, 'v');
+      s.arrow(210, 342, 290, 342, 'rgba(255,255,255,.7)', 4); s.arrow(690, 268, 610, 268, 'rgba(255,255,255,.7)', 4);
+      zones.forEach((z) => {
+        s.add(`<rect x="${z.x}" y="${z.y}" width="${z.w}" height="${z.h}" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.5" stroke-dasharray="7 5"/>`);
+        s.badge(z.x + z.w / 2, z.y + z.h / 2, z.nr, { r: 15 });
+      });
+    }, { hotspots: [
+      { id: 'zone-links', x: 41.9, y: 50.8, w: 8.1, h: 12.5, label: 'Zone 2', correct: true },
+      { id: 'zone-west', x: 57.5, y: 38.3, w: 8.1, h: 12.5, label: 'Zone 3', correct: true },
+      { id: 'ver-weg', x: 12, y: 51, w: 13, h: 14, label: 'Zone 1', correct: false },
+    ] });
+  e.type = 'oefening'; e.partner = 'schema-stilstaanverbod-zebrapad';
+})();
+
 mk('schema-parkeerafstanden', 'Afstanden bij stilstaan en parkeren',
   'Vier kleine schema\'s van een straat met rode gearceerde zones. Linksboven: 5 meter voor een zebrapad (stilstaan en parkeren verboden). Rechtsboven: 20 meter voor verkeerslichten (stilstaan en parkeren verboden). Linksonder: 15 meter aan weerszijden van het bord van een bus- of tramhalte (parkeren verboden). Rechtsonder: minder dan 1 meter vóór of achter een ander geparkeerd voertuig (parkeren verboden).',
   'stilstaan-parkeerverbod-plaatsen', ['PLAA-001'], (s) => {
@@ -239,7 +265,7 @@ mk('schema-parkeren-berm', 'Parkeren op de berm: 1,50 m doorgang voor voetganger
     s.rect(410, 0, 70, 600, '#6a707a');
     s.rect(150, 0, 260, 600, C.road); s.line(280, 0, 280, 600, '#fff', 3, 'stroke-dasharray="16 14"'); s.line(410, 0, 410, 600, '#fff', 3);
     s.add(`<path d="M695,640 Q595,400 335,170" fill="none" stroke="${C.road}" stroke-width="92" stroke-linecap="butt"/>`);
-    s.route('M591,451 Q485,330 335,190 L335,40', CAR.blauw); s.route('M345,420 L345,40', CAR.rood);
+    s.route('M591,451 Q485,330 335,190 L335,75', CAR.blauw); s.route('M345,420 L345,75', CAR.rood);
     s.sign('B1', 735, 500, 56);
     s.car(345, 480, 0, 'rood', 1); s.car(649, 545, -25, 'blauw', 2, { blink: 'L' });
     if (sol) { s.titel('Oprit: altijd voorrang verlenen aan wie al rijdt'); s.label(225, 330, 'auto 1: voorrang', { size: 17, bg: GRN, fg: '#fff' }); s.label(690, 420, 'auto 2 wacht\nen voegt in\nzonder te hinderen', { size: 17, bg: RED, fg: '#fff' }); }

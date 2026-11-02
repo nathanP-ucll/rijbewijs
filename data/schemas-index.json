@@ -169,8 +169,8 @@
   "titel": "Voorrang verlenen en stopbord op een kruispunt",
   "beschrijving": "Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto's, ook al komt auto 2 van rechts. Auto 2 (bord voorrang verlenen) moet voorrang verlenen. Auto 3 (stopbord) moet eerst volledig stoppen en voorrang verlenen.",
   "borden": [
-   "",
-   "Stoppen en voorrang verlenen (STOP)"
+   "Voorrang verlenen",
+   "Stoppen en voorrang verlenen"
   ],
   "theorieblok": "voorrang-borden-b1-b5",
   "voertuigen": [
@@ -218,8 +218,8 @@
   "titel": "Kruispunt met voorrangsborden (oefening)",
   "beschrijving": "Kruispunt met drie auto's. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft het bord voorrang verlenen aan zijn kant. Auto 3 komt van links en heeft het stopbord aan zijn kant met een stopstreep. Alle auto's rijden rechtdoor.",
   "borden": [
-   "",
-   "Stoppen en voorrang verlenen (STOP)"
+   "Voorrang verlenen",
+   "Stoppen en voorrang verlenen"
   ],
   "theorieblok": "voorrang-borden-b1-b5",
   "voertuigen": [
@@ -316,7 +316,7 @@
   "titel": "Busstrook: rechtsaf slaan vlak voor het kruispunt",
   "beschrijving": "Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord busstrook duidt de busstrook aan.",
   "borden": [
-   ""
+   "Busstrook"
   ],
   "theorieblok": "openbaar-busstrook-afslaan",
   "bronnen": [
@@ -340,8 +340,8 @@
   "titel": "Fietszone: fietsers voorop, 30 km/u, niet inhalen",
   "beschrijving": "Een straat met twee rijrichtingen waar het begin van een fietszone met een bord is aangeduid en de snelheid beperkt is tot 30 km/u (snelheidsbord). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.",
   "borden": [
-   "",
-   ""
+   "Begin van een fietsstraat",
+   "Maximumsnelheid 30 km/u"
   ],
   "theorieblok": "fietszone-fietsstraat",
   "bronnen": [
@@ -432,8 +432,8 @@
   "titel": "Knipperend oranje: dubbel voorzichtig, voorrang blijft",
   "beschrijving": "Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden voorrang verlenen en voorrangsweg met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.",
   "borden": [
-   "",
-   ""
+   "Voorrang verlenen",
+   "Voorrangsweg"
   ],
   "theorieblok": "lichten-oranje-knipperlicht",
   "bronnen": [
@@ -578,9 +578,9 @@
   "naam": "schema-oprit-snelweg",
   "bestand": "img/schemas/schema-oprit-snelweg.svg",
   "titel": "Oprit van de autosnelweg: voorrang verlenen",
-  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van rechtsonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.",
   "borden": [
-   ""
+   "Voorrang verlenen"
   ],
   "theorieblok": "snelweg-op-en-afrit",
   "bronnen": [
@@ -591,14 +591,14 @@
     "nr": 1,
     "label": "auto 1 (op de autosnelweg)",
     "kleur": "rood",
-    "x": 72.5,
+    "x": 43.13,
     "y": 80
    },
    {
     "nr": 2,
     "label": "auto 2 (op de oprit)",
     "kleur": "blauw",
-    "x": 34.5,
+    "x": 81.13,
     "y": 90.83
    }
   ],
@@ -616,9 +616,9 @@
   "naam": "schema-oprit-snelweg-oefening",
   "bestand": "img/schemas/schema-oprit-snelweg-oefening.svg",
   "titel": "Oprit van de autosnelweg: voorrang verlenen (oefening)",
-  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van rechtsonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.",
   "borden": [
-   ""
+   "Voorrang verlenen"
   ],
   "theorieblok": "snelweg-op-en-afrit",
   "bronnen": [
@@ -629,14 +629,14 @@
     "nr": 1,
     "label": "auto 1 (op de autosnelweg)",
     "kleur": "rood",
-    "x": 72.5,
+    "x": 43.13,
     "y": 80
    },
    {
     "nr": 2,
     "label": "auto 2 (op de oprit)",
     "kleur": "blauw",
-    "x": 34.5,
+    "x": 81.13,
     "y": 90.83
    }
   ],
@@ -698,7 +698,7 @@
   "titel": "Overweg met knipperende rode lichten en slagbomen",
   "beschrijving": "Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; het Andreaskruis staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.",
   "borden": [
-   "Overweg voor enkel spoor (Andreaskruis)"
+   "Overweg voor enkel spoor"
   ],
   "theorieblok": "openbaar-overweg-signalisatie",
   "bronnen": [
@@ -779,7 +779,7 @@
   "titel": "Rangorde: wie of wat bepaalt de voorrang?",
   "beschrijving": "Een trap met vier treden van boven naar onder: 1 bevoegde persoon, 2 verkeerslichten, 3 verkeersborden, 4 algemene verkeersregels (voorrang van rechts). Wat hoger staat, gaat voor wat lager staat.",
   "borden": [
-   ""
+   "Voorrang verlenen"
   ],
   "theorieblok": "voorrang-rangorde",
   "bronnen": [
@@ -827,8 +827,8 @@
   "titel": "Rotonde: wie op de rotonde rijdt, heeft voorrang",
   "beschrijving": "Met het rotonde-bord en het bord voorrang verlenen aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.",
   "borden": [
-   "Verplicht rondgaand verkeer (rotonde)",
-   ""
+   "Verplicht rondgaand verkeer",
+   "Voorrang verlenen"
   ],
   "theorieblok": "voorrang-rotonde",
   "voertuigen": [
@@ -868,8 +868,8 @@
   "titel": "Rotonde met voorrangsborden (oefening)",
   "beschrijving": "Bovenaanzicht van een rotonde met het rotonde-bord op het middeneiland en het bord voorrang verlenen aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.",
   "borden": [
-   "Verplicht rondgaand verkeer (rotonde)",
-   ""
+   "Verplicht rondgaand verkeer",
+   "Voorrang verlenen"
   ],
   "theorieblok": "voorrang-rotonde",
   "voertuigen": [
@@ -944,6 +944,48 @@
   ]
  },
  {
+  "naam": "schema-stilstaanverbod-zebrapad-oefening",
+  "bestand": "img/schemas/schema-stilstaanverbod-zebrapad-oefening.svg",
+  "titel": "Straat met zebrapad en drie genummerde zones (oefening)",
+  "beschrijving": "Een straat met twee rijstroken en een zebrapad. Het verkeer rijdt rechts: in de onderste rijstrook naar rechts, in de bovenste naar links (aangeduid met pijlen). Langs de rijbaan zijn drie genummerde zones aangeduid: zone 1 ligt in de onderste strook links van het zebrapad op enige afstand, zone 2 in de onderste strook tegen het zebrapad aan, zone 3 in de bovenste strook tegen het zebrapad aan.",
+  "borden": [],
+  "theorieblok": "stilstaan-parkeerverbod-plaatsen",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "hotspots": [
+   {
+    "id": "zone-links",
+    "x": 41.9,
+    "y": 50.8,
+    "w": 8.1,
+    "h": 12.5,
+    "label": "Zone 2",
+    "correct": true
+   },
+   {
+    "id": "zone-west",
+    "x": 57.5,
+    "y": 38.3,
+    "w": 8.1,
+    "h": 12.5,
+    "label": "Zone 3",
+    "correct": true
+   },
+   {
+    "id": "ver-weg",
+    "x": 12,
+    "y": 51,
+    "w": 13,
+    "h": 14,
+    "label": "Zone 1",
+    "correct": false
+   }
+  ],
+  "type": "oefening",
+  "partner": "schema-stilstaanverbod-zebrapad"
+ },
+ {
   "naam": "schema-t-kruispunt",
   "bestand": "img/schemas/schema-t-kruispunt.svg",
   "titel": "T-kruispunt zonder borden",
@@ -994,7 +1036,7 @@
   "titel": "T-kruispunt met bord voorrang verlenen op de zijtak",
   "beschrijving": "Met het bord voorrang verlenen op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.",
   "borden": [
-   ""
+   "Voorrang verlenen"
   ],
   "theorieblok": "voorrang-t-kruispunt",
   "voertuigen": [
@@ -1040,7 +1082,7 @@
   "titel": "T-kruispunt met bord voorrang verlenen op de zijtak (oefening)",
   "beschrijving": "T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat het bord voorrang verlenen met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.",
   "borden": [
-   ""
+   "Voorrang verlenen"
   ],
   "theorieblok": "voorrang-t-kruispunt",
   "voertuigen": [
@@ -1510,8 +1552,8 @@
   "titel": "Voorrangsweg: bord aan het begin, einde-bord aan het einde",
   "beschrijving": "Een rechte weg van onder naar boven. Onderaan staat het bord voorrangsweg, daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat het bord einde voorrangsweg. Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.",
   "borden": [
-   "",
-   ""
+   "Voorrangsweg",
+   "Einde van voorrangsweg"
   ],
   "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
   "voertuigen": [
@@ -1548,7 +1590,7 @@
   "titel": "Signaalgever of werfopzichter met schijf (verboden toegang)",
   "beschrijving": "Links een werfopzichter die een ronde schijf met het verkeersbord verboden toegang omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord op de schijf betekent: stoppen.",
   "borden": [
-   ""
+   "Verboden toegang in beide richtingen voor ieder bestuurder"
   ],
   "theorieblok": "bevoegde-personen-signaalgevers-werf",
   "bronnen": [
@@ -1561,8 +1603,8 @@
   "titel": "Zebrapad: voorrang verlenen aan voetgangers",
   "beschrijving": "Een zebrapad over een straat met de borden oversteekplaats voor voetgangers. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.",
   "borden": [
-   "",
-   ""
+   "Oversteekplaats voor voetgangers",
+   "Oversteekplaats voor voetgangers"
   ],
   "theorieblok": "zebrapad-voorrang-bestuurder",
   "bronnen": [
@@ -1695,6 +1737,21 @@
   "symbool": "Grootlicht"
  },
  {
+  "naam": "tech-lampje-grootlicht-oefening",
+  "bestand": "img/schemas/tech-lampje-grootlicht-oefening.svg",
+  "titel": "Dashboardlampje (oefening)",
+  "beschrijving": "Een blauw symbool van een dashboardlampje op een donker dashboardvlak.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "blauw",
+  "type": "oefening",
+  "partner": "tech-lampje-grootlicht"
+ },
+ {
   "naam": "tech-lampje-koelvloeistof",
   "bestand": "img/schemas/tech-lampje-koelvloeistof.svg",
   "titel": "Dashboardlampje koelvloeistof en temperatuur",
@@ -1723,6 +1780,21 @@
   "symbool": "Motorstoring"
  },
  {
+  "naam": "tech-lampje-motor-oefening",
+  "bestand": "img/schemas/tech-lampje-motor-oefening.svg",
+  "titel": "Dashboardlampje (oefening)",
+  "beschrijving": "Een oranje symbool van een dashboardlampje op een donker dashboardvlak.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "oranje",
+  "type": "oefening",
+  "partner": "tech-lampje-motor"
+ },
+ {
   "naam": "tech-lampje-olie",
   "bestand": "img/schemas/tech-lampje-olie.svg",
   "titel": "Dashboardlampje oliedruk (rood)",
@@ -1735,6 +1807,21 @@
   "kleurEenduidig": true,
   "kleur": "rood",
   "symbool": "Oliedruk"
+ },
+ {
+  "naam": "tech-lampje-olie-oefening",
+  "bestand": "img/schemas/tech-lampje-olie-oefening.svg",
+  "titel": "Dashboardlampje (oefening)",
+  "beschrijving": "Een rood symbool van een dashboardlampje op een donker dashboardvlak.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "rood",
+  "type": "oefening",
+  "partner": "tech-lampje-olie"
  },
  {
   "naam": "tech-lampje-remmen",
@@ -1751,6 +1838,21 @@
   "symbool": "Remmen"
  },
  {
+  "naam": "tech-lampje-remmen-oefening",
+  "bestand": "img/schemas/tech-lampje-remmen-oefening.svg",
+  "titel": "Dashboardlampje (oefening)",
+  "beschrijving": "Een rood symbool van een dashboardlampje op een donker dashboardvlak.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "rood",
+  "type": "oefening",
+  "partner": "tech-lampje-remmen"
+ },
+ {
   "naam": "tech-lampje-richtingaanwijzer",
   "bestand": "img/schemas/tech-lampje-richtingaanwijzer.svg",
   "titel": "Dashboardlampje richtingaanwijzer (groen)",
@@ -1763,5 +1865,20 @@
   "kleurEenduidig": true,
   "kleur": "groen",
   "symbool": "Richtingaanwijzer"
+ },
+ {
+  "naam": "tech-lampje-richtingaanwijzer-oefening",
+  "bestand": "img/schemas/tech-lampje-richtingaanwijzer-oefening.svg",
+  "titel": "Dashboardlampje (oefening)",
+  "beschrijving": "Een groen symbool van een dashboardlampje op een donker dashboardvlak.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "groen",
+  "type": "oefening",
+  "partner": "tech-lampje-richtingaanwijzer"
  }
 ]

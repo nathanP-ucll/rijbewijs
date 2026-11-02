@@ -1,0 +1,254 @@
+[
+ {
+  "naam": "schema-aanrijdingsformulier",
+  "bestand": "img/schemas/schema-aanrijdingsformulier.svg",
+  "titel": "Het aanrijdingsformulier",
+  "beschrijving": "Een schets van een leeg aanrijdingsformulier met twee kolommen voor partij A en partij B, een schetsvak en twee handtekeningvakken, zonder ingevulde waarden. Rechts uitleg: de voorzijde vul je samen in en onderteken je, de keerzijde vul je apart in, op papier of in de Crashform-app, en feiten vermelden is geen erkenning van aansprakelijkheid.",
+  "borden": [],
+  "theorieblok": "ongeval-aanrijdingsformulier",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-alarmlichten-hesje",
+  "bestand": "img/schemas/schema-alarmlichten-hesje.svg",
+  "titel": "Alarmlichten en fluohesje",
+  "beschrijving": "Drie kaarten: de achterkant van een auto met alle richtingaanwijzers knipperend (alarmlichten), een fluohesje dat je aantrekt voor je uitstapt, en een gevarendriehoek die door de alarmlichten niet vervangen wordt.",
+  "borden": [],
+  "theorieblok": "ongeval-alarmlichten-hesje",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-alarmnummers",
+  "bestand": "img/schemas/schema-alarmnummers.svg",
+  "titel": "Alarmnummers: 112, 100 en 101",
+  "beschrijving": "Drie kaarten met een groot nummer: 112 (ambulance en brandweer, gratis), 100 (komt bij dezelfde noodcentrale uit als 112) en 101 (dringende politiehulp, gratis). Daaronder hoe je belt: vast toestel, gsm, 112-app of praatpaal. Het nummer 1722 is geen noodnummer.",
+  "borden": [],
+  "theorieblok": "ongeval-alarmnummers",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-bloeding",
+  "bestand": "img/schemas/schema-bloeding.svg",
+  "titel": "Ernstige bloeding en bloedneus",
+  "beschrijving": "Vier stappen bij een ernstige bloeding: handschoenen aan en het slachtoffer laten neerliggen, 112 alarmeren, 10 minuten op de wonde drukken met een drukverband of propere doek, blijven drukken tot de hulpdiensten aankomen. Onder: bij een bloedneus voorovergebogen zitten en de neus 10 minuten dichtknijpen.",
+  "borden": [],
+  "theorieblok": "ongeval-bloeding",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-brandwonden",
+  "bestand": "img/schemas/schema-brandwonden.svg",
+  "titel": "Brandwonden: zo help je",
+  "beschrijving": "Vier stappen: handschoenen aan, 20 minuten koelen met stromend water, bedekken met verband of plastic folie, bij een ernstige brandwonde 112 bellen. Daaronder drie dingen die je niet doet: ijs of ijskoud water, zalf, blaren openprikken.",
+  "borden": [],
+  "theorieblok": "ongeval-brandwonden",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-driehoek-2027",
+  "bestand": "img/schemas/schema-driehoek-2027.svg",
+  "titel": "Gevarendriehoek: nu en vanaf 1 juni 2027",
+  "beschrijving": "Twee kolommen. Nu, tot 1 juni 2027: je plaatst de gevarendriehoek als je niet weg kan. Vanaf 1 juni 2027 volgens de nieuwe wegcode: eerst gebruik je alle alarmlichten, kan dat niet dan plaats je nog een driehoek, op autosnelwegen op 100 meter. Onderaan: leer voor het examen de huidige regels.",
+  "borden": [],
+  "theorieblok": "ongeval-gevarendriehoek",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-driehoek-zichtbaar",
+  "bestand": "img/schemas/schema-driehoek-zichtbaar.svg",
+  "titel": "De gevarendriehoek: wanneer en waar?",
+  "beschrijving": "Bovenaanzicht: een stilstaande auto met alarmlichten, daarachter een gevarendriehoek tussen de auto en het naderende verkeer. Een blauwe auto nadert van onderen; een stippellijn toont dat de driehoek van ongeveer 50 meter zichtbaar moet zijn. Rechts drie situaties waarin je de driehoek plaatst.",
+  "borden": [],
+  "theorieblok": "ongeval-gevarendriehoek",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-ehbo-vier-stappen",
+  "bestand": "img/schemas/schema-ehbo-vier-stappen.svg",
+  "titel": "EHBO: de vier stappen",
+  "beschrijving": "Vier genummerde stappen van het Rode Kruis: 1 zorg voor veiligheid, 2 beoordeel de toestand van het slachtoffer, 3 alarmeer 112, 4 verleen verdere hulp. Daaronder drie controles: bewustzijn, luchtweg en ademhaling (kijken, luisteren en voelen, maximaal 10 seconden).",
+  "borden": [],
+  "theorieblok": "ongeval-ehbo-stappen",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-formulier-beslissing",
+  "bestand": "img/schemas/schema-formulier-beslissing.svg",
+  "titel": "Wanneer volstaat het formulier niet?",
+  "beschrijving": "Beslissingsschema met de vraag wat er gebeurd is en drie antwoorden. Enkel blikschade: formulier samen invullen. Gewonden: 112 bellen, politie erbij, proces-verbaal. Onbekende of onverzekerde tegenpartij: vraag uitleg aan je verzekeraar.",
+  "borden": [],
+  "theorieblok": "ongeval-formulier-wanneer-niet",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-formulier-voor-keer",
+  "bestand": "img/schemas/schema-formulier-voor-keer.svg",
+  "titel": "Zo vul je het formulier in",
+  "beschrijving": "Twee paneel naast elkaar. Voorzijde, de feiten: datum en plaats, voertuigen en verzekeringen, bestuurders, getuigen en omstandigheden, zichtbare schade en een schets. Keerzijde, jouw deel: politiegegevens, technische gegevens en je eigen mening. Onderaan: neem foto's en noteer naam en adres van getuigen.",
+  "borden": [],
+  "theorieblok": "ongeval-aanrijdingsformulier",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-noodoproep",
+  "bestand": "img/schemas/schema-noodoproep.svg",
+  "titel": "Wat vertel je bij een noodoproep?",
+  "beschrijving": "Vier kaarten: waar (de exacte locatie), wat (wat er gebeurd is en hoeveel voertuigen), wie (gewonden, hoeveel en hoe ze eraan toe zijn) en jij (wie je bent). Onder: op de autosnelweg geef je kilometerpaal, dichtstbijzijnde afrit en rijrichting; op een gewone weg gemeente, straat of kruispunt. Hang niet op voor de operator klaar is.",
+  "borden": [],
+  "theorieblok": "ongeval-noodoproep",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-ongeval-aangifte",
+  "bestand": "img/schemas/schema-ongeval-aangifte.svg",
+  "titel": "Aangifte bij de politie",
+  "beschrijving": "Boven: drie stappen. Niemand van de politie te bereiken, ga naar het dichtstbijzijnde politiebureau of dat van je woonplaats, meld het zo snel mogelijk. Onder: twee termijnen. Enkel stoffelijke schade: zodra mogelijk. Met gewonden: binnen 24 uur.",
+  "borden": [],
+  "theorieblok": "ongeval-hulpverlening-blijven",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-ongeval-beveiligen",
+  "bestand": "img/schemas/schema-ongeval-beveiligen.svg",
+  "titel": "Stap 1 en 2: beveilig de plaats",
+  "beschrijving": "Bovenaanzicht van een weg met een stilstaande auto met alarmlichten, een gevarendriehoek achter de auto, een persoon met fluohesje op de berm en enkele mensen die achter de vangrail wachten. Een naderende auto komt van onderen. Vier genummerde punten: alarmlichten aan, fluohesje aan, gevarendriehoek plaatsen, wachten achter de vangrail.",
+  "borden": [],
+  "theorieblok": "ongeval-stappenplan",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-ongeval-plichten",
+  "bestand": "img/schemas/schema-ongeval-plichten.svg",
+  "titel": "Je plichten na een ongeval",
+  "beschrijving": "Twee kolommen. Enkel stoffelijke schade: zorg voor de veiligheid van het verkeer, toon je identiteitskaart, blijf ter plaatse. Lichamelijk letsel: dezelfde plichten, verleen of haal hulp, verplaats het voertuig niet. Onderaan: even weggaan om hulp te halen mag als je eerst naam en adres geeft.",
+  "borden": [],
+  "theorieblok": "ongeval-hulpverlening-blijven",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-ongeval-stappenplan",
+  "bestand": "img/schemas/schema-ongeval-stappenplan.svg",
+  "titel": "Het stappenplan bij een ongeval",
+  "beschrijving": "Vijf genummerde stappen met pictogrammen, van links naar rechts: 1 beveilig de plaats (gevarendriehoek), 2 breng mensen in veiligheid, 3 alarmeer 112, 4 verleen eerste hulp, 5 blijf ter plaatse. Onderaan: eerst veiligheid, dan hulp roepen, dan zelf verder helpen.",
+  "borden": [],
+  "theorieblok": "ongeval-stappenplan",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-reanimatie-aed",
+  "bestand": "img/schemas/schema-reanimatie-aed.svg",
+  "titel": "Reanimatie en AED",
+  "beschrijving": "Eerst vier stappen: alarmeer 112 en laat een AED halen, 30 borstcompressies in het midden van de borstkas, 2 beademingen, daarna 30 en 2 blijven afwisselen. Daaronder de AED: activeren en de aanwijzingen volgen, 2 elektroden op de ontblote borstkas, tijdens analyse of schok raakt niemand het slachtoffer aan.",
+  "borden": [],
+  "theorieblok": "ongeval-reanimatie-aed",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-uitrusting-ongeval",
+  "bestand": "img/schemas/schema-uitrusting-ongeval.svg",
+  "titel": "Uitrusting in de auto",
+  "beschrijving": "Drie pictogrammen: gevaarsdriehoek (voertuig of hindernis op afstand signaleren), blustoestel (een beginnende brand blussen) en verbandkist of -etui (eerste hulp bij kleine verwondingen). Onderaan: dit materiaal moet aan het technisch reglement voldoen.",
+  "borden": [],
+  "theorieblok": "ongeval-uitrusting",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-verzekeringen",
+  "bestand": "img/schemas/schema-verzekeringen.svg",
+  "titel": "BA, omnium en bestuurdersverzekering",
+  "beschrijving": "Links een rode auto die tegen een geparkeerde blauwe auto rijdt. Daaronder drie verzekeringen: de verplichte BA-verzekering vergoedt de schade die jij aan anderen veroorzaakt (de geparkeerde auto), omnium dekt je eigen voertuigschade volgens contract, en een bestuurders- of ongevallenverzekering dekt je eigen letsels.",
+  "borden": [],
+  "theorieblok": "ongeval-verzekering",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-verzekeringsbewijs",
+  "bestand": "img/schemas/schema-verzekeringsbewijs.svg",
+  "titel": "Het verzekeringsbewijs",
+  "beschrijving": "Links een schets van een verzekeringsbewijs (vroeger de groene kaart) met vakken voor landen en periode, zonder ingevulde waarden. Rechts vier punten: verplicht boorddocument, toon het bij een controle, mag ook elektronisch, vermeldt in welke landen en welke periode je gedekt bent. Onderaan het alcoholkader: de BA betaalt de slachtoffers, de verzekeraar kan het bedrag op jou verhalen.",
+  "borden": [],
+  "theorieblok": "ongeval-verzekering",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-vluchtmisdrijf",
+  "bestand": "img/schemas/schema-vluchtmisdrijf.svg",
+  "titel": "Vluchtmisdrijf: nooit doorrijden",
+  "beschrijving": "Twee kolommen. Links, rood: niet doen, doorrijden na een ongeval; dat is strafbaar en kan gevangenisstraf, geldboete en rijverbod geven. Rechts, groen: wel doen, ter plaatse blijven, naam en identiteit geven en hulp verlenen of halen.",
+  "borden": [],
+  "theorieblok": "ongeval-vluchtmisdrijf",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-zijligging-beslissing",
+  "bestand": "img/schemas/schema-zijligging-beslissing.svg",
+  "titel": "Wanneer stabiele zijligging?",
+  "beschrijving": "Beslissingsschema. Het slachtoffer reageert niet, daarna de vraag: ademt het normaal? Bij ja: stabiele zijligging, de luchtweg blijft open, laat 112 alarmeren en controleer elke minuut de ademhaling. Bij nee: reanimeren met 112 en een AED. Niet in zijligging bij vermoeden van wervelletsel.",
+  "borden": [],
+  "theorieblok": "ongeval-stabiele-zijligging",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "type": "uitleg"
+ }
+]

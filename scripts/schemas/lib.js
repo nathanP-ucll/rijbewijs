@@ -40,7 +40,7 @@ function signNaam(code) {
     try { _bordenIndex = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'borden-index.json'), 'utf8')); } catch (e) { _bordenIndex = {}; }
   }
   const n = _bordenIndex[code] && _bordenIndex[code].naam_nl;
-  return (n || 'verkeersbord').replace(/s*([^)]*)s*$/, '');
+  return (n || 'verkeersbord').replace(/\s*\([^)]*\)\s*$/, '');
 }
 
 class Svg {

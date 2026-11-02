@@ -26,6 +26,36 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-ingehaald-worden",
+  "bestand": "img/schemas/schema-ingehaald-worden.svg",
+  "titel": "Word je ingehaald? Naar rechts en niet versnellen",
+  "beschrijving": "Bovenaanzicht van een weg met twee rijrichtingen. De blauwe auto rijdt op de rechterhelft zo ver mogelijk naar rechts terwijl de rode auto met linker richtingaanwijzer hem links inhaalt. De blauwe auto versnelt niet.",
+  "borden": [],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-keren",
+  "bestand": "img/schemas/schema-keren.svg",
+  "titel": "Keren: waar mag het en waar niet?",
+  "beschrijving": "Drie wegdelen met een keerbeweging van een auto. Over een onderbroken witte streep is keren toegelaten (groen vinkje). Over een doorlopende witte streep niet (rood kruis). Op een autosnelweg of autoweg is keren altijd verboden (rood kruis).",
+  "borden": [
+   "Begin van een autosnelweg"
+  ],
+  "theorieblok": "keren-achteruitrijden",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-nieuwe-wegcode-2027-plaats",
+  "bestand": "img/schemas/schema-nieuwe-wegcode-2027-plaats.svg",
+  "titel": "De nieuwe wegcode begint op 1 juni 2027",
+  "beschrijving": "Een tijdlijn. Tot 1 juni 2027 gelden de regels uit dit boek. De nieuwe Code van de openbare weg was voorzien voor 1 september 2026 en is uitgesteld tot 1 juni 2027. Onderaan staan de onderwerpen waarop de nieuwe code iets verandert.",
+  "borden": [],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-overweg-pech",
   "bestand": "img/schemas/schema-overweg-pech.svg",
   "titel": "Pech op een overweg: eerst uit, dan bellen",
@@ -35,6 +65,63 @@
   "bronnen": [
    "OPEN-003"
   ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-parkeerschijf-betalen",
+  "bestand": "img/schemas/schema-parkeerschijf-betalen.svg",
+  "titel": "Blauwe zone en betalend parkeren",
+  "beschrijving": "Vier kaarten. Blauwe zone: de parkeerschijf ligt achter de voorruit. Betalende zone: je betaalt aan de parkeerautomaat of met een kaart. Defecte parkeerautomaat: je gebruikt de parkeerschijf. Plaats voor personen met een handicap: de speciale kaart achter de voorruit vervangt de schijf.",
+  "borden": [],
+  "theorieblok": "blauwe-zone-betalend-parkeren",
+  "bronnen": [
+   "PLAA-001",
+   "PLAA-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-richtingaanwijzers-overzicht",
+  "bestand": "img/schemas/schema-richtingaanwijzers-overzicht.svg",
+  "titel": "Wanneer geef je welk sein?",
+  "beschrijving": "Zes kleine kruispuntschema's met een auto en zijn richtingaanwijzer: links inhalen (linker richtingaanwijzer), terugkeren naar rechts na het inhalen (rechter), rechts afslaan (rechter), links afslaan (linker), een rotonde oprijden (geen sein) en een rotonde verlaten (rechter).",
+  "borden": [],
+  "theorieblok": "richtingaanwijzers-gebruik",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-rijstrook-kiezen",
+  "bestand": "img/schemas/schema-rijstrook-kiezen.svg",
+  "titel": "Een rijstrook kiezen: drie situaties",
+  "beschrijving": "Drie stroken met een weg in zijaanzicht van bovenaf. Eerste: een eenrichtingsrijbaan met drie rijstroken in de bebouwde kom, auto's rijden in alle stroken (vrij te kiezen). Tweede: een weg met vier rijstroken en twee richtingen; je kiest vrij maar enkel in je eigen richting. Derde: een gewone weg buiten de bebouwde kom, de auto rijdt zo dicht mogelijk bij de rechterrand.",
+  "borden": [],
+  "theorieblok": "plaats-rijstroken-bebouwde-kom",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-rijstrook-wisselen",
+  "bestand": "img/schemas/schema-rijstrook-wisselen.svg",
+  "titel": "Van rijstrook veranderen: spiegel, sein, schouder, beweeg",
+  "beschrijving": "Boven vier stappen met pictogrammen: eerst in de spiegel kijken, dan de richtingaanwijzer, dan over de schouder kijken en tot slot van rijstrook veranderen. Onder een weg met twee rijstroken waarop een blauwe auto naar de linkerstrook wil en eerst een rode auto laat voorgaan die al op die strook rijdt.",
+  "borden": [],
+  "theorieblok": "van-rijstrook-veranderen",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-rijstrookmarkeringen",
+  "bestand": "img/schemas/schema-rijstrookmarkeringen.svg",
+  "titel": "Rijstrookmarkeringen: drie soorten strepen",
+  "beschrijving": "Bovenaanzicht van een weg met twee rijrichtingen. Onderaan ligt een onderbroken witte middenlijn (overschrijden mag), daarboven korte dichte strepen die een doorlopende streep aankondigen, en bovenaan een doorlopende witte streep die je niet mag overschrijden. Een blauwe auto rijdt naar boven, een rode auto komt van boven.",
+  "borden": [],
   "type": "uitleg"
  },
  {
@@ -58,6 +145,18 @@
   "theorieblok": "openbaar-tramlichten",
   "bronnen": [
    "OPEN-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorsorteren",
+  "bestand": "img/schemas/schema-voorsorteren.svg",
+  "titel": "Voorsorteren: kies je rijstrook ruim voor het kruispunt",
+  "beschrijving": "Een eenrichtingsweg met drie rijstroken die naar een kruispunt loopt. Op elke strook staat een pijl op het wegdek: links, rechtdoor en rechts. Een rode auto in de linkerstrook gaat links af met linker richtingaanwijzer, een blauwe auto in het midden rijdt rechtdoor en een gele auto in de rechterstrook gaat rechts af met rechter richtingaanwijzer.",
+  "borden": [],
+  "theorieblok": "voorsorteren",
+  "bronnen": [
+   "PLAA-001"
   ],
   "type": "uitleg"
  }

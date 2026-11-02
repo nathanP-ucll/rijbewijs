@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 366" width="800" height="366" role="img" aria-labelledby="t d">
+<title id="t">Alarmlichten en fluohesje</title>
+<desc id="d">Drie kaarten: de achterkant van een auto met alle richtingaanwijzers knipperend (alarmlichten), een fluohesje dat je aantrekt voor je uitstapt, en een gevarendriehoek die door de alarmlichten niet vervangen wordt.</desc>
+
+<rect width="800" height="366" fill="#fffdf7"/>
+<rect x="30" y="70" width="236" height="221.24" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="66" width="236" height="221.24" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(98 76) scale(0.96)"><rect x="12" y="42" width="76" height="36" rx="10" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 42 L30 20 H70 L76 42 Z" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M33 24 H67 L71 40 H29 Z" fill="#cfe6f7"/><rect x="10" y="52" width="16" height="12" rx="4" fill="#f08a1c" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="74" y="52" width="16" height="12" rx="4" fill="#f08a1c" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="38" y="58" width="24" height="12" rx="2" fill="#fff" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="18" y="78" width="14" height="10" rx="3" fill="#1c2230"/><rect x="68" y="78" width="14" height="10" rx="3" fill="#1c2230"/><g stroke="#f08a1c" stroke-width="3.5" stroke-linecap="round"><path d="M4 50 L-2 46 M4 58 L-3 58 M96 50 L102 46 M96 58 L103 58"/></g></g>
+<text x="146" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="146" dy="0">Alarmlichten</tspan></text>
+<text x="146" y="222.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="146" dy="0">Alle richtingaanwijzers</tspan><tspan x="146" dy="20.74">knipperen tegelijk.</tspan></text>
+<rect x="284" y="70" width="236" height="221.24" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="282" y="66" width="236" height="221.24" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(352 76) scale(0.96)"><path d="M32 12 L42 12 Q50 26 58 12 L68 12 L90 32 L79 46 L72 41 L72 88 L28 88 L28 41 L21 46 L10 32 Z" fill="#e8f21f" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="28" y="56" width="44" height="8" fill="#f4f4f4"/><rect x="28" y="72" width="44" height="8" fill="#f4f4f4"/><path d="M42 12 Q50 26 58 12" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="400" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Fluohesje</tspan></text>
+<text x="400" y="222.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Op een autosnelweg of</tspan><tspan x="400" dy="20.74">autoweg aan zodra je</tspan><tspan x="400" dy="20.74">uitstapt.</tspan></text>
+<rect x="538" y="70" width="236" height="221.24" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="536" y="66" width="236" height="221.24" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(606 76) scale(0.96)"><polygon points="50,10 93,86 7,86" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,36 72,75 28,75" fill="#fff" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="654" y="199" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="654" dy="0">Driehoek blijft nodig</tspan></text>
+<text x="654" y="222.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="654" dy="0">Alarmlichten vervangen de</tspan><tspan x="654" dy="20.74">gevarendriehoek niet.</tspan></text>
+<rect x="28" y="303.24" width="744" height="43.96" rx="12" fill="#f08a1c"/>
+<text x="400" y="331.34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Houd het hesje binnen handbereik, niet in de koffer.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Alarmlichten en fluohesje</tspan></text>
+</svg>

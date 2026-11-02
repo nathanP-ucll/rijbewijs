@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338" width="800" height="338" role="img" aria-labelledby="t d">
+<title id="t">Vluchtmisdrijf: nooit doorrijden</title>
+<desc id="d">Twee kolommen. Links, rood: niet doen, doorrijden na een ongeval; dat is strafbaar en kan gevangenisstraf, geldboete en rijverbod geven. Rechts, groen: wel doen, ter plaatse blijven, naam en identiteit geven en hulp verlenen of halen.</desc>
+
+<rect width="800" height="338" fill="#fffdf7"/>
+<rect x="30" y="68" width="364" height="197.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="364" height="197.48" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="2.5"/>
+<path d="M28 116 V78 Q28 64 42 64 H378 Q392 64 392 78 V116 Z" fill="#d63a3a"/>
+<circle cx="62" cy="90" r="22" fill="#fff"/>
+<g transform="translate(46 74) scale(0.32)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g>
+<text x="238" y="97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="238" dy="0">Niet doen: doorrijden</tspan></text>
+<circle cx="64" cy="140" r="13" fill="#d63a3a"/><path d="M58.8 134.8 L69.2 145.2 M69.2 134.8 L58.8 145.2" fill="none" stroke="#fff" stroke-width="3.6400000000000006" stroke-linecap="round"/>
+<text x="90" y="145.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Gewonden zonder hulp achterlaten</tspan></text>
+<line x1="42" y1="160" x2="378" y2="160" stroke="#d9d4c4" stroke-width="1.5"/>
+<circle cx="64" cy="180" r="13" fill="#d63a3a"/><path d="M58.8 174.8 L69.2 185.2 M69.2 174.8 L58.8 185.2" fill="none" stroke="#fff" stroke-width="3.6400000000000006" stroke-linecap="round"/>
+<text x="90" y="185.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Vluchtmisdrijf is strafbaar</tspan></text>
+<line x1="42" y1="200" x2="378" y2="200" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 209.74) scale(0.38)"><g transform="rotate(-35 50 50)"><rect x="46" y="30" width="8" height="62" rx="3" fill="#8a5a32" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="24" y="14" width="52" height="22" rx="5" fill="#6b4423" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g><rect x="14" y="82" width="46" height="8" rx="3" fill="#6b4423" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="90" y="224.15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Mogelijk: gevangenisstraf, geldboete</tspan><tspan x="90" dy="20.74">en rijverbod</tspan></text>
+<rect x="410" y="68" width="364" height="197.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="408" y="64" width="364" height="197.48" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="2.5"/>
+<path d="M408 116 V78 Q408 64 422 64 H758 Q772 64 772 78 V116 Z" fill="#2f9e5a"/>
+<circle cx="442" cy="90" r="22" fill="#fff"/>
+<g transform="translate(426 74) scale(0.32)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f9e5a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 50 L45 63 L70 36" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="618" y="97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="618" dy="0">Wel doen: blijf ter plaatse</tspan></text>
+<circle cx="444" cy="140" r="13" fill="#2f9e5a"/><path d="M438.15 140 L442.7 144.94 L450.5 135.06" fill="none" stroke="#fff" stroke-width="3.6400000000000006" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="145.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Blijf, zeker als er gewonden zijn</tspan></text>
+<line x1="422" y1="160" x2="758" y2="160" stroke="#d9d4c4" stroke-width="1.5"/>
+<circle cx="444" cy="180" r="13" fill="#2f9e5a"/><path d="M438.15 180 L442.7 184.94 L450.5 175.06" fill="none" stroke="#fff" stroke-width="3.6400000000000006" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="185.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Geef je naam en identiteit</tspan></text>
+<line x1="422" y1="200" x2="758" y2="200" stroke="#d9d4c4" stroke-width="1.5"/>
+<circle cx="444" cy="220" r="13" fill="#2f9e5a"/><path d="M438.15 220 L442.7 224.94 L450.5 215.06" fill="none" stroke="#fff" stroke-width="3.6400000000000006" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="470" y="225.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Verleen of haal hulp</tspan></text>
+<rect x="28" y="275.48" width="744" height="43.96" rx="12" fill="#d63a3a"/>
+<text x="400" y="303.58" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Niet ter plaatse blijven is een zware fout.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Vluchtmisdrijf: nooit doorrijden</tspan></text>
+</svg>

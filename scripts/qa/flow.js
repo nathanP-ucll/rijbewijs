@@ -144,6 +144,7 @@ async function solve(page, art, ex, right) {
   await page.getByRole('button', { name: /Inhoud/ }).click();
   ok(await page.locator('#pop-toc').isVisible(), 'inhoudspaneel opent');
   await page.locator('#pop-toc a', { hasText: 'Samenvatting' }).first().click();
+  await page.waitForTimeout(250);
   ok(/Samenvatting/.test(await page.title()), 'sprong via inhoud naar samenvatting');
   await page.getByRole('button', { name: /Les 1/ }).click();
   ok(await page.locator('#pop-les a', { hasText: 'Proefexamen' }).isVisible(), 'lesmenu bevat proefexamen');

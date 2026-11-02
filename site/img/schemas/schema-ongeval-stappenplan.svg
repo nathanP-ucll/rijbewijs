@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 323" width="800" height="323" role="img" aria-labelledby="t d">
+<title id="t">Het stappenplan bij een ongeval</title>
+<desc id="d">Vijf genummerde stappen met pictogrammen, van links naar rechts: 1 beveilig de plaats (gevarendriehoek), 2 breng mensen in veiligheid, 3 alarmeer 112, 4 verleen eerste hulp, 5 blijf ter plaatse. Onderaan: eerst veiligheid, dan hulp roepen, dan zelf verder helpen.</desc>
+
+<rect width="800" height="323" fill="#fffdf7"/>
+<rect x="30" y="70" width="131.2" height="176.8" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="66" width="131.2" height="176.8" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(55.6 80) scale(0.76)"><polygon points="50,10 93,86 7,86" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,36 72,75 28,75" fill="#fff" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="93.6" y="181.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="93.6" dy="0">Beveilig de</tspan><tspan x="93.6" dy="21.96">plaats</tspan></text>
+<circle cx="48" cy="86" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="91.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M165.2 143.4 L176.2 154.4 L165.2 165.4" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="183.2" y="70" width="131.2" height="176.8" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="181.2" y="66" width="131.2" height="176.8" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(208.8 80) scale(0.76)"><g transform="translate(32 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(68 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#c0562b" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="246.8" y="181.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="246.8" dy="0">Breng</tspan><tspan x="246.8" dy="21.96">mensen in</tspan><tspan x="246.8" dy="21.96">veiligheid</tspan></text>
+<circle cx="201.2" cy="86" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="201.2" y="91.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="201.2" dy="0">2</tspan></text>
+<path d="M318.4 143.4 L329.4 154.4 L318.4 165.4" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="336.4" y="70" width="131.2" height="176.8" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="334.4" y="66" width="131.2" height="176.8" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(362 80) scale(0.76)"><rect x="26" y="6" width="48" height="88" rx="9" fill="#1c2230"/><rect x="31" y="16" width="38" height="62" rx="2" fill="#cfe6f7"/><text x="50" y="55" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230">112</text><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="400" y="181.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Alarmeer</tspan><tspan x="400" dy="21.96">112</tspan></text>
+<circle cx="354.4" cy="86" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="354.4" y="91.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="354.4" dy="0">3</tspan></text>
+<path d="M471.6 143.4 L482.6 154.4 L471.6 165.4" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="489.6" y="70" width="131.2" height="176.8" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="487.6" y="66" width="131.2" height="176.8" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(515.2 80) scale(0.76)"><rect x="14" y="30" width="72" height="54" rx="9" fill="#2f9e5a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M38 30 V22 H62 V30" fill="none" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><rect x="45" y="42" width="10" height="30" fill="#fff"/><rect x="35" y="52" width="30" height="10" fill="#fff"/></g>
+<text x="553.2" y="181.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="553.2" dy="0">Verleen</tspan><tspan x="553.2" dy="21.96">eerste hulp</tspan></text>
+<circle cx="507.6" cy="86" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="507.6" y="91.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="507.6" dy="0">4</tspan></text>
+<path d="M624.8 143.4 L635.8 154.4 L624.8 165.4" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="642.8" y="70" width="131.2" height="176.8" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="640.8" y="66" width="131.2" height="176.8" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(668.4 80) scale(0.76)"><path d="M50 94 C30 64 22 54 22 38 A28 28 0 0 1 78 38 C78 54 70 64 50 94 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="38" r="11" fill="#fff"/></g>
+<text x="706.4" y="181.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="706.4" dy="0">Blijf ter</tspan><tspan x="706.4" dy="21.96">plaatse</tspan></text>
+<circle cx="660.8" cy="86" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="660.8" y="91.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="660.8" dy="0">5</tspan></text>
+<rect x="28" y="260.8" width="744" height="43.96" rx="12" fill="#2f9e5a"/>
+<text x="400" y="288.9" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Eerst veiligheid, dan hulp roepen, dan zelf verder helpen.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Het stappenplan bij een ongeval</tspan></text>
+</svg>

@@ -4,7 +4,7 @@
 // Schrijft site/img/schemas/schema-*.svg en data/schemas-extra-a.json (raakt data/schemas-index.json NIET aan).
 const fs = require('fs');
 const path = require('path');
-const { Svg, C, f, ROOT } = require('./lib');
+const { Svg, C, CAR, f, ROOT } = require('./lib');
 
 const BG = '#eef1f6';
 const INK = C.ink;
@@ -273,23 +273,23 @@ function weg(s, ox, met) {
   const s = new Svg('schema-limiet-is-maximum', 'De limiet is een maximum, geen streefsnelheid',
     'Een balk die de toegelaten snelheid voorstelt tot het maximum van 70 km/u. Het eerste deel, een aangepaste snelheid, is groen. Het laatste deel is rood: dat mag volgens het bord, maar is te snel bij mist of op een gladde weg. Onder de balk een auto op een mistige weg.', { bg: BG });
   s.titel('De limiet is een maximum');
-  box(s, 30, 74, 740, 210, '#fff');
-  s.rect(60, 150, 450, 54, '#2ea36b', 'rx="10" stroke="#1c2230" stroke-width="2.5"');
-  s.rect(510, 150, 200, 54, '#f3b3ab', 'rx="10" stroke="#1c2230" stroke-width="2.5"');
-  s.text(285, 185, 'aangepaste snelheid', { size: 22, fill: '#fff', weight: 800 });
-  s.text(610, 185, 'te snel', { size: 22, fill: '#8a1f14', weight: 800 });
-  s.line(710, 130, 710, 224, INK, 5);
-  kmBadge(s, 710, 106, 70, { w: 96, h: 68, size: 30 });
-  s.text(710, 250, 'limiet', { size: 17, weight: 700 });
-  s.text(60, 250, 'langzaam', { size: 16, anchor: 'start', weight: 600 });
-  s.text(60, 112, 'Mag je 70, maar is het mistig of glad?', { size: 21, anchor: 'start', weight: 800 });
-  s.text(60, 136, 'Dan kan 70 te snel zijn.', { size: 18, anchor: 'start', weight: 600 });
+  box(s, 30, 74, 740, 230, '#fff');
+  s.rect(60, 176, 450, 54, '#2ea36b', 'rx="10" stroke="#1c2230" stroke-width="2.5"');
+  s.rect(510, 176, 200, 54, '#f3b3ab', 'rx="10" stroke="#1c2230" stroke-width="2.5"');
+  s.text(285, 211, 'aangepaste snelheid', { size: 22, fill: '#fff', weight: 800 });
+  s.text(610, 211, 'te snel', { size: 22, fill: '#8a1f14', weight: 800 });
+  s.line(710, 156, 710, 250, INK, 5);
+  kmBadge(s, 710, 122, 70, { w: 96, h: 66, size: 30 });
+  s.text(710, 276, 'limiet', { size: 17, weight: 700 });
+  s.text(60, 276, 'langzaam', { size: 16, anchor: 'start', weight: 600 });
+  s.text(60, 120, 'Mag je 70, maar is het mistig of glad?', { size: 21, anchor: 'start', weight: 800 });
+  s.text(60, 146, 'Dan kan 70 te snel zijn.', { size: 18, anchor: 'start', weight: 600 });
   // weg in de mist
-  s.rect(30, 310, 740, 210, C.grass, 'rx="14"');
-  s.rect(30, 370, 740, 90, C.road); s.line(30, 415, 770, 415, '#fff', 3, 'stroke-dasharray="16 14"');
-  s.car(250, 440, 90, 'rood', null);
-  mist(s, 330, 330, 420, 170, '#ffffff', 0.55); mist(s, 120, 380, 320, 120, '#ffffff', 0.5);
-  s.label(400, 548, 'Mist of een gladde weg: rij trager dan de limiet.', { size: 20, bg: '#fff' });
+  s.rect(30, 326, 740, 196, C.grass, 'rx="14"');
+  s.rect(30, 380, 740, 90, C.road); s.line(30, 425, 770, 425, '#fff', 3, 'stroke-dasharray="16 14"');
+  s.car(250, 450, 90, 'rood', null);
+  mist(s, 330, 342, 420, 170, '#ffffff', 0.55); mist(s, 120, 390, 320, 120, '#ffffff', 0.5);
+  s.label(400, 552, 'Mist of een gladde weg: rij trager dan de limiet.', { size: 20, bg: '#fff' });
   out(s, 'snelheden-aangepast', ['SNEL-001', 'SNEL-003']);
 })();
 
@@ -342,4 +342,202 @@ function weg(s, ox, met) {
   out(s, 'snelheden-overzicht-gewest', SNEL);
 })();
 
-// @@DEEL3@@
+// =====================================================================
+// H3 — voorrang en kruispunten
+// =====================================================================
+const VOOR = ['VOOR-001', 'VOOR-002'];
+(function () { // 3.1.1
+  const s = new Svg('schema-voorrang-verlenen', 'Voorrang verlenen: de ander laat je doorrijden',
+    'Een kruispunt zonder borden of lichten. Een blauwe auto komt van rechts en rijdt door. De rode auto uit de onderste weg verleent voorrang: hij wacht tot de blauwe auto voorbij is.', {});
+  s.titel('Voorrang verlenen', 'kruispunt zonder borden of lichten');
+  s.crossroad(400, 340, 60);
+  s.car(620, 310, 270, 'blauw', null); s.route('M575,310 L225,310', CAR.blauw);
+  s.car(430, 500, 0, 'rood', null, { brake: true });
+  s.label(620, 262, 'van rechts: rijdt door', { size: 18, bg: '#1f9d55', fg: '#fff' });
+  s.label(250, 520, 'jij: voorrang verlenen,\nrij pas verder als het veilig is', { size: 17, bg: '#d63a3a', fg: '#fff' });
+  out(s, 'voorrang-van-rechts', VOOR);
+})();
+
+(function () { // 3.2.3
+  const s = new Svg('schema-voorrang-houden', 'Wie voorrang heeft en even stopt, behoudt zijn voorrang',
+    'Een kruispunt zonder borden of lichten. De blauwe auto komt van rechts en heeft voorrang, maar staat even stil voor het kruispunt (remlichten). De rode auto uit de onderste weg wacht: de blauwe auto behoudt zijn voorrang.', {});
+  s.titel('Even stoppen kost je geen voorrang', 'de blauwe auto komt van rechts');
+  s.crossroad(400, 340, 60);
+  s.car(520, 310, 270, 'blauw', null, { brake: true });
+  s.car(430, 500, 0, 'rood', null);
+  s.label(600, 262, 'stopt even,\nmaar houdt voorrang', { size: 17, bg: '#1f9d55', fg: '#fff' });
+  s.label(250, 520, 'wacht: de blauwe auto\nbehoudt zijn voorrang', { size: 17, bg: '#d63a3a', fg: '#fff' });
+  out(s, 'voorrang-van-rechts', VOOR);
+})();
+
+(function () { // 3.1.3
+  const s = new Svg('schema-drie-vragen', 'Bij elk kruispunt dezelfde drie vragen',
+    'Drie vragen onder elkaar met het antwoord ernaast. 1: is er een bevoegde persoon of een werkend verkeerslicht? Dan volg je die. 2: staan er borden? Dan volg je de borden. 3: is er niets van dat alles? Dan geldt voorrang van rechts.', { bg: BG });
+  s.titel('Bij elk kruispunt dezelfde drie vragen');
+  const rows = [
+    ['Is er een bevoegde persoon\nof een werkend verkeerslicht?', 'Dan volg\nje die.', '#2d57a8'],
+    ['Staan er borden?', 'Dan volg je\nde borden.', '#c27d00'],
+    ['Is er niets van dat alles?', 'Dan geldt voorrang\nvan rechts.', '#6b7280'],
+  ];
+  rows.forEach(([q, a, col], i) => {
+    const y = 76 + i * 150;
+    box(s, 30, y, 470, 126, '#fff');
+    s.badge(62, y + 63, i + 1, { r: 20 });
+    s.text(96, y + (q.includes('\n') ? 56 : 70), q, { size: 21, anchor: 'start', weight: 800 });
+    s.arrow(504, y + 63, 540, y + 63, INK, 6);
+    box(s, 544, y, 226, 126, col);
+    s.text(657, y + 58, a, { size: 20, fill: '#fff', weight: 800 });
+    if (i === 0) { licht(s, 424, y + 10, 'groen', 11, 0); person(s, 472, y + 116, 0.46, 'up'); }
+    if (i === 1) s.sign('B1', 440, y + 63, 80, { pole: false });
+    if (i === 2) { s.rect(402, y + 54, 76, 18, '#2b2f36', 'rx="4"'); s.rect(431, y + 25, 18, 76, '#2b2f36', 'rx="4"'); s.arrow(472, y + 108, 472, y + 80, '#d63a3a', 4); }
+  });
+  s.text(400, 562, 'Altijd in deze volgorde: eerst personen en lichten, dan borden, dan voorrang van rechts.', { size: 16, weight: 600 });
+  out(s, 'voorrang-t-kruispunt', ['VOOR-001', 'VOOR-002', 'LICH-001']);
+})();
+
+(function () { // 3.2.2
+  const s = new Svg('schema-geen-voorrang-rechts', 'Wanneer geldt voorrang van rechts niet?',
+    'Vier kaartjes. Een bord of een werkend licht gaat voor. Een bevoegde persoon gaat voor. Wie al op een rotonde rijdt, verleent geen voorrang meer aan rechts. Wie van rechts uit een verboden rijrichting komt, heeft geen voorrang.', { bg: BG });
+  s.titel('Wanneer geldt voorrang van rechts niet?');
+  const tegels = [
+    ['Een bord of een werkend\nlicht gaat voor', (x, y) => { s.sign('B1', x + 112, y + 74, 80, { pole: false }); licht(s, x + 252, y + 20, 'groen', 12, 0); }],
+    ['Een bevoegde persoon\ngaat voor', (x, y) => { person(s, x + 182, y + 140, 0.6, 'up'); }],
+    ['Wie al op een rotonde rijdt,\nverleent geen voorrang aan rechts', (x, y) => { s.sign('D5', x + 182, y + 74, 92, { pole: false }); }],
+    ['Wie van rechts uit een verboden\nrijrichting komt, heeft geen voorrang', (x, y) => { s.sign('C1', x + 110, y + 74, 84, { pole: false }); s.car(x + 255, y + 74, 270, 'blauw', null); }],
+  ];
+  tegels.forEach(([t, fn], i) => {
+    const x = 24 + (i % 2) * 380, y = 72 + Math.floor(i / 2) * 226;
+    box(s, x, y, 372, 212, '#fff');
+    fn(x, y);
+    s.text(x + 186, y + 168, t, { size: 17, weight: 700 });
+  });
+  s.text(400, 562, 'Voorrang van rechts geldt enkel op een kruispunt.', { size: 17, weight: 600 });
+  out(s, 'voorrang-van-rechts', VOOR);
+})();
+
+(function () { // 3.4.1 manoeuvres
+  const s = new Svg('schema-manoeuvres', 'Manoeuvres: jij geeft voorrang',
+    'Vier kleine bovenaanzichten: van rijstrook veranderen (de rode auto voegt in voor de blauwe), keren (de rode auto draait terwijl een blauwe auto nadert), een parkeerplaats verlaten (de groene auto rijdt weg terwijl een blauwe auto nadert) en uit een oprit komen (de gele auto rijdt de weg op terwijl een blauwe auto nadert). Bij een manoeuvre geef je voorrang aan de andere weggebruikers.', { bg: BG });
+  s.titel('Manoeuvres: jij geeft voorrang');
+  const W = 370, H = 236, HD = 34;
+  const tegel = (x, y, kop, fn) => {
+    box(s, x, y, W, H, '#1c2230');
+    s.text(x + W / 2, y + 24, kop, { size: 19, fill: '#fff', weight: 700 });
+    scene(s, x, y + HD, W, H - HD, fn);
+  };
+  const weg2 = (x0, x1, mid) => { s.rect(0, 0, 370, 210, C.grass); s.rect(x0, 0, x1 - x0, 210, C.road); s.line(mid, 0, mid, 210, '#fff', 3, 'stroke-dasharray="16 12"'); };
+  tegel(14, 72, 'Van rijstrook veranderen', () => {
+    weg2(85, 285, 185);
+    s.car(235, 165, 0, 'blauw', null); s.car(135, 140, 0, 'rood', null);
+    s.route('M135,100 Q135,50 232,38', CAR.rood, { w: 4 });
+  });
+  tegel(386, 72, 'Keren', () => {
+    weg2(85, 285, 185);
+    s.car(235, 168, 0, 'rood', null); s.car(135, 30, 180, 'blauw', null);
+    s.route('M235,132 L235,98 Q235,64 185,64 Q135,64 135,98 L135,128', CAR.rood, { w: 4 });
+  });
+  tegel(14, 322, 'Een parkeerplaats verlaten', () => {
+    weg2(50, 210, 130);
+    s.rect(210, 0, 90, 210, '#8b9099'); s.line(210, 0, 210, 210, '#fff', 3);
+    s.car(255, 30, 0, 'geel', null); s.car(255, 175, 0, 'wit', null); s.car(255, 108, 0, 'groen', null);
+    s.car(170, 170, 0, 'blauw', null);
+    s.route('M255,74 Q248,52 195,40 L175,12', CAR.groen, { w: 4 });
+  });
+  tegel(386, 322, 'Uit een oprit komen', () => {
+    weg2(50, 210, 130);
+    s.rect(210, 70, 160, 58, '#8b9099');
+    s.car(300, 99, 270, 'geel', null); s.car(170, 175, 0, 'blauw', null);
+    s.route('M262,99 L205,99 Q170,99 170,66 L170,14', CAR.geel, { w: 4 });
+  });
+  out(s, 'voorrang-manoeuvres-uitritten', VOOR);
+})();
+
+// rotonde: ring + armen
+function rotonde(s, cx, cy, ringR, ringW) {
+  s.rect(cx - 40, 48, 80, 552, C.road); s.rect(0, cy - 40, 800, 80, C.road);
+  s.line(cx, 48, cx, cy - ringR - ringW / 2, '#fff', 3, 'stroke-dasharray="14 12"'); s.line(cx, cy + ringR + ringW / 2, cx, 600, '#fff', 3, 'stroke-dasharray="14 12"');
+  s.line(0, cy, cx - ringR - ringW / 2, cy, '#fff', 3, 'stroke-dasharray="14 12"'); s.line(cx + ringR + ringW / 2, cy, 800, cy, '#fff', 3, 'stroke-dasharray="14 12"');
+  s.circle(cx, cy, ringR, 'none', `stroke="${C.road}" stroke-width="${ringW}"`);
+  s.circle(cx, cy, ringR, 'none', 'stroke="#fff" stroke-width="2.5" stroke-dasharray="12 10"');
+  s.circle(cx, cy - 0, ringR - ringW / 2, C.grass2, 'stroke="#d9d9d3" stroke-width="5"');
+}
+(function () { // 3.5.3
+  const s = new Svg('schema-rotonde-aanwijzen', 'Op de rotonde: oprijden en verlaten',
+    'Bovenaanzicht van een rotonde met vier armen. Een rode auto rijdt de rotonde op zonder richtingaanwijzer. Een blauwe auto verlaat de rotonde met de rechter richtingaanwijzer aan.', {});
+  s.titel('Op de rotonde aanwijzen', 'bovenaanzicht');
+  const cx = 400, cy = 340;
+  rotonde(s, cx, cy, 112, 76);
+  s.car(cx + 20, 520, 0, 'rood', null);
+  s.car(cx + 150, cy + 20, 90, 'blauw', null, { blink: 'R' });
+  s.label(235, 520, 'Oprijden: je hoeft geen\nrichtingaanwijzer te gebruiken', { size: 16, bg: '#fff' });
+  s.label(655, 430, 'Verlaten: je gebruikt\nde rechter richtingaanwijzer', { size: 16, bg: '#ff9d00', fg: INK });
+  s.line(655, 436, cx + 160, cy + 30, INK, 2);
+  out(s, 'voorrang-rotonde', VOOR);
+})();
+
+(function () { // 3.5.4
+  const s = new Svg('schema-rotonde-fietsers', 'Verlaat je de rotonde, geef dan voorrang aan fietsers',
+    'Bovenaanzicht van een rotonde met een fietspad errond. Een blauwe auto wil de rotonde verlaten en wacht voor het fietspad. Een fietser komt over het fietspad. De bestuurder geeft bij het verlaten voorrang aan voetgangers en fietsers.', {});
+  s.titel('Rotonde met fietspad errond', 'bovenaanzicht');
+  const cx = 400, cy = 340;
+  rotonde(s, cx, cy, 92, 66);
+  s.circle(cx, cy, 160, 'none', `stroke="${C.bike}" stroke-width="26"`);
+  s.circle(cx, cy, 160, 'none', 'stroke="#f3d3cd" stroke-width="2" stroke-dasharray="10 12"');
+  s.car(cx + 118, cy + 20, 90, 'blauw', null, { blink: 'R' });
+  s.add(`<g transform="translate(${cx + 160} ${cy - 64}) scale(1.7)">`); s.bike(0, 0, 180, null); s.add('</g>');
+  s.arrow(cx + 160, cy - 25, cx + 160, cy + 95, '#fff', 4);
+  s.label(660, 500, 'Auto die de rotonde verlaat:\nvoorrang aan voetgangers\nen fietsers', { size: 16, bg: '#fff' });
+  s.label(150, 150, 'fietspad rond\nde rotonde', { size: 16, bg: '#fff' });
+  s.line(205, 160, cx - 114, cy - 112, INK, 2);
+  out(s, 'voorrang-rotonde-fietsers', ['VOOR-001', 'VOOR-002', 'KWET-001']);
+})();
+
+(function () { // 3.6.2
+  const s = new Svg('schema-links-afslaan', 'Zo sla je links af',
+    'Een kruispunt. Een rode auto uit de onderste weg slaat links af met de linker richtingaanwijzer aan en neemt een ruime bocht. Op de linkertak steekt een voetganger over: voetgangers gaan ook voor.', {});
+  s.titel('Links afslaan', 'tijdig aankondigen, matige snelheid, ruime bocht');
+  s.crossroad(400, 340, 60);
+  s.car(430, 490, 0, 'rood', null, { blink: 'L' });
+  s.route('M430,445 L430,395 Q430,312 345,312 L225,312', CAR.rood);
+  s.ped(285, 372, null); s.arrow(285, 366, 285, 330, '#fff', 3);
+  s.label(610, 460, 'Kondig tijdig aan met\nde linker richtingaanwijzer', { size: 16, bg: '#fff' });
+  s.label(610, 548, 'Matige snelheid en\neen zo ruim mogelijke bocht', { size: 16, bg: '#fff' });
+  s.label(155, 460, 'voetgangers\ngaan ook voor', { size: 16, bg: '#fff' });
+  s.line(180, 440, 280, 380, INK, 2);
+  out(s, 'voorrang-linksaf-tegenliggers', VOOR);
+})();
+
+(function () { // 3.7.1
+  const s = new Svg('schema-voorrangsvoertuig-kenmerken', 'Zo herken je een voorrangsvoertuig',
+    'Een ziekenwagen van boven gezien met blauwe knipperlichten en geluidsgolven van de sirene. Een voorrangsvoertuig op dringende opdracht heeft blauwe knipperlichten en een sirene; jij verleent voorrang.', { bg: BG });
+  s.titel('Zo herken je een voorrangsvoertuig');
+  s.add('<g transform="translate(230 330) scale(3.3)">'); s.ambulance(0, 0, 0, null); s.add('</g>');
+  { const arcs = [60, 85, 110].map((r) => { const a1 = -75 * Math.PI / 180, a2 = -15 * Math.PI / 180; return `<path d="M${f(262 + r * Math.cos(a1))} ${f(303 + r * Math.sin(a1))} A${r} ${r} 0 0 1 ${f(262 + r * Math.cos(a2))} ${f(303 + r * Math.sin(a2))}"/>`; }).join(''); s.add(`<g fill="none" stroke="#1f6fff" stroke-width="5" stroke-linecap="round" opacity="0.85">${arcs}</g>`); }
+  s.line(262, 303, 520, 150, INK, 3); s.circle(262, 303, 6, INK, 'stroke="#fff" stroke-width="2"');
+  s.label(520, 150, 'blauwe\nknipperlichten', { size: 20, anchor: 'start', bg: '#fff', stroke: '#1f6fff' });
+  s.label(520, 270, 'sirene', { size: 20, anchor: 'start', bg: '#fff', stroke: '#1f6fff' });
+  s.line(372, 236, 518, 270, INK, 3); s.circle(372, 236, 5, INK);
+  box(s, 440, 360, 330, 170, '#1f9d55');
+  s.text(605, 410, 'Dringende opdracht?', { size: 22, fill: '#fff', weight: 800 });
+  s.text(605, 450, 'Dan verleen jij voorrang.', { size: 20, fill: '#fff', weight: 700 });
+  s.text(605, 496, 'bv. politie, brandweer,\nziekenwagen', { size: 16, fill: '#fff', weight: 500 });
+  out(s, 'voorrang-voorrangsvoertuigen', VOOR);
+})();
+
+(function () { // 3.7.3
+  const s = new Svg('schema-blauw-oranje-licht', 'Blauw of oranje knipperlicht?',
+    'Twee kaarten naast elkaar. Links een ziekenwagen met blauwe knipperlichten en sirene: dringende opdracht, doorgang vrijmaken en voorrang verlenen. Rechts een vrachtwagen (bijvoorbeeld een takelwagen) met oranjegele knipperlichten: een waarschuwing, geen voorrang, rij voorzichtig.', { bg: BG });
+  s.titel('Blauw of oranje knipperlicht?');
+  box(s, 24, 72, 372, 440, '#dbe8ff'); box(s, 404, 72, 372, 440, '#ffe8c7');
+  s.add('<g transform="translate(210 262) scale(2.3)">'); s.ambulance(0, 0, 0, null); s.add('</g>');
+  s.add('<g transform="translate(590 262) scale(1.9)">'); s.truck(0, 0, 0, null, { cab: '#f0b429' });
+  s.add('<g stroke="#ff9d00" stroke-width="3" stroke-linecap="round"><circle cx="-10" cy="-63" r="5" fill="#ff9d00" stroke="#fff"/><circle cx="10" cy="-63" r="5" fill="#ff9d00" stroke="#fff"/><line x1="-20" y1="-68" x2="-31" y2="-76"/><line x1="-23" y1="-60" x2="-36" y2="-60"/><line x1="20" y1="-68" x2="31" y2="-76"/><line x1="23" y1="-60" x2="36" y2="-60"/></g></g>');
+  s.text(210, 422, 'Blauw licht en sirene', { size: 20, weight: 800 });
+  s.text(210, 452, 'Dringende opdracht:\ndoorgang vrijmaken, voorrang\nverlenen, zo nodig stoppen.', { size: 15, weight: 600 });
+  s.text(590, 422, 'Oranjegele knipperlichten', { size: 20, weight: 800 });
+  s.text(590, 452, 'Een waarschuwing, geen\nvoorrang. Rij voorzichtig.\nBijvoorbeeld bij een takelwagen.', { size: 15, weight: 600 });
+  s.text(400, 556, 'Blauw met sirene: voorrang geven. Oranje: opletten, geen voorrang.', { size: 18, weight: 700 });
+  out(s, 'voorrang-bijzondere-voertuigen', VOOR);
+})();
+
+// @@DEEL4@@

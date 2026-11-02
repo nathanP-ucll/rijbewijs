@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 448" width="800" height="448" role="img" aria-labelledby="t d">
+<title id="t">Brandwonden: zo help je</title>
+<desc id="d">Vier stappen: handschoenen aan, 20 minuten koelen met stromend water, bedekken met verband of plastic folie, bij een ernstige brandwonde 112 bellen. Daaronder drie dingen die je niet doet: ijs of ijskoud water, zalf, blaren openprikken.</desc>
+
+<rect width="800" height="448" fill="#fffdf7"/>
+<rect x="30" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(82.75 78) scale(0.6)"><rect x="26" y="46" width="48" height="42" rx="14" fill="#6cc4e8" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><g fill="#6cc4e8" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="14" width="11" height="40" rx="5.5"/><rect x="39" y="8" width="11" height="44" rx="5.5"/><rect x="52" y="10" width="11" height="42" rx="5.5"/><rect x="65" y="18" width="11" height="36" rx="5.5"/></g></g>
+<text x="112.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="112.75" dy="0">Handen schoon</tspan></text>
+<text x="112.75" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="112.75" dy="0">Was of ontsmet je</tspan><tspan x="112.75" dy="18.91">handen en trek</tspan><tspan x="112.75" dy="18.91">handschoenen aan.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M203.5 144.82 L214.5 155.82 L203.5 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="221.5" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="219.5" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(274.25 78) scale(0.6)"><path d="M10 30 H52 Q66 30 66 44 V50" fill="none" stroke="#1c2230" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><rect x="52" y="48" width="28" height="9" rx="3" fill="#8a8f98" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M22 30 V18 M12 18 H32" fill="none" stroke="#1c2230" stroke-width="6" stroke-linejoin="round" stroke-linecap="round"/><g fill="#2f6fd6" stroke="#1c2230" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"><path d="M66 62 C60 72 60 78 66 78 C72 78 72 72 66 62 Z"/><path d="M66 82 C61 90 61 95 66 95 C71 95 71 90 66 82 Z"/><path d="M50 74 C46 80 46 85 50 85 C54 85 54 80 50 74 Z"/></g></g>
+<text x="304.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="304.25" dy="0">20 minuten</tspan><tspan x="304.25" dy="21.96">koelen</tspan></text>
+<text x="304.25" y="207.34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="304.25" dy="0">Met stromend</tspan><tspan x="304.25" dy="18.91">water.</tspan></text>
+<circle cx="239.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="239.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="239.5" dy="0">2</tspan></text>
+<path d="M395 144.82 L406 155.82 L395 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="413" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="411" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(465.75 78) scale(0.6)"><ellipse cx="50" cy="60" rx="34" ry="22" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="50" cy="52" rx="34" ry="22" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="50" cy="52" rx="14" ry="8" fill="#e6e8ec" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M84 52 L96 80 L72 78" fill="#fff" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="495.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="495.75" dy="0">Bedekken</tspan></text>
+<text x="495.75" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="495.75" dy="0">Met verband, nat</tspan><tspan x="495.75" dy="18.91">verband of plastic</tspan><tspan x="495.75" dy="18.91">folie.</tspan></text>
+<circle cx="431" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="431" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="431" dy="0">3</tspan></text>
+<path d="M586.5 144.82 L597.5 155.82 L586.5 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="604.5" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="602.5" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(657.25 78) scale(0.6)"><rect x="26" y="6" width="48" height="88" rx="9" fill="#1c2230"/><rect x="31" y="16" width="38" height="62" rx="2" fill="#cfe6f7"/><text x="50" y="55" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230">112</text><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="687.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="687.25" dy="0">Ernstig? Bel 112</tspan></text>
+<text x="687.25" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="687.25" dy="0">Bij een ernstige</tspan><tspan x="687.25" dy="18.91">brandwonde.</tspan></text>
+<circle cx="622.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="622.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="622.5" dy="0">4</tspan></text>
+<text x="400" y="281.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="400" dy="0">Dit doe je niet</tspan></text>
+<rect x="30" y="297.64" width="237.33" height="135.62" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="293.64" width="237.33" height="135.62" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(120.57 306.54) scale(0.52)"><path d="M24 36 L60 24 L82 40 V72 L46 84 L24 68 Z" fill="#dff3fb" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 36 L46 52 L82 40 M46 52 V84" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g opacity=".85"><g transform="translate(117.67 303.64) scale(0.58)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g></g>
+<text x="146.67" y="385.79" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="146.67" dy="0">Geen ijs</tspan></text>
+<text x="146.67" y="408.06" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="146.67" dy="0">Ook geen ijskoud water.</tspan></text>
+<rect x="283.33" y="297.64" width="237.33" height="135.62" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="281.33" y="293.64" width="237.33" height="135.62" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(373.9 306.54) scale(0.52)"><path d="M12 40 H64 L82 46 V64 L64 70 H12 Z" fill="#fff" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="64" y="42" width="22" height="26" rx="2" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="12" y="40" width="10" height="30" fill="#e6e8ec" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g opacity=".85"><g transform="translate(371 303.64) scale(0.58)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g></g>
+<text x="400" y="385.79" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="400" dy="0">Geen zalf</tspan></text>
+<text x="400" y="408.06" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Op de brandwonde.</tspan></text>
+<rect x="536.67" y="297.64" width="237.33" height="135.62" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="534.67" y="293.64" width="237.33" height="135.62" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(627.23 306.54) scale(0.52)"><ellipse cx="50" cy="56" rx="38" ry="26" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="50" cy="52" rx="20" ry="14" fill="#fff" opacity=".85" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g opacity=".85"><g transform="translate(624.33 303.64) scale(0.58)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g></g>
+<text x="653.33" y="385.79" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="653.33" dy="0">Geen blaren openprikken</tspan></text>
+<text x="653.33" y="408.06" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="653.33" dy="0">Laat ze dicht.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Brandwonden: zo help je</tspan></text>
+</svg>

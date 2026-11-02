@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">De nieuwe wegcode begint op 1 juni 2027</title>
+<desc id="d">Een tijdlijn. Tot 1 juni 2027 gelden de regels uit dit boek. De nieuwe Code van de openbare weg was voorzien voor 1 september 2026 en is uitgesteld tot 1 juni 2027. Onderaan staan de onderwerpen waarop de nieuwe code iets verandert.</desc>
+<defs><marker id="ah8d96a6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#8d96a6"/></marker></defs>
+<rect width="800" height="600" fill="#e9edf3"/>
+<rect x="70" y="206" width="400" height="18" fill="#2f6fd6" rx="9"/>
+<path d="M470,206 H690 L730,215 L690,224 H470 Z" fill="#f08a1c"/>
+<circle cx="70" cy="215" r="16" fill="#fff" stroke="#2f6fd6" stroke-width="6"/>
+<circle cx="470" cy="215" r="22" fill="#fff" stroke="#1c2230" stroke-width="7"/>
+<text x="70" y="267" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#2f6fd6" text-anchor="middle" ><tspan x="70" dy="0">Nu</tspan></text>
+<text x="470" y="277" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="470" dy="0">1 juni 2027</tspan></text>
+<rect x="130.12" y="313.76" width="239.76" height="52.48" rx="9" fill="#2f6fd6"  opacity="0.95"/>
+<text x="250" y="333.76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="250" dy="0">Tot 1 juni 2027 gelden</tspan><tspan x="250" dy="21.24">de regels uit dit boek</tspan></text>
+<rect x="474.92" y="313.76" width="290.16" height="52.48" rx="9" fill="#f08a1c"  opacity="0.95"/>
+<text x="620" y="333.76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="620" dy="0">Daarna geldt de nieuwe Code</tspan><tspan x="620" dy="21.24">van de openbare weg</tspan></text>
+<circle cx="250" cy="215" r="11" fill="#fff" stroke="#8d96a6" stroke-width="5"/>
+<text x="250" y="261" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#5b6577" text-anchor="middle" ><tspan x="250" dy="0">1 september 2026</tspan></text>
+<text x="250" y="281" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#5b6577" text-anchor="middle" ><tspan x="250" dy="0">oorspronkelijk gepland</tspan></text>
+<path d="M250,195 C250,95 450,95 462,185" fill="none" stroke="#8d96a6" stroke-width="4" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8 7" marker-end="url(#ah8d96a6)"/>
+<text x="356" y="117" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="#5b6577" text-anchor="middle">uitgesteld</text>
+<rect x="40" y="385" width="720" height="150" rx="14" fill="#fff" stroke="#c9d1de" stroke-width="2"/>
+<text x="400" y="420" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Onderwerpen waarop de nieuwe code iets verandert</tspan></text>
+<rect x="120.2" y="446.38" width="219.6" height="31.24" rx="9" fill="#eef3ff" stroke="#9db7ee" stroke-width="2" opacity="0.95"/>
+<text x="230" y="466.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c3f8a" text-anchor="middle" ><tspan x="230" dy="0">Beurtelings parkeren</tspan></text>
+<rect x="440.04" y="446.38" width="259.92" height="31.24" rx="9" fill="#eef3ff" stroke="#9db7ee" stroke-width="2" opacity="0.95"/>
+<text x="570" y="466.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c3f8a" text-anchor="middle" ><tspan x="570" dy="0">Verbod links in te halen</tspan></text>
+<rect x="175.64" y="496.38" width="108.72" height="31.24" rx="9" fill="#eef3ff" stroke="#9db7ee" stroke-width="2" opacity="0.95"/>
+<text x="230" y="516.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c3f8a" text-anchor="middle" ><tspan x="230" dy="0">Tripleren</tspan></text>
+<rect x="404.76" y="496.38" width="330.48" height="31.24" rx="9" fill="#eef3ff" stroke="#9db7ee" stroke-width="2" opacity="0.95"/>
+<text x="570" y="516.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c3f8a" text-anchor="middle" ><tspan x="570" dy="0">Motorfiets op de reddingsstrook</tspan></text>
+<rect x="143.48" y="552.97" width="513.04" height="30.06" rx="9" fill="#1c2230"  opacity="0.95"/>
+<text x="400" y="571.97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Voor het examen leer je de regels zoals ze nu gelden</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Wat verandert er in 2027?</tspan></text>
+</svg>

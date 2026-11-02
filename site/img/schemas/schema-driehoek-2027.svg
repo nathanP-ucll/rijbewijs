@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 338" width="800" height="338" role="img" aria-labelledby="t d">
+<title id="t">Gevarendriehoek: nu en vanaf 1 juni 2027</title>
+<desc id="d">Twee kolommen. Nu, tot 1 juni 2027: je plaatst de gevarendriehoek als je niet weg kan. Vanaf 1 juni 2027 volgens de nieuwe wegcode: eerst gebruik je alle alarmlichten, kan dat niet dan plaats je nog een driehoek, op autosnelwegen op 100 meter. Onderaan: leer voor het examen de huidige regels.</desc>
+
+<rect width="800" height="338" fill="#fffdf7"/>
+<rect x="30" y="68" width="364" height="197.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="364" height="197.48" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<path d="M28 116 V78 Q28 64 42 64 H378 Q392 64 392 78 V116 Z" fill="#1c2230"/>
+<circle cx="62" cy="90" r="22" fill="#fff"/>
+<g transform="translate(46 74) scale(0.32)"><polygon points="50,10 93,86 7,86" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,36 72,75 28,75" fill="#fff" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="238" y="97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="238" dy="0">Nu (tot 1 juni 2027)</tspan></text>
+<g transform="translate(45 121) scale(0.38)"><path d="M6 64 V52 Q6 46 12 45 L24 42 L35 27 Q37 25 41 25 H63 Q67 25 69 28 L79 41 L89 44 Q95 45 95 52 V64 Z" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M39 30 H48 V41 H31 Z M54 30 H64 L72 41 H54 Z" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="27" cy="67" r="10" fill="#1c2230"/><circle cx="27" cy="67" r="4" fill="#ccc"/><circle cx="75" cy="67" r="10" fill="#1c2230"/><circle cx="75" cy="67" r="4" fill="#ccc"/></g>
+<text x="90" y="145.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Je kan niet weg met je auto</tspan></text>
+<line x1="42" y1="160" x2="378" y2="160" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 161) scale(0.38)"><polygon points="50,10 93,86 7,86" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,36 72,75 28,75" fill="#fff" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="90" y="185.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Plaats de gevarendriehoek</tspan></text>
+<rect x="410" y="68" width="364" height="197.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="408" y="64" width="364" height="197.48" rx="14" fill="#fff" stroke="#f08a1c" stroke-width="2.5"/>
+<path d="M408 116 V78 Q408 64 422 64 H758 Q772 64 772 78 V116 Z" fill="#f08a1c"/>
+<circle cx="442" cy="90" r="22" fill="#fff"/>
+<g transform="translate(426 74) scale(0.32)"><rect x="12" y="18" width="76" height="70" rx="9" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 27 A9 9 0 0 1 21 18 H79 A9 9 0 0 1 88 27 V42 H12 Z" fill="#d63a3a"/><rect x="28" y="10" width="7" height="16" rx="3" fill="#1c2230"/><rect x="65" y="10" width="7" height="16" rx="3" fill="#1c2230"/><g fill="#8a8f98"><rect x="24" y="52" width="10" height="9"/><rect x="45" y="52" width="10" height="9"/><rect x="66" y="52" width="10" height="9"/><rect x="24" y="68" width="10" height="9"/><rect x="45" y="68" width="10" height="9"/></g></g>
+<text x="618" y="97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="618" dy="0">Vanaf 1 juni 2027</tspan></text>
+<g transform="translate(425 121) scale(0.38)"><rect x="12" y="42" width="76" height="36" rx="10" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M24 42 L30 20 H70 L76 42 Z" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M33 24 H67 L71 40 H29 Z" fill="#cfe6f7"/><rect x="10" y="52" width="16" height="12" rx="4" fill="#f08a1c" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="74" y="52" width="16" height="12" rx="4" fill="#f08a1c" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="38" y="58" width="24" height="12" rx="2" fill="#fff" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><rect x="18" y="78" width="14" height="10" rx="3" fill="#1c2230"/><rect x="68" y="78" width="14" height="10" rx="3" fill="#1c2230"/><g stroke="#f08a1c" stroke-width="3.5" stroke-linecap="round"><path d="M4 50 L-2 46 M4 58 L-3 58 M96 50 L102 46 M96 58 L103 58"/></g></g>
+<text x="470" y="145.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Eerst gebruik je alle alarmlichten</tspan></text>
+<line x1="422" y1="160" x2="758" y2="160" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(425 169.74) scale(0.38)"><polygon points="50,10 93,86 7,86" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,36 72,75 28,75" fill="#fff" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="470" y="184.15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Kan dat niet? Dan plaats je nog een</tspan><tspan x="470" dy="20.74">driehoek</tspan></text>
+<line x1="422" y1="217.48" x2="758" y2="217.48" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(425 218.48) scale(0.38)"><path d="M50 94 C30 64 22 54 22 38 A28 28 0 0 1 78 38 C78 54 70 64 50 94 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="38" r="11" fill="#fff"/></g>
+<text x="470" y="243.26" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Op autosnelwegen op 100 meter</tspan></text>
+<rect x="28" y="275.48" width="744" height="43.96" rx="12" fill="#d63a3a"/>
+<text x="400" y="303.58" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Leer voor het examen de huidige regels.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Gevarendriehoek: nu en vanaf 1 juni 2027</tspan></text>
+</svg>

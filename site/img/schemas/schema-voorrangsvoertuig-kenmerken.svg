@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Zo herken je een voorrangsvoertuig</title>
+<desc id="d">Een ziekenwagen van boven gezien met blauwe knipperlichten en geluidsgolven van de sirene. Een voorrangsvoertuig op dringende opdracht heeft blauwe knipperlichten en een sirene; jij verleent voorrang.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<g transform="translate(230 330) scale(3.3)">
+<g transform="translate(0 0) rotate(0)"><rect x="-18" y="-38" width="36" height="76" rx="8" fill="#fafafa" stroke="#1c2230" stroke-width="2.5"/><rect x="-12" y="-28" width="24" height="10" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-4" y="2" width="8" height="24" fill="#d63a3a"/><rect x="-12" y="10" width="24" height="8" fill="#d63a3a"/><circle cx="-9" cy="-8" r="5" fill="#1f6fff" stroke="#fff" stroke-width="1.5"/><circle cx="9" cy="-8" r="5" fill="#1f6fff" stroke="#fff" stroke-width="1.5"/></g>
+<g transform="translate(0 0) rotate(0)" stroke="#1f6fff" stroke-width="3" stroke-linecap="round"><line x1="-17" y1="-14" x2="-27" y2="-20"/><line x1="-19" y1="-8" x2="-31" y2="-8"/><line x1="17" y1="-14" x2="27" y2="-20"/><line x1="19" y1="-8" x2="31" y2="-8"/></g>
+</g>
+<g fill="none" stroke="#1f6fff" stroke-width="5" stroke-linecap="round" opacity="0.85"><path d="M277.53 245.04 A60 60 0 0 1 319.96 287.47"/><path d="M284 220.9 A85 85 0 0 1 344.1 281"/><path d="M290.47 196.75 A110 110 0 0 1 368.25 274.53"/></g>
+<line x1="262" y1="303" x2="520" y2="150" stroke="#1c2230" stroke-width="3" />
+<circle cx="262" cy="303" r="6" fill="#1c2230" stroke="#fff" stroke-width="2"/>
+<rect x="520" y="128" width="174.8" height="57.2" rx="9" fill="#fff" stroke="#1f6fff" stroke-width="2" opacity="0.95"/>
+<text x="607.4" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="607.4" dy="0">blauwe</tspan><tspan x="607.4" dy="23.6">knipperlichten</tspan></text>
+<rect x="520" y="248" width="85.2" height="33.6" rx="9" fill="#fff" stroke="#1f6fff" stroke-width="2" opacity="0.95"/>
+<text x="562.6" y="270" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="562.6" dy="0">sirene</tspan></text>
+<line x1="372" y1="236" x2="518" y2="270" stroke="#1c2230" stroke-width="3" />
+<circle cx="372" cy="236" r="5" fill="#1c2230" />
+<rect x="440" y="360" width="330" height="170" rx="14" fill="#1f9d55" stroke="#1c2230" stroke-width="2.5" />
+<text x="605" y="410" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="605" dy="0">Dringende opdracht?</tspan></text>
+<text x="605" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="605" dy="0">Dan verleen jij voorrang.</tspan></text>
+<text x="605" y="496" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#fff" text-anchor="middle" ><tspan x="605" dy="0">bv. politie, brandweer,</tspan><tspan x="605" dy="18.88">ziekenwagen</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Zo herken je een voorrangsvoertuig</tspan></text>
+</svg>

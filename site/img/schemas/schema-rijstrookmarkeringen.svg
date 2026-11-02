@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Rijstrookmarkeringen: drie soorten strepen</title>
+<desc id="d">Bovenaanzicht van een weg met twee rijrichtingen. Onderaan ligt een onderbroken witte middenlijn (overschrijden mag), daarboven korte dichte strepen die een doorlopende streep aankondigen, en bovenaan een doorlopende witte streep die je niet mag overschrijden. Een blauwe auto rijdt naar boven, een rode auto komt van boven.</desc>
+<defs><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="260" y="48" width="280" height="552" fill="#4a4f57" />
+<line x1="260" y1="48" x2="260" y2="600" stroke="#fff" stroke-width="4" />
+<line x1="540" y1="48" x2="540" y2="600" stroke="#fff" stroke-width="4" />
+<line x1="400" y1="420" x2="400" y2="600" stroke="#fff" stroke-width="5" stroke-dasharray="30 22"/>
+<line x1="400" y1="300" x2="400" y2="420" stroke="#fff" stroke-width="5" stroke-dasharray="10 9"/>
+<line x1="400" y1="48" x2="400" y2="300" stroke="#fff" stroke-width="5" />
+<g transform="translate(470 515) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(330 150) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<line x1="660" y1="560" x2="660" y2="480" stroke="#fff" stroke-width="6" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<text x="660" y="585" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="660" dy="0">jouw rijrichting</tspan></text>
+<rect x="30.24" y="400" width="209.52" height="52.48" rx="9" fill="#1f9d55"  opacity="0.95"/>
+<text x="135" y="420" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="135" dy="0">Onderbroken streep:</tspan><tspan x="135" dy="21.24">overschrijden mag</tspan></text>
+<text x="135" y="490" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="135" dy="0">om in te halen, links af te</tspan><tspan x="135" dy="16.52">slaan, te keren of van</tspan><tspan x="135" dy="16.52">rijstrook te veranderen</tspan></text>
+<rect x="575.08" y="326" width="179.84" height="90.24" rx="9" fill="#f08a1c"  opacity="0.95"/>
+<text x="665" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="665" dy="0">Korte, dichte</tspan><tspan x="665" dy="20.06">strepen: er volgt</tspan><tspan x="665" dy="20.06">een doorlopende</tspan><tspan x="665" dy="20.06">streep</tspan></text>
+<rect x="60.48" y="170" width="149.04" height="73.72" rx="9" fill="#d63a3a"  opacity="0.95"/>
+<text x="135" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="135" dy="0">Doorlopende</tspan><tspan x="135" dy="21.24">streep: niet</tspan><tspan x="135" dy="21.24">overschrijden</tspan></text>
+<text x="135" y="275" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="135" dy="0">en niet links ervan rijden</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Rijstrookmarkeringen: drie soorten strepen</tspan></text>
+</svg>

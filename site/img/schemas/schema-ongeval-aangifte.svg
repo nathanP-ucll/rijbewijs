@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-labelledby="t d">
+<title id="t">Aangifte bij de politie</title>
+<desc id="d">Boven: drie stappen. Niemand van de politie te bereiken, ga naar het dichtstbijzijnde politiebureau of dat van je woonplaats, meld het zo snel mogelijk. Onder: twee termijnen. Enkel stoffelijke schade: zodra mogelijk. Met gewonden: binnen 24 uur.</desc>
+
+<rect width="800" height="440" fill="#fffdf7"/>
+<rect x="30" y="68" width="232" height="191.28" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="232" height="191.28" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(112 78) scale(0.64)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,26 55.29,40.72 70.92,41.2 58.56,50.78 62.93,65.8 50,57 37.07,65.8 41.44,50.78 29.08,41.2 44.71,40.72" fill="#fff"/></g>
+<text x="144" y="168.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="144" dy="0">Niemand van de</tspan><tspan x="144" dy="23.18">politie te bereiken?</tspan></text>
+<text x="144" y="214.03" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="144" dy="0">Dan doe je aangifte.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M267 148.64 L278 159.64 L267 170.64" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="286" y="68" width="232" height="191.28" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="284" y="64" width="232" height="191.28" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(368 78) scale(0.64)"><polygon points="50,8 94,32 6,32" fill="#c9c9c4" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="36" width="72" height="8" fill="#e6e6e2" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#f4f4f0" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="20" y="46" width="10" height="32"/><rect x="40" y="46" width="10" height="32"/><rect x="60" y="46" width="10" height="32"/></g><rect x="8" y="78" width="84" height="10" fill="#c9c9c4" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="400" y="168.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Ga naar het</tspan><tspan x="400" dy="23.18">politiebureau</tspan></text>
+<text x="400" y="214.03" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Het dichtstbijzijnde of dat</tspan><tspan x="400" dy="19.52">van je woonplaats.</tspan></text>
+<circle cx="304" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="304" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="304" dy="0">2</tspan></text>
+<path d="M523 148.64 L534 159.64 L523 170.64" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="542" y="68" width="232" height="191.28" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="540" y="64" width="232" height="191.28" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(624 78) scale(0.64)"><g transform="translate(50 56) scale(1.1)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="656" y="168.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="656" dy="0">Benadeelde niet</tspan><tspan x="656" dy="23.18">aanwezig?</tspan></text>
+<text x="656" y="214.03" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="656" dy="0">Geef naam en adres op.</tspan></text>
+<circle cx="560" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="560" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="560" dy="0">3</tspan></text>
+<rect x="30" y="285.28" width="360" height="140.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="281.28" width="360" height="140.32" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="3"/>
+<g transform="translate(180 291.28) scale(0.56)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="208" y="374.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#2f6fd6" text-anchor="middle"><tspan x="208" dy="0">Enkel stoffelijke schade</tspan></text>
+<text x="208" y="399.18" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="208" dy="0">Aangifte zodra mogelijk.</tspan></text>
+<rect x="414" y="285.28" width="360" height="140.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="412" y="281.28" width="360" height="140.32" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(564 291.28) scale(0.56)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="592" y="374.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="592" dy="0">Met gewonden</tspan></text>
+<text x="592" y="399.18" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="592" dy="0">Aangifte binnen 24 uur.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Aangifte bij de politie</tspan></text>
+</svg>

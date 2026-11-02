@@ -5,14 +5,27 @@
   "titel": "In de bebouwde kom zonder bord: 50 of 30",
   "beschrijving": "Bovenaanzicht van een straat die door een bebouwde kom loopt, met aan het begin het bord begin van de bebouwde kom en aan het einde het bord einde van de bebouwde kom. Onderaan de snelheid zonder bord in de bebouwde kom: Vlaanderen 50, Wallonië 50, Brussel 30 km/u.",
   "borden": [
-   "Begin van de bebouwde kom (liggend)",
-   "Einde van de bebouwde kom (liggend)"
+   "Begin van de bebouwde kom",
+   "Einde van de bebouwde kom"
   ],
   "theorieblok": "snelheden-bebouwde-kom",
   "bronnen": [
    "SNEL-001",
    "SNEL-002",
    "SNEL-004"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-blauw-oranje-licht",
+  "bestand": "img/schemas/schema-blauw-oranje-licht.svg",
+  "titel": "Blauw of oranje knipperlicht?",
+  "beschrijving": "Twee kaarten naast elkaar. Links een ziekenwagen met blauwe knipperlichten en sirene: dringende opdracht, doorgang vrijmaken en voorrang verlenen. Rechts een vrachtwagen (bijvoorbeeld een takelwagen) met oranjegele knipperlichten: een waarschuwing, geen voorrang, rij voorzichtig.",
+  "borden": [],
+  "theorieblok": "voorrang-bijzondere-voertuigen",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
   ],
   "type": "uitleg"
  },
@@ -26,6 +39,39 @@
   "bronnen": [
    "SNEL-001",
    "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-drie-vragen",
+  "bestand": "img/schemas/schema-drie-vragen.svg",
+  "titel": "Bij elk kruispunt dezelfde drie vragen",
+  "beschrijving": "Drie vragen onder elkaar met het antwoord ernaast. 1: is er een bevoegde persoon of een werkend verkeerslicht? Dan volg je die. 2: staan er borden? Dan volg je de borden. 3: is er niets van dat alles? Dan geldt voorrang van rechts.",
+  "borden": [
+   "Voorrang verlenen"
+  ],
+  "theorieblok": "voorrang-t-kruispunt",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "LICH-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-geen-voorrang-rechts",
+  "bestand": "img/schemas/schema-geen-voorrang-rechts.svg",
+  "titel": "Wanneer geldt voorrang van rechts niet?",
+  "beschrijving": "Vier kaartjes. Een bord of een werkend licht gaat voor. Een bevoegde persoon gaat voor. Wie al op een rotonde rijdt, verleent geen voorrang meer aan rechts. Wie van rechts uit een verboden rijrichting komt, heeft geen voorrang.",
+  "borden": [
+   "Voorrang verlenen",
+   "Verplicht rondgaand verkeer",
+   "Verboden richting voor iedere bestuurder"
+  ],
+  "theorieblok": "voorrang-van-rechts",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
   ],
   "type": "uitleg"
  },
@@ -56,6 +102,59 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-links-afslaan",
+  "bestand": "img/schemas/schema-links-afslaan.svg",
+  "titel": "Zo sla je links af",
+  "beschrijving": "Een kruispunt. Een rode auto uit de onderste weg slaat links af met de linker richtingaanwijzer aan en neemt een ruime bocht. Op de linkertak steekt een voetganger over: voetgangers gaan ook voor.",
+  "borden": [],
+  "theorieblok": "voorrang-linksaf-tegenliggers",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-manoeuvres",
+  "bestand": "img/schemas/schema-manoeuvres.svg",
+  "titel": "Manoeuvres: jij geeft voorrang",
+  "beschrijving": "Vier kleine bovenaanzichten: van rijstrook veranderen (de rode auto voegt in voor de blauwe), keren (de rode auto draait terwijl een blauwe auto nadert), een parkeerplaats verlaten (de groene auto rijdt weg terwijl een blauwe auto nadert) en uit een oprit komen (de gele auto rijdt de weg op terwijl een blauwe auto nadert). Bij een manoeuvre geef je voorrang aan de andere weggebruikers.",
+  "borden": [],
+  "theorieblok": "voorrang-manoeuvres-uitritten",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-rotonde-aanwijzen",
+  "bestand": "img/schemas/schema-rotonde-aanwijzen.svg",
+  "titel": "Op de rotonde: oprijden en verlaten",
+  "beschrijving": "Bovenaanzicht van een rotonde met vier armen. Een rode auto rijdt de rotonde op zonder richtingaanwijzer. Een blauwe auto verlaat de rotonde met de rechter richtingaanwijzer aan.",
+  "borden": [],
+  "theorieblok": "voorrang-rotonde",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-rotonde-fietsers",
+  "bestand": "img/schemas/schema-rotonde-fietsers.svg",
+  "titel": "Verlaat je de rotonde, geef dan voorrang aan fietsers",
+  "beschrijving": "Bovenaanzicht van een rotonde met een fietspad errond. Een blauwe auto wil de rotonde verlaten en wacht voor het fietspad. Een fietser komt over het fietspad. De bestuurder geeft bij het verlaten voorrang aan voetgangers en fietsers.",
+  "borden": [],
+  "theorieblok": "voorrang-rotonde-fietsers",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-snelheid-aanpassen",
   "bestand": "img/schemas/schema-snelheid-aanpassen.svg",
   "titel": "Waar je je snelheid aan aanpast",
@@ -74,9 +173,9 @@
   "titel": "Snelheid zonder bord: plaats en gewest",
   "beschrijving": "Overzicht met drie rijen. Bebouwde kom: Vlaanderen 50, Wallonië 50, Brussel 30 km/u. Buiten de bebouwde kom op een gewone weg: Vlaanderen 70 (90 enkel met een bord), Wallonië 90, Brussel 70 km/u. Autosnelweg: in alle drie de gewesten 120 km/u.",
   "borden": [
-   "Begin van de bebouwde kom (liggend)",
-   "Einde van de bebouwde kom (liggend)",
-   ""
+   "Begin van de bebouwde kom",
+   "Einde van de bebouwde kom",
+   "Begin van een autosnelweg"
   ],
   "theorieblok": "snelheden-overzicht-gewest",
   "bronnen": [
@@ -92,8 +191,8 @@
   "titel": "Zo kom je tot de juiste snelheid",
   "beschrijving": "Vier stappen onder elkaar met pijlen ertussen: 1 zoek een snelheidsbord, 2 kijk naar de plaats en het gewest, 3 kijk naar je voertuig, 4 pas je snelheid aan de omstandigheden aan.",
   "borden": [
-   "",
-   "Begin van de bebouwde kom (liggend)"
+   "Maximumsnelheid 70 km/u",
+   "Begin van de bebouwde kom"
   ],
   "theorieblok": "snelheden-overzicht-gewest",
   "bronnen": [
@@ -113,6 +212,45 @@
   "bronnen": [
    "SNEL-001",
    "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorrang-houden",
+  "bestand": "img/schemas/schema-voorrang-houden.svg",
+  "titel": "Wie voorrang heeft en even stopt, behoudt zijn voorrang",
+  "beschrijving": "Een kruispunt zonder borden of lichten. De blauwe auto komt van rechts en heeft voorrang, maar staat even stil voor het kruispunt (remlichten). De rode auto uit de onderste weg wacht: de blauwe auto behoudt zijn voorrang.",
+  "borden": [],
+  "theorieblok": "voorrang-van-rechts",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorrang-verlenen",
+  "bestand": "img/schemas/schema-voorrang-verlenen.svg",
+  "titel": "Voorrang verlenen: de ander laat je doorrijden",
+  "beschrijving": "Een kruispunt zonder borden of lichten. Een blauwe auto komt van rechts en rijdt door. De rode auto uit de onderste weg verleent voorrang: hij wacht tot de blauwe auto voorbij is.",
+  "borden": [],
+  "theorieblok": "voorrang-van-rechts",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorrangsvoertuig-kenmerken",
+  "bestand": "img/schemas/schema-voorrangsvoertuig-kenmerken.svg",
+  "titel": "Zo herken je een voorrangsvoertuig",
+  "beschrijving": "Een ziekenwagen van boven gezien met blauwe knipperlichten en geluidsgolven van de sirene. Een voorrangsvoertuig op dringende opdracht heeft blauwe knipperlichten en een sirene; jij verleent voorrang.",
+  "borden": [],
+  "theorieblok": "voorrang-voorrangsvoertuigen",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
   ],
   "type": "uitleg"
  },

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Straat met zebrapad en drie genummerde zones (oefening)</title>
+<desc id="d">Een straat met twee rijstroken en een zebrapad. Het verkeer rijdt rechts: in de onderste rijstrook naar rechts, in de bovenste naar links (aangeduid met pijlen). Langs de rijbaan zijn drie genummerde zones aangeduid: zone 1 ligt in de onderste strook links van het zebrapad op enige afstand, zone 2 in de onderste strook tegen het zebrapad aan, zone 3 in de bovenste strook tegen het zebrapad aan.</desc>
+<defs><marker id="ahrgba2552552557" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="rgba(255,255,255,.7)"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="230" width="800" height="150" fill="#4a4f57" />
+<line x1="0" y1="305" x2="800" y2="305" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="0" y1="233" x2="800" y2="233" stroke="#fff" stroke-width="2" />
+<line x1="0" y1="377" x2="800" y2="377" stroke="#fff" stroke-width="2" />
+<rect x="400" y="230" width="60" height="150" fill="none" />
+<rect x="400" y="230" width="60" height="9" fill="#fff"/><rect x="400" y="248" width="60" height="9" fill="#fff"/><rect x="400" y="266" width="60" height="9" fill="#fff"/><rect x="400" y="284" width="60" height="9" fill="#fff"/><rect x="400" y="302" width="60" height="9" fill="#fff"/><rect x="400" y="320" width="60" height="9" fill="#fff"/><rect x="400" y="338" width="60" height="9" fill="#fff"/><rect x="400" y="356" width="60" height="9" fill="#fff"/><rect x="400" y="374" width="60" height="9" fill="#fff"/>
+<line x1="210" y1="342" x2="290" y2="342" stroke="rgba(255,255,255,.7)" stroke-width="4" stroke-linecap="round" marker-end="url(#ahrgba2552552557)"/>
+<line x1="690" y1="268" x2="610" y2="268" stroke="rgba(255,255,255,.7)" stroke-width="4" stroke-linecap="round" marker-end="url(#ahrgba2552552557)"/>
+<rect x="113" y="305" width="65" height="75" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.5" stroke-dasharray="7 5"/>
+<circle cx="145.5" cy="342.5" r="15" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="145.5" y="348.2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20.25" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="145.5" dy="0">1</tspan></text>
+<rect x="335" y="305" width="65" height="75" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.5" stroke-dasharray="7 5"/>
+<circle cx="367.5" cy="342.5" r="15" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="367.5" y="348.2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20.25" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="367.5" dy="0">2</tspan></text>
+<rect x="460" y="230" width="65" height="75" fill="rgba(255,255,255,.16)" stroke="#fff" stroke-width="2.5" stroke-dasharray="7 5"/>
+<circle cx="492.5" cy="267.5" r="15" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="492.5" y="273.2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20.25" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="492.5" dy="0">3</tspan></text>
+</svg>

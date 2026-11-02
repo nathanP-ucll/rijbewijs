@@ -42,6 +42,22 @@ lamp('tech-lampje-airbag', 'airbag', 'neutraal', 'Dashboardlampje airbag', 'Een 
 lamp('tech-lampje-abs', 'abs', 'neutraal', 'Dashboardlampje ABS', 'De letters ABS in een cirkel tussen haakjes op een donker dashboardvlak: storing in het antiblokkeersysteem. De kleur verschilt per bron, daarom neutraal getekend.', 'ABS', { ...NEUTRAAL, symbool: 'ABS' });
 lamp('tech-lampje-bandenspanning', 'banden', 'neutraal', 'Dashboardlampje bandenspanning', 'Een doorsnede van een band met een uitroepteken op een donker dashboardvlak: de bandenspanning is te laag. De kleur verschilt per bron, daarom neutraal getekend.', 'Bandenspanning', { ...NEUTRAAL, symbool: 'Bandenspanning' });
 
+// neutrale oefenvarianten: enkel het symbool in de juiste kleur, zonder enige tekst (ook niet in de beschrijving)
+function lampOef(naam, symKey, kleur, uitlegNaam) {
+  const s = new Svg(naam, 'Dashboardlampje (oefening)', 'Een ' + kleur + ' symbool van een dashboardlampje op een donker dashboardvlak.', { w: 200, h: 220, bg: 'none' });
+  const c = KL[kleur];
+  s.add('<rect width="200" height="220" rx="22" fill="#171b22"/>');
+  s.add('<rect x="6" y="6" width="188" height="208" rx="18" fill="none" stroke="#2c323d" stroke-width="2"/>');
+  s.add(`<circle cx="100" cy="110" r="68" fill="${c}" opacity=".13"/>`);
+  s.add(`<g transform="translate(100 110) scale(2.3) translate(-32 -32)">${SYM[symKey](c)}</g>`);
+  register(s.finish({ theorieblok: 'techniek-dashboard-symbolen', bronnen: ['TECH-001'], kleurEenduidig: true, kleur, type: 'oefening', partner: uitlegNaam }));
+}
+lampOef('tech-lampje-olie-oefening', 'olie', 'rood', 'tech-lampje-olie');
+lampOef('tech-lampje-remmen-oefening', 'remmen', 'rood', 'tech-lampje-remmen');
+lampOef('tech-lampje-motor-oefening', 'motor', 'oranje', 'tech-lampje-motor');
+lampOef('tech-lampje-grootlicht-oefening', 'grootlicht', 'blauw', 'tech-lampje-grootlicht');
+lampOef('tech-lampje-richtingaanwijzer-oefening', 'richting', 'groen', 'tech-lampje-richtingaanwijzer');
+
 // ---- kleurcode
 (function () {
   const s = new Svg('tech-dashboard-kleuren', 'Dashboardlampjes: de kleurcode',

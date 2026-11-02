@@ -1,3674 +1,3675 @@
 [
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-rangorde",
-  "type": "volgorde",
-  "vraag": "Zet de volgorde van voorrang: wat gaat boven wat? Het belangrijkste staat bovenaan.",
-  "items": [
-   "Bevoegde persoon (bv. politie)",
-   "Verkeerstekens (verkeerslichten, verkeersborden, wegmarkeringen)",
-   "Algemene verkeersregels (bv. voorrang van rechts)"
-  ],
-  "uitleg": "Bevelen van een bevoegde persoon gaan boven de verkeerstekens, en de verkeerstekens gaan boven de algemene verkeersregels.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-005",
-   "VOOR-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-001",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-van-rechts",
-  "type": "situatie",
-  "vraag": "Er zijn geen borden of lichten. In welke volgorde mogen de auto's doorrijden?",
-  "afbeelding": "schema-voorrang-rechts-oefening",
-  "modus": "volgorde",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (komt van onder)",
-    "x": 53.75,
-    "y": 79.17
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (komt van rechts)",
-    "x": 81.25,
-    "y": 45
-   },
-   {
-    "nr": 3,
-    "label": "auto 3 (komt van links)",
-    "x": 18.75,
-    "y": 55
-   }
-  ],
-  "correct": [
-   2,
-   1,
-   3
-  ],
-  "uitleg": "Zonder borden of lichten geldt voorrang van rechts: auto 2 heeft niemand rechts, auto 1 heeft auto 2 rechts, auto 3 heeft auto 1 rechts.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007",
-   "VOOR-010"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-002"
- },
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-van-rechts",
-  "type": "meerkeuze",
-  "vraag": "Wanneer moet je GEEN voorrang verlenen aan een bestuurder die van rechts komt? Kruis aan.",
-  "opties": [
-   "Als hij uit een verboden rijrichting komt",
-   "Als je zelf al op een rotonde rijdt",
-   "Als hij een fietser is",
-   "Als je haast hebt"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "meerdere": true,
-  "uitleg": "Voorrang van rechts geldt niet als de bestuurder van rechts uit een verboden rijrichting komt, en niet als je al op een rotonde rijdt. Het geldt wel ook voor fietsers.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007",
-   "VOOR-010"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-003"
- },
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-manoeuvres-uitritten",
-  "type": "situatie",
-  "vraag": "Auto 1 rijdt uit een oprit naar de rijbaan. Welk voertuig moet voorrang verlenen?",
-  "afbeelding": "schema-uitrit-parkeerplaats-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto die de oprit verlaat",
-    "x": 70,
-    "y": 89.17
-   },
-   {
-    "nr": 2,
-    "label": "voetganger op het trottoir",
-    "x": 75,
-    "y": 78
-   },
-   {
-    "nr": 3,
-    "label": "fietser op het fietspad",
-    "x": 87.5,
-    "y": 70
-   },
-   {
-    "nr": 4,
-    "label": "auto op de rijbaan",
-    "x": 18.75,
-    "y": 56.67
-   }
-  ],
-  "correct": 1,
-  "uitleg": "Wie uit een eigendom komt, voert een manoeuvre uit en verleent voorrang aan voetgangers, fietsers en het verkeer op de rijbaan.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-004"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-aardeweg-pad",
-  "type": "situatie",
-  "vraag": "Auto 1 komt uit een aardeweg. Welke auto heeft voorrang?",
-  "afbeelding": "schema-aardeweg-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (komt uit de aardeweg)",
-    "x": 53.75,
-    "y": 81.67
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (op de verharde weg, komt van links)",
-    "x": 17.5,
-    "y": 46.67
-   }
-  ],
-  "correct": 2,
-  "uitleg": "Wie uit een aardeweg of pad komt, verleent voorrang aan alle bestuurders op de openbare weg, ook als ze van links komen.",
-  "bronnen": [
-   "VOOR-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-005"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-woonerf-erf",
-  "type": "invul",
-  "vraag": "Hoe snel mag je maximaal rijden in een woonerf of erf?",
-  "antwoorden": [
-   "20",
-   "20 km/u"
-  ],
-  "eenheid": "km/u",
-  "uitleg": "In een woonerf of erf mag je niet harder rijden dan 20 km/u.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "zwaar",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-006"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-tram-spoorvoertuigen",
-  "type": "situatie",
-  "vraag": "Er zijn geen lichten of agent. Welk voertuig heeft voorrang?",
-  "afbeelding": "schema-tram-voorrang-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "tram",
-    "x": 18.75,
-    "y": 55
-   },
-   {
-    "nr": 2,
-    "label": "auto (van onder)",
-    "x": 53.75,
-    "y": 80
-   }
-  ],
-  "correct": 1,
-  "uitleg": "Elke weggebruiker verleent voorrang aan spoorvoertuigen, ook aan een tram die van links komt.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-007"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-borden-b1-b5",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Voorrang verlenen aan het verkeer op de weg die je oprijdt",
-    "linksAfb": "B1"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Stoppen en daarna voorrang verlenen",
-    "linksAfb": "B5"
-   },
-   {
-    "links": "Bord 3",
-    "rechts": "Aankondiging: verderop volgt een bord \"voorrang verlenen\"",
-    "linksAfb": "B3"
-   },
-   {
-    "links": "Bord 4",
-    "rechts": "Aankondiging: verderop volgt een stopbord",
-    "linksAfb": "B7"
-   }
-  ],
-  "uitleg": "De aankondigingsborden waarschuwen dat het eigenlijke bord nog komt, op de aangegeven afstand verderop.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-003"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-008"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-borden-b1-b5",
-  "type": "situatie",
-  "vraag": "Welke auto heeft voorrang op dit kruispunt?",
-  "afbeelding": "schema-b1-b5-kruispunt-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (van onder)",
-    "x": 53.75,
-    "y": 80.83
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (van rechts)",
-    "x": 82.5,
-    "y": 45
-   },
-   {
-    "nr": 3,
-    "label": "auto 3 (van links)",
-    "x": 17.5,
-    "y": 55
-   }
-  ],
-  "correct": 1,
-  "uitleg": "De bordjes aan de kant van auto 2 en auto 3 verplichten hen voorrang te verlenen. Auto 1 heeft geen bord en heeft voorrang; het bord gaat voor voorrang van rechts.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-003"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-009"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
-  "type": "meerkeuze",
-  "vraag": "Wat betekent dit bord?",
-  "opties": [
-   "Einde van de voorrangsweg",
-   "Je hebt voorrang",
-   "Voorrang verlenen",
-   "Begin van een woonerf"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "afbeelding": "B11",
-  "uitleg": "Na dit bord heb je geen voorrang meer: dan gelden borden, lichten of de gewone regels.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-010"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-t-kruispunt",
-  "type": "situatie",
-  "vraag": "Een T-kruispunt zonder borden of lichten. In welke volgorde mogen de auto's doorrijden?",
-  "afbeelding": "schema-t-kruispunt-oefening",
-  "modus": "volgorde",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (van de zijstraat, slaat links af)",
-    "x": 53.75,
-    "y": 81.67
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (van rechts)",
-    "x": 82.5,
-    "y": 36.67
-   },
-   {
-    "nr": 3,
-    "label": "auto 3 (van links)",
-    "x": 17.5,
-    "y": 46.67
-   }
-  ],
-  "correct": [
-   2,
-   1,
-   3
-  ],
-  "uitleg": "Er zijn geen borden of lichten, dus geldt voorrang van rechts: auto 2 heeft niemand rechts, auto 1 heeft auto 2 rechts, auto 3 heeft auto 1 rechts.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 3,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-011"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-t-kruispunt",
-  "type": "situatie",
-  "vraag": "Op de zijtak staat een voorrangsbord. Welke auto moet voorrang verlenen?",
-  "afbeelding": "schema-t-kruispunt-b1-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (van de zijstraat, slaat links af)",
-    "x": 53.75,
-    "y": 81.67
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (van rechts)",
-    "x": 82.5,
-    "y": 36.67
-   },
-   {
-    "nr": 3,
-    "label": "auto 3 (van links)",
-    "x": 17.5,
-    "y": 46.67
-   }
-  ],
-  "correct": 1,
-  "uitleg": "Het bord op de zijstraat verplicht auto 1 voorrang te verlenen aan het verkeer op de doorlopende weg.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-012"
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde",
-  "type": "situatie",
-  "vraag": "Een rotonde met de gewone borden. Welke auto heeft voorrang?",
-  "afbeelding": "schema-rotonde-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (rijdt op de rotonde)",
-    "x": 38.88,
-    "y": 60.33
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (rijdt de rotonde op)",
-    "x": 53.75,
-    "y": 83.33
-   }
-  ],
-  "correct": 1,
-  "uitleg": "Wie op de rotonde rijdt, heeft voorrang op wie de rotonde oprijdt.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-003",
-   "VOOR-004"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-013"
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
-  "type": "meerkeuze",
-  "vraag": "Wanneer is een rond kruispunt een rotonde volgens de wegcode?",
-  "opties": [
-   "Elk rond kruispunt is een rotonde",
-   "Als er een bord voor rondgaand verkeer staat en de toegangen een voorrangsbord hebben",
-   "Alleen als er verkeerslichten staan",
-   "Alleen als er een zebrapad is"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "De wegcode noemt het enkel een rotonde met het bord voor rondgaand verkeer en een voorrangsbord op de toegangswegen.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-014"
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde-fietsers",
-  "type": "meerkeuze",
-  "vraag": "Je verlaat als automobilist de rotonde. Voor wie moet je voorrang verlenen? Kruis aan.",
-  "opties": [
-   "Voetgangers die de afrit oversteken",
-   "Fietsers op een doorlopend fietspad dat de afrit kruist",
-   "Voor niemand: wie de rotonde verlaat, heeft altijd voorrang",
-   "Alleen voor auto's van rechts"
-  ],
-  "correct": [
-   0,
-   1
-  ],
-  "meerdere": true,
-  "uitleg": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers die de afrit oversteken en aan fietsers op een doorlopend fietspad dat de afrit kruist.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-003",
-   "VOOR-004"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-015",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T14",
-  "theorieblok": "voorrang-linksaf-tegenliggers",
-  "type": "situatie",
-  "vraag": "Auto 1 slaat links af. Welke auto heeft voorrang?",
-  "afbeelding": "schema-linksaf-tegenligger-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto 1 (slaat links af)",
-    "x": 53.75,
-    "y": 80
-   },
-   {
-    "nr": 2,
-    "label": "auto 2 (tegenligger, rijdt rechtdoor)",
-    "x": 46.25,
-    "y": 20
-   }
-  ],
-  "correct": 2,
-  "uitleg": "Wie links afslaat, verleent voorrang aan de tegenliggers.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-008",
-   "VOOR-009"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-016"
- },
- {
-  "les": 2,
-  "onderwerp": "T14",
-  "theorieblok": "voorrang-middenberm-gescheiden-rijbanen",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Een {{1}} is een aanleg in de lengterichting die rijbanen scheidt, behalve wegmarkeringen.",
-  "gaten": [
-   {
-    "opties": [
-     "middenberm",
-     "zebrapad",
-     "fietspad"
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-rangorde",
+    "type": "volgorde",
+    "vraag": "Zet de volgorde van voorrang: wat gaat boven wat? Het belangrijkste staat bovenaan.",
+    "items": [
+      "Bevoegde persoon (bv. politie)",
+      "Verkeerstekens (verkeerslichten, verkeersborden, wegmarkeringen)",
+      "Algemene verkeersregels (bv. voorrang van rechts)"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Zo staat een middenberm omschreven.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-017"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-voorrangsvoertuigen",
-  "type": "meerkeuze",
-  "vraag": "Wanneer mag een voorrangsvoertuig zijn sirene gebruiken?",
-  "opties": [
-   "Altijd als het rijdt",
-   "Enkel bij regen",
-   "Enkel bij een dringende opdracht",
-   "Enkel 's nachts"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Het geluidstoestel (sirene) mag alleen bij een dringende opdracht gebruikt worden.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-018"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-reageren-op-hulpdiensten",
-  "type": "meerkeuze",
-  "vraag": "Je rijdt op een voorrangsweg en hoort een sirene naderen. Wat doe je?",
-  "opties": [
-   "Doorrijden: je hebt voorrang",
-   "Versnellen om weg te zijn",
-   "Enkel remmen als je het voertuig ziet",
-   "Onmiddellijk de doorgang vrijmaken en zo nodig stoppen"
-  ],
-  "correct": [
-   3
-  ],
-  "meerdere": false,
-  "uitleg": "Zodra de sirene klinkt, maakt elke weggebruiker de doorgang vrij, ook wie zelf voorrang heeft.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": true,
-  "id": "L2-019"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-bijzondere-voertuigen",
-  "type": "koppel",
-  "vraag": "Koppel het voertuig aan wat je moet doen.",
-  "paren": [
-   {
-    "links": "Voertuig met blauw licht en sirene (dringende opdracht)",
-    "rechts": "Doorgang vrijmaken, voorrang verlenen, zo nodig stoppen"
-   },
-   {
-    "links": "Takelwagen met oranje knipperlichten",
-    "rechts": "Geen voorrang, maar voorzichtig rijden"
-   },
-   {
-    "links": "Bus die binnen de bebouwde kom zijn halte verlaat met richtingaanwijzer",
-    "rechts": "Vertragen en zo nodig stoppen om hem te laten vertrekken"
-   },
-   {
-    "links": "Tram of trein",
-    "rechts": "Voorrang verlenen"
-   }
-  ],
-  "uitleg": "Blauw met sirene en spoorvoertuigen hebben voorrang; oranje knipperlichten waarschuwen alleen.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-020"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-driekleurig",
-  "type": "meerkeuze",
-  "vraag": "Welke kleur staat bovenaan een driekleurig verkeerslicht?",
-  "opties": [
-   "Oranje",
-   "Rood",
-   "Groen",
-   "Het hangt van het gewest af"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Rood staat bovenaan, oranje in het midden en groen onderaan.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-003"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-021"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-oranje-doorrijden",
-  "type": "invul",
-  "vraag": "Bij oranje mag je alleen doorrijden als je niet meer veilig kunt ...",
-  "antwoorden": [
-   "stoppen",
-   "stilstaan"
-  ],
-  "uitleg": "Doorrijden mag alleen als stoppen niet meer veilig kan.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-022"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-volgorde-plaatsing",
-  "type": "meerkeuze",
-  "vraag": "Waar staan ronde driekleurige verkeerslichten normaal?",
-  "opties": [
-   "Rechts van de rijbaan",
-   "Alleen links van de rijbaan",
-   "Alleen op het wegdek",
-   "Midden op het kruispunt"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Cirkelvormige lichten staan rechts van de rijbaan; ze mogen links of boven herhaald worden.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-023"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-oranje-knipperlicht",
-  "type": "meerkeuze",
-  "vraag": "Je nadert een kruispunt met een knipperend oranje licht. Wat geldt?",
-  "opties": [
-   "Je moet stoppen",
-   "Je mag verder met dubbele voorzichtigheid; de gewone voorrang blijft gelden",
-   "Je hebt voorrang",
-   "Je mag zonder voorzichtigheid doorrijden"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Knipperend oranje verbiedt het doorrijden niet maar verandert de voorrang niet.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": true,
-  "id": "L2-024"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-pijlen",
-  "type": "meerkeuze",
-  "vraag": "Een groene pijl gaat branden samen met een rood licht. Wat mag je?",
-  "opties": [
-   "Alle richtingen uit",
-   "Niets: rood geldt voor iedereen",
-   "Enkel rechtdoor",
-   "Enkel in de richting van de pijl verder, met voorrang voor wie uit andere richtingen komt en voor voetgangers"
-  ],
-  "correct": [
-   3
-  ],
-  "meerdere": false,
-  "uitleg": "De groene pijl laat je alleen in de pijlrichting door, met voorrang voor anderen.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-025"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-b22-b23",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Fietsers mogen bij rood of oranje rechts afslaan, met voorrang voor anderen",
-    "linksAfb": "B22"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Fietsers mogen bij rood of oranje rechtdoor, met voorrang voor anderen",
-    "linksAfb": "B23"
-   }
-  ],
-  "uitleg": "Beide borden gelden voor fietsers en speed pedelecs, niet voor auto's, en altijd met voorrang voor anderen.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-026"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-fietslichten",
-  "type": "hotspot",
-  "vraag": "Klik op het opstelvak voor fietsers.",
-  "afbeelding": "schema-opstelvak",
-  "zones": [
-   {
-    "id": "opstelvak",
-    "x": 50,
-    "y": 48.3,
-    "w": 18.75,
-    "h": 20,
-    "correct": true
-   },
-   {
-    "id": "auto",
-    "x": 56.9,
-    "y": 80,
-    "w": 5.4,
-    "h": 10,
-    "correct": false
-   }
-  ],
-  "uitleg": "Het opstelvak tussen de twee stopstrepen is voor fietsers tijdens de rode fase. De auto stopt voor de eerste stopstreep.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-027"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-voetgangers",
-  "type": "meerkeuze",
-  "vraag": "Je slaat af bij groen licht en voetgangers zijn regelmatig begonnen de zijstraat over te steken waarin je afslaat. Wat doe je?",
-  "opties": [
-   "Je rijdt meteen door",
-   "Je toetert",
-   "Je rijdt om hen heen",
-   "Je verleent voorrang aan de voetgangers"
-  ],
-  "correct": [
-   3
-  ],
-  "meerdere": false,
-  "uitleg": "Wie afslaat, verleent voorrang aan voetgangers die de rijbaan oversteken die hij oprijdt, ook bij groen licht.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-028",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-boven-rijstroken",
-  "type": "koppel",
-  "vraag": "Koppel het teken boven de rijstrook aan de betekenis.",
-  "paren": [
-   {
-    "links": "Rood kruis",
-    "rechts": "Verboden richting op deze rijstrook"
-   },
-   {
-    "links": "Groene pijl naar onder",
-    "rechts": "Je mag deze rijstrook gebruiken"
-   },
-   {
-    "links": "Oranje pijl schuin naar onder",
-    "rechts": "Verboden, je mag er enkel weg naar de strook die de pijl aanwijst"
-   }
-  ],
-  "uitleg": "Lichten boven een rijstrook gelden enkel voor die rijstrook.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-029"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-kruispunt-vrijmaken",
-  "type": "meerkeuze",
-  "vraag": "Je hebt groen, maar het kruispunt is volgereden en je zou er moeten stilstaan. Wat doe je?",
-  "opties": [
-   "Toch oprijden: je hebt groen",
-   "Voor het kruispunt blijven wachten",
-   "Oprijden en toeteren",
-   "Langs de zijkant oprijden"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Zelfs bij groen rijd je een kruispunt niet op als je er waarschijnlijk zou moeten stilstaan.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-030"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-wie",
-  "type": "meerkeuze",
-  "vraag": "Wie is een bevoegde persoon? Kruis aan.",
-  "opties": [
-   "Een politieagent",
-   "Douanepersoneel tijdens zijn dienst",
-   "Een wegeninspecteur in Vlaanderen",
-   "Een voorbijganger die het verkeer regelt"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Niet elke persoon die het verkeer regelt, is een bevoegde persoon.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-031"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-seinen",
-  "type": "koppel",
-  "vraag": "Koppel het sein aan de betekenis.",
-  "paren": [
-   {
-    "links": "Arm rechtop",
-    "rechts": "Alle weggebruikers stoppen; wie al op het kruispunt is, maakt het vrij"
-   },
-   {
-    "links": "Armen horizontaal uitgestrekt",
-    "rechts": "Stoppen voor wie uit een richting komt die de armen dwars snijdt"
-   },
-   {
-    "links": "Een rood licht dwars heen en weer zwaaien",
-    "rechts": "Stoppen voor de bestuurders naar wie het licht gekeerd is"
-   }
-  ],
-  "uitleg": "Dit zijn de bevelen van een bevoegde persoon.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-032"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-signaalgevers-werf",
-  "type": "meerkeuze",
-  "vraag": "Wiens aanwijzingen moet je opvolgen? Kruis aan.",
-  "opties": [
-   "Een signaalgever bij een wielerwedstrijd",
-   "Een wegkapitein bij een groep fietsers",
-   "Een werfopzichter bij wegenwerken",
-   "Een willekeurige voorbijganger"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Signaalgevers, wegkapiteins, groepsleiders en werfopzichters geven aanwijzingen die je moet volgen.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-033"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "lichten-rangorde",
-  "type": "meerkeuze",
-  "vraag": "Het licht is groen, maar een agent laat je stoppen. Wat doe je?",
-  "opties": [
-   "Doorrijden want het is groen",
-   "Rustig afremmen en dan doorrijden",
-   "Stoppen",
-   "Toeteren"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Het bevel van een bevoegde persoon gaat boven de lichten.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": true,
-  "id": "L2-034"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "kwetsbaar-algemeen",
-  "type": "meerkeuze",
-  "vraag": "Een elektrische step (max. 25 km/u) wordt gelijkgesteld met ...",
-  "opties": [
-   "een fietser",
-   "een voetganger",
-   "een bromfiets klasse B",
-   "een motorfiets"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Een elektrische step is een gemotoriseerd voortbewegingstoestel en wordt gelijkgesteld met een fietser.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-035"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetganger-plaats-op-de-weg",
-  "type": "meerkeuze",
-  "vraag": "Een voetganger moet op de rijbaan lopen. Hoe loopt hij?",
-  "opties": [
-   "Altijd rechts, in het midden",
-   "Zo dicht mogelijk bij de rand, links in zijn looprichting",
-   "In het midden van de rijbaan",
-   "Op het fietspad"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Op de rijbaan loopt een voetganger links, naar het tegemoetkomend verkeer toe (of rechts als de veiligheid dat vraagt).",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-036"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetganger-oversteken",
-  "type": "invul",
-  "vraag": "Is er op minder dan ongeveer ... meter een zebrapad, dan moet je als voetganger dat gebruiken.",
-  "antwoorden": [
-   "20"
-  ],
-  "eenheid": "m",
-  "uitleg": "Binnen ongeveer 20 meter van een oversteekplaats moet je die gebruiken.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-037"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "zebrapad-voorrang-bestuurder",
-  "type": "meerkeuze",
-  "vraag": "Wat is verboden bij een zebrapad waar het verkeer niet geregeld is? Kruis aan.",
-  "opties": [
-   "Stilstaan of parkeren op het zebrapad",
-   "Parkeren op minder dan 5 meter ervoor",
-   "Inhalen van een voertuig dat voor het zebrapad stopt",
-   "Stoppen om voetgangers voor te laten"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Stilstaan en parkeren zijn verboden op de oversteekplaats en minder dan 5 meter ervoor; een voertuig dat stopt voor het zebrapad, mag je er niet inhalen.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-005"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-038",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "zebrapad-fietsers-en-steps",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Aanduiding van een oversteekplaats voor voetgangers",
-    "linksAfb": "F49"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Aanduiding van een oversteekplaats voor fietsers",
-    "linksAfb": "F50"
-   },
-   {
-    "links": "Bord 3",
-    "rechts": "Waarschuwing voor een oversteekplaats voor voetgangers",
-    "linksAfb": "A21"
-   }
-  ],
-  "uitleg": "Een zebrapad is voor voetgangers, een fietsoversteekplaats voor fietsers.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-005"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-039"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "afslaan-voorrang-voetgangers",
-  "type": "situatie",
-  "vraag": "De auto slaat rechts af. Welk voertuig of welke persoon moet voorrang verlenen?",
-  "afbeelding": "schema-afslaan-voetgangers-oefening",
-  "modus": "klik",
-  "voertuigen": [
-   {
-    "nr": 1,
-    "label": "auto (slaat rechts af)",
-    "x": 27.5,
-    "y": 46.67
-   },
-   {
-    "nr": 2,
-    "label": "voetganger (steekt de zijstraat over)",
-    "x": 53.75,
-    "y": 65.83
-   },
-   {
-    "nr": 3,
-    "label": "fietser op het fietspad (rijdt rechtdoor)",
-    "x": 20,
-    "y": 54.17
-   }
-  ],
-  "correct": 1,
-  "uitleg": "Wie afslaat, verleent voorrang aan voetgangers die de zijstraat oversteken en aan fietsers op het fietspad dat hij oversteekt.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-040"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangers-kinderen-handicap",
-  "type": "meerkeuze",
-  "vraag": "Je ziet een blinde met een witte stok bij de rijbaan. Wat doe je?",
-  "opties": [
-   "Vertragen en zo nodig stoppen",
-   "Toeteren om hem te waarschuwen",
-   "Gewoon doorrijden",
-   "Versnellen"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Wees dubbel voorzichtig, vertraag en stop zo nodig.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-041"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangers-afstand-hindernis",
-  "type": "meerkeuze",
-  "vraag": "Je kunt de minimale zijdelingse afstand tot een voetganger op de rijbaan niet houden. Wat doe je?",
-  "opties": [
-   "Toeteren en doorrijden",
-   "Stapvoets rijden en zo nodig stoppen",
-   "Normaal doorrijden",
-   "Versnellen"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Kan de afstand niet, dan rij je stapvoets.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-042"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangerszone-speelstraat-woonerf",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "In een voetgangerszone rijd je {{1}} en laat je {{2}} voorgaan.",
-  "gaten": [
-   {
-    "opties": [
-     "stapvoets",
-     "30 km/u",
-     "20 km/u"
+    "uitleg": "Bevelen van een bevoegde persoon gaan boven de verkeerstekens, en de verkeerstekens gaan boven de algemene verkeersregels.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-005",
+      "VOOR-006"
     ],
-    "correct": 0
-   },
-   {
-    "opties": [
-     "voetgangers",
-     "fietsers",
-     "bussen"
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-001",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-van-rechts",
+    "type": "situatie",
+    "vraag": "Er zijn geen borden of lichten. In welke volgorde mogen de auto's doorrijden?",
+    "afbeelding": "schema-voorrang-rechts-oefening",
+    "modus": "volgorde",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (komt van onder)",
+        "x": 53.75,
+        "y": 79.17
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (komt van rechts)",
+        "x": 81.25,
+        "y": 45
+      },
+      {
+        "nr": 3,
+        "label": "auto 3 (komt van links)",
+        "x": 18.75,
+        "y": 55
+      }
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Wie er mag rijden, doet dat stapvoets en laat voetgangers voor.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-043"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "portier-openen",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Controleer je {{1}} en kijk over je {{2}} voor je de deur opent.",
-  "gaten": [
-   {
+    "correct": [
+      2,
+      1,
+      3
+    ],
+    "uitleg": "Zonder borden of lichten geldt voorrang van rechts: auto 2 heeft niemand rechts, auto 1 heeft auto 2 rechts, auto 3 heeft auto 1 rechts.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007",
+      "VOOR-010"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-002"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-van-rechts",
+    "type": "meerkeuze",
+    "vraag": "Wanneer moet je GEEN voorrang verlenen aan een bestuurder die van rechts komt? Kruis aan.",
+    "opties": [
+      "Als hij uit een verboden rijrichting komt",
+      "Als je zelf al op een rotonde rijdt",
+      "Als hij een fietser is",
+      "Als je haast hebt"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "Voorrang van rechts geldt niet als de bestuurder van rechts uit een verboden rijrichting komt, en niet als je al op een rotonde rijdt. Het geldt wel ook voor fietsers.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007",
+      "VOOR-010"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-003"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-manoeuvres-uitritten",
+    "type": "situatie",
+    "vraag": "Auto 1 rijdt uit een oprit naar de rijbaan. Welk voertuig moet voorrang verlenen?",
+    "afbeelding": "schema-uitrit-parkeerplaats-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto die de oprit verlaat",
+        "x": 70,
+        "y": 89.17
+      },
+      {
+        "nr": 2,
+        "label": "voetganger op het trottoir",
+        "x": 78.75,
+        "y": 71.67
+      },
+      {
+        "nr": 3,
+        "label": "fietser op het fietspad",
+        "x": 55,
+        "y": 64.83
+      },
+      {
+        "nr": 4,
+        "label": "auto op de rijbaan",
+        "x": 18.75,
+        "y": 56.67
+      }
+    ],
+    "correct": 1,
+    "uitleg": "Wie uit een eigendom komt, voert een manoeuvre uit en verleent voorrang aan voetgangers, fietsers en het verkeer op de rijbaan.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-004",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-aardeweg-pad",
+    "type": "situatie",
+    "vraag": "Auto 1 komt uit een aardeweg. Welke auto heeft voorrang?",
+    "afbeelding": "schema-aardeweg-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (komt uit de aardeweg)",
+        "x": 53.75,
+        "y": 81.67
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (op de verharde weg, komt van links)",
+        "x": 17.5,
+        "y": 46.67
+      }
+    ],
+    "correct": 2,
+    "uitleg": "Wie uit een aardeweg of pad komt, verleent voorrang aan alle bestuurders op de openbare weg, ook als ze van links komen.",
+    "bronnen": [
+      "VOOR-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-005"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-woonerf-erf",
+    "type": "invul",
+    "vraag": "Hoe snel mag je maximaal rijden in een woonerf of erf?",
     "antwoorden": [
-     "spiegel",
-     "spiegels",
-     "buitenspiegel",
-     "buitenspiegels"
-    ]
-   },
-   {
+      "20",
+      "20 km/u"
+    ],
+    "eenheid": "km/u",
+    "uitleg": "In een woonerf of erf mag je niet harder rijden dan 20 km/u.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-006"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-tram-spoorvoertuigen",
+    "type": "situatie",
+    "vraag": "Er zijn geen lichten of agent. Welk voertuig heeft voorrang?",
+    "afbeelding": "schema-tram-voorrang-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "tram",
+        "x": 18.75,
+        "y": 55
+      },
+      {
+        "nr": 2,
+        "label": "auto (van onder)",
+        "x": 53.75,
+        "y": 80
+      }
+    ],
+    "correct": 1,
+    "uitleg": "Elke weggebruiker verleent voorrang aan spoorvoertuigen, ook aan een tram die van links komt.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-007"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-borden-b1-b5",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrang verlenen aan het verkeer op de weg die je oprijdt",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Stoppen en daarna voorrang verlenen",
+        "linksAfb": "B5"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Aankondiging: verderop volgt een bord \"voorrang verlenen\"",
+        "linksAfb": "B3"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Aankondiging: verderop volgt een stopbord",
+        "linksAfb": "B7"
+      }
+    ],
+    "uitleg": "De aankondigingsborden waarschuwen dat het eigenlijke bord nog komt, op de aangegeven afstand verderop.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-008"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-borden-b1-b5",
+    "type": "situatie",
+    "vraag": "Welke auto heeft voorrang op dit kruispunt?",
+    "afbeelding": "schema-b1-b5-kruispunt-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (van onder)",
+        "x": 53.75,
+        "y": 80.83
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (van rechts)",
+        "x": 82.5,
+        "y": 45
+      },
+      {
+        "nr": 3,
+        "label": "auto 3 (van links)",
+        "x": 17.5,
+        "y": 55
+      }
+    ],
+    "correct": 1,
+    "uitleg": "De bordjes aan de kant van auto 2 en auto 3 verplichten hen voorrang te verlenen. Auto 1 heeft geen bord en heeft voorrang; het bord gaat voor voorrang van rechts.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-009"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Einde van de voorrangsweg",
+      "Je hebt voorrang",
+      "Voorrang verlenen",
+      "Begin van een woonerf"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "B11",
+    "uitleg": "Na dit bord heb je geen voorrang meer: dan gelden borden, lichten of de gewone regels.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-010"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-t-kruispunt",
+    "type": "situatie",
+    "vraag": "Een T-kruispunt zonder borden of lichten. In welke volgorde mogen de auto's doorrijden?",
+    "afbeelding": "schema-t-kruispunt-oefening",
+    "modus": "volgorde",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (van de zijstraat, slaat links af)",
+        "x": 53.75,
+        "y": 81.67
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (van rechts)",
+        "x": 82.5,
+        "y": 36.67
+      },
+      {
+        "nr": 3,
+        "label": "auto 3 (van links)",
+        "x": 17.5,
+        "y": 46.67
+      }
+    ],
+    "correct": [
+      2,
+      1,
+      3
+    ],
+    "uitleg": "Er zijn geen borden of lichten, dus geldt voorrang van rechts: auto 2 heeft niemand rechts, auto 1 heeft auto 2 rechts, auto 3 heeft auto 1 rechts.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-011"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-t-kruispunt",
+    "type": "situatie",
+    "vraag": "Op de zijtak staat een voorrangsbord. Welke auto moet voorrang verlenen?",
+    "afbeelding": "schema-t-kruispunt-b1-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (van de zijstraat, slaat links af)",
+        "x": 53.75,
+        "y": 81.67
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (van rechts)",
+        "x": 82.5,
+        "y": 36.67
+      },
+      {
+        "nr": 3,
+        "label": "auto 3 (van links)",
+        "x": 17.5,
+        "y": 46.67
+      }
+    ],
+    "correct": 1,
+    "uitleg": "Het bord op de zijstraat verplicht auto 1 voorrang te verlenen aan het verkeer op de doorlopende weg.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-012"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde",
+    "type": "situatie",
+    "vraag": "Een rotonde met de gewone borden. Welke auto heeft voorrang?",
+    "afbeelding": "schema-rotonde-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (rijdt op de rotonde)",
+        "x": 38.88,
+        "y": 60.33
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (rijdt de rotonde op)",
+        "x": 53.75,
+        "y": 83.33
+      }
+    ],
+    "correct": 1,
+    "uitleg": "Wie op de rotonde rijdt, heeft voorrang op wie de rotonde oprijdt.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-003",
+      "VOOR-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-013"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
+    "type": "meerkeuze",
+    "vraag": "Wanneer is een rond kruispunt een rotonde volgens de wegcode?",
+    "opties": [
+      "Elk rond kruispunt is een rotonde",
+      "Als er een bord voor rondgaand verkeer staat en de toegangen een voorrangsbord hebben",
+      "Alleen als er verkeerslichten staan",
+      "Alleen als er een zebrapad is"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "De wegcode noemt het enkel een rotonde met het bord voor rondgaand verkeer en een voorrangsbord op de toegangswegen.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-014"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde-fietsers",
+    "type": "meerkeuze",
+    "vraag": "Je verlaat als automobilist de rotonde. Voor wie moet je voorrang verlenen? Kruis aan.",
+    "opties": [
+      "Voetgangers die de afrit oversteken",
+      "Fietsers op een doorlopend fietspad dat de afrit kruist",
+      "Voor niemand: wie de rotonde verlaat, heeft altijd voorrang",
+      "Alleen voor auto's van rechts"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers die de afrit oversteken en aan fietsers op een doorlopend fietspad dat de afrit kruist.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-003",
+      "VOOR-004"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-015",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T14",
+    "theorieblok": "voorrang-linksaf-tegenliggers",
+    "type": "situatie",
+    "vraag": "Auto 1 slaat links af. Welke auto heeft voorrang?",
+    "afbeelding": "schema-linksaf-tegenligger-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto 1 (slaat links af)",
+        "x": 53.75,
+        "y": 80
+      },
+      {
+        "nr": 2,
+        "label": "auto 2 (tegenligger, rijdt rechtdoor)",
+        "x": 46.25,
+        "y": 20
+      }
+    ],
+    "correct": 2,
+    "uitleg": "Wie links afslaat, verleent voorrang aan de tegenliggers.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-008",
+      "VOOR-009"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-016"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T14",
+    "theorieblok": "voorrang-middenberm-gescheiden-rijbanen",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Een {{1}} is een aanleg in de lengterichting die rijbanen scheidt, behalve wegmarkeringen.",
+    "gaten": [
+      {
+        "opties": [
+          "middenberm",
+          "zebrapad",
+          "fietspad"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Zo staat een middenberm omschreven.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-017"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-voorrangsvoertuigen",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mag een voorrangsvoertuig zijn sirene gebruiken?",
+    "opties": [
+      "Altijd als het rijdt",
+      "Enkel bij regen",
+      "Enkel bij een dringende opdracht",
+      "Enkel 's nachts"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Het geluidstoestel (sirene) mag alleen bij een dringende opdracht gebruikt worden.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-018"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-reageren-op-hulpdiensten",
+    "type": "meerkeuze",
+    "vraag": "Je rijdt op een voorrangsweg en hoort een sirene naderen. Wat doe je?",
+    "opties": [
+      "Doorrijden: je hebt voorrang",
+      "Versnellen om weg te zijn",
+      "Enkel remmen als je het voertuig ziet",
+      "Onmiddellijk de doorgang vrijmaken en zo nodig stoppen"
+    ],
+    "correct": [
+      3
+    ],
+    "meerdere": false,
+    "uitleg": "Zodra de sirene klinkt, maakt elke weggebruiker de doorgang vrij, ook wie zelf voorrang heeft.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": true,
+    "id": "L2-019"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-bijzondere-voertuigen",
+    "type": "koppel",
+    "vraag": "Koppel het voertuig aan wat je moet doen.",
+    "paren": [
+      {
+        "links": "Voertuig met blauw licht en sirene (dringende opdracht)",
+        "rechts": "Doorgang vrijmaken, voorrang verlenen, zo nodig stoppen"
+      },
+      {
+        "links": "Takelwagen met oranje knipperlichten",
+        "rechts": "Geen voorrang, maar voorzichtig rijden"
+      },
+      {
+        "links": "Bus die binnen de bebouwde kom zijn halte verlaat met richtingaanwijzer",
+        "rechts": "Vertragen en zo nodig stoppen om hem te laten vertrekken"
+      },
+      {
+        "links": "Tram of trein",
+        "rechts": "Voorrang verlenen"
+      }
+    ],
+    "uitleg": "Blauw met sirene en spoorvoertuigen hebben voorrang; oranje knipperlichten waarschuwen alleen.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-020"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-driekleurig",
+    "type": "meerkeuze",
+    "vraag": "Welke kleur staat bovenaan een driekleurig verkeerslicht?",
+    "opties": [
+      "Oranje",
+      "Rood",
+      "Groen",
+      "Het hangt van het gewest af"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Rood staat bovenaan, oranje in het midden en groen onderaan.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-021"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-oranje-doorrijden",
+    "type": "invul",
+    "vraag": "Bij oranje mag je alleen doorrijden als je niet meer veilig kunt ...",
     "antwoorden": [
-     "schouder"
-    ]
-   }
-  ],
-  "uitleg": "Eerst kijken, dan openen.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-044",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietspad-verplichting",
-  "type": "meerkeuze",
-  "vraag": "Wanneer mag je als fietser het fietspad verlaten? Kruis aan.",
-  "opties": [
-   "Om af te slaan",
-   "Om in te halen",
-   "Om een hindernis te omzeilen",
-   "Omdat je liever op de rijbaan rijdt"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Je mag het fietspad verlaten om van richting te veranderen, in te halen of een hindernis te omzeilen.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-045"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-zonder-fietspad",
-  "type": "invul",
-  "vraag": "Kinderen jonger dan ... jaar mogen altijd op het trottoir fietsen.",
-  "antwoorden": [
-   "10",
-   "tien"
-  ],
-  "uitleg": "Kinderen jonger dan 10 jaar mogen in alle omstandigheden op het trottoir en de verhoogde berm fietsen.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-046"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-voorrang-fietspad-oversteek",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Fietsers hebben op een fietsoversteekplaats met enkel onderbroken witte blokjes automatisch voorrang.",
-  "juist": false,
-  "motivatie": "De markering zelf geeft geen voorrang; die komt van de kruispuntregels.",
-  "foutemotivaties": [
-   "Fietsers hebben overal voorrang op auto's.",
-   "Enkel fietsers jonger dan 10 jaar hebben voorrang."
-  ],
-  "uitleg": "De voorrang van een fietser hangt af van de kruispuntregels.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-004",
-   "KWET-005"
-  ],
-  "moeilijkheid": 3,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-047"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-rotonde",
-  "type": "meerkeuze",
-  "vraag": "Je verlaat een rotonde en kruist een doorlopend fietspad. Wat moet je doen?",
-  "opties": [
-   "Doorrijden: je verlaat de rotonde",
-   "Toeteren",
-   "Versnellen",
-   "Voorrang verlenen aan wie dat fietspad volgt"
-  ],
-  "correct": [
-   3
-  ],
-  "meerdere": false,
-  "uitleg": "Wie de rotonde verlaat en een doorlopend fietspad oversteekt, verleent voorrang aan wie dat fietspad volgt.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false,
-  "id": "L2-048",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietszone-fietsstraat",
-  "type": "invul",
-  "vraag": "Wat is de maximumsnelheid in een fietszone (fietsstraat)?",
-  "antwoorden": [
-   "30",
-   "30 km/u"
-  ],
-  "eenheid": "km/u",
-  "uitleg": "In een fietszone is de maximumsnelheid 30 km/u voor iedereen.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "zwaar",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-049"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "inhalen-fietser-afstand",
-  "type": "invul",
-  "vraag": "Hoeveel zijdelingse afstand houd je minstens bij het voorbijrijden van een fietser buiten de bebouwde kom?",
-  "antwoorden": [
-   "1,5",
-   "1.5"
-  ],
-  "eenheid": "m",
-  "uitleg": "Buiten de bebouwde kom minstens 1,5 meter.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002",
-   "KWET-004",
-   "KWET-006"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-050"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "dode-hoek",
-  "type": "meerkeuze",
-  "vraag": "Hoe verklein je als fietser of voetganger het gevaar van de dode hoek? Kruis aan.",
-  "opties": [
-   "Niet rechts naast een vrachtwagen fietsen",
-   "Ruim achter een stilstaande vrachtwagen blijven",
-   "Oogcontact zoeken met de chauffeur",
-   "Naast de vrachtwagen blijven staan om gezien te worden"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Blijf uit de dode hoek (naast, vlak voor en vlak achter de vrachtwagen) en zoek oogcontact.",
-  "bronnen": [
-   "KWET-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-051",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "bromfiets-klassen-speed-pedelec",
-  "type": "invul",
-  "vraag": "Wat is de minimumleeftijd voor een bromfiets?",
-  "antwoorden": [
-   "16"
-  ],
-  "eenheid": "jaar",
-  "uitleg": "Voor bromfietsen is dat 16 jaar.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-003",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-052"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "ruiters-en-dieren",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Verplichte weg voor ruiters",
-    "linksAfb": "D13"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Verboden toegang voor ruiters",
-    "linksAfb": "C15"
-   }
-  ],
-  "uitleg": "Het eerste bord verplicht een weg voor ruiters, het tweede verbiedt ze de toegang.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-053"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-spoorvoertuigen-voorrang",
-  "type": "invul",
-  "vraag": "Verkeer op sporen die buiten de rijbaan liggen is voor gewone weggebruikers ...",
-  "antwoorden": [
-   "verboden"
-  ],
-  "uitleg": "Je mag niet op sporen buiten de rijbaan rijden.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-054"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-tramlichten",
-  "type": "koppel",
-  "vraag": "Koppel het tramlicht aan de betekenis.",
-  "paren": [
-   {
-    "links": "Horizontale balk",
-    "rechts": "Zoals rood: stoppen"
-   },
-   {
-    "links": "Cirkel",
-    "rechts": "Zoals oranje: stoppen, tenzij dat niet meer veilig kan"
-   },
-   {
-    "links": "Omgekeerde driehoek",
-    "rechts": "Zoals groen: doorrijden toegelaten"
-   },
-   {
-    "links": "Verticale balk",
-    "rechts": "Enkel rechtdoor"
-   }
-  ],
-  "uitleg": "Witte tekens op een zwarte achtergrond zijn voor de tram.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-055"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-tramhalte",
-  "type": "meerkeuze",
-  "vraag": "Wat moet je doen langs een stilstaande tram of bus waar reizigers in- of uitstappen? Kruis aan.",
-  "opties": [
-   "Je snelheid matigen",
-   "Zonder vluchtheuvel stoppen langs de kant van de reizigers",
-   "Pas met matige snelheid weer vertrekken",
-   "Toeteren om hen te waarschuwen"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Reizigers moeten veilig kunnen in- en uitstappen.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-056"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-bob",
-  "type": "meerkeuze",
-  "vraag": "Wanneer mogen andere voertuigen toch op de bijzondere overrijdbare bedding? Kruis aan.",
-  "opties": [
-   "Om een hindernis op de rijbaan te omzeilen",
-   "Om de bedding te dwarsen op een kruispunt",
-   "Om een eigendom of parking langs de bedding in of uit te rijden",
-   "Om de file te vermijden"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Buiten die gevallen blijf je van de bedding af.",
-  "bronnen": [
-   "OPEN-001",
-   "OPEN-002"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-057"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-busstrook",
-  "type": "meerkeuze",
-  "vraag": "Welk voertuig mag op de busstrook rijden zonder dat het op het bord of onderbord vermeld staat? Kruis aan.",
-  "opties": [
-   "Bussen van geregelde diensten",
-   "Fietsers, zonder vermelding op het bord of onderbord",
-   "Gewone personenwagens",
-   "Vrachtwagens"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Op de busstrook rijden voertuigen van de geregelde diensten voor gemeenschappelijk vervoer. Anderen mogen enkel als het bord of onderbord het uitdrukkelijk toelaat.",
-  "bronnen": [
-   "OPEN-001",
-   "OPEN-002",
-   "OPEN-004"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-058",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-busstrook-afslaan",
-  "type": "meerkeuze",
-  "vraag": "Wanneer mag je als gewone bestuurder kort op de busstrook rijden? Kruis aan.",
-  "opties": [
-   "Om een hindernis op de rijbaan te omzeilen",
-   "Om vlak voor een kruispunt van richting te veranderen",
-   "Om de busstrook te dwarsen op een kruispunt",
-   "Om een eigendom of parking langs de busstrook in of uit te rijden",
-   "Om sneller vooruit te komen in de file"
-  ],
-  "correct": [
-   0,
-   1,
-   2,
-   3
-  ],
-  "meerdere": true,
-  "uitleg": "Enkel in deze vier gevallen.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-059"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-borden-overzicht",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Busstrook (onderbroken witte streep)",
-    "linksAfb": "F17"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Bijzondere overrijdbare bedding (doorlopende witte streep)",
-    "linksAfb": "F18"
-   },
-   {
-    "links": "Bord 3",
-    "rechts": "Tramsporen die in de rijbaan liggen",
-    "linksAfb": "A49"
-   }
-  ],
-  "uitleg": "Deze borden horen bij openbaar vervoer.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "id": "L2-060"
- },
- {
-  "les": 2,
-  "onderwerp": "T21",
-  "theorieblok": "openbaar-overweg-signalisatie",
-  "type": "meerkeuze",
-  "vraag": "Wanneer mag je je niet op een overweg begeven? Kruis aan.",
-  "opties": [
-   "De slagbomen bewegen of zijn gesloten",
-   "De rode knipperlichten branden",
-   "Het geluidssein werkt",
-   "Er knippert een maanwit licht"
-  ],
-  "correct": [
-   0,
-   1,
-   2
-  ],
-  "meerdere": true,
-  "uitleg": "Bij een maanwit knipperlicht mag je het signaal voorbijrijden.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-061"
- },
- {
-  "les": 2,
-  "onderwerp": "T21",
-  "theorieblok": "openbaar-overweg-pech",
-  "type": "volgorde",
-  "vraag": "Je voertuig valt stil op een overweg. Zet de stappen in volgorde.",
-  "items": [
-   "Stap uit en breng jezelf in veiligheid achter de slagbomen",
-   "Bel het gratis noodnummer 1711 van Infrabel",
-   "Geef de locatiegegevens van de overweg door"
-  ],
-  "uitleg": "Eerst jezelf in veiligheid brengen, dan bellen en de locatie doorgeven.",
-  "bronnen": [
-   "OPEN-003"
-  ],
-  "moeilijkheid": 2,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": true,
-  "id": "L2-062"
- },
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-van-rechts",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Zonder bord of licht moet je voorrang verlenen aan wie van {{1}} komt.",
-  "gaten": [
-   {
-    "opties": [
-     "rechts",
-     "links"
+      "stoppen",
+      "stilstaan"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Zonder bord, licht of bevoegde persoon geldt voorrang van rechts.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007",
-   "VOOR-010"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M01"
- },
- {
-  "les": 2,
-  "onderwerp": "T11",
-  "theorieblok": "voorrang-manoeuvres-uitritten",
-  "type": "koppel",
-  "vraag": "Koppel de handeling aan wat je moet doen.",
-  "paren": [
-   {
-    "links": "Keren",
-    "rechts": "Voorrang aan alle andere weggebruikers"
-   },
-   {
-    "links": "Een trottoir oversteken",
-    "rechts": "Voorrang aan wie er regelmatig rijdt of stapt"
-   }
-  ],
-  "uitleg": "Bij een manoeuvre verleen je voorrang aan de andere weggebruikers.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M02"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-aardeweg-pad",
-  "type": "meerkeuze",
-  "vraag": "Je rijdt uit een aardeweg op een openbare weg met rijbaan. Aan wie geef je voorrang?",
-  "opties": [
-   "Alleen aan wie van rechts komt",
-   "Aan alle bestuurders op de openbare weg",
-   "Alleen aan wie van links komt",
-   "Aan niemand"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Uit een aardeweg of pad verleen je voorrang aan iedereen op de openbare weg.",
-  "bronnen": [
-   "VOOR-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M03"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-woonerf-erf",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Begin van een woonerf of erf",
-    "linksAfb": "F12a"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Einde van een woonerf of erf",
-    "linksAfb": "F12b"
-   }
-  ],
-  "uitleg": "Het eerste bord geeft het begin, het tweede het einde van een woonerf of erf aan.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M04"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-tram-spoorvoertuigen",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Spoorvoertuigen hebben {{1}} op alle andere weggebruikers.",
-  "gaten": [
-   {
-    "opties": [
-     "voorrang",
-     "geen voorrang"
+    "uitleg": "Doorrijden mag alleen als stoppen niet meer veilig kan.",
+    "bronnen": [
+      "LICH-001"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Een tram of trein heeft voorrang op alle weggebruikers.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M05"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-borden-b1-b5",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Voorrang verlenen",
-    "linksAfb": "B1"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Stoppen en voorrang verlenen",
-    "linksAfb": "B5"
-   }
-  ],
-  "uitleg": "Bij het stopbord stop je altijd volledig.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-003"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M06"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Voorrangsweg",
-    "linksAfb": "B9"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Einde van de voorrangsweg",
-    "linksAfb": "B11"
-   }
-  ],
-  "uitleg": "Het eerste bord geeft voorrang, het tweede maakt er een einde aan.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M07"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-b17",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Bij dit bord geldt op het eerstvolgende kruispunt voorrang van {{1}}.",
-  "gaten": [
-   {
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-022"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-volgorde-plaatsing",
+    "type": "meerkeuze",
+    "vraag": "Waar staan ronde driekleurige verkeerslichten normaal?",
     "opties": [
-     "rechts",
-     "links"
+      "Rechts van de rijbaan",
+      "Alleen links van de rijbaan",
+      "Alleen op het wegdek",
+      "Midden op het kruispunt"
     ],
-    "correct": 0
-   }
-  ],
-  "afbeelding": "B17",
-  "uitleg": "Het bord duidt voorrang van rechts aan.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-003",
-   "VOOR-009"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M08"
- },
- {
-  "les": 2,
-  "onderwerp": "T12",
-  "theorieblok": "voorrang-t-kruispunt",
-  "type": "volgorde",
-  "vraag": "In welke volgorde check je een T-kruispunt?",
-  "items": [
-   "Bevoegde persoon",
-   "Verkeerslichten en verkeersborden",
-   "Voorrang van rechts"
-  ],
-  "uitleg": "Eerst de bevoegde persoon, dan de lichten en borden, en pas dan voorrang van rechts.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M09",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde",
-  "type": "koppel",
-  "vraag": "Koppel de handeling aan wat je moet doen.",
-  "paren": [
-   {
-    "links": "De rotonde oprijden",
-    "rechts": "Geen richtingaanwijzer verplicht"
-   },
-   {
-    "links": "De rotonde verlaten",
-    "rechts": "Rechter richtingaanwijzer"
-   },
-   {
-    "links": "Op de rotonde rijden",
-    "rechts": "Voorrang op wie oprijdt"
-   }
-  ],
-  "uitleg": "Oprijden: geen richtingaanwijzer; verlaten: rechts; wie op de rotonde rijdt, heeft voorrang.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-003",
-   "VOOR-004"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M10"
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Op een plein hoef je niet zo dicht mogelijk bij de rechterrand te blijven.",
-  "juist": true,
-  "motivatie": "Op pleinen hoef je niet zo dicht mogelijk bij de rechterrand te rijden.",
-  "foutemotivaties": [
-   "Op een plein moet je altijd het rechtse trottoir volgen.",
-   "Op een plein mag je overal parkeren."
-  ],
-  "uitleg": "Op pleinen en rotondes hoef je niet zo dicht mogelijk bij de rechterrand te blijven.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M11"
- },
- {
-  "les": 2,
-  "onderwerp": "T13",
-  "theorieblok": "voorrang-rotonde-fietsers",
-  "type": "meerkeuze",
-  "vraag": "Wie krijgt voorrang als jij de rotonde verlaat?",
-  "opties": [
-   "Alleen wie de rotonde oprijdt",
-   "Niemand",
-   "Voetgangers die de afrit oversteken",
-   "Alleen auto's"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Als je de rotonde verlaat, verleen je voorrang aan voetgangers die de afrit oversteken.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-003",
-   "VOOR-004"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M12",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T14",
-  "theorieblok": "voorrang-linksaf-tegenliggers",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Wie links afslaat, verleent voorrang aan de {{1}}.",
-  "gaten": [
-   {
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Cirkelvormige lichten staan rechts van de rijbaan; ze mogen links of boven herhaald worden.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-023"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-oranje-knipperlicht",
+    "type": "meerkeuze",
+    "vraag": "Je nadert een kruispunt met een knipperend oranje licht. Wat geldt?",
     "opties": [
-     "tegenliggers",
-     "achterliggers"
+      "Je moet stoppen",
+      "Je mag verder met dubbele voorzichtigheid; de gewone voorrang blijft gelden",
+      "Je hebt voorrang",
+      "Je mag zonder voorzichtigheid doorrijden"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Linksaf: voorrang aan de tegenliggers.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-008",
-   "VOOR-009"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M13"
- },
- {
-  "les": 2,
-  "onderwerp": "T14",
-  "theorieblok": "voorrang-middenberm-gescheiden-rijbanen",
-  "type": "meerkeuze",
-  "vraag": "Wat is een middenberm?",
-  "opties": [
-   "Een brede witte streep",
-   "Een aanleg in de lengterichting die rijbanen scheidt, behalve wegmarkeringen",
-   "Een parkeerstrook",
-   "Een fietspad"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Wegmarkeringen tellen niet mee als middenberm.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-002",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M14"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-voorrangsvoertuigen",
-  "type": "koppel",
-  "vraag": "Koppel het kenmerk aan de regel.",
-  "paren": [
-   {
-    "links": "Blauwe knipperlichten",
-    "rechts": "Verplicht bij een dringende opdracht"
-   },
-   {
-    "links": "Sirene",
-    "rechts": "Enkel bij een dringende opdracht"
-   }
-  ],
-  "uitleg": "Blauwe lichten moeten aan bij dringende opdrachten; de sirene mag alleen dan.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M15"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-reageren-op-hulpdiensten",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Heb je zelf voorrang, dan hoef je niet te wijken voor een voorrangsvoertuig met sirene.",
-  "juist": false,
-  "motivatie": "De plicht om de doorgang vrij te maken geldt ook als je zelf voorrang zou hebben.",
-  "foutemotivaties": [
-   "Voorrang gaat altijd voor.",
-   "Dat geldt enkel voor autobestuurders."
-  ],
-  "uitleg": "Alle weggebruikers moeten wijken, ook wie voorrang heeft.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M16"
- },
- {
-  "les": 2,
-  "onderwerp": "T22",
-  "theorieblok": "voorrang-bijzondere-voertuigen",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Blauw met sirene: {{1}} geven. Oranje knipperlicht: opletten, maar {{2}}.",
-  "gaten": [
-   {
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Knipperend oranje verbiedt het doorrijden niet maar verandert de voorrang niet.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": true,
+    "id": "L2-024"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-pijlen",
+    "type": "meerkeuze",
+    "vraag": "Een groene pijl gaat branden samen met een rood licht. Wat mag je?",
     "opties": [
-     "voorrang",
-     "geen voorrang"
+      "Alle richtingen uit",
+      "Niets: rood geldt voor iedereen",
+      "Enkel rechtdoor",
+      "Enkel in de richting van de pijl verder, met voorrang voor wie uit andere richtingen komt en voor voetgangers"
     ],
-    "correct": 0
-   },
-   {
+    "correct": [
+      3
+    ],
+    "meerdere": false,
+    "uitleg": "De groene pijl laat je alleen in de pijlrichting door, met voorrang voor anderen.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-025"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-b22-b23",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Fietsers mogen bij rood of oranje rechts afslaan, met voorrang voor anderen",
+        "linksAfb": "B22"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Fietsers mogen bij rood of oranje rechtdoor, met voorrang voor anderen",
+        "linksAfb": "B23"
+      }
+    ],
+    "uitleg": "Beide borden gelden voor fietsers en speed pedelecs, niet voor auto's, en altijd met voorrang voor anderen.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-026"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-fietslichten",
+    "type": "hotspot",
+    "vraag": "Klik op het opstelvak voor fietsers.",
+    "afbeelding": "schema-opstelvak",
+    "zones": [
+      {
+        "id": "opstelvak",
+        "x": 50,
+        "y": 48.3,
+        "w": 18.75,
+        "h": 20,
+        "correct": true
+      },
+      {
+        "id": "auto",
+        "x": 56.9,
+        "y": 80,
+        "w": 5.4,
+        "h": 10,
+        "correct": false
+      }
+    ],
+    "uitleg": "Het opstelvak tussen de twee stopstrepen is voor fietsers tijdens de rode fase. De auto stopt voor de eerste stopstreep.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-027"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-voetgangers",
+    "type": "meerkeuze",
+    "vraag": "Je slaat af bij groen licht en voetgangers zijn regelmatig begonnen de zijstraat over te steken waarin je afslaat. Wat doe je?",
     "opties": [
-     "geen voorrang",
-     "voorrang"
+      "Je rijdt meteen door",
+      "Je toetert",
+      "Je rijdt om hen heen",
+      "Je verleent voorrang aan de voetgangers"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Blauw met sirene = voorrang geven; oranje = opletten maar geen voorrang.",
-  "bronnen": [
-   "VOOR-001",
-   "VOOR-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M17"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-driekleurig",
-  "type": "koppel",
-  "vraag": "Koppel het licht aan de betekenis.",
-  "paren": [
-   {
-    "links": "Rood",
-    "rechts": "Niet voorbij de stopstreep (of het licht)"
-   },
-   {
-    "links": "Vast oranje",
-    "rechts": "Stoppen, tenzij je niet meer veilig kunt stoppen"
-   },
-   {
-    "links": "Groen",
-    "rechts": "Je mag het verkeerslicht voorbij"
-   }
-  ],
-  "uitleg": "Rood: stoppen. Oranje: stoppen, behalve als dat niet meer veilig kan. Groen: doorrijden.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-003"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M18"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-oranje-doorrijden",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Bij oranje stop je, tenzij je niet meer {{1}} kunt stoppen.",
-  "gaten": [
-   {
+    "correct": [
+      3
+    ],
+    "meerdere": false,
+    "uitleg": "Wie afslaat, verleent voorrang aan voetgangers die de rijbaan oversteken die hij oprijdt, ook bij groen licht.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-028",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-boven-rijstroken",
+    "type": "koppel",
+    "vraag": "Koppel het teken boven de rijstrook aan de betekenis.",
+    "paren": [
+      {
+        "links": "Rood kruis",
+        "rechts": "Verboden richting op deze rijstrook"
+      },
+      {
+        "links": "Groene pijl naar onder",
+        "rechts": "Je mag deze rijstrook gebruiken"
+      },
+      {
+        "links": "Oranje pijl schuin naar onder",
+        "rechts": "Verboden, je mag er enkel weg naar de strook die de pijl aanwijst"
+      }
+    ],
+    "uitleg": "Lichten boven een rijstrook gelden enkel voor die rijstrook.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-029"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-kruispunt-vrijmaken",
+    "type": "meerkeuze",
+    "vraag": "Je hebt groen, maar het kruispunt is volgereden en je zou er moeten stilstaan. Wat doe je?",
     "opties": [
-     "veilig",
-     "snel"
+      "Toch oprijden: je hebt groen",
+      "Voor het kruispunt blijven wachten",
+      "Oprijden en toeteren",
+      "Langs de zijkant oprijden"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Alleen als stoppen niet meer veilig kan, mag je doorrijden.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M19"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-volgorde-plaatsing",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Ronde driekleurige lichten staan normaal {{1}} van de rijbaan.",
-  "gaten": [
-   {
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Zelfs bij groen rijd je een kruispunt niet op als je er waarschijnlijk zou moeten stilstaan.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-030"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-wie",
+    "type": "meerkeuze",
+    "vraag": "Wie is een bevoegde persoon? Kruis aan.",
     "opties": [
-     "rechts",
-     "links"
+      "Een politieagent",
+      "Douanepersoneel tijdens zijn dienst",
+      "Een wegeninspecteur in Vlaanderen",
+      "Een voorbijganger die het verkeer regelt"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Ze staan rechts van de rijbaan en worden eventueel herhaald.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M20"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-oranje-knipperlicht",
-  "type": "meerkeuze",
-  "vraag": "Wat betekent knipperend oranje?",
-  "opties": [
-   "Stoppen",
-   "Je hebt voorrang",
-   "Dubbel voorzichtig verder rijden",
-   "Het licht is stuk en je moet wachten"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Het verbiedt het doorrijden niet, maar je bent dubbel voorzichtig.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M21"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-pijlen",
-  "type": "koppel",
-  "vraag": "Koppel het licht aan de betekenis.",
-  "paren": [
-   {
-    "links": "Rode pijl",
-    "rechts": "Het verbod geldt enkel voor de richting van de pijl"
-   },
-   {
-    "links": "Groene pijl samen met rood",
-    "rechts": "Enkel in de pijlrichting verder, met voorrang voor anderen"
-   }
-  ],
-  "uitleg": "Een pijl geldt alleen voor zijn eigen richting.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M22"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-b22-b23",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Wie met dit bord door rood fietst, moet {{1}} verlenen aan voetgangers en het verkeer dat groen heeft.",
-  "gaten": [
-   {
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Niet elke persoon die het verkeer regelt, is een bevoegde persoon.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-031"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-seinen",
+    "type": "koppel",
+    "vraag": "Koppel het sein aan de betekenis.",
+    "paren": [
+      {
+        "links": "Arm rechtop",
+        "rechts": "Alle weggebruikers stoppen; wie al op het kruispunt is, maakt het vrij"
+      },
+      {
+        "links": "Armen horizontaal uitgestrekt",
+        "rechts": "Stoppen voor wie uit een richting komt die de armen dwars snijdt"
+      },
+      {
+        "links": "Een rood licht dwars heen en weer zwaaien",
+        "rechts": "Stoppen voor de bestuurders naar wie het licht gekeerd is"
+      }
+    ],
+    "uitleg": "Dit zijn de bevelen van een bevoegde persoon.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-032"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-signaalgevers-werf",
+    "type": "meerkeuze",
+    "vraag": "Wiens aanwijzingen moet je opvolgen? Kruis aan.",
     "opties": [
-     "voorrang",
-     "geen voorrang"
+      "Een signaalgever bij een wielerwedstrijd",
+      "Een wegkapitein bij een groep fietsers",
+      "Een werfopzichter bij wegenwerken",
+      "Een willekeurige voorbijganger"
     ],
-    "correct": 0
-   }
-  ],
-  "afbeelding": "B22",
-  "uitleg": "Het bord is geen vrijbrief: je verleent voorrang.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M23"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-fietslichten",
-  "type": "meerkeuze",
-  "vraag": "Voor wie gelden lichten met een verlicht fietssilhouet?",
-  "opties": [
-   "Alle bestuurders",
-   "Enkel voetgangers",
-   "Fietsers en tweewielige bromfietsen",
-   "Enkel auto's"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Fietslichten gelden voor fietsers en bestuurders van tweewielige bromfietsen.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M24"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-voetgangers",
-  "type": "koppel",
-  "vraag": "Koppel het voetgangerslicht aan de betekenis.",
-  "paren": [
-   {
-    "links": "Rood mannetje",
-    "rechts": "Niet de rijbaan op"
-   },
-   {
-    "links": "Groen mannetje",
-    "rechts": "Je mag de rijbaan op"
-   },
-   {
-    "links": "Knipperend groen",
-    "rechts": "De toelating eindigt binnenkort"
-   }
-  ],
-  "uitleg": "Rood staat boven groen; knipperend groen waarschuwt.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M25"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-boven-rijstroken",
-  "type": "meerkeuze",
-  "vraag": "Wat betekent een rood kruis boven jouw rijstrook?",
-  "opties": [
-   "Verboden richting op deze rijstrook",
-   "Je mag deze rijstrook gebruiken",
-   "Je moet stoppen voor een zebrapad",
-   "Einde van de weg"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Rood kruis: verboden richting op deze rijstrook.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M26"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-kruispunt-vrijmaken",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Bij groen mag je een volgereden kruispunt oprijden.",
-  "juist": false,
-  "motivatie": "Je mag niet oprijden als je er waarschijnlijk zou moeten stilstaan en het dwarsverkeer zou hinderen.",
-  "foutemotivaties": [
-   "Groen betekent altijd doorrijden.",
-   "Dat mag als je je richtingaanwijzer aanzet."
-  ],
-  "uitleg": "Blijf wachten voor het kruispunt.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M27"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-wie",
-  "type": "meerkeuze",
-  "vraag": "Is elke persoon die het verkeer regelt een bevoegde persoon?",
-  "opties": [
-   "Nee, niet elke persoon",
-   "Ja, iedereen die het verkeer regelt",
-   "Ja, maar enkel overdag"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "uitleg": "Enkel bepaalde personen zoals de politie zijn bevoegde personen.",
-  "bronnen": [
-   "LICH-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M28"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-seinen",
-  "type": "koppel",
-  "vraag": "Koppel het sein aan de betekenis.",
-  "paren": [
-   {
-    "links": "Arm rechtop",
-    "rechts": "Iedereen stopt"
-   },
-   {
-    "links": "Armen horizontaal uitgestrekt",
-    "rechts": "Stoppen voor wie de armen dwarst"
-   }
-  ],
-  "uitleg": "Arm omhoog: iedereen stil. Armen opzij: wie de armen dwarst, stopt.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M29"
- },
- {
-  "les": 2,
-  "onderwerp": "T16",
-  "theorieblok": "bevoegde-personen-signaalgevers-werf",
-  "type": "koppel",
-  "vraag": "Koppel de persoon aan de groep.",
-  "paren": [
-   {
-    "links": "Signaalgever",
-    "rechts": "Evenementen en wielerwedstrijden"
-   },
-   {
-    "links": "Wegkapitein",
-    "rechts": "Groepen fietsers en motorfietsers"
-   },
-   {
-    "links": "Werfopzichter",
-    "rechts": "Personeel dat op de openbare weg werkt"
-   },
-   {
-    "links": "Groepsleider",
-    "rechts": "Groepen voetgangers en ruiters"
-   }
-  ],
-  "uitleg": "Elke persoon geeft aanwijzingen aan zijn eigen groep of werf.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M30"
- },
- {
-  "les": 2,
-  "onderwerp": "T15",
-  "theorieblok": "lichten-rangorde",
-  "type": "volgorde",
-  "vraag": "Zet in volgorde, het sterkste bovenaan.",
-  "items": [
-   "Bevelen van een bevoegde persoon",
-   "Verkeerstekens: lichten, borden, markeringen",
-   "Verkeersregels (bv. voorrang van rechts)"
-  ],
-  "uitleg": "Een bevoegde persoon gaat boven de verkeerstekens, en die gaan boven de gewone regels.",
-  "bronnen": [
-   "LICH-001",
-   "LICH-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M31"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "kwetsbaar-algemeen",
-  "type": "koppel",
-  "vraag": "Koppel de gebruiker aan de gelijkstelling.",
-  "paren": [
-   {
-    "links": "Step zonder motor, stapvoets",
-    "rechts": "Voetganger"
-   },
-   {
-    "links": "Elektrische fiets tot 25 km/u",
-    "rechts": "Fietser"
-   }
-  ],
-  "uitleg": "Gebruikers van voortbewegingstoestellen worden gelijkgesteld met voetgangers of fietsers.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M32",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetganger-plaats-op-de-weg",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Op de rijbaan loopt een voetganger normaal {{1}} in zijn looprichting.",
-  "gaten": [
-   {
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Signaalgevers, wegkapiteins, groepsleiders en werfopzichters geven aanwijzingen die je moet volgen.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-033"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "lichten-rangorde",
+    "type": "meerkeuze",
+    "vraag": "Het licht is groen, maar een agent laat je stoppen. Wat doe je?",
     "opties": [
-     "links",
-     "rechts"
+      "Doorrijden want het is groen",
+      "Rustig afremmen en dan doorrijden",
+      "Stoppen",
+      "Toeteren"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Zo ziet hij het verkeer aankomen.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M33"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetganger-oversteken",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Bij rood voetgangerslicht ga je {{1}} de rijbaan op.",
-  "gaten": [
-   {
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Het bevel van een bevoegde persoon gaat boven de lichten.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": true,
+    "id": "L2-034"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "kwetsbaar-algemeen",
+    "type": "meerkeuze",
+    "vraag": "Een elektrische step (max. 25 km/u) wordt gelijkgesteld met ...",
     "opties": [
-     "niet",
-     "wel"
+      "een fietser",
+      "een voetganger",
+      "een bromfiets klasse B",
+      "een motorfiets"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Rood: niet de rijbaan op.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M34"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "zebrapad-voorrang-bestuurder",
-  "type": "koppel",
-  "vraag": "Koppel de situatie aan wat je moet doen.",
-  "paren": [
-   {
-    "links": "Zebrapad zonder regeling, voetganger klaar",
-    "rechts": "Matig naderen en voorrang verlenen"
-   },
-   {
-    "links": "Voetganger is al begonnen, licht wordt groen voor jou",
-    "rechts": "Laten uitlopen aan een normaal tempo"
-   },
-   {
-    "links": "Voorligger stopt voor het zebrapad",
-    "rechts": "Niet links inhalen"
-   }
-  ],
-  "uitleg": "Je beschermt voetgangers op het zebrapad.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-005"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M35"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "zebrapad-fietsers-en-steps",
-  "type": "meerkeuze",
-  "vraag": "Als fietser wil je voorrang op een zebrapad. Wat doe je?",
-  "opties": [
-   "Sneller rijden",
-   "Afstappen en je fiets aan de hand leiden",
-   "Toeteren",
-   "Je hand uitsteken en rijden"
-  ],
-  "correct": [
-   1
-  ],
-  "meerdere": false,
-  "uitleg": "Als je je fiets aan de hand leidt, ben je voetganger.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-005"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M36"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "afslaan-voorrang-voetgangers",
-  "type": "koppel",
-  "vraag": "Koppel de handeling aan wie voorrang krijgt.",
-  "paren": [
-   {
-    "links": "Rechts afslaan naar een zijstraat",
-    "rechts": "Voetgangers die die zijstraat oversteken"
-   },
-   {
-    "links": "Een fietspad oversteken bij het afslaan",
-    "rechts": "Fietsers op het fietspad"
-   }
-  ],
-  "uitleg": "Wie afslaat, geeft voorrang aan voetgangers en fietsers.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M37"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangers-kinderen-handicap",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Een groep onder leiding of toezicht mag je {{1}}.",
-  "gaten": [
-   {
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Een elektrische step is een gemotoriseerd voortbewegingstoestel en wordt gelijkgesteld met een fietser.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-035"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetganger-plaats-op-de-weg",
+    "type": "meerkeuze",
+    "vraag": "Een voetganger moet op de rijbaan lopen. Hoe loopt hij?",
     "opties": [
-     "niet doorbreken",
-     "doorbreken"
+      "Altijd rechts, in het midden",
+      "Zo dicht mogelijk bij de rand, links in zijn looprichting",
+      "In het midden van de rijbaan",
+      "Op het fietspad"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Laat de groep rustig oversteken.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M38"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangers-afstand-hindernis",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Buiten de bebouwde kom houd je minstens {{1}} meter afstand van een voetganger op de rijbaan.",
-  "gaten": [
-   {
-    "opties": [
-     "1,5",
-     "1",
-     "0,5"
+    "correct": [
+      1
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Binnen de bebouwde kom is dat 1 meter.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M39"
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "voetgangerszone-speelstraat-woonerf",
-  "type": "koppel",
-  "vraag": "Koppel de zone aan de regel.",
-  "paren": [
-   {
-    "links": "Woonerf",
-    "rechts": "Maximaal 20 km/u"
-   },
-   {
-    "links": "Voetgangerszone",
-    "rechts": "Stapvoets voor wie er mag rijden"
-   }
-  ],
-  "uitleg": "In een woonerf rijd je maximaal 20 km/u; in een voetgangerszone rijdt wie er mag rijden stapvoets en laat voetgangers voor.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M40",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T17",
-  "theorieblok": "portier-openen",
-  "type": "meerkeuze",
-  "vraag": "Wat doe je voor je een portier opent?",
-  "uitleg": "Je vergewist je eerst dat er niemand aankomt (spiegel en over je schouder), pas daarna open je voorzichtig de deur.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M41",
-  "opties": [
-   "Eerst in je spiegel en over je schouder kijken, dan voorzichtig openen",
-   "Meteen openen en daarna pas kijken",
-   "Toeteren en dan openen",
-   "Enkel naar voren kijken en dan openen"
-  ],
-  "correct": [
-   0
-  ],
-  "meerdere": false,
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietspad-verplichting",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Een gemarkeerd fietspad dat {{1}} in je rijrichting ligt, moet je volgen.",
-  "gaten": [
-   {
-    "opties": [
-     "rechts",
-     "links"
+    "meerdere": false,
+    "uitleg": "Op de rijbaan loopt een voetganger links, naar het tegemoetkomend verkeer toe (of rechts als de veiligheid dat vraagt).",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
     ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Een fietspad links hoef je niet te volgen.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M42"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-zonder-fietspad",
-  "type": "koppel",
-  "vraag": "Koppel de situatie aan de regel.",
-  "paren": [
-   {
-    "links": "Geen fietspad",
-    "rechts": "Rijbaan, zo dicht mogelijk bij de rechterrand"
-   },
-   {
-    "links": "Aanhangwagen aan de fiets",
-    "rechts": "Achter elkaar rijden"
-   },
-   {
-    "links": "Kind jonger dan 10 jaar",
-    "rechts": "Mag altijd op het trottoir"
-   }
-  ],
-  "uitleg": "Dit zijn de regels voor fietsers zonder fietspad.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M43"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-voorrang-fietspad-oversteek",
-  "type": "koppel",
-  "vraag": "Koppel de situatie aan de regel.",
-  "paren": [
-   {
-    "links": "Jij steekt een fietspad over",
-    "rechts": "Jij verleent voorrang aan de fietsers"
-   },
-   {
-    "links": "Fietsoversteekplaats met onderbroken blokjes",
-    "rechts": "Geen automatische voorrang voor de fietser"
-   },
-   {
-    "links": "Voorligger stopt voor de fietsoversteekplaats",
-    "rechts": "Niet links inhalen"
-   }
-  ],
-  "uitleg": "De markering alleen geeft geen voorrang.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-004",
-   "KWET-005"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M44"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-rotonde",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Bij het verlaten van de rotonde gebruik je de {{1}}.",
-  "gaten": [
-   {
-    "opties": [
-     "richtingaanwijzer",
-     "alarmlichten"
-    ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Het verlaten is een richtingsverandering; het oprijden hoeft niet aangegeven.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M45"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietsers-door-rood-b22-b23",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Het fietsopstelvak gebruik je alleen tijdens de {{1}} fase.",
-  "gaten": [
-   {
-    "opties": [
-     "rode",
-     "groene"
-    ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Andere bestuurders stoppen voor de eerste stopstreep.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M46"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "fietszone-fietsstraat",
-  "type": "koppel",
-  "vraag": "Koppel het bord aan de betekenis.",
-  "paren": [
-   {
-    "links": "Bord 1",
-    "rechts": "Begin van een fietszone (fietsstraat)",
-    "linksAfb": "F111"
-   },
-   {
-    "links": "Bord 2",
-    "rechts": "Einde van een fietszone (fietsstraat)",
-    "linksAfb": "F113"
-   }
-  ],
-  "uitleg": "Het eerste bord toont het begin, het tweede het einde.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M47"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "inhalen-fietser-afstand",
-  "type": "koppel",
-  "vraag": "Koppel de plaats aan de minimale afstand.",
-  "paren": [
-   {
-    "links": "Binnen de bebouwde kom",
-    "rechts": "Minstens 1 meter"
-   },
-   {
-    "links": "Buiten de bebouwde kom",
-    "rechts": "Minstens 1,5 meter"
-   }
-  ],
-  "uitleg": "Zo ver houd je afstand van een fietser.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-002",
-   "KWET-004",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M48"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "dode-hoek",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Controleer je spiegels en kijk over je {{1}}.",
-  "gaten": [
-   {
-    "opties": [
-     "schouder",
-     "dashboard"
-    ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Zo dek je de dode hoek.",
-  "bronnen": [
-   "KWET-007"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M49"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "bromfiets-klassen-speed-pedelec",
-  "type": "koppel",
-  "vraag": "Koppel het voertuig aan de beschrijving.",
-  "paren": [
-   {
-    "links": "Bromfiets klasse A",
-    "rechts": "Maximaal 25 km/u"
-   },
-   {
-    "links": "Bromfiets klasse B",
-    "rechts": "Maximaal 45 km/u"
-   },
-   {
-    "links": "Speed pedelec",
-    "rechts": "Trapondersteuning valt weg bij 45 km/u"
-   }
-  ],
-  "uitleg": "De klassen verschillen in maximumsnelheid.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-003",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M50"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "bromfiets-fietspad-gebruik",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Op wegen boven 50 km/u moeten bromfietsen B het bruikbare fietspad {{1}}.",
-  "gaten": [
-   {
-    "opties": [
-     "volgen",
-     "vermijden"
-    ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Tot 50 km/u mag het, erboven moet het.",
-  "bronnen": [
-   "KWET-001",
-   "KWET-003",
-   "KWET-006"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M51"
- },
- {
-  "les": 2,
-  "onderwerp": "T18",
-  "theorieblok": "ruiters-en-dieren",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Binnen de bebouwde kom is {{1}} met een paard verboden.",
-  "gaten": [
-   {
-    "opties": [
-     "galopperen",
-     "stappen"
-    ],
-    "correct": 0
-   }
-  ],
-  "uitleg": "Galopperen binnen de bebouwde kom is verboden.",
-  "bronnen": [
-   "KWET-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M52"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-spoorvoertuigen-voorrang",
-  "type": "koppel",
-  "vraag": "Koppel de situatie aan wat je moet doen.",
-  "paren": [
-   {
-    "links": "Een tram nadert en jij staat op de sporen",
-    "rechts": "Voorrang verlenen en de sporen verlaten"
-   },
-   {
-    "links": "Sporen buiten de rijbaan",
-    "rechts": "Er niet op rijden"
-   },
-   {
-    "links": "Een tram in de rijbaan inhalen",
-    "rechts": "Rechts inhalen"
-   }
-  ],
-  "uitleg": "Een tram heeft voorrang en wordt rechts ingehaald.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M53"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-tramlichten",
-  "type": "koppel",
-  "vraag": "Koppel het tramlicht aan de betekenis.",
-  "paren": [
-   {
-    "links": "Horizontale balk",
-    "rechts": "Zoals rood"
-   },
-   {
-    "links": "Cirkel",
-    "rechts": "Zoals oranje"
-   },
-   {
-    "links": "Omgekeerde driehoek",
-    "rechts": "Zoals groen"
-   }
-  ],
-  "uitleg": "Balk = rood, cirkel = oranje, omgekeerde driehoek = groen.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M54"
- },
- {
-  "les": 2,
-  "onderwerp": "T19",
-  "theorieblok": "openbaar-tramhalte",
-  "type": "koppel",
-  "vraag": "Koppel de situatie aan de regel.",
-  "paren": [
-   {
-    "links": "Reizigers stappen uit, geen vluchtheuvel",
-    "rechts": "Stoppen"
-   },
-   {
-    "links": "Parkeren bij een haltebord",
-    "rechts": "Verboden op minder dan 15 meter aan weerszijden"
-   },
-   {
-    "links": "Stilstaande tram met reizigers",
-    "rechts": "Snelheid matigen"
-   }
-  ],
-  "uitleg": "Houd rekening met reizigers aan de halte.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M55"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-bob",
-  "type": "koppel",
-  "vraag": "Koppel de streep aan de strook.",
-  "paren": [
-   {
-    "links": "Brede doorlopende witte streep",
-    "rechts": "Bijzondere overrijdbare bedding"
-   },
-   {
-    "links": "Brede onderbroken witte streep",
-    "rechts": "Busstrook"
-   }
-  ],
-  "uitleg": "Doorlopend of onderbroken: dat maakt het verschil.",
-  "bronnen": [
-   "OPEN-001",
-   "OPEN-002"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M56"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-busstrook",
-  "type": "koppel",
-  "vraag": "Koppel de weggebruiker aan zijn toegang.",
-  "paren": [
-   {
-    "links": "Bus van een geregelde dienst",
-    "rechts": "Toegelaten"
-   },
-   {
-    "links": "Fiets",
-    "rechts": "Enkel met fietssymbool op bord of onderbord"
-   },
-   {
-    "links": "Gewone personenauto",
-    "rechts": "Niet toegelaten, behalve in de uitzonderingen"
-   }
-  ],
-  "uitleg": "Voertuigen van geregelde diensten voor gemeenschappelijk vervoer mogen op de busstrook; anderen enkel als het bord of onderbord het toelaat.",
-  "bronnen": [
-   "OPEN-001",
-   "OPEN-002",
-   "OPEN-004"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M57",
-  "gewijzigd": true
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-busstrook-afslaan",
-  "type": "meerkeuze",
-  "vraag": "Hoe ver mag je op de busstrook rijden om rechts af te slaan?",
-  "opties": [
-   "Zo lang je wilt",
-   "Tot de volgende bushalte",
-   "Enkel vlak voor het kruispunt",
-   "Honderd meter"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "Op de busstrook blijven rijden tot ver voor het kruispunt mag niet.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M58"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-bushalte-vertrek",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Binnen de bebouwde kom laat je een bus vertrekken zodra hij zijn {{1}} aanzet.",
-  "gaten": [
-   {
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-036"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetganger-oversteken",
+    "type": "invul",
+    "vraag": "Is er op minder dan ongeveer ... meter een zebrapad, dan moet je als voetganger dat gebruiken.",
     "antwoorden": [
-     "richtingaanwijzer",
-     "richtingaanwijzers"
-    ]
-   }
-  ],
-  "uitleg": "Dit geldt voor een bus of trolleybus.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M59"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-schoolvervoer",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Knipperen alle richtingaanwijzers van een schoolbus, dan mag je aan dezelfde snelheid voorbijrijden.",
-  "juist": false,
-  "motivatie": "Je moet je snelheid aanzienlijk matigen en zo nodig stoppen.",
-  "foutemotivaties": [
-   "Enkel op de rijbaan ernaast moet je vertragen.",
-   "Dat geldt enkel 's nachts."
-  ],
-  "uitleg": "Kinderen kunnen plots de weg op komen.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M60"
- },
- {
-  "les": 2,
-  "onderwerp": "T20",
-  "theorieblok": "openbaar-borden-overzicht",
-  "type": "bord",
-  "vraag": "Wat betekent dit bord?",
-  "afbeelding": "F17",
-  "modus": "naam",
-  "opties": [
-   "Bijzondere overrijdbare bedding",
-   "Busstrook",
-   "Eenrichtingsverkeer",
-   "Voetgangerszone"
-  ],
-  "antwoorden": [
-   "Busstrook"
-  ],
-  "categorie": "F",
-  "uitleg": "Het bord duidt een strook voor autobussen aan.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M61"
- },
- {
-  "les": 2,
-  "onderwerp": "T21",
-  "theorieblok": "openbaar-overweg-signalisatie",
-  "type": "bord",
-  "vraag": "Wat betekent dit bord?",
-  "afbeelding": "A43",
-  "modus": "naam",
-  "opties": [
-   "Overweg zonder slagbomen",
-   "Overweg met slagbomen",
-   "Kruising met tramsporen",
-   "Busstrook"
-  ],
-  "antwoorden": [
-   "Overweg zonder slagbomen"
-  ],
-  "categorie": "A",
-  "uitleg": "Zonder slagbomen kijk je zelf of er een spoorvoertuig nadert.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M62"
- },
- {
-  "les": 2,
-  "onderwerp": "T21",
-  "theorieblok": "openbaar-overweg-gedrag",
-  "type": "waaronwaar",
-  "vraag": "Juist of onjuist?",
-  "stelling": "Stilstaan op een overweg is toegelaten als je even moet wachten.",
-  "juist": false,
-  "motivatie": "Stilstaan en parkeren op een overweg is verboden.",
-  "foutemotivaties": [
-   "Dat mag als de slagbomen open zijn.",
-   "Dat mag als er geen trein in zicht is."
-  ],
-  "uitleg": "Blijf niet op een overweg staan.",
-  "bronnen": [
-   "OPEN-001"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M63"
- },
- {
-  "les": 2,
-  "onderwerp": "T21",
-  "theorieblok": "openbaar-overweg-pech",
-  "type": "cloze",
-  "vraag": "Vul aan.",
-  "tekst": "Bij pech op een overweg stap je uit, ga je achter de slagbomen staan en bel je dan het gratis noodnummer {{1}}.",
-  "gaten": [
-   {
+      "20"
+    ],
+    "eenheid": "m",
+    "uitleg": "Binnen ongeveer 20 meter van een oversteekplaats moet je die gebruiken.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-037"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "zebrapad-voorrang-bestuurder",
+    "type": "meerkeuze",
+    "vraag": "Wat is verboden bij een zebrapad waar het verkeer niet geregeld is? Kruis aan.",
+    "opties": [
+      "Stilstaan of parkeren op het zebrapad",
+      "Parkeren op minder dan 5 meter ervoor",
+      "Inhalen van een voertuig dat voor het zebrapad stopt",
+      "Stoppen om voetgangers voor te laten"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Stilstaan en parkeren zijn verboden op de oversteekplaats en minder dan 5 meter ervoor; een voertuig dat stopt voor het zebrapad, mag je er niet inhalen.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-005"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-038",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "zebrapad-fietsers-en-steps",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Aanduiding van een oversteekplaats voor voetgangers",
+        "linksAfb": "F49"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Aanduiding van een oversteekplaats voor fietsers",
+        "linksAfb": "F50"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Waarschuwing voor een oversteekplaats voor voetgangers",
+        "linksAfb": "A21"
+      }
+    ],
+    "uitleg": "Een zebrapad is voor voetgangers, een fietsoversteekplaats voor fietsers.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-005"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-039"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "afslaan-voorrang-voetgangers",
+    "type": "situatie",
+    "vraag": "De auto slaat rechts af. Welk voertuig of welke persoon moet voorrang verlenen?",
+    "afbeelding": "schema-afslaan-voetgangers-oefening",
+    "modus": "klik",
+    "voertuigen": [
+      {
+        "nr": 1,
+        "label": "auto (slaat rechts af)",
+        "x": 27.5,
+        "y": 46.67
+      },
+      {
+        "nr": 2,
+        "label": "voetganger (steekt de zijstraat over)",
+        "x": 53.75,
+        "y": 65.83
+      },
+      {
+        "nr": 3,
+        "label": "fietser op het fietspad (rijdt rechtdoor)",
+        "x": 20,
+        "y": 54.17
+      }
+    ],
+    "correct": 1,
+    "uitleg": "Wie afslaat, verleent voorrang aan voetgangers die de zijstraat oversteken en aan fietsers op het fietspad dat hij oversteekt.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-040"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangers-kinderen-handicap",
+    "type": "meerkeuze",
+    "vraag": "Je ziet een blinde met een witte stok bij de rijbaan. Wat doe je?",
+    "opties": [
+      "Vertragen en zo nodig stoppen",
+      "Toeteren om hem te waarschuwen",
+      "Gewoon doorrijden",
+      "Versnellen"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Wees dubbel voorzichtig, vertraag en stop zo nodig.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-041"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangers-afstand-hindernis",
+    "type": "meerkeuze",
+    "vraag": "Je kunt de minimale zijdelingse afstand tot een voetganger op de rijbaan niet houden. Wat doe je?",
+    "opties": [
+      "Toeteren en doorrijden",
+      "Stapvoets rijden en zo nodig stoppen",
+      "Normaal doorrijden",
+      "Versnellen"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Kan de afstand niet, dan rij je stapvoets.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-042"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangerszone-speelstraat-woonerf",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "In een voetgangerszone rijd je {{1}} en laat je {{2}} voorgaan.",
+    "gaten": [
+      {
+        "opties": [
+          "stapvoets",
+          "30 km/u",
+          "20 km/u"
+        ],
+        "correct": 0
+      },
+      {
+        "opties": [
+          "voetgangers",
+          "fietsers",
+          "bussen"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Wie er mag rijden, doet dat stapvoets en laat voetgangers voor.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-043"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "portier-openen",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Controleer je {{1}} en kijk over je {{2}} voor je de deur opent.",
+    "gaten": [
+      {
+        "antwoorden": [
+          "spiegel",
+          "spiegels",
+          "buitenspiegel",
+          "buitenspiegels"
+        ]
+      },
+      {
+        "antwoorden": [
+          "schouder"
+        ]
+      }
+    ],
+    "uitleg": "Eerst kijken, dan openen.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-044",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietspad-verplichting",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mag je als fietser het fietspad verlaten? Kruis aan.",
+    "opties": [
+      "Om af te slaan",
+      "Om in te halen",
+      "Om een hindernis te omzeilen",
+      "Omdat je liever op de rijbaan rijdt"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Je mag het fietspad verlaten om van richting te veranderen, in te halen of een hindernis te omzeilen.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-045"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-zonder-fietspad",
+    "type": "invul",
+    "vraag": "Kinderen jonger dan ... jaar mogen altijd op het trottoir fietsen.",
     "antwoorden": [
-     "1711"
-    ]
-   }
-  ],
-  "uitleg": "Breng jezelf en je passagiers eerst in veiligheid achter de slagbomen en bel dan het gratis noodnummer van Infrabel: 1711.",
-  "bronnen": [
-   "OPEN-003"
-  ],
-  "moeilijkheid": 1,
-  "gewicht": "gewoon",
-  "examen": false,
-  "eindtest": false,
-  "mini": true,
-  "id": "L2-M64",
-  "gewijzigd": true
- }
+      "10",
+      "tien"
+    ],
+    "uitleg": "Kinderen jonger dan 10 jaar mogen in alle omstandigheden op het trottoir en de verhoogde berm fietsen.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-046"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-voorrang-fietspad-oversteek",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Fietsers hebben op een fietsoversteekplaats met enkel onderbroken witte blokjes automatisch voorrang.",
+    "juist": false,
+    "motivatie": "De markering zelf geeft geen voorrang; die komt van de kruispuntregels.",
+    "foutemotivaties": [
+      "Fietsers hebben overal voorrang op auto's.",
+      "Enkel fietsers jonger dan 10 jaar hebben voorrang."
+    ],
+    "uitleg": "De voorrang van een fietser hangt af van de kruispuntregels.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-004",
+      "KWET-005"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-047"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-rotonde",
+    "type": "meerkeuze",
+    "vraag": "Je verlaat een rotonde en kruist een doorlopend fietspad. Wat moet je doen?",
+    "opties": [
+      "Doorrijden: je verlaat de rotonde",
+      "Toeteren",
+      "Versnellen",
+      "Voorrang verlenen aan wie dat fietspad volgt"
+    ],
+    "correct": [
+      3
+    ],
+    "meerdere": false,
+    "uitleg": "Wie de rotonde verlaat en een doorlopend fietspad oversteekt, verleent voorrang aan wie dat fietspad volgt.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false,
+    "id": "L2-048",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietszone-fietsstraat",
+    "type": "invul",
+    "vraag": "Wat is de maximumsnelheid in een fietszone (fietsstraat)?",
+    "antwoorden": [
+      "30",
+      "30 km/u"
+    ],
+    "eenheid": "km/u",
+    "uitleg": "In een fietszone is de maximumsnelheid 30 km/u voor iedereen.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-049"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "inhalen-fietser-afstand",
+    "type": "invul",
+    "vraag": "Hoeveel zijdelingse afstand houd je minstens bij het voorbijrijden van een fietser buiten de bebouwde kom?",
+    "antwoorden": [
+      "1,5",
+      "1.5"
+    ],
+    "eenheid": "m",
+    "uitleg": "Buiten de bebouwde kom minstens 1,5 meter.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002",
+      "KWET-004",
+      "KWET-006"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-050"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "dode-hoek",
+    "type": "meerkeuze",
+    "vraag": "Hoe verklein je als fietser of voetganger het gevaar van de dode hoek? Kruis aan.",
+    "opties": [
+      "Niet rechts naast een vrachtwagen fietsen",
+      "Ruim achter een stilstaande vrachtwagen blijven",
+      "Oogcontact zoeken met de chauffeur",
+      "Naast de vrachtwagen blijven staan om gezien te worden"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Blijf uit de dode hoek (naast, vlak voor en vlak achter de vrachtwagen) en zoek oogcontact.",
+    "bronnen": [
+      "KWET-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-051",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "bromfiets-klassen-speed-pedelec",
+    "type": "invul",
+    "vraag": "Wat is de minimumleeftijd voor een bromfiets?",
+    "antwoorden": [
+      "16"
+    ],
+    "eenheid": "jaar",
+    "uitleg": "Voor bromfietsen is dat 16 jaar.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-003",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-052"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "ruiters-en-dieren",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verplichte weg voor ruiters",
+        "linksAfb": "D13"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verboden toegang voor ruiters",
+        "linksAfb": "C15"
+      }
+    ],
+    "uitleg": "Het eerste bord verplicht een weg voor ruiters, het tweede verbiedt ze de toegang.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-053"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-spoorvoertuigen-voorrang",
+    "type": "invul",
+    "vraag": "Verkeer op sporen die buiten de rijbaan liggen is voor gewone weggebruikers ...",
+    "antwoorden": [
+      "verboden"
+    ],
+    "uitleg": "Je mag niet op sporen buiten de rijbaan rijden.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-054"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-tramlichten",
+    "type": "koppel",
+    "vraag": "Koppel het tramlicht aan de betekenis.",
+    "paren": [
+      {
+        "links": "Horizontale balk",
+        "rechts": "Zoals rood: stoppen"
+      },
+      {
+        "links": "Cirkel",
+        "rechts": "Zoals oranje: stoppen, tenzij dat niet meer veilig kan"
+      },
+      {
+        "links": "Omgekeerde driehoek",
+        "rechts": "Zoals groen: doorrijden toegelaten"
+      },
+      {
+        "links": "Verticale balk",
+        "rechts": "Enkel rechtdoor"
+      }
+    ],
+    "uitleg": "Witte tekens op een zwarte achtergrond zijn voor de tram.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-055"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-tramhalte",
+    "type": "meerkeuze",
+    "vraag": "Wat moet je doen langs een stilstaande tram of bus waar reizigers in- of uitstappen? Kruis aan.",
+    "opties": [
+      "Je snelheid matigen",
+      "Zonder vluchtheuvel stoppen langs de kant van de reizigers",
+      "Pas met matige snelheid weer vertrekken",
+      "Toeteren om hen te waarschuwen"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Reizigers moeten veilig kunnen in- en uitstappen.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-056"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-bob",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mogen andere voertuigen toch op de bijzondere overrijdbare bedding? Kruis aan.",
+    "opties": [
+      "Om een hindernis op de rijbaan te omzeilen",
+      "Om de bedding te dwarsen op een kruispunt",
+      "Om een eigendom of parking langs de bedding in of uit te rijden",
+      "Om de file te vermijden"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Buiten die gevallen blijf je van de bedding af.",
+    "bronnen": [
+      "OPEN-001",
+      "OPEN-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-057"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-busstrook",
+    "type": "meerkeuze",
+    "vraag": "Welk voertuig mag op de busstrook rijden zonder dat het op het bord of onderbord vermeld staat? Kruis aan.",
+    "opties": [
+      "Bussen van geregelde diensten",
+      "Fietsers, zonder vermelding op het bord of onderbord",
+      "Gewone personenwagens",
+      "Vrachtwagens"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Op de busstrook rijden voertuigen van de geregelde diensten voor gemeenschappelijk vervoer. Anderen mogen enkel als het bord of onderbord het uitdrukkelijk toelaat.",
+    "bronnen": [
+      "OPEN-001",
+      "OPEN-002",
+      "OPEN-004"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-058",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-busstrook-afslaan",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mag je als gewone bestuurder kort op de busstrook rijden? Kruis aan.",
+    "opties": [
+      "Om een hindernis op de rijbaan te omzeilen",
+      "Om vlak voor een kruispunt van richting te veranderen",
+      "Om de busstrook te dwarsen op een kruispunt",
+      "Om een eigendom of parking langs de busstrook in of uit te rijden",
+      "Om sneller vooruit te komen in de file"
+    ],
+    "correct": [
+      0,
+      1,
+      2,
+      3
+    ],
+    "meerdere": true,
+    "uitleg": "Enkel in deze vier gevallen.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-059"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-borden-overzicht",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Busstrook (onderbroken witte streep)",
+        "linksAfb": "F17"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Bijzondere overrijdbare bedding (doorlopende witte streep)",
+        "linksAfb": "F18"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Tramsporen die in de rijbaan liggen",
+        "linksAfb": "A49"
+      }
+    ],
+    "uitleg": "Deze borden horen bij openbaar vervoer.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "id": "L2-060"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T21",
+    "theorieblok": "openbaar-overweg-signalisatie",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mag je je niet op een overweg begeven? Kruis aan.",
+    "opties": [
+      "De slagbomen bewegen of zijn gesloten",
+      "De rode knipperlichten branden",
+      "Het geluidssein werkt",
+      "Er knippert een maanwit licht"
+    ],
+    "correct": [
+      0,
+      1,
+      2
+    ],
+    "meerdere": true,
+    "uitleg": "Bij een maanwit knipperlicht mag je het signaal voorbijrijden.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-061"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T21",
+    "theorieblok": "openbaar-overweg-pech",
+    "type": "volgorde",
+    "vraag": "Je voertuig valt stil op een overweg. Zet de stappen in volgorde.",
+    "items": [
+      "Stap uit en breng jezelf in veiligheid achter de slagbomen",
+      "Bel het gratis noodnummer 1711 van Infrabel",
+      "Geef de locatiegegevens van de overweg door"
+    ],
+    "uitleg": "Eerst jezelf in veiligheid brengen, dan bellen en de locatie doorgeven.",
+    "bronnen": [
+      "OPEN-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true,
+    "id": "L2-062"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-van-rechts",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Zonder bord of licht moet je voorrang verlenen aan wie van {{1}} komt.",
+    "gaten": [
+      {
+        "opties": [
+          "rechts",
+          "links"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Zonder bord, licht of bevoegde persoon geldt voorrang van rechts.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007",
+      "VOOR-010"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M01"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T11",
+    "theorieblok": "voorrang-manoeuvres-uitritten",
+    "type": "koppel",
+    "vraag": "Koppel de handeling aan wat je moet doen.",
+    "paren": [
+      {
+        "links": "Keren",
+        "rechts": "Voorrang aan alle andere weggebruikers"
+      },
+      {
+        "links": "Een trottoir oversteken",
+        "rechts": "Voorrang aan wie er regelmatig rijdt of stapt"
+      }
+    ],
+    "uitleg": "Bij een manoeuvre verleen je voorrang aan de andere weggebruikers.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M02"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-aardeweg-pad",
+    "type": "meerkeuze",
+    "vraag": "Je rijdt uit een aardeweg op een openbare weg met rijbaan. Aan wie geef je voorrang?",
+    "opties": [
+      "Alleen aan wie van rechts komt",
+      "Aan alle bestuurders op de openbare weg",
+      "Alleen aan wie van links komt",
+      "Aan niemand"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Uit een aardeweg of pad verleen je voorrang aan iedereen op de openbare weg.",
+    "bronnen": [
+      "VOOR-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M03"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-woonerf-erf",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van een woonerf of erf",
+        "linksAfb": "F12a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van een woonerf of erf",
+        "linksAfb": "F12b"
+      }
+    ],
+    "uitleg": "Het eerste bord geeft het begin, het tweede het einde van een woonerf of erf aan.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M04"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-tram-spoorvoertuigen",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Spoorvoertuigen hebben {{1}} op alle andere weggebruikers.",
+    "gaten": [
+      {
+        "opties": [
+          "voorrang",
+          "geen voorrang"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Een tram of trein heeft voorrang op alle weggebruikers.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M05"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-borden-b1-b5",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrang verlenen",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Stoppen en voorrang verlenen",
+        "linksAfb": "B5"
+      }
+    ],
+    "uitleg": "Bij het stopbord stop je altijd volledig.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M06"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrangsweg",
+        "linksAfb": "B9"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van de voorrangsweg",
+        "linksAfb": "B11"
+      }
+    ],
+    "uitleg": "Het eerste bord geeft voorrang, het tweede maakt er een einde aan.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M07"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-b17",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Bij dit bord geldt op het eerstvolgende kruispunt voorrang van {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "rechts",
+          "links"
+        ],
+        "correct": 0
+      }
+    ],
+    "afbeelding": "B17",
+    "uitleg": "Het bord duidt voorrang van rechts aan.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-003",
+      "VOOR-009"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M08"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T12",
+    "theorieblok": "voorrang-t-kruispunt",
+    "type": "volgorde",
+    "vraag": "In welke volgorde check je een T-kruispunt?",
+    "items": [
+      "Bevoegde persoon",
+      "Verkeerslichten en verkeersborden",
+      "Voorrang van rechts"
+    ],
+    "uitleg": "Eerst de bevoegde persoon, dan de lichten en borden, en pas dan voorrang van rechts.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M09",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde",
+    "type": "koppel",
+    "vraag": "Koppel de handeling aan wat je moet doen.",
+    "paren": [
+      {
+        "links": "De rotonde oprijden",
+        "rechts": "Geen richtingaanwijzer verplicht"
+      },
+      {
+        "links": "De rotonde verlaten",
+        "rechts": "Rechter richtingaanwijzer"
+      },
+      {
+        "links": "Op de rotonde rijden",
+        "rechts": "Voorrang op wie oprijdt"
+      }
+    ],
+    "uitleg": "Oprijden: geen richtingaanwijzer; verlaten: rechts; wie op de rotonde rijdt, heeft voorrang.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-003",
+      "VOOR-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M10"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Op een plein hoef je niet zo dicht mogelijk bij de rechterrand te blijven.",
+    "juist": true,
+    "motivatie": "Op pleinen hoef je niet zo dicht mogelijk bij de rechterrand te rijden.",
+    "foutemotivaties": [
+      "Op een plein moet je altijd het rechtse trottoir volgen.",
+      "Op een plein mag je overal parkeren."
+    ],
+    "uitleg": "Op pleinen en rotondes hoef je niet zo dicht mogelijk bij de rechterrand te blijven.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M11"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T13",
+    "theorieblok": "voorrang-rotonde-fietsers",
+    "type": "meerkeuze",
+    "vraag": "Wie krijgt voorrang als jij de rotonde verlaat?",
+    "opties": [
+      "Alleen wie de rotonde oprijdt",
+      "Niemand",
+      "Voetgangers die de afrit oversteken",
+      "Alleen auto's"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Als je de rotonde verlaat, verleen je voorrang aan voetgangers die de afrit oversteken.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-003",
+      "VOOR-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M12",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T14",
+    "theorieblok": "voorrang-linksaf-tegenliggers",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Wie links afslaat, verleent voorrang aan de {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "tegenliggers",
+          "achterliggers"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Linksaf: voorrang aan de tegenliggers.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-008",
+      "VOOR-009"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M13"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T14",
+    "theorieblok": "voorrang-middenberm-gescheiden-rijbanen",
+    "type": "meerkeuze",
+    "vraag": "Wat is een middenberm?",
+    "opties": [
+      "Een brede witte streep",
+      "Een aanleg in de lengterichting die rijbanen scheidt, behalve wegmarkeringen",
+      "Een parkeerstrook",
+      "Een fietspad"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Wegmarkeringen tellen niet mee als middenberm.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-002",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M14"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-voorrangsvoertuigen",
+    "type": "koppel",
+    "vraag": "Koppel het kenmerk aan de regel.",
+    "paren": [
+      {
+        "links": "Blauwe knipperlichten",
+        "rechts": "Verplicht bij een dringende opdracht"
+      },
+      {
+        "links": "Sirene",
+        "rechts": "Enkel bij een dringende opdracht"
+      }
+    ],
+    "uitleg": "Blauwe lichten moeten aan bij dringende opdrachten; de sirene mag alleen dan.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M15"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-reageren-op-hulpdiensten",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Heb je zelf voorrang, dan hoef je niet te wijken voor een voorrangsvoertuig met sirene.",
+    "juist": false,
+    "motivatie": "De plicht om de doorgang vrij te maken geldt ook als je zelf voorrang zou hebben.",
+    "foutemotivaties": [
+      "Voorrang gaat altijd voor.",
+      "Dat geldt enkel voor autobestuurders."
+    ],
+    "uitleg": "Alle weggebruikers moeten wijken, ook wie voorrang heeft.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M16"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T22",
+    "theorieblok": "voorrang-bijzondere-voertuigen",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Blauw met sirene: {{1}} geven. Oranje knipperlicht: opletten, maar {{2}}.",
+    "gaten": [
+      {
+        "opties": [
+          "voorrang",
+          "geen voorrang"
+        ],
+        "correct": 0
+      },
+      {
+        "opties": [
+          "geen voorrang",
+          "voorrang"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Blauw met sirene = voorrang geven; oranje = opletten maar geen voorrang.",
+    "bronnen": [
+      "VOOR-001",
+      "VOOR-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M17"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-driekleurig",
+    "type": "koppel",
+    "vraag": "Koppel het licht aan de betekenis.",
+    "paren": [
+      {
+        "links": "Rood",
+        "rechts": "Niet voorbij de stopstreep (of het licht)"
+      },
+      {
+        "links": "Vast oranje",
+        "rechts": "Stoppen, tenzij je niet meer veilig kunt stoppen"
+      },
+      {
+        "links": "Groen",
+        "rechts": "Je mag het verkeerslicht voorbij"
+      }
+    ],
+    "uitleg": "Rood: stoppen. Oranje: stoppen, behalve als dat niet meer veilig kan. Groen: doorrijden.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M18"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-oranje-doorrijden",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Bij oranje stop je, tenzij je niet meer {{1}} kunt stoppen.",
+    "gaten": [
+      {
+        "opties": [
+          "veilig",
+          "snel"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Alleen als stoppen niet meer veilig kan, mag je doorrijden.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M19"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-volgorde-plaatsing",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Ronde driekleurige lichten staan normaal {{1}} van de rijbaan.",
+    "gaten": [
+      {
+        "opties": [
+          "rechts",
+          "links"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Ze staan rechts van de rijbaan en worden eventueel herhaald.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M20"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-oranje-knipperlicht",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent knipperend oranje?",
+    "opties": [
+      "Stoppen",
+      "Je hebt voorrang",
+      "Dubbel voorzichtig verder rijden",
+      "Het licht is stuk en je moet wachten"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Het verbiedt het doorrijden niet, maar je bent dubbel voorzichtig.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M21"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-pijlen",
+    "type": "koppel",
+    "vraag": "Koppel het licht aan de betekenis.",
+    "paren": [
+      {
+        "links": "Rode pijl",
+        "rechts": "Het verbod geldt enkel voor de richting van de pijl"
+      },
+      {
+        "links": "Groene pijl samen met rood",
+        "rechts": "Enkel in de pijlrichting verder, met voorrang voor anderen"
+      }
+    ],
+    "uitleg": "Een pijl geldt alleen voor zijn eigen richting.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M22"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-b22-b23",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Wie met dit bord door rood fietst, moet {{1}} verlenen aan voetgangers en het verkeer dat groen heeft.",
+    "gaten": [
+      {
+        "opties": [
+          "voorrang",
+          "geen voorrang"
+        ],
+        "correct": 0
+      }
+    ],
+    "afbeelding": "B22",
+    "uitleg": "Het bord is geen vrijbrief: je verleent voorrang.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M23"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-fietslichten",
+    "type": "meerkeuze",
+    "vraag": "Voor wie gelden lichten met een verlicht fietssilhouet?",
+    "opties": [
+      "Alle bestuurders",
+      "Enkel voetgangers",
+      "Fietsers en tweewielige bromfietsen",
+      "Enkel auto's"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Fietslichten gelden voor fietsers en bestuurders van tweewielige bromfietsen.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M24"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-voetgangers",
+    "type": "koppel",
+    "vraag": "Koppel het voetgangerslicht aan de betekenis.",
+    "paren": [
+      {
+        "links": "Rood mannetje",
+        "rechts": "Niet de rijbaan op"
+      },
+      {
+        "links": "Groen mannetje",
+        "rechts": "Je mag de rijbaan op"
+      },
+      {
+        "links": "Knipperend groen",
+        "rechts": "De toelating eindigt binnenkort"
+      }
+    ],
+    "uitleg": "Rood staat boven groen; knipperend groen waarschuwt.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M25"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-boven-rijstroken",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent een rood kruis boven jouw rijstrook?",
+    "opties": [
+      "Verboden richting op deze rijstrook",
+      "Je mag deze rijstrook gebruiken",
+      "Je moet stoppen voor een zebrapad",
+      "Einde van de weg"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Rood kruis: verboden richting op deze rijstrook.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M26"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-kruispunt-vrijmaken",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Bij groen mag je een volgereden kruispunt oprijden.",
+    "juist": false,
+    "motivatie": "Je mag niet oprijden als je er waarschijnlijk zou moeten stilstaan en het dwarsverkeer zou hinderen.",
+    "foutemotivaties": [
+      "Groen betekent altijd doorrijden.",
+      "Dat mag als je je richtingaanwijzer aanzet."
+    ],
+    "uitleg": "Blijf wachten voor het kruispunt.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M27"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-wie",
+    "type": "meerkeuze",
+    "vraag": "Is elke persoon die het verkeer regelt een bevoegde persoon?",
+    "opties": [
+      "Nee, niet elke persoon",
+      "Ja, iedereen die het verkeer regelt",
+      "Ja, maar enkel overdag"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Enkel bepaalde personen zoals de politie zijn bevoegde personen.",
+    "bronnen": [
+      "LICH-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M28"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-seinen",
+    "type": "koppel",
+    "vraag": "Koppel het sein aan de betekenis.",
+    "paren": [
+      {
+        "links": "Arm rechtop",
+        "rechts": "Iedereen stopt"
+      },
+      {
+        "links": "Armen horizontaal uitgestrekt",
+        "rechts": "Stoppen voor wie de armen dwarst"
+      }
+    ],
+    "uitleg": "Arm omhoog: iedereen stil. Armen opzij: wie de armen dwarst, stopt.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M29"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T16",
+    "theorieblok": "bevoegde-personen-signaalgevers-werf",
+    "type": "koppel",
+    "vraag": "Koppel de persoon aan de groep.",
+    "paren": [
+      {
+        "links": "Signaalgever",
+        "rechts": "Evenementen en wielerwedstrijden"
+      },
+      {
+        "links": "Wegkapitein",
+        "rechts": "Groepen fietsers en motorfietsers"
+      },
+      {
+        "links": "Werfopzichter",
+        "rechts": "Personeel dat op de openbare weg werkt"
+      },
+      {
+        "links": "Groepsleider",
+        "rechts": "Groepen voetgangers en ruiters"
+      }
+    ],
+    "uitleg": "Elke persoon geeft aanwijzingen aan zijn eigen groep of werf.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M30"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T15",
+    "theorieblok": "lichten-rangorde",
+    "type": "volgorde",
+    "vraag": "Zet in volgorde, het sterkste bovenaan.",
+    "items": [
+      "Bevelen van een bevoegde persoon",
+      "Verkeerstekens: lichten, borden, markeringen",
+      "Verkeersregels (bv. voorrang van rechts)"
+    ],
+    "uitleg": "Een bevoegde persoon gaat boven de verkeerstekens, en die gaan boven de gewone regels.",
+    "bronnen": [
+      "LICH-001",
+      "LICH-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M31"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "kwetsbaar-algemeen",
+    "type": "koppel",
+    "vraag": "Koppel de gebruiker aan de gelijkstelling.",
+    "paren": [
+      {
+        "links": "Step zonder motor, stapvoets",
+        "rechts": "Voetganger"
+      },
+      {
+        "links": "Elektrische fiets tot 25 km/u",
+        "rechts": "Fietser"
+      }
+    ],
+    "uitleg": "Gebruikers van voortbewegingstoestellen worden gelijkgesteld met voetgangers of fietsers.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M32",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetganger-plaats-op-de-weg",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Op de rijbaan loopt een voetganger normaal {{1}} in zijn looprichting.",
+    "gaten": [
+      {
+        "opties": [
+          "links",
+          "rechts"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Zo ziet hij het verkeer aankomen.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M33"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetganger-oversteken",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Bij rood voetgangerslicht ga je {{1}} de rijbaan op.",
+    "gaten": [
+      {
+        "opties": [
+          "niet",
+          "wel"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Rood: niet de rijbaan op.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M34"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "zebrapad-voorrang-bestuurder",
+    "type": "koppel",
+    "vraag": "Koppel de situatie aan wat je moet doen.",
+    "paren": [
+      {
+        "links": "Zebrapad zonder regeling, voetganger klaar",
+        "rechts": "Matig naderen en voorrang verlenen"
+      },
+      {
+        "links": "Voetganger is al begonnen, licht wordt groen voor jou",
+        "rechts": "Laten uitlopen aan een normaal tempo"
+      },
+      {
+        "links": "Voorligger stopt voor het zebrapad",
+        "rechts": "Niet links inhalen"
+      }
+    ],
+    "uitleg": "Je beschermt voetgangers op het zebrapad.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M35"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "zebrapad-fietsers-en-steps",
+    "type": "meerkeuze",
+    "vraag": "Als fietser wil je voorrang op een zebrapad. Wat doe je?",
+    "opties": [
+      "Sneller rijden",
+      "Afstappen en je fiets aan de hand leiden",
+      "Toeteren",
+      "Je hand uitsteken en rijden"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Als je je fiets aan de hand leidt, ben je voetganger.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M36"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "afslaan-voorrang-voetgangers",
+    "type": "koppel",
+    "vraag": "Koppel de handeling aan wie voorrang krijgt.",
+    "paren": [
+      {
+        "links": "Rechts afslaan naar een zijstraat",
+        "rechts": "Voetgangers die die zijstraat oversteken"
+      },
+      {
+        "links": "Een fietspad oversteken bij het afslaan",
+        "rechts": "Fietsers op het fietspad"
+      }
+    ],
+    "uitleg": "Wie afslaat, geeft voorrang aan voetgangers en fietsers.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M37"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangers-kinderen-handicap",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Een groep onder leiding of toezicht mag je {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "niet doorbreken",
+          "doorbreken"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Laat de groep rustig oversteken.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M38"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangers-afstand-hindernis",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Buiten de bebouwde kom houd je minstens {{1}} meter afstand van een voetganger op de rijbaan.",
+    "gaten": [
+      {
+        "opties": [
+          "1,5",
+          "1",
+          "0,5"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Binnen de bebouwde kom is dat 1 meter.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M39"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "voetgangerszone-speelstraat-woonerf",
+    "type": "koppel",
+    "vraag": "Koppel de zone aan de regel.",
+    "paren": [
+      {
+        "links": "Woonerf",
+        "rechts": "Maximaal 20 km/u"
+      },
+      {
+        "links": "Voetgangerszone",
+        "rechts": "Stapvoets voor wie er mag rijden"
+      }
+    ],
+    "uitleg": "In een woonerf rijd je maximaal 20 km/u; in een voetgangerszone rijdt wie er mag rijden stapvoets en laat voetgangers voor.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M40",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T17",
+    "theorieblok": "portier-openen",
+    "type": "meerkeuze",
+    "vraag": "Wat doe je voor je een portier opent?",
+    "uitleg": "Je vergewist je eerst dat er niemand aankomt (spiegel en over je schouder), pas daarna open je voorzichtig de deur.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M41",
+    "opties": [
+      "Eerst in je spiegel en over je schouder kijken, dan voorzichtig openen",
+      "Meteen openen en daarna pas kijken",
+      "Toeteren en dan openen",
+      "Enkel naar voren kijken en dan openen"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietspad-verplichting",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Een gemarkeerd fietspad dat {{1}} in je rijrichting ligt, moet je volgen.",
+    "gaten": [
+      {
+        "opties": [
+          "rechts",
+          "links"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Een fietspad links hoef je niet te volgen.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M42"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-zonder-fietspad",
+    "type": "koppel",
+    "vraag": "Koppel de situatie aan de regel.",
+    "paren": [
+      {
+        "links": "Geen fietspad",
+        "rechts": "Rijbaan, zo dicht mogelijk bij de rechterrand"
+      },
+      {
+        "links": "Aanhangwagen aan de fiets",
+        "rechts": "Achter elkaar rijden"
+      },
+      {
+        "links": "Kind jonger dan 10 jaar",
+        "rechts": "Mag altijd op het trottoir"
+      }
+    ],
+    "uitleg": "Dit zijn de regels voor fietsers zonder fietspad.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M43"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-voorrang-fietspad-oversteek",
+    "type": "koppel",
+    "vraag": "Koppel de situatie aan de regel.",
+    "paren": [
+      {
+        "links": "Jij steekt een fietspad over",
+        "rechts": "Jij verleent voorrang aan de fietsers"
+      },
+      {
+        "links": "Fietsoversteekplaats met onderbroken blokjes",
+        "rechts": "Geen automatische voorrang voor de fietser"
+      },
+      {
+        "links": "Voorligger stopt voor de fietsoversteekplaats",
+        "rechts": "Niet links inhalen"
+      }
+    ],
+    "uitleg": "De markering alleen geeft geen voorrang.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-004",
+      "KWET-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M44"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-rotonde",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Bij het verlaten van de rotonde gebruik je de {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "richtingaanwijzer",
+          "alarmlichten"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Het verlaten is een richtingsverandering; het oprijden hoeft niet aangegeven.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M45"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietsers-door-rood-b22-b23",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Het fietsopstelvak gebruik je alleen tijdens de {{1}} fase.",
+    "gaten": [
+      {
+        "opties": [
+          "rode",
+          "groene"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Andere bestuurders stoppen voor de eerste stopstreep.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M46"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "fietszone-fietsstraat",
+    "type": "koppel",
+    "vraag": "Koppel het bord aan de betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van een fietszone (fietsstraat)",
+        "linksAfb": "F111"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van een fietszone (fietsstraat)",
+        "linksAfb": "F113"
+      }
+    ],
+    "uitleg": "Het eerste bord toont het begin, het tweede het einde.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M47"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "inhalen-fietser-afstand",
+    "type": "koppel",
+    "vraag": "Koppel de plaats aan de minimale afstand.",
+    "paren": [
+      {
+        "links": "Binnen de bebouwde kom",
+        "rechts": "Minstens 1 meter"
+      },
+      {
+        "links": "Buiten de bebouwde kom",
+        "rechts": "Minstens 1,5 meter"
+      }
+    ],
+    "uitleg": "Zo ver houd je afstand van een fietser.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-002",
+      "KWET-004",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M48"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "dode-hoek",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Controleer je spiegels en kijk over je {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "schouder",
+          "dashboard"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Zo dek je de dode hoek.",
+    "bronnen": [
+      "KWET-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M49"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "bromfiets-klassen-speed-pedelec",
+    "type": "koppel",
+    "vraag": "Koppel het voertuig aan de beschrijving.",
+    "paren": [
+      {
+        "links": "Bromfiets klasse A",
+        "rechts": "Maximaal 25 km/u"
+      },
+      {
+        "links": "Bromfiets klasse B",
+        "rechts": "Maximaal 45 km/u"
+      },
+      {
+        "links": "Speed pedelec",
+        "rechts": "Trapondersteuning valt weg bij 45 km/u"
+      }
+    ],
+    "uitleg": "De klassen verschillen in maximumsnelheid.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-003",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M50"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "bromfiets-fietspad-gebruik",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Op wegen boven 50 km/u moeten bromfietsen B het bruikbare fietspad {{1}}.",
+    "gaten": [
+      {
+        "opties": [
+          "volgen",
+          "vermijden"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Tot 50 km/u mag het, erboven moet het.",
+    "bronnen": [
+      "KWET-001",
+      "KWET-003",
+      "KWET-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M51"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T18",
+    "theorieblok": "ruiters-en-dieren",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Binnen de bebouwde kom is {{1}} met een paard verboden.",
+    "gaten": [
+      {
+        "opties": [
+          "galopperen",
+          "stappen"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Galopperen binnen de bebouwde kom is verboden.",
+    "bronnen": [
+      "KWET-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M52"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-spoorvoertuigen-voorrang",
+    "type": "koppel",
+    "vraag": "Koppel de situatie aan wat je moet doen.",
+    "paren": [
+      {
+        "links": "Een tram nadert en jij staat op de sporen",
+        "rechts": "Voorrang verlenen en de sporen verlaten"
+      },
+      {
+        "links": "Sporen buiten de rijbaan",
+        "rechts": "Er niet op rijden"
+      },
+      {
+        "links": "Een tram in de rijbaan inhalen",
+        "rechts": "Rechts inhalen"
+      }
+    ],
+    "uitleg": "Een tram heeft voorrang en wordt rechts ingehaald.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M53"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-tramlichten",
+    "type": "koppel",
+    "vraag": "Koppel het tramlicht aan de betekenis.",
+    "paren": [
+      {
+        "links": "Horizontale balk",
+        "rechts": "Zoals rood"
+      },
+      {
+        "links": "Cirkel",
+        "rechts": "Zoals oranje"
+      },
+      {
+        "links": "Omgekeerde driehoek",
+        "rechts": "Zoals groen"
+      }
+    ],
+    "uitleg": "Balk = rood, cirkel = oranje, omgekeerde driehoek = groen.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M54"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T19",
+    "theorieblok": "openbaar-tramhalte",
+    "type": "koppel",
+    "vraag": "Koppel de situatie aan de regel.",
+    "paren": [
+      {
+        "links": "Reizigers stappen uit, geen vluchtheuvel",
+        "rechts": "Stoppen"
+      },
+      {
+        "links": "Parkeren bij een haltebord",
+        "rechts": "Verboden op minder dan 15 meter aan weerszijden"
+      },
+      {
+        "links": "Stilstaande tram met reizigers",
+        "rechts": "Snelheid matigen"
+      }
+    ],
+    "uitleg": "Houd rekening met reizigers aan de halte.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M55"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-bob",
+    "type": "koppel",
+    "vraag": "Koppel de streep aan de strook.",
+    "paren": [
+      {
+        "links": "Brede doorlopende witte streep",
+        "rechts": "Bijzondere overrijdbare bedding"
+      },
+      {
+        "links": "Brede onderbroken witte streep",
+        "rechts": "Busstrook"
+      }
+    ],
+    "uitleg": "Doorlopend of onderbroken: dat maakt het verschil.",
+    "bronnen": [
+      "OPEN-001",
+      "OPEN-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M56"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-busstrook",
+    "type": "koppel",
+    "vraag": "Koppel de weggebruiker aan zijn toegang.",
+    "paren": [
+      {
+        "links": "Bus van een geregelde dienst",
+        "rechts": "Toegelaten"
+      },
+      {
+        "links": "Fiets",
+        "rechts": "Enkel met fietssymbool op bord of onderbord"
+      },
+      {
+        "links": "Gewone personenauto",
+        "rechts": "Niet toegelaten, behalve in de uitzonderingen"
+      }
+    ],
+    "uitleg": "Voertuigen van geregelde diensten voor gemeenschappelijk vervoer mogen op de busstrook; anderen enkel als het bord of onderbord het toelaat.",
+    "bronnen": [
+      "OPEN-001",
+      "OPEN-002",
+      "OPEN-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M57",
+    "gewijzigd": true
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-busstrook-afslaan",
+    "type": "meerkeuze",
+    "vraag": "Hoe ver mag je op de busstrook rijden om rechts af te slaan?",
+    "opties": [
+      "Zo lang je wilt",
+      "Tot de volgende bushalte",
+      "Enkel vlak voor het kruispunt",
+      "Honderd meter"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "uitleg": "Op de busstrook blijven rijden tot ver voor het kruispunt mag niet.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M58"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-bushalte-vertrek",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Binnen de bebouwde kom laat je een bus vertrekken zodra hij zijn {{1}} aanzet.",
+    "gaten": [
+      {
+        "antwoorden": [
+          "richtingaanwijzer",
+          "richtingaanwijzers"
+        ]
+      }
+    ],
+    "uitleg": "Dit geldt voor een bus of trolleybus.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M59"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-schoolvervoer",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Knipperen alle richtingaanwijzers van een schoolbus, dan mag je aan dezelfde snelheid voorbijrijden.",
+    "juist": false,
+    "motivatie": "Je moet je snelheid aanzienlijk matigen en zo nodig stoppen.",
+    "foutemotivaties": [
+      "Enkel op de rijbaan ernaast moet je vertragen.",
+      "Dat geldt enkel 's nachts."
+    ],
+    "uitleg": "Kinderen kunnen plots de weg op komen.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M60"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T20",
+    "theorieblok": "openbaar-borden-overzicht",
+    "type": "bord",
+    "vraag": "Wat betekent dit bord?",
+    "afbeelding": "F17",
+    "modus": "naam",
+    "opties": [
+      "Bijzondere overrijdbare bedding",
+      "Busstrook",
+      "Eenrichtingsverkeer",
+      "Voetgangerszone"
+    ],
+    "antwoorden": [
+      "Busstrook"
+    ],
+    "categorie": "F",
+    "uitleg": "Het bord duidt een strook voor autobussen aan.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M61"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T21",
+    "theorieblok": "openbaar-overweg-signalisatie",
+    "type": "bord",
+    "vraag": "Wat betekent dit bord?",
+    "afbeelding": "A43",
+    "modus": "naam",
+    "opties": [
+      "Overweg zonder slagbomen",
+      "Overweg met slagbomen",
+      "Kruising met tramsporen",
+      "Busstrook"
+    ],
+    "antwoorden": [
+      "Overweg zonder slagbomen"
+    ],
+    "categorie": "A",
+    "uitleg": "Zonder slagbomen kijk je zelf of er een spoorvoertuig nadert.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M62"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T21",
+    "theorieblok": "openbaar-overweg-gedrag",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Stilstaan op een overweg is toegelaten als je even moet wachten.",
+    "juist": false,
+    "motivatie": "Stilstaan en parkeren op een overweg is verboden.",
+    "foutemotivaties": [
+      "Dat mag als de slagbomen open zijn.",
+      "Dat mag als er geen trein in zicht is."
+    ],
+    "uitleg": "Blijf niet op een overweg staan.",
+    "bronnen": [
+      "OPEN-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M63"
+  },
+  {
+    "les": 2,
+    "onderwerp": "T21",
+    "theorieblok": "openbaar-overweg-pech",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Bij pech op een overweg stap je uit, ga je achter de slagbomen staan en bel je dan het gratis noodnummer {{1}}.",
+    "gaten": [
+      {
+        "antwoorden": [
+          "1711"
+        ]
+      }
+    ],
+    "uitleg": "Breng jezelf en je passagiers eerst in veiligheid achter de slagbomen en bel dan het gratis noodnummer van Infrabel: 1711.",
+    "bronnen": [
+      "OPEN-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "id": "L2-M64",
+    "gewijzigd": true
+  }
 ]

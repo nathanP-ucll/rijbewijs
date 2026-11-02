@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 520" width="800" height="520" role="img" aria-labelledby="t d">
+<title id="t">Reanimatie en AED</title>
+<desc id="d">Eerst vier stappen: alarmeer 112 en laat een AED halen, 30 borstcompressies in het midden van de borstkas, 2 beademingen, daarna 30 en 2 blijven afwisselen. Daaronder de AED: activeren en de aanwijzingen volgen, 2 elektroden op de ontblote borstkas, tijdens analyse of schok raakt niemand het slachtoffer aan.</desc>
+
+<rect width="800" height="520" fill="#fffdf7"/>
+<rect x="30" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(82.75 78) scale(0.6)"><rect x="26" y="6" width="48" height="88" rx="9" fill="#1c2230"/><rect x="31" y="16" width="38" height="62" rx="2" fill="#cfe6f7"/><text x="50" y="55" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230">112</text><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="112.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="112.75" dy="0">Alarmeer 112</tspan></text>
+<text x="112.75" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="112.75" dy="0">Laat een AED halen.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M203.5 144.82 L214.5 155.82 L203.5 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="221.5" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="219.5" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(274.25 78) scale(0.6)"><circle cx="16" cy="70" r="9" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="26" y="62" width="40" height="16" rx="8" fill="#2d4a8a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="64" y="64" width="30" height="12" rx="6" fill="#4a4f57" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M44 8 V54" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/><path d="M30 40 L44 56 L58 40" fill="none" stroke="#d63a3a" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="304.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="304.25" dy="0">30</tspan><tspan x="304.25" dy="21.96">borstcompressies</tspan></text>
+<text x="304.25" y="207.34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="304.25" dy="0">In het midden van</tspan><tspan x="304.25" dy="18.91">de borstkas.</tspan></text>
+<circle cx="239.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="239.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="239.5" dy="0">2</tspan></text>
+<path d="M395 144.82 L406 155.82 L395 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="413" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="411" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(465.75 78) scale(0.6)"><circle cx="30" cy="50" r="22" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><ellipse cx="42" cy="58" rx="9" ry="6" fill="#d85a5a" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="24" cy="44" r="2.8" fill="#1c2230"/><path d="M60 52 H88 M78 42 L90 52 L78 62" fill="none" stroke="#2f6fd6" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="495.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="495.75" dy="0">2 beademingen</tspan></text>
+<text x="495.75" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="495.75" dy="0">Daarna weer</tspan><tspan x="495.75" dy="18.91">compressies.</tspan></text>
+<circle cx="431" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="431" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="431" dy="0">3</tspan></text>
+<path d="M586.5 144.82 L597.5 155.82 L586.5 166.82" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="604.5" y="68" width="169.5" height="183.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="602.5" y="64" width="169.5" height="183.64" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(657.25 78) scale(0.6)"><path d="M50 88 C8 58 12 20 34 20 C44 20 50 28 50 32 C50 28 56 20 66 20 C88 20 92 58 50 88 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="687.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="687.25" dy="0">Blijf afwisselen</tspan></text>
+<text x="687.25" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="687.25" dy="0">30 compressies,</tspan><tspan x="687.25" dy="18.91">dan 2 beademingen.</tspan></text>
+<circle cx="622.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="622.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="622.5" dy="0">4</tspan></text>
+<rect x="30" y="267.64" width="744" height="180" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="263.64" width="744" height="180" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="2.5"/>
+<path d="M28 315.64 V277.64 Q28 263.64 42 263.64 H758 Q772 263.64 772 277.64 V315.64 Z" fill="#2f9e5a"/>
+<circle cx="62" cy="289.64" r="22" fill="#fff"/>
+<g transform="translate(46 273.64) scale(0.32)"><rect x="10" y="22" width="80" height="62" rx="10" fill="#2f9e5a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M36 22 V14 H64 V22" fill="none" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 70 C28 54 30 38 40 38 C46 38 50 43 50 45 C50 43 54 38 60 38 C70 38 72 54 50 70 Z" fill="#fff"/><path d="M54 44 L46 54 H54 L46 64" fill="none" stroke="#f2c230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="428" y="296.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="428" dy="0">De AED</tspan></text>
+<g transform="translate(45 320.64) scale(0.38)"><rect x="10" y="22" width="80" height="62" rx="10" fill="#2f9e5a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M36 22 V14 H64 V22" fill="none" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 70 C28 54 30 38 40 38 C46 38 50 43 50 45 C50 43 54 38 60 38 C70 38 72 54 50 70 Z" fill="#fff"/><path d="M54 44 L46 54 H54 L46 64" fill="none" stroke="#f2c230" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="90" y="345.42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Activeer de AED en volg de aanwijzingen</tspan></text>
+<line x1="42" y1="359.64" x2="758" y2="359.64" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 360.64) scale(0.38)"><path d="M32 12 L42 12 Q50 26 58 12 L68 12 L90 32 L79 46 L72 41 L72 88 L28 88 L28 41 L21 46 L10 32 Z" fill="#e8f21f" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="28" y="56" width="44" height="8" fill="#f4f4f4"/><rect x="28" y="72" width="44" height="8" fill="#f4f4f4"/><path d="M42 12 Q50 26 58 12" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="90" y="385.42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Plak 2 elektroden op de ontblote borstkas</tspan></text>
+<line x1="42" y1="399.64" x2="758" y2="399.64" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 400.64) scale(0.38)"><rect x="22" y="44" width="56" height="42" rx="14" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><g fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="22" y="14" width="12" height="42" rx="6"/><rect x="36" y="8" width="12" height="46" rx="6"/><rect x="50" y="10" width="12" height="44" rx="6"/><rect x="64" y="18" width="12" height="38" rx="6"/></g><path d="M22 62 L8 50 Q4 44 12 44 L26 54" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="90" y="425.42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Tijdens analyse of schok raakt niemand het slachtoffer aan</tspan></text>
+<rect x="28" y="457.64" width="744" height="43.96" rx="12" fill="#1c2230"/>
+<text x="400" y="485.74" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Volg de instructies van de operator van de noodcentrale.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Reanimatie en AED</tspan></text>
+</svg>

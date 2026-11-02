@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Blauw of oranje knipperlicht?</title>
+<desc id="d">Twee kaarten naast elkaar. Links een ziekenwagen met blauwe knipperlichten en sirene: dringende opdracht, doorgang vrijmaken en voorrang verlenen. Rechts een vrachtwagen (bijvoorbeeld een takelwagen) met oranjegele knipperlichten: een waarschuwing, geen voorrang, rij voorzichtig.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="24" y="72" width="372" height="440" rx="14" fill="#dbe8ff" stroke="#1c2230" stroke-width="2.5" />
+<rect x="404" y="72" width="372" height="440" rx="14" fill="#ffe8c7" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(210 262) scale(2.3)">
+<g transform="translate(0 0) rotate(0)"><rect x="-18" y="-38" width="36" height="76" rx="8" fill="#fafafa" stroke="#1c2230" stroke-width="2.5"/><rect x="-12" y="-28" width="24" height="10" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-4" y="2" width="8" height="24" fill="#d63a3a"/><rect x="-12" y="10" width="24" height="8" fill="#d63a3a"/><circle cx="-9" cy="-8" r="5" fill="#1f6fff" stroke="#fff" stroke-width="1.5"/><circle cx="9" cy="-8" r="5" fill="#1f6fff" stroke="#fff" stroke-width="1.5"/></g>
+<g transform="translate(0 0) rotate(0)" stroke="#1f6fff" stroke-width="3" stroke-linecap="round"><line x1="-17" y1="-14" x2="-27" y2="-20"/><line x1="-19" y1="-8" x2="-31" y2="-8"/><line x1="17" y1="-14" x2="27" y2="-20"/><line x1="19" y1="-8" x2="31" y2="-8"/></g>
+</g>
+<g transform="translate(590 262) scale(1.9)">
+<g transform="translate(0 0) rotate(0)"><rect x="-19" y="-58" width="38" height="28" rx="6" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-13" y="-52" width="26" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-21" y="-28" width="42" height="86" rx="3" fill="#f1f1ee" stroke="#1c2230" stroke-width="2.5"/></g>
+<g stroke="#ff9d00" stroke-width="3" stroke-linecap="round"><circle cx="-10" cy="-63" r="5" fill="#ff9d00" stroke="#fff"/><circle cx="10" cy="-63" r="5" fill="#ff9d00" stroke="#fff"/><line x1="-20" y1="-68" x2="-31" y2="-76"/><line x1="-23" y1="-60" x2="-36" y2="-60"/><line x1="20" y1="-68" x2="31" y2="-76"/><line x1="23" y1="-60" x2="36" y2="-60"/></g></g>
+<text x="210" y="422" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Blauw licht en sirene</tspan></text>
+<text x="210" y="452" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Dringende opdracht:</tspan><tspan x="210" dy="17.7">doorgang vrijmaken, voorrang</tspan><tspan x="210" dy="17.7">verlenen, zo nodig stoppen.</tspan></text>
+<text x="590" y="422" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">Oranjegele knipperlichten</tspan></text>
+<text x="590" y="452" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">Een waarschuwing, geen</tspan><tspan x="590" dy="17.7">voorrang. Rij voorzichtig.</tspan><tspan x="590" dy="17.7">Bijvoorbeeld bij een takelwagen.</tspan></text>
+<text x="400" y="556" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Blauw met sirene: voorrang geven. Oranje: opletten, geen voorrang.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Blauw of oranje knipperlicht?</tspan></text>
+</svg>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Word je ingehaald? Naar rechts en niet versnellen</title>
+<desc id="d">Bovenaanzicht van een weg met twee rijrichtingen. De blauwe auto rijdt op de rechterhelft zo ver mogelijk naar rechts terwijl de rode auto met linker richtingaanwijzer hem links inhaalt. De blauwe auto versnelt niet.</desc>
+<defs><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="250" y="0" width="300" height="600" fill="#4a4f57" />
+<line x1="400" y1="0" x2="400" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<g transform="translate(520 360) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<rect x="496.72" y="404.97" width="46.56" height="30.06" rx="9" fill="#2f6fd6"  opacity="0.95"/>
+<text x="520" y="423.97" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="520" dy="0">jij</tspan></text>
+<g transform="translate(330 440) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="-15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="-15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<path d="M330,380 L330,200 Q330,150 330,80" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M330,380 L330,200 Q330,150 330,80" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahd64545)"/>
+<path d="M500,300 L534,300" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahfff)"/>
+<rect x="576.84" y="229" width="156.32" height="77.26" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="655" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="655" dy="0">Wijk zo ver</tspan><tspan x="655" dy="22.42">mogelijk naar</tspan><tspan x="655" dy="22.42">rechts</tspan></text>
+<rect x="582.16" y="419" width="145.68" height="77.26" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="655" y="440" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="655" dy="0">Versnel niet</tspan><tspan x="655" dy="22.42">terwijl hij</tspan><tspan x="655" dy="22.42">voorbijrijdt</tspan></text>
+<rect x="26.04" y="341" width="217.92" height="70.18" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="135" y="360" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="135" dy="0">De auto die inhaalt</tspan><tspan x="135" dy="20.06">zet zijn linker</tspan><tspan x="135" dy="20.06">richtingaanwijzer aan</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Je wordt links ingehaald</tspan></text>
+</svg>

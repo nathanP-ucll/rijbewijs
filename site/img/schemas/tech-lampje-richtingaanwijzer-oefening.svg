@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220" role="img" aria-labelledby="t d">
+<title id="t">Dashboardlampje (oefening)</title>
+<desc id="d">Een groen symbool van een dashboardlampje op een donker dashboardvlak.</desc>
+
+<rect width="200" height="220" rx="22" fill="#171b22"/>
+<rect x="6" y="6" width="188" height="208" rx="18" fill="none" stroke="#2c323d" stroke-width="2"/>
+<circle cx="100" cy="110" r="68" fill="#2fd36b" opacity=".13"/>
+<g transform="translate(100 110) scale(2.3) translate(-32 -32)"><g fill="#2fd36b"><path d="M6 32 L26 14 V24 H30 V40 H26 V50 Z"/><path d="M58 32 L38 14 V24 H34 V40 H38 V50 Z" opacity=".95"/></g></g>
+</svg>

@@ -306,7 +306,7 @@ mk('schema-overweg-pech', 'Pech op een overweg: eerst uit, dan bellen',
       for (let i = 0; i < 4; i++) s.rect(x - 74 + i * 20, y - 5, 10, 10, RED);
     });
     s.car(400, 330, 0, 'rood', null, { blink: 'W' });
-    s.ped(560, 170, null, { color: '#2d4a8a', rot: 270 }); s.ped(610, 200, null, { color: '#8e5bd1', rot: 270 });
+    sc(s, 570, 165, 1.9, () => s.ped(0, 0, null, { color: '#2d4a8a', rot: 270 })); sc(s, 625, 205, 1.9, () => s.ped(0, 0, null, { color: '#8e5bd1', rot: 270 }));
     parrow(s, 'M440,340 L520,340 L520,240 L540,200', BLU, 6, '2 12');
     nbadge(s, 400, 262, 1, 17); pill(s, 245, 262, 'Stap uit de auto', { size: 17 });
     nbadge(s, 520, 380, 2, 17); pill(s, 650, 380, 'Weg van de sporen,\nachter de slagbomen', { size: 17 });
@@ -318,6 +318,282 @@ mk('schema-overweg-pech', 'Pech op een overweg: eerst uit, dan bellen',
     s.text(650, 535, 'gratis noodnummer', { size: 15, fill: MUTED, weight: 600 });
     pill(s, 190, 505, 'Geef de locatie door die\nbij de overweg staat', { size: 16 });
   });
+
+// =====================================================================  HOOFDSTUK 7
+mk('schema-rijstrookmarkeringen', 'Rijstrookmarkeringen: drie soorten strepen',
+  'Bovenaanzicht van een weg met twee rijrichtingen. Onderaan ligt een onderbroken witte middenlijn (overschrijden mag), daarboven korte dichte strepen die een doorlopende streep aankondigen, en bovenaan een doorlopende witte streep die je niet mag overschrijden. Een blauwe auto rijdt naar boven, een rode auto komt van boven.',
+  null, (s) => {
+    s.titel('Rijstrookmarkeringen: drie soorten strepen');
+    s.rect(260, 48, 280, 552, C.road);
+    s.line(260, 48, 260, 600, '#fff', 4); s.line(540, 48, 540, 600, '#fff', 4);
+    s.line(400, 420, 400, 600, '#fff', 5, 'stroke-dasharray="30 22"');
+    s.line(400, 300, 400, 420, '#fff', 5, 'stroke-dasharray="10 9"');
+    s.line(400, 48, 400, 300, '#fff', 5);
+    s.car(470, 515, 0, 'blauw', null);
+    s.car(330, 150, 180, 'rood', null);
+    s.arrow(660, 560, 660, 480, '#fff', 6);
+    s.text(660, 585, 'jouw rijrichting', { size: 15, fill: '#fff', weight: 700 });
+    s.label(135, 420, 'Onderbroken streep:\noverschrijden mag', { size: 18, bg: GRN, fg: '#fff' });
+    s.text(135, 490, 'om in te halen, links af te\nslaan, te keren of van\nrijstrook te veranderen', { size: 14, fill: '#fff', weight: 600 });
+    s.label(665, 345, 'Korte, dichte\nstrepen: er volgt\neen doorlopende\nstreep', { size: 17, bg: ORA, fg: '#fff' });
+    s.label(135, 190, 'Doorlopende\nstreep: niet\noverschrijden', { size: 18, bg: RED, fg: '#fff' });
+    s.text(135, 275, 'en niet links ervan rijden', { size: 14, fill: '#fff', weight: 600 });
+  });
+
+mk('schema-rijstrook-kiezen', 'Een rijstrook kiezen: drie situaties',
+  'Drie stroken met een weg in zijaanzicht van bovenaf. Eerste: een eenrichtingsrijbaan met drie rijstroken in de bebouwde kom, auto\'s rijden in alle stroken (vrij te kiezen). Tweede: een weg met vier rijstroken en twee richtingen; je kiest vrij maar enkel in je eigen richting. Derde: een gewone weg buiten de bebouwde kom, de auto rijdt zo dicht mogelijk bij de rechterrand.',
+  'plaats-rijstroken-bebouwde-kom', (s) => {
+    s.titel('Een rijstrook kiezen');
+    const tekst = (x, y, titel, sub, kleur) => {
+      s.text(x, y, wrap(titel, 24), { size: 17, fill: INK, weight: 700, anchor: 'start' });
+      const n = wrap(titel, 24).split('\n').length;
+      s.text(x, y + n * 20 + 12, wrap(sub, 26), { size: 16, fill: kleur, weight: 700, anchor: 'start' });
+    };
+    const panels = [
+      { y: 70, t: 'Eenrichtingsrijbaan met rijstroken', sub: 'Vrij te kiezen, in de bebouwde kom', k: GRN, lanes: 3, dir: 'e' },
+      { y: 242, t: 'Tweerichtingsrijbaan met minstens vier rijstroken', sub: 'Vrij te kiezen, enkel in je eigen richting', k: GRN, lanes: 4, dir: 'two' },
+      { y: 414, t: 'Gewone weg buiten de bebouwde kom', sub: 'Zo dicht mogelijk bij de rechterrand', k: ORA, lanes: 2, dir: 'two' }];
+    panels.forEach((p, i) => {
+      card(s, 20, p.y, 760, 162);
+      tekst(38, p.y + 36, p.t, p.sub, p.k);
+      const lh = p.lanes === 4 ? 34 : p.lanes === 3 ? 40 : 44;
+      const top = p.y + 81 - (p.lanes * lh) / 2, rx0 = 310, rw = 450;
+      if (i === 2) s.rect(rx0, top + p.lanes * lh, rw, 22, C.grass); // berm
+      s.rect(rx0, top, rw, p.lanes * lh, C.road);
+      for (let l = 1; l < p.lanes; l++) {
+        const y = top + l * lh;
+        if (p.dir === 'two' && l === p.lanes / 2) s.line(rx0, y, rx0 + rw, y, '#fff', 4);
+        else s.line(rx0, y, rx0 + rw, y, '#fff', 3, 'stroke-dasharray="18 14"');
+      }
+      const K = 0.58;
+      const car = (x, lane, rot, kl) => sc(s, x, top + lane * lh + lh / 2, K, () => s.car(0, 0, rot, kl, null), 0);
+      const carR = (x, lane, rot, kl) => { sc(s, x, top + lane * lh + lh / 2, K, () => s.car(0, 0, 0, kl, null), rot); };
+      if (i === 0) { carR(380, 0, 90, 'rood'); carR(470, 1, 90, 'blauw'); carR(560, 2, 90, 'geel'); carR(650, 0, 90, 'groen'); carR(700, 1, 90, 'paars'); carR(420, 2, 90, 'oranje'); }
+      if (i === 1) { carR(380, 0, 270, 'rood'); carR(560, 1, 270, 'wit'); carR(450, 2, 90, 'blauw'); carR(640, 3, 90, 'geel'); carR(700, 0, 270, 'groen'); carR(350, 3, 90, 'paars'); }
+      if (i === 2) { sc(s, 430, top + lh + lh / 2 + 9, K, () => s.car(0, 0, 0, 'blauw', null), 90); carR(620, 0, 270, 'rood'); }
+      if (i === 2) { s.arrow(500, top + lh + lh / 2 + 9, 540, top + lh + lh / 2 + 9, '#fff', 4); }
+    });
+  });
+
+mk('schema-ingehaald-worden', 'Word je ingehaald? Naar rechts en niet versnellen',
+  'Bovenaanzicht van een weg met twee rijrichtingen. De blauwe auto rijdt op de rechterhelft zo ver mogelijk naar rechts terwijl de rode auto met linker richtingaanwijzer hem links inhaalt. De blauwe auto versnelt niet.',
+  null, (s) => {
+    s.titel('Je wordt links ingehaald');
+    vroad(s, 250, 300);
+    s.car(520, 360, 0, 'blauw', null);
+    pill(s, 520, 420, 'jij', { size: 17, bg: BLU, fg: '#fff' });
+    s.car(330, 440, 0, 'rood', null, { blink: 'L' });
+    s.route('M330,380 L330,200 Q330,150 330,80', CAR.rood);
+    parrow(s, 'M500,300 L534,300', '#fff', 6);
+    s.label(655, 250, 'Wijk zo ver\nmogelijk naar\nrechts', { size: 19, bg: '#fff' });
+    s.label(655, 440, 'Versnel niet\nterwijl hij\nvoorbijrijdt', { size: 19, bg: '#fff' });
+    s.label(135, 360, 'De auto die inhaalt\nzet zijn linker\nrichtingaanwijzer aan', { size: 17, bg: '#fff' });
+  });
+
+mk('schema-richtingaanwijzers-overzicht', 'Wanneer geef je welk sein?',
+  'Zes kleine kruispuntschema\'s met een auto en zijn richtingaanwijzer: links inhalen (linker richtingaanwijzer), terugkeren naar rechts na het inhalen (rechter), rechts afslaan (rechter), links afslaan (linker), een rotonde oprijden (geen sein) en een rotonde verlaten (rechter).',
+  'richtingaanwijzers-gebruik', (s) => {
+    s.titel('Wanneer geef je welk sein?');
+    const K = 0.62;
+    const kaarten = [
+      ['Links inhalen', 'L', 'Sein: links'],
+      ['Terugkeren naar rechts', 'R', 'Sein: rechts'],
+      ['Rechts afslaan', 'R', 'Sein: rechts'],
+      ['Links afslaan', 'L', 'Sein: links'],
+      ['Een rotonde oprijden', '', 'Geen sein'],
+      ['Een rotonde verlaten', 'R', 'Sein: rechts']];
+    kaarten.forEach(([naam, bl, sein], i) => {
+      const x0 = 20 + (i % 3) * 262, y0 = 74 + Math.floor(i / 3) * 242;
+      card(s, x0, y0, 236, 228);
+      const n = s.b.length;
+      s.rect(10, 10, 216, 148, C.road, 'rx="10"');
+      let car, path, gray;
+      if (i === 0) { s.line(120, 10, 120, 158, '#fff', 3, 'stroke-dasharray="14 12"'); car = [150, 122]; gray = [150, 50]; path = 'M150,92 C150,68 90,80 90,34'; }
+      if (i === 1) { s.line(120, 10, 120, 158, '#fff', 3, 'stroke-dasharray="14 12"'); car = [90, 82]; gray = [150, 126]; path = 'M90,52 C90,30 150,40 150,16'; }
+      if (i === 2) { s.rect(160, 50, 66, 62, C.road2); s.rect(80, 10, 80, 148, C.road); s.line(120, 10, 120, 158, '#fff', 3, 'stroke-dasharray="14 12"'); car = [140, 126]; path = 'M140,96 C140,76 170,82 210,81'; }
+      if (i === 3) { s.rect(10, 50, 70, 62, C.road2); s.rect(80, 10, 80, 148, C.road); s.line(120, 10, 120, 158, '#fff', 3, 'stroke-dasharray="14 12"'); car = [140, 126]; path = 'M140,96 C140,78 120,80 90,81 L28,81'; }
+      if (i >= 4) {
+        s.rect(10, 10, 216, 148, C.grass);
+        s.rect(100, 90, 40, 68, C.road); s.circle(120, 74, 52, C.road); s.circle(120, 74, 26, C.grass2, 'stroke="#fff" stroke-width="3"');
+        if (i === 5) { s.rect(158, 56, 68, 36, C.road); car = [152, 112]; path = 'M152,86 C164,80 168,76 206,72'; }
+        else { car = [120, 134]; path = 'M120,104 C128,98 150,92 150,70'; }
+      }
+      if (gray) sc(s, gray[0], gray[1], K, () => s.car(0, 0, 0, 'grijs', null));
+      sc(s, car[0], car[1], K, () => s.car(0, 0, i === 5 ? 340 : 0, 'blauw', null));
+      if (bl) {
+        const sx = bl === 'L' ? -1 : 1, cr = i === 5 ? -20 : 0;
+        [[sx * 15, -27], [sx * 15, 27]].forEach(([dx, dy]) => {
+          const a = cr * Math.PI / 180;
+          const px = car[0] + (dx * Math.cos(a) - dy * Math.sin(a)) * K, py = car[1] + (dx * Math.sin(a) + dy * Math.cos(a)) * K;
+          s.circle(px, py, 8, '#ffb02e', 'opacity="0.55"'); s.circle(px, py, 4, '#ff9d00', 'stroke="#fff" stroke-width="1.5"');
+        });
+      }
+      parrow(s, path, '#fff', 4, '8 7');
+      const parts = s.b.splice(n);
+      s.add(`<g transform="translate(${x0} ${y0})">${parts.join('')}</g>`);
+      T(s, x0 + 118, y0 + 184, naam, 17, INK, 700);
+      pill(s, x0 + 118, y0 + 208, sein, { size: 15, bg: bl === 'L' ? ORA : bl === 'R' ? BLU : '#7b8494', fg: '#fff' });
+    });
+    s.label(400, 570, 'Een richtingaanwijzer geeft je geen voorrang', { size: 18, bg: '#1c2230', fg: '#fff' });
+  }, { bg: PAPER });
+
+mk('schema-voorsorteren', 'Voorsorteren: kies je rijstrook ruim voor het kruispunt',
+  'Een eenrichtingsweg met drie rijstroken die naar een kruispunt loopt. Op elke strook staat een pijl op het wegdek: links, rechtdoor en rechts. Een rode auto in de linkerstrook gaat links af met linker richtingaanwijzer, een blauwe auto in het midden rijdt rechtdoor en een gele auto in de rechterstrook gaat rechts af met rechter richtingaanwijzer.',
+  'voorsorteren', (s) => {
+    s.titel('Voorsorteren: tijdig de juiste rijstrook');
+    s.rect(0, 150, 800, 130, C.road);
+    s.rect(250, 48, 300, 552, C.road);
+    s.line(0, 215, 235, 215, '#fff', 3, 'stroke-dasharray="16 14"'); s.line(565, 215, 800, 215, '#fff', 3, 'stroke-dasharray="16 14"');
+    s.line(350, 300, 350, 600, '#fff', 3, 'stroke-dasharray="18 16"'); s.line(450, 300, 450, 600, '#fff', 3, 'stroke-dasharray="18 16"');
+    s.rect(250, 296, 300, 6, '#fff');
+    const wm = '#fff';
+    parrow(s, 'M300,470 L300,430 Q300,405 270,405', wm, 9);
+    parrow(s, 'M400,470 L400,395', wm, 9);
+    parrow(s, 'M500,470 L500,430 Q500,405 530,405', wm, 9);
+    s.route('M300,505 L300,330 Q300,215 200,215 L60,215', CAR.rood);
+    s.route('M400,505 L400,70', CAR.blauw);
+    s.route('M500,505 L500,330 Q500,215 600,215 L740,215', CAR.geel);
+    s.car(300, 545, 0, 'rood', null, { blink: 'L' });
+    s.car(400, 545, 0, 'blauw', null);
+    s.car(500, 545, 0, 'geel', null, { blink: 'R' });
+    s.label(300, 345, 'links', { size: 17, bg: '#fff' }); s.label(400, 345, 'rechtdoor', { size: 17, bg: '#fff' }); s.label(500, 345, 'rechts', { size: 17, bg: '#fff' });
+    s.label(125, 450, 'Kies je strook\nruim vóór het\nkruispunt', { size: 18, bg: '#fff' });
+    s.label(675, 450, 'Volg de pijlen op\nhet wegdek en de\nborden boven of\nlangs de rijstroken', { size: 17, bg: '#fff' });
+  });
+
+mk('schema-rijstrook-wisselen', 'Van rijstrook veranderen: spiegel, sein, schouder, beweeg',
+  'Boven vier stappen met pictogrammen: eerst in de spiegel kijken, dan de richtingaanwijzer, dan over de schouder kijken en tot slot van rijstrook veranderen. Onder een weg met twee rijstroken waarop een blauwe auto naar de linkerstrook wil en eerst een rode auto laat voorgaan die al op die strook rijdt.',
+  'van-rijstrook-veranderen', (s) => {
+    s.titel('Van rijstrook veranderen in vier stappen');
+    const stappen = [['Spiegel', 'kijk eerst achter je'], ['Richtingaanwijzer', 'geef tijdig sein'], ['Schouderblik', 'kijk over je schouder'], ['Beweeg', 'als er plaats is']];
+    stappen.forEach(([t, sub], i) => {
+      const x0 = 20 + i * 192, cx = x0 + 89;
+      card(s, x0, 74, 178, 210);
+      nbadge(s, x0 + 24, 98, i + 1, 15, INK);
+      const cy = 160;
+      if (i === 0) {
+        G(s, cx, cy, 1.3, `<rect x="-40" y="-26" width="80" height="52" rx="12" fill="#2c2f36"/><rect x="-34" y="-20" width="68" height="40" rx="7" fill="#cfe6f7"/><rect x="-13" y="-8" width="26" height="22" rx="6" fill="${CAR.rood}" stroke="${INK}" stroke-width="2"/><rect x="-9" y="-12" width="18" height="9" rx="3" fill="#b9d3e6"/>`);
+      }
+      if (i === 1) {
+        G(s, cx, cy, 1, `<circle r="40" fill="${ORA}" stroke="${INK}" stroke-width="3"/><path d="M-24,0 L2,-24 L2,-10 L24,-10 L24,10 L2,10 L2,24 Z" fill="#fff"/>`);
+      }
+      if (i === 2) {
+        G(s, cx, cy, 1.2, `<ellipse cx="0" cy="18" rx="40" ry="16" fill="#2d4a8a" stroke="#fff" stroke-width="3"/><circle cx="0" cy="0" r="17" fill="#f1c9a5" stroke="${INK}" stroke-width="3"/><polygon points="-15,-4 -30,6 -12,10" fill="#e8b690" stroke="${INK}" stroke-width="2"/><path d="M-26,-12 L-50,-34 M-34,-4 L-56,-14" stroke="${BLU}" stroke-width="3" stroke-dasharray="5 5" stroke-linecap="round"/>`);
+      }
+      if (i === 3) {
+        sc(s, cx - 14, cy + 6, 0.95, () => s.car(0, 0, 0, 'blauw', null));
+        parrow(s, `M${cx - 14},${cy - 32} C${cx - 14},${cy - 52} ${cx + 28},${cy - 44} ${cx + 28},${cy - 66}`, INK, 5);
+      }
+      T(s, cx, 238, t, 17, INK, 700);
+      T(s, cx, 262, sub, 14, MUTED, 600);
+    });
+    // wegdeel
+    s.rect(0, 340, 800, 140, C.road);
+    s.line(0, 410, 800, 410, '#fff', 4, 'stroke-dasharray="26 20"');
+    s.rect(0, 480, 800, 120, C.grass);
+    sc(s, 330, 375, 0.9, () => s.car(0, 0, 0, 'rood', null), 90);
+    sc(s, 470, 445, 0.9, () => s.car(0, 0, 0, 'blauw', null, { blink: 'L' }), 90);
+    parrow(s, 'M520,445 C580,445 590,375 670,375', '#fff', 6, '12 9');
+    s.label(160, 520, 'Geef voorrang aan wie\nop de andere rijstrook rijdt', { size: 17, bg: '#fff' });
+    s.label(465, 520, 'Onderbroken streep:\nmag je overschrijden', { size: 17, bg: GRN, fg: '#fff' });
+    s.label(670, 520, 'Doorlopende streep:\nniet overschrijden', { size: 17, bg: RED, fg: '#fff' });
+  });
+
+mk('schema-parkeerschijf-betalen', 'Blauwe zone en betalend parkeren',
+  'Vier kaarten. Blauwe zone: de parkeerschijf ligt achter de voorruit. Betalende zone: je betaalt aan de parkeerautomaat of met een kaart. Defecte parkeerautomaat: je gebruikt de parkeerschijf. Plaats voor personen met een handicap: de speciale kaart achter de voorruit vervangt de schijf.',
+  'blauwe-zone-betalend-parkeren', (s) => {
+    s.titel('Blauwe zone en betalend parkeren');
+    const disc = `<rect x="-36" y="-36" width="72" height="72" rx="9" fill="${BLU}" stroke="#1c3f8a" stroke-width="3"/><circle r="26" fill="#fff"/><g stroke="${INK}" stroke-width="2.5" stroke-linecap="round">${Array.from({ length: 12 }, (_, i) => `<line x1="${f(Math.cos(i * Math.PI / 6) * 19)}" y1="${f(Math.sin(i * Math.PI / 6) * 19)}" x2="${f(Math.cos(i * Math.PI / 6) * 24)}" y2="${f(Math.sin(i * Math.PI / 6) * 24)}"/>`).join('')}</g><path d="M0,0 L14,-12" stroke="${RED}" stroke-width="4" stroke-linecap="round"/><circle r="3.5" fill="${RED}"/>`;
+    const machine = `<rect x="-30" y="-50" width="60" height="100" rx="9" fill="#6b7280" stroke="${INK}" stroke-width="3"/><rect x="-21" y="-40" width="42" height="26" rx="3" fill="#bfe3b4"/><text x="0" y="-21" font-family="Segoe UI, Arial, sans-serif" font-size="16" font-weight="700" fill="${INK}" text-anchor="middle">P</text><rect x="-16" y="-4" width="32" height="8" rx="3" fill="#2c2f36"/><rect x="-14" y="14" width="28" height="22" rx="3" fill="#fff" stroke="${INK}" stroke-width="2"/>`;
+    const kaart = `<rect x="-42" y="-28" width="84" height="56" rx="8" fill="${BLU}" stroke="#1c3f8a" stroke-width="3"/><circle cx="-14" cy="-9" r="8" fill="#fff"/><rect x="-22" y="1" width="16" height="18" rx="6" fill="#fff"/><rect x="6" y="-14" width="26" height="6" rx="3" fill="#fff"/><rect x="6" y="-2" width="26" height="6" rx="3" fill="#fff"/><rect x="6" y="10" width="18" height="6" rx="3" fill="#fff"/>`;
+    const windscreen = `<path d="M-110,56 L-84,-44 L84,-44 L110,56 Z" fill="#cfe6f7" stroke="${INK}" stroke-width="4" stroke-linejoin="round"/><rect x="-118" y="56" width="236" height="12" rx="5" fill="#4b5563"/>`;
+    const kaarten = [
+      ['Blauwe zone', 'Parkeerschijf achter de voorruit', GRN],
+      ['Betalende zone', 'Betalen aan de automaat of met een kaart', GRN],
+      ['Defecte automaat', 'Gebruik de parkeerschijf', ORA],
+      ['Plaats voor personen\nmet een handicap', 'De speciale kaart achter de voorruit\nvervangt de schijf', BLU]];
+    kaarten.forEach(([t, sub, kl], i) => {
+      const x0 = 20 + (i % 2) * 388, y0 = 76 + Math.floor(i / 2) * 252, cx = x0 + 186, cy = y0 + 76;
+      card(s, x0, y0, 372, 238);
+      s.add(`<rect x="${x0 + 20}" y="${y0}" width="332" height="6" rx="3" fill="${kl}"/>`);
+      if (i === 0) { G(s, cx, cy, 0.95, windscreen); G(s, cx - 56, cy + 14, 0.8, disc); }
+      if (i === 1) { G(s, cx - 60, cy, 1, machine); G(s, cx + 60, cy - 6, 0.9, `<rect x="-36" y="-26" width="72" height="50" rx="7" fill="#fff" stroke="${INK}" stroke-width="3"/><rect x="-36" y="-14" width="72" height="12" fill="${INK}"/><rect x="-26" y="8" width="30" height="6" rx="3" fill="#8d96a6"/>`); }
+      if (i === 2) { G(s, cx - 56, cy, 1, machine); bigCross(s, cx - 56, cy, 56); parrow(s, `M${cx - 8},${cy} L${cx + 26},${cy}`, INK, 5); G(s, cx + 76, cy, 0.9, disc); }
+      if (i === 3) { G(s, cx, cy, 0.95, windscreen); G(s, cx - 10, cy + 8, 0.9, kaart); }
+      s.text(cx, y0 + 152, t, { size: 19, fill: INK, weight: 700 });
+      const n = t.split('\n').length;
+      s.text(cx, y0 + 152 + n * 22 + 2, sub, { size: 15, fill: MUTED, weight: 600 });
+    });
+  }, { bg: PAPER });
+
+mk('schema-keren', 'Keren: waar mag het en waar niet?',
+  'Drie wegdelen met een keerbeweging van een auto. Over een onderbroken witte streep is keren toegelaten (groen vinkje). Over een doorlopende witte streep niet (rood kruis). Op een autosnelweg of autoweg is keren altijd verboden (rood kruis).',
+  'keren-achteruitrijden', (s) => {
+    s.titel('Keren: waar mag het en waar niet?');
+    const uturn = (cx, kleur, ok) => {
+      s.car(cx + 32, 440, 0, 'blauw', null);
+      parrow(s, `M${cx + 32},395 L${cx + 32},290 C${cx + 32},200 ${cx - 32},200 ${cx - 32},290 L${cx - 32},370`, kleur, 7);
+      mark(s, cx, 150, ok, 22);
+    };
+    [0, 1, 2].forEach((i) => {
+      const x0 = 18 + i * 264, cx = x0 + 122;
+      card(s, x0, 70, 244, 515);
+      s.rect(x0 + 8, 78, 228, 380, C.grass, 'rx="10"');
+      if (i < 2) {
+        s.rect(cx - 70, 78, 140, 380, C.road);
+        s.line(cx - 70, 78, cx - 70, 458, '#fff', 3); s.line(cx + 70, 78, cx + 70, 458, '#fff', 3);
+        if (i === 0) s.line(cx, 78, cx, 458, '#fff', 4, 'stroke-dasharray="22 16"');
+        else s.line(cx, 78, cx, 458, '#fff', 5);
+        uturn(cx, i === 0 ? GRN : RED, i === 0);
+      } else {
+        s.rect(cx - 90, 78, 70, 380, C.road); s.rect(cx + 20, 78, 70, 380, C.road);
+        s.line(cx - 55, 78, cx - 55, 458, '#fff', 3, 'stroke-dasharray="22 16"'); s.line(cx + 55, 78, cx + 55, 458, '#fff', 3, 'stroke-dasharray="22 16"');
+        s.car(cx + 55, 440, 0, 'blauw', null);
+        parrow(s, `M${cx + 55},395 L${cx + 55},295 C${cx + 55},205 ${cx - 55},205 ${cx - 55},295 L${cx - 55},370`, RED, 7);
+        mark(s, cx, 150, false, 22);
+        s.sign('F5', x0 + 40, 118, 46, { pole: false });
+      }
+      const titel = ['Onderbroken streep', 'Doorlopende streep', 'Autosnelweg en autoweg'][i];
+      const sub = ['Keren is toegelaten, met voorrang aan iedereen', 'Keren is niet toegelaten', 'Keren is altijd verboden'][i];
+      T(s, x0 + 122, 500, titel, i === 2 ? 17 : 19, INK, 700);
+      s.text(x0 + 122, 528, wrap(sub, 26), { size: 16, fill: i === 0 ? '#14693a' : '#a52a2a', weight: 700 });
+    });
+  }, { bg: PAPER });
+
+// ---- tijdlijn "Wat verandert er in 2027?" (hoofdstuk 7, 8 en 9)
+function tijdlijn(naam, onderwerpen, tb) {
+  mk(naam, 'De nieuwe wegcode begint op 1 juni 2027',
+    'Een tijdlijn. Tot 1 juni 2027 gelden de regels uit dit boek. De nieuwe Code van de openbare weg was voorzien voor 1 september 2026 en is uitgesteld tot 1 juni 2027. Onderaan staan de onderwerpen waarop de nieuwe code iets verandert.',
+    tb, (s) => {
+      s.titel('Wat verandert er in 2027?');
+      const y = 215;
+      s.rect(70, y - 9, 400, 18, BLU, 'rx="9"');
+      s.add(`<path d="M470,${y - 9} H690 L730,${y} L690,${y + 9} H470 Z" fill="${ORA}"/>`);
+      s.circle(70, y, 16, '#fff', `stroke="${BLU}" stroke-width="6"`);
+      s.circle(470, y, 22, '#fff', `stroke="${INK}" stroke-width="7"`);
+      T(s, 70, y + 52, 'Nu', 20, BLU, 800);
+      T(s, 470, y + 62, '1 juni 2027', 22, INK, 800);
+      pill(s, 250, y + 125, 'Tot 1 juni 2027 gelden\nde regels uit dit boek', { size: 18, bg: BLU, fg: '#fff' });
+      pill(s, 620, y + 125, 'Daarna geldt de nieuwe Code\nvan de openbare weg', { size: 18, bg: ORA, fg: '#fff' });
+      // oorspronkelijke datum
+      s.circle(250, y, 11, '#fff', `stroke="#8d96a6" stroke-width="5"`);
+      T(s, 250, y + 46, '1 september 2026', 16, MUTED, 700);
+      T(s, 250, y + 66, 'oorspronkelijk gepland', 14, MUTED, 600);
+      parrow(s, `M250,${y - 20} C250,${y - 120} 450,${y - 120} 462,${y - 30}`, '#8d96a6', 4, '8 7');
+      s.add(`<text x="356" y="${y - 98}" font-family="Segoe UI, Arial, sans-serif" font-size="15" font-weight="700" fill="${MUTED}" text-anchor="middle">uitgesteld</text>`);
+      // onderwerpen
+      card(s, 40, 385, 720, 150);
+      T(s, 400, 420, 'Onderwerpen waarop de nieuwe code iets verandert', 19, INK, 700);
+      const n = onderwerpen.length, per = n > 3 ? 2 : n, rows = Math.ceil(n / per);
+      onderwerpen.forEach((o, i) => {
+        const r = Math.floor(i / per), c = i % per, cnt = Math.min(per, n - r * per);
+        const w = 680 / cnt, cx = 60 + c * w + w / 2 - 0, cy = 462 + r * 50;
+        pill(s, 40 + (720 - w * cnt) / 2 + c * w + w / 2, cy, o, { size: 18, bg: '#eef3ff', fg: '#1c3f8a', stroke: '#9db7ee' });
+      });
+      pill(s, 400, 568, 'Voor het examen leer je de regels zoals ze nu gelden', { size: 17, bg: '#1c2230', fg: '#fff' });
+    }, { bg: PAPER });
+}
+tijdlijn('schema-nieuwe-wegcode-2027-plaats', ['Beurtelings parkeren', 'Verbod links in te halen', 'Tripleren', 'Motorfiets op de reddingsstrook']);
 
 // ---- registratie
 LIST.sort((a, b) => a.naam.localeCompare(b.naam));

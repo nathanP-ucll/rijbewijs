@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 383" width="800" height="383" role="img" aria-labelledby="t d">
+<title id="t">Het verzekeringsbewijs</title>
+<desc id="d">Links een schets van een verzekeringsbewijs (vroeger de groene kaart) met vakken voor landen en periode, zonder ingevulde waarden. Rechts vier punten: verplicht boorddocument, toon het bij een controle, mag ook elektronisch, vermeldt in welke landen en welke periode je gedekt bent. Onderaan het alcoholkader: de BA betaalt de slachtoffers, de verzekeraar kan het bedrag op jou verhalen.</desc>
+
+<rect width="800" height="383" fill="#fffdf7"/>
+<rect x="30" y="70" width="330" height="220" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="66" width="330" height="220" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<path d="M28 80 Q28 66 42 66 H344 Q358 66 358 80 V122 H28 Z" fill="#2f9e5a"/>
+<text x="193" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="193" dy="0">Verzekeringsbewijs</tspan></text>
+<text x="193" y="114" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="500" fill="#e6f5ea" text-anchor="middle"><tspan x="193" dy="0">vroeger: de groene kaart</tspan></text>
+<rect x="46" y="136" width="294" height="44" rx="6" fill="#f3f5f2" stroke="#d9d4c4"/>
+<text x="58" y="154" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#4d5668" text-anchor="start"><tspan x="58" dy="0">Landen</tspan></text>
+<line x1="58" y1="168" x2="300" y2="168" stroke="#c4c9d2" stroke-width="3" stroke-linecap="round"/>
+<rect x="46" y="192" width="294" height="44" rx="6" fill="#f3f5f2" stroke="#d9d4c4"/>
+<text x="58" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#4d5668" text-anchor="start"><tspan x="58" dy="0">Periode</tspan></text>
+<line x1="58" y1="224" x2="300" y2="224" stroke="#c4c9d2" stroke-width="3" stroke-linecap="round"/>
+<g transform="translate(290 242) scale(0.4)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<rect x="382" y="70" width="392" height="208" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="380" y="66" width="392" height="208" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="2.5"/>
+<path d="M380 106 V80 Q380 66 394 66 H758 Q772 66 772 80 V106 Z" fill="#2f6fd6"/>
+<text x="576" y="93" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="576" dy="0">Wat moet je weten?</tspan></text>
+<g transform="translate(397 111) scale(0.38)"><path d="M20 8 H62 L82 28 V92 H20 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M62 8 V28 H82" fill="none" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M30 44 H70 M30 56 H70 M30 68 H70 M30 80 H54" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="442" y="135.44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="442" dy="0">Een verplicht boorddocument</tspan></text>
+<line x1="394" y1="150" x2="758" y2="150" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(397 151) scale(0.38)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,26 55.29,40.72 70.92,41.2 58.56,50.78 62.93,65.8 50,57 37.07,65.8 41.44,50.78 29.08,41.2 44.71,40.72" fill="#fff"/></g>
+<text x="442" y="175.44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="442" dy="0">Toon het bij een controle</tspan></text>
+<line x1="394" y1="190" x2="758" y2="190" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(397 191) scale(0.38)"><rect x="30" y="6" width="40" height="88" rx="9" fill="#1c2230"/><rect x="35" y="16" width="30" height="62" rx="2" fill="#cfe6f7"/><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="442" y="215.44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="442" dy="0">Mag ook elektronisch</tspan></text>
+<line x1="394" y1="230" x2="758" y2="230" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(397 231) scale(0.38)"><rect x="12" y="18" width="76" height="70" rx="9" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M12 27 A9 9 0 0 1 21 18 H79 A9 9 0 0 1 88 27 V42 H12 Z" fill="#d63a3a"/><rect x="28" y="10" width="7" height="16" rx="3" fill="#1c2230"/><rect x="65" y="10" width="7" height="16" rx="3" fill="#1c2230"/><g fill="#8a8f98"><rect x="24" y="52" width="10" height="9"/><rect x="45" y="52" width="10" height="9"/><rect x="66" y="52" width="10" height="9"/><rect x="24" y="68" width="10" height="9"/><rect x="45" y="68" width="10" height="9"/></g></g>
+<text x="442" y="255.44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="442" dy="0">Vermeldt landen en periode van dekking</tspan></text>
+<rect x="28" y="302" width="744" height="62.26" rx="12" fill="#d63a3a"/>
+<text x="400" y="328.68" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16.5" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Alcohol: de BA betaalt de slachtoffers, maar de verzekeraar kan het bedrag nadien op</tspan><tspan x="400" dy="20.13">jou verhalen als dronkenschap de oorzaak was.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Het verzekeringsbewijs</tspan></text>
+</svg>

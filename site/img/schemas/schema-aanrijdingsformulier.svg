@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 522" width="800" height="522" role="img" aria-labelledby="t d">
+<title id="t">Het aanrijdingsformulier</title>
+<desc id="d">Een schets van een leeg aanrijdingsformulier met twee kolommen voor partij A en partij B, een schetsvak en twee handtekeningvakken, zonder ingevulde waarden. Rechts uitleg: de voorzijde vul je samen in en onderteken je, de keerzijde vul je apart in, op papier of in de Crashform-app, en feiten vermelden is geen erkenning van aansprakelijkheid.</desc>
+
+<rect width="800" height="522" fill="#fffdf7"/>
+<rect x="32" y="69" width="372" height="440" rx="8" fill="#1c2230" opacity=".12"/>
+<rect x="28" y="64" width="372" height="440" rx="8" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<rect x="28" y="64" width="372" height="34" rx="8" fill="#1c2230"/><rect x="28" y="84" width="372" height="14" fill="#1c2230"/>
+<text x="214" y="88" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="214" dy="0">Aanrijdingsformulier (leeg)</tspan></text>
+<rect x="42" y="110" width="140" height="26" rx="6" fill="#cfe0fb"/><rect x="246" y="110" width="140" height="26" rx="6" fill="#fbefc2"/>
+<text x="112" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="112" dy="0">Partij A</tspan></text>
+<text x="316" y="128" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="316" dy="0">Partij B</tspan></text>
+<rect x="42" y="146" width="140" height="34" rx="5" fill="#eef4fd" stroke="#d9d4c4"/>
+<text x="50" y="159" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="50" dy="0">Verzekering</tspan></text>
+<line x1="50" y1="171" x2="162" y2="171" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="246" y="146" width="140" height="34" rx="5" fill="#fdf8e3" stroke="#d9d4c4"/>
+<text x="254" y="159" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="254" dy="0">Verzekering</tspan></text>
+<line x1="254" y1="171" x2="366" y2="171" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="42" y="190" width="140" height="34" rx="5" fill="#eef4fd" stroke="#d9d4c4"/>
+<text x="50" y="203" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="50" dy="0">Bestuurder</tspan></text>
+<line x1="50" y1="215" x2="162" y2="215" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="246" y="190" width="140" height="34" rx="5" fill="#fdf8e3" stroke="#d9d4c4"/>
+<text x="254" y="203" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="254" dy="0">Bestuurder</tspan></text>
+<line x1="254" y1="215" x2="366" y2="215" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="42" y="234" width="140" height="34" rx="5" fill="#eef4fd" stroke="#d9d4c4"/>
+<text x="50" y="247" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="50" dy="0">Voertuig</tspan></text>
+<line x1="50" y1="259" x2="162" y2="259" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="246" y="234" width="140" height="34" rx="5" fill="#fdf8e3" stroke="#d9d4c4"/>
+<text x="254" y="247" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="254" dy="0">Voertuig</tspan></text>
+<line x1="254" y1="259" x2="366" y2="259" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="42" y="278" width="140" height="34" rx="5" fill="#eef4fd" stroke="#d9d4c4"/>
+<text x="50" y="291" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="50" dy="0">Schade</tspan></text>
+<line x1="50" y1="303" x2="162" y2="303" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<rect x="246" y="278" width="140" height="34" rx="5" fill="#fdf8e3" stroke="#d9d4c4"/>
+<text x="254" y="291" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="254" dy="0">Schade</tspan></text>
+<line x1="254" y1="303" x2="366" y2="303" stroke="#c4c9d2" stroke-width="2.5" stroke-linecap="round"/>
+<text x="214" y="340" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#4d5668" text-anchor="middle"><tspan x="214" dy="0">Schets</tspan></text>
+<rect x="42" y="346" width="344" height="110" rx="6" fill="#f6f7f4" stroke="#d9d4c4"/>
+<rect x="58" y="388" width="312" height="24" fill="#d5d8de"/><rect x="202" y="350" width="24" height="102" fill="#d5d8de"/>
+<g transform="translate(174 400) rotate(90)"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#9db9ea" stroke="#1c2230" stroke-width="1.5"/></g><g transform="translate(216 426)"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#f0d36b" stroke="#1c2230" stroke-width="1.5"/></g>
+<line x1="42" y1="492" x2="182" y2="492" stroke="#9aa3b2" stroke-width="2"/>
+<text x="112" y="510" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="112" dy="0">Handtekening</tspan></text>
+<line x1="246" y1="492" x2="386" y2="492" stroke="#9aa3b2" stroke-width="2"/>
+<text x="316" y="510" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="12" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="316" dy="0">Handtekening</tspan></text>
+<rect x="422" y="68" width="352" height="268.16" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="420" y="64" width="352" height="268.16" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="2.5"/>
+<path d="M420 104 V78 Q420 64 434 64 H758 Q772 64 772 78 V104 Z" fill="#2f6fd6"/>
+<text x="596" y="91" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="596" dy="0">Zo werkt het</tspan></text>
+<g transform="translate(437 116.52) scale(0.38)"><path d="M20 8 H62 L82 28 V92 H20 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M62 8 V28 H82" fill="none" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M30 44 H70 M30 56 H70 M30 68 H70 M30 80 H54" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="482" y="131.2" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="482" dy="0">Voorzijde: samen invullen en</tspan><tspan x="482" dy="19.52">ondertekenen</tspan></text>
+<line x1="434" y1="163.04" x2="758" y2="163.04" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(437 171.56) scale(0.38)"><g transform="translate(50 56) scale(1.1)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="482" y="186.24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="482" dy="0">Keerzijde: elke partij vult zijn eigen</tspan><tspan x="482" dy="19.52">deel apart in</tspan></text>
+<line x1="434" y1="218.08" x2="758" y2="218.08" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(437 226.6) scale(0.38)"><rect x="30" y="6" width="40" height="88" rx="9" fill="#1c2230"/><rect x="35" y="16" width="30" height="62" rx="2" fill="#cfe6f7"/><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="482" y="241.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="482" dy="0">Op papier of digitaal in de</tspan><tspan x="482" dy="19.52">Crashform-app</tspan></text>
+<line x1="434" y1="273.12" x2="758" y2="273.12" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(437 281.64) scale(0.38)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f9e5a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M32 50 L45 63 L70 36" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="482" y="296.32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="482" dy="0">Feiten vermelden is geen erkenning</tspan><tspan x="482" dy="19.52">van aansprakelijkheid</tspan></text>
+<rect x="420" y="346.16" width="352" height="63.48" rx="12" fill="#1c2230"/>
+<text x="596" y="373.31" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="596" dy="0">Niet wettelijk verplicht, wel sterk</tspan><tspan x="596" dy="20.74">aanbevolen.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Het aanrijdingsformulier</tspan></text>
+</svg>

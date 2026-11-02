@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 429" width="800" height="429" role="img" aria-labelledby="t d">
+<title id="t">Wat vertel je bij een noodoproep?</title>
+<desc id="d">Vier kaarten: waar (de exacte locatie), wat (wat er gebeurd is en hoeveel voertuigen), wie (gewonden, hoeveel en hoe ze eraan toe zijn) en jij (wie je bent). Onder: op de autosnelweg geef je kilometerpaal, dichtstbijzijnde afrit en rijrichting; op een gewone weg gemeente, straat of kruispunt. Hang niet op voor de operator klaar is.</desc>
+
+<rect width="800" height="429" fill="#fffdf7"/>
+<rect x="30" y="68" width="175.5" height="183.66" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="175.5" height="183.66" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(85.75 78) scale(0.6)"><path d="M50 94 C30 64 22 54 22 38 A28 28 0 0 1 78 38 C78 54 70 64 50 94 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="38" r="11" fill="#fff"/></g>
+<text x="115.75" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="115.75" dy="0">Waar?</tspan></text>
+<text x="115.75" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="115.75" dy="0">De exacte locatie.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<rect x="219.5" y="68" width="175.5" height="183.66" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="217.5" y="64" width="175.5" height="183.66" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(275.25 78) scale(0.6)"><path d="M6 64 V52 Q6 46 12 45 L24 42 L35 27 Q37 25 41 25 H63 Q67 25 69 28 L79 41 L89 44 Q95 45 95 52 V64 Z" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M39 30 H48 V41 H31 Z M54 30 H64 L72 41 H54 Z" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="27" cy="67" r="10" fill="#1c2230"/><circle cx="27" cy="67" r="4" fill="#ccc"/><circle cx="75" cy="67" r="10" fill="#1c2230"/><circle cx="75" cy="67" r="4" fill="#ccc"/></g>
+<text x="305.25" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="305.25" dy="0">Wat?</tspan></text>
+<text x="305.25" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="305.25" dy="0">Wat er gebeurd is en</tspan><tspan x="305.25" dy="18.91">hoeveel voertuigen</tspan><tspan x="305.25" dy="18.91">betrokken zijn.</tspan></text>
+<circle cx="237.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="237.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="237.5" dy="0">2</tspan></text>
+<rect x="409" y="68" width="175.5" height="183.66" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="407" y="64" width="175.5" height="183.66" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(464.75 78) scale(0.6)"><g transform="translate(32 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(68 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#c0562b" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="494.75" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="494.75" dy="0">Wie?</tspan></text>
+<text x="494.75" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="494.75" dy="0">Zijn er gewonden,</tspan><tspan x="494.75" dy="18.91">hoeveel en hoe zijn</tspan><tspan x="494.75" dy="18.91">ze eraan toe?</tspan></text>
+<circle cx="427" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="427" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="427" dy="0">3</tspan></text>
+<rect x="598.5" y="68" width="175.5" height="183.66" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="596.5" y="64" width="175.5" height="183.66" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(654.25 78) scale(0.6)"><g transform="translate(50 56) scale(1.1)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="684.25" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="684.25" dy="0">Jij</tspan></text>
+<text x="684.25" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="684.25" dy="0">Wie je bent.</tspan></text>
+<circle cx="616.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="616.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="616.5" dy="0">4</tspan></text>
+<rect x="30" y="265.66" width="365" height="91.28" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="261.66" width="365" height="91.28" rx="14" fill="#f3f0e6" stroke="#d9d4c4" stroke-width="2"/>
+<text x="210.5" y="288.76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="210.5" dy="0">Op de autosnelweg</tspan></text>
+<text x="210.5" y="311.56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="210.5" dy="0">Kilometerpaal, dichtstbijzijnde afrit en</tspan><tspan x="210.5" dy="19.52">rijrichting.</tspan></text>
+<rect x="409" y="265.66" width="365" height="91.28" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="407" y="261.66" width="365" height="91.28" rx="14" fill="#f3f0e6" stroke="#d9d4c4" stroke-width="2"/>
+<text x="589.5" y="288.76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="589.5" dy="0">Op een gewone weg</tspan></text>
+<text x="589.5" y="311.56" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="589.5" dy="0">Gemeente, straat of kruispunt.</tspan></text>
+<rect x="28" y="366.94" width="744" height="43.96" rx="12" fill="#d63a3a"/>
+<text x="400" y="395.04" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Hang niet op voor de operator klaar is.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Wat vertel je bij een noodoproep?</tspan></text>
+</svg>

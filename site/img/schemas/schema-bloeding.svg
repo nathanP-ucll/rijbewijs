@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 441" width="800" height="441" role="img" aria-labelledby="t d">
+<title id="t">Ernstige bloeding en bloedneus</title>
+<desc id="d">Vier stappen bij een ernstige bloeding: handschoenen aan en het slachtoffer laten neerliggen, 112 alarmeren, 10 minuten op de wonde drukken met een drukverband of propere doek, blijven drukken tot de hulpdiensten aankomen. Onder: bij een bloedneus voorovergebogen zitten en de neus 10 minuten dichtknijpen.</desc>
+
+<rect width="800" height="441" fill="#fffdf7"/>
+<rect x="30" y="68" width="169.5" height="202.86" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="169.5" height="202.86" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(82.75 78) scale(0.6)"><rect x="26" y="46" width="48" height="42" rx="14" fill="#6cc4e8" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><g fill="#6cc4e8" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"><rect x="26" y="14" width="11" height="40" rx="5.5"/><rect x="39" y="8" width="11" height="44" rx="5.5"/><rect x="52" y="10" width="11" height="42" rx="5.5"/><rect x="65" y="18" width="11" height="36" rx="5.5"/></g></g>
+<text x="112.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="112.75" dy="0">Handschoenen</tspan><tspan x="112.75" dy="21.96">aan</tspan></text>
+<text x="112.75" y="207.34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="112.75" dy="0">Laat het slachtoffer</tspan><tspan x="112.75" dy="18.91">neerliggen.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M203.5 154.43 L214.5 165.43 L203.5 176.43" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="221.5" y="68" width="169.5" height="202.86" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="219.5" y="64" width="169.5" height="202.86" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(274.25 78) scale(0.6)"><rect x="26" y="6" width="48" height="88" rx="9" fill="#1c2230"/><rect x="31" y="16" width="38" height="62" rx="2" fill="#cfe6f7"/><text x="50" y="55" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230">112</text><circle cx="50" cy="86" r="3.5" fill="#888"/></g>
+<text x="304.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="304.25" dy="0">Alarmeer 112</tspan></text>
+<text x="304.25" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="304.25" dy="0">Roep de</tspan><tspan x="304.25" dy="18.91">hulpdiensten.</tspan></text>
+<circle cx="239.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="239.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="239.5" dy="0">2</tspan></text>
+<path d="M395 154.43 L406 165.43 L395 176.43" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="413" y="68" width="169.5" height="202.86" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="411" y="64" width="169.5" height="202.86" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(465.75 78) scale(0.6)"><circle cx="50" cy="66" r="18" fill="#d63a3a" opacity=".85"/><path d="M50 8 V44 M34 30 L50 46 L66 30" fill="none" stroke="#1c2230" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/><rect x="14" y="78" width="72" height="12" rx="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="495.75" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="495.75" dy="0">10 minuten</tspan><tspan x="495.75" dy="21.96">drukken</tspan></text>
+<text x="495.75" y="207.34" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="495.75" dy="0">Met een</tspan><tspan x="495.75" dy="18.91">drukverband of</tspan><tspan x="495.75" dy="18.91">propere doek.</tspan></text>
+<circle cx="431" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="431" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="431" dy="0">3</tspan></text>
+<path d="M586.5 154.43 L597.5 165.43 L586.5 176.43" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="604.5" y="68" width="169.5" height="202.86" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="602.5" y="64" width="169.5" height="202.86" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(657.25 78) scale(0.6)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="687.25" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="687.25" dy="0">Blijf drukken</tspan></text>
+<text x="687.25" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="687.25" dy="0">Tot de hulpdiensten</tspan><tspan x="687.25" dy="18.91">aankomen.</tspan></text>
+<circle cx="622.5" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="622.5" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="622.5" dy="0">4</tspan></text>
+<rect x="30" y="286.86" width="744" height="140" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="282.86" width="744" height="140" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="2.5"/>
+<path d="M28 334.86 V296.86 Q28 282.86 42 282.86 H758 Q772 282.86 772 296.86 V334.86 Z" fill="#2f6fd6"/>
+<circle cx="62" cy="308.86" r="22" fill="#fff"/>
+<g transform="translate(46 292.86) scale(0.32)"><path d="M30 14 C48 14 60 24 62 40 L74 58 Q66 64 60 62 C60 72 52 78 40 78 C26 78 20 66 22 52 C22 36 22 20 30 14 Z" fill="#f1c9a5" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M64 70 C60 78 60 84 64 86 C68 86 70 78 64 70 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="428" y="315.86" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="428" dy="0">Bloedneus</tspan></text>
+<g transform="translate(45 339.86) scale(0.38)"><g transform="translate(50 56) scale(1.1)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="2.727272727272727" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="90" y="364.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Laat het slachtoffer voorovergebogen zitten</tspan></text>
+<line x1="42" y1="378.86" x2="758" y2="378.86" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 379.86) scale(0.38)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="90" y="404.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Knijp de neus 10 minuten dichtgeknepen</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Ernstige bloeding en bloedneus</tspan></text>
+</svg>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Voorsorteren: kies je rijstrook ruim voor het kruispunt</title>
+<desc id="d">Een eenrichtingsweg met drie rijstroken die naar een kruispunt loopt. Op elke strook staat een pijl op het wegdek: links, rechtdoor en rechts. Een rode auto in de linkerstrook gaat links af met linker richtingaanwijzer, een blauwe auto in het midden rijdt rechtdoor en een gele auto in de rechterstrook gaat rechts af met rechter richtingaanwijzer.</desc>
+<defs><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker><marker id="ah2f6fd6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fd6"/></marker><marker id="ahf0b429" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#f0b429"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="150" width="800" height="130" fill="#4a4f57" />
+<rect x="250" y="48" width="300" height="552" fill="#4a4f57" />
+<line x1="0" y1="215" x2="235" y2="215" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="565" y1="215" x2="800" y2="215" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="350" y1="300" x2="350" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="18 16"/>
+<line x1="450" y1="300" x2="450" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="18 16"/>
+<rect x="250" y="296" width="300" height="6" fill="#fff" />
+<path d="M300,470 L300,430 Q300,405 270,405" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahfff)"/>
+<path d="M400,470 L400,395" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahfff)"/>
+<path d="M500,470 L500,430 Q500,405 530,405" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" marker-end="url(#ahfff)"/>
+<path d="M300,505 L300,330 Q300,215 200,215 L60,215" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M300,505 L300,330 Q300,215 200,215 L60,215" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahd64545)"/>
+<path d="M400,505 L400,70" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M400,505 L400,70" fill="none" stroke="#2f6fd6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ah2f6fd6)"/>
+<path d="M500,505 L500,330 Q500,215 600,215 L740,215" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M500,505 L500,330 Q500,215 600,215 L740,215" fill="none" stroke="#f0b429" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahf0b429)"/>
+<g transform="translate(300 545) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="-15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="-15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<g transform="translate(400 545) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(500 545) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<rect x="267.2" y="326" width="65.6" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="300" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="300" dy="0">links</tspan></text>
+<rect x="348.16" y="326" width="103.68" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">rechtdoor</tspan></text>
+<rect x="462.44" y="326" width="75.12" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="500" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="500" dy="0">rechts</tspan></text>
+<rect x="45.44" y="430" width="159.12" height="73.72" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="125" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="125" dy="0">Kies je strook</tspan><tspan x="125" dy="21.24">ruim vóór het</tspan><tspan x="125" dy="21.24">kruispunt</tspan></text>
+<rect x="575.56" y="431" width="198.88" height="90.24" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="675" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="675" dy="0">Volg de pijlen op</tspan><tspan x="675" dy="20.06">het wegdek en de</tspan><tspan x="675" dy="20.06">borden boven of</tspan><tspan x="675" dy="20.06">langs de rijstroken</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Voorsorteren: tijdig de juiste rijstrook</tspan></text>
+</svg>
