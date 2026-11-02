@@ -1,0 +1,130 @@
+{
+ "hoofdstuk": 9,
+ "titel": "Gedrag en alcohol",
+ "les": 4,
+ "intro": {
+  "tekst": "Een korte inleiding.",
+  "doelen": [
+   "Je kent de basis."
+  ]
+ },
+ "paragrafen": [
+  {
+   "nr": "9.1",
+   "titel": "Gedrag en alcohol",
+   "paginas": [
+    {
+     "id": "h9-1-1",
+     "titel": "Alcohol",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "gedrag-alcohol-grenzen"
+     ]
+    },
+    {
+     "id": "h9-1-2",
+     "titel": "Rijbewijs",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "rijbewijs-traject"
+     ]
+    },
+    {
+     "id": "h9-1-3",
+     "titel": "Ongeval",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "ongeval-stappenplan"
+     ]
+    },
+    {
+     "id": "h9-1-4",
+     "titel": "Banden",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "techniek-banden"
+     ]
+    }
+   ]
+  }
+ ],
+ "samenvatting": [
+  "Dit onthoud je van dit hoofdstuk."
+ ]
+}

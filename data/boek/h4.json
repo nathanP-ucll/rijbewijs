@@ -1,0 +1,691 @@
+{
+  "hoofdstuk": 4,
+  "titel": "Verkeerslichten en bevoegde personen",
+  "les": 2,
+  "intro": {
+    "tekst": "Verkeerslichten en bevoegde personen regelen het verkeer op drukke plaatsen. In dit hoofdstuk leer je wat elk signaal betekent en wie je moet volgen als signalen elkaar tegenspreken.",
+    "doelen": [
+      "Je leert wat rood, oranje en groen betekenen.",
+      "Je weet wanneer je bij oranje nog mag doorrijden.",
+      "Je kent de lichten voor fietsers en voetgangers.",
+      "Je herkent de seinen van een agent.",
+      "Je weet wie of wat voorgaat: agent, lichten, borden of regels."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "4.1",
+      "titel": "Driekleurige verkeerslichten",
+      "paginas": [
+        {
+          "id": "h4-1-1",
+          "titel": "Rood, oranje en groen",
+          "intro": "Elke kleur van een verkeerslicht heeft een vaste betekenis.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-3kleuren",
+              "bijschrift": "Rood staat boven, oranje in het midden en groen onder.",
+              "punten": [
+                "Rood: je mag de stopstreep niet voorbij.",
+                "Geen stopstreep? Dan mag je het licht zelf niet voorbij.",
+                "Oranje: je stopt ook.",
+                "Groen: je mag het verkeerslicht voorbij."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De volgorde is groen, oranje, rood, groen.",
+                "Elk licht volgt altijd op hetzelfde licht.",
+                "Volg de lichten zolang ze er regelmatig uitzien.",
+                "De lichten moeten goed zichtbaar zijn."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Volgorde en plaats",
+              "tekst": "Rood staat bovenaan, oranje in het midden en groen onderaan."
+            }
+          ],
+          "theorieblokken": ["lichten-driekleurig"]
+        },
+        {
+          "id": "h4-1-2",
+          "titel": "Oranje: stoppen of doorrijden?",
+          "intro": "Oranje betekent in de regel: stoppen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Kun je nog veilig stoppen? Dan stop je.",
+                "Wordt het oranje vlak bij de streep? Dan mag je doorrijden.",
+                "Je moet dan echt niet meer veilig kunnen stoppen.",
+                "Gas geven om oranje te halen is fout."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat doe je?"],
+              "rijen": [
+                ["Je kunt nog veilig stoppen", "Stoppen voor de stopstreep of het licht."],
+                ["Je kunt niet meer veilig stoppen", "Doorrijden, zonder anderen in gevaar te brengen."],
+                ["Het licht wordt rood terwijl je op het kruispunt rijdt", "Het kruispunt vrijmaken."]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Gas geven bij oranje",
+              "tekst": "Versnellen om het oranje licht nog te halen is fout, want de uitzondering geldt alleen als stoppen echt niet meer veilig kan."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je rijdt 50 km/u. Het licht springt op oranje terwijl je al bijna aan de streep bent. Remmen zou gevaarlijk zijn. Dan rijd je door."
+            }
+          ],
+          "theorieblokken": ["lichten-oranje-doorrijden"]
+        },
+        {
+          "id": "h4-1-3",
+          "titel": "Waar staan de lichten?",
+          "intro": "Je moet weten waar je naar kijkt als je een kruispunt nadert.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Ronde lichten staan rechts van de rijbaan.",
+                "Ze mogen herhaald worden links of boven de rijbaan.",
+                "Pijllichten staan boven de rijstroken of rechts.",
+                "Een licht op ooghoogte is een herhaling van hetzelfde licht."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "B5",
+                  "naam": "Stoppen en voorrang verlenen",
+                  "uitleg": "Soms staat dit bord op de dwarsweg in plaats van lichten.",
+                  "letop": "Je stopt dan volledig."
+                },
+                {
+                  "afb": "B9",
+                  "naam": "Voorrangsweg",
+                  "uitleg": "Op de dwarswegen van zo'n weg kan een stopbord de lichten vervangen."
+                }
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "Groen of oranje voor het dwarsverkeer",
+              "tekst": "Alleen in Brussel staat uitdrukkelijk dat groen of oranje pas mag verschijnen als het dwarsverkeer rood heeft.",
+              "gewest": {
+                "vlaanderen": "Geen uitdrukkelijke regel dat de dwarslichten rood moeten zijn.",
+                "wallonie": "Zelfde als in Vlaanderen.",
+                "brussel": "Groen of oranje mag pas verschijnen als het dwarsverkeer rood heeft."
+              }
+            }
+          ],
+          "theorieblokken": ["lichten-volgorde-plaatsing"]
+        },
+        {
+          "id": "h4-1-4",
+          "titel": "Knipperend oranje",
+          "intro": "Een knipperend oranje licht verbiedt je niet door te rijden.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-knipperoranje",
+              "bijschrift": "Bij knipperend oranje blijven de voorrangsborden gelden.",
+              "punten": [
+                "Je mag voorbij, maar je bent dubbel voorzichtig.",
+                "Je hebt daardoor geen voorrang.",
+                "Het voorrangsbord of de voorrang van rechts blijft gelden."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Het knipperlicht kan een los licht zijn.",
+                "Ook twee lichten die om de beurt knipperen bestaan.",
+                "Of het is het oranje licht van een driekleurig systeem dat buiten werking is."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Knipperend rood is iets anders",
+              "tekst": "Twee om de beurt knipperende rode lichten (zoals bij een overweg) betekenen dat je de stopstreep niet voorbij mag rijden of lopen."
+            }
+          ],
+          "theorieblokken": ["lichten-oranje-knipperlicht"]
+        }
+      ]
+    },
+    {
+      "nr": "4.2",
+      "titel": "Pijlen, rijstroken en kruispunten",
+      "paginas": [
+        {
+          "id": "h4-2-1",
+          "titel": "Pijllichten",
+          "intro": "Een pijl geldt alleen voor de richting van de pijl.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-pijlen",
+              "bijschrift": "Een groene pijl bij rood laat je alleen in de pijlrichting verder rijden.",
+              "punten": [
+                "Een pijl heeft dezelfde kleur en betekenis als het ronde licht.",
+                "Maar hij geldt alleen voor zijn eigen richting.",
+                "Groene pijl bij rood of oranje: alleen die richting uit."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij een groene pijl geef je voorrang aan wie regelmatig uit andere richtingen komt.",
+                "Je geeft ook voorrang aan voetgangers.",
+                "Een aparte groene pijl links bij het uitrijden is een ontruimingspijl.",
+                "Dan staat het tegenliggende verkeer stil door een rood licht."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Kies je rijstrook vroeg",
+              "tekst": "Pijllichten staan vaak boven de rijstroken, dus kies je rijstrook vroeg om te weten welke pijl voor jou geldt."
+            }
+          ],
+          "theorieblokken": ["lichten-pijlen"]
+        },
+        {
+          "id": "h4-2-2",
+          "titel": "Lichten boven de rijstroken",
+          "intro": "Lichten boven een rijstrook gelden alleen voor die rijstrook.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-rijstrook",
+              "bijschrift": "Drie rijstroken, drie verschillende signalen.",
+              "punten": [
+                "Rood kruis: deze rijstrook is verboden.",
+                "Groene pijl naar onder: je mag de rijstrook gebruiken.",
+                "Oranje schuine pijl: verlaat de rijstrook naar de aangewezen kant."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Signaal", "Betekenis"],
+              "rijen": [
+                ["Rood kruis", "Verboden op deze rijstrook."],
+                ["Groene pijl naar onder", "Toegelaten op deze rijstrook."],
+                ["Oranje pijl schuin naar onder", "Verboden, behalve om de strook te verlaten."]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Voorrang blijft gelden",
+              "tekst": "Voorrangsborden blijven gelden naast lichten boven de rijstroken, anders dan bij gewone werkende verkeerslichten."
+            }
+          ],
+          "theorieblokken": ["lichten-boven-rijstroken"]
+        },
+        {
+          "id": "h4-2-3",
+          "titel": "Het kruispunt vrijmaken",
+          "intro": "Een kruispunt met lichten mag je nooit blokkeren.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-kruispunt",
+              "bijschrift": "Auto 1 heeft groen, maar rijdt niet op omdat de weg aan de overkant vol staat.",
+              "punten": [
+                "Zie je dat je er vast komt te staan? Blijf dan wachten.",
+                "Zo blokkeer je het dwarsverkeer niet."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Sta je al op het kruispunt? Dan maak je het vrij.",
+                "Je hoeft daarvoor niet te wachten tot jouw richting open is.",
+                "Uitzondering: een rood licht rechts op de weg die je neemt.",
+                "Ook bij groen rijd je niet op als je er waarschijnlijk moet stilstaan."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Het kruispunt blokkeren",
+              "tekst": "Op een volle kruising doorrijden omdat jij groen hebt, terwijl je er vast komt te staan, is fout."
+            }
+          ],
+          "theorieblokken": ["lichten-kruispunt-vrijmaken"]
+        }
+      ]
+    },
+    {
+      "nr": "4.3",
+      "titel": "Lichten voor voetgangers en fietsers",
+      "paginas": [
+        {
+          "id": "h4-3-1",
+          "titel": "Voetgangerslichten",
+          "intro": "Voetgangerslichten hebben maar twee kleuren: rood en groen.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-voetgangers",
+              "bijschrift": "Rood, groen en knipperend groen.",
+              "punten": [
+                "Rood mannetje: niet de rijbaan op.",
+                "Groen mannetje: je mag oversteken.",
+                "Knipperend groen: de toelating eindigt bijna."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Staan er pijltjes rond het mannetje? Dan geldt dezelfde kleur ook voor de dwarsrichting.",
+                "Zijn er geen voetgangerslichten? Dan volgen voetgangers de gewone lichten.",
+                "Of ze volgen de aanduidingen van de bevoegde persoon."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Laat voetgangers uitlopen",
+              "tekst": "Zelfs bij groen laat je als bestuurder voetgangers die regelmatig zijn beginnen oversteken uitlopen aan een normaal tempo."
+            }
+          ],
+          "theorieblokken": ["lichten-voetgangers"]
+        },
+        {
+          "id": "h4-3-2",
+          "titel": "Fietslichten",
+          "intro": "Een licht met een fietsje geldt alleen voor fietsers.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-lichten-fiets",
+              "bijschrift": "Vier soorten lichten voor fietsers.",
+              "punten": [
+                "Fietssilhouet: voor fietsers en tweewielige bromfietsen.",
+                "Met pijltjes errond: dezelfde kleur geldt ook voor de dwarsrichting.",
+                "Combinatielicht: voor fietsers en voetgangers samen."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Die lichten gelden voor wie op het fietspad mag rijden.",
+                "Staat er geen fietslicht? Dan volgt de fietser het gewone licht.",
+                "Een autobestuurder volgt de ronde lichten of de pijlen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Knipperende oranje pijl",
+              "tekst": "Een knipperend oranje fietsje met een knipperende oranje pijl, samen met rood of oranje, laat fietsers alleen in de pijlrichting verder rijden, met voorrang voor anderen."
+            }
+          ],
+          "theorieblokken": ["lichten-fietslichten"]
+        },
+        {
+          "id": "h4-3-3",
+          "titel": "Het opstelvak voor fietsers",
+          "intro": "Bij sommige lichten staat een vak speciaal voor fietsers.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-opstelvak",
+              "bijschrift": "Twee stopstrepen met een wit fietssymbool ertussen.",
+              "punten": [
+                "Het vak ligt tussen twee stopstrepen.",
+                "De auto staat achter de eerste stopstreep.",
+                "De fietser staat in het vak."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Het vak is voor fietsers en tweewielige bromfietsen.",
+                "Ze gebruiken het alleen tijdens de rode fase.",
+                "Andere bestuurders stoppen voor de eerste stopstreep."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Wie moet waar stoppen?",
+              "tekst": "Ben je met de auto, dan stop je altijd voor de eerste stopstreep en laat je het vak vrij voor fietsers."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h4-3-4",
+          "titel": "Fietsers door het rode licht",
+          "intro": "Met twee speciale borden mogen fietsers soms door rood.",
+          "blokken": [
+            {
+              "type": "vergelijk",
+              "titel": "Twee borden onder het verkeerslicht",
+              "links": {
+                "afb": "B22",
+                "tekst": "Fietsers mogen bij rood of oranje rechts afslaan."
+              },
+              "rechts": {
+                "afb": "B23",
+                "tekst": "Fietsers mogen bij rood of oranje rechtdoor rijden."
+              },
+              "verschil": "Het ene bord laat je rechts afslaan, het andere laat je rechtdoor rijden."
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De borden gelden voor fietsers en speed pedelecs.",
+                "Ze gelden niet voor auto's.",
+                "Ze gelden ook niet voor bromfietsen klasse A en B.",
+                "Je verleent altijd voorrang aan alle andere weggebruikers."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Geen vrijbrief",
+              "tekst": "Wie door rood fietst, moet voorrang geven aan voetgangers en aan het verkeer dat groen heeft."
+            }
+          ],
+          "theorieblokken": ["lichten-b22-b23", "fietsers-door-rood-b22-b23"]
+        }
+      ]
+    },
+    {
+      "nr": "4.4",
+      "titel": "Bevoegde personen",
+      "paginas": [
+        {
+          "id": "h4-4-1",
+          "titel": "Wie is een bevoegde persoon?",
+          "intro": "Een bevoegde persoon mag bevelen geven aan weggebruikers.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De federale en lokale politie.",
+                "Personeel van de wegbeheerders dat toezicht houdt op de weg.",
+                "Douanepersoneel tijdens hun dienst.",
+                "Personeel dat bruggen op de openbare weg bewaakt of bedient.",
+                "Soms ook anderen, zoals de brandweer bij een interventie."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Herkenbare kentekens",
+              "tekst": "Bevelen aan rijdend verkeer mogen alleen gegeven worden door personen die de kentekens van hun functie dragen, zodat ze dag en nacht herkenbaar zijn."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een politieagent staat op het kruispunt en geeft je een teken. Je volgt zijn bevel meteen op."
+            }
+          ],
+          "theorieblokken": ["bevoegde-personen-wie"]
+        },
+        {
+          "id": "h4-4-2",
+          "titel": "Arm rechtop: iedereen stopt",
+          "intro": "Het eerste sein dat je moet kennen is de rechtopgestoken arm.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-bevoegde-persoon-stop",
+              "bijschrift": "Alle weggebruikers uit alle richtingen stoppen.",
+              "punten": [
+                "Arm rechtop: alle weggebruikers stoppen.",
+                "Sta je al op het kruispunt? Dan maak je het vrij."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Zo onthoud je het",
+              "tekst": "Arm omhoog betekent dat iedereen stilstaat."
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Je volgt het bevel onmiddellijk op.",
+                "Dat geldt ook als je zelf groen licht hebt."
+              ]
+            }
+          ],
+          "theorieblokken": ["bevoegde-personen-seinen"]
+        },
+        {
+          "id": "h4-4-3",
+          "titel": "Armen horizontaal",
+          "intro": "Bij uitgestrekte armen hangt het af van waar je rijdt.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-bevoegde-persoon-armen",
+              "bijschrift": "Wie de armen dwarst, stopt. Wie langs de armen rijdt, krijgt doorgang.",
+              "punten": [
+                "Wie voor of achter de agent nadert, stopt.",
+                "Wie langs de uitgestrekte armen rijdt, mag doorrijden."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Eén of twee armen horizontaal uitgestrekt.",
+                "Je stopt als je komt uit een richting die de arm of armen dwarsen.",
+                "Dat zijn de weggebruikers voor of achter de bevoegde persoon."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Zo onthoud je het",
+              "tekst": "Rij je recht op de persoon af of van de persoon weg, dan stop je."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h4-4-4",
+          "titel": "Rood licht en voertuig verplaatsen",
+          "intro": "Een bevoegde persoon kan nog meer bevelen geven.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Sein", "Wat betekent het?"],
+              "rijen": [
+                ["Arm rechtop", "Alle weggebruikers stoppen."],
+                ["Armen horizontaal", "Stoppen voor wie de armen dwarst."],
+                ["Rood licht dwars heen en weer zwaaien", "Stoppen voor wie het licht ziet."]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij een zwaaiend rood licht stop je als het licht naar jou gericht is.",
+                "Staat jouw voertuig stil of geparkeerd? Dan verplaats je het op bevel.",
+                "Weiger je, of ben je weg? Dan mag de agent het verplaatsen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Op jouw risico en kosten",
+              "tekst": "Een bevoegd persoon mag je voertuig verplaatsen op risico en kosten van de bestuurder."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h4-4-5",
+          "titel": "Signaalgevers en werfopzichters",
+          "intro": "Soms mogen ook andere personen aanwijzingen geven.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Signaalgevers bij evenementen en wielerwedstrijden.",
+                "Wegkapiteins bij groepen fietsers en motorrijders.",
+                "Groepsleiders bij groepen voetgangers en ruiters.",
+                "Werfopzichters bij werken op de weg.",
+                "Begeleiders bij uitzonderlijke voertuigen."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "C3",
+                  "naam": "Schijf om het verkeer stil te leggen",
+                  "uitleg": "Zij houden een ronde schijf met dit teken omhoog.",
+                  "letop": "Je stopt."
+                }
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-werfzeiger-schijf",
+              "bijschrift": "De auto stopt voor de persoon met de schijf.",
+              "punten": [
+                "Je volgt hun aanwijzingen op.",
+                "Een bevoegde persoon gaat wel voor."
+              ]
+            }
+          ],
+          "theorieblokken": ["bevoegde-personen-signaalgevers-werf"]
+        }
+      ]
+    },
+    {
+      "nr": "4.5",
+      "titel": "Wie of wat gaat voor?",
+      "paginas": [
+        {
+          "id": "h4-5-1",
+          "titel": "De rangorde van de signalen",
+          "intro": "Spreken signalen elkaar tegen, dan geldt een vaste volgorde.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-rangorde-lichten",
+              "bijschrift": "Wat hoger staat, gaat voor wat lager staat.",
+              "punten": [
+                "Eerst: de bevelen van een bevoegde persoon.",
+                "Dan: lichten, borden en markeringen.",
+                "Als laatste: de verkeersregels, zoals voorrang van rechts."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Plaats", "Wat?"],
+              "rijen": [
+                ["1", "Bevelen van een bevoegde persoon"],
+                ["2", "Verkeerstekens: lichten, borden, markeringen"],
+                ["3", "Verkeersregels, bijvoorbeeld voorrang van rechts"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Groen licht, maar de agent zegt stop",
+              "tekst": "Staat er een bevoegde persoon die je laat stoppen, dan stop je, ook al heb je groen."
+            }
+          ],
+          "theorieblokken": ["lichten-rangorde"]
+        },
+        {
+          "id": "h4-5-2",
+          "titel": "Werkende lichten en voorrangsborden",
+          "intro": "Verkeerslichten kunnen voorrangsborden tijdelijk buiten spel zetten.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Werken de lichten? Dan spelen de voorrangsborden daar geen rol.",
+                "Vallen de lichten uit? Dan gelden de borden en regels opnieuw.",
+                "Bij knipperend oranje blijven de voorrangsborden wel gelden.",
+                "Bij lichten boven de rijstroken blijven ze ook gelden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Een uitzondering bij fietsers",
+              "tekst": "De borden voor fietsers die door rood mogen rechtsaf of rechtdoor blijven gelden naast werkende lichten."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een politieagent laat je doorrijden terwijl het licht rood is. Je volgt de agent. Laat hij je stoppen bij groen, dan stop je."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "4.6",
+      "titel": "Vooruitblik",
+      "paginas": [
+        {
+          "id": "h4-6-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 vervangen nieuwe codes het huidige verkeersreglement.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Nu geldt nog het huidige verkeersreglement.",
+                "Vanaf 1 juni 2027 komen een federale, Vlaamse, Brusselse en Waalse code.",
+                "Het fietssilhouet met pijltjes geldt dan voor alle richtingen tegelijk.",
+                "Er komt een oranje knipperende pijl naar links bij het uitrijden van een kruispunt.",
+                "Dan wordt het tegenliggende verkeer niet tegengehouden door een rood licht."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De rangorde wordt uitdrukkelijk vastgelegd.",
+                "Eerst bevoegde personen, dan lichten, dan signaalgevers.",
+                "Daarna verkeersborden en markeringen, dan de verkeersregels.",
+                "Signaalgevers mogen kinderen laten oversteken.",
+                "Ze dragen een veiligheidsvest met het woord signaalgever."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Waarschuwing voor wie nu leert",
+              "tekst": "Het theorie-examen volgt het reglement dat op het ogenblik van de proef geldt, dus controleer vlak voor je examen welke code van toepassing is."
+            }
+          ],
+          "theorieblokken": ["lichten-wijzigingen-2027"]
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Rood: niet voorbij de stopstreep. Groen: je mag voorbij.",
+    "Oranje betekent stoppen, tenzij je niet meer veilig kunt stoppen.",
+    "Knipperend oranje: dubbel voorzichtig, voorrangsborden blijven gelden.",
+    "Een pijl geldt enkel voor zijn eigen richting.",
+    "Maak een kruispunt vrij en blokkeer het nooit.",
+    "Fietsers en voetgangers hebben soms eigen lichten.",
+    "Arm rechtop: iedereen stopt. Armen horizontaal: wie ze dwarst, stopt.",
+    "Rangorde: bevoegde persoon, dan lichten en borden, dan regels."
+  ]
+}

@@ -263,93 +263,120 @@ function blokOrder(b) {
   return ix.length ? Math.min(...ix) : 9999;
 }
 function lesVanBlok(b) { return b.les; }
-const themaVolgorde = []; // eerste voorkomen in curriculum
-curriculum.forEach((c) => { if (!themaVolgorde.includes(c.thema)) themaVolgorde.push(c.thema); });
-const boeken = {};
-const placed = new Set();
-const oefPerBlok = {};
-oefeningen.forEach((o) => {
-  let target = o.theorieblok && blokIds.has(o.theorieblok) ? o.theorieblok : null;
-  if (!target) {
-    const b = theorie.find((t) => (t.curriculum || []).includes(o.onderwerp));
-    if (b) target = b.id;
-  }
-  o.theorieblok = target || null;
-  if (target) (oefPerBlok[target] = oefPerBlok[target] || []).push(o.id);
-});
-const SIGN_CHUNK = 6, KAART_CHUNK = 6, CARD_CHUNK = 4, INLINE_MAX = 3, MERGE_MAX = 3;
-function isSmall(b) {
-  return !(b.regels || []).length && !(b.kaarten || []).length && !(b.vergelijk || []).length && !(b.afbeeldingen || []).length && (b.kaders || []).length <= 1 && String(b.uitleg || '').length < 420;
+/* ----- het boek: met de hand geschreven in data/boek/h<N>.json (demo: data/_demo/boek) ----- */
+const boekFiles = jsonFiles(path.join(DATA, 'boek'));
+const boekDir = (DEMO && !boekFiles.length) ? path.join(DATA, '_demo', 'boek') : path.join(DATA, 'boek');
+const hoofdstukken = [];
+for (const f of jsonFiles(boekDir)) {
+  const d = readJSON(f);
+  if (!d || !Array.isArray(d.paragrafen)) { err(path.relative(ROOT, f) + ': geen paragrafen'); continue; }
+  d._file = path.basename(f);
+  hoofdstukken.push(d);
 }
-function rowIsSign(r) { return !!(r && (r.code || r.bord || r.afb) && (bordFiles[r.code || r.bord || r.afb] || schemaFiles[r.afb] || demoFiles[r.afb])); }
-const exLookup = new Map(oefeningen.map((o) => [o.id, o]));
-const exLoc = {};
-for (const les of [1, 2, 3, 4]) {
-  const blokken = theorie.filter((b) => lesVanBlok(b) === les);
-  blokken.sort((a, b) => blokOrder(a) - blokOrder(b) || a._ord - b._ord);
-  const themas = [...new Set(blokken.map((b) => b.thema))].sort((a, b) => (themaNr[a] || 99) - (themaNr[b] || 99));
-  const pages = [{ t: 'intro', titel: 'Inleiding', toc: true }];
-  for (const th of themas) {
-    const hoofdstuk = THEMA_NAMEN[th] || th;
-    const hn = themaNr[th] || 0;
-    let m = 0;
-    const lijst = blokken.filter((x) => x.thema === th);
-    const groepen = [];
-    for (const b of lijst) {
-      const last = groepen[groepen.length - 1];
-      if (last && isSmall(b) && isSmall(last[0]) && last.length < MERGE_MAX && last.every(isSmall)) last.push(b); else groepen.push([b]);
+hoofdstukken.sort((x, y) => x.hoofdstuk - y.hoofdstuk);
+if (!hoofdstukken.length) {
+  const m = 'Geen boekbestanden gevonden in data/boek (h<N>.json). Het boek wordt met de hand geschreven; draai met --demo voor voorbeeldpagina\'s.';
+  if (LENIENT) warn(m); else err(m);
+}
+const THEMA_VAN_H = {};
+HOOFD.forEach((h, i) => { THEMA_VAN_H[i + 1] = h; });
+
+/* validatie van pagina's */
+const BLOK_TYPES = ['punten', 'kaarten', 'vergelijk', 'schema', 'kader', 'tabel', 'voorbeeld'];
+const KADER_SOORTEN = ['regel', 'letop', 'zwarefout', 'tip', 'gewest'];
+function zin(where, t, opts) {
+  opts = opts || {};
+  if (typeof t !== 'string' || !t.trim()) { err(where + ': lege of ontbrekende tekst'); return; }
+  const x = t.trim();
+  if (!opts.titel && !/[.?!)…"”]$/.test(x)) err(where + ': zin eindigt niet op . ? ! of ) -> "' + x.slice(-40) + '"');
+  if (/\b(bv|o\.a|enz|d\.w\.z|t\.o\.v|nl|bijv|vb)\.$/i.test(x) || /:$/.test(x)) err(where + ': afgebroken zin -> "' + x.slice(-40) + '"');
+  if (/\((?:\s*[A-GZ]\d{1,2}[a-z]?(?:[_-]\d+)?\s*[,)])/.test(x) || /\bart(?:ikel|\.)\s*\d/i.test(x)) warn(where + ': bordcode of artikelnummer in zichtbare tekst -> "' + x.slice(0, 60) + '"');
+  if (opts.maxWoorden && x.split(/\s+/).length > opts.maxWoorden) warn(where + ': langer dan ' + opts.maxWoorden + ' woorden -> "' + x.slice(0, 50) + '"');
+}
+function img(where, naam) {
+  if (!naam) { err(where + ': afbeelding ontbreekt'); return; }
+  if (!resolveImg(naam)) err(where + ": onbekende afbeelding '" + naam + "'");
+}
+function valideerPagina(pg, where) {
+  if (!pg.id || !pg.titel) err(where + ': id of titel ontbreekt');
+  if (pg.intro) zin(where + ' intro', pg.intro);
+  const bl = Array.isArray(pg.blokken) ? pg.blokken : [];
+  if (bl.length < 3) warn(where + ' (' + (pg.titel || '?') + '): slechts ' + bl.length + ' inhoudsblok(ken); minimum is 3');
+  bl.forEach((k, i) => {
+    const w = where + ' blok ' + (i + 1) + ' (' + k.type + ')';
+    if (!BLOK_TYPES.includes(k.type)) { err(w + ': onbekend type'); return; }
+    switch (k.type) {
+      case 'punten': if (!Array.isArray(k.items) || !k.items.length) err(w + ': geen items'); else { if (k.items.length > 5) warn(w + ': meer dan 5 punten'); k.items.forEach((t) => zin(w, t)); } break;
+      case 'kaarten': if (!Array.isArray(k.items) || !k.items.length) err(w + ': geen items'); else { if (k.items.length > 6) warn(w + ': meer dan 6 kaarten'); k.items.forEach((c) => { img(w, c.afb); if (!c.naam) err(w + ': kaart zonder naam'); if (c.uitleg) zin(w + ' uitleg', c.uitleg, { maxWoorden: 16 }); if (c.letop) zin(w + ' letop', c.letop); }); } break;
+      case 'vergelijk': ['links', 'rechts'].forEach((z) => { if (!k[z]) err(w + ': ' + z + ' ontbreekt'); else { img(w, k[z].afb); zin(w + ' ' + z, k[z].tekst); } }); if (k.midden) { img(w, k.midden.afb); zin(w + ' midden', k.midden.tekst); } zin(w + ' verschil', k.verschil); break;
+      case 'schema': img(w, k.afb); zin(w + ' bijschrift', k.bijschrift); (k.punten || []).forEach((t) => zin(w, t)); break;
+      case 'kader': if (!KADER_SOORTEN.includes(k.soort)) err(w + ': onbekende soort ' + k.soort); zin(w + ' tekst', k.tekst); if (k.soort === 'gewest') { if (!k.gewest) err(w + ': gewest-object ontbreekt'); else Object.values(k.gewest).forEach((t) => zin(w + ' gewest', t)); } break;
+      case 'tabel': if (!Array.isArray(k.kolommen) || !Array.isArray(k.rijen) || !k.rijen.length) err(w + ': kolommen/rijen'); else if (k.rijen.length > 6) warn(w + ': meer dan 6 rijen'); break;
+      case 'voorbeeld': zin(w, k.tekst); break;
     }
-    for (const groep of groepen) {
-      const b = groep[0];
-      m++;
+  });
+  (pg.theorieblokken || []).forEach((id) => { if (!blokIds.has(id)) err(where + ': onbekend theorieblok ' + id); });
+}
+
+const boeken = {};
+const exLoc = {};
+const blokPagina = {};
+const paginaIds = new Set();
+const gekoppeld = new Set();
+const exLookup = new Map(oefeningen.map((o) => [o.id, o]));
+const oefPerBlok = {};
+oefeningen.forEach((o) => { if (o.theorieblok && blokIds.has(o.theorieblok)) (oefPerBlok[o.theorieblok] = oefPerBlok[o.theorieblok] || []).push(o.id); });
+for (const les of [1, 2, 3, 4]) {
+  const chs = hoofdstukken.filter((h) => h.les === les);
+  const pages = [{ t: 'intro', titel: 'Inleiding', toc: true }];
+  for (const h of chs) {
+    const hn = h.hoofdstuk, hoofdstuk = h.titel || (THEMA_VAN_H[hn] || {}).titel || ('Hoofdstuk ' + hn);
+    if (h.intro && h.intro.tekst) zin('H' + hn + ' intro', h.intro.tekst);
+    (h.intro && h.intro.doelen || []).forEach((t) => zin('H' + hn + ' doel', t));
+    pages.push({ t: 'opener', hn, hoofdstuk, titel: hoofdstuk, nr: String(hn), intro: (h.intro || {}).tekst || '', doelen: (h.intro || {}).doelen || [], toc: true, par: String(hn) });
+    for (const par of h.paragrafen) {
       let k = 0;
-      const num = (pg) => { k++; pg.hn = hn; pg.par = hn + '.' + m; pg.nr = hn + '.' + m + '.' + k; pg.hoofdstukNr = hn; return pg; };
-      const kaart = Array.isArray(b.kaarten) && b.kaarten.length > 0;
-      const rows = kaart ? b.kaarten : (b.regels || []);
-      const chunk = kaart ? KAART_CHUNK : (rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK);
-      const inline = !kaart && rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
-      const first = num({ t: 'blok', id: b.id, ids: groep.map((x) => x.id), titel: groep.length > 1 ? groep.map((x) => x.titel).join(' · ') : b.titel, thema: th, hoofdstuk, toc: true, inline });
-      const extraKaders = Math.max(0, (b.kaders || []).length - 1);
-      first.kaders = 1;
-      const theoryPages = [first];
-      pages.push(first);
-      if (rows.length && !inline) {
-        const parts = Math.ceil(rows.length / chunk);
-        for (let p = 0; p < parts; p++) {
-          const pg = num({ t: 'regels', id: b.id, titel: b.titel, hoofdstuk, kaart, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts });
-          pages.push(pg); theoryPages.push(pg);
+      const parBlokken = new Set();
+      (par.paginas || []).forEach((pg, pi) => {
+        const where = 'h' + hn + ' ' + par.nr + ' pagina ' + (pi + 1);
+        if (paginaIds.has(pg.id)) err('Dubbele pagina-id ' + pg.id); paginaIds.add(pg.id);
+        valideerPagina(pg, where);
+        k++;
+        const minis = [];
+        (pg.theorieblokken || []).forEach((id) => {
+          parBlokken.add(id);
+          (oefPerBlok[id] || []).forEach((eid) => { const e = exLookup.get(eid); if (e && e.mini && !gekoppeld.has(eid)) { minis.push(eid); gekoppeld.add(eid); } });
+          if (!blokPagina[id]) blokPagina[id] = { les, pagina: pages.length + 1 };
+        });
+        pages.push({ t: 'pagina', id: pg.id, titel: pg.titel, intro: pg.intro || '', blokken: pg.blokken || [], theorieblokken: pg.theorieblokken || [], mini: minis, hn, hoofdstuk, par: par.nr, parTitel: par.titel, parEerste: pi === 0, nr: par.nr + '.' + k, toc: pi === 0 });
+      });
+      // gewone oefeningen van deze paragraaf op eigen pagina's
+      for (const id of parBlokken) {
+        for (const eid of oefPerBlok[id] || []) {
+          const e = exLookup.get(eid);
+          if (!e || e.mini || gekoppeld.has(eid)) continue;
+          gekoppeld.add(eid); k++;
+          pages.push({ t: 'oef', ex: eid, blok: id, hn, hoofdstuk, par: par.nr, nr: par.nr + '.' + k, titel: 'Oefening' });
         }
       }
-      (b.vergelijk || []).forEach((v, vi) => {
-        const pg = num({ t: 'vergelijk', id: b.id, titel: b.titel, hoofdstuk, v: vi });
-        pages.push(pg); theoryPages.push(pg);
-      });
-      for (let p = 0; p < extraKaders; p += 3) {
-        const pg = num({ t: 'kaders', id: b.id, titel: b.titel, hoofdstuk, van: 1 + p, tot: Math.min(b.kaders.length, 1 + p + 3) });
-        pages.push(pg); theoryPages.push(pg);
-      }
-      const blokOef = groep.flatMap((x) => oefPerBlok[x.id] || []);
-      const minis = blokOef.filter((id) => exLookup.get(id) && exLookup.get(id).mini);
-      minis.forEach((id, j) => { const pg = theoryPages[Math.min(j, theoryPages.length - 1)]; (pg.mini = pg.mini || []).push(id); });
-      blokOef.filter((id) => !minis.includes(id)).forEach((id) => pages.push(num({ t: 'oef', ex: id, blok: b.id, hoofdstuk, titel: 'Oefening' })));
-      groep.forEach((x) => placed.add(x.id));
     }
   }
-  const lesEx = oefeningen.filter((o) => o.les === les && !o.theorieblok).map((o) => o.id);
-  if (lesEx.length) {
-    pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', toc: true });
-    lesEx.forEach((id) => pages.push({ t: 'oef', ex: id, blok: null, hoofdstuk: 'Extra oefenen', titel: 'Oefening' }));
-  }
-  themas.forEach((th, ti) => pages.push({ t: 'samenvatting', titel: 'Samenvatting: ' + (THEMA_NAMEN[th] || th), hoofdstuk: THEMA_NAMEN[th] || th, hn: themaNr[th], thema: th, toc: ti === 0 }));
+  chs.forEach((h, ti) => {
+    if (h.samenvatting && h.samenvatting.length) {
+      h.samenvatting.forEach((t) => zin('H' + h.hoofdstuk + ' samenvatting', t));
+      pages.push({ t: 'samenvatting', hn: h.hoofdstuk, hoofdstuk: h.titel, titel: 'Samenvatting: ' + h.titel, punten: h.samenvatting, toc: !pages.some((p) => p.t === 'samenvatting') });
+    }
+  });
   pages.push({ t: 'eindtest', titel: 'Eindtest les ' + les, toc: true });
   pages.forEach((p, i) => {
     if (p.t === 'oef') exLoc[p.ex] = { les, pagina: i + 1, nr: p.nr || null };
     (p.mini || []).forEach((id) => { exLoc[id] = { les, pagina: i + 1, nr: p.nr || null }; });
   });
-  boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t, nr: themaNr[t] })), pages };
+  boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: chs.map((h) => ({ id: 'h' + h.hoofdstuk, naam: h.titel, nr: h.hoofdstuk })), pages, leeg: chs.length === 0 };
 }
-const blokPagina = {};
-for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if (p.t === 'blok') (p.ids || [p.id]).forEach((id) => { blokPagina[id] = { les: +les, pagina: i + 1 }; }); });
+// oefeningen die nergens in het boek staan (waarschuwing, enkel in oefenbank)
+const losse = oefeningen.filter((o) => !gekoppeld.has(o.id) && hoofdstukken.length);
+if (losse.length) warn(losse.length + " oefening(en) niet aan een boekpagina gekoppeld (via 'theorieblokken'): enkel zichtbaar in de oefenbank, bv. " + losse.slice(0, 4).map((o) => o.id + '->' + o.theorieblok).join(', '));
 
 // afbeeldingen van blokken resolven + bronnen controleren
 for (const b of theorie) {

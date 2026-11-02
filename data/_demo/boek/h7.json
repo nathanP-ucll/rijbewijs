@@ -1,0 +1,76 @@
+{
+ "hoofdstuk": 7,
+ "titel": "Plaats op de weg",
+ "les": 3,
+ "intro": {
+  "tekst": "Een korte inleiding.",
+  "doelen": [
+   "Je kent de basis."
+  ]
+ },
+ "paragrafen": [
+  {
+   "nr": "7.1",
+   "titel": "Plaats op de weg",
+   "paginas": [
+    {
+     "id": "h7-1-1",
+     "titel": "Rechts rijden",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "plaats-rechts-rijden"
+     ]
+    },
+    {
+     "id": "h7-1-2",
+     "titel": "Autosnelweg",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "snelweg-autosnelweg-autoweg"
+     ]
+    }
+   ]
+  }
+ ],
+ "samenvatting": [
+  "Dit onthoud je van dit hoofdstuk."
+ ]
+}

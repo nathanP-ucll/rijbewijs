@@ -60,7 +60,7 @@
           el('h3', {}, b.titel),
           el('p', { class: 'muted' }, b.ondertitel),
           el('ul', { class: 'tag-list' }, themas.map(function (t) { return el('li', {}, t); })),
-          el('div', { class: 'lesson-meta' }, el('span', {}, b.pages.length + ' pagina’s'), nEx ? el('span', {}, nEx + ' oefeningen') : null, eind ? el('span', {}, 'Eindtest: ' + eind.score + '/' + eind.total) : null),
+          el('div', { class: 'lesson-meta' }, el('span', {}, b.pages.filter(function (q) { return q.t === 'pagina'; }).length + ' pagina’s'), nEx ? el('span', {}, nEx + ' oefeningen') : null, eind ? el('span', {}, 'Eindtest: ' + eind.score + '/' + eind.total) : null),
           el('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': 0, 'aria-valuemax': 100, 'aria-valuenow': p, 'aria-label': 'Voortgang les ' + l }, el('span', { class: 'progress-fill', style: 'width:' + p + '%' })),
           el('span', { class: 'lesson-cta' }, nd === 0 ? 'Begin met deze les' : nd >= b.pages.length ? 'Les herhalen' : 'Ga verder (' + p + '%)'))));
     });
@@ -252,14 +252,14 @@
         if (!chosen[l]) return;
         var b = C.boeken[l]; if (!b) return;
         var sec = el('section', { class: 'spiek-les' }, el('h2', {}, 'Les ' + l + ': ' + b.titel));
-        b.pages.forEach(function (p) {
-          if (p.t !== 'blok') return;
-          var bl = App.blokById(p.id); if (!bl) return;
-          var card = el('article', { class: 'spiek-blok' }, el('h3', {}, bl.titel));
+        var blokken = C.theorie.filter(function (x) { return x.les === l; }).map(function (x, i) { return [x, i]; })
+          .sort(function (p, q) { return ((C.themaNr[p[0].thema] || 99) - (C.themaNr[q[0].thema] || 99)) || (p[1] - q[1]); }).map(function (x) { return x[0]; });
+        blokken.forEach(function (bl) {
+          var card = el('article', { class: 'spiek-blok' }, el('h3', {}, App.clean(bl.titel)));
           var tab = compactRows(bl); if (tab) card.appendChild(tab);
           var ks = (bl.kaders || []).filter(function (k) { return KL[k.type]; });
           if (ks.length) card.appendChild(el('ul', { class: 'spiek-list' }, ks.map(function (k) {
-            var li = el('li', { class: 'sp-' + k.type }, el('span', { class: 'sp-tag' }, KL[k.type]), ' ', el('strong', {}, k.titel ? k.titel + ': ' : ''), el('span', { html: App.inline(k.tekst || '') }));
+            var li = el('li', { class: 'sp-' + k.type }, el('span', { class: 'sp-tag' }, KL[k.type]), ' ', el('strong', {}, k.titel ? App.clean(k.titel) + ': ' : ''), el('span', { html: App.inline(k.tekst || '') }));
             if (k.type === 'gewest' && k.gewest) li.appendChild(el('span', { class: 'sp-gewest' }, [['vlaanderen', 'VL'], ['wallonie', 'WAL'], ['brussel', 'BXL']].map(function (g) { return k.gewest[g[0]] ? el('span', {}, el('b', {}, g[1] + ' '), App.plain(k.gewest[g[0]]) + ' ') : null; })));
             return li;
           })));

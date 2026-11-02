@@ -1,0 +1,936 @@
+{
+  "hoofdstuk": 5,
+  "titel": "Voetgangers en fietsers",
+  "les": 2,
+  "intro": {
+    "tekst": "Voetgangers en fietsers hebben geen koetswerk dat hen beschermt. In dit hoofdstuk leer je hoe zij zich gedragen en hoe jij als bestuurder rekening met hen houdt.",
+    "doelen": [
+      "Je weet wie kwetsbaar is en waarom jij extra zorg draagt.",
+      "Je kent de regels voor het zebrapad en de fietsoversteekplaats.",
+      "Je let op voetgangers en fietsers voor je afslaat.",
+      "Je kent de zones waar voetgangers en fietsers voorgaan.",
+      "Je weet hoeveel afstand je houdt bij het voorbijrijden."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "5.1",
+      "titel": "Kwetsbare weggebruikers",
+      "paginas": [
+        {
+          "id": "h5-1-1",
+          "titel": "Wie is kwetsbaar?",
+          "intro": "Sommige weggebruikers hebben geen beschermend koetswerk.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Voetgangers.",
+                "Fietsers.",
+                "Bestuurders van tweewielige bromfietsen.",
+                "Jij brengt hen nooit in gevaar, ook niet als je zelf voorrang hebt."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "A23",
+                  "naam": "Plaats waar speciaal veel kinderen komen",
+                  "uitleg": "Hier zijn kinderen te verwachten, dus je bent extra alert.",
+                  "letop": "Dubbel voorzichtig."
+                }
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Jouw verantwoordelijkheid",
+              "tekst": "Naast alle andere regels geldt altijd dat je kwetsbare weggebruikers niet in gevaar brengt, ook niet als je zelf voorrang hebt."
+            }
+          ],
+          "theorieblokken": ["kwetsbaar-algemeen"]
+        },
+        {
+          "id": "h5-1-2",
+          "titel": "Step, rolstoel en fiets aan de hand",
+          "intro": "Sommige toestellen worden gelijkgesteld met voetgangers of fietsers.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Weggebruiker", "Telt als"],
+              "rijen": [
+                ["Step zonder motor, stapvoets", "Voetganger"],
+                ["Step zonder motor, sneller dan stapvoets", "Fietser"],
+                ["Elektrische step (max. 25 km/u)", "Fietser"],
+                ["Elektrische fiets tot 25 km/u", "Fietser"],
+                ["Persoon met beperkte mobiliteit op eigen toestel, stapvoets", "Voetganger"],
+                ["Wie een fiets of bromfiets aan de hand leidt", "Voetganger"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Wat voor voetgangers en fietsers geldt, geldt ook voor hen.",
+                "Dus ook jouw plichten tegenover hen gelden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Elektrische step",
+              "tekst": "Een elektrische step telt als fietser, niet als voetganger."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h5-1-3",
+          "titel": "Kinderen, ouderen en mensen met een beperking",
+          "intro": "Bij deze groepen ben je dubbel voorzichtig.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Dubbel voorzichtig bij kinderen, bejaarden en personen met een handicap.",
+                "Zeker als hun aanwezigheid te voorzien is, zoals bij een school.",
+                "Vertraag en stop zo nodig.",
+                "Een groep onder leiding of toezicht doorbreek je niet.",
+                "Bij een stilstaande bus of tram met reizigers matig je je snelheid."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Witte of gele stok",
+              "tekst": "Wie een witte of gele stok draagt, is blind of slechtziend, dus vertraag je en stop je zo nodig."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Kinderen kunnen plots tussen geparkeerde auto's de rijbaan op rennen. Rij daarom traag in de buurt van scholen en speelplaatsen."
+            }
+          ],
+          "theorieblokken": ["voetgangers-kinderen-handicap"]
+        }
+      ]
+    },
+    {
+      "nr": "5.2",
+      "titel": "Voetgangers",
+      "paginas": [
+        {
+          "id": "h5-2-1",
+          "titel": "Waar loopt een voetganger?",
+          "intro": "Een voetganger gebruikt de delen van de weg die voor hem bestemd zijn.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Volgorde", "Deel van de weg"],
+              "rijen": [
+                ["1", "Trottoir, of een deel met een voetgangersbord"],
+                ["2", "Verhoogde berm"],
+                ["3", "Gelijkgrondse berm"],
+                ["4", "Parkeerstrook of zijdelingse strook"],
+                ["5", "Fietspad"],
+                ["6", "Rijbaan, als laatste keuze"]
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "D11",
+                  "naam": "Verplichte weg voor voetgangers",
+                  "uitleg": "Voetgangers volgen dit deel van de weg."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Op het fietspad laat de voetganger fietsers voorgaan.",
+                "Op de rijbaan loopt hij zo dicht mogelijk bij de rand.",
+                "Een groep met leider mag de rijbaan volgen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Links lopen op de rijbaan",
+              "tekst": "Voetgangers lopen links op de rijbaan, zodat ze het verkeer zien aankomen, en alleen om veiligheidsredenen rechts."
+            }
+          ],
+          "theorieblokken": ["voetganger-plaats-op-de-weg"]
+        },
+        {
+          "id": "h5-2-2",
+          "titel": "Veilig oversteken",
+          "intro": "Een voetganger steekt de rijbaan veilig en recht over.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Steek haaks op de weg over.",
+                "Blijf niet nodeloos op de rijbaan staan.",
+                "Zebrapad op minder dan ongeveer 20 meter? Dan gebruik je het.",
+                "Tram of trein nadert? Dan steek je niet over, tenzij een licht het toelaat."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat doet de voetganger?"],
+              "rijen": [
+                ["Voetgangerslichten", "Wachten op groen. Rood is niet de rijbaan op."],
+                ["Agent of gewone verkeerslichten", "Hun bevelen of lichten volgen."],
+                ["Geen regeling", "Voorzichtig oversteken en op voertuigen letten."]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Ongeveer 20 meter",
+              "tekst": "Binnen ongeveer 20 meter van een zebrapad moet je dat gebruiken, want de afstand is sinds 2019 teruggebracht van 30 naar 20 meter."
+            }
+          ],
+          "theorieblokken": ["voetganger-oversteken"]
+        }
+      ]
+    },
+    {
+      "nr": "5.3",
+      "titel": "Het zebrapad",
+      "paginas": [
+        {
+          "id": "h5-3-1",
+          "titel": "Wat is een zebrapad?",
+          "intro": "Een zebrapad is een oversteekplaats voor voetgangers.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Het wordt afgebakend door witte banden.",
+                "Die lopen evenwijdig met de as van de rijbaan.",
+                "Vaak staat er een bord bij."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F49",
+                  "naam": "Oversteekplaats voor voetgangers",
+                  "uitleg": "Dit bord toont waar het zebrapad ligt."
+                },
+                {
+                  "afb": "A21",
+                  "naam": "Waarschuwing: oversteekplaats voor voetgangers",
+                  "uitleg": "Dit bord waarschuwt dat je een zebrapad nadert.",
+                  "letop": "Wees alert."
+                }
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-zebrapad",
+              "bijschrift": "De auto nadert met matige snelheid en laat de voetganger voorgaan.",
+              "punten": [
+                "De voetganger staat op het punt het zebrapad op te stappen.",
+                "De auto remt en verleent voorrang."
+              ]
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h5-3-2",
+          "titel": "Het zebrapad en jij als bestuurder",
+          "intro": "Wat je moet doen, hangt af van de regeling op de plaats.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat doe jij?"],
+              "rijen": [
+                ["Zebrapad zonder agent of licht", "Matig naderen en voorrang geven aan voetgangers erop of ertegen."],
+                ["Voetganger is al bezig, jouw licht wordt groen", "Hem met normale gang laten uitlopen."],
+                ["Licht of agent sluit jouw richting", "Stoppen voor het zebrapad."]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Wees extra attent bij een bus of grote auto voor het zebrapad.",
+                "Zij kunnen voetgangers aan het zicht onttrekken."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Voetgangers niet laten voorgaan",
+              "tekst": "Wie voetgangers op een zebrapad niet laat voorgaan, brengt hen in gevaar."
+            }
+          ],
+          "theorieblokken": ["zebrapad-voorrang-bestuurder"]
+        },
+        {
+          "id": "h5-3-3",
+          "titel": "Niet voorbijrijden en niet stilstaan",
+          "intro": "Rond een zebrapad gelden extra verboden.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-stilstaanverbod-zebrapad",
+              "bijschrift": "Op het zebrapad en op minder dan 5 meter ervoor mag je niet stilstaan.",
+              "punten": [
+                "De rode zones zijn verboden om te stoppen of te parkeren.",
+                "Verder weg dan 5 meter mag het wel."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Stilstaan en parkeren is verboden op het zebrapad.",
+                "Dat geldt ook op de rijbaan binnen 5 meter ervoor.",
+                "Rij een zebrapad niet op als je er waarschijnlijk moet stilstaan.",
+                "Stopt je voorligger voor een zebrapad? Dan haal je hem niet links in."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Voorbijrijden is geen oplossing",
+              "tekst": "Als een voertuig voor een zebrapad stopt, stopt het misschien voor een voetganger die jij niet ziet, dus rij er niet langs."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h5-3-4",
+          "titel": "Zebrapad of fietsoversteekplaats?",
+          "intro": "Dit zijn twee verschillende oversteekplaatsen.",
+          "blokken": [
+            {
+              "type": "vergelijk",
+              "titel": "Twee oversteekplaatsen",
+              "links": {
+                "afb": "F49",
+                "tekst": "Zebrapad met brede witte banden: voor voetgangers."
+              },
+              "rechts": {
+                "afb": "F50",
+                "tekst": "Fietsoversteekplaats met onderbroken witte blokjes: voor fietsers."
+              },
+              "verschil": "Op het zebrapad hebben voetgangers voorrang, op de fietsoversteekplaats geeft de markering zelf geen voorrang."
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Een rijdende fietser heeft op een zebrapad geen voorrang.",
+                "Wil een fietser voorrang? Dan stapt hij af en leidt zijn fiets.",
+                "Dan is hij voetganger.",
+                "Een fietser die voetgangers hindert op een zebrapad, laat hen voorgaan."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Examenvraag",
+              "tekst": "Let op het onderscheid tussen een oversteekplaats voor voetgangers en een oversteekplaats voor fietsers."
+            }
+          ],
+          "theorieblokken": ["zebrapad-fietsers-en-steps"]
+        }
+      ]
+    },
+    {
+      "nr": "5.4",
+      "titel": "Afslaan en portier openen",
+      "paginas": [
+        {
+          "id": "h5-4-1",
+          "titel": "Afslaan: voetgangers en fietsers gaan voor",
+          "intro": "Wie afslaat, geeft voorrang aan voetgangers en fietsers.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-afslaan-voetgangers",
+              "bijschrift": "De auto wacht op de fietser en de voetganger.",
+              "punten": [
+                "Voetgangers die de zijstraat oversteken, gaan eerst.",
+                "Fietsers op het fietspad dat jij kruist, gaan ook voor."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Dat geldt ook zonder zebrapad.",
+                "Je geeft ook voorrang bij een inrit die een fietspad of trottoir kruist.",
+                "Rechts afslaan: richtingaanwijzer, dicht bij de rechterrand, matige snelheid."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Fietser rechts van jou",
+              "tekst": "Een fietser die rechtdoor rijdt op het fietspad, heeft voorrang op de auto die rechts afslaat, dus kijk in je rechterspiegel en over je schouder."
+            }
+          ],
+          "theorieblokken": ["afslaan-voorrang-voetgangers"]
+        },
+        {
+          "id": "h5-4-2",
+          "titel": "Kijk goed rondom je voertuig",
+          "intro": "Een bestuurder ziet niet alles, zeker niet naast zijn voertuig.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-dode-hoek",
+              "bijschrift": "De oranje zones zijn plekken waar de bestuurder slecht ziet. De tekening is schematisch.",
+              "punten": [
+                "Een fietser naast een vrachtwagen zit in zo'n zone.",
+                "De chauffeur ziet hem daar niet goed."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Elk voertuig heeft zones waar je iemand niet goed ziet.",
+                "Controleer je spiegels en kijk over je schouder.",
+                "Doe dat voor je rechts afslaat of van rijstrook verandert.",
+                "Wees extra alert op fietsers en voetgangers aan je rechterkant."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Twee keer kijken",
+              "tekst": "Spiegel en schouderblik samen dekken het grootste deel van wat je niet ziet."
+            }
+          ],
+          "theorieblokken": ["dode-hoek"]
+        },
+        {
+          "id": "h5-4-3",
+          "titel": "Een portier openen",
+          "intro": "Een open portier kan een fietser of voetganger zwaar verwonden.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-portier",
+              "bijschrift": "De fietser zou tegen het open portier botsen.",
+              "punten": [
+                "Kijk eerst in je spiegel.",
+                "Kijk ook over je schouder.",
+                "Open dan pas het portier."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Je mag geen portier openen of open laten staan zonder te controleren.",
+                "Dat geldt ook voor in- en uitstappen.",
+                "Let vooral op voetgangers en bestuurders van tweewielers."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Plots een deur openen",
+              "tekst": "Een deur openen zonder te kijken kan een fietser doen vallen en is verboden."
+            }
+          ],
+          "theorieblokken": ["portier-openen"]
+        }
+      ]
+    },
+    {
+      "nr": "5.5",
+      "titel": "Zones voor voetgangers",
+      "paginas": [
+        {
+          "id": "h5-5-1",
+          "titel": "De voetgangerszone",
+          "intro": "In een voetgangerszone zijn voetgangers de baas.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F103",
+                  "naam": "Begin van een voetgangerszone",
+                  "uitleg": "Vanaf hier is het een zone voor voetgangers."
+                },
+                {
+                  "afb": "F105",
+                  "naam": "Einde van een voetgangerszone",
+                  "uitleg": "Hier eindigt de voetgangerszone."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Alleen voetgangers hebben toegang, met enkele uitzonderingen.",
+                "Voetgangers mogen de volledige breedte gebruiken.",
+                "Wie er mag rijden, doet dat stapvoets.",
+                "Parkeren is verboden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Laat voetgangers voorgaan",
+              "tekst": "Wie in de zone mag rijden, laat voetgangers voorgaan en stopt zo nodig."
+            }
+          ],
+          "theorieblokken": ["voetgangerszone-speelstraat-woonerf"]
+        },
+        {
+          "id": "h5-5-2",
+          "titel": "Het woonerf",
+          "intro": "In een woonerf is er plaats om te wonen, te lopen en te spelen.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F12a",
+                  "naam": "Begin van een woonerf of erf",
+                  "uitleg": "Vanaf hier gelden de regels van een woonerf.",
+                  "letop": "Maximum 20 km/u."
+                },
+                {
+                  "afb": "F12b",
+                  "naam": "Einde van een woonerf of erf",
+                  "uitleg": "Hier eindigt het woonerf."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Voetgangers mogen de hele breedte gebruiken.",
+                "Spelen is toegestaan.",
+                "Bestuurders zijn dubbel voorzichtig bij kinderen.",
+                "Parkeren mag alleen op aangeduide plaatsen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Snelheden onthouden",
+              "tekst": "In een woonerf rij je maximaal 20 km/u, in een voetgangerszone en speelstraat rij je stapvoets."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h5-5-3",
+          "titel": "Speelstraat, schoolstraat en gedeelde wegen",
+          "intro": "Op deze wegen gaan voetgangers en spelers voor.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Zone", "Snelheid", "Wie gaat voor?"],
+              "rijen": [
+                ["Speelstraat", "Stapvoets", "Spelers; hele breedte is voor spel."],
+                ["Schoolstraat", "Stapvoets", "Voetgangers en fietsers."],
+                ["Weg voor voetgangers, fietsers en ruiters", "Max. 30 km/u", "Gebruikers mogen elkaar niet hinderen."]
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F99a",
+                  "naam": "Voorbehouden voor voetgangers, fietsers en ruiters",
+                  "uitleg": "Alleen de afgebeelde weggebruikers mogen hier komen."
+                },
+                {
+                  "afb": "F101a",
+                  "naam": "Einde van de voorbehouden weg",
+                  "uitleg": "Hier eindigt de voorbehouden weg."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Spelende personen tellen als voetgangers.",
+                "Toegang in een speelstraat hebben alleen bewoners, vergunningen en fietsers.",
+                "Fietsers stappen zo nodig af."
+              ]
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "5.6",
+      "titel": "Fietsers",
+      "paginas": [
+        {
+          "id": "h5-6-1",
+          "titel": "Het fietspad",
+          "intro": "Een fietspad is voorbehouden voor fietsen en tweewielige bromfietsen klasse A.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "D7",
+                  "naam": "Verplicht fietspad",
+                  "uitleg": "Fietsers en bromfietsen A volgen dit fietspad."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Een fietspad is ook aangeduid met twee onderbroken witte lijnen.",
+                "Ligt het fietspad rechts in je rijrichting? Dan volg je het.",
+                "Ligt het links? Dan volg je het niet.",
+                "Stilstaan en parkeren op het fietspad is verboden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Mag je ervan af?",
+              "tekst": "Verlaten mag om af te slaan, in te halen of te omzeilen."
+            }
+          ],
+          "theorieblokken": ["fietspad-verplichting"]
+        },
+        {
+          "id": "h5-6-2",
+          "titel": "Fietsen zonder fietspad",
+          "intro": "Is er geen fietspad, dan gelden andere regels.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Fietsers volgen de rijbaan, dicht bij de rechterrand.",
+                "Buiten de bebouwde kom mogen ze ook het trottoir of de verhoogde berm volgen.",
+                "Kinderen onder 10 jaar mogen altijd het trottoir of de verhoogde berm volgen.",
+                "Twee naast elkaar mag, behalve als kruisen niet mogelijk is.",
+                "Met een aanhangwagen rijd je altijd achter elkaar."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Wat telt als fiets?",
+              "tekst": "Drie- en vierwielers die niet breder zijn dan 1 meter, zoals een bakfiets, worden met fietsen gelijkgesteld."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Twee fietsers rijden naast elkaar op de rijbaan. Komt er een auto aan en kan je niet kruisen, dan rijden ze achter elkaar."
+            }
+          ],
+          "theorieblokken": ["fietsers-zonder-fietspad"]
+        },
+        {
+          "id": "h5-6-3",
+          "titel": "De fietsoversteekplaats",
+          "intro": "Op deze oversteekplaats steken fietsers de rijbaan over.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F50",
+                  "naam": "Oversteekplaats voor fietsers",
+                  "uitleg": "Hier steken fietsers de rijbaan over.",
+                  "letop": "De markering geeft zelf geen voorrang."
+                },
+                {
+                  "afb": "A25",
+                  "naam": "Waarschuwing: oversteekplaats voor fietsers",
+                  "uitleg": "Dit bord waarschuwt dat je zo'n oversteekplaats nadert."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De fietser gaat er voorzichtig op, met aandacht voor voertuigen.",
+                "Jij nadert met matige snelheid.",
+                "Fietsers die al oversteken, laat je hun oversteek afmaken.",
+                "Stilstaan en parkeren is verboden op de oversteekplaats en binnen 5 meter ervoor.",
+                "Een voorligger die stopt, haal je niet links in."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Blokjes geven niet automatisch voorrang",
+              "tekst": "Op een fietsoversteekplaats met onderbroken witte vierkantjes komt de voorrang van de kruispuntregels, niet van de markering."
+            }
+          ],
+          "theorieblokken": ["fietsers-voorrang-fietspad-oversteek"]
+        },
+        {
+          "id": "h5-6-4",
+          "titel": "Fietsers op de rotonde",
+          "intro": "Op een rotonde hebben fietsers geen eigen voorrangsregel.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-rotonde",
+              "bijschrift": "Wie op de rotonde rijdt, heeft voorrang op wie oprijdt.",
+              "punten": [
+                "Auto 2 verleent voorrang aan auto 1.",
+                "Dat geldt ook voor fietsers."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat geldt?"],
+              "rijen": [
+                ["Je rijdt al op de rotonde", "Voorrang op wie oprijdt."],
+                ["Je rijdt de rotonde op", "Richtingaanwijzer niet verplicht."],
+                ["Je verlaat de rotonde", "Richtingaanwijzer verplicht."]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Fietser naast je",
+              "tekst": "Een fietser die op de rotonde naast je rijdt, zit bij het verlaten snel in je dode hoek, dus kijk in je spiegel en over je schouder."
+            }
+          ],
+          "theorieblokken": ["fietsers-rotonde"]
+        },
+        {
+          "id": "h5-6-5",
+          "titel": "De fietszone",
+          "intro": "In een fietszone gaan fietsers voor.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F111",
+                  "naam": "Begin van een fietszone",
+                  "uitleg": "Op oudere borden staat hier nog fietsstraat.",
+                  "letop": "Maximum 30 km/u."
+                },
+                {
+                  "afb": "F113",
+                  "naam": "Einde van een fietszone",
+                  "uitleg": "Hier eindigt de fietszone."
+                }
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-fietszone",
+              "bijschrift": "De auto blijft achter de fietsers en haalt hen niet in.",
+              "punten": [
+                "Eenrichting: fietsers gebruiken de hele breedte.",
+                "Tweerichting: fietsers gebruiken de rechterhelft.",
+                "Motorvoertuigen zijn toegelaten."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Niet inhalen",
+              "tekst": "In een fietszone mag een motorvoertuig een fietser nooit inhalen, ook niet als er genoeg plaats is."
+            }
+          ],
+          "theorieblokken": ["fietszone-fietsstraat"]
+        }
+      ]
+    },
+    {
+      "nr": "5.7",
+      "titel": "Afstand, bromfietsen en ruiters",
+      "paginas": [
+        {
+          "id": "h5-7-1",
+          "titel": "Afstand houden bij het voorbijrijden",
+          "intro": "Je houdt zijdelings genoeg afstand tot fietsers en voetgangers.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-zijdelingse-afstand",
+              "bijschrift": "Links binnen de bebouwde kom, rechts erbuiten. De afstanden zijn niet op schaal.",
+              "punten": [
+                "Je meet de afstand tot de fietser, niet tot het fietspad.",
+                "Is er geen plaats voor die afstand? Dan haal je niet in."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Plaats", "Minimale afstand"],
+              "rijen": [
+                ["Binnen de bebouwde kom", "1 meter"],
+                ["Buiten de bebouwde kom", "1,5 meter"],
+                ["Hindernis voor voetgangers op de rijbaan", "1 meter vrije ruimte"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Niet haalbaar? Stapvoets.",
+              "tekst": "Kun je de afstand tot voetgangers op de rijbaan niet houden, dan rij je stapvoets en stop je zo nodig."
+            }
+          ],
+          "theorieblokken": ["inhalen-fietser-afstand", "voetgangers-afstand-hindernis"]
+        },
+        {
+          "id": "h5-7-2",
+          "titel": "Soorten bromfietsen",
+          "intro": "Niet elke tweewieler met een motor is hetzelfde.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Voertuig", "Snelheid", "Telt als"],
+              "rijen": [
+                ["Gewone elektrische fiets", "Tot 25 km/u", "Fiets"],
+                ["Bromfiets klasse A", "Max. 25 km/u", "Bromfiets A"],
+                ["Bromfiets klasse B", "Max. 45 km/u", "Bromfiets B"],
+                ["Speed pedelec", "Ondersteuning tot 45 km/u", "Bromfiets"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De minimumleeftijd voor bromfietsen is 16 jaar.",
+                "Een helm is verplicht voor bromfietsen.",
+                "Voor een speed pedelec heb je minstens rijbewijs AM nodig.",
+                "Een speed pedelec heeft een SP-plaat."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Helm bij speed pedelec",
+              "tekst": "Op een speed pedelec draag je een bromfietshelm of een fietshelm die slapen en achterhoofd beschermt."
+            }
+          ],
+          "theorieblokken": ["bromfiets-klassen-speed-pedelec"]
+        },
+        {
+          "id": "h5-7-3",
+          "titel": "Bromfietsen op het fietspad",
+          "intro": "De snelheidsbeperking van de weg bepaalt of het fietspad mag of moet.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Voertuig", "Weg tot 50 km/u", "Weg boven 50 km/u"],
+              "rijen": [
+                ["Bromfiets A", "Fietspad volgen", "Fietspad volgen"],
+                ["Bromfiets B", "Mag het fietspad volgen", "Moet het volgen"],
+                ["Speed pedelec", "Mag het fietspad volgen", "Moet het volgen"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Is er geen bruikbaar fietspad, dan volg je de rijbaan.",
+                "Je mag het fietspad verlaten om af te slaan, in te halen of een hindernis te omzeilen.",
+                "Je brengt andere gebruikers niet in gevaar."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Samengevat",
+              "tekst": "Tot en met 50 km/u mag het, erboven moet het."
+            }
+          ],
+          "theorieblokken": ["bromfiets-fietspad-gebruik"]
+        },
+        {
+          "id": "h5-7-4",
+          "titel": "Ruiters en dieren",
+          "intro": "Ook ruiters en dierenbestuurders zijn weggebruikers.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "D13",
+                  "naam": "Verplichte weg voor ruiters",
+                  "uitleg": "Ruiters volgen dit deel van de weg."
+                },
+                {
+                  "afb": "C15",
+                  "naam": "Verboden toegang voor ruiters",
+                  "uitleg": "Ruiters mogen hier niet door."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Ruiters volgen de rijbaan.",
+                "Twee naast elkaar mag.",
+                "Binnen de bebouwde kom is galopperen verboden.",
+                "Bestuurders van dieren houden hun dieren onder controle."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Paarden zijn schrikachtig",
+              "tekst": "Rijd langzaam voorbij, geef veel ruimte en toeter niet onnodig."
+            }
+          ],
+          "theorieblokken": ["ruiters-en-dieren"]
+        }
+      ]
+    },
+    {
+      "nr": "5.8",
+      "titel": "Vooruitblik",
+      "paginas": [
+        {
+          "id": "h5-8-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 komen er nieuwe codes voor de openbare weg.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Nu geldt nog het huidige verkeersreglement.",
+                "Vanaf 1 juni 2027 vervangt een federale code het huidige reglement.",
+                "Daarnaast komt er een regionale code per gewest.",
+                "De regels in dit hoofdstuk zijn die van het huidige reglement."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Gewest", "Nieuwe code"],
+              "rijen": [
+                ["Vlaanderen", "Vlaams verkeersreglement, afgestemd op de federale code."],
+                ["Brussel", "Brusselse code van de openbare weg."],
+                ["Wallonië", "Waalse code, nog niet gepubliceerd bij de laatste controle."]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Waarschuwing voor wie nu leert",
+              "tekst": "Voor de examenvragen vandaag geldt nog het huidige reglement, dus controleer vlak voor je examen welke code van toepassing is."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Voetgangers en fietsers zijn kwetsbaar: breng hen nooit in gevaar.",
+    "Dubbel voorzichtig bij kinderen, ouderen en mensen met een beperking.",
+    "Zebrapad: matig naderen, voetgangers laten voorgaan, niet stilstaan.",
+    "Rijdende fietsers hebben op het zebrapad geen voorrang.",
+    "Afslaan: voorrang aan voetgangers en fietsers, kijk in spiegel en over je schouder.",
+    "Open een portier pas na te kijken.",
+    "Voorbijrijden: 1 meter binnen en 1,5 meter buiten de bebouwde kom.",
+    "Fietszone, woonerf en voetgangerszone: voetgangers en fietsers gaan voor."
+  ]
+}

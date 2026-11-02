@@ -1,0 +1,76 @@
+{
+ "hoofdstuk": 3,
+ "titel": "Voorrang en kruispunten",
+ "les": 2,
+ "intro": {
+  "tekst": "Een korte inleiding.",
+  "doelen": [
+   "Je kent de basis."
+  ]
+ },
+ "paragrafen": [
+  {
+   "nr": "3.1",
+   "titel": "Voorrang en kruispunten",
+   "paginas": [
+    {
+     "id": "h3-1-1",
+     "titel": "Rangorde",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "voorrang-rangorde"
+     ]
+    },
+    {
+     "id": "h3-1-2",
+     "titel": "Verkeerslichten",
+     "intro": "Kort en duidelijk.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Eerste punt.",
+        "Tweede punt."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Regel",
+       "tekst": "Dit is de belangrijkste regel van de pagina."
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een kort voorbeeld uit het verkeer."
+      }
+     ],
+     "theorieblokken": [
+      "lichten-driekleurig"
+     ]
+    }
+   ]
+  }
+ ],
+ "samenvatting": [
+  "Dit onthoud je van dit hoofdstuk."
+ ]
+}

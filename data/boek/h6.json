@@ -1,0 +1,582 @@
+{
+  "hoofdstuk": 6,
+  "titel": "Openbaar vervoer",
+  "les": 2,
+  "intro": {
+    "tekst": "Trams, bussen en treinen delen de weg met jou. In dit hoofdstuk leer je welke regels daarvoor gelden.",
+    "doelen": [
+      "Je leert hoe je je gedraagt bij een tram en welke voorrang die heeft.",
+      "Je leert wat de busstrook en de overrijdbare bedding zijn en wie erop mag.",
+      "Je leert wat je doet bij een halte en bij een schoolbus.",
+      "Je leert veilig een overweg te naderen en wat je doet bij pech."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "6.1",
+      "titel": "De tram",
+      "paginas": [
+        {
+          "id": "h6-1-1",
+          "titel": "Tramsporen op de weg",
+          "intro": "Een tram rijdt op sporen, en die liggen op twee manieren op de weg.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Sporen in de rijbaan: de tram deelt de weg met jou.",
+                "Sporen buiten de rijbaan: de tram heeft een eigen bedding.",
+                "Op sporen buiten de rijbaan rijden is voor jou verboden.",
+                "Sta je op de sporen, ga er dan zo snel mogelijk af."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "A49",
+                  "naam": "Kruising met tramsporen in de rijbaan",
+                  "uitleg": "Het bord waarschuwt dat er sporen in de rijbaan liggen.",
+                  "letop": "Let op de tram, ook als je hem niet ziet."
+                }
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "De tram zelf volgt andere regels",
+              "tekst": "Voor jou gelden de regels over voorrang, inhalen, kruisen en parkeren."
+            }
+          ],
+          "theorieblokken": ["openbaar-spoorvoertuigen-voorrang"]
+        },
+        {
+          "id": "h6-1-2",
+          "titel": "De tram heeft voorrang",
+          "intro": "Spoorvoertuigen hebben voorrang op alle andere weggebruikers.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-tram-voorrang",
+              "bijschrift": "De auto laat de tram eerst passeren, ook als die van links komt.",
+              "punten": [
+                "De voorrang geldt voor iedereen op de weg.",
+                "Ook een stilstaande tram kan zo weer vertrekken.",
+                "Zit jij op de sporen, dan maak je ze vrij."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Tram heeft voorrang",
+              "tekst": "Je wacht niet op een tram die al aankomt, maar je maakt de sporen vrij."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je staat in de file en je auto staat half op de sporen. Een tram nadert. Rij door of zet je voertuig weg, zodat de tram kan passeren."
+            }
+          ],
+          "theorieblokken": ["openbaar-spoorvoertuigen-voorrang"]
+        },
+        {
+          "id": "h6-1-3",
+          "titel": "Een tram inhalen of kruisen",
+          "intro": "Een tram in de rijbaan haal je rechts in, en je kruist hem ook rechts.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-tram-inhalen-rechts",
+              "bijschrift": "Een tram haal je rechts in, ook als hij stilstaat.",
+              "punten": [
+                "Rechts inhalen, ook bij een tram die stilstaat.",
+                "Links inhalen mag pas als rechts echt niet kan."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat doe je?"],
+              "rijen": [
+                ["Tram inhalen in de rijbaan", "Rechts inhalen"],
+                ["Tram kruisen in de rijbaan", "Rechts kruisen"],
+                ["Rechts kan niet (te smal, stilstaand voertuig, vast obstakel)", "Links mag, zonder iemand te hinderen"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Links alleen als rechts niet kan",
+              "tekst": "Links langs de tram mag enkel als rechts niet kan en je niemand hindert of in gevaar brengt."
+            }
+          ],
+          "theorieblokken": ["openbaar-spoorvoertuigen-voorrang"]
+        },
+        {
+          "id": "h6-1-4",
+          "titel": "Tramlichten",
+          "intro": "Trams hebben eigen lichten: witte tekens op een zwarte achtergrond.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Ze bestaan uit balken, cirkels en driehoeken.",
+                "Ze gelden voor trams en voertuigen van het openbaar vervoer.",
+                "Jij volgt de gewone driekleurige verkeerslichten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Teken", "Betekenis voor de tram"],
+              "rijen": [
+                ["Horizontale balk", "Zoals rood: stoppen"],
+                ["Cirkel", "Zoals oranje: stoppen, tenzij dat niet meer veilig kan"],
+                ["Omgekeerde driehoek", "Zoals groen: doorrijden toegelaten"],
+                ["Verticale balk", "Enkel rechtdoor rijden toegelaten"],
+                ["Schuine balk", "Enkel rijden in de richting van de balk"],
+                ["Knipperende cirkel", "Zoals oranje knipperlicht"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Verwar tramlichten niet met je eigen licht",
+              "tekst": "Een witte horizontale balk is een stopsein voor de tram en zegt niets over jouw verkeerslicht."
+            }
+          ],
+          "theorieblokken": ["openbaar-tramlichten"]
+        }
+      ]
+    },
+    {
+      "nr": "6.2",
+      "titel": "Bus en busstrook",
+      "paginas": [
+        {
+          "id": "h6-2-1",
+          "titel": "Busstrook of overrijdbare bedding",
+          "intro": "Twee stroken zijn voorbehouden aan het openbaar vervoer, en je herkent ze aan de streep.",
+          "blokken": [
+            {
+              "type": "vergelijk",
+              "titel": "Twee stroken voor het openbaar vervoer",
+              "links": {
+                "afb": "F17",
+                "tekst": "Busstrook: onderbroken brede witte streep."
+              },
+              "rechts": {
+                "afb": "F18",
+                "tekst": "Overrijdbare bedding: doorlopende brede witte streep."
+              },
+              "verschil": "Onderbroken streep is de busstrook, doorlopende streep is de overrijdbare bedding."
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Beide stroken zijn voor trams en bussen van geregelde diensten.",
+                "Soms staat er een dambordmarkering van witte vierkanten.",
+                "Beide maken geen deel meer uit van de rijbaan."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Zonder bord geen toegang",
+              "tekst": "Zonder symbool, woord of onderbord mag buiten bus en tram niemand op deze stroken."
+            }
+          ],
+          "theorieblokken": ["openbaar-busstrook", "openbaar-bob", "openbaar-borden-overzicht"]
+        },
+        {
+          "id": "h6-2-2",
+          "titel": "Wie mag op de busstrook?",
+          "intro": "Bus en tram mogen altijd op de busstrook, andere voertuigen enkel als het bord het zegt.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Voertuig", "Toegang"],
+              "rijen": [
+                ["Bus en tram van geregelde diensten", "Altijd"],
+                ["Taxi", "Met het woord TAXI op bord of onderbord"],
+                ["Fiets", "Met fietssymbool op bord of onderbord"],
+                ["Bromfiets", "Met bromfietssymbool op bord of onderbord"],
+                ["Motorfiets", "Met motorsymbool op bord of onderbord"],
+                ["Gewone personenauto", "Nooit"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Ook schoolvervoer mag erop als het bord dat toont.",
+                "Een schoolvoertuig draagt dan zelf een bord voor en achter.",
+                "Fietsers op de busstrook rijden achter elkaar.",
+                "Voor taxi's en schoolvervoer geldt nog een tijdelijke overgangsregel."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Lees bord en onderbord goed",
+              "tekst": "Staat er alleen een fiets, dan mogen bromfietsen en motorfietsen er niet op."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je ziet een busstrook met een onderbord met een fiets. Een fietser mag erop, jij met je auto niet."
+            }
+          ],
+          "theorieblokken": ["openbaar-busstrook"]
+        },
+        {
+          "id": "h6-2-3",
+          "titel": "De overrijdbare bedding",
+          "intro": "Een overrijdbare bedding is een strook voor tram en bus, afgebakend met een doorlopende streep.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F18",
+                  "naam": "Bijzondere overrijdbare bedding",
+                  "uitleg": "Strook voor tram en bus, geen deel van de rijbaan.",
+                  "letop": "Andere voertuigen mogen er enkel op met een aanduiding op het bord."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Wie erop rijdt, volgt de bijzondere lichten voor het openbaar vervoer.",
+                "Taxi's en fietsers mogen er alleen op als het bord dat zegt.",
+                "Op de dambordmarkering stilstaan of parkeren is verboden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Altijd toegelaten, ook voor jou",
+              "tekst": "Je mag er kort op om een hindernis te omzeilen, om de strook te dwarsen op een kruispunt of om een eigendom in of uit te rijden."
+            }
+          ],
+          "theorieblokken": ["openbaar-bob"]
+        },
+        {
+          "id": "h6-2-4",
+          "titel": "Kort op de busstrook: vier uitzonderingen",
+          "intro": "Ook als je er niet op mag rijden, mag je de busstrook in vier gevallen even gebruiken.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-busstrook-rechtsaf",
+              "bijschrift": "Je slaat rechts af en rijdt de busstrook pas vlak voor het kruispunt op.",
+              "punten": [
+                "Blijf op de gewone rijstrook zolang de busstrook niet nodig is."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Een hindernis op de rijbaan omzeilen.",
+                "Van richting veranderen vlak bij een kruispunt.",
+                "De busstrook dwarsen op een kruispunt.",
+                "Een eigendom of parkeerplaats langs de strook in of uit rijden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Enkel deze vier gevallen",
+              "tekst": "Andere redenen om op de busstrook te rijden zijn er niet."
+            }
+          ],
+          "theorieblokken": ["openbaar-busstrook-afslaan", "openbaar-busstrook"]
+        },
+        {
+          "id": "h6-2-5",
+          "titel": "Een bus die vertrekt uit zijn halte",
+          "intro": "In de bebouwde kom laat je een bus uit zijn halte vertrekken.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-bus-verlaat-halte",
+              "bijschrift": "De bus zet zijn richtingaanwijzer links aan, jij vertraagt en laat hem vertrekken.",
+              "punten": [
+                "Vertraag en stop zo nodig.",
+                "De buschauffeur hoeft jou dan geen voorrang te geven."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Deze regel geldt enkel binnen de bebouwde kom.",
+                "Hij geldt enkel voor bussen en trolleybussen.",
+                "Je rijdt in dezelfde richting als de bus."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Richtingaanwijzer bus aan",
+              "tekst": "Zet de bus zijn richtingaanwijzer aan, dan vertraag je en laat je hem vertrekken."
+            }
+          ],
+          "theorieblokken": ["openbaar-bushalte-vertrek"]
+        }
+      ]
+    },
+    {
+      "nr": "6.3",
+      "titel": "Haltes en schoolvervoer",
+      "paginas": [
+        {
+          "id": "h6-3-1",
+          "titel": "Langs een stilstaande tram of bus",
+          "intro": "Bij een halte stappen reizigers in en uit, dus pas je je gedrag aan.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-tramhalte-zonder-vluchtheuvel",
+              "bijschrift": "Zonder vluchtheuvel stop je aan de kant waar de reizigers in- of uitstappen.",
+              "punten": [
+                "Rij je langs een stilstaande tram of bus, dan matig je je snelheid.",
+                "Vertrek pas weer met matige snelheid."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Er is een vluchtheuvel: vertraag en let op reizigers.",
+                "Er is geen vluchtheuvel: stop aan de kant van de reizigers.",
+                "Dit geldt ook voor autocars en minibussen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Zonder vluchtheuvel: stop",
+              "tekst": "Je stopt zolang reizigers in- of uitstappen en vertrekt pas rustig als iedereen veilig is."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een reiziger stapt uit een tram en loopt zonder te kijken de weg op. Rij je traag, dan kun je nog op tijd remmen."
+            }
+          ],
+          "theorieblokken": ["openbaar-tramhalte"]
+        },
+        {
+          "id": "h6-3-2",
+          "titel": "Parkeren en voetgangers bij een halte",
+          "intro": "Rond een halte mag je niet parkeren en voetgangers moeten oppassen voor de tram.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Parkeren is verboden op minder dan 15 meter van het haltebord.",
+                "Dat geldt aan weerszijden van het bord.",
+                "Het bord duidt een bus-, trolleybus- of tramhalte aan.",
+                "Een wit opschrift op de weg kan de zone tonen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Wie", "Wat geldt"],
+              "rijen": [
+                ["Bestuurder", "Niet parkeren op minder dan 15 m van het haltebord"],
+                ["Voetganger", "Niet oversteken over tramsporen als er een tram nadert"],
+                ["Voetganger met verkeerslicht", "Oversteken mag als het licht dat toelaat"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Alleen parkeren is verboden",
+              "tekst": "De 15 meter geldt voor parkeren, dus voor wie zijn voertuig verlaat of langer laat staan."
+            }
+          ],
+          "theorieblokken": ["openbaar-tramhalte"]
+        },
+        {
+          "id": "h6-3-3",
+          "titel": "Voertuigen voor schoolvervoer",
+          "intro": "Bij een schoolbus ben je dubbel voorzichtig, want er zijn kinderen in de buurt.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een schoolbus heeft een bord voor en achteraan.",
+                "Alle richtingaanwijzers knipperen: kinderen stappen in of uit.",
+                "Dan vertraag je sterk en stop je zo nodig.",
+                "Kijk ook naar de stoep naast de bus."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Alarmlichten aan",
+              "tekst": "Knipperen alle richtingaanwijzers van de schoolbus, dan vertraag je sterk en stop je zo nodig."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Voor je rijdt een schoolbus met knipperende lichten. Je neemt gas terug en blijft klaar om te stoppen, want een kind kan plots de weg op lopen."
+            }
+          ],
+          "theorieblokken": ["openbaar-schoolvervoer"]
+        }
+      ]
+    },
+    {
+      "nr": "6.4",
+      "titel": "De overweg",
+      "paginas": [
+        {
+          "id": "h6-4-1",
+          "titel": "Overwegen en hun borden",
+          "intro": "Een overweg is een kruising van de weg met sporen die buiten de rijbaan liggen.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "A41",
+                  "naam": "Overweg met slagbomen",
+                  "uitleg": "Slagbomen sluiten de overweg af als er een trein komt.",
+                  "letop": "Slagbomen in beweging of dicht: niet op de overweg."
+                },
+                {
+                  "afb": "A43",
+                  "naam": "Overweg zonder slagbomen",
+                  "uitleg": "Geen slagbomen, dus je moet zelf goed kijken.",
+                  "letop": "Rij pas op als je zeker bent dat niets nadert."
+                },
+                {
+                  "afb": "A45",
+                  "naam": "Overweg voor enkel spoor",
+                  "uitleg": "Het bord staat aan of vlak bij de overweg.",
+                  "letop": "Er ligt één spoor."
+                },
+                {
+                  "afb": "A47",
+                  "naam": "Overweg voor twee of meer sporen",
+                  "uitleg": "Het bord staat aan of vlak bij de overweg.",
+                  "letop": "Er liggen twee of meer sporen."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Een waarschuwingsbord staat gewoonlijk ongeveer 150 meter vóór de overweg.",
+                "De borden voor één of meer sporen staan aan de overweg zelf."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Een overweg is geen tramkruising",
+              "tekst": "Sporen buiten de rijbaan horen bij een overweg, sporen in de rijbaan bij het tramgevaarbord."
+            }
+          ],
+          "theorieblokken": ["openbaar-overweg-signalisatie", "openbaar-borden-overzicht"]
+        },
+        {
+          "id": "h6-4-2",
+          "titel": "Lichten en slagbomen",
+          "intro": "Bij een overweg met lichten en slagbomen weet je altijd wanneer je moet stoppen.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-overweg-lichten",
+              "bijschrift": "Rode lichten knipperen en de slagbomen sluiten, dus de auto stopt voor de stopstreep.",
+              "punten": [
+                "Twee rode lichten knipperen beurtelings.",
+                "Je rijdt niet voorbij de stopstreep."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Wat zie of hoor je?", "Wat moet je doen?"],
+              "rijen": [
+                ["Slagbomen in beweging of gesloten", "Niet op de overweg"],
+                ["Twee rode knipperlichten", "Niet voorbij de stopstreep of het licht"],
+                ["Geluidssein", "Niet op de overweg"],
+                ["Maanwit knipperlicht", "Je mag voorbij, maar kijk toch of niets nadert"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Drie verboden",
+              "tekst": "Bij bewegende of gesloten slagbomen, rode lichten of een geluidssein mag niemand op de overweg."
+            }
+          ],
+          "theorieblokken": ["openbaar-overweg-signalisatie"]
+        },
+        {
+          "id": "h6-4-3",
+          "titel": "Gedrag op en voor een overweg",
+          "intro": "Wie een overweg nadert, is dubbel voorzichtig en rijdt er enkel op als er plaats is.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-overweg-file",
+              "bijschrift": "Aan de overkant staat het verkeer stil, dus de auto rijdt de overweg niet op.",
+              "punten": [
+                "Je wacht tot je aan de andere kant plaats hebt."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Zonder slagbomen of werkende lichten: eerst zeker zijn dat niets nadert.",
+                "Niet oprijden als je er waarschijnlijk moet stoppen.",
+                "Stilstaan en parkeren op een overweg is verboden.",
+                "Links inhalen is verboden, behalve bij slagbomen of verkeerslichten."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Meerijden in de file",
+              "tekst": "Je rijdt op omdat je voorligger ook rijdt, maar aan de overkant is geen plaats en je zit vast."
+            }
+          ],
+          "theorieblokken": ["openbaar-overweg-gedrag"]
+        },
+        {
+          "id": "h6-4-4",
+          "titel": "Pech op een overweg",
+          "intro": "Valt je voertuig stil op een overweg, dan gaat je veiligheid voor je voertuig.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Stap uit en breng jezelf en je passagiers weg van de sporen.",
+                "Ga in veiligheid achter de slagbomen staan.",
+                "Bel meteen het gratis noodnummer 1711.",
+                "Geef de locatie door die bij de overweg staat aangeduid."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Eerst uit, dan bellen",
+              "tekst": "Eerst stap je uit en breng je jezelf in veiligheid, daarna bel je 1711."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je auto slaat af op de overweg. Je probeert niet eerst te starten, maar stapt uit en loopt weg van de sporen. Daarna bel je 1711."
+            }
+          ],
+          "theorieblokken": ["openbaar-overweg-pech"]
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Spoorvoertuigen hebben voorrang, en jij maakt de sporen vrij.",
+    "Een tram in de rijbaan haal je rechts in en kruis je rechts.",
+    "Tramlichten zijn witte tekens op zwart en gelden niet voor jou.",
+    "Op de busstrook mogen enkel bus, tram en de voertuigen die het bord vermeldt.",
+    "Een bus die vertrekt uit zijn halte laat je in de bebouwde kom voorgaan.",
+    "Zonder vluchtheuvel stop je bij in- en uitstappende reizigers.",
+    "Op een overweg stilstaan, parkeren of oprijden zonder plaats is verboden.",
+    "Pech op een overweg: uitstappen, in veiligheid brengen en 1711 bellen."
+  ]
+}

@@ -1,0 +1,183 @@
+{
+ "hoofdstuk": 1,
+ "titel": "Verkeersborden",
+ "les": 1,
+ "intro": {
+  "tekst": "Borden vertellen je wat je moet doen. Hier leer je de zes soorten kennen.",
+  "doelen": [
+   "Je kent de zes soorten borden.",
+   "Je ziet het verschil tussen gevaar, voorrang en verbod."
+  ]
+ },
+ "paragrafen": [
+  {
+   "nr": "1.1",
+   "titel": "Soorten borden",
+   "paginas": [
+    {
+     "id": "h1-1-1",
+     "titel": "De zes soorten borden",
+     "intro": "Elk soort bord heeft een eigen vorm en kleur.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Gevaarsborden waarschuwen je.",
+        "Voorrangsborden regelen wie eerst rijdt.",
+        "Verbodsborden verbieden iets."
+       ]
+      },
+      {
+       "type": "kaarten",
+       "items": [
+        {
+         "afb": "A1a",
+         "naam": "Gevaarlijke bocht naar links",
+         "uitleg": "Rij trager en blijf rechts."
+        },
+        {
+         "afb": "B1",
+         "naam": "Voorrang verlenen",
+         "uitleg": "Laat het kruisend verkeer eerst door.",
+         "letop": "Je hebt hier geen voorrang."
+        },
+        {
+         "afb": "C1",
+         "naam": "Verboden richting",
+         "uitleg": "Je mag hier niet in rijden."
+        }
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "regel",
+       "titel": "Vorm en kleur",
+       "tekst": "Elke soort bord heeft een vaste vorm en kleur."
+      }
+     ],
+     "theorieblokken": [
+      "borden-indeling"
+     ]
+    },
+    {
+     "id": "h1-1-2",
+     "titel": "Twee voorrangsborden",
+     "intro": "Deze twee borden lijken op elkaar.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "Beide borden gaan over voorrang.",
+        "Het ene vraagt een stop, het andere niet."
+       ]
+      },
+      {
+       "type": "vergelijk",
+       "titel": "Voorrang verlenen of stoppen",
+       "links": {
+        "afb": "B1",
+        "tekst": "Laat voorrang, stop enkel als het nodig is."
+       },
+       "rechts": {
+        "afb": "B5",
+        "tekst": "Stop altijd volledig en laat voorrang."
+       },
+       "verschil": "Bij het tweede bord moet je altijd stoppen."
+      },
+      {
+       "type": "kader",
+       "soort": "letop",
+       "titel": "Stoppen",
+       "tekst": "Een stopbord betekent echt volledig stilstaan."
+      }
+     ],
+     "theorieblokken": [
+      "borden-gevaar-weg"
+     ]
+    },
+    {
+     "id": "h1-1-3",
+     "titel": "Schema en tabel",
+     "intro": "Een schema en een tabel op één pagina.",
+     "blokken": [
+      {
+       "type": "schema",
+       "afb": "demo-kruispunt",
+       "bijschrift": "Drie voertuigen bij een kruispunt.",
+       "punten": [
+        "Kijk eerst naar rechts.",
+        "Voertuigen van rechts hebben voorrang."
+       ]
+      },
+      {
+       "type": "tabel",
+       "kolommen": [
+        "Soort",
+        "Kleur"
+       ],
+       "rijen": [
+        [
+         "Gevaar",
+         "Rode rand"
+        ],
+        [
+         "Gebod",
+         "Blauw"
+        ]
+       ]
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Je nadert een kruispunt zonder borden: dan geldt voorrang van rechts."
+      }
+     ],
+     "theorieblokken": []
+    }
+   ]
+  },
+  {
+   "nr": "1.2",
+   "titel": "Snelheden",
+   "paginas": [
+    {
+     "id": "h1-2-1",
+     "titel": "Snelheid in Vlaanderen",
+     "intro": "Zonder bord geldt een standaardsnelheid.",
+     "blokken": [
+      {
+       "type": "punten",
+       "items": [
+        "In de bebouwde kom is het 50 km/u.",
+        "Buiten de bebouwde kom is het 70 km/u.",
+        "Op een autosnelweg is het 120 km/u."
+       ]
+      },
+      {
+       "type": "kader",
+       "soort": "gewest",
+       "titel": "Buiten de bebouwde kom",
+       "tekst": "De gewesten verschillen buiten de bebouwde kom.",
+       "gewest": {
+        "vlaanderen": "Meestal 70 km/u.",
+        "wallonie": "Meestal 90 km/u.",
+        "brussel": "Meestal 70 km/u."
+       }
+      },
+      {
+       "type": "voorbeeld",
+       "tekst": "Een bord met een cijfer en een rode rand geeft de maximumsnelheid."
+      }
+     ],
+     "theorieblokken": [
+      "snelheden-overzicht-gewest"
+     ]
+    }
+   ]
+  }
+ ],
+ "samenvatting": [
+  "Er zijn zes soorten borden.",
+  "Voorrangsborden regelen wie eerst rijdt.",
+  "Zonder bord geldt een standaardsnelheid."
+ ]
+}

@@ -1,0 +1,1070 @@
+{
+  "hoofdstuk": 12,
+  "titel": "Techniek en milieu",
+  "les": 4,
+  "intro": {
+    "tekst": "In dit hoofdstuk leer je je auto kennen. Je ziet hoe je hem veilig houdt, wat de lampjes op het dashboard zeggen en hoe je zuinig en milieubewust rijdt.",
+    "doelen": [
+      "Je weet hoe je banden controleert en wanneer je ze vervangt.",
+      "Je kent het onderhoud, de technische keuring en de verplichte uitrusting.",
+      "Je begrijpt de kleurcode van de dashboardlampjes en weet wat je moet doen.",
+      "Je kunt zuinig rijden en kent het verschil tussen soorten hybride auto's.",
+      "Je weet wat een lage-emissiezone is."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "12.1",
+      "titel": "Banden",
+      "paginas": [
+        {
+          "id": "h12-1-1",
+          "titel": "Profieldiepte van je banden",
+          "intro": "Je banden zijn het enige contact tussen jouw auto en de weg.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Goede banden bepalen hoe snel je stilstaat.",
+                "Het wettelijk minimum is 1,6 mm profiel.",
+                "Dat geldt over de volledige breedte van het loopvlak.",
+                "Het geldt voor zomer-, winter- en allseasonbanden.",
+                "Zijn de indicatoren gelijk met het loopvlak, dan zit je op 1,6 mm."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Band",
+                "Wanneer vervangen?"
+              ],
+              "rijen": [
+                [
+                  "Wettelijk minimum",
+                  "1,6 mm"
+                ],
+                [
+                  "Zomerband (aanbevolen)",
+                  "Rond 3 mm"
+                ],
+                [
+                  "Winterband (aanbevolen)",
+                  "Onder 4 mm"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Vervang liever vroeger",
+              "tekst": "Met minder profiel is je remweg op nat wegdek langer en kun je sneller aquaplanen."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-banden"
+          ]
+        },
+        {
+          "id": "h12-1-2",
+          "titel": "Bandenspanning",
+          "intro": "De juiste spanning maakt je banden veiliger en zuiniger.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Controleer de spanning minstens eens per maand.",
+                "Controleer ze ook voor een lange rit.",
+                "Meet altijd bij koude banden.",
+                "Warme banden geven een te hoge waarde."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Vraag",
+                "Antwoord"
+              ],
+              "rijen": [
+                [
+                  "Hoe vaak controleren?",
+                  "Maandelijks, bij koude banden"
+                ],
+                [
+                  "Waar vind je de juiste waarde?",
+                  "Op een sticker (bestuurdersportier of tankdop) of in het instructieboekje"
+                ],
+                [
+                  "Is de waarde altijd gelijk?",
+                  "Nee, ze kan verschillen voor voor- en achterbanden en bij zware belading"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Koud meten",
+              "tekst": "Meet de spanning altijd bij koude banden, want warme banden geven een te hoge waarde."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-1-3",
+          "titel": "Slijtage van banden lezen",
+          "intro": "De manier waarop een band slijt, vertelt wat er mis is.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Wat zie je?",
+                "Wat is er aan de hand?"
+              ],
+              "rijen": [
+                [
+                  "Buitenkanten versleten",
+                  "De spanning is te laag."
+                ],
+                [
+                  "Middenstuk versleten",
+                  "De spanning is te hoog."
+                ],
+                [
+                  "Ongelijke slijtage of trillend stuur",
+                  "Onbalans, ophanging of uitlijning nakijken."
+                ],
+                [
+                  "Bult of bobbel in de flank of het loopvlak",
+                  "De band moet vervangen worden."
+                ]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Kijk regelmatig naar het profiel van je banden.",
+                "Ongelijke slijtage vraagt om een nazicht.",
+                "Een bult in de band is gevaarlijk."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Bult in de band",
+              "tekst": "Een bult of bobbel in de flank betekent dat je de band moet vervangen."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-1-4",
+          "titel": "Leeftijd van banden en winterbanden",
+          "intro": "Een band veroudert, ook als hij nog niet versleten is.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De productiedatum staat als viercijferige code op de flank.",
+                "De eerste twee cijfers zijn de week, de laatste twee het jaar.",
+                "Na 4 à 5 jaar laat je banden best nakijken.",
+                "Na 10 jaar vervang je ze, ook al zijn ze niet versleten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Winterbanden",
+                "Wat moet je weten?"
+              ],
+              "rijen": [
+                [
+                  "Verplicht?",
+                  "Niet in België, wel aanbevolen"
+                ],
+                [
+                  "Waarom aanbevolen?",
+                  "Ze grijpen beter onder ongeveer 7 graden en op nat, koud wegdek"
+                ],
+                [
+                  "Minimum profiel",
+                  "Ook 1,6 mm"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Winterbanden",
+              "tekst": "Winterbanden zijn in België niet wettelijk verplicht en voor hen geldt hetzelfde minimum van 1,6 mm."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "12.2",
+      "titel": "Onderhoud, keuring en uitrusting",
+      "paginas": [
+        {
+          "id": "h12-2-1",
+          "titel": "Vloeistoffen: olie, rem en koeling",
+          "intro": "Met een paar eenvoudige controles voorkom je pech en gevaarlijke situaties.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderdeel",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "Motorolie",
+                  "Peil maandelijks nakijken"
+                ],
+                [
+                  "Remvloeistof",
+                  "Meestal om de twee jaar vervangen"
+                ],
+                [
+                  "Koelvloeistof",
+                  "Peil controleren en de juiste soort gebruiken"
+                ]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Controleer de olie bij een stilstaande wagen op een vlakke ondergrond.",
+                "Het peil hoort halverwege tussen minimum en maximum.",
+                "Remvloeistof neemt vocht op en kookt dan bij een lagere temperatuur.",
+                "Niet alle koelvloeistoffen zijn mengbaar."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Waarom remvloeistof vervangen?",
+              "tekst": "Door opgenomen vocht ontstaan dampbellen bij zwaar remmen, waardoor je rem minder goed werkt."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-onderhoud"
+          ]
+        },
+        {
+          "id": "h12-2-2",
+          "titel": "Zicht, lichten en accu",
+          "intro": "Wie goed ziet en gezien wordt, rijdt veiliger.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Vervang ruitenwissers die strepen trekken of stuiteren.",
+                "Vul de sproeiervloeistof regelmatig bij.",
+                "Gebruik in de winter vorstbestendige vloeistof.",
+                "Controleer of alle lichten werken, ook de remlichten.",
+                "Laat je accu tijdig doormeten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderdeel",
+                "Actie"
+              ],
+              "rijen": [
+                [
+                  "Ruitenwissers",
+                  "Vervangen bij strepen of stuiteren"
+                ],
+                [
+                  "Sproeiervloeistof",
+                  "Bijvullen, in de winter vorstbestendig"
+                ],
+                [
+                  "Lichten",
+                  "Regelmatig controleren, ook de remlichten"
+                ],
+                [
+                  "Accu",
+                  "Tijdig laten doormeten"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Pech in de winter",
+              "tekst": "De meeste pech in de winter komt door een slechte accu."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-2-3",
+          "titel": "De technische keuring",
+          "intro": "De keuring controleert of je auto veilig en niet te vervuilend is.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De eerste keuring is 4 jaar na de eerste inschrijving.",
+                "Daarna keurt je wagen in Vlaanderen om de 2 jaar.",
+                "Sinds 1 september 2026 geldt dat voor alle personenwagens.",
+                "Taxi's en ziekenwagens gaan jaarlijks."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Termijn"
+              ],
+              "rijen": [
+                [
+                  "Eerste keuring personenwagen",
+                  "4 jaar na eerste inschrijving"
+                ],
+                [
+                  "Daarna (Vlaanderen)",
+                  "Om de 2 jaar"
+                ],
+                [
+                  "Taxi of ziekenwagen",
+                  "Jaarlijks"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "Keuring per gewest",
+              "tekst": "De tweejaarlijkse keuring na de eerste keuring is een Vlaamse regeling.",
+              "gewest": {
+                "vlaanderen": "Eerste keuring na 4 jaar, daarna om de 2 jaar.",
+                "wallonie": "Eigen regels, de Vlaamse termijnen gelden daar niet.",
+                "brussel": "Eigen regels, de Vlaamse termijnen gelden daar niet."
+              }
+            }
+          ],
+          "theorieblokken": [
+            "techniek-keuring"
+          ]
+        },
+        {
+          "id": "h12-2-4",
+          "titel": "Keuring van hybride en elektrische wagens",
+          "intro": "Ook elektrische en hybride auto's gaan naar de keuring.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Ook elektrische en hybride wagens gaan voor het eerst na 4 jaar.",
+                "Een volledig elektrische auto heeft geen uitlaat.",
+                "Daarom krijgt hij geen uitstoottest.",
+                "Een plug-inhybride heeft ook een verbrandingsmotor.",
+                "Die krijgt wel een uitstoottest."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Type wagen",
+                "Uitstoottest bij de keuring?"
+              ],
+              "rijen": [
+                [
+                  "Volledig elektrisch",
+                  "Nee, er is geen uitlaat"
+                ],
+                [
+                  "Plug-inhybride",
+                  "Ja, want er is een verbrandingsmotor"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Onthoud",
+              "tekst": "Elektrisch heeft geen uitstoottest en een plug-inhybride wel."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-hybride-elektrisch"
+          ]
+        },
+        {
+          "id": "h12-2-5",
+          "titel": "Verplichte uitrusting in de auto",
+          "intro": "In een personenwagen moeten vier zaken aan boord zijn.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een gevarendriehoek.",
+                "Een brandblusser van minstens 1 kg.",
+                "Minstens één fluohesje.",
+                "Een verbanddoos."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Voorwerp",
+                "Wat moet je weten?"
+              ],
+              "rijen": [
+                [
+                  "Gevarendriehoek",
+                  "Verplicht aan boord"
+                ],
+                [
+                  "Brandblusser",
+                  "Minstens 1 kg, goedgekeurd, bereikbaar en niet vervallen"
+                ],
+                [
+                  "Fluohesje",
+                  "Minstens één, aantrekken voor je uitstapt"
+                ],
+                [
+                  "Verbanddoos",
+                  "Minstens één per voertuig, volledig"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Hesje in de koffer",
+              "tekst": "Bewaar het hesje binnen handbereik, want in de koffer trek je het pas aan als je al op de gevaarlijke plek staat."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-uitrusting"
+          ]
+        },
+        {
+          "id": "h12-2-6",
+          "titel": "De gevarendriehoek plaatsen",
+          "intro": "Bij pech of een ongeval waarschuw je het verkeer met de driehoek.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Gebruik hem bij pech, ongeval of verloren lading.",
+                "Op een gewone weg plaats je hem 30 m achter het voertuig.",
+                "Op de autosnelweg plaats je hem 100 m achter het voertuig."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-gevarendriehoek-afstand",
+              "bijschrift": "Links een gewone weg met de driehoek op 30 m, rechts een autosnelweg met de driehoek op minstens 100 m.",
+              "punten": []
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Afstand van de driehoek",
+              "tekst": "30 meter achter het voertuig buiten de autosnelweg, 100 meter op de autosnelweg."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Bij pech op de autosnelweg trek je het hesje aan, stap je uit langs de kant van de berm en plaats je de driehoek. Daarna wacht je achter de vangrail."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "12.3",
+      "titel": "Dashboardlampjes",
+      "paginas": [
+        {
+          "id": "h12-3-1",
+          "titel": "De kleurcode van de lampjes",
+          "intro": "De kleur van een controlelampje zegt hoe dringend het is.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "tech-dashboard-kleuren",
+              "bijschrift": "Vier kleuren: rood, oranje, groen en blauw.",
+              "punten": [
+                "Rood: gevaar, veilig stoppen en de oorzaak nagaan.",
+                "Oranje: een systeem moet nagekeken worden.",
+                "Groen: een systeem staat aan en werkt.",
+                "Blauw: enkel het grootlicht is aan."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Kleur",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "Rood",
+                  "Veilig stoppen en nagaan"
+                ],
+                [
+                  "Oranje of geel",
+                  "Snel naar de garage"
+                ],
+                [
+                  "Groen",
+                  "Niets, het systeem werkt"
+                ],
+                [
+                  "Blauw",
+                  "Grootlicht uitschakelen bij tegenliggers"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Rood = stoppen",
+              "tekst": "Bij een rood lampje zet je de wagen veilig aan de kant en zoek je de oorzaak, of bel je pechhulp."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-dashboard-kleuren"
+          ]
+        },
+        {
+          "id": "h12-3-2",
+          "titel": "Rood: veilig stoppen",
+          "intro": "Een rood lampje wil zeggen dat doorrijden gevaar of schade kan geven.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "tech-dashboard-rood",
+              "bijschrift": "Twee rode lampjes: oliedruk (oliekannetje) en remmen.",
+              "punten": [
+                "Oliedruk: vaak een laag oliepeil. Stop en controleer het peil.",
+                "Remmen: remsysteem of handrem nog aan. Controleer eerst de handrem."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Accu of laadcircuit: het lampje moet na het starten doven.",
+                "Blijft het branden, stop dan op een veilige plek.",
+                "Koelvloeistof of temperatuur: de motor is te warm.",
+                "Stop en laat de motor afkoelen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Oververhitte motor",
+              "tekst": "Open de dop niet zolang alles heet is."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-dashboard-symbolen"
+          ]
+        },
+        {
+          "id": "h12-3-3",
+          "titel": "Oranje: laten nakijken (deel 1)",
+          "intro": "Een oranje lampje betekent dat je niet onmiddellijk moet stoppen, maar het wel moet laten nakijken.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "tech-dashboard-oranje",
+              "bijschrift": "Een oranje lampje: motorstoring (motorblok).",
+              "punten": [
+                "Motorstoring: storing in de motor of de elektronica.",
+                "Knippert het lampje, dan stop je veilig."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Airbag: de airbag of gordelspanner werkt mogelijk niet.",
+                "Laat de airbag snel nakijken.",
+                "ABS: je remt nog, maar zonder antiblokkeersysteem.",
+                "Rij rustig en laat het nakijken."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Knipperen is ernstiger",
+              "tekst": "Een knipperend motorlampje is ernstiger dan een brandend lampje."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-3-4",
+          "titel": "Oranje: laten nakijken (deel 2)",
+          "intro": "Nog vijf lampjes die je laat nakijken.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Lampje",
+                "Wat betekent het?"
+              ],
+              "rijen": [
+                [
+                  "ESP of ESC",
+                  "Knipperend: het systeem grijpt in. Blijft het branden: storing."
+                ],
+                [
+                  "Dieselfilter",
+                  "Het roetfilter is verstopt of defect."
+                ],
+                [
+                  "Stuurbekrachtiging",
+                  "Het stuur wordt zwaarder."
+                ],
+                [
+                  "Verlichting",
+                  "Een lamp, ook een remlicht, is defect."
+                ],
+                [
+                  "Bandenspanning",
+                  "De spanning in een of meer banden is te laag."
+                ]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Knippert het ESP-lampje? Rij dan rustiger, het wegdek is glad.",
+                "Bij duidelijk vermogensverlies van een dieselwagen rijd je niet verder.",
+                "Bij lage bandenspanning controleer je de banden en pomp je ze op."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Kleur kan verschillen",
+              "tekst": "Niet elk merk toont dezelfde kleur voor dezelfde functie, dus leer de betekenis en raadpleeg de handleiding."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-3-5",
+          "titel": "Groen en blauw: alles in orde",
+          "intro": "Deze lampjes zijn geen waarschuwing.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "tech-dashboard-groen-blauw",
+              "bijschrift": "Groen: de richtingaanwijzer. Blauw: het grootlicht.",
+              "punten": [
+                "Groen: de richtingaanwijzer of alarmlichten staan aan.",
+                "Blauw: het grootlicht brandt, schakel het uit bij tegenliggers."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Groen betekent dat een systeem aan staat en werkt.",
+                "Voorbeelden zijn richtingaanwijzer, stadslichten en cruisecontrol.",
+                "Blauw wil enkel zeggen dat je grootlicht brandt."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Blauw is geen waarschuwing",
+              "tekst": "Een blauw lampje wil gewoon zeggen dat je grootlicht brandt."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-3-6",
+          "titel": "Zelftest, knipperen en gloeibougie",
+          "intro": "Soms gaat een lampje even aan zonder dat er iets mis is.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Veel lampjes branden even bij het contact zetten als zelftest.",
+                "Daarna doven ze.",
+                "Blijft er één branden, dan is er iets aan de hand.",
+                "Een knipperend motorlampje is ernstiger dan een brandend lampje."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Lampje",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "Gloeibougie (diesel) brandt",
+                  "Wacht tot het gedoofd is voor je start"
+                ],
+                [
+                  "Gloeibougie knippert of blijft branden tijdens het rijden",
+                  "Er is een storing: naar de garage"
+                ],
+                [
+                  "Motorlampje knippert",
+                  "Veilig stoppen"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Handleiding",
+              "tekst": "Symbolen kunnen per merk en model verschillen, dus de handleiding van de auto is de laatste referentie."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "12.4",
+      "titel": "Zuinig rijden en milieu",
+      "paginas": [
+        {
+          "id": "h12-4-1",
+          "titel": "Zuinig rijden: de rijstijl",
+          "intro": "Met de juiste rijstijl bespaar je ongeveer 10 % brandstof.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Anticipeer en kijk ver vooruit.",
+                "Rij gelijkmatig en hou een constante snelheid aan.",
+                "Schakel vroeg op, rond 2.000 à 2.500 toeren.",
+                "Laat de auto uitrollen in plaats van terug te schakelen.",
+                "Zet de motor uit bij langere stops."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Tip",
+                "Effect"
+              ],
+              "rijen": [
+                [
+                  "Anticiperen en gelijkmatig rijden",
+                  "Minder remmen en optrekken"
+                ],
+                [
+                  "Vroeg opschakelen",
+                  "Lager toerental, lager verbruik"
+                ],
+                [
+                  "Uitrollen i.p.v. terugschakelen",
+                  "Geen brandstof nodig tijdens het uitrollen"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Zuinig is niet traag",
+              "tekst": "Hou je aan de snelheidsregels en rij gelijkmatig mee met de verkeersstroom."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-zuinig-rijden"
+          ]
+        },
+        {
+          "id": "h12-4-2",
+          "titel": "Zuinig rijden: de auto",
+          "intro": "Ook je auto zelf bepaalt hoeveel je verbruikt.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Controleer de bandenspanning maandelijks.",
+                "Zachte banden rollen zwaarder en verhogen het verbruik.",
+                "Haal onnodige lading uit de auto.",
+                "Haal een lege dakkoffer eraf.",
+                "Gebruik de airco bewust."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Tip",
+                "Effect"
+              ],
+              "rijen": [
+                [
+                  "Bandenspanning maandelijks controleren",
+                  "Minder rolweerstand"
+                ],
+                [
+                  "Dakkoffer en ballast weg",
+                  "Minder luchtweerstand en gewicht"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Hulpmiddelen",
+              "tekst": "Een toerenteller, cruisecontrol of boordcomputer helpt je op koers te blijven."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-4-3",
+          "titel": "Uitstoot: Euronorm en CO2",
+          "intro": "Een brandstofmotor stoot gassen uit die slecht zijn voor je gezondheid of voor het klimaat.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De Euronormen leggen grenzen vast voor schadelijke uitstoot.",
+                "Een hoger Euro-cijfer betekent een schonere auto.",
+                "CO2 ontstaat bij het verbranden van benzine en diesel.",
+                "Hoe minder je verbruikt, hoe minder CO2 je uitstoot.",
+                "Een roetfilter houdt fijn stof vast bij dieselwagens."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Begrip",
+                "Betekenis"
+              ],
+              "rijen": [
+                [
+                  "Euronorm",
+                  "Europese grenswaarden voor onder meer stikstofoxiden en fijn stof"
+                ],
+                [
+                  "Waar staat de Euronorm?",
+                  "Op het inschrijvingsbewijs en op de Car-Pass"
+                ],
+                [
+                  "CO2",
+                  "Een broeikasgas, het neemt af met lager verbruik"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Waar vind je de Euronorm?",
+              "tekst": "Op het inschrijvingsbewijs en op de Car-Pass van de wagen."
+            }
+          ],
+          "theorieblokken": [
+            "techniek-milieu-euronorm"
+          ]
+        },
+        {
+          "id": "h12-4-4",
+          "titel": "Hybride en elektrische auto's",
+          "intro": "Een elektromotor kan het verbruik en de uitstoot verlagen.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Type",
+                "Kenmerk"
+              ],
+              "rijen": [
+                [
+                  "Micro-hybride",
+                  "Enkel een start-stopsysteem"
+                ],
+                [
+                  "Mild hybrid",
+                  "Een kleine elektromotor ondersteunt de brandstofmotor"
+                ],
+                [
+                  "Full hybrid",
+                  "De batterij laadt tijdens het rijden en het remmen"
+                ],
+                [
+                  "Plug-inhybride",
+                  "Opladen met een kabel, tot ongeveer 50 km elektrisch"
+                ],
+                [
+                  "Elektrisch",
+                  "Geen uitlaatgassen"
+                ]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij het afremmen werkt de elektromotor als generator.",
+                "De energie wordt in de batterij opgeslagen.",
+                "Een plug-in heeft enkel zin als je hem regelmatig oplaadt."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Regeneratief remmen",
+              "tekst": "Bij afremmen wint de auto energie terug en slaat die op in de batterij."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-4-5",
+          "titel": "Wat is een lage-emissiezone?",
+          "intro": "In een lage-emissiezone mogen enkel voertuigen met een voldoende lage uitstoot vrij rijden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "In Vlaanderen hebben Antwerpen en Gent een LEZ.",
+                "Ook Brussel is bijna volledig een LEZ.",
+                "Wallonië heeft geen regionale LEZ meer.",
+                "Een LEZ geldt 24 uur op 24, 7 dagen op 7."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F117",
+                  "naam": "Begin van een lage-emissiezone",
+                  "uitleg": "Hier begint de zone met speciale regels."
+                },
+                {
+                  "afb": "F118",
+                  "naam": "Einde van een lage-emissiezone",
+                  "uitleg": "Hier eindigt de zone."
+                }
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "LEZ per gewest",
+              "tekst": "De regels verschillen per gewest.",
+              "gewest": {
+                "vlaanderen": "LEZ in Antwerpen en Gent.",
+                "wallonie": "Geen regionale LEZ meer.",
+                "brussel": "Bijna heel Brussel is een LEZ, met strengere voorwaarden."
+              }
+            }
+          ],
+          "theorieblokken": [
+            "techniek-lez"
+          ]
+        },
+        {
+          "id": "h12-4-6",
+          "titel": "Wie mag een lage-emissiezone in?",
+          "intro": "Of je binnen mag, hangt af van je voertuig.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Het hangt af van voertuigcategorie, brandstof en Euronorm.",
+                "Soms telt de datum van eerste inschrijving.",
+                "De regels gelden voor auto's op diesel, benzine, gas of hybride.",
+                "Elektrische en waterstofvoertuigen mogen altijd binnen.",
+                "Bromfietsen, motorfietsen en hulpdiensten mogen ook altijd binnen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Voertuig",
+                "Toegang"
+              ],
+              "rijen": [
+                [
+                  "Elektrisch of waterstof",
+                  "Altijd welkom"
+                ],
+                [
+                  "Bromfiets of motorfiets",
+                  "Altijd welkom"
+                ],
+                [
+                  "Diesel, benzine, gas of hybride",
+                  "Hangt af van de Euronorm"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Normen kunnen veranderen",
+              "tekst": "De toegangsvoorwaarden worden regelmatig aangepast, dus controleer ze voor je vertrekt op de website van de stad of het gewest."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h12-4-7",
+          "titel": "Buitenlandse voertuigen, dagpas en risico",
+          "intro": "Ook met een buitenlandse nummerplaat gelden de regels.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Voertuigen met een buitenlandse nummerplaat moeten zich registreren.",
+                "Die registratie geldt voor Gent en Antwerpen samen, niet voor Brussel.",
+                "Mag je voertuig er niet in, dan koop je soms een dagpas.",
+                "Rijd je zonder toelating binnen, dan riskeer je een boete."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderdeel",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Buitenlandse nummerplaat",
+                  "Registreren"
+                ],
+                [
+                  "Registratie",
+                  "Geldt voor Gent en Antwerpen samen, niet voor Brussel"
+                ],
+                [
+                  "Dagpas",
+                  "Geldt enkel in de stad waar je ze kocht"
+                ],
+                [
+                  "Dagpas in Brussel",
+                  "35 euro"
+                ]
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je koopt een dagpas in Gent. Die pas geldt dan niet in Antwerpen."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Het wettelijk minimum profiel is 1,6 mm, maar vervang liever vroeger.",
+    "Controleer de bandenspanning maandelijks en bij koude banden.",
+    "Eerste keuring na 4 jaar, daarna in Vlaanderen om de 2 jaar.",
+    "Verplicht aan boord: gevarendriehoek, brandblusser, fluohesje en verbanddoos.",
+    "De gevarendriehoek staat op 30 m, op de autosnelweg op 100 m.",
+    "Rood: veilig stoppen. Oranje: laten nakijken. Groen: werkt. Blauw: grootlicht.",
+    "Zuinig rijden: anticiperen, gelijkmatig rijden, vroeg opschakelen en banden op spanning.",
+    "Een LEZ geldt 24 uur op 24; elektrische auto's mogen altijd binnen."
+  ]
+}

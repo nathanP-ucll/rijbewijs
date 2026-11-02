@@ -1,0 +1,4029 @@
+[
+ {
+  "id": "L4-001",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "koppel",
+  "vraag": "Koppel elke grens aan de juiste bestuurder en meting.",
+  "paren": [
+   {
+    "links": "Gewone bestuurder, bloed",
+    "rechts": "0,5 g/l"
+   },
+   {
+    "links": "Gewone bestuurder, uitgeademde lucht",
+    "rechts": "0,22 mg/l"
+   },
+   {
+    "links": "Professionele bestuurder, bloed",
+    "rechts": "0,2 g/l"
+   },
+   {
+    "links": "Professionele bestuurder, uitgeademde lucht",
+    "rechts": "0,09 mg/l"
+   }
+  ],
+  "uitleg": "Gewone bestuurders: 0,5 g/l bloed of 0,22 mg/l adem. Professionele bestuurders: 0,2 g/l of 0,09 mg/l.",
+  "bronnen": [
+   "GEDR-003",
+   "GEDR-010",
+   "GEDR-011",
+   "GEDR-013",
+   "GEDR-016",
+   "GEDR-017"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-002",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "meerkeuze",
+  "vraag": "Vanaf welk alcoholgehalte in het bloed ben je als gewone bestuurder strafbaar?",
+  "opties": [
+   "0,2 g/l",
+   "0,5 g/l",
+   "0,8 g/l",
+   "1,2 g/l"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "De grens voor gewone bestuurders is 0,5 g/l (0,5 promille) bloed.",
+  "bronnen": [
+   "GEDR-003",
+   "GEDR-010",
+   "GEDR-011",
+   "GEDR-013",
+   "GEDR-016",
+   "GEDR-017"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-003",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Is je alcoholtest positief, dan krijg je een rijverbod van {{1}} uur. Sinds 1 juli 2026 is dat altijd even lang.",
+  "gaten": [
+   {
+    "opties": [
+     "2",
+     "6",
+     "12",
+     "24"
+    ],
+    "correct": 2
+   }
+  ],
+  "uitleg": "Het onmiddellijke rijverbod is sinds 1 juli 2026 altijd 12 uur.",
+  "bronnen": [
+   "GEDR-003",
+   "GEDR-010",
+   "GEDR-011",
+   "GEDR-013",
+   "GEDR-016",
+   "GEDR-017"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-004",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Voor een BOB gelden andere alcoholgrenzen dan voor andere bestuurders.",
+  "juist": false,
+  "motivatie": "BOB is een campagne en geen wettelijk statuut: voor iedereen gelden dezelfde grenzen.",
+  "foutemotivaties": [
+   "Een BOB mag tot 0,8 promille drinken omdat hij de anderen thuisbrengt.",
+   "Een BOB heeft een wettelijk statuut met een eigen, hogere grens."
+  ],
+  "uitleg": "BOB is een sensibiliseringscampagne. De alcoholgrenzen zijn voor iedereen dezelfde.",
+  "bronnen": [
+   "GEDR-003",
+   "GEDR-010",
+   "GEDR-011",
+   "GEDR-013",
+   "GEDR-016",
+   "GEDR-017"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-005",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-beginners",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Op dit moment geldt voor beginnende bestuurders in België dezelfde alcoholgrens als voor gewone bestuurders: 0,5 g/l.",
+  "juist": true,
+  "motivatie": "De lagere grens van 0,2 promille voor wie minder dan 3 jaar rijbewijs heeft is enkel aangekondigd en nog geen wet.",
+  "foutemotivaties": [
+   "Beginners mogen sinds kort geen enkele alcohol meer drinken.",
+   "Beginners hebben dezelfde grens als professionele bestuurders (0,2 g/l)."
+  ],
+  "uitleg": "De strengere regel voor beginners is aangekondigd voor 2027, maar nu geldt 0,5 g/l.",
+  "bronnen": [
+   "GEDR-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-006",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcoholslot",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Een alcoholslot is een toestel in de wagen: de motor start pas na een {{1}}. De {{2}} kan het opleggen na een veroordeling voor rijden onder invloed.",
+  "gaten": [
+   {
+    "opties": [
+     "blaastest",
+     "speekseltest",
+     "bloedproef"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "rechter",
+     "gemeente",
+     "rijschool"
+    ],
+    "correct": 0
+   }
+  ],
+  "uitleg": "Het alcoholslot laat de motor pas starten na een blaastest. De rechter legt het op.",
+  "bronnen": [
+   "GEDR-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-007",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-drugs",
+  "type": "volgorde",
+  "vraag": "Zet de drie stappen waarmee de politie drugs vaststelt in de juiste volgorde.",
+  "items": [
+   "Uiterlijke tekenen controleren met een checklist",
+   "Speekseltest op de weg",
+   "Speekselanalyse in een erkend laboratorium"
+  ],
+  "uitleg": "Eerst uiterlijke tekenen, dan de speekseltest en tot slot de laboanalyse: dat is het bewijs voor de rechter.",
+  "bronnen": [
+   "GEDR-006",
+   "GEDR-016"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-008",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-drugs",
+  "type": "meerkeuze",
+  "vraag": "Welke uitspraken over drugs achter het stuur kloppen?",
+  "opties": [
+   "Voor illegale drugs geldt in België nultolerantie.",
+   "Een kleine hoeveelheid drugs is toegelaten.",
+   "De speekseltest spoort alle soorten drugs op.",
+   "Cannabis verdubbelt het ongevalsrisico."
+  ],
+  "correct": [
+   0,
+   3
+  ],
+  "meerdere": true,
+  "uitleg": "Er is geen toegelaten hoeveelheid. Niet alle drugs worden door de speekseltest opgespoord.",
+  "bronnen": [
+   "GEDR-006",
+   "GEDR-016"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-009",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-gsm",
+  "type": "meerkeuze",
+  "vraag": "Wanneer mag je tijdens het rijden je telefoon als GPS gebruiken?",
+  "opties": [
+   "Als je hem in je hand houdt, maar niet te lang",
+   "Als hij stevig in een houder aan het voertuig zit",
+   "Enkel als je hem op je schoot legt",
+   "Nooit"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Een toestel met scherm mag enkel in een daartoe bestemde houder. Programmeer je route vóór je vertrekt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-010",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-afleiding",
+  "type": "invul",
+  "vraag": "Bij 50 km/u leg je in 2 seconden ongeveer hoeveel meter af?",
+  "antwoorden": [
+   "28",
+   "28 m",
+   "28m"
+  ],
+  "eenheid": "m",
+  "uitleg": "Bij 50 km/u rijd je in 2 seconden ongeveer 28 meter \"blind\" als je wegkijkt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-008"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-011",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-vermoeidheid",
+  "type": "meerkeuze",
+  "vraag": "Je voelt je slaperig tijdens een lange rit. Wat is volgens Vias de beste oplossing?",
+  "opties": [
+   "Het raam openzetten en doorrijden",
+   "Op een veilige plek een dutje van maximaal 20 minuten doen",
+   "Doorrijden tot je thuis bent",
+   "De radio luider zetten"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Pauzeren en een kort dutje zijn de aanbevolen oplossingen bij slaperigheid.",
+  "bronnen": [
+   "GEDR-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-012",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-medicatie",
+  "type": "meerkeuze",
+  "vraag": "Wat is juist over medicijnen en rijden?",
+  "opties": [
+   "Vraag bij een nieuw geneesmiddel aan je arts of apotheker of je mag rijden.",
+   "Lees de bijsluiter.",
+   "Voor geneesmiddelen bestaat er een vaste wettelijke grenswaarde zoals bij alcohol.",
+   "Een geneesmiddel combineren met alcohol is geen probleem."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "meerdere": true,
+  "uitleg": "Voor geneesmiddelen is er geen vaste grenswaarde. Combineer ze nooit met alcohol.",
+  "bronnen": [
+   "GEDR-007",
+   "GEDR-016"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-013",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-gordel",
+  "type": "meerkeuze",
+  "vraag": "Wie is vrijgesteld van de gordelplicht?",
+  "opties": [
+   "Een bestuurder die achteruit rijdt",
+   "Een taxichauffeur met een klant aan boord",
+   "Een persoon met een medisch attest",
+   "Een passagier achterin op een korte rit",
+   "De bestuurder bij weinig verkeer"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "Vrijgesteld zijn onder meer wie achteruit rijdt, taxichauffeurs met klant en personen met een medisch attest.",
+  "bronnen": [
+   "GEDR-001"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-014",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-kinderzitjes",
+  "type": "meerkeuze",
+  "vraag": "Een kind van 10 jaar is 1,38 m groot. Wat gebruikt het in de auto?",
+  "opties": [
+   "Een kinderzitje met Isofix",
+   "Een zitverhoger",
+   "De gewone veiligheidsgordel",
+   "Geen gordel als het achterin zit"
+  ],
+  "correct": [
+   2
+  ],
+  "meerdere": false,
+  "uitleg": "Vanaf 135 cm gebruikt een kind de gewone veiligheidsgordel.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-004",
+   "GEDR-019"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-015",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-kinderzitjes-uitzonderingen",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Een ouder rijdt en heeft geen zitjes bij. Voor een korte rit mogen de kinderen van 4 jaar achterin met de gordel mee.",
+  "juist": false,
+  "motivatie": "Die uitzondering voor occasioneel vervoer over korte afstand geldt niet als een ouder het voertuig bestuurt.",
+  "foutemotivaties": [
+   "De uitzondering geldt enkel op de autosnelweg.",
+   "Kinderen mogen dan vooraan zitten zonder gordel."
+  ],
+  "uitleg": "Bij de uitzondering zitten kinderen altijd achterin, en de bestuurder is geen ouder.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-004"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-016",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-lading",
+  "type": "meerkeuze",
+  "vraag": "Aan welke eisen moet een lading voldoen?",
+  "opties": [
+   "Ze mag het zicht van de bestuurder niet hinderen.",
+   "Ze mag de stabiliteit van het voertuig niet in gevaar brengen.",
+   "Ze mag de nummerplaat niet onzichtbaar maken.",
+   "Ze mag de achterlichten afdekken als ze goed vastzit.",
+   "Ze mag gedeeltelijk over de weg slepen."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "Lading mag het zicht niet hinderen, het voertuig niet instabiel maken en lichten of nummerplaat niet bedekken.",
+  "bronnen": [
+   "GEDR-001"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-017",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-lichten-wanneer",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Je moet licht voeren tussen het vallen van de {{1}} en het aanbreken van de dag, en altijd wanneer je niet meer duidelijk kan zien tot op ongeveer {{2}} meter.",
+  "gaten": [
+   {
+    "opties": [
+     "avond",
+     "middag",
+     "ochtend"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "50",
+     "100",
+     "200",
+     "500"
+    ],
+    "correct": 2
+   }
+  ],
+  "uitleg": "Licht is nodig van avond tot dag en bij een zicht van minder dan ongeveer 200 meter.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-014"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-018",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-lichten-wanneer",
+  "type": "meerkeuze",
+  "vraag": "Het regent en het is schemerig. Je rijdt enkel met de dagrijlichten. Wat is het gevaar?",
+  "opties": [
+   "Je achterlichten branden niet, dus achterliggers zien je later.",
+   "Je rijdt te hard.",
+   "Je voorruit wordt vuil.",
+   "Er is geen gevaar."
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Dagrijlichten branden enkel vooraan. Zet zelf het dimlicht aan zodat ook je achterlichten branden.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-014"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-019",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-grootlicht-dimlicht",
+  "type": "tabel",
+  "vraag": "Dimlicht of grootlicht? Kies bij elke situatie.",
+  "kolommen": [
+   "Licht"
+  ],
+  "rijen": [
+   {
+    "label": "Een tegenligger nadert",
+    "cellen": [
+     {
+      "correct": "Dimlicht",
+      "opties": [
+       "Dimlicht",
+       "Grootlicht toegelaten"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Je volgt een voertuig op minder dan 50 m",
+    "cellen": [
+     {
+      "correct": "Dimlicht",
+      "opties": [
+       "Dimlicht",
+       "Grootlicht toegelaten"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Je rijdt op een donkere weg zonder verkeer",
+    "cellen": [
+     {
+      "correct": "Grootlicht toegelaten",
+      "opties": [
+       "Dimlicht",
+       "Grootlicht toegelaten"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "De rijbaan is voldoende verlicht",
+    "cellen": [
+     {
+      "correct": "Dimlicht",
+      "opties": [
+       "Dimlicht",
+       "Grootlicht toegelaten"
+      ]
+     }
+    ]
+   }
+  ],
+  "uitleg": "Grootlicht dim je bij een tegenligger, bij het volgen van een voertuig op minder dan 50 m en op voldoende verlichte wegen.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-020",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-grootlicht-dimlicht",
+  "type": "meerkeuze",
+  "vraag": "Een tegenligger knippert snel met zijn grootlicht. Wat moet je doen?",
+  "opties": [
+   "Je grootlicht doven en dimlicht aanzetten",
+   "Je grootlicht laten branden",
+   "Hard claxonneren",
+   "Je grootlicht ook laten knipperen"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Snel knipperen betekent dat hij verblind wordt. Vervang je grootlicht dan door dimlicht.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-021",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-mistlichten",
+  "type": "koppel",
+  "vraag": "Koppel het licht aan de juiste regel.",
+  "paren": [
+   {
+    "links": "Voormistlicht",
+    "rechts": "Mag bij mist, sneeuwval of felle regen"
+   },
+   {
+    "links": "Achtermistlicht bij zicht onder ongeveer 100 m",
+    "rechts": "Verplicht (als je wagen er een heeft)"
+   },
+   {
+    "links": "Achtermistlicht bij goed zicht",
+    "rechts": "Mag niet branden: het verblindt achterliggers"
+   }
+  ],
+  "uitleg": "Achtermistlicht gebruik je enkel bij erg beperkt zicht of felle regen en doof je zodra het zicht beter wordt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-022",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-mistlichten",
+  "type": "meerkeuze",
+  "vraag": "Het zicht door mist is minder dan ongeveer 100 meter. Wat is verplicht?",
+  "opties": [
+   "Het achtermistlicht aanzetten (als je wagen er een heeft)",
+   "Enkel de standlichten",
+   "Geen licht, want het is overdag",
+   "Enkel het parkeerlicht"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Bij mist of sneeuw met zicht onder ongeveer 100 m moet het achtermistlicht branden.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-023",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-parkeerlicht",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Binnen de bebouwde kom mag je de standlichten vervangen door één {{1}}, als de auto evenwijdig met de as van de rijbaan staat en er geen {{2}} aan gekoppeld is.",
+  "gaten": [
+   {
+    "opties": [
+     "parkeerlicht",
+     "dimlicht",
+     "mistlicht"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "aanhangwagen",
+     "fietsendrager",
+     "dakkoffer"
+    ],
+    "correct": 0
+   }
+  ],
+  "uitleg": "Het parkeerlicht aan de kant van de rijbaan volstaat, zonder aanhangwagen en evenwijdig geparkeerd.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-024",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-reactietijd",
+  "type": "meerkeuze",
+  "vraag": "Wat verlengt je reactietijd?",
+  "opties": [
+   "Alcohol",
+   "Vermoeidheid",
+   "Afleiding, bijvoorbeeld door je gsm",
+   "Een hogere snelheid",
+   "Een droog wegdek"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "Alcohol, vermoeidheid, drugs, bepaalde geneesmiddelen en afleiding verlengen de reactietijd. Snelheid verandert de afgelegde afstand, niet de tijd.",
+  "bronnen": [
+   "GEDR-018",
+   "GEDR-008",
+   "GEDR-006",
+   "GEDR-007",
+   "GEDR-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-025",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-reactietijd",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Hoe sneller je rijdt, hoe langer je reactietijd wordt.",
+  "juist": false,
+  "motivatie": "De reactietijd blijft gelijk, maar de afstand die je in die tijd aflegt (de reactieafstand) wordt groter.",
+  "foutemotivaties": [
+   "Bij hoge snelheid werkt je hersenen trager.",
+   "De reactietijd is onafhankelijk van afleiding en vermoeidheid."
+  ],
+  "uitleg": "De reactietijd verandert niet met de snelheid, de reactieafstand wel.",
+  "bronnen": [
+   "GEDR-018",
+   "GEDR-008",
+   "GEDR-006",
+   "GEDR-007",
+   "GEDR-009"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-026",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-remweg",
+  "type": "meerkeuze",
+  "vraag": "Je rijdt twee keer zo snel. Hoeveel keer langer wordt je remafstand ongeveer?",
+  "opties": [
+   "2 keer",
+   "3 keer",
+   "4 keer",
+   "8 keer"
+  ],
+  "correct": [
+   2
+  ],
+  "meerdere": false,
+  "uitleg": "De remafstand groeit met het kwadraat van de snelheid: dubbel zo snel is ongeveer vier keer zo lang.",
+  "bronnen": [
+   "GEDR-018",
+   "GEDR-008"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-027",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-volgafstand",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Volgens de tweeseconderegel houd je op een droog wegdek minstens {{1}} seconden afstand. Bij een nat wegdek tel je {{2}} seconden.",
+  "gaten": [
+   {
+    "opties": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "correct": 1
+   },
+   {
+    "opties": [
+     "2",
+     "3",
+     "4",
+     "6"
+    ],
+    "correct": 1
+   }
+  ],
+  "uitleg": "Tweeseconderegel: 2 seconden bij droog weer en 3 seconden bij nat wegdek.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-008",
+   "GEDR-018"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-028",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-volgafstand",
+  "type": "volgorde",
+  "vraag": "Zet de stappen van de tweeseconderegel in de juiste volgorde.",
+  "items": [
+   "Kies een vast punt langs de weg, bijvoorbeeld een paal of bord",
+   "Wacht tot je voorligger dat punt voorbij is",
+   "Begin te tellen",
+   "Bereik je het punt voor je twee seconden geteld hebt, dan rijd je te dicht"
+  ],
+  "uitleg": "Je kiest een punt, telt zodra je voorligger er voorbij is en vergelijkt met 2 seconden.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-008",
+   "GEDR-018"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-029",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-regen",
+  "type": "meerkeuze",
+  "vraag": "Wat doe je bij regen?",
+  "opties": [
+   "Je past je snelheid aan.",
+   "Je houdt 3 seconden afstand.",
+   "Je gebruikt cruise control.",
+   "Een afstand van 2 seconden is altijd genoeg."
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "meerdere": true,
+  "uitleg": "Bij nat wegdek is de remafstand langer: rij trager en tel 3 seconden. Gebruik geen cruise control op gladde wegen.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-008",
+   "GEDR-015",
+   "GEDR-018"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-030",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-mist",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Je mag het achtermistlicht laten branden nadat de mist is verdwenen.",
+  "juist": false,
+  "motivatie": "Een achtermistlicht dat blijft branden bij beter zicht verblindt de bestuurder achter jou.",
+  "foutemotivaties": [
+   "Het achtermistlicht moet altijd aan blijven na een mistbank.",
+   "Het achtermistlicht verbruikt anders te veel stroom."
+  ],
+  "uitleg": "Doof het achtermistlicht zodra het zicht beter wordt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-031",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-ijs",
+  "type": "meerkeuze",
+  "vraag": "Je voorruit is bevroren. Wat doe je voor je vertrekt?",
+  "opties": [
+   "Een klein kijkgaatje vrijkrabben",
+   "De hele voorruit ontdooien en ontijzen",
+   "Enkel de ruitenwissers aanzetten",
+   "Vertrekken en wachten tot de ruit vanzelf ontdooit"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Een niet-ijsvrije voorruit is een overtreding. Ontdooi de hele ruit.",
+  "bronnen": [
+   "GEDR-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-032",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-stappenplan",
+  "type": "volgorde",
+  "vraag": "Zet de stappen bij een ongeval in de juiste volgorde.",
+  "items": [
+   "Beveilig de plaats",
+   "Breng mensen in veiligheid",
+   "Alarmeer 112",
+   "Verleen eerste hulp",
+   "Blijf ter plaatse"
+  ],
+  "uitleg": "Eerst voorkom je méér slachtoffers, dan roep je hulp en pas daarna help je zelf verder.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-005",
+   "ONGE-009",
+   "ONGE-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-033",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-gevarendriehoek",
+  "type": "meerkeuze",
+  "vraag": "Op welke minimale afstand plaats je de gevarendriehoek op een autosnelweg?",
+  "opties": [
+   "30 meter",
+   "50 meter",
+   "100 meter",
+   "200 meter"
+  ],
+  "correct": [
+   2
+  ],
+  "meerdere": false,
+  "afbeelding": "schema-gevarendriehoek-afstand",
+  "uitleg": "Op de autosnelweg 100 meter, op een gewone weg 30 meter.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-014"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-034",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-alarmlichten-hesje",
+  "type": "meerkeuze",
+  "vraag": "Je hebt pech op een autosnelweg. Wanneer trek je je fluohesje aan?",
+  "opties": [
+   "Nadat je uitgestapt bent",
+   "Voor je uitstapt",
+   "Enkel als het donker is",
+   "Enkel als de politie komt"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Op autosnelwegen en autowegen draag je het hesje zodra je het voertuig verlaat. Houd het binnen handbereik.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-009",
+   "ONGE-014"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-035",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-alarmnummers",
+  "type": "koppel",
+  "vraag": "Koppel het nummer aan het juiste gebruik.",
+  "paren": [
+   {
+    "links": "112",
+    "rechts": "Ambulance en brandweer; Europees noodnummer"
+   },
+   {
+    "links": "101",
+    "rechts": "Dringende politiehulp"
+   },
+   {
+    "links": "100",
+    "rechts": "Komt bij dezelfde noodcentrale uit als 112"
+   }
+  ],
+  "uitleg": "112 is het noodnummer voor ambulance en brandweer, 101 voor dringende politiehulp.",
+  "bronnen": [
+   "ONGE-002",
+   "ONGE-003",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-036",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-noodoproep",
+  "type": "meerkeuze",
+  "vraag": "Wat vertel je bij een noodoproep?",
+  "opties": [
+   "Waar het ongeval gebeurd is",
+   "Wat er gebeurd is en hoeveel voertuigen betrokken zijn",
+   "Of er gewonden zijn en hoe ze eraan toe zijn",
+   "Je hangt meteen op nadat je de locatie hebt gezegd"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "Geef locatie, wat er gebeurd is en wie gewond is. Hang niet op voor de operator klaar is.",
+  "bronnen": [
+   "ONGE-002",
+   "ONGE-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-037",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-ehbo-stappen",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Het ABC staat voor: bewustzijn, {{1}}, ademhaling. De ademhaling controleer je door te kijken, te luisteren en te {{2}}.",
+  "gaten": [
+   {
+    "opties": [
+     "luchtweg",
+     "hartslag",
+     "bloeddruk"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "voelen",
+     "ruiken",
+     "proeven"
+    ],
+    "correct": 0
+   }
+  ],
+  "uitleg": "Je controleert bewustzijn, luchtweg en ademhaling (kijken, luisteren, voelen) in maximaal 10 seconden.",
+  "bronnen": [
+   "ONGE-005",
+   "ONGE-008",
+   "ONGE-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-038",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-stabiele-zijligging",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Je legt elk bewusteloos slachtoffer in stabiele zijligging.",
+  "juist": false,
+  "motivatie": "Je doet dat enkel als het slachtoffer normaal ademt en je geen wervelletsel vermoedt. Ademt het niet normaal, dan start je met reanimeren.",
+  "foutemotivaties": [
+   "Een bewusteloos slachtoffer mag je nooit verplaatsen.",
+   "Stabiele zijligging gebruik je enkel bij brandwonden."
+  ],
+  "uitleg": "Bewusteloos en normaal ademend: stabiele zijligging, behalve bij vermoeden van wervelletsel.",
+  "bronnen": [
+   "ONGE-008",
+   "ONGE-004"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-039",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-reanimatie-aed",
+  "type": "meerkeuze",
+  "vraag": "Wat is juist bij het gebruik van een AED?",
+  "opties": [
+   "Je activeert de AED en volgt de aanwijzingen.",
+   "Je kleeft de 2 elektroden op de ontblote borstkas.",
+   "Tijdens de analyse en bij een schok raakt niemand het slachtoffer aan.",
+   "Je mag de AED pas gebruiken nadat de ambulance er is."
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "De AED geeft aanwijzingen. Niemand raakt het slachtoffer aan tijdens de analyse en een schok.",
+  "bronnen": [
+   "ONGE-004",
+   "ONGE-008"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-040",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-brandwonden",
+  "type": "meerkeuze",
+  "vraag": "Wat doe je bij een brandwonde?",
+  "opties": [
+   "Koelen met stromend water",
+   "Afdekken met gepast verbandmateriaal",
+   "Er ijs op leggen",
+   "Er zalf op smeren",
+   "Blaren openprikken"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "meerdere": true,
+  "uitleg": "Koel met stromend water en bedek de wonde. Geen ijs, geen zalf en prik blaren niet open.",
+  "bronnen": [
+   "ONGE-006"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-041",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-bloeding",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Bij een ernstige bloeding trek je handschoenen aan, laat je het slachtoffer {{1}} en alarmeer je 112. Met een drukverband of propere doek oefen je {{2}} uit op de bloeding.",
+  "gaten": [
+   {
+    "opties": [
+     "neerliggen",
+     "rechtstaan",
+     "wandelen"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "druk",
+     "warmte",
+     "kou"
+    ],
+    "correct": 0
+   }
+  ],
+  "uitleg": "Neerliggen, 112 bellen en blijven drukken op de bloeding tot de hulpdiensten er zijn.",
+  "bronnen": [
+   "ONGE-007"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-042",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-hulpverlening-blijven",
+  "type": "meerkeuze",
+  "vraag": "Je moet na een ongeval even weg om hulp te halen. Wat doe je eerst?",
+  "opties": [
+   "Je rijdt zomaar weg",
+   "Je geeft eerst naam en adres aan een aanwezige",
+   "Je vraagt de tegenpartij niets",
+   "Je bent verplicht altijd te blijven staan"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Even weggaan om hulp te halen mag, op voorwaarde dat je eerst naam en adres aan een aanwezige geeft.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-043",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-uitrusting",
+  "type": "meerkeuze",
+  "vraag": "Welke zaken moeten volgens de wegcode in elke auto zijn?",
+  "opties": [
+   "Een gevaarsdriehoek",
+   "Een of twee blustoestellen",
+   "Een verbandkist of -etui",
+   "Winterbanden",
+   "Het Europees aanrijdingsformulier"
+  ],
+  "correct": [
+   0,
+   1,
+   2
+  ],
+  "meerdere": true,
+  "uitleg": "Driehoek, blustoestel en verbandkist moeten aan boord zijn. Winterbanden en het aanrijdingsformulier zijn niet verplicht.",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-044",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-aanrijdingsformulier",
+  "type": "meerkeuze",
+  "vraag": "Je ondertekent samen met de andere bestuurder het aanrijdingsformulier. Wat betekent dat?",
+  "opties": [
+   "Je erkent dat jij aansprakelijk bent",
+   "Je bevestigt de feiten, maar erkent geen aansprakelijkheid",
+   "Je hoeft verder niets aan je verzekeraar te melden",
+   "Je verzekeraar moet het formulier niet krijgen"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Het formulier legt de feiten vast. De verzekeraars beslissen wie verantwoordelijk is.",
+  "bronnen": [
+   "ONGE-009",
+   "ONGE-010",
+   "ONGE-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-045",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-formulier-wanneer-niet",
+  "type": "meerkeuze",
+  "vraag": "Bij een aanrijding zijn er gewonden. Wat is juist?",
+  "opties": [
+   "Het formulier volstaat",
+   "De politie moet een proces-verbaal opmaken",
+   "Je hoeft geen hulp te bellen",
+   "Je mag gewoon doorrijden"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Bij gewonden volstaat het formulier niet: bel 112 en haal de politie erbij.",
+  "bronnen": [
+   "ONGE-009",
+   "ONGE-010",
+   "ONGE-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-046",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-verzekering",
+  "type": "koppel",
+  "vraag": "Koppel elke verzekering aan wat ze dekt.",
+  "paren": [
+   {
+    "links": "BA (burgerlijke aansprakelijkheid)",
+    "rechts": "Schade die jij aan anderen berokkent (verplicht)"
+   },
+   {
+    "links": "Omnium",
+    "rechts": "Eigen voertuigschade, volgens contract"
+   },
+   {
+    "links": "Bestuurders- of ongevallenverzekering",
+    "rechts": "Eigen letsels"
+   }
+  ],
+  "uitleg": "De BA-verzekering dekt enkel schade aan anderen. Eigen schade of letsels vraagt een extra verzekering.",
+  "bronnen": [
+   "ONGE-011",
+   "ONGE-013",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-047",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-vluchtmisdrijf",
+  "type": "meerkeuze",
+  "vraag": "Je beschadigt een geparkeerde auto en de eigenaar is er niet. Wat doe je?",
+  "opties": [
+   "Je rijdt door, niemand heeft het gezien",
+   "Je geeft ter plaatse naam en adres op en meldt het zo snel mogelijk, rechtstreeks of via de politie",
+   "Je meldt het enkel als de schade groot is",
+   "Je wacht tot je volgende onderhoudsbeurt"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Niet ter plaatse blijven of niets melden is vluchtmisdrijf en strafbaar.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-012",
+   "ONGE-016"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-048",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-traject",
+  "type": "tabel",
+  "vraag": "Vanaf welke leeftijd kan je dit in Vlaanderen?",
+  "kolommen": [
+   "Vanaf leeftijd"
+  ],
+  "rijen": [
+   {
+    "label": "Theorie-examen",
+    "cellen": [
+     {
+      "correct": "17",
+      "opties": [
+       "16",
+       "17",
+       "18"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Voorlopig rijbewijs M36 (met begeleider)",
+    "cellen": [
+     {
+      "correct": "17",
+      "opties": [
+       "16",
+       "17",
+       "18"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Praktijkexamen",
+    "cellen": [
+     {
+      "correct": "18",
+      "opties": [
+       "17",
+       "18",
+       "19"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Voorlopig rijbewijs M18 (zonder begeleider)",
+    "cellen": [
+     {
+      "correct": "18",
+      "opties": [
+       "17",
+       "18",
+       "19"
+      ]
+     }
+    ]
+   }
+  ],
+  "uitleg": "Theorie-examen en M36: 17 jaar. Praktijkexamen en M18: 18 jaar.",
+  "bronnen": [
+   "RIJB-005",
+   "RIJB-011",
+   "RIJB-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-049",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "type": "koppel",
+  "vraag": "Koppel elk voorlopig rijbewijs aan zijn kenmerken.",
+  "paren": [
+   {
+    "links": "M36",
+    "rechts": "Met begeleider, 36 maanden geldig, vanaf 17 jaar"
+   },
+   {
+    "links": "M18",
+    "rechts": "Zonder begeleider, 18 maanden geldig, vanaf 18 jaar"
+   },
+   {
+    "links": "M12",
+    "rechts": "Eenmalig aan te vragen nadat een voorlopig rijbewijs verlopen is"
+   }
+  ],
+  "uitleg": "Het getal staat voor het aantal maanden dat het voorlopig rijbewijs geldig is.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-006"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-050",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-begeleider",
+  "type": "meerkeuze",
+  "vraag": "Aan welke voorwaarden moet een begeleider voldoen?",
+  "opties": [
+   "Minstens 8 jaar rijbewijs voor dat voertuigtype",
+   "Niet vervallen verklaard van het recht tot sturen, ook niet in de laatste 3 jaar",
+   "Minstens 3 jaar rijbewijs",
+   "Mag elke andere leerling begeleiden"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "meerdere": true,
+  "uitleg": "Een begeleider heeft minstens 8 jaar rijbewijs en is niet vervallen verklaard. Een vormingsmoment is ook nodig.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-003",
+   "RIJB-006"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-051",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-oefenperiode-beperkingen",
+  "type": "meerkeuze",
+  "vraag": "Wanneer mag je met een voorlopig rijbewijs niet rijden?",
+  "opties": [
+   "Zaterdag om 23 uur",
+   "Zaterdag om 14 uur",
+   "Zondag om 10 uur",
+   "Vrijdag om 8 uur"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Het is verboden van 22 u tot 6 u op vrijdag, zaterdag, zondag, de vooravond van feestdagen en op feestdagen.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-006",
+   "RIJB-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-052",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-praktijkexamen-terugkommoment",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Het praktijkexamen kan je afleggen vanaf {{1}} jaar. Het verplichte terugkommoment duurt {{2}} uur.",
+  "gaten": [
+   {
+    "opties": [
+     "17",
+     "18",
+     "19"
+    ],
+    "correct": 1
+   },
+   {
+    "opties": [
+     "2",
+     "4",
+     "8"
+    ],
+    "correct": 1
+   }
+  ],
+  "uitleg": "Praktijkexamen vanaf 18 jaar; terugkommoment van 4 uur, 6 tot 9 maanden na het definitieve rijbewijs.",
+  "bronnen": [
+   "RIJB-004",
+   "RIJB-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-053",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "type": "tabel",
+  "vraag": "Wie beslist?",
+  "kolommen": [
+   "Wie beslist"
+  ],
+  "rijen": [
+   {
+    "label": "Verval van het recht tot sturen",
+    "cellen": [
+     {
+      "correct": "Rechter",
+      "opties": [
+       "Rechter",
+       "Procureur"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Onmiddellijke intrekking",
+    "cellen": [
+     {
+      "correct": "Procureur",
+      "opties": [
+       "Rechter",
+       "Procureur"
+      ]
+     }
+    ]
+   }
+  ],
+  "uitleg": "Verval is een uitspraak van de rechter. Intrekking is een tijdelijke maatregel, meestal door de procureur.",
+  "bronnen": [
+   "RIJB-007",
+   "RIJB-008",
+   "RIJB-009"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-054",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-geldigheid-verlies",
+  "type": "meerkeuze",
+  "vraag": "Hoe lang is een rijbewijs in kaartmodel geldig?",
+  "opties": [
+   "5 jaar",
+   "10 jaar",
+   "15 jaar",
+   "20 jaar"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Een rijbewijs in kaartmodel is 10 jaar geldig.",
+  "bronnen": [
+   "RIJB-010",
+   "RIJB-012",
+   "RIJB-001"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-055",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-verloop",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan het juiste gegeven.",
+  "paren": [
+   {
+    "links": "Aantal vragen",
+    "rechts": "50 meerkeuzevragen"
+   },
+   {
+    "links": "Tijd per vraag",
+    "rechts": "15 seconden na het volledig voorlezen"
+   },
+   {
+    "links": "Minimumleeftijd",
+    "rechts": "17 jaar"
+   },
+   {
+    "links": "Na het examen",
+    "rechts": "Een oogtest"
+   }
+  ],
+  "uitleg": "Het theorie-examen heeft 50 meerkeuzevragen. Daarna volgt meteen een oogtest.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-056",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-puntentelling",
+  "type": "tabel",
+  "vraag": "Geslaagd of niet geslaagd?",
+  "kolommen": [
+   "Resultaat"
+  ],
+  "rijen": [
+   {
+    "label": "9 gewone fouten",
+    "cellen": [
+     {
+      "correct": "Geslaagd",
+      "opties": [
+       "Geslaagd",
+       "Niet geslaagd"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "10 gewone fouten",
+    "cellen": [
+     {
+      "correct": "Niet geslaagd",
+      "opties": [
+       "Geslaagd",
+       "Niet geslaagd"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "1 zware fout en 4 gewone fouten",
+    "cellen": [
+     {
+      "correct": "Geslaagd",
+      "opties": [
+       "Geslaagd",
+       "Niet geslaagd"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "2 zware fouten",
+    "cellen": [
+     {
+      "correct": "Niet geslaagd",
+      "opties": [
+       "Geslaagd",
+       "Niet geslaagd"
+      ]
+     }
+    ]
+   }
+  ],
+  "uitleg": "Je start met 50 punten: gewone fout -1, zware fout -5. Je slaagt met minstens 41 punten.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-013"
+  ],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-057",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-puntentelling",
+  "type": "meerkeuze",
+  "vraag": "Hoeveel van de 50 punten heb je minstens nodig om te slagen voor het theorie-examen?",
+  "opties": [
+   "35",
+   "40",
+   "41",
+   "45"
+  ],
+  "correct": [
+   2
+  ],
+  "meerdere": false,
+  "uitleg": "Je bent geslaagd met minstens 41 van de 50 punten.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-058",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-herkansing-geldigheid",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Een geslaagd theorie-examen blijft {{1}} jaar geldig. Na {{2}} mislukte pogingen moet je 12 uur theorieopleiding volgen.",
+  "gaten": [
+   {
+    "opties": [
+     "1",
+     "2",
+     "3",
+     "5"
+    ],
+    "correct": 2
+   },
+   {
+    "opties": [
+     "1",
+     "2",
+     "3",
+     "4"
+    ],
+    "correct": 1
+   }
+  ],
+  "uitleg": "3 jaar geldig; na 2 mislukkingen volgt 12 uur theorielessen bij een erkende rijschool.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-004",
+   "RIJB-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-059",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-banden",
+  "type": "meerkeuze",
+  "vraag": "Wat is de wettelijke minimale profieldiepte van een band in België?",
+  "opties": [
+   "1 mm",
+   "1,6 mm",
+   "3 mm",
+   "4 mm"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Het wettelijk minimum is 1,6 mm over de volledige breedte van het loopvlak.",
+  "bronnen": [
+   "TECH-008",
+   "TECH-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-060",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-banden",
+  "type": "koppel",
+  "vraag": "Koppel elke vaststelling aan de oorzaak of de actie.",
+  "paren": [
+   {
+    "links": "Buitenkanten versleten",
+    "rechts": "Spanning te laag"
+   },
+   {
+    "links": "Middenstuk versleten",
+    "rechts": "Spanning te hoog"
+   },
+   {
+    "links": "Bult of bobbel in de flank",
+    "rechts": "Band vervangen"
+   }
+  ],
+  "uitleg": "Slijtage vertelt je veel over de bandenspanning. Een bult in de flank betekent: band vervangen.",
+  "bronnen": [
+   "TECH-008",
+   "TECH-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-061",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-onderhoud",
+  "type": "meerkeuze",
+  "vraag": "Waarom wordt remvloeistof meestal om de twee jaar vervangen?",
+  "opties": [
+   "Ze neemt vocht op, waardoor het kookpunt daalt",
+   "Ze verbrandt in de motor",
+   "Ze wordt helemaal opgebruikt",
+   "Ze bevriest in de winter"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Door opgenomen vocht kookt ze sneller. Dampbellen laten je rem minder goed werken.",
+  "bronnen": [
+   "TECH-010",
+   "TECH-011",
+   "TECH-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-062",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-keuring",
+  "type": "koppel",
+  "vraag": "Koppel elke situatie aan de keuringstermijn in Vlaanderen.",
+  "paren": [
+   {
+    "links": "Eerste keuring personenwagen",
+    "rechts": "4 jaar na de eerste inschrijving"
+   },
+   {
+    "links": "Daarna (vanaf 1 september 2026)",
+    "rechts": "Om de 2 jaar"
+   },
+   {
+    "links": "Taxi en ziekenwagen (vanaf 1 september 2026)",
+    "rechts": "Jaarlijks"
+   }
+  ],
+  "uitleg": "De tweejaarlijkse keuring is een Vlaamse regeling. Brussel en Wallonië hebben eigen regels.",
+  "bronnen": [
+   "TECH-001",
+   "TECH-002",
+   "TECH-003",
+   "TECH-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-063",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-uitrusting",
+  "type": "waaronwaar",
+  "vraag": "Juist of onjuist?",
+  "stelling": "Je mag je brandblusser diep in de koffer wegstoppen.",
+  "juist": false,
+  "motivatie": "Hij moet binnen handbereik van de bestuurder zijn. Controleer ook de vervaldatum en of het zegel intact is.",
+  "foutemotivaties": [
+   "Een brandblusser hoeft niet bereikbaar te zijn, enkel aanwezig.",
+   "Een brandblusser moet je pas controleren na vijf jaar."
+  ],
+  "uitleg": "Een bereikbare, niet-vervallen brandblusser met intact zegel is nodig.",
+  "bronnen": [
+   "TECH-005",
+   "TECH-006",
+   "TECH-007"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-064",
+  "les": 4,
+  "onderwerp": "T39",
+  "theorieblok": "techniek-dashboard-kleuren",
+  "type": "meerkeuze",
+  "vraag": "Een rood lampje brandt tijdens het rijden. Wat doe je?",
+  "opties": [
+   "Gewoon doorrijden",
+   "Veilig stoppen en de oorzaak nagaan",
+   "Het lampje negeren tot de volgende beurt",
+   "Het grootlicht aanzetten"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "afbeelding": "tech-dashboard-kleuren",
+  "uitleg": "Rood betekent gevaar of veiligheid: veilig stoppen en nagaan.",
+  "bronnen": [
+   "TECH-012",
+   "TECH-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-065",
+  "les": 4,
+  "onderwerp": "T39",
+  "theorieblok": "techniek-dashboard-symbolen",
+  "type": "meerkeuze",
+  "vraag": "Wat betekent dit rode lampje en wat doe je?",
+  "opties": [
+   "Te lage oliedruk: stoppen en het oliepeil controleren",
+   "Te weinig ruitensproeiervloeistof: bijvullen bij de volgende tankbeurt",
+   "Het grootlicht staat aan: doven",
+   "Storing aan de bandenspanning: rustig verder rijden"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "afbeelding": "tech-lampje-olie",
+  "uitleg": "Het rode oliekannetje wijst op te lage oliedruk. Stop en controleer het peil.",
+  "bronnen": [
+   "TECH-012",
+   "TECH-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": true
+ },
+ {
+  "id": "L4-066",
+  "les": 4,
+  "onderwerp": "T39",
+  "theorieblok": "techniek-dashboard-symbolen",
+  "type": "meerkeuze",
+  "vraag": "Het oranje motorlampje begint te knipperen. Wat doe je?",
+  "opties": [
+   "Veilig stoppen",
+   "Rustig doorrijden naar huis",
+   "Het lampje negeren",
+   "Het grootlicht uitzetten"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "afbeelding": "tech-lampje-motor",
+  "uitleg": "Een knipperend motorlampje is ernstiger dan een brandend lampje: veilig stoppen.",
+  "bronnen": [
+   "TECH-012",
+   "TECH-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "eindtest": false
+ },
+ {
+  "id": "L4-067",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-zuinig-rijden",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "Met een zuinige rijstijl kan je ongeveer {{1}} % brandstof besparen. Schakel vroeg op, rond {{2}} toeren.",
+  "gaten": [
+   {
+    "opties": [
+     "2",
+     "10",
+     "40"
+    ],
+    "correct": 1
+   },
+   {
+    "opties": [
+     "1.000 à 1.500",
+     "2.000 à 2.500",
+     "4.000 à 5.000"
+    ],
+    "correct": 1
+   }
+  ],
+  "uitleg": "Ongeveer 10 % besparing is haalbaar, onder meer door vroeg op te schakelen.",
+  "bronnen": [
+   "TECH-014",
+   "TECH-011",
+   "TECH-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": true
+ },
+ {
+  "id": "L4-068",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-milieu-euronorm",
+  "type": "koppel",
+  "vraag": "Koppel elk begrip aan zijn betekenis.",
+  "paren": [
+   {
+    "links": "Euronorm",
+    "rechts": "Europese grenzen voor schadelijke uitstoot"
+   },
+   {
+    "links": "Hoger Euro-cijfer",
+    "rechts": "Strengere norm en schonere auto"
+   },
+   {
+    "links": "Euronorm van je auto vind je op",
+    "rechts": "Het inschrijvingsbewijs en de Car-Pass"
+   },
+   {
+    "links": "CO2",
+    "rechts": "Broeikasgas dat afneemt bij lager verbruik"
+   }
+  ],
+  "uitleg": "Een hoger Euro-cijfer betekent strengere grenzen. De Euronorm staat op het inschrijvingsbewijs en de Car-Pass.",
+  "bronnen": [
+   "TECH-019",
+   "TECH-015",
+   "TECH-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-069",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-lez",
+  "type": "cloze",
+  "vraag": "Vul aan.",
+  "tekst": "In Vlaanderen hebben {{1}} en {{2}} een lage-emissiezone.",
+  "gaten": [
+   {
+    "opties": [
+     "Antwerpen",
+     "Hasselt",
+     "Leuven"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "Brugge",
+     "Gent",
+     "Mechelen"
+    ],
+    "correct": 1
+   }
+  ],
+  "uitleg": "In Vlaanderen hebben Antwerpen en Gent een LEZ. Bijna heel Brussel is ook een LEZ.",
+  "bronnen": [
+   "TECH-015",
+   "TECH-016",
+   "TECH-017",
+   "TECH-020"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-070",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-hybride-elektrisch",
+  "type": "koppel",
+  "vraag": "Koppel elk type aan zijn kenmerk.",
+  "paren": [
+   {
+    "links": "Micro-hybride",
+    "rechts": "Enkel een start-stopsysteem"
+   },
+   {
+    "links": "Mild hybrid",
+    "rechts": "Kleine elektromotor ondersteunt de brandstofmotor"
+   },
+   {
+    "links": "Full hybrid",
+    "rechts": "Batterij laadt tijdens het rijden en remmen"
+   },
+   {
+    "links": "Plug-inhybride",
+    "rechts": "Batterij die je met een kabel laadt"
+   }
+  ],
+  "uitleg": "Hoe groter de elektrische hulp, hoe meer je elektrisch kan rijden. Een plug-in moet je regelmatig opladen.",
+  "bronnen": [
+   "TECH-018",
+   "TECH-004",
+   "TECH-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false
+ },
+ {
+  "id": "L4-M01",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan de alcoholgrens.",
+  "paren": [
+   {
+    "links": "Gewone bestuurder, ademtest",
+    "rechts": "0,22 mg/l"
+   },
+   {
+    "links": "Gewone bestuurder, bloedproef",
+    "rechts": "0,5 g/l"
+   },
+   {
+    "links": "Professionele bestuurder, bloedproef",
+    "rechts": "0,2 g/l"
+   }
+  ],
+  "uitleg": "Gewone bestuurders 0,5 g/l of 0,22 mg/l; professionele 0,2 g/l.",
+  "bronnen": [
+   "GEDR-003",
+   "GEDR-010",
+   "GEDR-011",
+   "GEDR-013",
+   "GEDR-016",
+   "GEDR-017"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M02",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-beginners",
+  "type": "meerkeuze",
+  "vraag": "Welke alcoholgrens geldt op dit moment voor een beginnende bestuurder in België?",
+  "opties": [
+   "0,2 g/l",
+   "0,5 g/l",
+   "0,0 g/l"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Nu geldt dezelfde grens als voor gewone bestuurders. Een lagere grens is enkel aangekondigd.",
+  "bronnen": [
+   "GEDR-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M03",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcoholslot",
+  "type": "koppel",
+  "vraag": "Koppel de vraag aan het antwoord over het alcoholslot.",
+  "paren": [
+   {
+    "links": "Wie legt het op?",
+    "rechts": "De rechter"
+   },
+   {
+    "links": "Hoe lang?",
+    "rechts": "1 tot 3 jaar, of levenslang"
+   },
+   {
+    "links": "Wie betaalt de kosten?",
+    "rechts": "Jijzelf"
+   }
+  ],
+  "uitleg": "De rechter legt het slot op; je betaalt zelf en volgt een omkaderingsprogramma.",
+  "bronnen": [
+   "GEDR-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M04",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-drugs",
+  "type": "koppel",
+  "vraag": "Koppel elke stap aan wat er gebeurt.",
+  "paren": [
+   {
+    "links": "Uiterlijke tekenen",
+    "rechts": "Checklist van de politie"
+   },
+   {
+    "links": "Speekseltest",
+    "rechts": "Snelle eerste vaststelling op de weg"
+   },
+   {
+    "links": "Speekselanalyse",
+    "rechts": "Bewijs voor de rechter, in een erkend laboratorium"
+   }
+  ],
+  "uitleg": "De politie stelt drugs in drie stappen vast; de laboanalyse is het bewijs.",
+  "bronnen": [
+   "GEDR-006",
+   "GEDR-016"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M05",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-gsm",
+  "type": "koppel",
+  "vraag": "Is het toegelaten? Koppel de situatie aan het antwoord.",
+  "paren": [
+   {
+    "links": "Gsm in de hand tijdens het rijden",
+    "rechts": "Verboden"
+   },
+   {
+    "links": "Handsfree bellen",
+    "rechts": "Toegelaten"
+   },
+   {
+    "links": "Gsm in een vaste houder",
+    "rechts": "Toegelaten, maar kijk niet te lang"
+   },
+   {
+    "links": "Gsm gebruiken in een geparkeerde auto",
+    "rechts": "Toegelaten als je geparkeerd bent"
+   }
+  ],
+  "uitleg": "Je mag een scherm niet vasthouden of bedienen, tenzij het in een houder zit.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M06",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-afleiding",
+  "type": "meerkeuze",
+  "vraag": "Wanneer stel je je route en muziek best in?",
+  "opties": [
+   "Vóór je wegrijdt",
+   "Tijdens het rijden",
+   "Aan een bocht"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Bereid alles voor vóór vertrek, zodat je ogen en handen bij het verkeer blijven.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-008"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M07",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-vermoeidheid",
+  "type": "koppel",
+  "vraag": "Koppel de raad aan het juiste advies van Vias.",
+  "paren": [
+   {
+    "links": "Pauzeren",
+    "rechts": "Na maximaal 2 uur rijden"
+   },
+   {
+    "links": "Dutje",
+    "rechts": "Maximaal 20 minuten"
+   },
+   {
+    "links": "Slaperig",
+    "rechts": "Op een veilige plek stoppen"
+   }
+  ],
+  "uitleg": "Pauzeer na maximaal 2 uur en doe bij slaperigheid een kort dutje.",
+  "bronnen": [
+   "GEDR-009"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M08",
+  "les": 4,
+  "onderwerp": "T30",
+  "theorieblok": "gedrag-medicatie",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan de juiste raad.",
+  "paren": [
+   {
+    "links": "Nieuw geneesmiddel",
+    "rechts": "Vraag het aan je arts of apotheker"
+   },
+   {
+    "links": "Bijsluiter",
+    "rechts": "Lezen voor je rijdt"
+   },
+   {
+    "links": "Geneesmiddel en alcohol",
+    "rechts": "Nooit combineren"
+   }
+  ],
+  "uitleg": "Voor geneesmiddelen is er geen vaste grens; jouw rijvaardigheid telt.",
+  "bronnen": [
+   "GEDR-007",
+   "GEDR-016"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M09",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-gordel",
+  "type": "meerkeuze",
+  "vraag": "Welke bestuurder is vrijgesteld van de gordelplicht?",
+  "opties": [
+   "Een bestuurder die achteruit rijdt",
+   "Een bestuurder op een korte rit",
+   "Een bestuurder op de autosnelweg"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Vrijgesteld zijn onder meer bestuurders die achteruit rijden.",
+  "bronnen": [
+   "GEDR-001"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M10",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-kinderzitjes",
+  "type": "koppel",
+  "vraag": "Koppel de lengte of situatie aan de regel.",
+  "paren": [
+   {
+    "links": "Kleiner dan 135 cm (en jonger dan 18)",
+    "rechts": "Kinderbeveiligingssysteem"
+   },
+   {
+    "links": "135 cm of groter",
+    "rechts": "Gewone veiligheidsgordel"
+   },
+   {
+    "links": "Achterwaarts zitje op plaats met voorairbag",
+    "rechts": "Airbag moet uitgeschakeld zijn"
+   }
+  ],
+  "uitleg": "Beide voorwaarden tellen: kleiner dan 135 cm én jonger dan 18 jaar.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-004",
+   "GEDR-019"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M11",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-kinderzitjes-uitzonderingen",
+  "type": "meerkeuze",
+  "vraag": "Waar zit een kind van 3 jaar of ouder zonder zitje in een uitzonderingsgeval?",
+  "opties": [
+   "Achterin, niet vooraan",
+   "Vooraan met de gordel",
+   "Op schoot van de voorpassagier"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Elke uitzondering geldt enkel voor zitplaatsen die niet vooraan zijn.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M12",
+  "les": 4,
+  "onderwerp": "T31",
+  "theorieblok": "gedrag-lading",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan de eis voor lading.",
+  "paren": [
+   {
+    "links": "Zicht van de bestuurder",
+    "rechts": "Mag niet gehinderd worden"
+   },
+   {
+    "links": "Lichten en nummerplaat",
+    "rechts": "Moeten zichtbaar blijven"
+   },
+   {
+    "links": "Op de weg",
+    "rechts": "Lading mag niet slepen of vallen"
+   }
+  ],
+  "uitleg": "Lading mag niemand in gevaar brengen en niets verbergen.",
+  "bronnen": [
+   "GEDR-001"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M13",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-lichten-wanneer",
+  "type": "meerkeuze",
+  "vraag": "Wat moet vooraan branden bij een zicht van minder dan 200 meter?",
+  "opties": [
+   "Enkel de dagrijlichten",
+   "Dimlichten of grootlichten",
+   "Enkel de standlichten"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Vooraan dimlichten of grootlichten en achteraan rode lichten.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-014"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M14",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-grootlicht-dimlicht",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan het juiste licht.",
+  "paren": [
+   {
+    "links": "Tegenligger nadert",
+    "rechts": "Dimlicht"
+   },
+   {
+    "links": "Donkere weg zonder verkeer",
+    "rechts": "Grootlicht toegelaten"
+   },
+   {
+    "links": "Je volgt een voertuig op minder dan 50 m",
+    "rechts": "Dimlicht, behalve bij het inhalen"
+   }
+  ],
+  "uitleg": "Verblind nooit andere weggebruikers.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M15",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-mistlichten",
+  "type": "meerkeuze",
+  "vraag": "Wanneer moet het achtermistlicht branden?",
+  "opties": [
+   "Bij mist of sneeuw met zicht onder ongeveer 100 m",
+   "Zodra het donker wordt",
+   "Bij goed zicht, om beter gezien te worden"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "In andere omstandigheden mag het achtermistlicht niet branden.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-015"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M16",
+  "les": 4,
+  "onderwerp": "T32",
+  "theorieblok": "gedrag-parkeerlicht",
+  "type": "meerkeuze",
+  "vraag": "Welk parkeerlicht brandt binnen de bebouwde kom?",
+  "opties": [
+   "Dat aan de kant van de rijbaan",
+   "Dat aan de kant van het trottoir",
+   "Beide"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Enkel het parkeerlicht aan de kant van de rijbaan (de aslijn) brandt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M17",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-reactietijd",
+  "type": "koppel",
+  "vraag": "Koppel het begrip aan de uitleg.",
+  "paren": [
+   {
+    "links": "Reactietijd",
+    "rechts": "Tijd tussen gevaar zien en remmen"
+   },
+   {
+    "links": "Reactieafstand",
+    "rechts": "Afstand die je in die tijd verder rijdt"
+   },
+   {
+    "links": "Remafstand",
+    "rechts": "Afstand vanaf het remmen tot stilstand"
+   }
+  ],
+  "uitleg": "De reactietijd blijft gelijk; de reactieafstand groeit met de snelheid.",
+  "bronnen": [
+   "GEDR-018",
+   "GEDR-008",
+   "GEDR-006",
+   "GEDR-007",
+   "GEDR-009"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M18",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-remweg",
+  "type": "koppel",
+  "vraag": "Koppel elke vaststelling aan het gevolg.",
+  "paren": [
+   {
+    "links": "Reactieafstand + remafstand",
+    "rechts": "Stopafstand"
+   },
+   {
+    "links": "Dubbel zo snel rijden",
+    "rechts": "Ongeveer vier keer zo lange remafstand"
+   },
+   {
+    "links": "Nat of glad wegdek",
+    "rechts": "Langere remafstand"
+   }
+  ],
+  "uitleg": "Stopafstand is reactieafstand plus remafstand.",
+  "bronnen": [
+   "GEDR-018",
+   "GEDR-008"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M19",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-volgafstand",
+  "type": "koppel",
+  "vraag": "Hoeveel seconden afstand houd je?",
+  "paren": [
+   {
+    "links": "Droog wegdek",
+    "rechts": "2 seconden"
+   },
+   {
+    "links": "Nat wegdek",
+    "rechts": "3 seconden"
+   }
+  ],
+  "uitleg": "Tweeseconderegel bij droog weer, drie seconden bij nat wegdek.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-002",
+   "GEDR-008",
+   "GEDR-018"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M20",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-regen",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan wat je doet bij regen.",
+  "paren": [
+   {
+    "links": "Snelheid",
+    "rechts": "Aanpassen aan weer en wegdek"
+   },
+   {
+    "links": "Volgafstand",
+    "rechts": "3 seconden"
+   },
+   {
+    "links": "Licht",
+    "rechts": "Dimlicht bij zicht onder ongeveer 200 m"
+   }
+  ],
+  "uitleg": "Bij regen is de remafstand langer en je zicht slechter.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-008",
+   "GEDR-015",
+   "GEDR-018"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M21",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-mist",
+  "type": "koppel",
+  "vraag": "Koppel het licht aan de regel bij mist.",
+  "paren": [
+   {
+    "links": "Achtermistlicht",
+    "rechts": "Verplicht bij zicht onder ongeveer 100 m"
+   },
+   {
+    "links": "Voormistlicht",
+    "rechts": "Mag bij mist, sneeuwval of felle regen"
+   },
+   {
+    "links": "Beter zicht",
+    "rechts": "Achtermistlicht doven"
+   }
+  ],
+  "uitleg": "Doof het achtermistlicht zodra het zicht beter wordt.",
+  "bronnen": [
+   "GEDR-001",
+   "GEDR-015"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M22",
+  "les": 4,
+  "onderwerp": "T33",
+  "theorieblok": "gedrag-weer-ijs",
+  "type": "meerkeuze",
+  "vraag": "Waar ontstaan ijsplekken het eerst?",
+  "opties": [
+   "Op bruggen",
+   "In tunnels",
+   "Op parkings"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Wees extra voorzichtig op bruggen bij ijzel.",
+  "bronnen": [
+   "GEDR-015"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M23",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-stappenplan",
+  "type": "koppel",
+  "vraag": "Koppel de stap aan wat je doet.",
+  "paren": [
+   {
+    "links": "Beveiligen",
+    "rechts": "Alarmlichten, hesje, gevarendriehoek"
+   },
+   {
+    "links": "Alarmeren",
+    "rechts": "112 bellen bij gewonden"
+   },
+   {
+    "links": "Ter plaatse blijven",
+    "rechts": "Wachten op hulpdiensten en politie"
+   }
+  ],
+  "uitleg": "Eerst veiligheid, dan hulp roepen, dan helpen en blijven.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-005",
+   "ONGE-009",
+   "ONGE-015"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M24",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-gevarendriehoek",
+  "type": "koppel",
+  "vraag": "Koppel de weg aan de afstand van de gevarendriehoek.",
+  "paren": [
+   {
+    "links": "Gewone weg",
+    "rechts": "30 meter"
+   },
+   {
+    "links": "Autosnelweg",
+    "rechts": "100 meter"
+   },
+   {
+    "links": "Bebouwde kom, 30 m niet mogelijk",
+    "rechts": "Dichterbij of op het voertuig"
+   }
+  ],
+  "uitleg": "30 op de gewone weg, 100 op de autosnelweg.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-014"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M25",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-alarmlichten-hesje",
+  "type": "meerkeuze",
+  "vraag": "Waar wacht je met je passagiers na een pech op de autosnelweg?",
+  "opties": [
+   "Op een veilige plaats, bijvoorbeeld achter de vangrail",
+   "In de auto op de pechstrook",
+   "Naast de auto op de rijbaan"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Wacht op een veilige plaats, bijvoorbeeld achter de vangrail.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-009",
+   "ONGE-014"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M26",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-alarmnummers",
+  "type": "koppel",
+  "vraag": "Koppel elke hulpvraag aan het juiste middel.",
+  "paren": [
+   {
+    "links": "Ambulance en brandweer",
+    "rechts": "112"
+   },
+   {
+    "links": "Dringende politiehulp",
+    "rechts": "101"
+   },
+   {
+    "links": "Hulp roepen langs de weg",
+    "rechts": "Praatpaal"
+   }
+  ],
+  "uitleg": "Bij een ongeval met gewonden bel je 112; voor een zuivere politievraag 101.",
+  "bronnen": [
+   "ONGE-002",
+   "ONGE-003",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M27",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-noodoproep",
+  "type": "koppel",
+  "vraag": "Koppel de vraag aan wat je antwoordt.",
+  "paren": [
+   {
+    "links": "Waar?",
+    "rechts": "Exacte locatie"
+   },
+   {
+    "links": "Wat?",
+    "rechts": "Wat er gebeurd is en hoeveel voertuigen"
+   },
+   {
+    "links": "Wie?",
+    "rechts": "Gewonden: hoeveel en hoe ernstig"
+   }
+  ],
+  "uitleg": "Antwoord rustig en hang niet op voor de operator klaar is.",
+  "bronnen": [
+   "ONGE-002",
+   "ONGE-015"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M28",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-ehbo-stappen",
+  "type": "koppel",
+  "vraag": "Koppel elke stap van het Rode Kruis.",
+  "paren": [
+   {
+    "links": "Stap 1",
+    "rechts": "Zorg voor veiligheid"
+   },
+   {
+    "links": "Stap 2",
+    "rechts": "Beoordeel de toestand van het slachtoffer"
+   },
+   {
+    "links": "Stap 3",
+    "rechts": "Raadpleeg gespecialiseerde hulp (112)"
+   },
+   {
+    "links": "Stap 4",
+    "rechts": "Verleen verdere eerste hulp"
+   }
+  ],
+  "uitleg": "Het Rode Kruis leert eerste hulp in vier stappen.",
+  "bronnen": [
+   "ONGE-005",
+   "ONGE-008",
+   "ONGE-004"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M29",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-stabiele-zijligging",
+  "type": "meerkeuze",
+  "vraag": "Wanneer leg je een slachtoffer in stabiele zijligging?",
+  "opties": [
+   "Het is bewusteloos maar ademt normaal",
+   "Het ademt niet normaal",
+   "Je vermoedt een wervelletsel"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Zo blijft de luchtweg open. Bij vermoeden van wervelletsel draai je het niet.",
+  "bronnen": [
+   "ONGE-008",
+   "ONGE-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M30",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-reanimatie-aed",
+  "type": "volgorde",
+  "vraag": "Zet de stappen bij de AED in de juiste volgorde.",
+  "items": [
+   "Alarmeer 112 en laat een AED halen",
+   "Activeer de AED en volg de aanwijzingen",
+   "Kleef de 2 elektroden op de ontblote borstkas",
+   "Raak het slachtoffer niet aan tijdens analyse en schok"
+  ],
+  "uitleg": "Volg altijd de aanwijzingen van de AED.",
+  "bronnen": [
+   "ONGE-004",
+   "ONGE-008"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M31",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-brandwonden",
+  "type": "volgorde",
+  "vraag": "Zet de eerste hulp bij een brandwonde in de juiste volgorde.",
+  "items": [
+   "Was of ontsmet je handen en trek handschoenen aan",
+   "Koel de brandwonde met stromend water",
+   "Bedek de wonde met gepast verbandmateriaal"
+  ],
+  "uitleg": "Geen ijs of zalf en prik blaren niet open.",
+  "bronnen": [
+   "ONGE-006"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M32",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-bloeding",
+  "type": "volgorde",
+  "vraag": "Zet de eerste hulp bij een ernstige bloeding in de juiste volgorde.",
+  "items": [
+   "Trek handschoenen aan en laat het slachtoffer neerliggen",
+   "Alarmeer 112",
+   "Druk met een drukverband of propere doek op de bloeding",
+   "Blijf druk uitoefenen tot de hulpdiensten aankomen"
+  ],
+  "uitleg": "Druk op de bloeding en blijf drukken.",
+  "bronnen": [
+   "ONGE-007"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M33",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-hulpverlening-blijven",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan je plicht.",
+  "paren": [
+   {
+    "links": "Enkel stoffelijke schade",
+    "rechts": "Ter plaatse blijven en maatregelen voor veiligheid nemen"
+   },
+   {
+    "links": "Lichamelijk letsel",
+    "rechts": "Zo nodig hulp verlenen en het voertuig niet verplaatsen"
+   },
+   {
+    "links": "Afwezige tegenpartij",
+    "rechts": "Naam en adres opgeven en snel melden"
+   }
+  ],
+  "uitleg": "Bij gewonden mag je het voertuig niet verplaatsen.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M34",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-uitrusting",
+  "type": "koppel",
+  "vraag": "Koppel elk voorwerp aan zijn doel.",
+  "paren": [
+   {
+    "links": "Gevaarsdriehoek",
+    "rechts": "Voertuig of hindernis op afstand signaleren"
+   },
+   {
+    "links": "Blustoestel",
+    "rechts": "Beginnende brand blussen"
+   },
+   {
+    "links": "Verbandkist of -etui",
+    "rechts": "Eerste hulp bij kleine verwondingen"
+   }
+  ],
+  "uitleg": "Deze drie horen in elke auto.",
+  "bronnen": [
+   "ONGE-001"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M35",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-aanrijdingsformulier",
+  "type": "koppel",
+  "vraag": "Koppel elk deel van het formulier aan de regel.",
+  "paren": [
+   {
+    "links": "Voorzijde",
+    "rechts": "Samen invullen en ondertekenen"
+   },
+   {
+    "links": "Keerzijde",
+    "rechts": "Elke partij vult apart in"
+   },
+   {
+    "links": "Bij onenigheid",
+    "rechts": "Eigen versie in het vak Opmerkingen"
+   }
+  ],
+  "uitleg": "Het formulier legt feiten vast, geen aansprakelijkheid.",
+  "bronnen": [
+   "ONGE-009",
+   "ONGE-010",
+   "ONGE-012"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M36",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-formulier-wanneer-niet",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan wat je doet.",
+  "paren": [
+   {
+    "links": "Gewonden",
+    "rechts": "Politie maakt een proces-verbaal op"
+   },
+   {
+    "links": "Schade",
+    "rechts": "Zo snel mogelijk melden aan je verzekeraar"
+   },
+   {
+    "links": "Onbekende of onverzekerde tegenpartij",
+    "rechts": "Uitleg vragen aan je verzekeraar"
+   }
+  ],
+  "uitleg": "Het formulier alleen volstaat niet bij gewonden.",
+  "bronnen": [
+   "ONGE-009",
+   "ONGE-010",
+   "ONGE-012"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M37",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-verzekering",
+  "type": "meerkeuze",
+  "vraag": "Welke verzekering dekt je eigen letsels?",
+  "opties": [
+   "BA-verzekering",
+   "Omnium",
+   "Bestuurders- of ongevallenverzekering"
+  ],
+  "correct": [
+   2
+  ],
+  "meerdere": false,
+  "uitleg": "De BA-verzekering dekt enkel de schade die jij aan anderen berokkent.",
+  "bronnen": [
+   "ONGE-011",
+   "ONGE-013",
+   "ONGE-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M38",
+  "les": 4,
+  "onderwerp": "T35",
+  "theorieblok": "ongeval-vluchtmisdrijf",
+  "type": "meerkeuze",
+  "vraag": "Wat is vluchtmisdrijf?",
+  "opties": [
+   "Weggaan na een ongeval zonder ter plaatse te blijven",
+   "Te snel rijden",
+   "Een ongeval melden aan de politie"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Vluchtmisdrijf is strafbaar.",
+  "bronnen": [
+   "ONGE-001",
+   "ONGE-012",
+   "ONGE-016"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M39",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-traject",
+  "type": "volgorde",
+  "vraag": "Zet de weg naar rijbewijs B in de juiste volgorde.",
+  "items": [
+   "Theorie-examen",
+   "Voorlopig rijbewijs aanvragen",
+   "Minstens 5 maanden oefenen",
+   "Praktijkexamen",
+   "Definitief rijbewijs aanvragen",
+   "Terugkommoment"
+  ],
+  "uitleg": "Vaste volgorde, in Vlaanderen.",
+  "bronnen": [
+   "RIJB-005",
+   "RIJB-011",
+   "RIJB-004"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M40",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "type": "meerkeuze",
+  "vraag": "Welk voorlopig rijbewijs geeft je het recht om zonder begeleider te oefenen?",
+  "opties": [
+   "M36",
+   "M18",
+   "M12"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "M18 is zonder begeleider, na minstens 20 uur rijles.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-006"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M41",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-begeleider",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan de regel voor de begeleider.",
+  "paren": [
+   {
+    "links": "Aantal begeleiders",
+    "rechts": "Maximaal 2"
+   },
+   {
+    "links": "Ervaring",
+    "rechts": "Minstens 8 jaar rijbewijs"
+   },
+   {
+    "links": "Vormingsmoment",
+    "rechts": "3 uur"
+   }
+  ],
+  "uitleg": "Een begeleider volgt een vormingsmoment van 3 uur.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-003",
+   "RIJB-006"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M42",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-oefenperiode-beperkingen",
+  "type": "koppel",
+  "vraag": "Koppel elke beperking aan de regel.",
+  "paren": [
+   {
+    "links": "Minimale oefenperiode",
+    "rechts": "5 maanden"
+   },
+   {
+    "links": "Gebied",
+    "rechts": "Enkel in België"
+   },
+   {
+    "links": "Aanhangwagen",
+    "rechts": "Niet toegestaan"
+   }
+  ],
+  "uitleg": "Beperkingen gelden voor het voorlopig rijbewijs.",
+  "bronnen": [
+   "RIJB-002",
+   "RIJB-006",
+   "RIJB-004"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M43",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-praktijkexamen-terugkommoment",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan het gegeven.",
+  "paren": [
+   {
+    "links": "Praktijkexamen",
+    "rechts": "Vanaf 18 jaar"
+   },
+   {
+    "links": "Terugkommoment",
+    "rechts": "4 uur, 6 tot 9 maanden na het definitieve rijbewijs"
+   },
+   {
+    "links": "Na 2 keer zakken",
+    "rechts": "Minstens 6 uur rijles"
+   }
+  ],
+  "uitleg": "Het terugkommoment is verplicht.",
+  "bronnen": [
+   "RIJB-004",
+   "RIJB-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M44",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "type": "koppel",
+  "vraag": "Koppel de maatregel aan de beschrijving.",
+  "paren": [
+   {
+    "links": "Verval van het recht tot sturen",
+    "rechts": "Beslist door de rechter"
+   },
+   {
+    "links": "Onmiddellijke intrekking",
+    "rechts": "Meestal bevolen door de procureur"
+   },
+   {
+    "links": "Intrekking zonder verlenging",
+    "rechts": "Rijbewijs terug na 15 dagen"
+   }
+  ],
+  "uitleg": "Intrekking is tijdelijk; verval is een uitspraak van de rechter.",
+  "bronnen": [
+   "RIJB-007",
+   "RIJB-008",
+   "RIJB-009"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M45",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-geldigheid-verlies",
+  "type": "koppel",
+  "vraag": "Koppel elk onderwerp aan het gegeven.",
+  "paren": [
+   {
+    "links": "Rijbewijs (kaartmodel)",
+    "rechts": "10 jaar geldig"
+   },
+   {
+    "links": "Vernieuwen",
+    "rechts": "Minstens 3 maanden voor het einde"
+   },
+   {
+    "links": "Oogtest",
+    "rechts": "Direct na het geslaagde theorie-examen"
+   }
+  ],
+  "uitleg": "Vernieuwen kan online via BelDrive of bij je gemeente.",
+  "bronnen": [
+   "RIJB-010",
+   "RIJB-012",
+   "RIJB-001"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M46",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-verloop",
+  "type": "meerkeuze",
+  "vraag": "Hoeveel tijd heb je per vraag op het theorie-examen?",
+  "opties": [
+   "5 seconden",
+   "15 seconden na het volledig voorlezen",
+   "1 minuut"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "uitleg": "Je hebt 15 seconden nadat de vraag volledig is voorgelezen.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-013"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M47",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-puntentelling",
+  "type": "koppel",
+  "vraag": "Koppel elk onderdeel aan het aantal punten.",
+  "paren": [
+   {
+    "links": "Start",
+    "rechts": "50 punten"
+   },
+   {
+    "links": "Gewone fout of onbeantwoord",
+    "rechts": "-1 punt"
+   },
+   {
+    "links": "Zware fout",
+    "rechts": "-5 punten"
+   },
+   {
+    "links": "Geslaagd",
+    "rechts": "Minstens 41 van 50"
+   }
+  ],
+  "uitleg": "Een zware fout is een fout op een vraag over een overtreding van de 3de of 4de graad of de maximumsnelheid.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-013"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M48",
+  "les": 4,
+  "onderwerp": "T37",
+  "theorieblok": "rijbewijs-theorie-examen-herkansing-geldigheid",
+  "type": "koppel",
+  "vraag": "Koppel de situatie aan het gevolg.",
+  "paren": [
+   {
+    "links": "Na 2 mislukkingen",
+    "rechts": "12 uur theorielessen"
+   },
+   {
+    "links": "Na 5 mislukkingen",
+    "rechts": "Vertraagd examen ook zonder attest"
+   },
+   {
+    "links": "Geslaagd theorie-examen",
+    "rechts": "3 jaar geldig"
+   }
+  ],
+  "uitleg": "Herkansen kan, maar niet op dezelfde dag.",
+  "bronnen": [
+   "RIJB-001",
+   "RIJB-004",
+   "RIJB-005"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M49",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-banden",
+  "type": "koppel",
+  "vraag": "Koppel elk onderwerp aan het juiste gegeven.",
+  "paren": [
+   {
+    "links": "Wettelijk minimum profieldiepte",
+    "rechts": "1,6 mm"
+   },
+   {
+    "links": "Bandenspanning controleren",
+    "rechts": "Maandelijks, bij koude banden"
+   },
+   {
+    "links": "Band vervangen na",
+    "rechts": "10 jaar, ook als niet versleten"
+   }
+  ],
+  "uitleg": "1,6 mm is een ondergrens, geen advies.",
+  "bronnen": [
+   "TECH-008",
+   "TECH-009"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M50",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-onderhoud",
+  "type": "koppel",
+  "vraag": "Koppel het onderdeel aan de actie.",
+  "paren": [
+   {
+    "links": "Motorolie",
+    "rechts": "Peil maandelijks nakijken"
+   },
+   {
+    "links": "Remvloeistof",
+    "rechts": "Meestal om de twee jaar vervangen"
+   },
+   {
+    "links": "Ruitenwissers",
+    "rechts": "Vervangen bij strepen of stuiteren"
+   }
+  ],
+  "uitleg": "Eenvoudige controles voorkomen pech.",
+  "bronnen": [
+   "TECH-010",
+   "TECH-011",
+   "TECH-012"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M51",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-keuring",
+  "type": "meerkeuze",
+  "vraag": "Wanneer moet een personenwagen in Vlaanderen voor het eerst naar de keuring?",
+  "opties": [
+   "4 jaar na de eerste inschrijving",
+   "Na 1 jaar",
+   "Na 10 jaar"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "De eerste keuring is vier jaar na de eerste inschrijving.",
+  "bronnen": [
+   "TECH-001",
+   "TECH-002",
+   "TECH-003",
+   "TECH-004"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M52",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-uitrusting",
+  "type": "koppel",
+  "vraag": "Koppel elk voorwerp aan de regel.",
+  "paren": [
+   {
+    "links": "Gevarendriehoek",
+    "rechts": "30 m achter de wagen, 100 m op de autosnelweg"
+   },
+   {
+    "links": "Brandblusser",
+    "rechts": "Binnen handbereik; vervaldatum en zegel controleren"
+   },
+   {
+    "links": "Fluohesje",
+    "rechts": "Aantrekken voor je uitstapt"
+   }
+  ],
+  "uitleg": "Houd hesje en blusser binnen handbereik.",
+  "bronnen": [
+   "TECH-005",
+   "TECH-006",
+   "TECH-007"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M53",
+  "les": 4,
+  "onderwerp": "T39",
+  "theorieblok": "techniek-dashboard-kleuren",
+  "type": "koppel",
+  "vraag": "Koppel de kleur aan de betekenis.",
+  "paren": [
+   {
+    "links": "Rood",
+    "rechts": "Veilig stoppen"
+   },
+   {
+    "links": "Oranje",
+    "rechts": "Snel laten nakijken"
+   },
+   {
+    "links": "Groen",
+    "rechts": "Systeem staat aan en werkt"
+   },
+   {
+    "links": "Blauw",
+    "rechts": "Grootlicht aan"
+   }
+  ],
+  "uitleg": "De kleur zegt hoe dringend het is.",
+  "bronnen": [
+   "TECH-012",
+   "TECH-013"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M54",
+  "les": 4,
+  "onderwerp": "T39",
+  "theorieblok": "techniek-dashboard-symbolen",
+  "type": "koppel",
+  "vraag": "Koppel elk lampje aan zijn naam.",
+  "paren": [
+   {
+    "links": "Lampje A",
+    "rechts": "Oliedruk",
+    "linksAfb": "tech-lampje-olie"
+   },
+   {
+    "links": "Lampje B",
+    "rechts": "Remmen",
+    "linksAfb": "tech-lampje-remmen"
+   },
+   {
+    "links": "Lampje C",
+    "rechts": "Motorstoring",
+    "linksAfb": "tech-lampje-motor"
+   },
+   {
+    "links": "Lampje D",
+    "rechts": "Grootlicht",
+    "linksAfb": "tech-lampje-grootlicht"
+   },
+   {
+    "links": "Lampje E",
+    "rechts": "Richtingaanwijzer",
+    "linksAfb": "tech-lampje-richtingaanwijzer"
+   }
+  ],
+  "uitleg": "Olie en remmen zijn rood, de motorstoring oranje, het grootlicht blauw en de richtingaanwijzer groen.",
+  "bronnen": [
+   "TECH-012",
+   "TECH-013"
+  ],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M55",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-zuinig-rijden",
+  "type": "koppel",
+  "vraag": "Koppel de tip aan het effect.",
+  "paren": [
+   {
+    "links": "Anticiperen",
+    "rechts": "Minder remmen en optrekken"
+   },
+   {
+    "links": "Vroeg opschakelen",
+    "rechts": "Lager toerental, lager verbruik"
+   },
+   {
+    "links": "Uitrollen",
+    "rechts": "Geen brandstof nodig tijdens uitrollen"
+   },
+   {
+    "links": "Dakkoffer en ballast weg",
+    "rechts": "Minder luchtweerstand en gewicht"
+   }
+  ],
+  "uitleg": "Zuinig rijden is ook veiliger.",
+  "bronnen": [
+   "TECH-014",
+   "TECH-011",
+   "TECH-009"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M56",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-milieu-euronorm",
+  "type": "meerkeuze",
+  "vraag": "Wat betekent een hoger Euro-cijfer?",
+  "opties": [
+   "Strengere norm en schonere auto",
+   "Een zwaardere auto",
+   "Meer CO2-uitstoot"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "Hoe hoger het Euro-cijfer, hoe schoner de auto.",
+  "bronnen": [
+   "TECH-019",
+   "TECH-015",
+   "TECH-012"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M57",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-lez",
+  "type": "koppel",
+  "vraag": "Koppel de plaats aan de regel.",
+  "paren": [
+   {
+    "links": "Antwerpen en Gent",
+    "rechts": "LEZ in Vlaanderen"
+   },
+   {
+    "links": "Brussel",
+    "rechts": "Bijna heel Brussel is een LEZ"
+   },
+   {
+    "links": "Wallonië",
+    "rechts": "Geen regionale LEZ meer"
+   }
+  ],
+  "uitleg": "LEZ-regels verschillen per gewest.",
+  "bronnen": [
+   "TECH-015",
+   "TECH-016",
+   "TECH-017",
+   "TECH-020"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ },
+ {
+  "id": "L4-M58",
+  "les": 4,
+  "onderwerp": "T40",
+  "theorieblok": "techniek-hybride-elektrisch",
+  "type": "meerkeuze",
+  "vraag": "Wat gebeurt er bij regeneratief remmen?",
+  "opties": [
+   "De auto wint energie terug en slaat die op in de batterij",
+   "De auto verbruikt extra brandstof",
+   "De remmen worden warmer"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "uitleg": "De elektromotor werkt bij het afremmen als generator.",
+  "bronnen": [
+   "TECH-018",
+   "TECH-004",
+   "TECH-015"
+  ],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "eindtest": false,
+  "mini": true
+ }
+]
