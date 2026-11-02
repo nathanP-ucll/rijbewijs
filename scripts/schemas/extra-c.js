@@ -329,9 +329,9 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
   y = labelkaart(s, 420, y, 352, 2, 'Trek een fluohesje aan', ORG) + 12;
   y = labelkaart(s, 420, y, 352, 3, 'Plaats zo nodig de gevarendriehoek', RED) + 12;
   y = labelkaart(s, 420, y, 352, 4, 'Passagiers en omstanders wachten achter de vangrail', GRN) + 18;
-  card(s, 420, y, 352, 92, { fill: '#fff4f0', stroke: RED, sw: 2.5 });
-  pic(s, 'uitroep', 456, y + 46, 40, RED);
-  tx(s, 486, y + 36, 'Gewonden? Verplaats het voertuig niet. Bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer.', { size: 15.5, weight: 600, anchor: 'start', maxW: 276 });
+  card(s, 420, y, 352, 104, { fill: '#fff4f0', stroke: RED, sw: 2.5 });
+  pic(s, 'uitroep', 456, y + 52, 40, RED);
+  tx(s, 486, y + 40, 'Gewonden? Verplaats het voertuig niet. Bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer.', { size: 15.5, weight: 600, anchor: 'start', maxW: 276 });
   done(s, { blok: 'ongeval-stappenplan' });
 })();
 
@@ -750,10 +750,10 @@ const RB = ['RIJB-001'];
   tx(s, x0 + 20 * u, by + 30, '40 punten of minder: niet geslaagd', { size: 19, weight: 700, fill: '#8a1f1f' });
   tx(s, x0 + 45 * u, by + 30, 'geslaagd', { size: 18, weight: 700, fill: '#fff' });
   s.add(`<path d="M${x0 + 40 * u} ${by + bh + 6} V${by + bh + 22} M${x0 + 50 * u} ${by + bh + 6} V${by + bh + 22} M${x0 + 40 * u} ${by + bh + 14} H${x0 + 50 * u}" stroke="${INK}" stroke-width="2.5" fill="none"/>`);
-  tx(s, x0 + 40 * u - 8, by + bh + 28, '41', { size: 20, weight: 800, anchor: 'end' });
-  tx(s, x0 + 50 * u + 4, by + bh + 28, '50', { size: 20, weight: 800, anchor: 'end' });
-  tx(s, x0 + 45 * u, by + bh + 42, 'minstens 41 punten', { size: 15, weight: 600, fill: '#1f6d3b' });
-  const r = cards(s, by + bh + 62, [
+  tx(s, x0 + 40 * u, by + bh + 42, '41', { size: 20, weight: 800 });
+  tx(s, x0 + 50 * u - 4, by + bh + 42, '50', { size: 20, weight: 800 });
+  tx(s, x0 + 45 * u - 30, by + bh + 64, 'minstens 41 punten', { size: 15, weight: 600, fill: '#1f6d3b' });
+  const r = cards(s, by + bh + 84, [
     { pic: 'uitroep', picArg: ORG, kop: 'Gewone fout of onbeantwoord', tekst: 'Je verliest 1 punt.', kleur: ORG },
     { pic: 'uitroep', picArg: RED, kop: 'Zware fout', tekst: 'Je verliest 5 punten.', kleur: RED },
     { pic: 'vink', kop: 'Geslaagd', tekst: 'Met minstens 41 van de 50 punten.', kleur: GRN }], { gap: 14, pic: 48, headSize: 17, bodySize: 16 });
@@ -764,24 +764,24 @@ const RB = ['RIJB-001'];
 (function () {
   const s = make('schema-examenpunten-voorbeelden', 'Zware fouten en rekenvoorbeelden',
     'Vijf voorbeelden met een balk van 50 punten. 9 gewone fouten geeft 41 punten: geslaagd. 10 gewone fouten geeft 40: niet geslaagd. 1 zware fout en 4 gewone fouten geeft 41: geslaagd. 1 zware fout en 5 gewone fouten geeft 40: niet geslaagd. 2 zware fouten geeft 40: niet geslaagd.', 400);
-  const top = s.top + 14, bx = 300, u = 5.6, rowH = 54;
+  const top = s.top + 14, bx = 300, u = 5.2, rowH = 54;
   // legenda
   [[GRN, 'behouden punten', 40], ['#f19b9b', 'gewone fout (−1)', 214], ['#a42020', 'zware fout (−5)', 410]].forEach(([c, t, x]) => {
     s.add(`<rect x="${x}" y="${top + 6}" width="18" height="18" rx="3" fill="${c}"/>`); tx(s, x + 26, top + 21, t, { size: 15, weight: 600, anchor: 'start' });
   });
   const rows = [['9 gewone fouten', 0, 9], ['10 gewone fouten', 0, 10], ['1 zware fout en 4 gewone fouten', 1, 4], ['1 zware fout en 5 gewone fouten', 1, 5], ['2 zware fouten', 2, 0]];
-  const y0 = top + 44;
+  const y0 = top + 56;
   rows.forEach(([t, z, g], i) => {
     const y = y0 + i * rowH, lost = z * 5 + g, score = 50 - lost, ok = score >= 41;
     card(s, 28, y, 744, rowH - 8, { rx: 10, fill: ok ? '#f2faf4' : '#fdf3f3', stroke: ok ? '#bfe3c9' : '#efc4c4' });
-    tx(s, 42, y + (rowH - 8) / 2 + 6, t, { size: 16, weight: 700, anchor: 'start', maxW: 240 });
+    tx(s, 42, y + (rowH - 8) / 2 + 6 - (nlines(t, 240, 16, 700) - 1) * 9.8, t, { size: 16, weight: 700, anchor: 'start', maxW: 240 });
     s.add(`<rect x="${bx}" y="${y + 8}" width="${f(score * u)}" height="${rowH - 24}" rx="3" fill="${GRN}"/>`);
     let x = bx + score * u;
     for (let k = 0; k < z; k++) { s.add(`<rect x="${f(x)}" y="${y + 8}" width="${f(5 * u - 1.4)}" height="${rowH - 24}" rx="3" fill="#a42020"/>`); x += 5 * u; }
     for (let k = 0; k < g; k++) { s.add(`<rect x="${f(x)}" y="${y + 8}" width="${f(u - 1.4)}" height="${rowH - 24}" rx="2" fill="#f19b9b"/>`); x += u; }
-    tick(s, 612, y + (rowH - 8) / 2, ok, 13);
-    tx(s, 634, y + (rowH - 8) / 2 + 6, `${score} punten`, { size: 17, weight: 800, anchor: 'start' });
-    tx(s, 740, y + (rowH - 8) / 2 + 6, ok ? 'geslaagd' : 'gezakt', { size: 14.5, weight: 700, anchor: 'end', fill: ok ? '#1f6d3b' : '#a42020' });
+    tick(s, 590, y + (rowH - 8) / 2, ok, 13);
+    tx(s, 610, y + (rowH - 8) / 2 + 6, `${score} punten`, { size: 16, weight: 800, anchor: 'start' });
+    tx(s, 764, y + (rowH - 8) / 2 + 6, ok ? 'geslaagd' : 'gezakt', { size: 14.5, weight: 700, anchor: 'end', fill: ok ? '#1f6d3b' : '#a42020' });
   });
   const lx = bx + 41 * u;
   s.add(`<line x1="${f(lx)}" y1="${y0 - 6}" x2="${f(lx)}" y2="${y0 + rows.length * rowH - 4}" stroke="${INK}" stroke-width="2.5" stroke-dasharray="6 4"/>`);
@@ -803,7 +803,7 @@ const RB = ['RIJB-001'];
     s.add(`<circle cx="${x}" cy="${cy}" r="26" fill="${hot ? RED : '#fff'}" stroke="${hot ? '#fff' : GREY}" stroke-width="${hot ? 4 : 4}"/>`);
     tx(s, x, cy + 8, String(i + 1), { size: 24, weight: 800, fill: hot ? '#fff' : MUTE });
   });
-  tx(s, 400, cy + 50, 'aantal mislukte pogingen', { size: 15, weight: 600, fill: MUTE });
+  tx(s, 70, cy + 52, 'aantal mislukte pogingen', { size: 15, weight: 600, fill: MUTE, anchor: 'start' });
   const r = cards(s, cy + 70, [
     { pic: 'boek', kop: 'Na 2 keer', tekst: '12 uur theorieopleiding en een getuigschrift voor je 3de poging.', kleur: BLU },
     { pic: 'vink', kop: 'Na 4 keer', tekst: 'Je moet die lessen niet opnieuw volgen.', kleur: ORG },
@@ -837,7 +837,7 @@ const RB = ['RIJB-001'];
     const y = top + 14 + i * 96;
     tx(s, 100, y + 38, naam, { size: 34, weight: 800, fill: col });
     s.add(`<rect x="${x0}" y="${y}" width="${m * mu}" height="48" rx="10" fill="${col}"/>`);
-    tx(s, x0 + (m * mu) / 2, y + 32, m + ' maanden geldig', { size: 20, weight: 700, fill: '#fff' });
+    tx(s, x0 + (m * mu) / 2, y + 31, m + ' maanden geldig', { size: 17.5, weight: 700, fill: '#fff' });
     tx(s, x0, y + 74, uitleg, { size: 16, weight: 600, anchor: 'start', fill: MUTE, maxW: 600 });
   });
   const b = banner(s, top + 3 * 96 + 22, 'Alle voorlopige rijbewijzen zijn niet verlengbaar.', INK, { size: 18 });
@@ -863,7 +863,7 @@ const RB = ['RIJB-001'];
     'Vier stappen: eerst minstens 20 uur rijles bij een erkende rijschool, dan een bekwaamheidsattest dat 3 jaar geldig is, dan de M18 aanvragen vanaf 18 jaar (18 maanden geldig), daarna zonder begeleider rijden met maximaal 2 passagiers. De passagiers voldoen aan dezelfde voorwaarden als een begeleider.', 400);
   const r = cards(s, s.top + 16, [
     { n: 1, pic: 'stuur', kop: 'Rijles', tekst: 'Minstens 20 uur bij een erkende rijschool.' },
-    { n: 2, pic: 'document', kop: 'Bekwaamheidsattest', tekst: '3 jaar geldig.' },
+    { n: 2, pic: 'document', kop: 'Attest', tekst: 'Bekwaamheidsattest, 3 jaar geldig.' },
     { n: 3, pic: 'kaart', kop: 'M18 aanvragen', tekst: 'Vanaf 18 jaar, 18 maanden geldig.' },
     { n: 4, pic: 'mensen', kop: 'Zonder begeleider', tekst: 'Je mag maximaal 2 passagiers meenemen.' }], { gap: 24, arrows: true, pic: 60, headSize: 18, bodySize: 15.5 });
   const b = banner(s, r.bottom + 16, 'Je passagiers moeten aan dezelfde voorwaarden voldoen als een begeleider.', INK, { size: 17 });

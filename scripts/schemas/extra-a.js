@@ -162,15 +162,15 @@ function weg(s, ox, met) {
     'Overzicht met drie rijen. Bebouwde kom: Vlaanderen 50, Wallonië 50, Brussel 30 km/u. Buiten de bebouwde kom op een gewone weg: Vlaanderen 70 (90 enkel met een bord), Wallonië 90, Brussel 70 km/u. Autosnelweg: in alle drie de gewesten 120 km/u.', { bg: BG });
   s.titel('Snelheid zonder bord: plaats én gewest');
   const rows = [
-    { naam: 'Bebouwde kom', sign: 'F1a_horizontaal', v: [50, 50, 30] },
+    { naam: 'Bebouwde\nkom', sign: 'F1a_horizontaal', v: [50, 50, 30] },
     { naam: 'Buiten de\nbebouwde kom', sign: 'F3a_horizontaal', v: [70, 90, 70], note: ['90 enkel met bord', '', ''] },
     { naam: 'Autosnelweg', sign: 'F5', v: [120, 120, 120] },
   ];
   rows.forEach((r, i) => {
     const y = 72 + i * 158;
     box(s, 24, y, 236, 144, '#fff');
-    s.sign(r.sign, 78, y + 72, 74, { pole: false });
-    s.text(124, y + (r.naam.includes('\n') ? 66 : 78), r.naam, { size: 21, anchor: 'start', weight: 800 });
+    s.sign(r.sign, 58, y + 72, 62, { pole: false });
+    s.text(98, y + (r.naam.includes('\n') ? 66 : 78), r.naam, { size: 18, anchor: 'start', weight: 800 });
     ['Vlaanderen', 'Wallonië', 'Brussel'].forEach((g, j) => gewChip(s, 276 + j * 170, y, 160, 144, g, r.v[j], r.note ? r.note[j] : ''));
   });
   s.text(400, 580, 'Een snelheidsbord gaat altijd voor op deze tabel.', { size: 17, weight: 600 });
@@ -669,8 +669,8 @@ function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
   s.rect(0, 160, 800, 50, C.sidewalk); s.rect(0, 210, 800, 40, '#6b717b'); s.rect(0, 250, 800, 120, C.road);
   s.line(0, 310, 800, 310, '#fff', 3, 'stroke-dasharray="16 14"');
   [150, 250, 540, 640].forEach((x, i) => s.car(x, 232, 90, ['geel', 'wit', 'oranje', 'paars'][i], null));
-  [388, 412, 400].forEach((x, i) => voetganger(s, x, 188 + (i === 2 ? 22 : 0), 1.7, ['#d63a3a', '#2f6fd6', '#f2c230'][i]));
-  s.arrow(400, 232, 400, 330, '#fff', 4); s.arrow(380, 232, 380, 310, '#fff', 3);
+  [[372, 224], [428, 224], [400, 244]].forEach(([x, y], i) => voetganger(s, x, y, 1.6, ['#d63a3a', '#2f6fd6', '#f2c230'][i]));
+  s.arrow(372, 234, 372, 318, '#fff', 3); s.arrow(428, 234, 428, 330, '#fff', 3); s.arrow(400, 254, 400, 335, '#fff', 3);
   s.car(200, 342, 90, 'blauw', null);
   s.sign('A23', 720, 112, 76);
   s.label(400, 112, 'Kinderen kunnen plots tussen geparkeerde\nauto\'s de rijbaan op rennen.', { size: 18, bg: '#fff' });
@@ -685,12 +685,12 @@ function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
   s.rect(0, 160, 800, 56, C.sidewalk); s.rect(0, 216, 800, 130, C.road); s.rect(0, 346, 800, 56, C.sidewalk);
   s.line(0, 281, 800, 281, '#fff', 3, 'stroke-dasharray="16 14"');
   s.zebra(560, 216, 90, 130, 'v');
-  voetganger(s, 150, 188, 1.8); s.arrow(150, 200, 150, 355, '#1f9d55', 5); tick(s, 150, 440, 44);
-  voetganger(s, 380, 188, 1.8, '#d63a3a'); s.arrow(380, 200, 460, 355, '#d63a3a', 5); cross(s, 420, 440, 40);
+  voetganger(s, 150, 188, 1.8); s.arrow(150, 200, 150, 355, '#1f9d55', 5); tick(s, 150, 425, 44);
+  voetganger(s, 380, 188, 1.8, '#d63a3a'); s.arrow(380, 200, 460, 355, '#d63a3a', 5); cross(s, 420, 425, 40);
   voetganger(s, 605, 188, 1.8, '#2f6fd6'); s.arrow(605, 200, 605, 355, '#1f9d55', 5);
   s.sign('F49', 700, 190, 60);
   s.label(150, 475, 'haaks oversteken', { size: 18, bg: '#fff' });
-  s.label(420, 515, 'niet schuin', { size: 18, bg: '#fff' });
+  s.label(420, 475, 'niet schuin', { size: 18, bg: '#fff' });
   s.label(605, 475, 'zebrapad in de buurt\n(ongeveer 20 m)?\nGebruik het.', { size: 17, bg: '#fff' });
   out(s, 'voetganger-oversteken', KWET);
 })();
@@ -701,8 +701,8 @@ function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
   s.titel('Het zebrapad en jij als bestuurder');
   const scenes = [
     ['Zebrapad zonder agent\nof licht', 'Matig naderen en voorrang\ngeven aan voetgangers\nerop of ertegen.', (sc) => { sc.car(110, 200, 0, 'blauw', null); voetganger(sc, 90, 118, 1.6); sc.arrow(90, 118, 150, 118, '#fff', 3); }],
-    ['Voetganger is al bezig,\njouw licht wordt groen', 'Hem met normale gang\nlaten uitlopen.', (sc) => { sc.car(110, 200, 0, 'blauw', null); voetganger(sc, 135, 118, 1.6); sc.arrow(135, 118, 165, 118, '#fff', 3); licht(sc, 205, 30, 'groen', 12, 0); }],
-    ['Licht of agent sluit\njouw richting', 'Stoppen voor het\nzebrapad.', (sc) => { sc.car(110, 200, 0, 'blauw', null, { brake: true }); licht(sc, 205, 30, 'rood', 12, 0); }],
+    ['Voetganger is al bezig,\njouw licht wordt groen', 'Hem met normale gang\nlaten uitlopen.', (sc) => { sc.car(110, 200, 0, 'blauw', null); voetganger(sc, 135, 118, 1.6); sc.arrow(135, 118, 165, 118, '#fff', 3); licht(sc, 192, 30, 'groen', 12, 0); }],
+    ['Licht of agent sluit\njouw richting', 'Stoppen voor het\nzebrapad.', (sc) => { sc.car(110, 200, 0, 'blauw', null, { brake: true }); licht(sc, 192, 30, 'rood', 12, 0); }],
   ];
   scenes.forEach(([kop, sub, fn], i) => {
     const x = 24 + i * 254, y = 72;
@@ -727,18 +727,19 @@ function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
     box(s, 24, y, 752, 214, '#1c2230');
     s.text(400, y + 28, kop, { size: 20, fill: '#fff', weight: 700 });
     scene(s, 24, y + 40, 752, 174, (sc) => {
-      sc.rect(0, 0, 752, 174, C.grass); sc.rect(0, 14, 752, 120, C.road);
-      sc.line(0, 74, 752, 74, '#fff', 3, 'stroke-dasharray="16 14"');
-      sc.line(0, 124, 752, 124, '#fff', 2);
+      sc.rect(0, 0, 752, 174, C.grass); sc.rect(0, 10, 752, 140, C.road);
+      sc.line(0, 70, 752, 70, '#fff', 3, 'stroke-dasharray="16 14"');
+      sc.line(0, 140, 752, 140, '#fff', 2);
     });
   };
   paneel(70, 'Er komt niemand aan: twee naast elkaar mag.', false);
   paneel(300, 'Kruisen niet mogelijk: achter elkaar.', true);
   // fietsers (buiten clip getekend, bovenop de panelen)
-  s.bike(330, 199, 90, null); s.bike(330, 224, 90, null);
-  s.bike(360, 300 + 40 + 106, 90, null); s.bike(440, 300 + 40 + 106, 90, null);
-  s.car(640, 300 + 40 + 44, 270, 'blauw', null);
-  s.line(170, 258, 170, 236, INK, 2); s.label(170, 276, 'rechterrand van de rijbaan', { size: 14, bg: '#fff' });
+  const bikeS = (x, y) => { s.add(`<g transform="translate(${x} ${y}) scale(1.4)">`); s.bike(0, 0, 90, null); s.add('</g>'); };
+  bikeS(330, 203); bikeS(330, 233);
+  bikeS(360, 447); bikeS(450, 447);
+  s.car(640, 380, 270, 'blauw', null);
+  s.line(170, 258, 170, 252, INK, 2); s.label(170, 276, 'rechterrand van de rijbaan', { size: 14, bg: '#fff' });
   s.text(400, 556, 'Met een aanhangwagen rijd je altijd achter elkaar.', { size: 18, weight: 700 });
   out(s, 'fietsers-zonder-fietspad', KWET);
 })();
@@ -748,19 +749,19 @@ function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
     'Vier kaartjes: een gewone elektrische fiets (tot 25 km/u, telt als fiets), bromfiets klasse A (maximaal 25 km/u), bromfiets klasse B (maximaal 45 km/u) en een speed pedelec (ondersteuning tot 45 km/u, telt als bromfiets).', { bg: BG });
   s.titel('Soorten bromfietsen');
   const t = [
-    ['Gewone elektrische fiets', 'tot 25 km/u', 'telt als fiets', '#1f9d55'],
-    ['Bromfiets klasse A', 'max. 25 km/u', 'telt als bromfiets A', '#f08a1c'],
-    ['Bromfiets klasse B', 'max. 45 km/u', 'telt als bromfiets B', '#d63a3a'],
-    ['Speed pedelec', 'ondersteuning tot 45 km/u', 'telt als bromfiets', '#8e5bd1'],
+    ['Gewone elektrische\nfiets', 'tot 25 km/u', 'telt als fiets', '#1f9d55'],
+    ['Bromfiets\nklasse A', 'max. 25 km/u', 'telt als bromfiets A', '#f08a1c'],
+    ['Bromfiets\nklasse B', 'max. 45 km/u', 'telt als bromfiets B', '#d63a3a'],
+    ['Speed\npedelec', 'ondersteuning\ntot 45 km/u', 'telt als bromfiets', '#8e5bd1'],
   ];
   t.forEach(([naam, snel, telt, col], i) => {
     const x = 24 + (i % 2) * 380, y = 72 + Math.floor(i / 2) * 226;
     box(s, x, y, 372, 212, col);
-    s.circle(x + 70, y + 106, 46, '#fff', `stroke="${INK}" stroke-width="3"`);
-    s.add(sym('fiets', x + 70, y + 106, 40, INK));
-    s.text(x + 138, y + 70, naam, { size: i === 0 ? 20 : 22, anchor: 'start', fill: '#fff', weight: 800 });
-    s.text(x + 138, y + 114, snel, { size: snel.length > 14 ? 19 : 26, anchor: 'start', fill: '#fff', weight: 800 });
-    s.text(x + 138, y + 152, telt, { size: 18, anchor: 'start', fill: '#fff', weight: 600 });
+    s.circle(x + 60, y + 106, 40, '#fff', `stroke="${INK}" stroke-width="3"`);
+    s.add(sym('fiets', x + 60, y + 106, 34, INK));
+    s.text(x + 118, y + 56, naam, { size: 22, anchor: 'start', fill: '#fff', weight: 800 });
+    s.text(x + 118, y + 118, snel, { size: 24, anchor: 'start', fill: '#fff', weight: 800 });
+    s.text(x + 118, y + 178, telt, { size: 18, anchor: 'start', fill: '#fff', weight: 600 });
   });
   s.text(400, 562, 'Voor een bromfiets geldt een minimumleeftijd van 16 jaar en een helm is verplicht.', { size: 17, weight: 600 });
   out(s, 'bromfiets-klassen-speed-pedelec', KWET);

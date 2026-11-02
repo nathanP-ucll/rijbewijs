@@ -27,11 +27,11 @@
 <g transform="translate(110 200) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
 <g transform="translate(135 118) scale(1.6)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d57a8" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
 <line x1="135" y1="118" x2="165" y2="118" stroke="#fff" stroke-width="3" stroke-linecap="round" marker-end="url(#ahfff)"/>
-<rect x="183" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
-<circle cx="205" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="52" r="9.600000000000001" fill="#4a1d1d"/>
-<circle cx="205" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="86" r="9.600000000000001" fill="#4d3410"/>
-<circle cx="205" cy="120" r="19" fill="#1fbf5a" opacity="0.28"/>
-<circle cx="205" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="120" r="9.600000000000001" fill="#1fbf5a"/>
+<rect x="170" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="192" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="52" r="9.600000000000001" fill="#4a1d1d"/>
+<circle cx="192" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="86" r="9.600000000000001" fill="#4d3410"/>
+<circle cx="192" cy="120" r="19" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="192" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="120" r="9.600000000000001" fill="#1fbf5a"/>
 </g></g>
 <text x="398" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="398" dy="0">Voetganger is al bezig,</tspan><tspan x="398" dy="20.06">jouw licht wordt groen</tspan></text>
 <text x="398" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="398" dy="0">Hem met normale gang</tspan><tspan x="398" dy="17.7">laten uitlopen.</tspan></text>
@@ -43,11 +43,11 @@
 <rect x="48" y="90" width="120" height="56" fill="none" />
 <rect x="48" y="90" width="9" height="56" fill="#fff"/><rect x="66" y="90" width="9" height="56" fill="#fff"/><rect x="84" y="90" width="9" height="56" fill="#fff"/><rect x="102" y="90" width="9" height="56" fill="#fff"/><rect x="120" y="90" width="9" height="56" fill="#fff"/><rect x="138" y="90" width="9" height="56" fill="#fff"/><rect x="156" y="90" width="9" height="56" fill="#fff"/>
 <g transform="translate(110 200) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="-13" y="28" width="7" height="3" fill="#ff2d2d"/><rect x="6" y="28" width="7" height="3" fill="#ff2d2d"/></g>
-<rect x="183" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
-<circle cx="205" cy="52" r="19" fill="#e5322d" opacity="0.28"/>
-<circle cx="205" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="52" r="9.600000000000001" fill="#e5322d"/>
-<circle cx="205" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="86" r="9.600000000000001" fill="#4d3410"/>
-<circle cx="205" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="120" r="9.600000000000001" fill="#143b24"/>
+<rect x="170" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="192" cy="52" r="19" fill="#e5322d" opacity="0.28"/>
+<circle cx="192" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="52" r="9.600000000000001" fill="#e5322d"/>
+<circle cx="192" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="86" r="9.600000000000001" fill="#4d3410"/>
+<circle cx="192" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="192" cy="120" r="9.600000000000001" fill="#143b24"/>
 </g></g>
 <text x="652" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="652" dy="0">Licht of agent sluit</tspan><tspan x="652" dy="20.06">jouw richting</tspan></text>
 <text x="652" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="652" dy="0">Stoppen voor het</tspan><tspan x="652" dy="17.7">zebrapad.</tspan></text>

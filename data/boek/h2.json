@@ -28,49 +28,13 @@
                 "Kijk dan naar het soort weg.",
                 "Kijk ook in welk gewest je rijdt.",
                 "Een verkeersbord gaat altijd voor op de algemene regel.",
-                "De tabel hieronder geldt voor personenwagens tot 3,5 ton."
+                "Het schema geldt voor personenwagens tot 3,5 ton."
               ]
             },
             {
-              "type": "tabel",
-              "kolommen": [
-                "Waar",
-                "Vlaanderen",
-                "Wallonië",
-                "Brussel"
-              ],
-              "rijen": [
-                [
-                  "Bebouwde kom",
-                  "50 km/u",
-                  "50 km/u",
-                  "30 km/u"
-                ],
-                [
-                  "Buiten de kom, gewone weg",
-                  "70 km/u (90 enkel met bord)",
-                  "90 km/u",
-                  "70 km/u"
-                ],
-                [
-                  "Autosnelweg",
-                  "120 km/u",
-                  "120 km/u",
-                  "120 km/u"
-                ],
-                [
-                  "Zone 30",
-                  "30 km/u",
-                  "30 km/u",
-                  "30 km/u"
-                ],
-                [
-                  "Woonerf en erf",
-                  "20 km/u",
-                  "20 km/u",
-                  "20 km/u"
-                ]
-              ]
+              "type": "schema",
+              "afb": "schema-snelheid-drie-plaatsen",
+              "bijschrift": "Zonder bord hangt de snelheid af van de plaats en van het gewest."
             },
             {
               "type": "kader",
@@ -273,6 +237,11 @@
               ]
             },
             {
+              "type": "schema",
+              "afb": "schema-bebouwde-kom-snelheid",
+              "bijschrift": "Binnen de bebouwde kom zonder bord: Vlaanderen en Wallonië 50, Brussel 30."
+            },
+            {
               "type": "kader",
               "soort": "gewest",
               "titel": "Straat in de bebouwde kom zonder bord",
@@ -427,9 +396,7 @@
               }
             }
           ],
-          "theorieblokken": [
-            "snelheden-buiten-bebouwde-kom"
-          ]
+          "theorieblokken": []
         },
         {
           "id": "h2-3-2",
@@ -481,6 +448,11 @@
               ]
             },
             {
+              "type": "schema",
+              "afb": "schema-weg-middenberm-vergelijk",
+              "bijschrift": "Links alleen een witte lijn tussen de rijrichtingen, rechts een middenberm."
+            },
+            {
               "type": "tabel",
               "kolommen": [
                 "Situatie",
@@ -520,6 +492,79 @@
               "soort": "tip",
               "titel": "120 is een kwestie van scheiding",
               "tekst": "Buiten de autosnelweg haal je enkel 120 als de rijrichtingen echt gescheiden zijn door een middenberm of ander fysiek obstakel, witte lijnen volstaan niet."
+            }
+          ],
+          "theorieblokken": [
+            "snelheden-buiten-bebouwde-kom"
+          ]
+        },
+        {
+          "id": "h2-3-4",
+          "titel": "Zonder middenberm: alleen markeringen",
+          "intro": "Een witte lijn tussen de rijrichtingen is geen fysieke scheiding.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een witte lijn scheidt de twee rijrichtingen.",
+                "Er staat geen middenberm of ander obstakel tussen.",
+                "Witte lijnen volstaan niet voor 120 km/u.",
+                "Je volgt de gewone limiet van het gewest.",
+                "In Vlaanderen is 90 enkel toegelaten met een bord."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-weg-zonder-middenberm",
+              "bijschrift": "Twee rijstroken per richting, alleen door markeringen van elkaar gescheiden."
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "Twee rijstroken per richting, alleen markeringen",
+              "tekst": "Zonder middenberm geldt de gewone limiet van het gewest.",
+              "gewest": {
+                "vlaanderen": "70 km/u, 90 km/u enkel met een bord.",
+                "wallonie": "90 km/u.",
+                "brussel": "70 km/u."
+              }
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h2-3-5",
+          "titel": "Met middenberm: fysieke scheiding",
+          "intro": "Een middenberm scheidt de rijrichtingen echt van elkaar.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een middenberm of ander fysiek obstakel scheidt de rijrichtingen.",
+                "Buiten de autosnelweg haal je dan 120 km/u.",
+                "Dat geldt in alle drie de gewesten.",
+                "Voertuigen boven 3,5 ton rijden hier 90 km/u."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-weg-met-middenberm",
+              "bijschrift": "Twee rijstroken per richting, gescheiden door een middenberm."
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "Twee rijstroken per richting, met middenberm",
+              "tekst": "Met een fysieke middenberm geldt in elk gewest dezelfde limiet.",
+              "gewest": {
+                "vlaanderen": "120 km/u.",
+                "wallonie": "120 km/u.",
+                "brussel": "120 km/u."
+              }
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Heeft dezelfde weg alleen witte lijnen en geen middenberm? Dan geldt in Vlaanderen weer 70 km/u."
             }
           ],
           "theorieblokken": []
@@ -868,6 +913,11 @@
               ]
             },
             {
+              "type": "schema",
+              "afb": "schema-laagste-limiet",
+              "bijschrift": "Weg en voertuig hebben elk een limiet. De laagste van de twee geldt voor jou."
+            },
+            {
               "type": "tabel",
               "kolommen": [
                 "Voertuig",
@@ -926,6 +976,11 @@
               ]
             },
             {
+              "type": "schema",
+              "afb": "schema-combinatie-massa",
+              "bijschrift": "Bij een aanhangwagen telt de maximaal toegelaten massa van de hele combinatie."
+            },
+            {
               "type": "voorbeeld",
               "tekst": "Wegen je auto en aanhangwagen samen toegelaten meer dan 3,5 ton, dan volg je de lagere limiet van zwaardere voertuigen."
             },
@@ -954,34 +1009,9 @@
               ]
             },
             {
-              "type": "tabel",
-              "kolommen": [
-                "Voertuig",
-                "Gewone weg",
-                "Autosnelweg"
-              ],
-              "rijen": [
-                [
-                  "Bus",
-                  "75 km/u",
-                  "90 km/u"
-                ],
-                [
-                  "Autocar met gordels en begrenzer",
-                  "75 km/u",
-                  "100 km/u"
-                ],
-                [
-                  "Bromfiets klasse B",
-                  "45 km/u",
-                  "–"
-                ],
-                [
-                  "Bromfiets klasse A",
-                  "25 km/u",
-                  "–"
-                ]
-              ]
+              "type": "schema",
+              "afb": "schema-voertuig-limieten",
+              "bijschrift": "Elk voertuigtype heeft zijn eigen maximumsnelheid."
             },
             {
               "type": "kader",
@@ -1013,6 +1043,11 @@
               ]
             },
             {
+              "type": "schema",
+              "afb": "schema-limiet-is-maximum",
+              "bijschrift": "De limiet is het hoogste dat mag, niet de snelheid die je moet rijden."
+            },
+            {
               "type": "voorbeeld",
               "tekst": "Mag je 70, maar is het mistig of glad? Dan kan 70 te snel zijn."
             },
@@ -1033,14 +1068,9 @@
           "intro": "Een goede bestuurder past zijn snelheid steeds aan de situatie aan.",
           "blokken": [
             {
-              "type": "punten",
-              "items": [
-                "Andere weggebruikers, vooral de kwetsbaarste.",
-                "Het weer, het zicht en de verkeersdichtheid.",
-                "De plaats en de staat van de weg.",
-                "De staat en de lading van je voertuig.",
-                "Een voldoende veiligheidsafstand tot je voorligger."
-              ]
+              "type": "schema",
+              "afb": "schema-snelheid-aanpassen",
+              "bijschrift": "Je past je snelheid aan deze vijf zaken aan."
             },
             {
               "type": "voorbeeld",
@@ -1060,6 +1090,11 @@
           "titel": "Alles op een rij",
           "intro": "Zo kom je bij elke situatie tot de juiste snelheid.",
           "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-snelheid-stappen",
+              "bijschrift": "Overloop altijd dezelfde vier stappen, in deze volgorde."
+            },
             {
               "type": "tabel",
               "kolommen": [
@@ -1105,15 +1140,6 @@
                   "20",
                   "20"
                 ]
-              ]
-            },
-            {
-              "type": "punten",
-              "items": [
-                "Zoek eerst een snelheidsbord.",
-                "Staat er geen, dan kijk je naar de plaats en het gewest.",
-                "Daarna kijk je naar je voertuig.",
-                "Tot slot pas je je snelheid aan de omstandigheden aan."
               ]
             },
             {

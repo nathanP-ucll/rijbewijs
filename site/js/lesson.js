@@ -35,33 +35,32 @@
   function creditLine(info) { return info && info.credit ? el('span', { class: 'credit' }, 'Afbeelding: ' + info.credit.auteur + ', ' + info.credit.licentie) : null; }
 
   function rPunten(k) {
-    return el(k.genummerd ? 'ol' : 'ul', { class: 'big-list' + (k.genummerd ? ' steps-list' : '') }, k.items.map(function (t) { return el('li', { html: App.inline(t) }); }));
+    if (!k.genummerd) return el('div', { class: 'tekst' }, k.items.map(function (t) { return el('p', { html: App.inline(t) }); }));
+    return el('ol', { class: 'plain-list numbered' }, k.items.map(function (t) { return el('li', { html: App.inline(t) }); }));
   }
   function bordKaart(c) {
     var info = App.imgInfo(c.afb);
-    var card = el('article', { class: 'bkaart' });
-    card.appendChild(el('div', { class: 'bkaart-media' + (info && info.cat ? ' cat-bg-' + info.cat : '') }, App.img(c.afb, { alt: c.naam || (info && info.naam) || 'Afbeelding', class: 'bkaart-img' })));
-    var body = el('div', { class: 'bkaart-body' });
-    body.appendChild(el('h3', { class: 'bkaart-title', html: App.inline(String(c.naam || (info && info.naam) || '')) }));
-    if (c.uitleg) body.appendChild(el('p', { class: 'bkaart-text', html: App.inline(String(c.uitleg)) }));
-    if (c.letop) body.appendChild(el('p', { class: 'bkaart-letop' }, el('span', { class: 'bkaart-tag' }, 'Let op'), ' ', el('span', { html: App.inline(String(c.letop)) })));
-    card.appendChild(body);
-    var cr = creditLine(info); if (cr) card.appendChild(cr);
-    return card;
+    var cell = el('article', { class: 'cell' });
+    cell.appendChild(el('div', { class: 'cell-media' }, App.img(c.afb, { alt: c.naam || (info && info.naam) || 'Afbeelding', class: 'cell-img' })));
+    cell.appendChild(el('h3', { class: 'cell-name', html: App.inline(String(c.naam || (info && info.naam) || '')) }));
+    if (c.uitleg) cell.appendChild(el('p', { class: 'cell-text', html: App.inline(String(c.uitleg)) }));
+    if (c.letop) cell.appendChild(el('p', { class: 'cell-letop' }, el('strong', {}, 'Let op: '), el('span', { html: App.inline(String(c.letop)) })));
+    var cr = creditLine(info); if (cr) cell.appendChild(cr);
+    return cell;
   }
-  function rKaarten(k) { return el('div', { class: 'kaart-grid kg-' + Math.min(k.items.length, 6) }, k.items.map(bordKaart)); }
+  function rKaarten(k) { return el('div', { class: 'cell-grid cg-' + Math.min(k.items.length, 3) }, k.items.map(bordKaart)); }
   function vcol(side) {
     var info = App.imgInfo(side.afb);
-    return el('figure', { class: 'vcol' }, el('div', { class: 'vcol-media' + (info && info.cat ? ' cat-bg-' + info.cat : '') }, App.img(side.afb, { alt: (info && info.naam) || 'Afbeelding', class: 'vcol-img' })),
+    return el('figure', { class: 'vcol' }, el('div', { class: 'vcol-media' }, App.img(side.afb, { alt: (info && info.naam) || 'Afbeelding', class: 'vcol-img' })),
       el('figcaption', { html: App.inline(side.tekst || '') }), creditLine(info));
   }
   function rVergelijk(k) {
     var cols = [k.links, k.midden, k.rechts].filter(Boolean);
     var box = el('article', { class: 'vkaart' }, k.titel ? el('h3', { class: 'vkaart-title', html: App.inline(k.titel) }) : null);
     var row = el('div', { class: 'vkaart-cols vk-' + cols.length });
-    cols.forEach(function (c, i) { if (i > 0) row.appendChild(el('span', { class: 'vs', 'aria-hidden': 'true' }, 'vs')); row.appendChild(vcol(c)); });
+    cols.forEach(function (c) { row.appendChild(vcol(c)); });
     box.appendChild(row);
-    box.appendChild(el('p', { class: 'vkaart-diff' }, el('span', { class: 'vd-tag' }, 'Het verschil'), ' ', el('span', { html: App.inline(k.verschil || '') })));
+    box.appendChild(el('p', { class: 'vkaart-diff' }, el('strong', {}, 'Het verschil: '), el('span', { html: App.inline(k.verschil || '') })));
     return box;
   }
   function rSchema(k) {
@@ -74,7 +73,7 @@
   function rKader(k) {
     var t = KADER[k.soort] || KADER.regel;
     var main = el('div', { class: 'kader-main' }, el('p', { class: 'kader-label' }, t.label + (k.titel ? ' · ' + App.clean(k.titel) : '')), k.tekst ? el('p', { class: 'kader-text', html: App.inline(k.tekst) }) : null);
-    var box = el('aside', { class: 'kader kader-' + (KADER[k.soort] ? k.soort : 'regel') }, el('span', { class: 'kader-icon', html: App.icon(t.icon, 40) }), main);
+    var box = el('aside', { class: 'kader kader-' + (KADER[k.soort] ? k.soort : 'regel') }, el('span', { class: 'kader-icon', html: App.icon(t.icon, 20) }), main);
     if (k.soort === 'gewest' && k.gewest) {
       var g = el('div', { class: 'gewest-grid' });
       ['vlaanderen', 'wallonie', 'brussel'].forEach(function (key) {
@@ -93,28 +92,21 @@
   function rVoorbeeld(k) {
     return el('aside', { class: 'voorbeeld' }, el('span', { class: 'voorbeeld-ic', html: App.icon('car', 34) }), el('div', {}, el('p', { class: 'voorbeeld-l' }, 'In de praktijk'), el('p', { class: 'voorbeeld-t', html: App.inline(k.tekst) })));
   }
-  var RENDER = { punten: rPunten, kaarten: rKaarten, vergelijk: rVergelijk, schema: rSchema, kader: rKader, tabel: rTabel, voorbeeld: rVoorbeeld };
-  var BASIS = { punten: 7, kader: 5, voorbeeld: 5 };
-
-  /** Zet blokken in een 12-koloms raster; losse smalle blokken worden volle breedte. */
+  function rTekst(k) {
+    var ts = Array.isArray(k.items) ? k.items : [k.tekst];
+    return el('div', { class: 'tekst' }, ts.map(function (t) { return el('p', { html: App.inline(t) }); }));
+  }
+  function rTip(k) { return rKader({ soort: 'tip', titel: k.titel || '', tekst: k.tekst }); }
+  var RENDER = { grid: rKaarten, tekst: rTekst, tip: rTip, oefening: function () { return el('span'); }, punten: rPunten, kaarten: rKaarten, vergelijk: rVergelijk, schema: rSchema, kader: rKader, tabel: rTabel, voorbeeld: rVoorbeeld };
+  var RANG = { kaarten: 0, grid: 0, vergelijk: 0, schema: 0, punten: 1, tekst: 1, tabel: 2, voorbeeld: 3, kader: 4 };
+  function rang(k) { return (k.type === 'kader' && k.soort === 'tip') || k.type === 'tip' ? 5 : (RANG[k.type] == null ? 4 : RANG[k.type]); }
+  /** Volgorde van de paginaspec: beelden/grid, tekst, tabel, voorbeeld, kader, tip (gemarkeerd, volle breedte). */
   function layoutBlokken(blokken) {
     var wrap = el('div', { class: 'blocks' });
-    var rows = [], row = [], used = 0;
-    blokken.forEach(function (k) {
-      var w = BASIS[k.type] || 12;
-      if (used + w > 12 && row.length) { rows.push(row); row = []; used = 0; }
-      row.push({ k: k, w: w }); used += w;
-      if (used >= 12) { rows.push(row); row = []; used = 0; }
-    });
-    if (row.length) rows.push(row);
-    rows.forEach(function (r) {
-      var tot = r.reduce(function (a, x) { return a + x.w; }, 0);
-      if (r.length === 1) r[0].w = 12; else if (tot < 12) r[r.length - 1].w += 12 - tot;
-      r.forEach(function (x) {
-        var node = RENDER[x.k.type](x.k);
-        node.classList.add('b-' + x.k.type); node.style.setProperty('--span', x.w);
-        wrap.appendChild(node);
-      });
+    blokken.filter(function (k) { return k.type !== 'oefening'; }).map(function (k, i) { return [k, i]; }).sort(function (a, b) { return (rang(a[0]) - rang(b[0])) || (a[1] - b[1]); }).forEach(function (x) {
+      var node = RENDER[x[0].type](x[0]);
+      node.classList.add('b-' + x[0].type);
+      wrap.appendChild(node);
     });
     return wrap;
   }
@@ -124,7 +116,7 @@
     var items = punten ? punten.items.slice(0, 3) : [];
     if (!items.length) { var kad = p.blokken.filter(function (b) { return b.type === 'kader'; })[0]; if (kad) items = [kad.tekst]; }
     if (!items.length) return null;
-    return el('aside', { class: 'onthoud' }, el('div', { class: 'onthoud-head' }, el('span', { class: 'onthoud-ic', html: App.icon('tip', 26) }), el('p', { class: 'onthoud-l' }, 'Onthoud dit')),
+    return el('aside', { class: 'onthoud' }, el('p', { class: 'onthoud-l' }, 'Onthoud dit'),
       el('ul', { class: 'onthoud-list' }, items.map(function (t) { return el('li', { html: App.inline(t) }); })));
   }
 
@@ -149,10 +141,7 @@
     function tocOf(i) { var k = 0; tocIdx.forEach(function (t, q) { if (t <= i) k = q; }); return k; }
 
     function kopband(d, p, label) {
-      d.appendChild(el('header', { class: 'kopband' },
-        el('span', { class: 'kopband-ic', html: hicon(p.hn, 26) }),
-        el('span', { class: 'kopband-h' }, 'Hoofdstuk ' + p.hn + ' · ' + p.hoofdstuk),
-        p.par && p.parTitel ? el('span', { class: 'kopband-p' }, '§ ' + p.par + ' ' + App.clean(p.parTitel)) : (label ? el('span', { class: 'kopband-p' }, label) : null)));
+      d.appendChild(el('p', { class: 'pnr' }, (p.nr || '') + (label ? (p.nr ? ' · ' : '') + label : '')));
     }
 
     function pageIntro() {
@@ -183,15 +172,14 @@
 
     function pageOpener(p) {
       var d = el('section', { class: 'slide slide-opener' });
-      d.appendChild(el('div', { class: 'opener-hero' },
-        el('span', { class: 'opener-n', 'aria-hidden': 'true' }, String(p.hn)),
-        el('div', { class: 'opener-t' }, el('p', { class: 'eyebrow-w' }, 'Hoofdstuk ' + p.hn), el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, p.titel), p.intro ? el('p', { class: 'opener-intro', html: App.inline(p.intro) }) : null),
-        el('span', { class: 'opener-ic', html: hicon(p.hn, 120) })));
+      d.appendChild(el('p', { class: 'pnr' }, 'Hoofdstuk ' + p.hn));
+      d.appendChild(el('h1', { class: 'page-title opener-title', tabindex: '-1', id: 'page-title' }, p.titel));
+      if (p.intro) d.appendChild(el('p', { class: 'opener-intro', html: App.inline(p.intro) }));
       var two = el('div', { class: 'opener-two' });
-      if (p.doelen && p.doelen.length) two.appendChild(el('section', { class: 'opener-card' }, el('h2', {}, 'Dit leer je'), el('ul', { class: 'goal-list' }, p.doelen.map(function (t) { return el('li', {}, el('span', { class: 'goal-ic', html: App.icon('check', 18) }), el('span', { html: App.inline(t) })); }))));
+      if (p.doelen && p.doelen.length) two.appendChild(el('section', { class: 'opener-col' }, el('h2', {}, 'Dit leer je'), el('ul', { class: 'plain-list' }, p.doelen.map(function (t) { return el('li', { html: App.inline(t) }); }))));
       var pars = [];
       pages.forEach(function (q, i) { if (q.hn === p.hn && q.t === 'pagina' && q.parEerste) pars.push([i, q]); });
-      if (pars.length) two.appendChild(el('section', { class: 'opener-card' }, el('h2', {}, 'In dit hoofdstuk'), el('ol', { class: 'par-list' }, pars.map(function (x) { return el('li', {}, el('a', { href: '#p' + (x[0] + 1) }, el('span', { class: 'nr' }, x[1].par), ' ', App.clean(x[1].parTitel))); }))));
+      if (pars.length) two.appendChild(el('section', { class: 'opener-col' }, el('h2', {}, 'In dit hoofdstuk'), el('ol', { class: 'par-list' }, pars.map(function (x) { return el('li', {}, el('a', { href: '#p' + (x[0] + 1) }, el('span', { class: 'par-nr' }, x[1].par), ' ', App.clean(x[1].parTitel))); }))));
       d.appendChild(two);
       return d;
     }
@@ -199,7 +187,7 @@
     function pagePagina(p) {
       var d = el('section', { class: 'slide slide-pagina' });
       kopband(d, p);
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, el('span', { class: 'nr' }, p.nr), ' ', App.clean(p.titel)));
+      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(p.titel)));
       if (p.intro) d.appendChild(el('p', { class: 'lead-sent', html: App.inline(p.intro) }));
       d.appendChild(layoutBlokken(p.blokken));
       return d;
@@ -208,29 +196,27 @@
     function pageOef(p, idx) {
       var ex = App.exById(p.ex);
       var d = el('section', { class: 'slide slide-oef' });
-      kopband(d, p, 'Oefening ' + p.nr);
-      d.appendChild(el('h1', { class: 'sr', tabindex: '-1', id: 'page-title' }, 'Oefening ' + (p.nr || '')));
+      kopband(d, p, 'Oefening');
+      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, 'Al eens oefenen'));
       if (!ex) { d.appendChild(el('p', {}, 'Deze oefening ontbreekt.')); return d; }
       var nr = pages.slice(0, idx + 1).filter(function (q) { return q.t === 'oef' && q.par === p.par; }).length;
-      App.mountExercise(ex, d, { nr: nr, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } });
+      App.mountExercise(ex, d, { nr: nr, plain: true, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } });
       return d;
     }
 
     function miniSection(p, idx) {
       var exs = (p.mini || []).map(App.exById).filter(Boolean);
       if (!exs.length) return null;
-      var sec = el('section', { class: 'mini-ex', 'aria-label': 'Probeer het zelf' },
-        el('div', { class: 'mini-head' }, el('span', { class: 'mini-ic', html: App.icon('target', 28) }), el('h2', { class: 'mini-title' }, 'Probeer het zelf')));
-      exs.forEach(function (ex, i) { App.mountExercise(ex, sec, { nr: i + 1, mini: true, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } }); });
+      var sec = el('section', { class: 'mini-ex', 'aria-label': 'Al eens oefenen' }, el('h2', { class: 'mini-title' }, 'Al eens oefenen'));
+      exs.forEach(function (ex) { App.mountExercise(ex, sec, { plain: true, mini: true, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } }); });
       return sec;
     }
 
     function pageSamenvatting(p) {
       var d = el('section', { class: 'slide slide-sum' });
-      kopband(d, p, 'Samenvatting');
+      d.appendChild(el('p', { class: 'pnr' }, 'Samenvatting'));
       d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, 'Samenvatting: ' + p.hoofdstuk));
-      d.appendChild(el('p', { class: 'lead-sent' }, 'Dit zijn de belangrijkste punten van dit hoofdstuk.'));
-      d.appendChild(el('ol', { class: 'sum-grid' }, p.punten.map(function (t, i) { return el('li', {}, el('span', { class: 'sum-n' }, String(i + 1)), el('span', { html: App.inline(t) })); })));
+      d.appendChild(el('ol', { class: 'plain-list numbered' }, p.punten.map(function (t) { return el('li', { html: App.inline(t) }); })));
       return d;
     }
 
@@ -372,7 +358,7 @@
       }
       wrap.appendChild(content);
       // gespreide start van kaarten e.d. (stagger)
-      Array.prototype.forEach.call(wrap.querySelectorAll('.blocks > *, .bkaart, .vcol, .chap-card, .opener-card, .sum-grid li, .mini-ex, .onthoud'), function (n, k) { n.style.setProperty('--i', Math.min(k, 12)); });
+      Array.prototype.forEach.call(wrap.querySelectorAll('.blocks > *, .cell, .vcol, .chap-card, .opener-col, .mini-ex, .onthoud'), function (n, k) { n.style.setProperty('--i', Math.min(k, 12)); });
       wrap.classList.remove('enter-next', 'enter-prev'); void wrap.offsetWidth; wrap.classList.add('enter-' + dir);
       if (p.t === 'samenvatting' || p.t === 'opener') App.markDone(les, i);
       App.state.last[les] = i + 1; App.state.recent = les; App.save();

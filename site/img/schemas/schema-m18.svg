@@ -15,8 +15,8 @@
 <rect x="222" y="68" width="168" height="202.86" rx="14" fill="#1c2230" opacity=".10"/>
 <rect x="220" y="64" width="168" height="202.86" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
 <g transform="translate(274 78) scale(0.6)"><path d="M20 8 H62 L82 28 V92 H20 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M62 8 V28 H82" fill="none" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M30 44 H70 M30 56 H70 M30 68 H70 M30 80 H54" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
-<text x="304" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="304" dy="0">Bekwaamheidsattest</tspan></text>
-<text x="304" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="304" dy="0">3 jaar geldig.</tspan></text>
+<text x="304" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="304" dy="0">Attest</tspan></text>
+<text x="304" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="304" dy="0">Bekwaamheidsattest,</tspan><tspan x="304" dy="18.91">3 jaar geldig.</tspan></text>
 <circle cx="240" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
 <text x="240" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="240" dy="0">2</tspan></text>
 <path d="M395 154.43 L406 165.43 L395 176.43" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>

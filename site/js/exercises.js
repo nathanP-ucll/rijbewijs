@@ -768,7 +768,7 @@
     var bRetry = el('button', { type: 'button', class: 'btn', hidden: true, html: App.icon('retry', 16) + ' Probeer opnieuw' });
     var href = ex.theorieblok ? App.theorieHref(ex.theorieblok) : null;
     var bTheory = href && !opts.mini ? el('a', { class: 'btn btn-ghost', href: href, html: App.icon('theory', 16) + ' Toon theorie' }) : null;
-    var art = el('article', { class: 'ex ex-' + ex.type + (opts.mini ? ' ex-mini' : ''), 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
+    var art = el('article', { class: 'ex ex-' + ex.type + (opts.mini ? ' ex-mini' : '') + (opts.plain ? ' ex-plain' : ''), 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
     var done = false;
 
     function visualFor() {
@@ -821,7 +821,7 @@
       feedback('info', 'Dit is het juiste antwoord.', ex.uitleg, true);
       bShow.hidden = true; bRetry.hidden = false;
     });
-    art.appendChild(head(ex, opts.nr, opts.nolink ? null : (App.C.exLoc && App.C.exLoc[ex.id])));
+    if (!opts.plain) art.appendChild(head(ex, opts.nr, opts.nolink ? null : (App.C.exLoc && App.C.exLoc[ex.id])));
     art.appendChild(question(ex));
     art.appendChild(el('div', { class: 'ex-body' }, ctrl.el));
     art.appendChild(el('div', { class: 'ex-actions' }, bCheck, bShow, bRetry, bTheory));

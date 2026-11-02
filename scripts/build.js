@@ -116,23 +116,27 @@ Object.assign(bronnen, readJSON(path.join(DATA, 'bronnen.json'), {}));
 // afbeeldingen
 const bordenIndex = readJSON(path.join(DATA, 'borden-index.json'), {});
 const creditsRaw = readJSON(path.join(DATA, 'credits.json'), []);
-const schemasIndexRaw = readJSON(path.join(DATA, 'schemas-index.json'), null);
-const schemaInfo = {}; // naam -> beschrijving
-if (schemasIndexRaw) {
+const schemaInfo = {}; // naam -> beschrijving (samengevoegd uit schemas-index.json en schemas-extra-a/b/c.json; ontbrekende bestanden worden overgeslagen)
+function verwerkSchemaIndex(raw) {
+  if (!raw) return;
   const put = (naam, o) => {
     if (!naam) return;
-    schemaInfo[naam] = (o && (o.beschrijving || o.alt || o.omschrijving || o.titel || o.naam_nl)) || '';
+    schemaInfo[naam] = (o && (o.beschrijving || o.alt || o.omschrijving || o.titel || o.naam_nl)) || schemaInfo[naam] || '';
   };
-  const arr = Array.isArray(schemasIndexRaw) ? schemasIndexRaw : (schemasIndexRaw.schemas || null);
+  const arr = Array.isArray(raw) ? raw : (raw.schemas || null);
   if (Array.isArray(arr)) {
     arr.forEach((o) => {
       const n = typeof o === 'string' ? o : (o.naam || o.id || (o.bestand || '').replace(/^.*\//, '').replace(/\.\w+$/, ''));
       put(n, typeof o === 'string' ? null : o);
     });
   } else {
-    Object.entries(schemasIndexRaw.schemas || schemasIndexRaw).forEach(([k, o]) => put(k.replace(/\.\w+$/, ''), typeof o === 'object' ? o : { beschrijving: String(o) }));
+    Object.entries(raw.schemas || raw).forEach(([k, o]) => put(k.replace(/\.\w+$/, ''), typeof o === 'object' ? o : { beschrijving: String(o) }));
   }
 }
+['schemas-index.json', 'schemas-extra-a.json', 'schemas-extra-b.json', 'schemas-extra-c.json'].forEach((f) => {
+  const p = path.join(DATA, f);
+  if (fs.existsSync(p)) verwerkSchemaIndex(readJSON(p, null));
+});
 function dirBases(dir) {
   const m = {};
   if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) {
@@ -284,7 +288,7 @@ const THEMA_VAN_H = {};
 HOOFD.forEach((h, i) => { THEMA_VAN_H[i + 1] = h; });
 
 /* validatie van pagina's */
-const BLOK_TYPES = ['punten', 'kaarten', 'vergelijk', 'schema', 'kader', 'tabel', 'voorbeeld'];
+const BLOK_TYPES = ['punten', 'kaarten', 'vergelijk', 'schema', 'kader', 'tabel', 'voorbeeld', 'grid', 'tekst', 'tip', 'oefening'];
 const KADER_SOORTEN = ['regel', 'letop', 'zwarefout', 'tip', 'gewest'];
 function zin(where, t, opts) {
   opts = opts || {};
@@ -304,7 +308,7 @@ function valideerPagina(pg, where) {
   if (pg.intro) zin(where + ' intro', pg.intro);
   const bl = Array.isArray(pg.blokken) ? pg.blokken : [];
   if (bl.length < 3) warn(where + ' (' + (pg.titel || '?') + '): slechts ' + bl.length + ' inhoudsblok(ken); minimum is 3');
-  if (bl.filter((x) => x.type === 'kader').length > 1) warn(where + ' (' + (pg.titel || '?') + '): meer dan 1 kader op de pagina');
+  if (bl.filter((x) => x.type === 'kader' || x.type === 'tip').length > 1) warn(where + ' (' + (pg.titel || '?') + '): meer dan 1 kader op de pagina');
   bl.forEach((k, i) => {
     const w = where + ' blok ' + (i + 1) + ' (' + k.type + ')';
     if (!BLOK_TYPES.includes(k.type)) { err(w + ': onbekend type'); return; }
@@ -316,6 +320,10 @@ function valideerPagina(pg, where) {
       case 'kader': if (!KADER_SOORTEN.includes(k.soort)) err(w + ': onbekende soort ' + k.soort); zin(w + ' tekst', k.tekst); if (k.soort === 'gewest') { if (!k.gewest) err(w + ': gewest-object ontbreekt'); else Object.values(k.gewest).forEach((t) => zin(w + ' gewest', t)); } break;
       case 'tabel': if (!Array.isArray(k.kolommen) || !Array.isArray(k.rijen) || !k.rijen.length) err(w + ': kolommen/rijen'); else if (k.rijen.length > 6) warn(w + ': meer dan 6 rijen'); break;
       case 'voorbeeld': zin(w, k.tekst); break;
+      case 'grid': if (!Array.isArray(k.items) || !k.items.length) err(w + ': geen items'); else { if (k.items.length > 9) warn(w + ': meer dan 9 cellen'); k.items.forEach((c) => { img(w, c.afb); if (!c.naam) err(w + ': cel zonder naam'); if (c.uitleg) zin(w + ' uitleg', c.uitleg, { maxWoorden: 16 }); if (c.letop) zin(w + ' letop', c.letop); }); } break;
+      case 'tekst': { const ts = Array.isArray(k.items) ? k.items : [k.tekst]; ts.forEach((t) => zin(w, t)); break; }
+      case 'tip': zin(w + ' tekst', k.tekst); break;
+      case 'oefening': (k.ids || [k.id]).forEach((id) => { if (!id || !exLookup.has(id)) err(w + ': onbekende oefening ' + id); }); break;
     }
   });
   (pg.theorieblokken || []).forEach((id) => { if (!blokIds.has(id)) err(where + ': onbekend theorieblok ' + id); });
@@ -346,6 +354,7 @@ for (const les of [1, 2, 3, 4]) {
         valideerPagina(pg, where);
         k++;
         const minis = [];
+        (pg.blokken || []).filter((x) => x.type === 'oefening').forEach((x) => (x.ids || [x.id]).forEach((id) => { if (exLookup.has(id) && !gekoppeld.has(id)) { minis.push(id); gekoppeld.add(id); } }));
         (pg.theorieblokken || []).forEach((id) => {
           parBlokken.add(id);
           (oefPerBlok[id] || []).forEach((eid) => { const e = exLookup.get(eid); if (e && e.mini && !gekoppeld.has(eid)) { minis.push(eid); gekoppeld.add(eid); } });

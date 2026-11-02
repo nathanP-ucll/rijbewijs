@@ -17,7 +17,7 @@
 <text x="545" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="545" dy="0">4</tspan></text>
 <circle cx="690" cy="142" r="26" fill="#d63a3a" stroke="#fff" stroke-width="4"/>
 <text x="690" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="690" dy="0">5</tspan></text>
-<text x="400" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">aantal mislukte pogingen</tspan></text>
+<text x="70" y="194" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="70" dy="0">aantal mislukte pogingen</tspan></text>
 <rect x="30" y="216" width="238.67" height="172.32" rx="14" fill="#1c2230" opacity=".10"/>
 <rect x="28" y="212" width="238.67" height="172.32" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="3"/>
 <g transform="translate(121.33 222) scale(0.52)"><path d="M10 20 Q30 12 50 22 Q70 12 90 20 V82 Q70 74 50 84 Q30 74 10 82 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 22 V84" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M20 34 Q32 30 42 36 M20 48 Q32 44 42 50 M58 36 Q68 30 80 34 M58 50 Q68 44 80 48" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>

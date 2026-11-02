@@ -3005,5 +3005,35 @@
     "examen": false,
     "eindtest": false,
     "mini": true
+  },
+  {
+    "id": "L1-M33",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-buiten-bebouwde-kom",
+    "type": "meerkeuze",
+    "vraag": "Je rijdt buiten de bebouwde kom op deze weg: twee rijstroken per richting, gescheiden door een middenberm. Wat is de maximumsnelheid zonder bord?",
+    "opties": [
+      "70 km/u",
+      "90 km/u",
+      "120 km/u"
+    ],
+    "correct": [
+      2
+    ],
+    "meerdere": false,
+    "afbeelding": "schema-weg-met-middenberm",
+    "uitleg": "Een fysieke middenberm scheidt de rijrichtingen: buiten de bebouwde kom geldt dan in elk gewest 120 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true,
+    "nieuw": true
   }
 ]
