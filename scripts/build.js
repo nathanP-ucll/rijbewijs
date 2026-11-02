@@ -81,6 +81,10 @@ for (const f of jsonFiles(path.join(DATA, 'theorie'))) {
     theorie.push(b);
   });
 }
+if (DEMO) {
+  const extra = readJSON(path.join(DATA, '_demo', 'blokken-extra.json'), {});
+  for (const b of theorie) if (extra[b.id]) Object.assign(b, extra[b.id]);
+}
 const blokIds = new Set();
 for (const b of theorie) {
   if (!b.id) { err('Theorieblok zonder id in thema ' + b.thema); continue; }
@@ -266,8 +270,9 @@ oefeningen.forEach((o) => {
   o.theorieblok = target || null;
   if (target) (oefPerBlok[target] = oefPerBlok[target] || []).push(o.id);
 });
-const SIGN_CHUNK = 6, CARD_CHUNK = 4, INLINE_MAX = 3;
-function rowIsSign(r) { return !!(r && (r.code || r.bord) && bordFiles[r.code || r.bord]); }
+const SIGN_CHUNK = 3, KAART_CHUNK = 3, CARD_CHUNK = 4, INLINE_MAX = 3;
+function rowIsSign(r) { return !!(r && (r.code || r.bord || r.afb) && (bordFiles[r.code || r.bord || r.afb] || schemaFiles[r.afb] || demoFiles[r.afb])); }
+const exLookup = new Map(oefeningen.map((o) => [o.id, o]));
 for (const les of [1, 2, 3, 4]) {
   const blokken = theorie.filter((b) => lesVanBlok(b) === les);
   blokken.sort((a, b) => blokOrder(a) - blokOrder(b) || a._ord - b._ord);
@@ -277,15 +282,28 @@ for (const les of [1, 2, 3, 4]) {
   for (const th of themas) {
     const hoofdstuk = THEMA_NAMEN[th] || th;
     for (const b of blokken.filter((x) => x.thema === th)) {
-      const rows = b.regels || [];
-      const chunk = rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK;
-      const inline = rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
-      pages.push({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline });
+      const kaart = Array.isArray(b.kaarten) && b.kaarten.length > 0;
+      const rows = kaart ? b.kaarten : (b.regels || []);
+      const chunk = kaart ? KAART_CHUNK : (rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK);
+      const inline = !kaart && rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
+      const first = { t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline };
+      const theoryPages = [first];
+      pages.push(first);
       if (rows.length && !inline) {
         const parts = Math.ceil(rows.length / chunk);
-        for (let p = 0; p < parts; p++) pages.push({ t: 'regels', id: b.id, titel: b.titel, hoofdstuk, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts });
+        for (let p = 0; p < parts; p++) {
+          const pg = { t: 'regels', id: b.id, titel: b.titel, hoofdstuk, kaart, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts };
+          pages.push(pg); theoryPages.push(pg);
+        }
       }
-      addOef(oefPerBlok[b.id] || [], hoofdstuk, b.id);
+      (b.vergelijk || []).forEach((v, vi) => {
+        const pg = { t: 'vergelijk', id: b.id, titel: b.titel, hoofdstuk, v: vi };
+        pages.push(pg); theoryPages.push(pg);
+      });
+      const blokOef = oefPerBlok[b.id] || [];
+      const minis = blokOef.filter((id) => exLookup.get(id) && exLookup.get(id).mini);
+      minis.forEach((id, j) => { const pg = theoryPages[Math.min(j, theoryPages.length - 1)]; (pg.mini = pg.mini || []).push(id); });
+      addOef(blokOef.filter((id) => !minis.includes(id)), hoofdstuk, b.id);
       placed.add(b.id);
     }
     pages.push({ t: 'samenvatting', titel: 'Samenvatting: ' + hoofdstuk, hoofdstuk, thema: th, toc: true });
@@ -301,6 +319,8 @@ for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if 
 // afbeeldingen van blokken resolven + bronnen controleren
 for (const b of theorie) {
   (b.afbeeldingen || []).forEach(resolveImg);
+  (b.kaarten || []).forEach((k) => resolveImg(k.afb));
+  (b.vergelijk || []).forEach((v) => (v.afbs || []).forEach(resolveImg));
   for (const r of b.regels || []) {
     for (const v of Object.values(r)) if (typeof v === 'string' && bordenIndex[v]) resolveImg(v);
   }
@@ -320,7 +340,7 @@ const checklistFouten = [];
 const nieuweCurriculum = curriculum.map((c) => {
   const blokken = theorie.filter((b) => (b.curriculum || []).includes(c.id));
   const nOef = oefeningen.filter((o) => o.onderwerp === c.id).length;
-  const heeftAfb = blokken.some((b) => (b.afbeeldingen || []).some((a) => afb[a]));
+  const heeftAfb = blokken.some((b) => (b.afbeeldingen || []).concat((b.kaarten || []).map((k) => k.afb)).some((a) => afb[a]));
   const heeftBron = blokken.some((b) => (b.bronnen || []).some((s) => bronnen[s]));
   const nc = Object.assign({}, c, {
     theorie: blokken.length > 0,

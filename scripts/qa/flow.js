@@ -153,7 +153,7 @@ async function solve(page, art, ex, right) {
   await page.getByRole('button', { name: /Inhoud/ }).click();
   ok((await page.locator('#pop-toc .pop-link.done').count()) >= 1, "vinkjes voor gedane onderdelen");
   await page.keyboard.press('Escape');
-  const noCode = await page.evaluate(() => !/(s*[A-F]d+/.test(document.querySelector('#book-page').innerText));
+  const noCode = await page.evaluate(() => !/\(\s*[A-F]\d+/.test(document.querySelector('#book-page').innerText));
   ok(noCode, 'geen (bordcode)-lijsten in zichtbare tekst');
 
   // eindtest

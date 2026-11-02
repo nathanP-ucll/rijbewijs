@@ -611,5 +611,79 @@
     "linksAfb": "B1"
    }
   ]
+ },
+ {
+  "id": "DEMO-M1",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-indeling",
+  "type": "koppel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": false,
+  "mini": true,
+  "vraag": "Koppel elk bord aan zijn soort.",
+  "paren": [
+   {
+    "links": "Gevaarlijke bocht naar links",
+    "rechts": "Gevaar",
+    "linksAfb": "A1a"
+   },
+   {
+    "links": "Voorrang verlenen",
+    "rechts": "Voorrang",
+    "linksAfb": "B1"
+   },
+   {
+    "links": "Parkeerverbod",
+    "rechts": "Parkeren",
+    "linksAfb": "E1"
+   }
+  ]
+ },
+ {
+  "id": "DEMO-M2",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-indeling",
+  "type": "volgorde",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": false,
+  "mini": true,
+  "vraag": "Zet de borden van zwaar naar licht: verbod, gevaar, parkeren.",
+  "items": [
+   "Verbod",
+   "Gevaar",
+   "Parkeren"
+  ]
+ },
+ {
+  "id": "DEMO-M3",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-indeling",
+  "type": "koppel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": false,
+  "mini": true,
+  "vraag": "Koppel de borden aan wat ze doen.",
+  "paren": [
+   {
+    "links": "Voorrang verlenen",
+    "rechts": "Eerst laten voorgaan"
+   },
+   {
+    "links": "Verboden richting",
+    "rechts": "Niet inrijden"
+   }
+  ]
  }
 ]

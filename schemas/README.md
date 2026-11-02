@@ -47,3 +47,23 @@ Lijst onderwerpen met id, les, naam, thema, en checklist-vlaggen: theorie, oefen
 
 ## Oefeningenmix (wens van de gebruiker)
 Voelt als een schoolboek, niet als een quiz. Per les een mix van: koppelen/verbinden (bord <-> betekenis, vaak met echte bordafbeeldingen), aankruisen (meerdere juiste antwoorden), invullen/aanvullen (invulvraag en cloze), en gewone meerkeuze (ook met afbeelding). Daarnaast de overige types als afwisseling. Richtlijn per les (25-40 oefeningen): ca. 25% koppel, 20% aankruisen/meerkeuze meerdere juist, 20% invullen/cloze, 15% gewone meerkeuze, rest situatie/hotspot/volgorde/waar-onwaar/tabel/bord. Elk theorieblok krijgt minstens 1-2 oefeningen direct erna.
+
+## Engine-aanvullingen (door de bouw-worker; allemaal optioneel)
+
+### Theorieblok (data/theorie/*.json)
+- `kort`: array korte opsommingen (korte woorden/zinnen, **vet** toegestaan). Wordt GROOT getoond bovenaan de pagina. Als `kort` ontbreekt, leidt de engine een korte weergave af uit `uitleg` (lijstitems, anders de eerste 3 zinnen).
+- `uitleg`: lange uitleg. Staat altijd achter de knop 'Meer uitleg' (samen met de volledige kadertekst en `uitzonderingen`).
+- `kaders[].tekst`: op de pagina zelf wordt enkel de eerste zin getoond (max ~170 tekens); de rest zit achter 'Meer uitleg'. Schrijf dus een volledige, korte eerste zin.
+- `regels`: wordt NIET als tabel getoond maar als kaartjes, over meerdere pagina's verdeeld (6 borden per pagina; 4 kaartjes per pagina bij andere rijen; <= 3 rijen zonder bord staan op de hoofdpagina). Kolomnamen zijn vrij; sleutel `naam` (anders de eerste sleutel) is de kaarttitel; sleutels `vlaanderen`, `wallonie`, `brussel` krijgen een gewestbadge.
+- `code` (of `bord`) in een regelrij is enkel een interne bestandsverwijzing naar `site/img/borden/<code>.svg`. De code wordt nooit getoond. Zet de betekenis in `naam`/`betekenis`.
+- Zichtbare tekst wordt door de engine gefilterd: lijstjes met bordcodes tussen haakjes (bv. `(B1, B5, B9...)`) en artikelverwijzingen (`art. 12.3.2`) worden weggehaald. Losse codes in lopende zinnen blijven staan: schrijf ze dus niet in de tekst.
+- Inkort-velden (optioneel): blok `titelKort` (max 4 woorden), blok `kort` (3-6 korte punten), `kaders[].kort` (1 korte zin) en blok `paginas` ([{ "titel", "rijen": [indices in regels] }], ~6 rijen per pagina) voor de verdeling van grote regeltabellen.
+
+### Oefeningen
+- `bord`: enkel modus `naam` en `categorie` (modus `code` wordt door de build geweigerd). Bij `naam` mag je `opties[]` toevoegen: dan wordt het meerkeuze (juist = optie die in `antwoorden` staat); zonder `opties` typt de gebruiker het antwoord.
+- `categorie` is een letter A-F maar wordt getoond als Gevaar, Voorrang, Verbod, Gebod, Parkeren, Aanwijzing.
+- `situatie.voertuigen[]` mag `x`,`y` (in %) hebben: dan komen er genummerde knoppen op de afbeelding. Zonder x/y staan de voertuigen als knoppen onder de afbeelding.
+- `hotspot.zones[].label`: toegankelijke naam voor een zone. `hotspot.alt`: alt-tekst.
+- `koppel.paren[].linksAfb`: afbeeldingsnaam (bord) links van het label; geef het label dan de betekenis, niet de code.
+- `tabel.rijen[].cellen[].correct` mag een string, een array varianten of een boolean (checkbox) zijn; `opties` maakt er een dropdown van.
+- Elke oefening komt op een eigen lespagina, direct na de theoriepagina(s) van haar `theorieblok`.

@@ -30,3 +30,10 @@ Bordcodes (B1, C43, E9a, ...) hoef je niet te kennen voor het examen. Dus:
 - Na elke theoriepagina (bv. inleiding 'soorten borden') staat ONDERAAN dezelfde pagina meteen een kleine oefening (`mini: true`) over precies die pagina, liefst slepen/koppelen (bv. soort bord <-> betekenis). Grotere oefeningen blijven op eigen pagina's.
 - Bordkaarten: links groot bord, rechts korte duidelijke tekst: wat betekent het, wat moet je doen, 'let op' (bv. 'geen voorrang'). Geen code. Borden die op elkaar lijken staan NAAST elkaar met één regel 'het verschil'.
 - Aankondigingsborden (bv. voorrangsbord met onderbord afstand): zeg expliciet dat het een AANKONDIGING is en dat het eigenlijke bord nog moet komen, ~afstand VERDERop (de afstand wijst vooruit, niet achteruit), en wat er verschilt met het bord zonder aankondiging.
+
+## Hoofdstukken en nummering (feedback gebruiker, 2026-11-03)
+Stijl van een echt studieboek, met nummers die je ook in de inhoudsopgave ziet:
+- Hoofdstuk = thema, doorlopend genummerd over de hele cursus, met titel. Lesindeling blijft: Les 1 = H1 Borden, H2 Snelheden en zones; Les 2 = H3 Voorrang en kruispunten, H4 Verkeerslichten en bevoegde personen, H5 Voetgangers en fietsers, H6 Openbaar vervoer; Les 3 = H7 Plaats op de weg, H8 Autosnelweg en autoweg; Les 4 = H9 Gedrag en alcohol, H10 Ongeval en EHBO, H11 Rijbewijs en examen, H12 Techniek en milieu.
+- Paragraaf N.M = theorieblok (titelKort), onderdeel N.M.K = elke pagina/kaart/oefening binnen de paragraaf, in leesvolgorde, bv. 3.2.1 theorie, 3.2.2 vergelijking, 3.2.3 mini-oefening 'Oefening'. Dus bv. 1.2.8 kan een oefening zijn over de borden uit 1.2.
+- De nummers worden automatisch door de build/engine gegenereerd uit de volgorde in de data (niet handmatig in de JSON), staan in de kop van elke pagina en in de inhoud (uitklapbaar, groep per hoofdstuk), en in 'Mijn fouten' ('fout bij 3.2.4').
+- Les-eindtest en samenvatting staan als laatste onderdelen van het les-overzicht (niet genummerd binnen een hoofdstuk, bv. 'Eindtest les 1').

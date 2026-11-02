@@ -1,0 +1,15 @@
+{
+ "borden-indeling": {
+  "kort": ["Er zijn zes soorten borden.", "Elke soort heeft een eigen vorm en kleur.", "Zo herken je snel wat een bord vraagt."],
+  "kaarten": [
+   { "afb": "A1a", "naam": "Gevaarlijke bocht naar links", "uitleg": "Rij trager en blijf rechts.", "letop": "Je krijgt hier niet automatisch voorrang.", "groep": "Gevaar" },
+   { "afb": "B1", "naam": "Voorrang verlenen", "uitleg": "Laat het kruisend verkeer eerst door.", "groep": "Voorrang" },
+   { "afb": "C1", "naam": "Verboden richting", "uitleg": "Je mag hier niet in rijden." , "groep": "Verbod" },
+   { "afb": "E1", "naam": "Parkeerverbod", "uitleg": "Je mag hier niet parkeren, wel even stilstaan.", "letop": "Stilstaan om in te stappen mag wel.", "groep": "Parkeren" }
+  ],
+  "vergelijk": [
+   { "titel": "Twee voorrangsborden", "afbs": ["B1", "B5"], "verschil": "Bij het ene verleen je voorrang, bij het andere moet je ook volledig stoppen." },
+   { "titel": "Drie borden", "afbs": ["A1a", "B1", "C1"], "verschil": "Gevaar waarschuwt, voorrang regelt, verbod verbiedt." }
+  ]
+ }
+}

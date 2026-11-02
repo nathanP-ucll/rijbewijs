@@ -548,8 +548,8 @@
     var bShow = el('button', { type: 'button', class: 'btn', hidden: true }, 'Toon het juiste antwoord');
     var bRetry = el('button', { type: 'button', class: 'btn', hidden: true, html: App.icon('retry', 16) + ' Probeer opnieuw' });
     var href = ex.theorieblok ? App.theorieHref(ex.theorieblok) : null;
-    var bTheory = href ? el('a', { class: 'btn btn-ghost', href: href, html: App.icon('theory', 16) + ' Toon theorie' }) : null;
-    var art = el('article', { class: 'ex ex-' + ex.type, 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
+    var bTheory = href && !opts.mini ? el('a', { class: 'btn btn-ghost', href: href, html: App.icon('theory', 16) + ' Toon theorie' }) : null;
+    var art = el('article', { class: 'ex ex-' + ex.type + (opts.mini ? ' ex-mini' : ''), 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
     var done = false;
 
     function feedback(kind, title, extra) {

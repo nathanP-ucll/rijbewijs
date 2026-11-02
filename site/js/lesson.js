@@ -53,7 +53,30 @@
   }
 
   /* ---------- kaartjes voor regelrijen (zonder codes) ---------- */
+  /** Bordkaart: links groot bord, rechts naam + wat moet je doen + let op. */
+  function bordKaart(k) {
+    var info = App.imgInfo(k.afb);
+    var card = el('article', { class: 'bkaart' });
+    card.appendChild(el('div', { class: 'bkaart-media' }, App.img(k.afb, { alt: k.naam || (info && info.naam) || 'Afbeelding', class: 'bkaart-img' })));
+    var body = el('div', { class: 'bkaart-body' });
+    body.appendChild(el('h3', { class: 'bkaart-title', html: App.inline(String(k.naam || (info && info.naam) || '')) }));
+    if (k.uitleg) body.appendChild(el('p', { class: 'bkaart-text', html: App.inline(String(k.uitleg)) }));
+    if (k.letop) body.appendChild(el('p', { class: 'bkaart-letop' }, el('span', { class: 'bkaart-tag' }, 'Let op'), ' ', el('span', { html: App.inline(String(k.letop)) })));
+    card.appendChild(body);
+    if (info && info.credit) card.appendChild(el('p', { class: 'credit' }, 'Afbeelding: ' + info.credit.auteur + ', ' + info.credit.licentie));
+    return card;
+  }
+  function rowToKaart(r) {
+    var code = r.afb || r.code || r.bord;
+    var info = code && App.imgInfo(code);
+    if (!info) return null;
+    if (r.afb) return r;
+    if (info.soort !== 'bord') return null;
+    return { afb: code, naam: r.naam || info.naam, uitleg: r.betekenis || r.uitleg, letop: r.letop };
+  }
   function rowCard(r) {
+    var kk = rowToKaart(r);
+    if (kk) return bordKaart(kk);
     var codeVal = r.code || r.bord;
     var info = codeVal && App.imgInfo(codeVal);
     var isSign = !!(info && info.soort === 'bord');
@@ -73,6 +96,19 @@
     });
     card.appendChild(body);
     if (isSign && info.credit) card.appendChild(el('p', { class: 'credit' }, 'Afbeelding: ' + info.credit.auteur + ', ' + info.credit.licentie));
+    return card;
+  }
+
+  function vergelijkKaart(v) {
+    var n = (v.afbs || []).length;
+    var card = el('article', { class: 'vkaart' }, v.titel ? el('h3', { class: 'vkaart-title', html: App.inline(v.titel) }) : null);
+    var cols = el('div', { class: 'vkaart-cols vk-' + Math.min(n, 3) });
+    (v.afbs || []).forEach(function (a) {
+      var info = App.imgInfo(a); if (!info) return;
+      cols.appendChild(el('figure', { class: 'vcol' }, el('div', { class: 'vcol-media' }, App.img(a, { alt: info.naam || 'Verkeersbord', class: 'vcol-img' })), el('figcaption', {}, info.naam || '', info.credit ? el('span', { class: 'credit' }, 'Afbeelding: ' + info.credit.auteur + ', ' + info.credit.licentie) : null)));
+    });
+    card.appendChild(cols);
+    if (v.verschil) card.appendChild(el('p', { class: 'vkaart-diff' }, el('strong', {}, 'Het verschil: '), el('span', { html: App.inline(v.verschil) })));
     return card;
   }
 
@@ -109,7 +145,7 @@
     var curr = C.curriculum.filter(function (c) { return c.les === les; });
     var totalEx = pages.filter(function (p) { return p.t === 'oef'; }).length;
     var eindPool = (function () {
-      var all = C.oefeningen.filter(function (o) { return o.les === les; });
+      var all = C.oefeningen.filter(function (o) { return o.les === les && !o.mini; });
       var ex = all.filter(function (o) { return o.examen !== false; });
       return ex.length >= 5 ? ex : all;
     })();
@@ -142,6 +178,7 @@
       d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
       var inTable = {};
       (b.regels || []).forEach(function (r) { if (r.code) inTable[r.code] = 1; if (r.bord) inTable[r.bord] = 1; });
+      (b.kaarten || []).forEach(function (k) { inTable[k.afb] = 1; });
       var signs = [], schemas = [];
       (b.afbeeldingen || []).forEach(function (n) {
         var i = App.imgInfo(n); if (!i) return;
@@ -171,10 +208,34 @@
       var d = el('section', { class: 'slide slide-regels' });
       d.appendChild(el('p', { class: 'eyebrow' }, p.hoofdstuk + (p.delen > 1 ? ' · deel ' + p.deel + ' van ' + p.delen : '')));
       d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
-      var rows = b.regels.slice(p.van, p.tot);
-      var signy = rows.some(function (r) { var i = App.imgInfo(r.code || r.bord); return i && i.soort === 'bord'; });
-      d.appendChild(el('div', { class: 'card-grid' + (signy ? ' sign-grid-big' : '') }, rows.map(rowCard)));
+      var rows = (p.kaart ? b.kaarten : b.regels).slice(p.van, p.tot);
+      var list = el('div', { class: 'kaart-list' });
+      var lastG = null;
+      rows.forEach(function (r) {
+        if (r.groep && r.groep !== lastG) { list.appendChild(el('h2', { class: 'groep' }, App.clean(r.groep))); lastG = r.groep; }
+        list.appendChild(rowCard(r));
+      });
+      d.appendChild(list);
       return d;
+    }
+
+    function pageVergelijk(p) {
+      var b = App.blokById(p.id);
+      var d = el('section', { class: 'slide slide-vergelijk' });
+      d.appendChild(el('p', { class: 'eyebrow' }, p.hoofdstuk + ' · let op het verschil'));
+      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
+      d.appendChild(vergelijkKaart(b.vergelijk[p.v]));
+      return d;
+    }
+
+    function miniSection(p, idx) {
+      var exs = (p.mini || []).map(App.exById).filter(Boolean);
+      if (!exs.length) return null;
+      var sec = el('section', { class: 'mini-ex', 'aria-label': 'Probeer het zelf' }, el('h2', { class: 'mini-title' }, 'Probeer het zelf'));
+      exs.forEach(function (ex, i) {
+        App.mountExercise(ex, sec, { nr: i + 1, mini: true, onResult: function () { App.markDone(les, idx); paintBar(); } });
+      });
+      return sec;
     }
 
     function pageOef(p, idx) {
@@ -318,10 +379,12 @@
       if (p.t === 'intro') content = pageIntro();
       else if (p.t === 'blok') content = pageBlok(p);
       else if (p.t === 'regels') content = pageRegels(p);
+      else if (p.t === 'vergelijk') content = pageVergelijk(p);
       else if (p.t === 'oef') content = pageOef(p, i);
       else if (p.t === 'extra') content = pageExtra();
       else if (p.t === 'samenvatting') content = pageSamenvatting(p);
       else content = pageEind(i);
+      var mini = miniSection(p, i); if (mini) content.appendChild(mini);
       wrap.appendChild(content);
       wrap.classList.remove('enter'); void wrap.offsetWidth; wrap.classList.add('enter');
       if (p.t === 'samenvatting' || p.t === 'extra') App.markDone(les, i);

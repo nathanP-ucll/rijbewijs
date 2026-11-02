@@ -9,7 +9,7 @@
     return el('p', { class: 'notice warn' }, 'Je browser bewaart geen gegevens voor deze site (privémodus of geblokkeerd). De cursus werkt, maar je voortgang en je foute vragen verdwijnen zodra je de pagina sluit.');
   }
   function examPool(lessen) {
-    return C.oefeningen.filter(function (o) { return o.examen !== false && (!lessen || lessen.indexOf(o.les) >= 0); });
+    return C.oefeningen.filter(function (o) { return o.examen !== false && !o.mini && (!lessen || lessen.indexOf(o.les) >= 0); });
   }
 
   /* ================= START ================= */
