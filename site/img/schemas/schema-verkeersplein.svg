@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
-<title id="t">Rond plein zonder D5 en zonder B1/B5</title>
-<desc id="d">Zonder D5 en zonder B1/B5 is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.</desc>
+<title id="t">Rond plein zonder rotonde-bord en zonder voorrangsborden</title>
+<desc id="d">Zonder rotonde-bord en zonder voorrangsborden is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.</desc>
 <defs><marker id="ahrgba25525525555" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="rgba(255,255,255,.55)"/></marker><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker><marker id="ah2f6fd6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fd6"/></marker></defs>
 <rect width="800" height="600" fill="#86b96b"/>
 <rect x="350" y="0" width="100" height="300" fill="#4a4f57" />
@@ -27,6 +27,6 @@
 <circle cx="430" cy="500" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
 <text x="430" y="504.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="430" dy="0">2</tspan></text>
 <rect x="0" y="0" width="800" height="66" fill="#1c2230" opacity="0.9"/>
-<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Plein zonder D5 en B1/B5</tspan></text>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Plein zonder rotonde-bord en voorrangsborden</tspan></text>
 <text x="400" y="57" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#d6dbe6" text-anchor="middle" ><tspan x="400" dy="0">geen rotonde: voorrang van rechts, per toegang kijken</tspan></text>
 </svg>

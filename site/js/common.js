@@ -195,7 +195,7 @@
       src: info.src, alt: opts.alt != null ? opts.alt : info.alt, loading: 'lazy', decoding: 'async',
       class: opts.class || ''
     });
-    im.addEventListener('error', function () { im.classList.add('img-missing'); im.removeAttribute('src'); im.hidden = true; });
+    im.addEventListener('error', function () { im.classList.add('img-missing'); im.removeAttribute('src'); im.hidden = true; var box = im.closest('figure, .stage, .bord-stage, .opt-media, .bkaart-media, .vcol-media'); if (box && !box.querySelector('img:not([hidden])')) box.hidden = true; });
     return im;
   };
   App.figure = function (name, opts) {

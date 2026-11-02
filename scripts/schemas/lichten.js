@@ -82,7 +82,7 @@ mk('schema-lichten-3kleuren', 'Driekleurig verkeerslicht: groen, oranje, rood, g
 
 // ---- knipperoranje
 mk('schema-lichten-knipperoranje', 'Knipperend oranje: dubbel voorzichtig, voorrang blijft',
-  'Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden B1 en B9 met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.',
+  'Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden voorrang verlenen en voorrangsweg met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.',
   'lichten-oranje-knipperlicht', ['LICH-001'], (s) => {
     s.titel('Knipperend oranje licht');
     housing(s, 170, 110, [{ kleur: 'rood', aan: false }, { kleur: 'oranje', aan: true, knipper: true }, { kleur: 'groen', aan: false }], { r: 38 });

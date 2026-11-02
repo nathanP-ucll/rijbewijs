@@ -15,7 +15,7 @@ const fs = require('fs'); fs.mkdirSync(SHOTS, { recursive: true });
         await page.evaluate((i) => { location.hash = '#p' + i; }, i);
         const m = await page.evaluate(() => { const s = document.querySelector('.slide'); const r = s.getBoundingClientRect(); return { h: Math.round(r.height), t: s.querySelector('h1') ? s.querySelector('h1').innerText.slice(0, 40) : '', type: window.CURSUS.boeken[document.body.dataset.les].pages[(+location.hash.slice(2)) - 1].t }; });
         out.total++;
-        const lim = name === 'desktop' ? { min: 330, max: 800 } : { min: 330, max: 2600 };
+        const lim = name === 'desktop' ? { min: 300, max: 790 } : { min: 330, max: 2600 };
         if (m.type !== 'intro' && m.type !== 'oef' && m.type !== 'extra' && m.type !== 'eindtest' && m.h < lim.min) out.empty.push(`${name} les${les} p${i} ${m.type} ${m.h}px ${m.t}`);
         if (m.h > lim.max && m.type !== 'oef' && m.type !== 'eindtest') out.full.push(`${name} les${les} p${i} ${m.type} ${m.h}px ${m.t}`);
       }

@@ -685,5 +685,65 @@
     "rechts": "Niet inrijden"
    }
   ]
+ },
+ {
+  "id": "DEMO-V1",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-indeling",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Welk bord zegt: voorrang verlenen?",
+  "opties": [
+   "Dit bord",
+   "Dat bord",
+   "Nog een bord"
+  ],
+  "optiesAfb": [
+   "A1a",
+   "B1",
+   "C1"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "DEMO-V2",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-indeling",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Welke twee borden waarschuwen en verbieden?",
+  "meerdere": true,
+  "opties": [
+   "",
+   "",
+   "",
+   ""
+  ],
+  "optiesAfb": [
+   "A1a",
+   "B1",
+   "C1",
+   "E1"
+  ],
+  "correct": [
+   0,
+   2
+  ],
+  "afbeeldingen": [
+   "B1",
+   "B5"
+  ]
  }
 ]

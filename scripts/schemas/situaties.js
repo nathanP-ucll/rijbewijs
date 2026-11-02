@@ -20,7 +20,7 @@ function dual(def) {
     if (!sol && !def.oefening) continue;
     const naam = sol ? def.naam : def.naam + '-oefening';
     const desc = (sol && def.descUitleg ? def.descUitleg : def.desc);
-    const s = new Svg(naam, def.title + (sol ? '' : ' (oefening)'), desc, def.opt || {});
+    const s = new Svg(naam, (sol ? def.title : (def.titleOef || def.title) + ' (oefening)'), desc, def.opt || {});
     def.draw(s, sol);
     const entry = s.finish({
       theorieblok: def.theorieblok,
@@ -64,20 +64,20 @@ function V(nr, label, kleur, x, y, rot, extra = {}) { return { nr, label, kleur,
 
 // ---------------------------------------------------------------- B1 / B5 op kruispunt
 (function () {
-  const vs = [V(1, 'auto 1 (van onder, geen bord)', 'rood', 430, 485, 0), V(2, 'auto 2 (van rechts, B1)', 'blauw', 660, 270, 270), V(3, 'auto 3 (van links, B5)', 'geel', 140, 330, 90)];
+  const vs = [V(1, 'auto 1 (van onder, geen bord)', 'rood', 430, 485, 0), V(2, 'auto 2 (van rechts, voorrang verlenen)', 'blauw', 660, 270, 270), V(3, 'auto 3 (van links, stopbord)', 'geel', 140, 330, 90)];
   dual({
-    naam: 'schema-b1-b5-kruispunt', title: 'Voorrangsborden B1 en B5 op een kruispunt',
-    desc: 'Kruispunt met drie auto\'s. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft bord B1 (voorrang verlenen) aan zijn kant. Auto 3 komt van links en heeft bord B5 (stop) aan zijn kant met een stopstreep. Alle auto\'s rijden rechtdoor.',
-    descUitleg: 'Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto\'s, ook al komt auto 2 van rechts. Auto 2 (B1) moet voorrang verlenen. Auto 3 (B5) moet eerst volledig stoppen en voorrang verlenen.',
+    naam: 'schema-b1-b5-kruispunt', title: 'Voorrang verlenen en stopbord op een kruispunt', titleOef: 'Kruispunt met voorrangsborden',
+    desc: 'Kruispunt met drie auto\'s. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft het bord voorrang verlenen aan zijn kant. Auto 3 komt van links en heeft het stopbord aan zijn kant met een stopstreep. Alle auto\'s rijden rechtdoor.',
+    descUitleg: 'Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto\'s, ook al komt auto 2 van rechts. Auto 2 (bord voorrang verlenen) moet voorrang verlenen. Auto 3 (stopbord) moet eerst volledig stoppen en voorrang verlenen.',
     theorieblok: 'voorrang-borden-b1-b5', bronnen: ['VOOR-001', 'VOOR-002', 'VOOR-003'], oefening: true, voertuigen: vs,
-    situatie: { juisteVoorrang: 1, moetWachten: [2, 3], motivatie: 'Auto 2 en auto 3 hebben een B1 (voorrang verlenen) en een B5 (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts.' },
+    situatie: { juisteVoorrang: 1, moetWachten: [2, 3], motivatie: 'Auto 2 en auto 3 hebben het bord voorrang verlenen en het stopbord (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts.' },
     draw(s, sol) {
       s.crossroad(400, 300, HW);
       s.stopline(332, 330, 'v', 56);
       s.route('M430,440 L430,45', col('rood')); s.route('M620,270 L45,270', col('blauw')); s.route('M180,330 L755,330', col('geel'));
       s.sign('B1', 505, 205, 64); s.sign('B5', 292, 395, 64);
       vs.forEach((v) => drawVeh(s, v));
-      if (sol) { s.titel('Borden gaan voor voorrang van rechts'); tag(s, 540, 528, '1e: heeft voorrang', 'go'); tag(s, 660, 218, 'B1: voorrang verlenen', 'wait'); tag(s, 150, 450, 'B5: stoppen,\nvoorrang verlenen', 'wait'); }
+      if (sol) { s.titel('Borden gaan voor voorrang van rechts'); tag(s, 540, 528, '1e: heeft voorrang', 'go'); tag(s, 660, 218, 'voorrang verlenen', 'wait'); tag(s, 150, 450, 'stoppen,\nvoorrang verlenen', 'wait'); }
     },
   });
 })();
@@ -86,7 +86,7 @@ function V(nr, label, kleur, x, y, rot, extra = {}) { return { nr, label, kleur,
 (function () {
   const vs = [V(1, 'auto 1 (van de zijstraat, slaat links af)', 'rood', 430, 490, 0, { blink: 'L' }), V(2, 'auto 2 (van rechts)', 'blauw', 660, 220, 270), V(3, 'auto 3 (van links)', 'geel', 140, 280, 90)];
   const base = (b1) => ({
-    title: b1 ? 'T-kruispunt met B1 op de zijtak' : 'T-kruispunt zonder borden',
+    title: b1 ? 'T-kruispunt met bord voorrang verlenen op de zijtak' : 'T-kruispunt zonder borden',
     voertuigen: vs,
     draw(s, sol) {
       s.crossroad(400, 250, HW, { w: 1, e: 1, s: 1 });
@@ -105,10 +105,10 @@ function V(nr, label, kleur, x, y, rot, extra = {}) { return { nr, label, kleur,
   });
   dual({
     naam: 'schema-t-kruispunt-b1', title: b.title, voertuigen: vs, oefening: true, theorieblok: 'voorrang-t-kruispunt', bronnen: ['VOOR-001', 'VOOR-007', 'VOOR-003'],
-    desc: 'T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat bord B1 (voorrang verlenen) met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.',
-    descUitleg: 'Met B1 op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.',
-    situatie: { moetWachten: [1], motivatie: 'Het bord B1 staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3).' },
-    draw(s, sol) { b.draw(s, sol); if (sol) { s.titel('T-kruispunt met B1 op de zijtak'); tag(s, 650, 180, 'heeft voorrang', 'go'); tag(s, 150, 335, 'heeft voorrang', 'go'); tag(s, 555, 480, 'wacht: B1', 'wait'); } },
+    desc: 'T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat het bord voorrang verlenen met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.',
+    descUitleg: 'Met het bord voorrang verlenen op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.',
+    situatie: { moetWachten: [1], motivatie: 'Het bord voorrang verlenen staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3).' },
+    draw(s, sol) { b.draw(s, sol); if (sol) { s.titel('T-kruispunt met bord voorrang verlenen op de zijtak'); tag(s, 650, 180, 'heeft voorrang', 'go'); tag(s, 150, 335, 'heeft voorrang', 'go'); tag(s, 555, 480, 'wacht: voorrang verlenen', 'wait'); } },
   });
 })();
 
@@ -242,11 +242,11 @@ function ring(s, withSigns) {
 (function () {
   const vs = [V(1, 'auto 1 (rijdt op de rotonde)', 'rood', 311, 362, 145), V(2, 'auto 2 (rijdt de rotonde op)', 'blauw', 430, 500, 0, { blink: 'R' })];
   dual({
-    naam: 'schema-rotonde', title: 'Rotonde met D5 en B1: wie op de rotonde rijdt, heeft voorrang',
-    desc: 'Bovenaanzicht van een rotonde met bord D5 op het middeneiland en bord B1 (voorrang verlenen) aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.',
-    descUitleg: 'Met D5 en B1 aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.',
+    naam: 'schema-rotonde', title: 'Rotonde: wie op de rotonde rijdt, heeft voorrang', titleOef: 'Rotonde met voorrangsborden',
+    desc: 'Bovenaanzicht van een rotonde met het rotonde-bord op het middeneiland en het bord voorrang verlenen aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.',
+    descUitleg: 'Met het rotonde-bord en het bord voorrang verlenen aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.',
     theorieblok: 'voorrang-rotonde', bronnen: ['VOOR-001', 'VOOR-003', 'VOOR-004'], oefening: true, voertuigen: vs,
-    situatie: { juisteVoorrang: 1, moetWachten: [2], motivatie: 'Bij een rotonde met D5 en B1 verleent wie oprijdt voorrang aan wie al op de rotonde rijdt.' },
+    situatie: { juisteVoorrang: 1, moetWachten: [2], motivatie: 'Bij een rotonde met rotonde-bord en voorrang-verlenen-borden verleent wie oprijdt voorrang aan wie al op de rotonde rijdt.' },
     draw(s, sol) {
       ring(s, true);
       s.route('M311.5,362 A108,108 0 1 0 428,196 L430,40', col('rood'));
@@ -259,16 +259,16 @@ function ring(s, withSigns) {
   // verkeersplein zonder borden: gewone regels
   const vs2 = [V(1, 'auto 1 (op het plein)', 'rood', 311, 362, 145), V(2, 'auto 2 (komt van onder het plein op)', 'blauw', 430, 500, 0)];
   dual({
-    naam: 'schema-verkeersplein', title: 'Rond plein zonder D5 en zonder B1/B5',
-    desc: 'Bovenaanzicht van een rond plein (verkeersplein) zonder bord D5 in het midden en zonder voorrangsborden aan de toegangen. Auto 1 rijdt op het plein, auto 2 komt van onder het plein op. Er zijn geen borden of lichten.',
-    descUitleg: 'Zonder D5 en zonder B1/B5 is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.',
+    naam: 'schema-verkeersplein', title: 'Rond plein zonder rotonde-bord en zonder voorrangsborden',
+    desc: 'Bovenaanzicht van een rond plein (verkeersplein) zonder rotonde-bord in het midden en zonder voorrangsborden aan de toegangen. Auto 1 rijdt op het plein, auto 2 komt van onder het plein op. Er zijn geen borden of lichten.',
+    descUitleg: 'Zonder rotonde-bord en zonder voorrangsborden is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.',
     theorieblok: 'voorrang-rotonde-zonder-borden-verkeersplein', bronnen: ['VOOR-001', 'VOOR-007'], voertuigen: vs2,
     draw(s, sol) {
       ring(s, false);
       s.route('M311.5,362 A108,108 0 0 0 428,408', col('rood'));
       s.route('M430,470 L430,445', col('blauw'));
       vs2.forEach((v) => drawVeh(s, v));
-      s.titel('Plein zonder D5 en B1/B5', 'geen rotonde: voorrang van rechts, per toegang kijken');
+      s.titel('Plein zonder rotonde-bord en voorrangsborden', 'geen rotonde: voorrang van rechts, per toegang kijken');
     },
   });
 })();
@@ -276,8 +276,8 @@ function ring(s, withSigns) {
 // ---------------------------------------------------------------- voorrangsweg B9 / B11
 (function () {
   dual({
-    naam: 'schema-voorrangsweg-b9-b11', title: 'Voorrangsweg: B9 aan het begin, B11 aan het einde',
-    desc: 'Een rechte weg van onder naar boven. Onderaan staat bord B9 (voorrangsweg), daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat bord B11 (einde voorrangsweg). Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.',
+    naam: 'schema-voorrangsweg-b9-b11', title: 'Voorrangsweg: bord aan het begin, einde-bord aan het einde',
+    desc: 'Een rechte weg van onder naar boven. Onderaan staat het bord voorrangsweg, daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat het bord einde voorrangsweg. Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.',
     theorieblok: 'voorrang-voorrangsweg-b9-b11-b15', bronnen: ['VOOR-001', 'VOOR-002'],
     voertuigen: [V(1, 'auto op de voorrangsweg', 'rood', 450, 560, 0), V(2, 'auto uit de zijweg (onderste kruispunt)', 'blauw', 660, 420, 270), V(3, 'auto uit de zijweg (bovenste kruispunt)', 'geel', 660, 110, 270)],
     draw(s) {
@@ -289,10 +289,10 @@ function ring(s, withSigns) {
       s.route('M450,520 L450,25', col('rood')); s.route('M610,420 L45,420', col('blauw')); s.route('M610,110 L45,110', col('geel'));
       s.sign('B9', 505, 545, 60); s.sign('B11', 505, 280, 60);
       [V(1, '', 'rood', 450, 560, 0), V(2, '', 'blauw', 660, 420, 270), V(3, '', 'geel', 660, 110, 270)].forEach((v) => drawVeh(s, v));
-      s.label(150, 490, 'B9: hier begint\nde voorrangsweg', { size: 17, bg: '#f2c230', fg: C.ink });
-      s.label(150, 330, 'B11: de voorrangsweg\neindigt hier', { size: 17, bg: '#fff', fg: C.ink });
+      s.label(150, 490, 'Hier begint\nde voorrangsweg', { size: 17, bg: '#f2c230', fg: C.ink });
+      s.label(150, 330, 'De voorrangsweg\neindigt hier', { size: 17, bg: '#fff', fg: C.ink });
       s.label(150, 215, 'Hier geldt weer\nvoorrang van rechts', { size: 17, bg: '#1f9d55', fg: '#fff' });
-      s.titel('Voorrangsweg: B9 begin, B11 einde');
+      s.titel('Voorrangsweg: begin en einde');
     },
   });
 })();

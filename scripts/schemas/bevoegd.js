@@ -34,12 +34,12 @@ function mini(s, cx, cy) {
   register(s.finish({ theorieblok: 'bevoegde-personen-seinen', bronnen: ['LICH-001'] }));
 })();
 
-// ---- werfzeiger met schijf C3
+// ---- werfzeiger met schijf
 (function () {
-  const s = new Svg('schema-werfzeiger-schijf', 'Signaalgever of werfopzichter met schijf C3',
-    'Links een werfopzichter die een ronde schijf met verkeersbord C3 (verboden toegang) omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord C3 op de schijf betekent: stoppen.',
+  const s = new Svg('schema-werfzeiger-schijf', 'Signaalgever of werfopzichter met schijf (verboden toegang)',
+    'Links een werfopzichter die een ronde schijf met het verkeersbord verboden toegang omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord op de schijf betekent: stoppen.',
     { bg: BG });
-  s.titel('Schijf met bord C3: stoppen');
+  s.titel('Schijf met bord verboden toegang: stoppen');
   figure(s, 170, 500, 1.45, 'disc');
   s.line(246, 195, 246, 150, '#8d949e', 6);
   s.sign('C3', 246, 120, 110, { pole: false });
@@ -80,7 +80,7 @@ trap('schema-rangorde-voorrang', 'Rangorde: wie of wat bepaalt de voorrang?',
   'voorrang-rangorde', [
     { titel: 'Bevoegde persoon', sub: 'bv. politie: zijn bevel gaat voor alles', fill: '#2d57a8', icon: iconAgent },
     { titel: 'Verkeerslichten', sub: 'gaan voor de voorrangsborden op dezelfde weg', fill: '#1f9d55', icon: iconLicht },
-    { titel: 'Verkeersborden', sub: 'B1, B5, B9 ... gaan voor de gewone regels', fill: '#c27d00', icon: iconBord },
+    { titel: 'Verkeersborden', sub: 'voorrangsborden gaan voor de gewone regels', fill: '#c27d00', icon: iconBord },
     { titel: 'Algemene verkeersregels', sub: 'zonder licht of bord: voorrang van rechts', fill: '#6b7280', icon: iconRegel },
   ]);
 trap('schema-rangorde-lichten', 'Rangorde: bevoegde persoon, lichten, borden en regels',

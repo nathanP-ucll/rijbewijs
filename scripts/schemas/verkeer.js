@@ -29,7 +29,7 @@ function overweg(s, hoek) {
 }
 (function () {
   const s = new Svg('schema-overweg-lichten', 'Overweg met knipperende rode lichten en slagbomen',
-    'Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; bord A45 staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.',
+    'Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; het Andreaskruis staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.',
     {});
   overweg(s);
   // stoplijn en slagbomen
@@ -66,7 +66,7 @@ function overweg(s, hoek) {
 
 (function () {
   const s = new Svg('schema-busstrook-rechtsaf', 'Busstrook: rechtsaf slaan vlak voor het kruispunt',
-    'Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord F17 duidt de busstrook aan.',
+    'Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord busstrook duidt de busstrook aan.',
     {});
   s.rect(250, 0, 220, 600, C.road); s.rect(470, 190, 330, 80, C.road);
   s.line(360, 0, 360, 600, '#fff', 3, 'stroke-dasharray="16 14"');

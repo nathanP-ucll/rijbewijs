@@ -234,8 +234,8 @@ mk('schema-parkeren-berm', 'Parkeren op de berm: 1,50 m doorgang voor voetganger
   for (const sol of [true, false]) {
     const naam = sol ? 'schema-oprit-snelweg' : 'schema-oprit-snelweg-oefening';
     const s = new Svg(naam, 'Oprit van de autosnelweg: voorrang verlenen' + (sol ? '' : ' (oefening)'),
-      sol ? 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord B1 aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.'
-        : 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met bord B1 aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.');
+      sol ? 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.'
+        : 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.');
     s.rect(660, 0, 70, 600, '#6a707a');
     s.rect(400, 0, 260, 600, C.road); s.line(530, 0, 530, 600, '#fff', 3, 'stroke-dasharray="16 14"'); s.line(660, 0, 660, 600, '#fff', 3);
     s.add(`<path d="M230,640 Q330,400 590,170" fill="none" stroke="${C.road}" stroke-width="92" stroke-linecap="butt"/>`);
@@ -329,7 +329,7 @@ mk('schema-dode-hoek', 'Dode hoek van een vrachtwagen',
 
 // ---- fietszone
 mk('schema-fietszone', 'Fietszone: fietsers voorop, 30 km/u, niet inhalen',
-  'Een straat met twee rijrichtingen waar het begin van een fietszone met bord F111 is aangeduid en de snelheid beperkt is tot 30 km/u (bord C43). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.',
+  'Een straat met twee rijrichtingen waar het begin van een fietszone met een bord is aangeduid en de snelheid beperkt is tot 30 km/u (snelheidsbord). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.',
   'fietszone-fietsstraat', ['KWET-001'], (s) => {
     s.titel('Fietszone: motorvoertuigen halen fietsers niet in');
     s.rect(250, 0, 300, 600, C.road); s.line(400, 0, 400, 600, '#fff', 3, 'stroke-dasharray="16 14"');
@@ -344,7 +344,7 @@ mk('schema-fietszone', 'Fietszone: fietsers voorop, 30 km/u, niet inhalen',
 
 // ---- zebrapad
 mk('schema-zebrapad', 'Zebrapad: voorrang verlenen aan voetgangers',
-  'Een zebrapad over een straat met borden F49 en A21. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.',
+  'Een zebrapad over een straat met de borden oversteekplaats voor voetgangers. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.',
   'zebrapad-voorrang-bestuurder', ['KWET-001'], (s) => {
     s.titel('Zebrapad: matig naderen, voorrang verlenen');
     s.rect(0, 220, 800, 160, C.road); s.line(0, 300, 800, 300, '#fff', 3, 'stroke-dasharray="16 14"');

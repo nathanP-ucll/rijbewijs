@@ -598,3 +598,39 @@ body[data-page="les"]::before { content: ""; position: fixed; left: 0; right: 0;
   .seq-item.lifted { transform: none; }
 }
 @keyframes fade { from { opacity: 0; } to { opacity: 1; } }
+
+/* compacter, zodat een pagina op 1440x900 past */
+.reader { padding-top: clamp(10px, 1.6vw, 20px); }
+.kopband { padding: .35rem 1rem; margin-bottom: .6rem; font-size: 1rem; } .kopband-ic { width: 32px; height: 32px; }
+.page-title { font-size: clamp(1.8rem, 3.3vw, 2.6rem); margin-bottom: .15em; }
+.lead-sent { font-size: clamp(1.15rem, 1.7vw, 1.4rem); margin-bottom: .9rem; }
+.blocks { gap: 16px; }
+.b-punten { padding: 1rem 1.3rem; } .big-list { gap: .6rem; } .big-list li { font-size: clamp(1.15rem, 1.6vw, 1.45rem); line-height: 1.3; } .big-list li::before { top: .4em; width: .85rem; height: .85rem; }
+.steps-list li { font-size: clamp(1.1rem, 1.6vw, 1.4rem); min-height: 2.6rem; padding-left: 3.4rem; } .steps-list li::before { width: 2.5rem; height: 2.5rem; font-size: 1.3rem; }
+.kader { padding: .85rem 1.2rem; } .kader-icon { width: 52px; height: 52px; } .kader-text { font-size: clamp(1.15rem, 1.6vw, 1.4rem); } .kader-label { font-size: 1rem; margin-bottom: .1rem; }
+.schema-blok { padding: .9rem; gap: 20px; } .schema-img { max-height: 310px; } .schema-fig { padding: 10px; }
+.voorbeeld { padding: .9rem 1.2rem; align-items: center; } .voorbeeld-ic { width: 50px; height: 50px; } .voorbeeld-t { font-size: clamp(1.1rem, 1.5vw, 1.35rem); line-height: 1.35; }
+.onthoud { padding: .7rem 1.2rem; margin-top: 1rem; } .onthoud-list li { font-size: 1.15rem; } .onthoud-head { margin-bottom: .1rem; }
+.bkaart { padding: .9rem 1.1rem; grid-template-columns: 140px minmax(0, 1fr); } .bkaart-media { height: 130px; } .bkaart-img { max-height: 112px; } .bkaart-title { font-size: 1.2rem; } .bkaart-text { font-size: 1.05rem; }
+.kg-3 .bkaart-media { height: 150px; } .kg-3 .bkaart-img { max-height: 130px; }
+.vcol-media { height: 170px; } .vcol-img { max-height: 148px; } .vkaart { padding: 1rem 1.3rem; } .vkaart-diff { font-size: 1.2rem; margin-top: .9rem; padding: .7rem 1rem; } .vcol figcaption { font-size: 1.05rem; margin-top: .4rem; }
+.tbl-book { font-size: clamp(1rem, 1.3vw, 1.15rem); } .tbl-book th, .tbl-book td { padding: .55rem .9rem; } .tbl-book thead th { padding: .6rem .9rem; }
+.mini-ex { margin-top: 1.1rem; padding: .9rem 1.2rem 1.1rem; } .mini-title { font-size: 1.35rem; } .mini-ic { width: 38px; height: 38px; }
+.opener-hero { padding: clamp(1.1rem, 2.4vw, 2rem); } .opener-n { font-size: clamp(5rem, 10vw, 8rem); } .opener-hero .page-title { font-size: clamp(2rem, 4vw, 3.2rem); } .opener-intro { font-size: clamp(1.1rem, 1.6vw, 1.4rem); } .goal-list li { font-size: 1.15rem; } .par-list a { font-size: 1.15rem; padding: .25rem .4rem; } .opener-card { padding: 1rem 1.3rem; } .opener-two { margin-top: 16px; gap: 16px; } .par-list, .goal-list { gap: .5rem; }
+.sum-grid li { font-size: 1.2rem; padding: .8rem 1.1rem; } .sum-n { width: 2.4rem; height: 2.4rem; }
+
+/* visuele vragen */
+.opts-cards { display: grid; gap: 14px; } .opts-cards.cols-2 { grid-template-columns: repeat(2, minmax(0, 1fr)); } .opts-cards.cols-3 { grid-template-columns: repeat(3, minmax(0, 1fr)); }
+@media (max-width: 560px) { .opts-cards.cols-3 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.opt-card { flex-direction: column; align-items: center; text-align: center; padding: .8rem; gap: .5rem; position: relative; border-radius: 18px; }
+.opt-card .opt-mark { position: absolute; top: 10px; left: 10px; z-index: 1; }
+.opt-media { background: #fff; border-radius: 12px; width: 100%; display: grid; place-items: center; padding: 10px; min-height: 140px; border: 1px solid var(--line); }
+.opt-img { max-height: 150px; max-width: 100%; width: auto; object-fit: contain; }
+.ex-big .opt-img, .slide-oef .opt-img { max-height: 190px; } .ex-big .opt-media { min-height: 180px; }
+.opt-card .opt-text { font-size: 1.15rem; font-weight: 700; }
+.ex-figs { display: flex; gap: 16px; flex-wrap: wrap; margin-bottom: 1rem; } .ex-figs .fig-ex { max-width: none; margin: 0; }
+.ex-figs.figs-1 .fig-ex img { max-height: 280px; } .ex-figs.figs-2 .fig-ex img, .ex-figs.figs-3 .fig-ex img { max-height: 200px; }
+.ex-big .fig-ex img { max-height: 340px; background: #fff; }
+.ex-feedback.fb-visual { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1rem; align-items: center; }
+.fb-fig { margin: 0; background: #fff; border-radius: 14px; padding: 10px; border: 2px solid var(--ok); } .fb-fig img { max-height: 150px; max-width: 220px; display: block; }
+@media (max-width: 560px) { .ex-feedback.fb-visual { grid-template-columns: 1fr; } }

@@ -166,11 +166,11 @@
  {
   "naam": "schema-b1-b5-kruispunt",
   "bestand": "img/schemas/schema-b1-b5-kruispunt.svg",
-  "titel": "Voorrangsborden B1 en B5 op een kruispunt",
-  "beschrijving": "Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto's, ook al komt auto 2 van rechts. Auto 2 (B1) moet voorrang verlenen. Auto 3 (B5) moet eerst volledig stoppen en voorrang verlenen.",
+  "titel": "Voorrang verlenen en stopbord op een kruispunt",
+  "beschrijving": "Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto's, ook al komt auto 2 van rechts. Auto 2 (bord voorrang verlenen) moet voorrang verlenen. Auto 3 (stopbord) moet eerst volledig stoppen en voorrang verlenen.",
   "borden": [
-   "B1",
-   "B5"
+   "",
+   "Stoppen en voorrang verlenen (STOP)"
   ],
   "theorieblok": "voorrang-borden-b1-b5",
   "voertuigen": [
@@ -183,14 +183,14 @@
    },
    {
     "nr": 2,
-    "label": "auto 2 (van rechts, B1)",
+    "label": "auto 2 (van rechts, voorrang verlenen)",
     "kleur": "blauw",
     "x": 82.5,
     "y": 45
    },
    {
     "nr": 3,
-    "label": "auto 3 (van links, B5)",
+    "label": "auto 3 (van links, stopbord)",
     "kleur": "geel",
     "x": 17.5,
     "y": 55
@@ -207,7 +207,7 @@
     2,
     3
    ],
-   "motivatie": "Auto 2 en auto 3 hebben een B1 (voorrang verlenen) en een B5 (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
+   "motivatie": "Auto 2 en auto 3 hebben het bord voorrang verlenen en het stopbord (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
   },
   "type": "uitleg",
   "partner": "schema-b1-b5-kruispunt-oefening"
@@ -215,11 +215,11 @@
  {
   "naam": "schema-b1-b5-kruispunt-oefening",
   "bestand": "img/schemas/schema-b1-b5-kruispunt-oefening.svg",
-  "titel": "Voorrangsborden B1 en B5 op een kruispunt (oefening)",
-  "beschrijving": "Kruispunt met drie auto's. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft bord B1 (voorrang verlenen) aan zijn kant. Auto 3 komt van links en heeft bord B5 (stop) aan zijn kant met een stopstreep. Alle auto's rijden rechtdoor.",
+  "titel": "Kruispunt met voorrangsborden (oefening)",
+  "beschrijving": "Kruispunt met drie auto's. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft het bord voorrang verlenen aan zijn kant. Auto 3 komt van links en heeft het stopbord aan zijn kant met een stopstreep. Alle auto's rijden rechtdoor.",
   "borden": [
-   "B1",
-   "B5"
+   "",
+   "Stoppen en voorrang verlenen (STOP)"
   ],
   "theorieblok": "voorrang-borden-b1-b5",
   "voertuigen": [
@@ -232,14 +232,14 @@
    },
    {
     "nr": 2,
-    "label": "auto 2 (van rechts, B1)",
+    "label": "auto 2 (van rechts, voorrang verlenen)",
     "kleur": "blauw",
     "x": 82.5,
     "y": 45
    },
    {
     "nr": 3,
-    "label": "auto 3 (van links, B5)",
+    "label": "auto 3 (van links, stopbord)",
     "kleur": "geel",
     "x": 17.5,
     "y": 55
@@ -256,7 +256,7 @@
     2,
     3
    ],
-   "motivatie": "Auto 2 en auto 3 hebben een B1 (voorrang verlenen) en een B5 (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
+   "motivatie": "Auto 2 en auto 3 hebben het bord voorrang verlenen en het stopbord (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
   },
   "type": "oefening",
   "partner": "schema-b1-b5-kruispunt"
@@ -314,9 +314,9 @@
   "naam": "schema-busstrook-rechtsaf",
   "bestand": "img/schemas/schema-busstrook-rechtsaf.svg",
   "titel": "Busstrook: rechtsaf slaan vlak voor het kruispunt",
-  "beschrijving": "Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord F17 duidt de busstrook aan.",
+  "beschrijving": "Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord busstrook duidt de busstrook aan.",
   "borden": [
-   "F17"
+   ""
   ],
   "theorieblok": "openbaar-busstrook-afslaan",
   "bronnen": [
@@ -338,10 +338,10 @@
   "naam": "schema-fietszone",
   "bestand": "img/schemas/schema-fietszone.svg",
   "titel": "Fietszone: fietsers voorop, 30 km/u, niet inhalen",
-  "beschrijving": "Een straat met twee rijrichtingen waar het begin van een fietszone met bord F111 is aangeduid en de snelheid beperkt is tot 30 km/u (bord C43). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.",
+  "beschrijving": "Een straat met twee rijrichtingen waar het begin van een fietszone met een bord is aangeduid en de snelheid beperkt is tot 30 km/u (snelheidsbord). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.",
   "borden": [
-   "F111",
-   "C43_30"
+   "",
+   ""
   ],
   "theorieblok": "fietszone-fietsstraat",
   "bronnen": [
@@ -430,10 +430,10 @@
   "naam": "schema-lichten-knipperoranje",
   "bestand": "img/schemas/schema-lichten-knipperoranje.svg",
   "titel": "Knipperend oranje: dubbel voorzichtig, voorrang blijft",
-  "beschrijving": "Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden B1 en B9 met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.",
+  "beschrijving": "Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden voorrang verlenen en voorrangsweg met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.",
   "borden": [
-   "B1",
-   "B9"
+   "",
+   ""
   ],
   "theorieblok": "lichten-oranje-knipperlicht",
   "bronnen": [
@@ -578,9 +578,9 @@
   "naam": "schema-oprit-snelweg",
   "bestand": "img/schemas/schema-oprit-snelweg.svg",
   "titel": "Oprit van de autosnelweg: voorrang verlenen",
-  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord B1 aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.",
   "borden": [
-   "B1"
+   ""
   ],
   "theorieblok": "snelweg-op-en-afrit",
   "bronnen": [
@@ -616,9 +616,9 @@
   "naam": "schema-oprit-snelweg-oefening",
   "bestand": "img/schemas/schema-oprit-snelweg-oefening.svg",
   "titel": "Oprit van de autosnelweg: voorrang verlenen (oefening)",
-  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met bord B1 aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.",
   "borden": [
-   "B1"
+   ""
   ],
   "theorieblok": "snelweg-op-en-afrit",
   "bronnen": [
@@ -696,9 +696,9 @@
   "naam": "schema-overweg-lichten",
   "bestand": "img/schemas/schema-overweg-lichten.svg",
   "titel": "Overweg met knipperende rode lichten en slagbomen",
-  "beschrijving": "Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; bord A45 staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.",
+  "beschrijving": "Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; het Andreaskruis staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.",
   "borden": [
-   "A45"
+   "Overweg voor enkel spoor (Andreaskruis)"
   ],
   "theorieblok": "openbaar-overweg-signalisatie",
   "bronnen": [
@@ -779,7 +779,7 @@
   "titel": "Rangorde: wie of wat bepaalt de voorrang?",
   "beschrijving": "Een trap met vier treden van boven naar onder: 1 bevoegde persoon, 2 verkeerslichten, 3 verkeersborden, 4 algemene verkeersregels (voorrang van rechts). Wat hoger staat, gaat voor wat lager staat.",
   "borden": [
-   "B1"
+   ""
   ],
   "theorieblok": "voorrang-rangorde",
   "bronnen": [
@@ -824,11 +824,11 @@
  {
   "naam": "schema-rotonde",
   "bestand": "img/schemas/schema-rotonde.svg",
-  "titel": "Rotonde met D5 en B1: wie op de rotonde rijdt, heeft voorrang",
-  "beschrijving": "Met D5 en B1 aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.",
+  "titel": "Rotonde: wie op de rotonde rijdt, heeft voorrang",
+  "beschrijving": "Met het rotonde-bord en het bord voorrang verlenen aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.",
   "borden": [
-   "D5",
-   "B1"
+   "Verplicht rondgaand verkeer (rotonde)",
+   ""
   ],
   "theorieblok": "voorrang-rotonde",
   "voertuigen": [
@@ -857,7 +857,7 @@
    "moetWachten": [
     2
    ],
-   "motivatie": "Bij een rotonde met D5 en B1 verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
+   "motivatie": "Bij een rotonde met rotonde-bord en voorrang-verlenen-borden verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
   },
   "type": "uitleg",
   "partner": "schema-rotonde-oefening"
@@ -865,11 +865,11 @@
  {
   "naam": "schema-rotonde-oefening",
   "bestand": "img/schemas/schema-rotonde-oefening.svg",
-  "titel": "Rotonde met D5 en B1: wie op de rotonde rijdt, heeft voorrang (oefening)",
-  "beschrijving": "Bovenaanzicht van een rotonde met bord D5 op het middeneiland en bord B1 (voorrang verlenen) aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.",
+  "titel": "Rotonde met voorrangsborden (oefening)",
+  "beschrijving": "Bovenaanzicht van een rotonde met het rotonde-bord op het middeneiland en het bord voorrang verlenen aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.",
   "borden": [
-   "D5",
-   "B1"
+   "Verplicht rondgaand verkeer (rotonde)",
+   ""
   ],
   "theorieblok": "voorrang-rotonde",
   "voertuigen": [
@@ -898,7 +898,7 @@
    "moetWachten": [
     2
    ],
-   "motivatie": "Bij een rotonde met D5 en B1 verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
+   "motivatie": "Bij een rotonde met rotonde-bord en voorrang-verlenen-borden verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
   },
   "type": "oefening",
   "partner": "schema-rotonde"
@@ -991,10 +991,10 @@
  {
   "naam": "schema-t-kruispunt-b1",
   "bestand": "img/schemas/schema-t-kruispunt-b1.svg",
-  "titel": "T-kruispunt met B1 op de zijtak",
-  "beschrijving": "Met B1 op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.",
+  "titel": "T-kruispunt met bord voorrang verlenen op de zijtak",
+  "beschrijving": "Met het bord voorrang verlenen op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.",
   "borden": [
-   "B1"
+   ""
   ],
   "theorieblok": "voorrang-t-kruispunt",
   "voertuigen": [
@@ -1029,7 +1029,7 @@
    "moetWachten": [
     1
    ],
-   "motivatie": "Het bord B1 staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
+   "motivatie": "Het bord voorrang verlenen staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
   },
   "type": "uitleg",
   "partner": "schema-t-kruispunt-b1-oefening"
@@ -1037,10 +1037,10 @@
  {
   "naam": "schema-t-kruispunt-b1-oefening",
   "bestand": "img/schemas/schema-t-kruispunt-b1-oefening.svg",
-  "titel": "T-kruispunt met B1 op de zijtak (oefening)",
-  "beschrijving": "T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat bord B1 (voorrang verlenen) met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.",
+  "titel": "T-kruispunt met bord voorrang verlenen op de zijtak (oefening)",
+  "beschrijving": "T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat het bord voorrang verlenen met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.",
   "borden": [
-   "B1"
+   ""
   ],
   "theorieblok": "voorrang-t-kruispunt",
   "voertuigen": [
@@ -1075,7 +1075,7 @@
    "moetWachten": [
     1
    ],
-   "motivatie": "Het bord B1 staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
+   "motivatie": "Het bord voorrang verlenen staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
   },
   "type": "oefening",
   "partner": "schema-t-kruispunt-b1"
@@ -1354,8 +1354,8 @@
  {
   "naam": "schema-verkeersplein",
   "bestand": "img/schemas/schema-verkeersplein.svg",
-  "titel": "Rond plein zonder D5 en zonder B1/B5",
-  "beschrijving": "Zonder D5 en zonder B1/B5 is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.",
+  "titel": "Rond plein zonder rotonde-bord en zonder voorrangsborden",
+  "beschrijving": "Zonder rotonde-bord en zonder voorrangsborden is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.",
   "borden": [],
   "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
   "voertuigen": [
@@ -1507,11 +1507,11 @@
  {
   "naam": "schema-voorrangsweg-b9-b11",
   "bestand": "img/schemas/schema-voorrangsweg-b9-b11.svg",
-  "titel": "Voorrangsweg: B9 aan het begin, B11 aan het einde",
-  "beschrijving": "Een rechte weg van onder naar boven. Onderaan staat bord B9 (voorrangsweg), daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat bord B11 (einde voorrangsweg). Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.",
+  "titel": "Voorrangsweg: bord aan het begin, einde-bord aan het einde",
+  "beschrijving": "Een rechte weg van onder naar boven. Onderaan staat het bord voorrangsweg, daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat het bord einde voorrangsweg. Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.",
   "borden": [
-   "B9",
-   "B11"
+   "",
+   ""
   ],
   "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
   "voertuigen": [
@@ -1545,10 +1545,10 @@
  {
   "naam": "schema-werfzeiger-schijf",
   "bestand": "img/schemas/schema-werfzeiger-schijf.svg",
-  "titel": "Signaalgever of werfopzichter met schijf C3",
-  "beschrijving": "Links een werfopzichter die een ronde schijf met verkeersbord C3 (verboden toegang) omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord C3 op de schijf betekent: stoppen.",
+  "titel": "Signaalgever of werfopzichter met schijf (verboden toegang)",
+  "beschrijving": "Links een werfopzichter die een ronde schijf met het verkeersbord verboden toegang omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord op de schijf betekent: stoppen.",
   "borden": [
-   "C3"
+   ""
   ],
   "theorieblok": "bevoegde-personen-signaalgevers-werf",
   "bronnen": [
@@ -1559,10 +1559,10 @@
   "naam": "schema-zebrapad",
   "bestand": "img/schemas/schema-zebrapad.svg",
   "titel": "Zebrapad: voorrang verlenen aan voetgangers",
-  "beschrijving": "Een zebrapad over een straat met borden F49 en A21. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.",
+  "beschrijving": "Een zebrapad over een straat met de borden oversteekplaats voor voetgangers. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.",
   "borden": [
-   "F49",
-   "A21"
+   "",
+   ""
   ],
   "theorieblok": "zebrapad-voorrang-bestuurder",
   "bronnen": [

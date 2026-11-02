@@ -64,10 +64,15 @@
   Types.meerkeuze = function (ex) {
     var multi = !!ex.meerdere || ex.correct.length > 1;
     var name = App.uid('mk');
-    var wrap = el('div', { class: 'opts', role: multi ? 'group' : 'radiogroup', 'aria-label': multi ? 'Kies alle juiste antwoorden' : 'Kies één antwoord' });
+    var cards = Array.isArray(ex.optiesAfb) && ex.optiesAfb.some(function (x) { return x && App.imgInfo(x); });
+    var wrap = el('div', { class: 'opts' + (cards ? ' opts-cards cols-' + (ex.opties.length <= 4 ? 2 : 3) : ''), role: multi ? 'group' : 'radiogroup', 'aria-label': multi ? 'Kies alle juiste antwoorden' : 'Kies één antwoord' });
     var rows = ex.opties.map(function (o, i) {
       var inp = el('input', { type: multi ? 'checkbox' : 'radio', name: name, value: i });
-      var lab = el('label', { class: 'opt' }, inp, el('span', { class: 'opt-mark', 'aria-hidden': 'true' }), el('span', { class: 'opt-text', html: App.inline(o) }));
+      var afbName = cards ? ex.optiesAfb[i] : null;
+      var afbEl = afbName ? App.img(afbName, { alt: o || 'Afbeelding bij antwoord ' + (i + 1), class: 'opt-img' }) : null;
+      var lab = cards
+        ? el('label', { class: 'opt opt-card' }, inp, el('span', { class: 'opt-mark', 'aria-hidden': 'true' }), afbEl ? el('span', { class: 'opt-media' }, afbEl) : null, o ? el('span', { class: 'opt-text', html: App.inline(o) }) : null)
+        : el('label', { class: 'opt' }, inp, el('span', { class: 'opt-mark', 'aria-hidden': 'true' }), el('span', { class: 'opt-text', html: App.inline(o) }));
       wrap.appendChild(lab);
       return { inp: inp, lab: lab };
     });
@@ -733,10 +738,10 @@
   function question(ex) {
     var q = el('div', { class: 'ex-q' });
     if (ex.vraag) q.appendChild(el('p', { class: 'ex-vraag', html: App.inline(ex.vraag) }));
-    if (ex.afbeelding && !SELF_IMG[ex.type]) {
-      var f = App.figure(ex.afbeelding, { caption: false, alt: 'Afbeelding bij de vraag', class: 'fig-ex' });
-      if (f) q.appendChild(f);
-    }
+    var names = (Array.isArray(ex.afbeeldingen) && ex.afbeeldingen.length) ? ex.afbeeldingen : (ex.afbeelding && !SELF_IMG[ex.type] ? [ex.afbeelding] : []);
+    if (SELF_IMG[ex.type] && !(Array.isArray(ex.afbeeldingen) && ex.afbeeldingen.length)) names = [];
+    var figs = names.map(function (nm) { return App.figure(nm, { caption: false, alt: 'Afbeelding bij de vraag', class: 'fig-ex' }); }).filter(Boolean);
+    if (figs.length) q.appendChild(el('div', { class: 'ex-figs figs-' + Math.min(figs.length, 3) }, figs));
     return q;
   }
 
@@ -766,11 +771,25 @@
     var art = el('article', { class: 'ex ex-' + ex.type + (opts.mini ? ' ex-mini' : ''), 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
     var done = false;
 
-    function feedback(kind, title, extra) {
+    function visualFor() {
+      var nm = null;
+      if (Array.isArray(ex.optiesAfb) && ex.correct && ex.correct.length) nm = ex.optiesAfb[ex.correct[0]];
+      if (!nm && ex.afbeelding && !SELF_IMG[ex.type]) nm = ex.afbeelding;
+      return nm && App.imgInfo(nm) ? nm : null;
+    }
+    function feedback(kind, title, extra, withVisual) {
       fb.className = 'ex-feedback fb-' + kind;
       fb.innerHTML = '';
-      fb.appendChild(el('strong', { class: 'fb-title' }, title));
-      if (extra) fb.appendChild(el('p', { html: App.inline(extra) }));
+      var txt = el('div', { class: 'fb-text' }, el('strong', { class: 'fb-title' }, title));
+      if (extra) txt.appendChild(el('p', { html: App.inline(extra) }));
+      var vis = withVisual ? visualFor() : null;
+      if (vis) {
+        var fg = App.figure(vis, { caption: false, alt: 'Het juiste beeld', class: 'fb-fig' });
+        fb.classList.add('fb-visual');
+        if (fg) { fb.appendChild(fg); }
+      }
+      fb.appendChild(txt);
+      fb.firstTitle = txt.firstChild;
     }
     function check() {
       if (!ctrl.answered()) { feedback('info', 'Beantwoord eerst de vraag.'); return; }
@@ -780,9 +799,9 @@
       done = true;
       art.classList.toggle('is-correct', ok); art.classList.toggle('is-incorrect', !ok);
       App.streak = ok ? (App.streak || 0) + 1 : 0;
-      feedback(ok ? 'ok' : 'bad', ok ? 'Juist!' : 'Niet juist.', ex.uitleg);
+      feedback(ok ? 'ok' : 'bad', ok ? 'Juist!' : 'Niet juist.', ex.uitleg, !ok);
       if (ok) {
-        if (App.streak >= 2) fb.firstChild.appendChild(el('span', { class: 'streak', html: App.icon('flame', 14) + ' ' + App.streak + ' op rij' }));
+        if (App.streak >= 2) fb.firstTitle.appendChild(el('span', { class: 'streak', html: App.icon('flame', 14) + ' ' + App.streak + ' op rij' }));
         confetti(art);
       }
       bCheck.hidden = true; bRetry.hidden = ok; bShow.hidden = ok;
@@ -799,7 +818,7 @@
     bShow.addEventListener('click', function () {
       ctrl.reset(); ctrl.lock(false); ctrl.showCorrect(); ctrl.lock(true);
       art.classList.remove('is-incorrect'); art.classList.add('is-shown');
-      feedback('info', 'Dit is het juiste antwoord.', ex.uitleg);
+      feedback('info', 'Dit is het juiste antwoord.', ex.uitleg, true);
       bShow.hidden = true; bRetry.hidden = false;
     });
     art.appendChild(head(ex, opts.nr, opts.nolink ? null : (App.C.exLoc && App.C.exLoc[ex.id])));
@@ -810,7 +829,7 @@
     container.appendChild(art);
     if (opts.review) { // direct het juiste antwoord tonen
       ctrl.showCorrect(); ctrl.lock(true); bCheck.hidden = true; art.classList.add('is-shown');
-      feedback('info', 'Juiste antwoord', ex.uitleg);
+      feedback('info', 'Juiste antwoord', ex.uitleg, true);
     }
     return { ctrl: ctrl, el: art, isDone: function () { return done; } };
   };
@@ -818,7 +837,7 @@
   /** Toetsmodus: geen feedback, geen knoppen. */
   App.mountForTest = function (ex, container, nr) {
     var ctrl = build(ex);
-    var art = el('article', { class: 'ex ex-test ex-' + ex.type, 'data-id': ex.id });
+    var art = el('article', { class: 'ex ex-test ex-big ex-' + ex.type, 'data-id': ex.id });
     art.appendChild(head(ex, nr));
     art.appendChild(question(ex));
     art.appendChild(el('div', { class: 'ex-body' }, ctrl.el));
