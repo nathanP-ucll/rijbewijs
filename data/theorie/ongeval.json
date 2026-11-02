@@ -6,6 +6,8 @@
       "id": "ongeval-stappenplan",
       "curriculum": ["T34"],
       "titel": "Stappenplan bij een ongeval",
+      "titelKort": "Stappenplan ongeval",
+      "kort": ["1. Beveilig de plaats","2. Breng mensen in veiligheid","3. Alarmeer 112","4. Verleen eerste hulp","5. Blijf ter plaatse"],
       "uitleg": "Bij een ongeval ga je rustig en in vaste volgorde te werk. Eerst zorg je dat er niet nog meer slachtoffers vallen, daarna roep je hulp en pas dan help je zelf verder.\n\n- **1. Beveilig de plaats**: zet je voertuig veilig (of gebruik het om het naderend verkeer af te schermen), schakel de alarmlichten in, draag een fluohesje en plaats indien nodig de gevarendriehoek.\n- **2. Breng mensen in veiligheid**: laat passagiers en omstanders uit de gevarenzone gaan, bijvoorbeeld achter de vangrail.\n- **3. Alarmeer**: bel 112 (bij gewonden) en geef de juiste gegevens door.\n- **4. Verleen eerste hulp**: volg de vier stappen van het Rode Kruis (zie de EHBO-blokken verderop).\n- **5. Blijf ter plaatse**: wacht op de hulpdiensten en de politie. Pas bij enkel stoffelijke schade vul je samen met de andere partij het aanrijdingsformulier in.",
       "regels": [
         { "stap": "1. Beveiligen", "wat": "Alarmlichten, fluohesje, gevarendriehoek, gevarenzone vrijmaken" },
@@ -14,9 +16,9 @@
         { "stap": "4. Blijven", "wat": "Ter plaatse blijven en gegevens uitwisselen" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Maatregelen voor veiligheid zijn een plicht", "tekst": "Iedereen die bij een ongeval betrokken is, moet de nodige maatregelen nemen om de veiligheid en vlotheid van het verkeer te verzekeren (art. 52.1 wegcode)." },
-        { "type": "letop", "titel": "Voertuig niet verplaatsen bij gewonden", "tekst": "Is er lichamelijk letsel, dan mag je het voertuig niet verplaatsen. Pas bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer." },
-        { "type": "tip", "titel": "Zwaargewonden", "tekst": "Verplaats zwaargewonden niet, tenzij er brand- of ontploffingsgevaar is. Geef slachtoffers niets te eten of te drinken." }
+        { "type": "regel", "titel": "Maatregelen voor veiligheid zijn een plicht", "tekst": "Iedereen die bij een ongeval betrokken is, moet de nodige maatregelen nemen om de veiligheid en vlotheid van het verkeer te verzekeren (art. 52.1 wegcode).", "kort": "Iedereen die betrokken is, zorgt voor veiligheid en vlotheid van het verkeer." },
+        { "type": "letop", "titel": "Voertuig niet verplaatsen bij gewonden", "tekst": "Is er lichamelijk letsel, dan mag je het voertuig niet verplaatsen. Pas bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer.", "kort": "Gewonden: voertuig niet verplaatsen. Enkel blikschade: uit het verkeer halen." },
+        { "type": "tip", "titel": "Zwaargewonden", "tekst": "Verplaats zwaargewonden niet, tenzij er brand- of ontploffingsgevaar is. Geef slachtoffers niets te eten of te drinken.", "kort": "Zwaargewonden niet verplaatsen, tenzij brand- of ontploffingsgevaar; niets te eten of drinken geven." }
       ],
       "uitzonderingen": ["Bij brand- of ontploffingsgevaar mag je een zwaargewonde wel uit de gevarenzone brengen."],
       "afbeeldingen": ["schema-ongeval-stappenplan"],
@@ -26,6 +28,8 @@
       "id": "ongeval-gevarendriehoek",
       "curriculum": ["T34"],
       "titel": "De gevarendriehoek: wanneer en op welke afstand",
+      "titelKort": "Gevarendriehoek",
+      "kort": ["Plaatsen als je auto niet weg kan","Of waar stilstaan verboden is","Rechtop vóór het voertuig","Gewone weg: 30 m","Autosnelweg: 100 m"],
       "uitleg": "De gevarendriehoek waarschuwt het naderend verkeer voor een voertuig of hindernis. Je moet hem plaatsen als je auto niet verplaatst kan worden, of enkel kan staan op een plaats waar stilstaan en parkeren verboden is. Je zet hem ongeveer rechtop **vóór** het voertuig, in de richting waaruit het verkeer komt, zodat naderende bestuurders hem van op ongeveer 50 meter zien.",
       "regels": [
         { "wegtype": "Gewone weg", "minimale afstand": "30 meter" },
@@ -33,9 +37,9 @@
         { "wegtype": "Bebouwde kom, waar 30 m niet kan", "minimale afstand": "Kleinere afstand, eventueel op het voertuig zelf" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Ook bij defecte lichten", "tekst": "Een auto of aanhangwagen met defecte verlichting of signalisatie die niet duidelijk zichtbaar is van op ongeveer 100 meter, moet op dezelfde manier gesignaleerd worden." },
-        { "type": "tip", "titel": "Geheugensteun", "tekst": "30 op de gewone weg, 100 op de autosnelweg: op de snelweg rijdt het verkeer harder en heeft het meer afstand nodig om te reageren." },
-        { "type": "letop", "titel": "Nieuwe wegcode vanaf 1 juni 2027", "tekst": "Volgens de nieuwe wegcode is de driehoek niet meer altijd verplicht: eerst alle alarmlichten, en enkel als dat niet kan nog een driehoek (100 m op autosnelwegen). Tot 1 juni 2027 gelden de huidige regels die je hier leert." }
+        { "type": "regel", "titel": "Ook bij defecte lichten", "tekst": "Een auto of aanhangwagen met defecte verlichting of signalisatie die niet duidelijk zichtbaar is van op ongeveer 100 meter, moet op dezelfde manier gesignaleerd worden.", "kort": "Ook bij defecte lichten die niet zichtbaar zijn van ongeveer 100 m." },
+        { "type": "tip", "titel": "Geheugensteun", "tekst": "30 op de gewone weg, 100 op de autosnelweg: op de snelweg rijdt het verkeer harder en heeft het meer afstand nodig om te reageren.", "kort": "30 op de gewone weg, 100 op de autosnelweg." },
+        { "type": "letop", "titel": "Nieuwe wegcode vanaf 1 juni 2027", "tekst": "Volgens de nieuwe wegcode is de driehoek niet meer altijd verplicht: eerst alle alarmlichten, en enkel als dat niet kan nog een driehoek (100 m op autosnelwegen). Tot 1 juni 2027 gelden de huidige regels die je hier leert.", "kort": "Vanaf 1 juni 2027: eerst alarmlichten, driehoek enkel als dat niet kan." }
       ],
       "uitzonderingen": ["Binnen de bebouwde kom, op plaatsen waar 30 meter niet haalbaar is, mag de driehoek dichterbij of op het voertuig staan."],
       "afbeeldingen": ["schema-gevarendriehoek-afstand"],
@@ -45,10 +49,12 @@
       "id": "ongeval-alarmlichten-hesje",
       "curriculum": ["T34"],
       "titel": "Alarmlichten en fluohesje",
+      "titelKort": "Alarmlichten en hesje",
+      "kort": ["Alarmlichten: alle richtingaanwijzers tegelijk","Ze vervangen de gevarendriehoek niet","Snelweg of autoweg: fluohesje verplicht","Hesje aan voor je uitstapt"],
       "uitleg": "Naast de gevarendriehoek kan je het voertuig ook signaleren met andere middelen: je mag alle richtingaanwijzers tegelijk laten knipperen (alarmlichten) of een draagbaar oranjegeel knipperlicht plaatsen. De alarmlichten vervangen de gevarendriehoek in de huidige wegcode niet: ze komen er bovenop.\n\nOp een autosnelweg of autoweg, op een plek waar je niet mag stilstaan of parkeren, moet de bestuurder van een pechvoertuig een **retro-reflecterend veiligheidsvest (fluohesje)** dragen zodra hij uitstapt.",
       "kaders": [
-        { "type": "regel", "titel": "Hesje aan voor je uitstapt", "tekst": "Op autosnelwegen en autowegen draag je het hesje zodra je het voertuig verlaat (art. 51.4 wegcode). Houd het daarom binnen handbereik, niet in de koffer." },
-        { "type": "tip", "titel": "Waar blijf je staan?", "tekst": "Wacht met passagiers en omstanders op een veilige plaats, bijvoorbeeld achter de vangrail." }
+        { "type": "regel", "titel": "Hesje aan voor je uitstapt", "tekst": "Op autosnelwegen en autowegen draag je het hesje zodra je het voertuig verlaat (art. 51.4 wegcode). Houd het daarom binnen handbereik, niet in de koffer.", "kort": "Op autosnelwegen en autowegen draag je het hesje zodra je uitstapt." },
+        { "type": "tip", "titel": "Waar blijf je staan?", "tekst": "Wacht met passagiers en omstanders op een veilige plaats, bijvoorbeeld achter de vangrail.", "kort": "Wacht met passagiers veilig, bijvoorbeeld achter de vangrail." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-001", "ONGE-009", "ONGE-014"]
@@ -57,6 +63,8 @@
       "id": "ongeval-alarmnummers",
       "curriculum": ["T34"],
       "titel": "Alarmnummers: 112, 100 en 101",
+      "titelKort": "Alarmnummers",
+      "kort": ["112: ambulance en brandweer, gratis","100: komt bij dezelfde noodcentrale uit","101: dringende politiehulp","Ook via praatpaal of 112-app"],
       "uitleg": "Bij een ongeval met gewonden bel je **112**. Dat is het gratis Europese noodnummer, dag en nacht bereikbaar, voor brandweer en ambulance. Het oude nummer **100** komt bij dezelfde noodcentrales (EC112) uit. Voor dringende politiehulp bel je **101**.",
       "regels": [
         { "nummer": "112", "voor": "Ambulance en brandweer, Europees noodnummer, gratis" },
@@ -65,9 +73,9 @@
         { "nummer": "1722", "voor": "Geen noodnummer: niet-dringende brandweerinterventies bij extreem weer" }
       ],
       "kaders": [
-        { "type": "tip", "titel": "Politie rechtstreeks bellen", "tekst": "Als je via 112 de politie vraagt, word je doorverbonden naar 101. Bel bij een zuivere politievraag dus liefst rechtstreeks 101." },
-        { "type": "tip", "titel": "Praatpalen", "tekst": "Je kan ook de praatpaal langs de weg gebruiken om hulp te roepen." },
-        { "type": "regel", "titel": "Bellen kan op meerdere manieren", "tekst": "Vanaf een vast toestel, een gsm (SIM-kaart nodig) of via de 112-app." }
+        { "type": "tip", "titel": "Politie rechtstreeks bellen", "tekst": "Als je via 112 de politie vraagt, word je doorverbonden naar 101. Bel bij een zuivere politievraag dus liefst rechtstreeks 101.", "kort": "Via 112 de politie vragen: je wordt doorverbonden naar 101." },
+        { "type": "tip", "titel": "Praatpalen", "tekst": "Je kan ook de praatpaal langs de weg gebruiken om hulp te roepen.", "kort": "Gebruik de praatpaal langs de weg om hulp te roepen." },
+        { "type": "regel", "titel": "Bellen kan op meerdere manieren", "tekst": "Vanaf een vast toestel, een gsm (SIM-kaart nodig) of via de 112-app.", "kort": "Bellen kan met vast toestel, gsm of de 112-app." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-002", "ONGE-003", "ONGE-009"]
@@ -76,10 +84,12 @@
       "id": "ongeval-noodoproep",
       "curriculum": ["T34"],
       "titel": "Wat vertel je bij een noodoproep?",
+      "titelKort": "Noodoproep",
+      "kort": ["Waar: exacte locatie","Wat: wat er gebeurd is","Wie: gewonden en hun toestand","Jij: wie je bent","Niet ophangen voor de operator klaar is"],
       "uitleg": "De operator van de noodcentrale stelt vragen. Geef rustig en duidelijk:\n\n- **Waar**: de exacte locatie. Op de autosnelweg de kilometerpaal, de dichtstbijzijnde afrit en de rijrichting; op een gewone weg de gemeente, straat of het kruispunt.\n- **Wat**: wat er gebeurd is en hoeveel voertuigen betrokken zijn.\n- **Wie**: of er gewonden zijn, hoeveel en hoe ze er aan toe zijn.\n- **Jij**: wie je bent.",
       "kaders": [
-        { "type": "zwarefout", "titel": "Niet ophangen", "tekst": "Hang niet op voor de operator klaar is. Anders beland je opnieuw aan het begin van de wachtlijst. Beantwoord de vragen en volg de instructies op." },
-        { "type": "tip", "titel": "Blijf ter plaatse", "tekst": "Blijf op de plaats van het ongeval tot de hulpdiensten aankomen en vertel hen wat je hebt gedaan." }
+        { "type": "zwarefout", "titel": "Niet ophangen", "tekst": "Hang niet op voor de operator klaar is. Anders beland je opnieuw aan het begin van de wachtlijst. Beantwoord de vragen en volg de instructies op.", "kort": "Hang niet op voor de operator klaar is." },
+        { "type": "tip", "titel": "Blijf ter plaatse", "tekst": "Blijf op de plaats van het ongeval tot de hulpdiensten aankomen en vertel hen wat je hebt gedaan.", "kort": "Blijf ter plaatse en vertel de hulpdiensten wat je deed." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-002", "ONGE-015"]
@@ -88,13 +98,15 @@
       "id": "ongeval-ehbo-stappen",
       "curriculum": ["T34"],
       "titel": "EHBO: de vier stappen en het ABC",
+      "titelKort": "EHBO: vier stappen",
+      "kort": ["1. Zorg voor veiligheid","2. Beoordeel het slachtoffer","3. Alarmeer 112","4. Verleen verdere hulp","ABC: bewustzijn, luchtweg, ademhaling"],
       "uitleg": "Het Rode Kruis leert eerste hulp in vier stappen:\n\n- **1. Zorg voor veiligheid**: van jezelf, van het slachtoffer en van de omstanders.\n- **2. Beoordeel de toestand van het slachtoffer**: controleer het bewustzijn, open de luchtweg en controleer de ademhaling (zo ken je het ook als het ABC: bewustzijn, luchtweg, ademhaling).\n- **3. Raadpleeg gespecialiseerde hulp**: alarmeer 112.\n- **4. Verleen verdere eerste hulp**: bijvoorbeeld een bloeding stelpen of een brandwonde koelen.\n\nDe ademhaling controleer je door te kijken, te luisteren en te voelen, maximaal 10 seconden.",
       "regels": [
         { "toestand": "Slachtoffer reageert niet en ademt normaal", "actie": "112 laten alarmeren, stabiele zijligging (behalve bij vermoeden van wervelletsel), ademhaling elke minuut controleren" },
         { "toestand": "Slachtoffer reageert niet en ademt niet normaal", "actie": "112 alarmeren, AED laten halen, reanimeren (30 borstcompressies, 2 beademingen)" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Eigen veiligheid eerst", "tekst": "Begin pas aan eerste hulp als de plaats beveiligd is. Een tweede slachtoffer helpt niemand." }
+        { "type": "regel", "titel": "Eigen veiligheid eerst", "tekst": "Begin pas aan eerste hulp als de plaats beveiligd is. Een tweede slachtoffer helpt niemand.", "kort": "Begin pas als de plaats beveiligd is." }
       ],
       "afbeeldingen": ["schema-vier-stappen-eerste-hulp"],
       "bronnen": ["ONGE-005", "ONGE-008", "ONGE-004"]
@@ -103,9 +115,11 @@
       "id": "ongeval-stabiele-zijligging",
       "curriculum": ["T34"],
       "titel": "Stabiele zijligging",
+      "titelKort": "Stabiele zijligging",
+      "kort": ["Bewusteloos en normale ademhaling","Luchtweg blijft open","112 laten alarmeren","Ademhaling elke minuut controleren","Niet bij vermoeden van wervelletsel"],
       "uitleg": "Een slachtoffer dat bewusteloos is maar normaal ademt, leg je in **stabiele zijligging**. Zo blijft de luchtweg open en kan het slachtoffer niet stikken in braaksel of speeksel. Laat 112 alarmeren en controleer de ademhaling elke minuut.\n\nVermoed je een wervelletsel (bijvoorbeeld na een zware val of botsing), dan draai je het slachtoffer niet in zijligging.",
       "kaders": [
-        { "type": "letop", "titel": "Wanneer niet", "tekst": "Niet in zijligging leggen bij vermoeden van wervelletsel. Ademt het slachtoffer niet meer normaal, dan start je met reanimeren." }
+        { "type": "letop", "titel": "Wanneer niet", "tekst": "Niet in zijligging leggen bij vermoeden van wervelletsel. Ademt het slachtoffer niet meer normaal, dan start je met reanimeren.", "kort": "Niet bij wervelletsel; ademt hij niet normaal, dan start je met reanimeren." }
       ],
       "afbeeldingen": ["schema-stabiele-zijligging"],
       "bronnen": ["ONGE-008", "ONGE-004"]
@@ -114,6 +128,8 @@
       "id": "ongeval-reanimatie-aed",
       "curriculum": ["T34"],
       "titel": "Reanimatie en AED",
+      "titelKort": "Reanimatie en AED",
+      "kort": ["Alarmeer 112, laat een AED halen","30 borstcompressies","2 beademingen","Blijf 30 en 2 afwisselen","AED: elektroden kleven, volg de aanwijzingen"],
       "uitleg": "Reageert het slachtoffer niet en ademt het niet normaal, dan volg je deze volgorde (Rode Kruis-Vlaanderen, 2026):\n\n- **Alarmeer 112** en laat een AED halen als er een in de buurt is.\n- **Start met 30 borstcompressies** in het midden van de borstkas.\n- **Geef 2 beademingen**.\n- **Wissel continu 30 borstcompressies af met 2 beademingen**.\n\nZodra de AED er is: activeer hem en volg de aanwijzingen. Kleef de 2 elektroden op de ontblote borstkas. Tijdens de analyse en bij een schok raakt niemand het slachtoffer aan. Daarna hervat je de reanimatie.",
       "regels": [
         { "onderdeel": "Verhouding", "regel": "30 borstcompressies, dan 2 beademingen" },
@@ -121,7 +137,7 @@
         { "onderdeel": "Tijdens analyse/schok", "regel": "Niemand raakt het slachtoffer aan" }
       ],
       "kaders": [
-        { "type": "tip", "titel": "Telefonische begeleiding", "tekst": "Volg de instructies van de operator van de noodcentrale." }
+        { "type": "tip", "titel": "Telefonische begeleiding", "tekst": "Volg de instructies van de operator van de noodcentrale.", "kort": "Volg de instructies van de operator van de noodcentrale." }
       ],
       "afbeeldingen": ["schema-reanimatie-aed"],
       "bronnen": ["ONGE-004", "ONGE-008"]
@@ -130,10 +146,12 @@
       "id": "ongeval-brandwonden",
       "curriculum": ["T34"],
       "titel": "Eerste hulp bij brandwonden",
+      "titelKort": "Brandwonden",
+      "kort": ["Handen wassen, handschoenen aan","Koelen: 20 minuten stromend water","Wonde bedekken","Ernstig: 112 bellen"],
       "uitleg": "Was of ontsmet je handen en trek wegwerphandschoenen aan. Koel de brandwonde daarna **20 minuten met stromend water**. Bedek de wonde met gepast verbandmateriaal.\n\nBij een ernstige brandwonde alarmeer je 112, leg je een nat verband aan of dek je af met plastic folie.",
       "kaders": [
-        { "type": "regel", "titel": "Koelen: 20 minuten", "tekst": "Het Rode Kruis adviseert sinds de actuele affiches 20 minuten koelen met stromend water." },
-        { "type": "zwarefout", "titel": "Geen ijs en geen zalf", "tekst": "Gebruik geen ijs of ijskoud water en geen zalf, en prik blaren niet open." }
+        { "type": "regel", "titel": "Koelen: 20 minuten", "tekst": "Het Rode Kruis adviseert sinds de actuele affiches 20 minuten koelen met stromend water.", "kort": "Het Rode Kruis adviseert 20 minuten koelen met stromend water." },
+        { "type": "zwarefout", "titel": "Geen ijs en geen zalf", "tekst": "Gebruik geen ijs of ijskoud water en geen zalf, en prik blaren niet open.", "kort": "Geen ijs, geen zalf, blaren niet openprikken." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-006"]
@@ -142,9 +160,11 @@
       "id": "ongeval-bloeding",
       "curriculum": ["T34"],
       "titel": "Eerste hulp bij een ernstige bloeding",
+      "titelKort": "Ernstige bloeding",
+      "kort": ["Handschoenen aan, slachtoffer neerleggen","Bel 112","10 minuten drukken op de bloeding","Blijf drukken tot de hulpdiensten komen"],
       "uitleg": "Trek wegwerphandschoenen aan en laat het slachtoffer neerliggen. Alarmeer 112. Druk **10 minuten** op de bloeding (laat het slachtoffer zelf drukken als dat kan) met een drukverband of een propere doek en blijf druk uitoefenen tot de hulpdiensten aankomen.",
       "kaders": [
-        { "type": "tip", "titel": "Bloedneus", "tekst": "Laat het slachtoffer voorovergebogen zitten en knijp de neus 10 minuten dicht." }
+        { "type": "tip", "titel": "Bloedneus", "tekst": "Laat het slachtoffer voorovergebogen zitten en knijp de neus 10 minuten dicht.", "kort": "Bloedneus: voorovergebogen zitten, neus 10 minuten dichtknijpen." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-007"]
@@ -153,15 +173,17 @@
       "id": "ongeval-hulpverlening-blijven",
       "curriculum": ["T34", "T35"],
       "titel": "Hulpverlening en ter plaatse blijven",
+      "titelKort": "Plichten na ongeval",
+      "kort": ["Plichten hangen af van het soort ongeval","Stoffelijke schade: veiligheid en identiteit","Hulp verlenen of halen is een plicht","Niemand te bereiken: aangifte bij politie"],
       "uitleg": "Wie bij een ongeval betrokken is, heeft plichten. Welke, hangt af van het soort ongeval (art. 52 wegcode).",
       "regels": [
         { "ongeval": "Enkel stoffelijke schade", "plichten": "Maatregelen voor veiligheid; identiteitskaart tonen als je ouder bent dan 15; ter plaatse blijven om samen vast te stellen wat er gebeurd is, of een bevoegd persoon (politie) laten vaststellen" },
         { "ongeval": "Lichamelijk letsel", "plichten": "Maatregelen voor veiligheid; zo nodig hulp verlenen aan gekwetsten; identiteitskaart tonen (ouder dan 15); ter plaatse blijven zodat een bevoegd persoon kan vaststellen; voertuig niet verplaatsen" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Even weggaan om hulp te halen mag", "tekst": "Wie tijdelijk wegloopt om hulp te verlenen of de politie te bereiken, schendt de plicht om te blijven niet, op voorwaarde dat hij eerst naam en adres aan een aanwezige geeft." },
-        { "type": "regel", "titel": "Niemand te bereiken?", "tekst": "Is er binnen een redelijke tijd geen bevoegd persoon te bereiken, dan doe je aangifte bij het dichtstbijzijnde politiebureau of dat van je woonplaats: bij enkel stoffelijke schade zodra mogelijk, bij gewonden binnen 24 uur." },
-        { "type": "regel", "titel": "Afwezige tegenpartij", "tekst": "Is de benadeelde niet aanwezig (bijvoorbeeld bij een geparkeerde auto), geef dan ter plaatse naam en adres op en meld het zo snel mogelijk, rechtstreeks of via de politie." }
+        { "type": "regel", "titel": "Even weggaan om hulp te halen mag", "tekst": "Wie tijdelijk wegloopt om hulp te verlenen of de politie te bereiken, schendt de plicht om te blijven niet, op voorwaarde dat hij eerst naam en adres aan een aanwezige geeft.", "kort": "Even weggaan voor hulp mag, als je eerst naam en adres geeft." },
+        { "type": "regel", "titel": "Niemand te bereiken?", "tekst": "Is er binnen een redelijke tijd geen bevoegd persoon te bereiken, dan doe je aangifte bij het dichtstbijzijnde politiebureau of dat van je woonplaats: bij enkel stoffelijke schade zodra mogelijk, bij gewonden binnen 24 uur.", "kort": "Geen bevoegd persoon: aangifte bij de politie; bij gewonden binnen 24 uur." },
+        { "type": "regel", "titel": "Afwezige tegenpartij", "tekst": "Is de benadeelde niet aanwezig (bijvoorbeeld bij een geparkeerde auto), geef dan ter plaatse naam en adres op en meld het zo snel mogelijk, rechtstreeks of via de politie.", "kort": "Tegenpartij afwezig: naam en adres opgeven en snel melden." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-001", "ONGE-009"]
@@ -170,6 +192,8 @@
       "id": "ongeval-uitrusting",
       "curriculum": ["T34"],
       "titel": "Uitrusting in de auto: driehoek, blusser, verbandkist",
+      "titelKort": "Uitrusting in de auto",
+      "kort": ["Gevaarsdriehoek","Een of twee blustoestellen","Verbandkist of -etui","Moet voldoen aan het technisch reglement"],
       "uitleg": "De wegcode (art. 81.2) bepaalt dat zich in elke auto moeten bevinden:\n\n- een **gevaarsdriehoek**,\n- een of twee **blustoestellen**,\n- een **verbandkist of -etui**.\n\nDeze toebehoren moeten voldoen aan het technisch reglement van de auto's.",
       "regels": [
         { "toebehoren": "Gevaarsdriehoek", "doel": "Voertuig of hindernis op afstand signaleren" },
@@ -177,7 +201,7 @@
         { "toebehoren": "Verbandkist of -etui", "doel": "Eerste hulp bij kleine verwondingen" }
       ],
       "kaders": [
-        { "type": "tip", "titel": "Blustoestel", "tekst": "Een beginnende brand in je voertuig kan je met het blustoestel proberen te blussen. Is er brandgevaar of ontploffingsgevaar, breng dan zwaargewonden wel uit de gevarenzone en bel 112." }
+        { "type": "tip", "titel": "Blustoestel", "tekst": "Een beginnende brand in je voertuig kan je met het blustoestel proberen te blussen. Is er brandgevaar of ontploffingsgevaar, breng dan zwaargewonden wel uit de gevarenzone en bel 112.", "kort": "Een beginnende brand kun je proberen te blussen; bij gevaar zwaargewonden wegbrengen en 112 bellen." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-001"]
@@ -186,6 +210,8 @@
       "id": "ongeval-aanrijdingsformulier",
       "curriculum": ["T35"],
       "titel": "Het Europees aanrijdingsformulier (papier en digitaal)",
+      "titelKort": "Aanrijdingsformulier",
+      "kort": ["Bij enkel stoffelijke schade","Voorzijde: samen invullen en ondertekenen","Keerzijde: ieder apart","Onenigheid: eigen versie noteren","Feiten vermelden is geen erkenning"],
       "uitleg": "Bij een aanrijding met enkel stoffelijke schade vul je samen met de andere bestuurder het aanrijdingsformulier in. Dat is er op papier en digitaal als Crashform-app.\n\n- **Voorzijde**: ter plaatse samen invullen en door beide partijen ondertekenen. Je noteert onder meer datum, plaats, voertuigen, verzekeringen, bestuurders, getuigen, de omstandigheden, zichtbare schade en een schets.\n- **Keerzijde**: elke partij vult die apart in (o.a. politiegegevens, technische gegevens van het voertuig, de eigen mening over de aansprakelijkheid).\n- **Bij onenigheid**: noteer je eigen versie in het vak Opmerkingen (voorzijde) en in het vak Aansprakelijkheden (keerzijde).\n- **Digitaal**: de Crashform-app laat je op je telefoon ondertekenen en foto's toevoegen; na ondertekening gaat het formulier naar jou, je verzekeraar en je tussenpersoon.\n\nVermelden van de feiten betekent **geen erkenning van aansprakelijkheid**. De verzekeraars beslissen wie verantwoordelijk is.",
       "regels": [
         { "onderdeel": "Voorzijde", "regel": "Samen invullen en ondertekenen: feiten, geen aansprakelijkheid" },
@@ -193,8 +219,8 @@
         { "onderdeel": "Bij onenigheid", "regel": "Eigen versie in Opmerkingen en Aansprakelijkheden" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Niet wettelijk verplicht", "tekst": "Het aanrijdingsformulier is geen wettelijk verplicht boorddocument, maar wel sterk aanbevolen." },
-        { "type": "tip", "titel": "Bewijs verzamelen", "tekst": "Neem foto's van de situatie, de nummerplaten, de schade en relevante verkeersborden, en noteer naam en adres van getuigen." }
+        { "type": "regel", "titel": "Niet wettelijk verplicht", "tekst": "Het aanrijdingsformulier is geen wettelijk verplicht boorddocument, maar wel sterk aanbevolen.", "kort": "Niet wettelijk verplicht, wel sterk aanbevolen." },
+        { "type": "tip", "titel": "Bewijs verzamelen", "tekst": "Neem foto's van de situatie, de nummerplaten, de schade en relevante verkeersborden, en noteer naam en adres van getuigen.", "kort": "Neem foto's en noteer naam en adres van getuigen." }
       ],
       "afbeeldingen": ["schema-aanrijdingsformulier"],
       "bronnen": ["ONGE-009", "ONGE-010", "ONGE-012"]
@@ -203,10 +229,12 @@
       "id": "ongeval-formulier-wanneer-niet",
       "curriculum": ["T35"],
       "titel": "Wanneer het formulier niet volstaat: gewonden en politie",
+      "titelKort": "Formulier volstaat niet",
+      "kort": ["Gewonden: politie erbij","Politie maakt proces-verbaal op","Eerst 112 bellen en helpen","Onbekende of onverzekerde tegenpartij: vraag je verzekeraar"],
       "uitleg": "Zijn er gewonden, dan haal je de politie erbij voor een proces-verbaal. Het formulier alleen volstaat dan niet. Roep eerst hulp (112) en help de gewonden als je daartoe in staat bent.\n\nKomt de politie ter plaatse, dan kan je haar vragen je te helpen met het formulier. Een tegenpartij die onbekend, niet aansprakelijk of onverzekerd is, kan je niet met een gezamenlijk formulier afhandelen: vraag dan uitleg aan je verzekeraar.",
       "kaders": [
-        { "type": "regel", "titel": "Gewonden betekent politie", "tekst": "Van zodra er gewonden zijn, moet de politie een proces-verbaal opmaken." },
-        { "type": "tip", "titel": "Schade zo snel mogelijk melden", "tekst": "Meld de schade zo snel mogelijk aan je verzekeraar. Hij neemt je schade meestal over en verhaalt ze achteraf op de aansprakelijke partij." }
+        { "type": "regel", "titel": "Gewonden betekent politie", "tekst": "Van zodra er gewonden zijn, moet de politie een proces-verbaal opmaken.", "kort": "Zodra er gewonden zijn, maakt de politie een proces-verbaal op." },
+        { "type": "tip", "titel": "Schade zo snel mogelijk melden", "tekst": "Meld de schade zo snel mogelijk aan je verzekeraar. Hij neemt je schade meestal over en verhaalt ze achteraf op de aansprakelijke partij.", "kort": "Meld de schade zo snel mogelijk aan je verzekeraar." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-009", "ONGE-010", "ONGE-012"]
@@ -215,6 +243,8 @@
       "id": "ongeval-verzekering",
       "curriculum": ["T35"],
       "titel": "Verzekering: burgerlijke aansprakelijkheid en groene kaart",
+      "titelKort": "Verzekering",
+      "kort": ["BA-verzekering is verplicht","Dekt schade aan anderen","Eigen schade niet gedekt","Verzekeringsbewijs: meevoeren, tonen bij controle","Onder invloed: verhaal tot 31 000 euro"],
       "uitleg": "Een motorvoertuig moet verzekerd zijn voor burgerlijke aansprakelijkheid (BA): de verzekering vergoedt de schade die jij aan anderen veroorzaakt. Het bewijs daarvan is het **verzekeringsbewijs (de vroegere groene kaart)**. Je moet het als boorddocument kunnen tonen bij een controle. Sinds 1 juli 2020 is het wit gedrukt en mag het ook elektronisch zijn. Het vermeldt in welke landen en voor welke periode je gedekt bent.\n\nJe eigen schade is niet gedekt door de BA-verzekering. Daarvoor heb je bijvoorbeeld een omnium (voertuig) of een bestuurdersverzekering (eigen letsels).",
       "regels": [
         { "verzekering": "BA (burgerlijke aansprakelijkheid)", "dekt": "Schade die jij aan anderen berokkent (verplicht)" },
@@ -222,8 +252,8 @@
         { "verzekering": "Bestuurders- of ongevallenverzekering", "dekt": "Eigen letsels" }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Verzekeringsbewijs meevoeren", "tekst": "Het verzekeringsbewijs is een verplicht boorddocument: toon het bij een controle." },
-        { "type": "letop", "titel": "Alcohol en verhaalsrecht", "tekst": "Veroorzaak je een ongeval onder invloed, dan vergoedt de BA-verzekering nog steeds de slachtoffers. De verzekeraar kan het bedrag nadien wel op jou verhalen, tot 31 000 euro, als hij bewijst dat het ongeval door je dronkenschap kwam. Je eigen letsels zijn dan niet gedekt, en je premie kan stijgen of je polis kan opgezegd worden." }
+        { "type": "regel", "titel": "Verzekeringsbewijs meevoeren", "tekst": "Het verzekeringsbewijs is een verplicht boorddocument: toon het bij een controle.", "kort": "Het verzekeringsbewijs is een verplicht boorddocument." },
+        { "type": "letop", "titel": "Alcohol en verhaalsrecht", "tekst": "Veroorzaak je een ongeval onder invloed, dan vergoedt de BA-verzekering nog steeds de slachtoffers. De verzekeraar kan het bedrag nadien wel op jou verhalen, tot 31 000 euro, als hij bewijst dat het ongeval door je dronkenschap kwam. Je eigen letsels zijn dan niet gedekt, en je premie kan stijgen of je polis kan opgezegd worden.", "kort": "Onder invloed: verzekeraar kan tot 31 000 euro verhalen als dronkenschap de oorzaak was." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-011", "ONGE-013", "ONGE-009"]
@@ -232,10 +262,12 @@
       "id": "ongeval-vluchtmisdrijf",
       "curriculum": ["T35"],
       "titel": "Vluchtmisdrijf: nooit doorrijden",
+      "titelKort": "Vluchtmisdrijf",
+      "kort": ["Nooit doorrijden na een ongeval","Blijf ter plaatse","Naam en identiteit geven","Strafbaar: gevangenis, boete, rijverbod"],
       "uitleg": "Na een ongeval mag je niet zomaar doorrijden. Je moet ter plaatse blijven om de vaststellingen te doen, zeker als er gewonden zijn, en je moet naam en identiteit kunnen geven. Wie vlucht na een ongeval (**vluchtmisdrijf**) begaat een strafbaar feit. De rechtbank kan daarvoor onder meer gevangenisstraf, een geldboete en een rijverbod opleggen.\n\nWie slachtoffer is van een bestuurder die gevlucht is, of van een onbekende of onverzekerde tegenpartij, kan mogelijk terecht bij het Belgisch Gemeenschappelijk Waarborgfonds.",
       "kaders": [
-        { "type": "zwarefout", "titel": "Doorrijden na een ongeval", "tekst": "Niet ter plaatse blijven na een ongeval, en zeker niet bij gewonden, is een zware fout. Je laat gewonden zonder hulp achter." },
-        { "type": "tip", "titel": "Niemand aanwezig?", "tekst": "Beschadig je een geparkeerde auto en is de eigenaar er niet, geef dan ter plaatse zoveel mogelijk naam en adres op en meld het zo snel mogelijk, rechtstreeks of via de politie." }
+        { "type": "zwarefout", "titel": "Doorrijden na een ongeval", "tekst": "Niet ter plaatse blijven na een ongeval, en zeker niet bij gewonden, is een zware fout. Je laat gewonden zonder hulp achter.", "kort": "Niet ter plaatse blijven is een zware fout; gewonden blijven zonder hulp." },
+        { "type": "tip", "titel": "Niemand aanwezig?", "tekst": "Beschadig je een geparkeerde auto en is de eigenaar er niet, geef dan ter plaatse zoveel mogelijk naam en adres op en meld het zo snel mogelijk, rechtstreeks of via de politie.", "kort": "Eigenaar afwezig: naam en adres opgeven en snel melden." }
       ],
       "afbeeldingen": [],
       "bronnen": ["ONGE-001", "ONGE-012", "ONGE-016"]

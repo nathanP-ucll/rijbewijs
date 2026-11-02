@@ -5,7 +5,7 @@
   "thema": "borden",
   "naam": "Gevaarsborden (A)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -15,7 +15,7 @@
   "thema": "borden",
   "naam": "Voorrangsborden (B1, B5, B9, B11, B15…)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -25,7 +25,7 @@
   "thema": "borden",
   "naam": "Verbodsborden (C) en einde verbod",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -35,7 +35,7 @@
   "thema": "borden",
   "naam": "Gebodsborden (D)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -45,7 +45,7 @@
   "thema": "borden",
   "naam": "Parkeer- en stilstaanborden (E)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -55,7 +55,7 @@
   "thema": "borden",
   "naam": "Aanwijzingsborden (F) en autosnelweg/autoweg-borden",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -65,7 +65,7 @@
   "thema": "borden",
   "naam": "Zone-, G-, Z-borden en aanvullende panelen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -75,7 +75,7 @@
   "thema": "snelheden",
   "naam": "Snelheden per wegtype en gewest",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -85,7 +85,7 @@
   "thema": "snelheden",
   "naam": "Zone 30, woonerf, erf, schoolomgeving",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -95,7 +95,7 @@
   "thema": "borden",
   "naam": "Wegmarkeringen (strepen, pijlen, gele lijnen, zebrapad)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -106,7 +106,7 @@
   "naam": "Rangorde van voorrang en voorrang van rechts",
   "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {
@@ -136,7 +136,7 @@
   "naam": "Linksafslaan, tegenliggers, middenberm/gescheiden rijbanen",
   "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {
@@ -216,7 +216,7 @@
   "naam": "Voorrangsvoertuigen en bijzondere voertuigen",
   "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {
@@ -225,7 +225,7 @@
   "thema": "plaats",
   "naam": "Plaats op de weg, rijstroken, rechts rijden",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -235,7 +235,7 @@
   "thema": "plaats",
   "naam": "Kruisen en inhalen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -245,7 +245,7 @@
   "thema": "plaats",
   "naam": "Richtingaanwijzers, van rijstrook veranderen, ritsen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -255,7 +255,7 @@
   "thema": "snelwegen",
   "naam": "Autosnelweg en autoweg: regels, op-/afrit, reddingsstrook",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -265,7 +265,7 @@
   "thema": "plaats",
   "naam": "Parkeren en stilstaan (afstanden, gele lijnen, zones, verboden plaatsen)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -275,7 +275,7 @@
   "thema": "plaats",
   "naam": "Achteruitrijden, keren, voorsorteren",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -336,7 +336,7 @@
   "naam": "Ongeval: veiligheid, alarmnummers, EHBO, gevarendriehoek, hulpverlening",
   "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {
@@ -386,7 +386,7 @@
   "naam": "Dashboard: controlelampjes en symbolen",
   "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {

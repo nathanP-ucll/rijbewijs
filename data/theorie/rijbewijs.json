@@ -8,6 +8,8 @@
         "T36"
       ],
       "titel": "Het traject naar rijbewijs B in Vlaanderen",
+      "titelKort": "Traject naar rijbewijs B",
+      "kort": ["Theorie-examen vanaf 17 jaar (3 jaar geldig)","Voorlopig rijbewijs aanvragen","Minstens 5 maanden oefenen","Praktijkexamen vanaf 18 jaar","Definitief rijbewijs aanvragen","Terugkommoment van 4 uur"],
       "uitleg": "Je haalt rijbewijs B in een vaste volgorde. Eerst leg je het **theorie-examen** af, dat kan vanaf **17 jaar**. Daarna vraag je een **voorlopig rijbewijs** aan en ga je oefenen. Het **praktijkexamen** kan pas vanaf **18 jaar**. Slaag je daarvoor, dan vraag je het **definitieve rijbewijs** aan bij je gemeente (of via BelDrive). Een tijdje later volgt nog een verplicht **terugkommoment**.\n\nStappen op een rij:\n- theorie-examen (vanaf 17 jaar, 3 jaar geldig)\n- voorlopig rijbewijs (met of zonder begeleider)\n- minstens 5 maanden oefenen op de openbare weg\n- praktijkexamen (vanaf 18 jaar)\n- definitief rijbewijs aanvragen\n- terugkommoment van 4 uur, 6 tot 9 maanden na je definitieve rijbewijs",
       "regels": [
         {
@@ -35,7 +37,8 @@
         {
           "type": "letop",
           "titel": "Twee leeftijden",
-          "tekst": "Theorie-examen en M36: 17 jaar. Praktijkexamen en M18: 18 jaar. Verwar die twee niet."
+          "tekst": "Theorie-examen en M36: 17 jaar. Praktijkexamen en M18: 18 jaar. Verwar die twee niet.",
+          "kort": "Theorie-examen en M36: 17 jaar. Praktijkexamen en M18: 18 jaar."
         }
       ],
       "uitzonderingen": [],
@@ -52,6 +55,8 @@
         "T36"
       ],
       "titel": "Voorlopig rijbewijs: M36, M18 en M12",
+      "titelKort": "M36, M18 en M12",
+      "kort": ["M36: vanaf 17 jaar, 36 maanden, met begeleider","M18: vanaf 18 jaar, 18 maanden, zonder begeleider","M18: eerst minstens 20 uur rijles","M12: 12 maanden, eenmalig, na een verlopen rijbewijs","Niet verlengbaar"],
       "uitleg": "Je hebt een voorlopig rijbewijs nodig om op de openbare weg te oefenen. Er bestaan drie modellen voor categorie B. Het getal staat voor het aantal maanden dat het rijbewijs geldig is.\n\n- **M36 (met begeleider)**: aan te vragen vanaf 17 jaar, geldig 36 maanden. Je oefent met een of twee begeleiders.\n- **M18 (zonder begeleider)**: aan te vragen vanaf 18 jaar, geldig 18 maanden. Je volgt eerst minstens 20 uur rijles bij een erkende rijschool en krijgt daarvoor een bekwaamheidsattest (3 jaar geldig). Je mag maximaal 2 passagiers meenemen die aan dezelfde voorwaarden voldoen als een begeleider.\n- **M12 (nieuw model, enkel categorie B)**: geldig 12 maanden, met begeleider. Je kunt het **eenmalig** aanvragen nadat een eerder voorlopig rijbewijs is verlopen. Je volgt daarvoor 6 uur rijles bij een erkende rijschool en je theorie-examen moet nog geldig zijn.\n\nAlle voorlopige rijbewijzen zijn **niet verlengbaar**.",
       "regels": [
         {
@@ -71,12 +76,14 @@
         {
           "type": "regel",
           "titel": "Omwisselen",
-          "tekst": "Je mag een keer wisselen tussen M36 en M18, zolang je huidige voorlopig rijbewijs niet verlopen is en je theorie-examen nog geldig is. De oefenperiode die je al achter de rug hebt, telt mee. Wissel je na 30 maanden M36 naar M18, dan heb je in totaal 48 maanden."
+          "tekst": "Je mag een keer wisselen tussen M36 en M18, zolang je huidige voorlopig rijbewijs niet verlopen is en je theorie-examen nog geldig is. De oefenperiode die je al achter de rug hebt, telt mee. Wissel je na 30 maanden M36 naar M18, dan heb je in totaal 48 maanden.",
+          "kort": "Eén keer wisselen tussen M36 en M18; de oefenperiode telt mee."
         },
         {
           "type": "tip",
           "titel": "Verlopen zonder examen",
-          "tekst": "Is je voorlopig rijbewijs verlopen, dan kun je een M12 aanvragen of drie jaar wachten voor je een nieuwe M36 of M18 krijgt. Wil je in die wachtperiode toch praktijkexamen doen, dan heb je minstens 6 uur praktijkles nodig en moet je theorie-examen geldig zijn."
+          "tekst": "Is je voorlopig rijbewijs verlopen, dan kun je een M12 aanvragen of drie jaar wachten voor je een nieuwe M36 of M18 krijgt. Wil je in die wachtperiode toch praktijkexamen doen, dan heb je minstens 6 uur praktijkles nodig en moet je theorie-examen geldig zijn.",
+          "kort": "Verlopen zonder examen: M12 aanvragen of drie jaar wachten."
         }
       ],
       "uitzonderingen": [],
@@ -92,6 +99,8 @@
         "T36"
       ],
       "titel": "Begeleider: wie mag en wat moet?",
+      "titelKort": "Begeleider",
+      "kort": ["Maximaal twee begeleiders","Minstens 8 jaar rijbewijs","Niet vervallen verklaard van het recht tot sturen","Vormingsmoment gevolgd","Geen andere passagiers"],
       "uitleg": "Met een M36 oefen je met een **begeleider**. Je mag er maximaal **twee** kiezen. Zij laten zich registreren bij het gemeentebestuur.\n\nEen begeleider:\n- is ingeschreven in België en heeft een Belgisch identiteitsdocument\n- heeft minstens **8 jaar** een Belgisch of Europees rijbewijs dat geldig is voor het voertuig\n- is niet vervallen verklaard van het recht tot sturen, ook niet in de laatste **3 jaar**\n- heeft het afgelopen jaar geen andere leerling begeleid (uitzondering voor kinderen, kleinkinderen, broers, zussen en pleegkinderen, van jezelf of van je partner)\n- heeft een **vormingsmoment** gevolgd (voor voorlopige rijbewijzen afgegeven vanaf 1 maart 2024)\n\nRijlessen bij een rijschool zijn niet verplicht. Oefenen mag alleen met je begeleider(s) of met een erkende rij-instructeur. Andere passagiers zijn niet toegestaan.",
       "regels": [
         {
@@ -119,12 +128,14 @@
         {
           "type": "regel",
           "titel": "Vormingsmoment",
-          "tekst": "Het vormingsmoment duurt 3 uur en wordt gegeven door een erkende rijschool of erkende lesgever (ter plaatse of live online). Het is geen verkeersexamen. Een attest uit Wallonië wordt niet aanvaard."
+          "tekst": "Het vormingsmoment duurt 3 uur en wordt gegeven door een erkende rijschool of erkende lesgever (ter plaatse of live online). Het is geen verkeersexamen. Een attest uit Wallonië wordt niet aanvaard.",
+          "kort": "Het vormingsmoment duurt 3 uur en is geen examen."
         },
         {
           "type": "letop",
           "titel": "Tweede spiegel",
-          "tekst": "Bij een M36 moet het voertuig een extra achteruitkijkspiegel hebben voor de begeleider."
+          "tekst": "Bij een M36 moet het voertuig een extra achteruitkijkspiegel hebben voor de begeleider.",
+          "kort": "Bij een M36 is een extra achteruitkijkspiegel nodig."
         }
       ],
       "uitzonderingen": [
@@ -143,6 +154,8 @@
         "T36"
       ],
       "titel": "Oefenperiode en beperkingen van het voorlopig rijbewijs",
+      "titelKort": "Oefenen en beperkingen",
+      "kort": ["Minstens 5 maanden oefenen op de openbare weg","L-teken op de achterruit","Niet rijden van 22 u tot 6 u in weekend en feestdagen","Geen commercieel goederenvervoer, geen aanhangwagen","Enkel in België"],
       "uitleg": "Voor je praktijkexamen moet je minstens **5 maanden** op de openbare weg geoefend hebben (sinds 1 maart 2024). Houders van een M12 zijn hiervan vrijgesteld. Je theorie-examen moet bij het praktijkexamen nog geldig zijn.\n\nMet een voorlopig rijbewijs gelden deze beperkingen:\n- een **L-teken** moet goed zichtbaar op de achterruit staan\n- je mag niet rijden van **22 u tot 6 u** op vrijdag, zaterdag, zondag, de vooravond van een wettelijke feestdag en op de feestdag zelf\n- geen commercieel goederenvervoer\n- geen aanhangwagen\n- enkel in België: het hele Belgische grondgebied mag, maar je mag niet naar het buitenland\n\nJe mag oefenen met een manuele of automatische versnellingsbak.",
       "regels": [
         {
@@ -170,7 +183,8 @@
         {
           "type": "tip",
           "titel": "Onthoud",
-          "tekst": "Het voorlopig rijbewijs geldt alleen in België en niet 's nachts (22u-6u) in het weekend, op de vooravond van feestdagen en op feestdagen."
+          "tekst": "Het voorlopig rijbewijs geldt alleen in België en niet 's nachts (22u-6u) in het weekend, op de vooravond van feestdagen en op feestdagen.",
+          "kort": "Enkel België, en niet 's nachts in het weekend of rond feestdagen."
         }
       ],
       "uitzonderingen": [],
@@ -187,6 +201,8 @@
         "T36"
       ],
       "titel": "Praktijkexamen, definitief rijbewijs en terugkommoment",
+      "titelKort": "Praktijkexamen en terugkommoment",
+      "kort": ["Vanaf 18 jaar, 51 euro","Eerst gevaarherkenningstest, dan rijproef","Twee keer gezakt: 6 uur rijles","Rijbewijs aanvragen bij gemeente of BelDrive","Terugkommoment: 4 uur, 6 tot 9 maanden later"],
       "uitleg": "Het **praktijkexamen** kost 51 euro. Je start met een gevaarherkenningstest op de computer en rijdt daarna op de openbare weg. Je mag erbij komen vanaf 18 jaar, met een geldig theorie-examen en een geldig voorlopig rijbewijs. Zakte je twee keer na elkaar, dan moet je minstens 6 uur rijles volgen bij een erkende rijschool voor je opnieuw mag.\n\nSlaag je, dan krijg je van het examencentrum het formulier **Aanvraag om een rijbewijs** (3 jaar geldig). Daarmee vraag je het rijbewijs aan bij je gemeente of via BelDrive.\n\nDaarna volgt het **terugkommoment**: een verplichte sessie van 4 uur, 6 tot 9 maanden nadat je het definitieve rijbewijs kreeg.",
       "regels": [
         {
@@ -220,6 +236,8 @@
         "T36"
       ],
       "titel": "Verval van het recht tot sturen en onmiddellijke intrekking",
+      "titelKort": "Verval en intrekking",
+      "kort": ["Verval: rechter, 8 dagen tot levenslang","Herstel kan een examen of onderzoek vragen","Intrekking: tijdelijk, door de procureur","Zonder verlenging terug na 15 dagen","Beginner (minder dan 2 jaar): examen opnieuw"],
       "uitleg": "Je rijbewijs kan op twee verschillende manieren weggaan:\n\n- **Verval van het recht tot sturen (rijverbod)**: een **rechter** spreekt dit uit. De duur loopt van minstens **8 dagen tot levenslang**. Dit gebeurt als straf, of omdat iemand lichamelijk of geestelijk niet geschikt is om te rijden. Je levert je rijbewijs (of voorlopig rijbewijs) in bij de griffier. De rechter kan het herstel laten afhangen van slagen voor het **theorie-examen**, het **praktijkexamen**, een medisch of een psychologisch onderzoek.\n- **Onmiddellijke intrekking**: een tijdelijke maatregel die in de regel door de **procureur** wordt bevolen, in sommige gevallen ook door een officier van gerechtelijke politie. De politie kan vragen dat je het rijbewijs meteen afgeeft. De procureur kan aan de politierechtbank vragen de intrekking met maximaal **drie maanden** te verlengen. Zonder verlenging krijg je het rijbewijs na **vijftien dagen** terug.\n\n**Beginnende bestuurders**: ben je minder dan **2 jaar** houder van rijbewijs B en word je veroordeeld voor een overtreding die tot verval kan leiden, dan spreekt de rechter het verval uit en kun je het rijbewijs maar terugkrijgen na opnieuw slagen voor het theoretisch of praktisch examen. Sinds 1 juli 2026 vallen ook houders van een **voorlopig rijbewijs** onder deze regeling.",
       "regels": [
         {
@@ -235,12 +253,14 @@
         {
           "type": "regel",
           "titel": "Beginnend bestuurder",
-          "tekst": "Minder dan 2 jaar rijbewijs B en veroordeeld voor een overtreding die tot verval kan leiden: verval, en herstel pas na opnieuw slagen voor theoretisch of praktisch examen."
+          "tekst": "Minder dan 2 jaar rijbewijs B en veroordeeld voor een overtreding die tot verval kan leiden: verval, en herstel pas na opnieuw slagen voor theoretisch of praktisch examen.",
+          "kort": "Minder dan 2 jaar rijbewijs en veroordeeld: herstel pas na opnieuw slagen."
         },
         {
           "type": "letop",
           "titel": "Verval is geen intrekking",
-          "tekst": "Intrekking is een tijdelijke voorzorgsmaatregel. Verval is een uitspraak van de rechter."
+          "tekst": "Intrekking is een tijdelijke voorzorgsmaatregel. Verval is een uitspraak van de rechter.",
+          "kort": "Intrekking is tijdelijk; verval is een uitspraak van de rechter."
         }
       ],
       "uitzonderingen": [],
@@ -257,6 +277,8 @@
         "T36"
       ],
       "titel": "Geldigheid, verlies en medische geschiktheid",
+      "titelKort": "Geldigheid en verlies",
+      "kort": ["Kaartmodel: 10 jaar geldig","Vernieuwen minstens 3 maanden vooraf","Kwijt of gestolen: nieuw aanvragen","Diefstal: eerst naar de politie","Oogtest na het theorie-examen"],
       "uitleg": "Een rijbewijs in kaartmodel is **10 jaar** geldig. Vernieuwen doe je minstens **3 maanden** voor de einddatum, online via BelDrive of bij je gemeente.\n\nBen je je rijbewijs kwijt, is het gestolen, beschadigd of onleesbaar, dan vraag je een nieuw aan. Bij diefstal ga je eerst naar de politie en daarna naar de gemeente waar je ingeschreven bent. Online via BelDrive kan een vervanging alleen als je **geen rijgeschiktheidsattest** nodig hebt en **geen verval** van het recht tot sturen hebt. In andere gevallen ga je naar het gemeentebestuur.\n\nOver je gezondheid: na het theorie-examen krijg je meteen een **oogtest**. Slaag je daar niet voor, dan moet je een oogarts raadplegen. Op het aanvraagdocument voor je voorlopig rijbewijs verklaar je zelf dat je medisch in staat bent om veilig te rijden.",
       "regels": [
         {
@@ -291,6 +313,8 @@
         "T37"
       ],
       "titel": "Het theorie-examen: hoe verloopt het?",
+      "titelKort": "Theorie-examen",
+      "kort": ["Vanaf 17 jaar, 19 euro","Identiteitskaart meenemen","50 meerkeuzevragen","15 seconden per vraag","Oogtest erna"],
       "uitleg": "Het theorie-examen leg je af in een erkend examencentrum, vanaf **17 jaar**. Het kost **19 euro**. Neem je **identiteitskaart** mee (een kopie volstaat niet).\n\nHoe het gaat:\n- **50 meerkeuzevragen**\n- elke vraag wordt voorgelezen en op het scherm getoond, in het Nederlands\n- je hebt **15 seconden** om te antwoorden nadat de vraag volledig is voorgelezen\n- direct na het examen kun je je foute antwoorden bekijken (later niet meer)\n- daarna volgt meteen een oogtest\n\nWie een andere taal wil, kan kiezen voor **audiovertaling** in Frans, Duits of Engels: je hoort eerst het Nederlands en dan je gekozen taal. Dat kost **43 euro extra**. Een eigen tolk meebrengen kan niet meer.\n\nVoor wie leer- of leesstoornissen heeft (bijvoorbeeld dyslexie) of analfabeet is, bestaat het **vertraagd examen**: de vragen worden voorgelezen door een examinator en je krijgt meer tijd. Daarvoor heb je een attest nodig, of je hebt al 5 keer gefaald.",
       "regels": [
         {
@@ -318,7 +342,8 @@
         {
           "type": "tip",
           "titel": "Voorbereiding",
-          "tekst": "Oefen op het officiele platform 'Mijn rijbewijs B' (meerkeuze- en videovragen). Theorielessen bij een erkende rijschool (maximaal 12 uur) zijn optioneel."
+          "tekst": "Oefen op het officiele platform 'Mijn rijbewijs B' (meerkeuze- en videovragen). Theorielessen bij een erkende rijschool (maximaal 12 uur) zijn optioneel.",
+          "kort": "Oefen op het officiële platform 'Mijn rijbewijs B'; rijschoollessen zijn optioneel."
         }
       ],
       "uitzonderingen": [],
@@ -334,6 +359,8 @@
         "T37"
       ],
       "titel": "Puntentelling op het theorie-examen",
+      "titelKort": "Puntentelling",
+      "kort": ["Start met 50 punten","Fout of blanco: min 1 punt","Zware fout: min 5 punten","Geslaagd met minstens 41 punten","Twee zware fouten: gezakt"],
       "uitleg": "Je start met **50 punten**. Voor elk fout of onbeantwoord antwoord gaat er **1 punt** af. Bij een **zware fout** gaan er **5 punten** af. Je bent **geslaagd met minstens 41 van de 50 punten**.\n\nEen zware fout is een fout op een vraag over:\n- een overtreding van de **3de of 4de graad**, of\n- de toegelaten **maximumsnelheid**.\n\nWat dit betekent in de praktijk (eigen berekening op basis van de regels): je kunt in totaal maximaal **9 punten** verliezen. Dus:\n- 9 gewone fouten: 41 punten, geslaagd\n- 10 gewone fouten: 40 punten, niet geslaagd\n- 1 zware fout en 4 gewone fouten: 41 punten, geslaagd\n- 1 zware fout en 5 gewone fouten: 40 punten, niet geslaagd\n- 2 zware fouten: 40 punten, niet geslaagd",
       "regels": [
         {
@@ -357,12 +384,14 @@
         {
           "type": "letop",
           "titel": "Reken na",
-          "tekst": "Twee zware fouten betekent altijd gezakt, want 50 min 10 is 40."
+          "tekst": "Twee zware fouten betekent altijd gezakt, want 50 min 10 is 40.",
+          "kort": "Twee zware fouten betekent altijd gezakt."
         },
         {
           "type": "tip",
           "titel": "Antwoord altijd",
-          "tekst": "Een onbeantwoorde vraag kost minstens 1 punt, net als een fout antwoord. Je tijd per vraag is beperkt (15 seconden), dus leer snel beslissen."
+          "tekst": "Een onbeantwoorde vraag kost minstens 1 punt, net als een fout antwoord. Je tijd per vraag is beperkt (15 seconden), dus leer snel beslissen.",
+          "kort": "Een onbeantwoorde vraag kost minstens 1 punt; je hebt 15 seconden per vraag."
         }
       ],
       "uitzonderingen": [],
@@ -378,6 +407,8 @@
         "T37"
       ],
       "titel": "Herkansing, geldigheid en wijzigingen vanaf 2027",
+      "titelKort": "Herkansing en geldigheid",
+      "kort": ["Herkansen kan, niet dezelfde dag","Na 2 mislukkingen: 12 uur theorieopleiding","Geslaagd: 3 jaar geldig","Vanaf 1 januari 2027: examen in Vlaams examencentrum"],
       "uitleg": "**Herkansen** kan, maar niet op dezelfde dag. Er zijn afspraken bij het aantal pogingen:\n- na **2 mislukte pogingen** moet je **12 uur theorieopleiding** volgen bij een erkende rijschool en een getuigschrift voorleggen bij je 3de poging\n- na **4 mislukte pogingen** hoef je die lessen niet opnieuw te volgen (ze blijven 3 jaar geldig)\n- na **5 mislukte pogingen** kun je ook zonder attest een vertraagd examen vragen\n\n**Geldigheid**: een geslaagd theorie-examen blijft **3 jaar** geldig. Binnen die periode moet je het praktijkexamen kunnen afleggen, anders moet je het theorie-examen opnieuw doen. De geldigheid vind je ook op je voorlopig rijbewijs (bij voorlopige rijbewijzen aangevraagd vanaf 1 februari 2019).\n\n**Wijziging vanaf 1 januari 2027**: wie in Vlaanderen praktijkexamen wil doen, moet ook het theorie-examen in een **Vlaams examencentrum** hebben behaald. Er zijn geen overgangsmaatregelen.",
       "regels": [
         {
@@ -401,7 +432,8 @@
         {
           "type": "regel",
           "titel": "Vanaf 1 januari 2027",
-          "tekst": "Theorie-examen moet in een Vlaams examencentrum zijn afgelegd om hier praktijkexamen te mogen doen. Geen overgangsmaatregelen."
+          "tekst": "Theorie-examen moet in een Vlaams examencentrum zijn afgelegd om hier praktijkexamen te mogen doen. Geen overgangsmaatregelen.",
+          "kort": "Vanaf 1 januari 2027 moet het theorie-examen in een Vlaams examencentrum zijn afgelegd."
         }
       ],
       "uitzonderingen": [],

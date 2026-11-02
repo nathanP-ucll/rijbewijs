@@ -554,12 +554,13 @@
     var ctrl = Types[ex.type](ex);
     return ctrl;
   }
-  function head(ex, nr) {
+  function head(ex, nr, loc) {
     var d = ex.moeilijkheid || 1;
     return el('header', { class: 'ex-head' },
       nr != null ? el('span', { class: 'ex-num', 'aria-hidden': 'true' }, String(nr)) : null,
       el('span', { class: 'ex-type' }, TYPE_LABEL[ex.type] || ex.type),
       el('span', { class: 'ex-diff', title: 'Moeilijkheid ' + d + ' van 3' }, el('span', { class: 'sr' }, 'Moeilijkheid ' + d + ' van 3'), [1, 2, 3].map(function (i) { return el('i', { class: i <= d ? 'on' : '', 'aria-hidden': 'true' }); })),
+      loc && loc.nr ? el('a', { class: 'ex-loc', href: 'les' + loc.les + '.html#p' + loc.pagina, title: 'Ga naar dit onderdeel in de cursus' }, 'Onderdeel ' + loc.nr) : null,
       ex.gewicht === 'zwaar' ? el('span', { class: 'ex-heavy', title: 'Zware fout op het examen: -5 punten' }, 'Zware fout') : null);
   }
   function question(ex) {
@@ -616,7 +617,7 @@
       feedback('info', 'Dit is het juiste antwoord.', ex.uitleg);
       bShow.hidden = true; bRetry.hidden = false;
     });
-    art.appendChild(head(ex, opts.nr));
+    art.appendChild(head(ex, opts.nr, opts.nolink ? null : (App.C.exLoc && App.C.exLoc[ex.id])));
     art.appendChild(question(ex));
     art.appendChild(el('div', { class: 'ex-body' }, ctrl.el));
     art.appendChild(el('div', { class: 'ex-actions' }, bCheck, bShow, bRetry, bTheory));

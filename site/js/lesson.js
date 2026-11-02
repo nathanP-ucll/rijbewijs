@@ -134,6 +134,19 @@
     return el('div', { class: 'more' }, btn, panel);
   }
 
+  function chap(p) { return p.hn ? 'Hoofdstuk ' + p.hn + ' · ' + p.hoofdstuk : p.hoofdstuk; }
+  function kop(d, p, titel, eyebrow) {
+    d.appendChild(el('p', { class: 'eyebrow' }, eyebrow || chap(p)));
+    d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, p.nr ? el('span', { class: 'nr' }, p.nr) : null, p.nr ? ' ' : null, titel));
+  }
+  function leadSentence(t) { return el('p', { class: 'lead-sent', html: App.inline(t) }); }
+  function onthoud(txt) {
+    if (!txt) return null;
+    return el('aside', { class: 'onthoud' }, el('span', { class: 'onthoud-ic', html: App.icon('tip', 24) }), el('div', {}, el('p', { class: 'onthoud-l' }, 'Onthoud dit'), el('p', { class: 'onthoud-t', html: App.inline(txt) })));
+  }
+  var KADER_RANG = { zwarefout: 0, regel: 1, letop: 2, gewest: 3, tip: 4 };
+  function kadersSorted(b) { return (b.kaders || []).slice().sort(function (x, y) { return (KADER_RANG[x.type] == null ? 9 : KADER_RANG[x.type]) - (KADER_RANG[y.type] == null ? 9 : KADER_RANG[y.type]); }); }
+
   /* ---------- hoofdlogica ---------- */
   App.ready(function () {
     var wrap = document.getElementById('book-page'), barEl = document.getElementById('float-bar');
@@ -174,8 +187,7 @@
       var b = App.blokById(p.id);
       var d = el('section', { class: 'slide slide-blok' });
       if (!b) { d.textContent = 'Deze pagina ontbreekt.'; return d; }
-      d.appendChild(el('p', { class: 'eyebrow' }, p.hoofdstuk));
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
+      kop(d, p, App.clean(b.titel));
       var inTable = {};
       (b.regels || []).forEach(function (r) { if (r.code) inTable[r.code] = 1; if (r.bord) inTable[r.bord] = 1; });
       (b.kaarten || []).forEach(function (k) { inTable[k.afb] = 1; });
@@ -195,19 +207,37 @@
         d.appendChild(gal);
       }
       var kort = kortOf(b);
-      if (kort.length) d.appendChild(el('ul', { class: 'big-list' }, kort.map(function (t) { return el('li', { html: App.inline(t) }); })));
+      var lead = kort.length > 2 ? kort[0] : null;
+      var rest = lead ? kort.slice(1, 5) : kort.slice(0, 4);
+      if (lead) d.appendChild(leadSentence(lead));
+      if (rest.length) d.appendChild(el('ul', { class: 'big-list' }, rest.map(function (t) { return el('li', { html: App.inline(t) }); })));
       if (p.inline) d.appendChild(el('div', { class: 'card-grid' }, (b.regels || []).map(rowCard)));
-      var kad = (b.kaders || []).slice(0, 3);
+      var kads = kadersSorted(b);
+      var nKad = (p.kaders != null ? p.kaders : 1);
+      var kad = kads.slice(0, nKad);
       if (kad.length) d.appendChild(el('div', { class: 'kader-stack' }, kad.map(kaderShort)));
+      var extra = (p.ids || []).slice(1).map(App.blokById).filter(Boolean);
+      extra.forEach(function (eb) {
+        var sec = el('section', { class: 'merge-sec' }, el('h2', { class: 'merge-title' }, App.clean(eb.titel)));
+        var ek = kortOf(eb);
+        if (ek.length) sec.appendChild(el('ul', { class: 'big-list' }, ek.slice(0, 3).map(function (t) { return el('li', { html: App.inline(t) }); })));
+        var ekad = kadersSorted(eb)[0]; if (ekad) sec.appendChild(el('div', { class: 'kader-stack' }, kaderShort(ekad)));
+        d.appendChild(sec);
+      });
       var more = moreBox(b); if (more) d.appendChild(more);
+      if (!(p.mini && p.mini.length)) {
+        var k1 = kads.filter(function (x) { return x.type === 'regel' || x.type === 'zwarefout'; })[0];
+        var ot = onthoud(k1 && k1.tekst ? shortText(k1.tekst) : (kort[kort.length - 1] || ''));
+        if (ot) d.appendChild(ot);
+      }
       return d;
     }
 
     function pageRegels(p) {
       var b = App.blokById(p.id);
       var d = el('section', { class: 'slide slide-regels' });
-      d.appendChild(el('p', { class: 'eyebrow' }, p.hoofdstuk + (p.delen > 1 ? ' · deel ' + p.deel + ' van ' + p.delen : '')));
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
+      kop(d, p, App.clean(b.titel), chap(p) + (p.delen > 1 ? ' · deel ' + p.deel + ' van ' + p.delen : ''));
+      d.appendChild(leadSentence(p.kaart || (b.regels || []).some(function (r) { return App.imgInfo(r.code || r.bord); }) ? 'Bekijk elk bord goed en lees wat je moet doen.' : 'Dit zijn de belangrijkste gevallen, één voor één.'));
       var rows = (p.kaart ? b.kaarten : b.regels).slice(p.van, p.tot);
       var list = el('div', { class: 'kaart-list' });
       var lastG = null;
@@ -222,9 +252,18 @@
     function pageVergelijk(p) {
       var b = App.blokById(p.id);
       var d = el('section', { class: 'slide slide-vergelijk' });
-      d.appendChild(el('p', { class: 'eyebrow' }, p.hoofdstuk + ' · let op het verschil'));
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(b.titel)));
+      kop(d, p, App.clean(b.titel), chap(p) + ' · let op het verschil');
+      d.appendChild(leadSentence('Deze borden lijken op elkaar. Let goed op het verschil.'));
       d.appendChild(vergelijkKaart(b.vergelijk[p.v]));
+      return d;
+    }
+
+    function pageKaders(p) {
+      var b = App.blokById(p.id);
+      var d = el('section', { class: 'slide slide-kaders' });
+      kop(d, p, App.clean(b.titel), chap(p) + ' · goed om te weten');
+      d.appendChild(leadSentence('Nog een paar dingen die je zeker moet weten.'));
+      d.appendChild(el('div', { class: 'kader-stack' }, kadersSorted(b).slice(p.van, p.tot).map(kaderShort)));
       return d;
     }
 
@@ -242,11 +281,11 @@
       var ex = App.exById(p.ex);
       var b = p.blok ? App.blokById(p.blok) : null;
       var d = el('section', { class: 'slide slide-oef' });
-      d.appendChild(el('p', { class: 'eyebrow' }, 'Oefening' + (b ? ' · ' + App.clean(b.titel) : '')));
-      d.appendChild(el('h1', { class: 'sr', tabindex: '-1', id: 'page-title' }, 'Oefening'));
+      d.appendChild(el('p', { class: 'eyebrow' }, (p.nr ? p.nr + ' · ' : '') + 'Oefening' + (b ? ' · ' + App.clean(b.titel) : '')));
+      d.appendChild(el('h1', { class: 'sr', tabindex: '-1', id: 'page-title' }, 'Oefening ' + (p.nr || '')));
       if (!ex) { d.appendChild(el('p', {}, 'Deze oefening ontbreekt.')); return d; }
       var nr = pages.slice(0, idx + 1).filter(function (q) { return q.t === 'oef' && q.blok === p.blok; }).length;
-      App.mountExercise(ex, d, { nr: nr, onResult: function () { App.markDone(les, idx); paintBar(); } });
+      App.mountExercise(ex, d, { nr: nr, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } });
       return d;
     }
 
@@ -260,15 +299,17 @@
 
     function pageSamenvatting(p) {
       var d = el('section', { class: 'slide slide-sum' });
-      d.appendChild(el('p', { class: 'eyebrow' }, 'Samenvatting'));
+      d.appendChild(el('p', { class: 'eyebrow' }, 'Samenvatting les ' + les + (p.hn ? ' · hoofdstuk ' + p.hn : '')));
       d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, p.hoofdstuk));
+      d.appendChild(leadSentence('Dit zijn de belangrijkste punten van dit hoofdstuk.'));
       var list = el('ul', { class: 'sum-list' });
       pages.forEach(function (q, i) {
         if (q.t !== 'blok' || q.thema !== p.thema) return;
         var b = App.blokById(q.id); if (!b) return;
+        if (!q.nr) return;
         var k = (b.kaders || []).filter(function (x) { return x.type === 'regel' || x.type === 'zwarefout'; })[0];
         var txt = k ? shortText(k.tekst) : (kortOf(b)[0] || '');
-        list.appendChild(el('li', { class: k && k.type === 'zwarefout' ? 'sum-zwaar' : '' }, el('a', { href: '#p' + (i + 1) }, App.clean(b.titel)), el('span', { html: ' ' + App.inline(txt) })));
+        list.appendChild(el('li', { class: k && k.type === 'zwarefout' ? 'sum-zwaar' : '' }, el('a', { href: '#p' + (i + 1) }, el('span', { class: 'nr' }, q.par), ' ', App.clean(b.titel)), el('span', { html: ' ' + App.inline(txt) })));
       });
       d.appendChild(list);
       return d;
@@ -342,20 +383,40 @@
       document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(true); });
       bar.next.addEventListener('click', function () { if (cur < N - 1) App.markDone(les, cur); });
     }
+    var openChap = {};
     function paintToc() {
       bar.tocPop.innerHTML = '';
       bar.tocPop.appendChild(el('p', { class: 'pop-title' }, 'Les ' + les + ': ' + book.titel));
-      var lastChap = null, curK = tocOf(cur), list = el('ul', { class: 'pop-list' });
+      var curK = tocOf(cur), curP = pages[cur];
+      var wrapEl = el('div', { class: 'pop-body' });
+      function entry(i, k, label, num) {
+        var p = pages[i], done = App.isDone(les, rangeEnd(k));
+        var a = el('a', { href: '#p' + (i + 1), class: 'pop-link' + (k === curK ? ' current' : '') + (done ? ' done' : ''), 'aria-current': k === curK ? 'page' : null },
+          el('span', { class: 'pop-n', html: done ? App.icon('check', 14) : '' }), el('span', { class: 'pop-num' }, num || ''), el('span', { class: 'pop-t' }, label), done ? el('span', { class: 'sr' }, ' (gedaan)') : null);
+        return el('li', {}, a);
+      }
+      var chapters = {}, order = [], special = [];
       tocIdx.forEach(function (i, k) {
-        var p = pages[i], chap = p.t === 'blok' ? p.hoofdstuk : null;
-        if (chap && chap !== lastChap) { list.appendChild(el('li', { class: 'pop-chap' }, chap)); lastChap = chap; }
-        var done = App.isDone(les, rangeEnd(k));
-        var title = p.t === 'blok' ? App.clean(p.titel) : p.titel;
-        var a = el('a', { href: '#p' + (i + 1), class: 'pop-link' + (k === curK ? ' current' : '') + (p.t !== 'blok' ? ' pop-special' : '') + (done ? ' done' : ''), 'aria-current': k === curK ? 'page' : null },
-          el('span', { class: 'pop-n', html: done ? App.icon('check', 14) : String(i + 1) }), el('span', { class: 'pop-t' }, title), done ? el('span', { class: 'sr' }, ' (gedaan)') : null);
-        list.appendChild(el('li', {}, a));
+        var p = pages[i];
+        if (p.t === 'blok') { var h = p.hn; if (!chapters[h]) { chapters[h] = { hn: h, titel: p.hoofdstuk, items: [] }; order.push(h); } chapters[h].items.push([i, k]); }
+        else special.push([i, k]);
       });
-      bar.tocPop.appendChild(list);
+      wrapEl.appendChild(el('ul', { class: 'pop-list' }, special.filter(function (x) { return pages[x[0]].t === 'intro'; }).map(function (x) { return entry(x[0], x[1], 'Inleiding'); })));
+      order.forEach(function (h) {
+        var c = chapters[h];
+        var isCur = curP.hn === h && curP.t !== 'samenvatting';
+        var det = el('details', { class: 'pop-chapter' }, el('summary', {}, el('span', { class: 'pop-hn' }, 'H' + h), ' ', c.titel));
+        if (isCur || openChap[h]) det.open = true;
+        det.addEventListener('toggle', function () { openChap[h] = det.open; });
+        det.appendChild(el('ul', { class: 'pop-list' }, c.items.map(function (x) { var p = pages[x[0]]; return entry(x[0], x[1], App.clean(p.titel), p.par); })));
+        wrapEl.appendChild(det);
+      });
+      var end = special.filter(function (x) { return pages[x[0]].t !== 'intro'; });
+      if (end.length) {
+        wrapEl.appendChild(el('p', { class: 'pop-chap' }, 'Afsluiting'));
+        wrapEl.appendChild(el('ul', { class: 'pop-list' }, end.map(function (x) { return entry(x[0], x[1], pages[x[0]].titel); })));
+      }
+      bar.tocPop.appendChild(wrapEl);
     }
     function paintBar() {
       bar.count.innerHTML = 'Pagina <strong>' + (cur + 1) + '</strong> van ' + N;
@@ -380,6 +441,7 @@
       else if (p.t === 'blok') content = pageBlok(p);
       else if (p.t === 'regels') content = pageRegels(p);
       else if (p.t === 'vergelijk') content = pageVergelijk(p);
+      else if (p.t === 'kaders') content = pageKaders(p);
       else if (p.t === 'oef') content = pageOef(p, i);
       else if (p.t === 'extra') content = pageExtra();
       else if (p.t === 'samenvatting') content = pageSamenvatting(p);

@@ -45,3 +45,23 @@ Elke pagina is een goed gevulde, goed opgemaakte boekpagina: niet leeg en niet o
 - Maximum: past op één scherm zonder lange scroll op desktop; op mobiel mag een pagina scrollen maar blijft overzichtelijk.
 - Goede, korte, vlotte teksten in gewone taal; consequente stijl, witruimte, uitgelijnd raster; pagina's voelen even 'vol'.
 - De pagina-opbouw wordt door de engine automatisch uit de data samengesteld (kort/kaarten/vergelijk/paginas/schema's/kaders/mini), met herbruikbare pagina-sjablonen (bv. 'bordenpagina', 'regelpagina', 'schemapagina', 'vergelijkpagina', 'oefenpagina', 'samenvatting').
+
+## Het boek wordt GESCHREVEN, niet samengesteld (feedback gebruiker, 2026-11-03)
+Auto-samenstellen uit de onderzoeksdata (data/theorie) gaf rommel: rangorde, 2027-waarschuwing en borden door elkaar, afgebroken zinnen, 178 'pagina's'. Daarom:
+- data/theorie = ruwe feitenbron (alleen lezen voor het boek). Het boek zelf staat in data/boek/h<N>.json, met de hand geschreven per hoofdstuk, in didactische volgorde.
+- Doel: ca. 15-25 pagina's per hoofdstuk, ca. 30-40 per les (zo'n 1-2 uur). Elke pagina = één onderwerp met een duidelijke titel; geen onderwerpen mengen.
+- Formaat data/boek/h<N>.json:
+  { "hoofdstuk": 1, "titel": "Verkeersborden", "les": 1, "intro": { "tekst": "2 zinnen", "doelen": ["Je leert ...", ...] },
+    "paragrafen": [ { "nr": "1.1", "titel": "...", "paginas": [ Pagina ] } ],
+    "samenvatting": [ "korte punten, max 8" ] }
+  Pagina = { "id": "h1-1-1", "titel": "...", "intro": "1 korte zin", "blokken": [ Blok ], "theorieblokken": ["blok-id uit data/theorie"] }
+  Blok (één van):
+   { "type":"punten", "items":["korte zin", ... max 5] }
+   { "type":"kaarten", "items":[{ "afb":"bestandsnaam", "naam":"...", "uitleg":"max 12 woorden", "letop":"optioneel" }] }  // max 6 per pagina, geen code zichtbaar
+   { "type":"vergelijk", "titel":"...", "links":{ "afb":"..","tekst":".." }, "rechts":{ "afb":"..","tekst":".." }, "verschil":"1 zin" }
+   { "type":"schema", "afb":"schemanaam (uitlegversie)", "bijschrift":"1 zin", "punten":["..."] }
+   { "type":"kader", "soort":"regel|letop|zwarefout|tip|gewest", "titel":"...", "tekst":"1 volledige zin", "gewest":{"vlaanderen":"..","wallonie":"..","brussel":".."} }
+   { "type":"tabel", "kolommen":[".."], "rijen":[["..",".."]] }   // klein, max 6 rijen
+   { "type":"voorbeeld", "tekst":".." }
+- De mini-oefeningen en gewone oefeningen worden door de engine gekoppeld via 'theorieblokken': mini's (mini:true) van die theorieblokken komen onderaan de pagina; andere oefeningen komen als aparte oefenpagina's na de paragraaf (nr X.Y.K).
+- Regels: alleen feiten uit data/theorie (incl. kort/kaarten/vergelijk); niets uit docs/TE-CONTROLEREN-*.md; geen bordcodes of artikelnummers; korte zinnen, 'je'-vorm, geen afgebroken zinnen; 2027-wijzigingen NIET tussen de gewone pagina's maar enkel op één eigen pagina 'Wat verandert er in 2027?' aan het einde van het hoofdstuk (en alleen als de data dat bevestigt).

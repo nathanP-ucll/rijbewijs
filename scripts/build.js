@@ -277,7 +277,10 @@ oefeningen.forEach((o) => {
   o.theorieblok = target || null;
   if (target) (oefPerBlok[target] = oefPerBlok[target] || []).push(o.id);
 });
-const SIGN_CHUNK = 3, KAART_CHUNK = 3, CARD_CHUNK = 4, INLINE_MAX = 3;
+const SIGN_CHUNK = 6, KAART_CHUNK = 6, CARD_CHUNK = 4, INLINE_MAX = 3, MERGE_MAX = 3;
+function isSmall(b) {
+  return !(b.regels || []).length && !(b.kaarten || []).length && !(b.vergelijk || []).length && !(b.afbeeldingen || []).length && (b.kaders || []).length <= 1 && String(b.uitleg || '').length < 420;
+}
 function rowIsSign(r) { return !!(r && (r.code || r.bord || r.afb) && (bordFiles[r.code || r.bord || r.afb] || schemaFiles[r.afb] || demoFiles[r.afb])); }
 const exLookup = new Map(oefeningen.map((o) => [o.id, o]));
 const exLoc = {};
@@ -290,7 +293,14 @@ for (const les of [1, 2, 3, 4]) {
     const hoofdstuk = THEMA_NAMEN[th] || th;
     const hn = themaNr[th] || 0;
     let m = 0;
-    for (const b of blokken.filter((x) => x.thema === th)) {
+    const lijst = blokken.filter((x) => x.thema === th);
+    const groepen = [];
+    for (const b of lijst) {
+      const last = groepen[groepen.length - 1];
+      if (last && isSmall(b) && isSmall(last[0]) && last.length < MERGE_MAX && last.every(isSmall)) last.push(b); else groepen.push([b]);
+    }
+    for (const groep of groepen) {
+      const b = groep[0];
       m++;
       let k = 0;
       const num = (pg) => { k++; pg.hn = hn; pg.par = hn + '.' + m; pg.nr = hn + '.' + m + '.' + k; pg.hoofdstukNr = hn; return pg; };
@@ -298,7 +308,9 @@ for (const les of [1, 2, 3, 4]) {
       const rows = kaart ? b.kaarten : (b.regels || []);
       const chunk = kaart ? KAART_CHUNK : (rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK);
       const inline = !kaart && rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
-      const first = num({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline });
+      const first = num({ t: 'blok', id: b.id, ids: groep.map((x) => x.id), titel: groep.length > 1 ? groep.map((x) => x.titel).join(' · ') : b.titel, thema: th, hoofdstuk, toc: true, inline });
+      const extraKaders = Math.max(0, (b.kaders || []).length - 1);
+      first.kaders = 1;
       const theoryPages = [first];
       pages.push(first);
       if (rows.length && !inline) {
@@ -312,11 +324,15 @@ for (const les of [1, 2, 3, 4]) {
         const pg = num({ t: 'vergelijk', id: b.id, titel: b.titel, hoofdstuk, v: vi });
         pages.push(pg); theoryPages.push(pg);
       });
-      const blokOef = oefPerBlok[b.id] || [];
+      for (let p = 0; p < extraKaders; p += 3) {
+        const pg = num({ t: 'kaders', id: b.id, titel: b.titel, hoofdstuk, van: 1 + p, tot: Math.min(b.kaders.length, 1 + p + 3) });
+        pages.push(pg); theoryPages.push(pg);
+      }
+      const blokOef = groep.flatMap((x) => oefPerBlok[x.id] || []);
       const minis = blokOef.filter((id) => exLookup.get(id) && exLookup.get(id).mini);
       minis.forEach((id, j) => { const pg = theoryPages[Math.min(j, theoryPages.length - 1)]; (pg.mini = pg.mini || []).push(id); });
       blokOef.filter((id) => !minis.includes(id)).forEach((id) => pages.push(num({ t: 'oef', ex: id, blok: b.id, hoofdstuk, titel: 'Oefening' })));
-      placed.add(b.id);
+      groep.forEach((x) => placed.add(x.id));
     }
   }
   const lesEx = oefeningen.filter((o) => o.les === les && !o.theorieblok).map((o) => o.id);
@@ -333,7 +349,7 @@ for (const les of [1, 2, 3, 4]) {
   boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t, nr: themaNr[t] })), pages };
 }
 const blokPagina = {};
-for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if (p.t === 'blok') blokPagina[p.id] = { les: +les, pagina: i + 1 }; });
+for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if (p.t === 'blok') (p.ids || [p.id]).forEach((id) => { blokPagina[id] = { les: +les, pagina: i + 1 }; }); });
 
 // afbeeldingen van blokken resolven + bronnen controleren
 for (const b of theorie) {

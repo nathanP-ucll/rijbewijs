@@ -1,0 +1,2999 @@
+[
+  {
+    "id": "L1-001",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-indeling",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan de juiste soort.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Gevaarsbord",
+        "linksAfb": "A21"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Voorrangsbord",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verbodsbord",
+        "linksAfb": "C3"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Gebodsbord",
+        "linksAfb": "D5"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Bord over stilstaan of parkeren",
+        "linksAfb": "E1"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Aanwijzingsbord",
+        "linksAfb": "F4a"
+      }
+    ],
+    "uitleg": "De wegcode kent zes soorten borden: gevaar, voorrang, verbod, gebod, stilstaan en parkeren, en aanwijzing.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-004",
+      "BORD-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-002",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-indeling",
+    "type": "bord",
+    "vraag": "Tot welke soort hoort dit bord?",
+    "modus": "categorie",
+    "categorie": "A",
+    "antwoorden": [
+      "gevaar"
+    ],
+    "afbeelding": "A33",
+    "uitleg": "Dit bord waarschuwt voor verkeerslichten verderop. Het is dus een gevaarsbord.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-004",
+      "BORD-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-003",
+    "les": 1,
+    "onderwerp": "T02",
+    "theorieblok": "borden-indeling",
+    "type": "volgorde",
+    "vraag": "Zet de rangorde van belangrijkst naar minst belangrijk.",
+    "items": [
+      "Bevel van een bevoegd persoon (bv. een agent)",
+      "Verkeerstekens (bv. verkeersborden)",
+      "Gewone verkeersregels"
+    ],
+    "uitleg": "Bevelen van een bevoegd persoon gaan boven verkeerstekens. Verkeerstekens gaan boven de gewone verkeersregels.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-004",
+      "BORD-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-004",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-gevaar-weg",
+    "type": "koppel",
+    "vraag": "Koppel elk gevaarsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Gevaarlijke bocht naar links",
+        "linksAfb": "A1a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Gevaarlijke daling",
+        "linksAfb": "A3"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Beweegbare brug",
+        "linksAfb": "A9"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Glibberige rijbaan",
+        "linksAfb": "A15"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Vallende stenen",
+        "linksAfb": "A19"
+      }
+    ],
+    "uitleg": "Gevaarsborden waarschuwen voor een gevaarlijke plaats, zoals een bocht, een daling of een glad wegdek.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-006"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-005",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-gevaar-weggebruikers",
+    "type": "meerkeuze",
+    "vraag": "Wat kondigt dit bord aan?",
+    "opties": [
+      "Een overweg met slagbomen",
+      "Een overweg zonder slagbomen",
+      "Een kruising met sporen in de rijbaan",
+      "Verkeerslichten"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "A41",
+    "uitleg": "Dit bord kondigt een overweg met slagbomen aan.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-006",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-gevaar-weggebruikers",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Oversteekplaats voor voetgangers",
+      "Oversteekplaats voor fietsers en tweewielige bromfietsen",
+      "Plaats waar veel kinderen komen",
+      "Doortocht van vee"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "afbeelding": "A25",
+    "uitleg": "Het bord met een fiets waarschuwt voor een oversteekplaats voor fietsers en tweewielige bromfietsen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-007",
+    "les": 1,
+    "onderwerp": "T02",
+    "theorieblok": "borden-voorrang",
+    "type": "koppel",
+    "vraag": "Koppel elk voorrangsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrang verlenen",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Stoppen en voorrang verlenen",
+        "linksAfb": "B5"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Voorrangsweg",
+        "linksAfb": "B9"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde van de voorrangsweg",
+        "linksAfb": "B11"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Smalle doorgang: voorrang verlenen aan tegenliggers",
+        "linksAfb": "B19"
+      }
+    ],
+    "uitleg": "Voorrangsborden regelen wie voorrang heeft en wie voorrang moet verlenen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-008",
+    "les": 1,
+    "onderwerp": "T02",
+    "theorieblok": "borden-voorrang",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Bij dit bord moet je altijd stoppen.",
+    "juist": false,
+    "motivatie": "Bij het bord voorrang verlenen stop je enkel als dat nodig is om voorrang te verlenen. Bij het stopbord moet je wel altijd stoppen.",
+    "foutemotivaties": [
+      "Bij dit bord stop je alleen als er een politieagent staat.",
+      "Bij dit bord heb je zelf voorrang op het kruispunt."
+    ],
+    "afbeelding": "B1",
+    "uitleg": "Bij het bord voorrang verlenen stop je enkel als dat nodig is om voorrang te verlenen. Bij het stopbord moet je wel altijd stoppen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-009",
+    "les": 1,
+    "onderwerp": "T03",
+    "theorieblok": "borden-verbod-toegang",
+    "type": "koppel",
+    "vraag": "Koppel elk verbodsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verboden voor motorfietsen",
+        "linksAfb": "C7"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verboden voor bromfietsen",
+        "linksAfb": "C9"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verboden voor fietsers",
+        "linksAfb": "C11"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verboden voor ruiters",
+        "linksAfb": "C15"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verboden voor voetgangers",
+        "linksAfb": "C19"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Verboden voor autocars",
+        "linksAfb": "C22"
+      }
+    ],
+    "uitleg": "Verbodsborden leggen een verbod op, bijvoorbeeld voor bepaalde voertuigen of weggebruikers.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-010",
+    "les": 1,
+    "onderwerp": "T03",
+    "theorieblok": "borden-verbod-manoeuvres-snelheid",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Maximumsnelheid 70 km/u",
+      "Minimumsnelheid 70 km/u",
+      "Einde van de snelheidsbeperking",
+      "Aanbevolen snelheid 70 km/u"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "C43_70",
+    "uitleg": "Het getal op dit bord is de maximumsnelheid: je mag niet sneller rijden.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-011",
+    "les": 1,
+    "onderwerp": "T03",
+    "theorieblok": "borden-verbod-manoeuvres-snelheid",
+    "type": "meerkeuze",
+    "vraag": "Wat klopt voor het bord maximumsnelheid? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Het getal is de bovengrens",
+      "Het bord geldt tot en met het volgende kruispunt, tenzij een ander bord het beëindigt of wijzigt",
+      "Je moet precies de aangeduide snelheid rijden",
+      "Je mag sneller rijden als het droog weer is"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "Het getal is een bovengrens. Het bord geldt tot en met het volgende kruispunt, tenzij een ander bord het beëindigt of wijzigt.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-012",
+    "les": 1,
+    "onderwerp": "T04",
+    "theorieblok": "borden-gebod",
+    "type": "koppel",
+    "vraag": "Koppel elk gebodsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verplicht rechtdoor",
+        "linksAfb": "D1a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verplicht links afslaan",
+        "linksAfb": "D1e"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verplicht rondgaand verkeer (rotonde)",
+        "linksAfb": "D5"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verplicht fietspad",
+        "linksAfb": "D7"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verplichte weg voor voetgangers",
+        "linksAfb": "D11"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Verplichte weg voor ruiters",
+        "linksAfb": "D13"
+      }
+    ],
+    "uitleg": "Gebodsborden leggen een verplichting op, zoals een richting, een rotonde of een pad.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-013",
+    "les": 1,
+    "onderwerp": "T04",
+    "theorieblok": "borden-gebod",
+    "type": "meerkeuze",
+    "vraag": "Wat moet je doen bij dit bord?",
+    "opties": [
+      "Het rondgaand verkeer volgen in de aangeduide richting",
+      "Rechtdoor rijden",
+      "Stoppen en voorrang verlenen",
+      "Niet binnenrijden"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "D5",
+    "uitleg": "Bij een rotonde of plein met dit bord volg je het rondgaand verkeer in de aangeduide richting.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-014",
+    "les": 1,
+    "onderwerp": "T04",
+    "theorieblok": "borden-gebod",
+    "type": "meerkeuze",
+    "vraag": "Wie moet dit verplichte fietspad volgen? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Fietsers",
+      "Tweewielige bromfietsen klasse A",
+      "Ruiters",
+      "Bestuurders van een personenwagen"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "afbeelding": "D7",
+    "uitleg": "Fietsers en tweewielige bromfietsen klasse A moeten dit fietspad volgen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-015",
+    "les": 1,
+    "onderwerp": "T05",
+    "theorieblok": "borden-parkeren-verbod",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Bij dit bord mag je wel kort stilstaan om in of uit te stappen.",
+    "juist": true,
+    "motivatie": "Het bord verbiedt enkel parkeren. Kort stilstaan (in- en uitstappen, laden en lossen) mag wel.",
+    "foutemotivaties": [
+      "Het bord verbiedt zowel stilstaan als parkeren, maar enkel 's nachts.",
+      "Het bord geldt alleen voor vrachtwagens."
+    ],
+    "afbeelding": "E1",
+    "uitleg": "Het bord verbiedt enkel parkeren. Kort stilstaan (in- en uitstappen, laden en lossen) mag wel.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-016",
+    "les": 1,
+    "onderwerp": "T05",
+    "theorieblok": "borden-parkeren-toegelaten",
+    "type": "koppel",
+    "vraag": "Koppel elk parkeerbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Parkeerplaats voorbehouden voor personen met een handicap",
+        "linksAfb": "E9a_Handicap"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Parkeren voor autocars",
+        "linksAfb": "E9d"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Parkeren voor kampeerwagens",
+        "linksAfb": "E9h"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Parkeren voor motorfietsen",
+        "linksAfb": "E9i"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verplicht parkeren op de rijbaan",
+        "linksAfb": "E9g"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Verplicht parkeren op de berm of het trottoir",
+        "linksAfb": "E9e"
+      }
+    ],
+    "uitleg": "Parkeerborden tonen waar je mag parkeren of voor wie een plaats voorbehouden is.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-017",
+    "les": 1,
+    "onderwerp": "T05",
+    "theorieblok": "borden-parkeren-toegelaten",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Parkeren toegelaten met parkeerschijf (beperkte parkeertijd)",
+      "Parkeren verboden",
+      "Parkeren enkel voor bewoners",
+      "Parkeren voor personen met een handicap"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "E9a_Parkeerschijf",
+    "uitleg": "Met de parkeerschijf is de parkeertijd beperkt en moet je de schijf gebruiken.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-018",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-zones-bebouwde-kom",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Begin woonerf of erf",
+      "Begin zone 30",
+      "Begin voetgangerszone",
+      "Begin bebouwde kom"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "F12a",
+    "uitleg": "Dit bord geeft het begin van een woonerf of erf aan.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-019",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-zones-bebouwde-kom",
+    "type": "invul",
+    "vraag": "Hoeveel km/u mag je maximaal rijden in het gebied dat met dit bord begint?",
+    "antwoorden": [
+      "30"
+    ],
+    "eenheid": "km/u",
+    "afbeelding": "F4a",
+    "uitleg": "In een zone 30 mag je maximaal 30 km/u rijden.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-020",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-snelweg-autoweg",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van een autosnelweg",
+        "linksAfb": "F5"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van een autosnelweg",
+        "linksAfb": "F7"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Autoweg",
+        "linksAfb": "F9"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde van een autoweg",
+        "linksAfb": "F11"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Tunnel",
+        "linksAfb": "F8"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Noodstopstrook",
+        "linksAfb": "F95"
+      }
+    ],
+    "uitleg": "Aanwijzingsborden geven informatie, bijvoorbeeld over autosnelwegen, autowegen en tunnels.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-021",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-rijstroken",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Doodlopende weg, behalve voor voetgangers en fietsers",
+      "Doodlopende weg voor alle weggebruikers",
+      "Eenrichtingsverkeer",
+      "Einde van de weg voor voetgangers"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "F45b",
+    "uitleg": "Dit bord toont een doodlopende weg waar voetgangers en fietsers wel door kunnen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-022",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-busstrook",
+    "type": "meerkeuze",
+    "vraag": "Wanneer mag je als ander voertuig op de busstrook rijden? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Om een hindernis op de rijbaan te omzeilen",
+      "Om een oprit of parkeerplaats langs de busstrook in of uit te rijden",
+      "Om sneller vooruit te komen in de file",
+      "Om de busstrook als extra rijstrook te gebruiken"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "afbeelding": "F17",
+    "uitleg": "Andere voertuigen mogen de busstrook gebruiken om een hindernis te omzeilen of een oprit of parkeerplaats langs de busstrook in of uit te rijden.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-023",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-wegwijzers-voorzieningen",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan de juiste voorziening.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verplegingsinrichting",
+        "linksAfb": "F53"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Parking",
+        "linksAfb": "F59"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Noodtelefoon",
+        "linksAfb": "F62"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Tankstation",
+        "linksAfb": "F63"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Restaurant",
+        "linksAfb": "F67"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Kampeerterrein",
+        "linksAfb": "F71"
+      }
+    ],
+    "uitleg": "Deze aanwijzingsborden tonen voorzieningen langs de weg.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-024",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-zwakke-weggebruikers",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin voetgangerszone",
+        "linksAfb": "F103"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde voetgangerszone",
+        "linksAfb": "F105"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verplichte weg voor voetgangers",
+        "linksAfb": "D11"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verplichte weg voor ruiters",
+        "linksAfb": "D13"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verboden voor voetgangers",
+        "linksAfb": "C19"
+      },
+      {
+        "links": "Bord 6",
+        "rechts": "Verplicht fietspad",
+        "linksAfb": "D7"
+      }
+    ],
+    "uitleg": "Deze borden hebben te maken met voetgangers, fietsers en ruiters.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-025",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-zwakke-weggebruikers",
+    "type": "meerkeuze",
+    "vraag": "Wie heeft toegang in het gebied dat met dit bord begint?",
+    "opties": [
+      "Enkel voetgangers, met enkele uitzonderingen",
+      "Alle voertuigen aan maximaal 30 km/u",
+      "Enkel fietsers",
+      "Alle weggebruikers aan 20 km/u"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "F103",
+    "uitleg": "In een voetgangerszone hebben enkel voetgangers toegang, met enkele uitzonderingen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-026",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-zonale-geldigheid",
+    "type": "meerkeuze",
+    "vraag": "Welke borden kunnen een hele zone aanduiden (zonale geldigheid)? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Parkeerverbod",
+      "Stilstaan- en parkeerverbod",
+      "Verbod te keren",
+      "Verboden richting"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "Alle verbodsborden en parkeerborden kunnen een zone aanduiden, behalve enkele: verboden richting, afslaan, keren en de tolpost kunnen dat niet.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-007"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-027",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-onderborden",
+    "type": "koppel",
+    "vraag": "Koppel elk onderbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Uitgezonderd fietsers",
+        "linksAfb": "M2"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Uitgezonderd fietsers en bromfietsen klasse A",
+        "linksAfb": "M3"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Bromfietsen klasse B moeten het fietspad volgen",
+        "linksAfb": "M6"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Bromfietsen klasse B mogen het fietspad niet volgen",
+        "linksAfb": "M7"
+      }
+    ],
+    "uitleg": "Een onderbord vult een bord aan: het zegt voor wie het bord niet of net wel geldt.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-028",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-strepen",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Een onderbroken witte streep met korte trekken dicht bij elkaar kondigt een {{1}} streep aan.",
+    "gaten": [
+      {
+        "opties": [
+          "doorlopende",
+          "gele",
+          "oranje"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "Een onderbroken streep met korte trekken dicht bij elkaar kondigt een doorlopende streep aan.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-029",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-strepen",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent een gele onderbroken streep op de rand van de rijbaan?",
+    "opties": [
+      "Parkeren op de rijbaan langs de streep is verboden",
+      "Stilstaan en parkeren zijn overal verboden",
+      "Je mag niet inhalen",
+      "Hier ligt een fietspad"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Langs een gele onderbroken streep op de rand van de rijbaan is parkeren op de rijbaan verboden.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-030",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-dwars-pijlen",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent een rij witte driehoeken dwars op de weg?",
+    "opties": [
+      "Je moet hier zo nodig stoppen om voorrang te verlenen",
+      "Je moet hier altijd stoppen",
+      "Oversteekplaats voor voetgangers",
+      "Hier mag je niet rijden, stilstaan of parkeren"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Bij haaientanden moet je enkel stoppen als dat nodig is om voorrang te verlenen.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": true
+  },
+  {
+    "id": "L1-031",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-dwars-pijlen",
+    "type": "invul",
+    "vraag": "Hoeveel meter voor een oversteekplaats voor voetgangers is stilstaan en parkeren op de rijbaan verboden?",
+    "antwoorden": [
+      "5",
+      "vijf"
+    ],
+    "eenheid": "m",
+    "uitleg": "Stilstaan en parkeren is verboden op een oversteekplaats voor voetgangers en op de rijbaan binnen 5 meter ervoor.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-032",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-overzicht-gewest",
+    "type": "tabel",
+    "vraag": "Vul de maximumsnelheid in zonder bord (in km/u).",
+    "kolommen": [
+      "Vlaanderen",
+      "Wallonië",
+      "Brussel"
+    ],
+    "rijen": [
+      {
+        "label": "Binnen de bebouwde kom",
+        "cellen": [
+          {
+            "correct": "50",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "50",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "30",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Gewone weg buiten de bebouwde kom",
+        "cellen": [
+          {
+            "correct": "70",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "90",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "70",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          }
+        ]
+      },
+      {
+        "label": "Autosnelweg",
+        "cellen": [
+          {
+            "correct": "120",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "120",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          },
+          {
+            "correct": "120",
+            "opties": [
+              "30",
+              "50",
+              "70",
+              "90",
+              "120"
+            ]
+          }
+        ]
+      }
+    ],
+    "uitleg": "Zonder bord geldt: Brussel 30 en de rest 50 in de bebouwde kom; Wallonië 90 en de rest 70 buiten de bebouwde kom; autosnelweg overal 120.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-033",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-overzicht-gewest",
+    "type": "cloze",
+    "vraag": "Vul de snelheden in (km/u).",
+    "tekst": "In de bebouwde kom geldt zonder bord in Brussel {{1}} en in Vlaanderen en Wallonië {{2}}. Buiten de bebouwde kom is de standaard in Wallonië {{3}} en in Vlaanderen en Brussel {{4}}.",
+    "gaten": [
+      {
+        "opties": [],
+        "antwoorden": [
+          "30"
+        ]
+      },
+      {
+        "opties": [],
+        "antwoorden": [
+          "50"
+        ]
+      },
+      {
+        "opties": [],
+        "antwoorden": [
+          "90"
+        ]
+      },
+      {
+        "opties": [],
+        "antwoorden": [
+          "70"
+        ]
+      }
+    ],
+    "uitleg": "Onthoud: bebouwde kom Brussel 30, de rest 50. Buiten de bebouwde kom Wallonië 90, de rest 70.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-034",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-overzicht-gewest",
+    "type": "meerkeuze",
+    "vraag": "Hoeveel km/u mag je in Vlaanderen maximaal rijden op een gewone weg buiten de bebouwde kom, zonder bord?",
+    "opties": [
+      "50",
+      "70",
+      "90",
+      "120"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "Sinds 2017 is de standaard buiten de bebouwde kom in Vlaanderen 70 km/u. 90 geldt enkel waar het bord 90 staat.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-035",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-bebouwde-kom",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Of je in de bebouwde kom rijdt, beslis je zelf aan de hand van het aantal huizen.",
+    "juist": false,
+    "motivatie": "Alleen de borden begin en einde van de bebouwde kom leggen de grens vast.",
+    "foutemotivaties": [
+      "De bebouwde kom begint altijd bij het eerste huis.",
+      "Het hangt af van het soort voertuig dat je bestuurt."
+    ],
+    "uitleg": "Alleen de borden begin en einde van de bebouwde kom leggen de grens vast.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-004"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-036",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-brussel-30",
+    "type": "meerkeuze",
+    "vraag": "In welke gewesten is de maximumsnelheid in de bebouwde kom zonder bord 50 km/u? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Vlaanderen",
+      "Wallonië",
+      "Brussels Hoofdstedelijk Gewest"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "In Vlaanderen en Wallonië is het 50 km/u in de bebouwde kom. In Brussel is het sinds 1 januari 2021 30 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-004",
+      "SNEL-006"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-037",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-buiten-bebouwde-kom",
+    "type": "koppel",
+    "vraag": "Koppel elke situatie (zonder bord) aan de maximumsnelheid.",
+    "paren": [
+      {
+        "links": "Brussel, in de bebouwde kom",
+        "rechts": "30 km/u"
+      },
+      {
+        "links": "Vlaanderen, in de bebouwde kom",
+        "rechts": "50 km/u"
+      },
+      {
+        "links": "Vlaanderen, gewone weg buiten de bebouwde kom",
+        "rechts": "70 km/u"
+      },
+      {
+        "links": "Wallonië, gewone weg buiten de bebouwde kom",
+        "rechts": "90 km/u"
+      },
+      {
+        "links": "Autosnelweg, in elk gewest",
+        "rechts": "120 km/u"
+      }
+    ],
+    "uitleg": "Brussel: 30 in de bebouwde kom. Vlaanderen: 50, en 70 buiten de kom. Wallonië: 90 buiten de kom. Autosnelweg: overal 120.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-038",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-buiten-bebouwde-kom",
+    "type": "meerkeuze",
+    "vraag": "Je rijdt in Vlaanderen buiten de bebouwde kom op een weg met twee rijstroken per richting, gescheiden door enkel witte strepen. Er staat geen bord. Hoeveel km/u mag je maximaal?",
+    "opties": [
+      "70",
+      "90",
+      "100",
+      "120"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Als de twee rijrichtingen enkel door markeringen gescheiden zijn, geldt de gewone limiet: 70 in Vlaanderen. Voor 120 is een fysieke middenberm nodig.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "zwaar",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-039",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-autosnelweg-autoweg",
+    "type": "cloze",
+    "vraag": "Vul in.",
+    "tekst": "Op een autosnelweg is de maximumsnelheid {{1}} km/u en de minimumsnelheid {{2}} km/u.",
+    "gaten": [
+      {
+        "opties": [],
+        "antwoorden": [
+          "120"
+        ]
+      },
+      {
+        "opties": [],
+        "antwoorden": [
+          "70"
+        ]
+      }
+    ],
+    "uitleg": "Op de autosnelweg geldt in elk gewest een maximum van 120 km/u en een minimum van 70 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-040",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-autosnelweg-autoweg",
+    "type": "meerkeuze",
+    "vraag": "Wat klopt voor de autosnelweg? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Voertuigen die op een vlakke weg geen 70 km/u kunnen halen, mogen er niet op",
+      "De maximumsnelheid is in elk gewest 120 km/u, tenzij een bord een lagere snelheid oplegt",
+      "Er geldt geen minimumsnelheid",
+      "Je mag altijd 120 rijden, ook bij dichte mist"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "Op de autosnelweg is het maximum 120 en het minimum 70. Voertuigen die op een vlakke weg geen 70 halen, mogen er niet op.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-041",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-zone-30",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin zone 30: maximaal 30 km/u",
+        "linksAfb": "F4a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde zone 30",
+        "linksAfb": "F4b"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Begin woonerf of erf: maximaal 20 km/u",
+        "linksAfb": "F12a"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde woonerf of erf",
+        "linksAfb": "F12b"
+      }
+    ],
+    "uitleg": "Zone 30 is 30 km/u, woonerf of erf is 20 km/u. Het einde-bord beëindigt de zone.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-042",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-zone-30",
+    "type": "meerkeuze",
+    "vraag": "Wat betekent dit bord?",
+    "opties": [
+      "Einde zone 30",
+      "Einde bebouwde kom",
+      "Einde woonerf of erf",
+      "Einde van de snelheidsbeperking"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "afbeelding": "F4b",
+    "uitleg": "Dit bord geeft het einde van een zone 30 aan.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-043",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-woonerf-erf",
+    "type": "meerkeuze",
+    "vraag": "Hoeveel km/u mag je maximaal rijden in een woonerf of erf?",
+    "opties": [
+      "10",
+      "20",
+      "30",
+      "50"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "In een woonerf of erf is de snelheid beperkt tot 20 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "zwaar",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-044",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-woonerf-erf",
+    "type": "meerkeuze",
+    "vraag": "Wat geldt in een woonerf of erf? Kruis alle juiste antwoorden aan.",
+    "opties": [
+      "Voetgangers mogen de hele breedte van de weg gebruiken",
+      "Je mag maximaal 20 km/u rijden",
+      "Je mag overal parkeren",
+      "Spelen op de weg is verboden"
+    ],
+    "correct": [
+      0,
+      1
+    ],
+    "meerdere": true,
+    "uitleg": "In een woonerf of erf mogen voetgangers de hele weg gebruiken en spelen, en geldt maximaal 20 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-004"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-045",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-schoolomgeving",
+    "type": "meerkeuze",
+    "vraag": "Je verlaat in Brussel een schoolomgeving en je zit nog in de bebouwde kom. Hoeveel km/u geldt er zonder bord?",
+    "opties": [
+      "20",
+      "30",
+      "50",
+      "70"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "In Brussel is 30 km/u de standaard in de bebouwde kom, dus ook na de schoolomgeving.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "zwaar",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-046",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-c43-zones",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "Een gewoon snelheidsbord geldt tot en met het volgende {{1}}.",
+    "gaten": [
+      {
+        "opties": [],
+        "antwoorden": [
+          "kruispunt"
+        ]
+      }
+    ],
+    "uitleg": "Een gewoon snelheidsbord geldt tot en met het volgende kruispunt, tenzij een ander bord het beëindigt.",
+    "bronnen": [
+      "SNEL-001"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-047",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-voertuigtype",
+    "type": "koppel",
+    "vraag": "Koppel elk voertuig aan zijn maximumsnelheid.",
+    "paren": [
+      {
+        "links": "Bromfiets klasse A",
+        "rechts": "25 km/u"
+      },
+      {
+        "links": "Bromfiets klasse B",
+        "rechts": "45 km/u"
+      },
+      {
+        "links": "Bus op een gewone weg",
+        "rechts": "75 km/u"
+      },
+      {
+        "links": "Voertuig boven 7,5 ton op luchtbanden, gewone weg",
+        "rechts": "60 km/u"
+      },
+      {
+        "links": "Voertuig boven 3,5 ton op de autosnelweg",
+        "rechts": "90 km/u"
+      }
+    ],
+    "uitleg": "Voor bepaalde voertuigen gelden lagere limieten bovenop de snelheid van de weg.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002"
+    ],
+    "moeilijkheid": 3,
+    "gewicht": "zwaar",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-048",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-voertuigtype",
+    "type": "meerkeuze",
+    "vraag": "Wat bepaalt de snelheidsregel voor een auto met aanhangwagen?",
+    "opties": [
+      "De maximale toegelaten massa van de hele combinatie",
+      "Enkel de massa van de auto",
+      "Enkel de massa van de aanhangwagen",
+      "De leeftijd van de bestuurder"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Met een aanhangwagen telt de maximale toegelaten massa van de hele combinatie.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": true,
+    "eindtest": false
+  },
+  {
+    "id": "L1-049",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-aangepast",
+    "type": "cloze",
+    "vraag": "Vul aan.",
+    "tekst": "De maximumsnelheid is een {{1}}. Je past je snelheid altijd aan de {{2}} aan, zoals weer, zicht en drukte.",
+    "gaten": [
+      {
+        "opties": [
+          "maximum",
+          "minimum",
+          "aanbeveling"
+        ],
+        "correct": 0
+      },
+      {
+        "opties": [
+          "omstandigheden",
+          "kleur van je voertuig",
+          "merk van je voertuig"
+        ],
+        "correct": 0
+      }
+    ],
+    "uitleg": "De maximumsnelheid is een bovengrens. Je past je snelheid aan weer, zicht en drukte aan.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003"
+    ],
+    "moeilijkheid": 2,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": true
+  },
+  {
+    "id": "L1-050",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-actualiteit",
+    "type": "waaronwaar",
+    "vraag": "Juist of onjuist?",
+    "stelling": "Voor het theorie-examen van nu gelden de huidige snelheidsregels.",
+    "juist": true,
+    "motivatie": "De nieuwe wegcode is uitgesteld tot 1 juni 2027. Tot dan blijven de huidige regels gelden.",
+    "foutemotivaties": [
+      "De nieuwe snelheidsregels gelden al sinds 2026.",
+      "Snelheidsregels zijn voor het examen niet nodig."
+    ],
+    "uitleg": "De nieuwe wegcode is uitgesteld tot 1 juni 2027. Tot dan blijven de huidige regels gelden.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false
+  },
+  {
+    "id": "L1-M01",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-indeling",
+    "type": "koppel",
+    "vraag": "Sleep elke soort bord naar de juiste betekenis.",
+    "paren": [
+      {
+        "links": "Gevaarsborden",
+        "rechts": "Waarschuwen voor een gevaar",
+        "linksAfb": "A21"
+      },
+      {
+        "links": "Voorrangsborden",
+        "rechts": "Regelen wie voorrang heeft of moet verlenen",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Verbodsborden",
+        "rechts": "Leggen een verbod op",
+        "linksAfb": "C3"
+      },
+      {
+        "links": "Gebodsborden",
+        "rechts": "Leggen een verplichting op",
+        "linksAfb": "D5"
+      },
+      {
+        "links": "Borden over stilstaan en parkeren",
+        "rechts": "Verbieden of regelen stilstaan en parkeren",
+        "linksAfb": "E1"
+      },
+      {
+        "links": "Aanwijzingsborden",
+        "rechts": "Geven informatie of aanwijzingen",
+        "linksAfb": "F4a"
+      }
+    ],
+    "uitleg": "Zes soorten borden, elk met een eigen taak.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-004",
+      "BORD-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M02",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-gevaar-weg",
+    "type": "koppel",
+    "vraag": "Koppel elk gevaarsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Gevaarlijke bocht naar rechts",
+        "linksAfb": "A1b"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Steile helling",
+        "linksAfb": "A5"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Uitweg op een kaai of oever",
+        "linksAfb": "A11"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Kiezelprojectie: losse steentjes",
+        "linksAfb": "A17"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verkeersdrempel of -plateau",
+        "linksAfb": "A14"
+      }
+    ],
+    "uitleg": "Gevaarsborden waarschuwen voor een gevaar op de weg.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M03",
+    "les": 1,
+    "onderwerp": "T01",
+    "theorieblok": "borden-gevaar-weggebruikers",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Doortocht van groot wild",
+        "linksAfb": "A27"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Doortocht van vee",
+        "linksAfb": "A29"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Werken",
+        "linksAfb": "A31"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Zijwind",
+        "linksAfb": "A37"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verkeerslichten",
+        "linksAfb": "A33"
+      }
+    ],
+    "uitleg": "Deze gevaarsborden waarschuwen voor dieren, werken, wind en verkeerslichten.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M04",
+    "les": 1,
+    "onderwerp": "T02",
+    "theorieblok": "borden-voorrang",
+    "type": "koppel",
+    "vraag": "Koppel elk voorrangsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrangsweg",
+        "linksAfb": "B9"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van de voorrangsweg",
+        "linksAfb": "B11"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Kruispunt met voorrang van rechts",
+        "linksAfb": "B17"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Smalle doorgang: voorrang verlenen aan tegenliggers",
+        "linksAfb": "B19"
+      }
+    ],
+    "uitleg": "Voorrangsborden regelen wie voorrang heeft.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M05",
+    "les": 1,
+    "onderwerp": "T02",
+    "theorieblok": "borden-voorrang",
+    "type": "koppel",
+    "vraag": "Een aankondiging komt vóór het eigenlijke bord. Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorrang verlenen: hier geldt de regel zelf",
+        "linksAfb": "B1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Aankondiging: voorrang verlenen komt nog, op de aangeduide afstand verderop",
+        "linksAfb": "B3"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Aankondiging: het bord stoppen en voorrang verlenen komt nog",
+        "linksAfb": "B7"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Aankondiging: het einde van de voorrangsweg komt nog",
+        "linksAfb": "B13"
+      }
+    ],
+    "uitleg": "Een aankondigingsbord waarschuwt dat het eigenlijke bord nog komt, op de aangeduide afstand. Het eigenlijke bord legt de regel op.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M06",
+    "les": 1,
+    "onderwerp": "T03",
+    "theorieblok": "borden-verbod-toegang",
+    "type": "koppel",
+    "vraag": "Koppel elk verbodsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verboden richting",
+        "linksAfb": "C1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verboden voor gespannen",
+        "linksAfb": "C13"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verboden voor handkarren",
+        "linksAfb": "C17"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verboden voor voertuigen breder dan aangeduid",
+        "linksAfb": "C27"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verboden voor voertuigen hoger dan aangeduid",
+        "linksAfb": "C29"
+      }
+    ],
+    "uitleg": "Verbodsborden verbieden de toegang voor bepaalde voertuigen of afmetingen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M07",
+    "les": 1,
+    "onderwerp": "T03",
+    "theorieblok": "borden-verbod-manoeuvres-snelheid",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verbod rechts af te slaan aan het volgende kruispunt",
+        "linksAfb": "C31b"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Inhaalverbod",
+        "linksAfb": "C35"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Einde van het inhaalverbod",
+        "linksAfb": "C37"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde van de snelheidsbeperking",
+        "linksAfb": "C45_50"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Einde van alle verbodsbepalingen",
+        "linksAfb": "C46"
+      }
+    ],
+    "uitleg": "Veel verbodsborden hebben een eigen einde-bord.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M08",
+    "les": 1,
+    "onderwerp": "T04",
+    "theorieblok": "borden-gebod",
+    "type": "koppel",
+    "vraag": "Koppel elk gebodsbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verplicht rechts afslaan",
+        "linksAfb": "D1f"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verplicht rechtdoor of links",
+        "linksAfb": "D3a"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verplicht rechtdoor of rechts",
+        "linksAfb": "D3b"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verplicht rondgaand verkeer",
+        "linksAfb": "D5"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verplichte weg voor voetgangers",
+        "linksAfb": "D11"
+      }
+    ],
+    "uitleg": "Gebodsborden leggen een verplichting op.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M09",
+    "les": 1,
+    "onderwerp": "T05",
+    "theorieblok": "borden-parkeren-verbod",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Parkeerverbod",
+        "linksAfb": "E1"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Stilstaan en parkeren verboden",
+        "linksAfb": "E3"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Beurtelings parkeren: verbod van de 1e tot de 15e",
+        "linksAfb": "E5"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Beurtelings parkeren: verbod van de 16e tot het einde van de maand",
+        "linksAfb": "E7"
+      }
+    ],
+    "uitleg": "Bij een parkeerverbod mag je kort stilstaan, bij het stilstaanverbod niet.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M10",
+    "les": 1,
+    "onderwerp": "T05",
+    "theorieblok": "borden-parkeren-toegelaten",
+    "type": "koppel",
+    "vraag": "Koppel elk parkeerbord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Parkeren voor bestelwagens en vrachtauto's",
+        "linksAfb": "E9c"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Parkeren voor autocars",
+        "linksAfb": "E9d"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verplicht parkeren deels op de berm of het trottoir",
+        "linksAfb": "E9f"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Parkeren voor kampeerwagens",
+        "linksAfb": "E9h"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Parkeren met een tijdsgebonden regeling",
+        "linksAfb": "E9j"
+      }
+    ],
+    "uitleg": "De parkeerborden tonen voor wie of hoe je mag parkeren.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M11",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-zones-bebouwde-kom",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van de bebouwde kom",
+        "linksAfb": "F1a_horizontaal"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van de bebouwde kom",
+        "linksAfb": "F3a_horizontaal"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Begin zone 30",
+        "linksAfb": "F4a"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde zone 30",
+        "linksAfb": "F4b"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Begin woonerf of erf",
+        "linksAfb": "F12a"
+      }
+    ],
+    "uitleg": "Deze borden tonen waar speciale regels beginnen en eindigen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M12",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-snelweg-autoweg",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Nummer van een gewone weg",
+        "linksAfb": "F23a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Nummer van een autosnelweg",
+        "linksAfb": "F23b"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Vluchthaven",
+        "linksAfb": "F98"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Nooduitgang in een tunnel",
+        "linksAfb": "F52"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Tunnel",
+        "linksAfb": "F8"
+      }
+    ],
+    "uitleg": "Aanwijzingsborden voor wegnummers, tunnels en noodplaatsen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M13",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-aanwijzing-rijstroken",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Kies een rijstrook volgens de pijlen",
+        "linksAfb": "F13"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Opstelvak voor fietsers en tweewielige bromfietsen",
+        "linksAfb": "F14"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Eenrichtingsverkeer",
+        "linksAfb": "F19"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Links of rechts voorbijrijden toegelaten",
+        "linksAfb": "F21"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Doodlopende weg",
+        "linksAfb": "F45"
+      }
+    ],
+    "uitleg": "Deze borden regelen rijstroken en eenrichtingsverkeer.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M14",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-busstrook",
+    "type": "koppel",
+    "vraag": "Koppel elk begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Busstrook",
+        "rechts": "Maakt geen deel uit van de rijbaan",
+        "linksAfb": "F17"
+      },
+      {
+        "links": "Toegelaten voertuigen",
+        "rechts": "Voertuigen van geregelde diensten voor openbaar vervoer"
+      },
+      {
+        "links": "Fietsers die de busstrook mogen volgen",
+        "rechts": "Rijden achter elkaar"
+      }
+    ],
+    "uitleg": "De busstrook is bedoeld voor het openbaar vervoer.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M15",
+    "les": 1,
+    "onderwerp": "T06",
+    "theorieblok": "borden-wegwijzers-voorzieningen",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Voorwegwijzer",
+        "linksAfb": "F25"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Wegwijzer",
+        "linksAfb": "F29"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Plaatsnaambord",
+        "linksAfb": "F43"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Einde van de werken",
+        "linksAfb": "F47"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Toeristische informatie",
+        "linksAfb": "F77"
+      }
+    ],
+    "uitleg": "Deze borden geven informatie over bestemmingen en voorzieningen.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-008"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M16",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-zwakke-weggebruikers",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Verplichte weg voor ruiters",
+        "linksAfb": "D13"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Verboden voor ruiters",
+        "linksAfb": "C15"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Einde voetgangerszone",
+        "linksAfb": "F105"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Verboden voor fietsers",
+        "linksAfb": "C11"
+      },
+      {
+        "links": "Bord 5",
+        "rechts": "Verplicht fietspad",
+        "linksAfb": "D7"
+      }
+    ],
+    "uitleg": "Deze borden gaan over voetgangers, fietsers en ruiters.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M17",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-zonale-geldigheid",
+    "type": "koppel",
+    "vraag": "Koppel elk begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Begin van een zone",
+        "rechts": "Bord met witte achtergrond rechts aan elke toegang"
+      },
+      {
+        "links": "Einde van een zone",
+        "rechts": "Een eigen eindebord"
+      },
+      {
+        "links": "Herhaling in de zone",
+        "rechts": "Het woord \"Herhaling\" op het bord"
+      },
+      {
+        "links": "Maximum aan de toegang tot een zone",
+        "rechts": "Twee reglementeringen"
+      }
+    ],
+    "uitleg": "Een zonaal bord geldt op alle wegen in de zone.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M18",
+    "les": 1,
+    "onderwerp": "T07",
+    "theorieblok": "borden-onderborden",
+    "type": "koppel",
+    "vraag": "Koppel elk begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Wit opschrift op blauwe achtergrond",
+        "rechts": "Normale onderborden"
+      },
+      {
+        "links": "Zwart op wit",
+        "rechts": "Onderborden voor fietsen, voortbewegingstoestellen en tweewielige bromfietsen"
+      },
+      {
+        "links": "Tijdsaanduiding op een onderbord",
+        "rechts": "Beperkt het bord tot bepaalde uren of dagen"
+      },
+      {
+        "links": "Onderbord met de afstand",
+        "rechts": "Toont de afstand tot het gevaar of verbod"
+      }
+    ],
+    "uitleg": "Een onderbord vult een bord aan of beperkt het.",
+    "bronnen": [
+      "BORD-001",
+      "BORD-002",
+      "BORD-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M19",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-strepen",
+    "type": "koppel",
+    "vraag": "Koppel elke markering aan haar betekenis.",
+    "paren": [
+      {
+        "links": "Witte doorlopende streep",
+        "rechts": "Het is verboden de streep te overschrijden"
+      },
+      {
+        "links": "Gele onderbroken streep op de rand van de rijbaan",
+        "rechts": "Parkeren op de rijbaan langs de streep is verboden"
+      },
+      {
+        "links": "Oranje strepen bij werken",
+        "rechts": "Voorlopige markering die witte markeringen waardeloos maakt"
+      },
+      {
+        "links": "Twee evenwijdige onderbroken strepen",
+        "rechts": "Fietspad dat te smal is voor autoverkeer"
+      }
+    ],
+    "uitleg": "Strepen op de weg hebben een eigen betekenis.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M20",
+    "les": 1,
+    "onderwerp": "T10",
+    "theorieblok": "markeringen-dwars-pijlen",
+    "type": "koppel",
+    "vraag": "Koppel elke markering aan haar betekenis.",
+    "paren": [
+      {
+        "links": "Witte doorlopende dwarsstreep",
+        "rechts": "Hier moet je stoppen bij het stopbord of een verkeerslicht"
+      },
+      {
+        "links": "Haaientanden",
+        "rechts": "Zo nodig stoppen om voorrang te verlenen"
+      },
+      {
+        "links": "Zebrapad",
+        "rechts": "Oversteekplaats voor voetgangers"
+      },
+      {
+        "links": "Witte schuine strepen",
+        "rechts": "Je mag er niet rijden, stilstaan of parkeren"
+      },
+      {
+        "links": "Fietsoversteek",
+        "rechts": "Oversteekplaats voor fietsers en tweewielige bromfietsen"
+      }
+    ],
+    "uitleg": "Dwarsmarkeringen herhalen of preciseren de borden.",
+    "bronnen": [
+      "BORD-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M21",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-overzicht-gewest",
+    "type": "koppel",
+    "vraag": "Koppel elke situatie aan de maximumsnelheid.",
+    "paren": [
+      {
+        "links": "Zone 30",
+        "rechts": "30 km/u"
+      },
+      {
+        "links": "Woonerf of erf",
+        "rechts": "20 km/u"
+      },
+      {
+        "links": "Autosnelweg",
+        "rechts": "120 km/u"
+      },
+      {
+        "links": "Vlaanderen, gewone weg buiten de bebouwde kom",
+        "rechts": "70 km/u"
+      },
+      {
+        "links": "Wallonië, gewone weg buiten de bebouwde kom",
+        "rechts": "90 km/u"
+      }
+    ],
+    "uitleg": "Zonder bord geldt de standaardsnelheid van het gewest.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M22",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-bebouwde-kom",
+    "type": "koppel",
+    "vraag": "Koppel elk bord of gewest aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van de bebouwde kom",
+        "linksAfb": "F1a_horizontaal"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van de bebouwde kom",
+        "linksAfb": "F3a_horizontaal"
+      },
+      {
+        "links": "Vlaanderen en Wallonië",
+        "rechts": "Maximaal 50 km/u in de bebouwde kom"
+      },
+      {
+        "links": "Brussel",
+        "rechts": "Maximaal 30 km/u in de bebouwde kom"
+      }
+    ],
+    "uitleg": "De borden bepalen de grens van de bebouwde kom; het gewest bepaalt de snelheid.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M23",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-brussel-30",
+    "type": "meerkeuze",
+    "vraag": "Sinds wanneer geldt in Brussel 30 km/u in de bebouwde kom?",
+    "opties": [
+      "1 januari 2021",
+      "1 januari 2017",
+      "1 juni 2027"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "Sinds 1 januari 2021 is 30 km/u de algemene snelheid in de bebouwde kom van Brussel.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-004",
+      "SNEL-006"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M24",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-buiten-bebouwde-kom",
+    "type": "meerkeuze",
+    "vraag": "Hoeveel km/u mag je in Wallonië maximaal rijden op een gewone weg buiten de bebouwde kom, zonder bord?",
+    "opties": [
+      "70",
+      "90",
+      "120"
+    ],
+    "correct": [
+      1
+    ],
+    "meerdere": false,
+    "uitleg": "In Wallonië is 90 km/u de standaard op een gewone weg buiten de bebouwde kom.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M25",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-autosnelweg-autoweg",
+    "type": "koppel",
+    "vraag": "Koppel elk bord of begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin van een autosnelweg",
+        "linksAfb": "F5"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van een autosnelweg",
+        "linksAfb": "F7"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Autoweg: geen minimumsnelheid",
+        "linksAfb": "F9"
+      },
+      {
+        "links": "Minimumsnelheid op de autosnelweg",
+        "rechts": "70 km/u"
+      }
+    ],
+    "uitleg": "Een autosnelweg heeft een maximum van 120 en een minimum van 70 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M26",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-zone-30",
+    "type": "koppel",
+    "vraag": "Koppel elk bord aan zijn betekenis.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin zone 30: maximaal 30 km/u",
+        "linksAfb": "F4a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde zone 30",
+        "linksAfb": "F4b"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Verhoogde inrichting: hoogstens 30 km/u",
+        "linksAfb": "A14"
+      },
+      {
+        "links": "Bord 4",
+        "rechts": "Aankondiging van een drempel of plateau",
+        "linksAfb": "F87"
+      }
+    ],
+    "uitleg": "In een zone 30 en over een drempel rij je hoogstens 30 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-007"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M27",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-woonerf-erf",
+    "type": "koppel",
+    "vraag": "Koppel elk bord of begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Begin woonerf of erf",
+        "linksAfb": "F12a"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde woonerf of erf",
+        "linksAfb": "F12b"
+      },
+      {
+        "links": "Maximumsnelheid",
+        "rechts": "20 km/u"
+      },
+      {
+        "links": "Voetgangers",
+        "rechts": "Mogen de hele breedte van de weg gebruiken"
+      }
+    ],
+    "uitleg": "In een woonerf of erf is de limiet 20 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003",
+      "SNEL-004"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M28",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-schoolomgeving",
+    "type": "koppel",
+    "vraag": "Koppel elk bord of begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Plaats waar speciaal veel kinderen komen",
+        "linksAfb": "A23"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Begin van de schoolomgeving: maximaal 30 km/u",
+        "linksAfb": "F4a"
+      },
+      {
+        "links": "Bord 3",
+        "rechts": "Einde van de schoolomgeving",
+        "linksAfb": "F4b"
+      },
+      {
+        "links": "Na de schoolomgeving in Brussel",
+        "rechts": "30 km/u in de bebouwde kom"
+      }
+    ],
+    "uitleg": "In een schoolomgeving geldt maximaal 30 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M29",
+    "les": 1,
+    "onderwerp": "T09",
+    "theorieblok": "snelheden-c43-zones",
+    "type": "koppel",
+    "vraag": "Koppel elk bord of begrip aan de juiste omschrijving.",
+    "paren": [
+      {
+        "links": "Bord 1",
+        "rechts": "Maximumsnelheid 50 km/u",
+        "linksAfb": "C43_50"
+      },
+      {
+        "links": "Bord 2",
+        "rechts": "Einde van de snelheidsbeperking",
+        "linksAfb": "C45_50"
+      },
+      {
+        "links": "Gewoon snelheidsbord",
+        "rechts": "Geldt tot en met het volgende kruispunt"
+      },
+      {
+        "links": "Zonaal snelheidsbord",
+        "rechts": "Geldt in de hele zone tot het einde van de zone"
+      }
+    ],
+    "uitleg": "Een snelheidsbord geldt tot het volgende kruispunt, een zonaal bord in de hele zone.",
+    "bronnen": [
+      "SNEL-001"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M30",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-voertuigtype",
+    "type": "volgorde",
+    "vraag": "Zet de voertuigen van laagste naar hoogste maximumsnelheid.",
+    "items": [
+      "Bromfiets klasse A: 25 km/u",
+      "Bromfiets klasse B: 45 km/u",
+      "Voertuig boven 7,5 ton op luchtbanden, gewone weg: 60 km/u",
+      "Bus op een gewone weg: 75 km/u"
+    ],
+    "uitleg": "Bromfiets A 25, bromfiets B 45, zwaar voertuig op luchtbanden 60, bus 75 km/u.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-002"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M31",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-aangepast",
+    "type": "meerkeuze",
+    "vraag": "Je mag 70 km/u, maar het is mistig. Wat doe je?",
+    "opties": [
+      "Trager rijden dan de limiet",
+      "Precies 70 km/u rijden",
+      "Sneller rijden om snel weg te zijn"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "De limiet is een maximum. Bij mist of een glad wegdek rij je trager dan de limiet.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-003"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  },
+  {
+    "id": "L1-M32",
+    "les": 1,
+    "onderwerp": "T08",
+    "theorieblok": "snelheden-actualiteit",
+    "type": "meerkeuze",
+    "vraag": "Vanaf wanneer is de nieuwe wegcode gepland?",
+    "opties": [
+      "1 juni 2027",
+      "1 september 2026",
+      "1 januari 2030"
+    ],
+    "correct": [
+      0
+    ],
+    "meerdere": false,
+    "uitleg": "De nieuwe wegcode is uitgesteld naar 1 juni 2027. Tot dan gelden de huidige regels.",
+    "bronnen": [
+      "SNEL-001",
+      "SNEL-005"
+    ],
+    "moeilijkheid": 1,
+    "gewicht": "gewoon",
+    "examen": false,
+    "eindtest": false,
+    "mini": true
+  }
+]
