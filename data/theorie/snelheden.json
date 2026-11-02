@@ -467,6 +467,16 @@
         "SNEL-001",
         "SNEL-003",
         "SNEL-004"
+      ],
+      "vergelijk": [
+        {
+          "titel": "Zone 30 of woonerf?",
+          "afbs": [
+            "F4a",
+            "F12a"
+          ],
+          "verschil": "Zone 30: 30 km/u. Woonerf of erf: 20 km/u."
+        }
       ]
     },
     {

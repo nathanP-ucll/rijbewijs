@@ -103,6 +103,28 @@
         "BORD-001",
         "BORD-004",
         "BORD-005"
+      ],
+      "kaarten": [
+        {
+          "afb": "A1a",
+          "naam": "Gevaarsbord",
+          "uitleg": "Waarschuwt voor een gevaar of bijzondere situatie voor je op de weg."
+        },
+        {
+          "afb": "B1",
+          "naam": "Voorrangsbord",
+          "uitleg": "Zegt wie voorrang heeft of moet geven."
+        },
+        {
+          "afb": "C1",
+          "naam": "Verbodsbord",
+          "uitleg": "Zegt wat je niet mag doen."
+        },
+        {
+          "afb": "E1",
+          "naam": "Parkeer- of stilstaanbord",
+          "uitleg": "Zegt waar je mag of niet mag parkeren of stilstaan."
+        }
       ]
     },
     {
@@ -271,6 +293,114 @@
         "BORD-001",
         "BORD-002",
         "BORD-006"
+      ],
+      "kaarten": [
+        {
+          "afb": "A1a",
+          "naam": "Gevaarlijke bocht naar links",
+          "uitleg": "Een gevaarlijke bocht naar links."
+        },
+        {
+          "afb": "A1b",
+          "naam": "Gevaarlijke bocht naar rechts",
+          "uitleg": "Een gevaarlijke bocht naar rechts."
+        },
+        {
+          "afb": "A1c",
+          "naam": "Dubbele bocht, eerste naar links",
+          "uitleg": "Twee of meer opeenvolgende bochten, de eerste naar links."
+        },
+        {
+          "afb": "A1d",
+          "naam": "Dubbele bocht, eerste naar rechts",
+          "uitleg": "Twee of meer opeenvolgende bochten, de eerste naar rechts."
+        },
+        {
+          "afb": "A3",
+          "naam": "Gevaarlijke daling",
+          "uitleg": "Een gevaarlijke daling."
+        },
+        {
+          "afb": "A5",
+          "naam": "Steile helling",
+          "uitleg": "Een steile helling."
+        },
+        {
+          "afb": "A7a",
+          "naam": "Rijbaanversmalling",
+          "uitleg": "De rijbaan wordt smaller; het symbool toont aan welke zijde(n)."
+        },
+        {
+          "afb": "A7b",
+          "naam": "Rijbaanversmalling",
+          "uitleg": "De rijbaan wordt smaller; het symbool toont aan welke kant."
+        },
+        {
+          "afb": "A7c",
+          "naam": "Rijbaanversmalling",
+          "uitleg": "De rijbaan wordt smaller; het symbool toont aan welke kant."
+        },
+        {
+          "afb": "A9",
+          "naam": "Beweegbare brug",
+          "uitleg": "Een brug die kan opengaan (bv. voor schepen)."
+        },
+        {
+          "afb": "A11",
+          "naam": "Uitweg op een kaai of oever",
+          "uitleg": "De weg eindigt aan een kaai of oever: gevaar voor het water."
+        },
+        {
+          "afb": "A13",
+          "naam": "Uitholling overdwars of ezelsrug",
+          "uitleg": "Een kuil of bult dwars op de weg."
+        },
+        {
+          "afb": "A14",
+          "naam": "Verhoogde inrichting(en)",
+          "uitleg": "Een verkeersdrempel of -plateau: rij er aan maximaal 30 km/u over."
+        },
+        {
+          "afb": "A15",
+          "naam": "Glibberige rijbaan",
+          "uitleg": "De rijbaan kan glad zijn. Een onderbord kan sneeuw of ijzel aanduiden."
+        },
+        {
+          "afb": "A17",
+          "naam": "Kiezelprojectie",
+          "uitleg": "Losliggende steentjes kunnen weggeslingerd worden."
+        },
+        {
+          "afb": "A19",
+          "naam": "Vallende stenen",
+          "uitleg": "Er kunnen stenen of rotsblokken op de weg vallen."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Bocht naar links of rechts?",
+          "afbs": [
+            "A1a",
+            "A1b"
+          ],
+          "verschil": "Het symbool toont naar welke kant de gevaarlijke bocht gaat."
+        },
+        {
+          "titel": "Dubbele bocht: welke eerst?",
+          "afbs": [
+            "A1c",
+            "A1d"
+          ],
+          "verschil": "Het symbool toont of de eerste bocht naar links of rechts is."
+        },
+        {
+          "titel": "Daling of steile helling?",
+          "afbs": [
+            "A3",
+            "A5"
+          ],
+          "verschil": "Het ene waarschuwt voor een gevaarlijke daling, het andere voor een steile helling."
+        }
       ]
     },
     {
@@ -445,6 +575,122 @@
       "bronnen": [
         "BORD-001",
         "BORD-008"
+      ],
+      "kaarten": [
+        {
+          "afb": "A21",
+          "naam": "Oversteekplaats voor voetgangers",
+          "uitleg": "Voetgangers kunnen hier oversteken."
+        },
+        {
+          "afb": "A23",
+          "naam": "Plaats waar speciaal veel kinderen komen",
+          "uitleg": "Bv. bij een school of speelplein: wees extra alert."
+        },
+        {
+          "afb": "A25",
+          "naam": "Oversteekplaats voor fietsers en tweewielige bromfietsen",
+          "uitleg": "Ook: plaats waar zij van een fietspad op de rijbaan komen."
+        },
+        {
+          "afb": "A27",
+          "naam": "Doortocht van groot wild",
+          "uitleg": "Wilde dieren kunnen de weg oversteken."
+        },
+        {
+          "afb": "A29",
+          "naam": "Doortocht van vee",
+          "uitleg": "Vee kan de weg oversteken."
+        },
+        {
+          "afb": "A31",
+          "naam": "Werken",
+          "uitleg": "Er zijn werken op of naast de weg."
+        },
+        {
+          "afb": "A33",
+          "naam": "Verkeerslichten",
+          "uitleg": "Verderop staan verkeerslichten."
+        },
+        {
+          "afb": "A35",
+          "naam": "Overtocht van vliegtuigen op geringe hoogte",
+          "uitleg": "Vliegtuigen vliegen laag over de weg."
+        },
+        {
+          "afb": "A37",
+          "naam": "Zijwind",
+          "uitleg": "Op dit stuk kan er sterke zijwind zijn."
+        },
+        {
+          "afb": "A39",
+          "naam": "Tweerichtingsverkeer na eenrichtingsverkeer",
+          "uitleg": "Na een stuk met eenrichtingsverkeer is verkeer in twee richtingen toegelaten."
+        },
+        {
+          "afb": "A41",
+          "naam": "Overweg met slagbomen",
+          "uitleg": "Aankondiging van een overweg met slagbomen."
+        },
+        {
+          "afb": "A43",
+          "naam": "Overweg zonder slagbomen",
+          "uitleg": "Aankondiging van een overweg zonder slagbomen."
+        },
+        {
+          "afb": "A45",
+          "naam": "Overweg voor enkel spoor",
+          "uitleg": "Kruis aan de overweg zelf: één spoor."
+        },
+        {
+          "afb": "A47",
+          "naam": "Overweg voor twee of meer sporen",
+          "uitleg": "Kruis aan de overweg zelf: meerdere sporen."
+        },
+        {
+          "afb": "A49",
+          "naam": "Kruising met sporen in de rijbaan",
+          "uitleg": "Sporen (bv. tram) liggen in of dwars over de rijbaan."
+        },
+        {
+          "afb": "A51",
+          "naam": "Gevaar zonder eigen symbool",
+          "uitleg": "Een onderbord vertelt welk gevaar het is."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Voetganger of fietser?",
+          "afbs": [
+            "A21",
+            "A25"
+          ],
+          "verschil": "Het ene toont voetgangers, het andere een fiets."
+        },
+        {
+          "titel": "Overweg met of zonder slagbomen?",
+          "afbs": [
+            "A41",
+            "A43"
+          ],
+          "verschil": "Het ene is een overweg met slagbomen, het andere zonder."
+        },
+        {
+          "titel": "Een spoor of meerdere sporen?",
+          "afbs": [
+            "A45",
+            "A47"
+          ],
+          "verschil": "Het ene is een overweg voor enkel spoor, het andere voor twee of meer sporen."
+        },
+        {
+          "titel": "Wild of vee?",
+          "afbs": [
+            "A27",
+            "A29"
+          ],
+          "verschil": "Het ene waarschuwt voor groot wild, het andere voor vee."
+        }
       ]
     },
     {
@@ -600,6 +846,125 @@
         "BORD-001",
         "BORD-006",
         "BORD-007"
+      ],
+      "kaarten": [
+        {
+          "afb": "B1",
+          "naam": "Voorrang verlenen",
+          "uitleg": "Geef voorrang aan het verkeer op de kruisende weg; stop zo nodig.",
+          "letop": "Op de grond: haaientanden"
+        },
+        {
+          "afb": "B3",
+          "naam": "Aankondiging van voorrang verlenen",
+          "uitleg": "Aankondiging: het bord voorrang verlenen komt op de aangegeven afstand verderop.",
+          "letop": "Afstand wijst vooruit"
+        },
+        {
+          "afb": "B5",
+          "naam": "Stoppen en voorrang verlenen",
+          "uitleg": "Je moet altijd stoppen, aan de stopstreep, en voorrang verlenen."
+        },
+        {
+          "afb": "B7",
+          "naam": "Aankondiging van stoppen",
+          "uitleg": "Aankondiging: het stopbord komt op de aangegeven afstand verderop.",
+          "letop": "Het stopbord zelf komt verderop"
+        },
+        {
+          "afb": "B9",
+          "naam": "Voorrangsweg",
+          "uitleg": "Je hebt voorrang op kruispunten tot het einde-bord.",
+          "letop": "Buiten de kom: parkeren op de rijbaan verboden"
+        },
+        {
+          "afb": "B11",
+          "naam": "Einde van voorrangsweg",
+          "uitleg": "De voorrangsweg eindigt; de gewone regels gelden weer.",
+          "letop": "Voorrang van rechts, tenzij borden"
+        },
+        {
+          "afb": "B13",
+          "naam": "Aankondiging van einde voorrangsweg",
+          "uitleg": "Aankondiging: het einde van de voorrangsweg komt op de aangegeven afstand verderop.",
+          "letop": "Afstand wijst vooruit"
+        },
+        {
+          "afb": "B17",
+          "naam": "Kruispunt met voorrang van rechts",
+          "uitleg": "Aankondiging dat op het kruispunt de regel voorrang van rechts geldt."
+        },
+        {
+          "afb": "B19",
+          "naam": "Smalle doorgang: voorrang verlenen",
+          "uitleg": "Je moet voorrang geven aan tegenliggers."
+        },
+        {
+          "afb": "B21",
+          "naam": "Smalle doorgang: voorrang",
+          "uitleg": "Je hebt voorrang op tegenliggers."
+        },
+        {
+          "afb": "B22",
+          "naam": "Fietsers rechts af bij rood",
+          "uitleg": "Fietsers mogen bij rood of oranjegeel rechts afslaan, mits voorrang te verlenen."
+        },
+        {
+          "afb": "B23",
+          "naam": "Fietsers rechtdoor bij rood",
+          "uitleg": "Fietsers mogen bij rood of oranjegeel rechtdoor, zonder een verkeersstroom te dwarsen."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Voorrang verlenen of stoppen?",
+          "afbs": [
+            "B1",
+            "B5"
+          ],
+          "verschil": "Voorrang verlenen: stoppen enkel als het nodig is. Stopbord: altijd stoppen."
+        },
+        {
+          "titel": "Bord of aankondiging van het bord?",
+          "afbs": [
+            "B3",
+            "B1"
+          ],
+          "verschil": "Het bord met afstand kondigt aan dat het voorrangsbord verderop komt."
+        },
+        {
+          "titel": "Stopbord of aankondiging van het stopbord?",
+          "afbs": [
+            "B7",
+            "B5"
+          ],
+          "verschil": "Het bord met afstand kondigt aan dat het stopbord verderop komt."
+        },
+        {
+          "titel": "Voorrangsweg: begin, einde, aankondiging",
+          "afbs": [
+            "B9",
+            "B11",
+            "B13"
+          ],
+          "verschil": "Begin: je hebt voorrang. Einde: de gewone regels gelden weer. Het derde kondigt het einde verderop aan."
+        },
+        {
+          "titel": "Smalle doorgang: wie gaat voor?",
+          "afbs": [
+            "B19",
+            "B21"
+          ],
+          "verschil": "Het ene verplicht je voorrang te verlenen, het andere geeft jou voorrang."
+        },
+        {
+          "titel": "Fietsers bij rood: rechts of rechtdoor?",
+          "afbs": [
+            "B22",
+            "B23"
+          ],
+          "verschil": "Het ene geldt om rechts af te slaan, het andere om rechtdoor te rijden."
+        }
       ]
     },
     {
@@ -802,6 +1167,138 @@
         "BORD-001",
         "BORD-007",
         "BORD-008"
+      ],
+      "kaarten": [
+        {
+          "afb": "C1",
+          "naam": "Verboden richting",
+          "uitleg": "Je mag deze weg niet inrijden (voor elke bestuurder)."
+        },
+        {
+          "afb": "C3",
+          "naam": "Verboden toegang in beide richtingen",
+          "uitleg": "Geen enkele bestuurder mag in deze weg."
+        },
+        {
+          "afb": "C5",
+          "naam": "Verboden voor motorvoertuigen op meer dan twee wielen",
+          "uitleg": "Een onderbord kan uitzonderingen geven, bv. voor inzittenden of openbaar vervoer."
+        },
+        {
+          "afb": "C6",
+          "naam": "Verboden voor terreinvoertuigen met vier wielen (quads)",
+          "uitleg": "Open carrosserie, motorstuur, zadel."
+        },
+        {
+          "afb": "C7",
+          "naam": "Verboden voor motorfietsen",
+          "uitleg": "Geen motorfietsen."
+        },
+        {
+          "afb": "C9",
+          "naam": "Verboden voor bromfietsen",
+          "uitleg": "Geen bromfietsen."
+        },
+        {
+          "afb": "C11",
+          "naam": "Verboden voor rijwielen",
+          "uitleg": "Geen fietsen."
+        },
+        {
+          "afb": "C13",
+          "naam": "Verboden voor gespannen",
+          "uitleg": "Geen paard en kar."
+        },
+        {
+          "afb": "C15",
+          "naam": "Verboden voor ruiters",
+          "uitleg": "Geen ruiters."
+        },
+        {
+          "afb": "C17",
+          "naam": "Verboden voor handkarren",
+          "uitleg": "Geen handkarren."
+        },
+        {
+          "afb": "C19",
+          "naam": "Verboden voor voetgangers",
+          "uitleg": "Voetgangers mogen hier niet."
+        },
+        {
+          "afb": "C22",
+          "naam": "Verboden voor autocars",
+          "uitleg": "Geen autocars."
+        },
+        {
+          "afb": "C23",
+          "naam": "Verboden voor vrachtvoertuigen",
+          "uitleg": "Geen voertuigen voor goederenvervoer; met onderbord enkel boven de aangeduide massa."
+        },
+        {
+          "afb": "C24a",
+          "naam": "Verboden voor voertuigen met gevaarlijke goederen",
+          "uitleg": "Een onderbord met B, C, D of E verwijst naar tunnelcategorieën."
+        },
+        {
+          "afb": "C24b",
+          "naam": "Verboden voor ontvlambare of ontplofbare stoffen",
+          "uitleg": "Geen voertuigen die zulke stoffen vervoeren."
+        },
+        {
+          "afb": "C24c",
+          "naam": "Verboden voor verontreinigende stoffen",
+          "uitleg": "Geen voertuigen die zulke stoffen vervoeren."
+        },
+        {
+          "afb": "C25",
+          "naam": "Maximale lengte",
+          "uitleg": "Verboden voor voertuigen of slepen, lading inbegrepen, langer dan de aangeduide lengte."
+        },
+        {
+          "afb": "C27",
+          "naam": "Maximale breedte",
+          "uitleg": "Verboden voor voertuigen breder dan aangeduid, lading inbegrepen."
+        },
+        {
+          "afb": "C29",
+          "naam": "Maximale hoogte",
+          "uitleg": "Verboden voor voertuigen hoger dan aangeduid, lading inbegrepen."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Eén richting of beide richtingen?",
+          "afbs": [
+            "C1",
+            "C3"
+          ],
+          "verschil": "Het ene verbiedt het inrijden van een weg in één richting, het andere de toegang in beide richtingen."
+        },
+        {
+          "titel": "Verbod voor iedereen of voor een soort voertuig?",
+          "afbs": [
+            "C1",
+            "C23"
+          ],
+          "verschil": "Het ene geldt voor elke bestuurder, het andere enkel voor vrachtvoertuigen."
+        },
+        {
+          "titel": "Autocars of vrachtvoertuigen?",
+          "afbs": [
+            "C22",
+            "C23"
+          ],
+          "verschil": "Het ene verbiedt autocars, het andere vrachtvoertuigen."
+        },
+        {
+          "titel": "Lengte, breedte of hoogte?",
+          "afbs": [
+            "C25",
+            "C27",
+            "C29"
+          ],
+          "verschil": "Elk bord legt een ander maximum op: lengte, breedte of hoogte."
+        }
       ]
     },
     {
@@ -941,6 +1438,122 @@
       "bronnen": [
         "BORD-001",
         "BORD-002"
+      ],
+      "kaarten": [
+        {
+          "afb": "C31a",
+          "naam": "Verbod links af te slaan",
+          "uitleg": "Aan het volgend kruispunt niet naar links afslaan."
+        },
+        {
+          "afb": "C31b",
+          "naam": "Verbod rechts af te slaan",
+          "uitleg": "Aan het volgend kruispunt niet naar rechts afslaan."
+        },
+        {
+          "afb": "C33",
+          "naam": "Verbod te keren",
+          "uitleg": "Tot en met het volgend kruispunt niet keren."
+        },
+        {
+          "afb": "C35",
+          "naam": "Inhaalverbod",
+          "uitleg": "Links inhalen van gespannen en voertuigen met meer dan twee wielen verboden."
+        },
+        {
+          "afb": "C37",
+          "naam": "Einde inhaalverbod",
+          "uitleg": "Het inhaalverbod eindigt."
+        },
+        {
+          "afb": "C39",
+          "naam": "Inhaalverbod voor zware voertuigen",
+          "uitleg": "Verboden voor voertuigen voor vervoer van zaken met MTM boven 3.500 kg."
+        },
+        {
+          "afb": "C41",
+          "naam": "Einde inhaalverbod voor zware voertuigen",
+          "uitleg": "Het inhaalverbod voor zware voertuigen eindigt."
+        },
+        {
+          "afb": "C46",
+          "naam": "Einde van alle verbodsbepalingen",
+          "uitleg": "Alle plaatselijke verboden voor rijdende voertuigen eindigen."
+        },
+        {
+          "afb": "C47",
+          "naam": "Tolpost",
+          "uitleg": "Je mag niet voorbij zonder te stoppen."
+        },
+        {
+          "afb": "C43_30",
+          "naam": "Maximumsnelheid 30",
+          "uitleg": "Je mag niet sneller rijden dan 30 km/u."
+        },
+        {
+          "afb": "C43_50",
+          "naam": "Maximumsnelheid 50",
+          "uitleg": "Je mag niet sneller rijden dan 50 km/u."
+        },
+        {
+          "afb": "C43_70",
+          "naam": "Maximumsnelheid 70",
+          "uitleg": "Je mag niet sneller rijden dan 70 km/u."
+        },
+        {
+          "afb": "C43_90",
+          "naam": "Maximumsnelheid 90",
+          "uitleg": "Je mag niet sneller rijden dan 90 km/u."
+        },
+        {
+          "afb": "C45_50",
+          "naam": "Einde van de snelheidsbeperking",
+          "uitleg": "De snelheidsbeperking eindigt."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Links of rechts afslaan?",
+          "afbs": [
+            "C31a",
+            "C31b"
+          ],
+          "verschil": "De pijl toont in welke richting je niet mag afslaan."
+        },
+        {
+          "titel": "Inhaalverbod: begin en einde",
+          "afbs": [
+            "C35",
+            "C37"
+          ],
+          "verschil": "Het eerste verbiedt inhalen, het tweede beëindigt dat verbod."
+        },
+        {
+          "titel": "Alle voertuigen of enkel zware voertuigen?",
+          "afbs": [
+            "C35",
+            "C39"
+          ],
+          "verschil": "Het ene verbod geldt voor voertuigen met meer dan twee wielen, het andere enkel voor vervoer van zaken boven 3.500 kg."
+        },
+        {
+          "titel": "Snelheidsbeperking: begin en einde",
+          "afbs": [
+            "C43_50",
+            "C45_50"
+          ],
+          "verschil": "Het eerste legt een maximum op, het tweede beëindigt die beperking."
+        },
+        {
+          "titel": "Hetzelfde bord, ander getal",
+          "afbs": [
+            "C43_30",
+            "C43_50",
+            "C43_70",
+            "C43_90"
+          ],
+          "verschil": "Het getal is de maximumsnelheid in km/u."
+        }
       ]
     },
     {
@@ -1064,6 +1677,38 @@
       "bronnen": [
         "BORD-001",
         "BORD-007"
+      ],
+      "kaarten": [
+        {
+          "afb": "D5",
+          "naam": "Verplicht rondgaand verkeer",
+          "uitleg": "Rotonde of plein waar je de aangeduide richting moet volgen."
+        },
+        {
+          "afb": "D7",
+          "naam": "Verplicht fietspad",
+          "uitleg": "Fietsers en tweewielige bromfietsen A moeten dit fietspad volgen."
+        },
+        {
+          "afb": "D11",
+          "naam": "Verplichte weg voor voetgangers",
+          "uitleg": "Voetgangers moeten dit pad volgen."
+        },
+        {
+          "afb": "D13",
+          "naam": "Verplichte weg voor ruiters",
+          "uitleg": "Ruiters moeten dit pad volgen."
+        },
+        {
+          "afb": "D3a",
+          "naam": "Verplichte keuze uit de pijlen",
+          "uitleg": "Je moet een van de aangeduide richtingen volgen."
+        },
+        {
+          "afb": "D3b",
+          "naam": "Verplichte keuze uit de pijlen",
+          "uitleg": "Je moet een van de aangeduide richtingen volgen."
+        }
       ]
     },
     {
@@ -1163,6 +1808,52 @@
         "BORD-001",
         "BORD-002",
         "BORD-003"
+      ],
+      "kaarten": [
+        {
+          "afb": "E1",
+          "naam": "Parkeerverbod",
+          "uitleg": "Je mag hier niet parkeren, maar wel kort stilstaan."
+        },
+        {
+          "afb": "E3",
+          "naam": "Stilstaan en parkeren verboden",
+          "uitleg": "Je mag hier niet stilstaan en niet parkeren."
+        },
+        {
+          "afb": "E5",
+          "naam": "Beurtelings parkeren: verbod 1e tot 15e",
+          "uitleg": "Parkeerverbod van de 1e tot de 15e van de maand."
+        },
+        {
+          "afb": "E7",
+          "naam": "Beurtelings parkeren: verbod 16e tot einde maand",
+          "uitleg": "Parkeerverbod van de 16e tot het einde van de maand."
+        },
+        {
+          "afb": "E11",
+          "naam": "Halfmaandelijks parkeren in de kom",
+          "uitleg": "Beurtelings parkeren in heel de bebouwde kom.",
+          "letop": "Staat boven het begin-bord van de kom"
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Parkeren of stilstaan verboden?",
+          "afbs": [
+            "E1",
+            "E3"
+          ],
+          "verschil": "Eén streep: parkeren verboden, kort stilstaan mag. Kruis: ook stilstaan verboden."
+        },
+        {
+          "titel": "Welke dagen geldt het verbod?",
+          "afbs": [
+            "E5",
+            "E7"
+          ],
+          "verschil": "Het ene verbiedt parkeren van de 1e tot de 15e, het andere van de 16e tot het einde van de maand."
+        }
       ]
     },
     {
@@ -1296,6 +1987,73 @@
         "BORD-001",
         "BORD-006",
         "BORD-007"
+      ],
+      "kaarten": [
+        {
+          "afb": "E9b",
+          "naam": "Parkeren voor motorfietsen, personenauto's, auto's voor dubbelgebruik en minibussen",
+          "uitleg": "Andere voertuigen mogen er niet staan."
+        },
+        {
+          "afb": "E9c",
+          "naam": "Parkeren voor bestelwagens en vrachtauto's",
+          "uitleg": "Voorbehouden voor deze categorie."
+        },
+        {
+          "afb": "E9d",
+          "naam": "Parkeren voor autocars",
+          "uitleg": "Voorbehouden voor autocars."
+        },
+        {
+          "afb": "E9e",
+          "naam": "Verplicht parkeren op de berm of het trottoir",
+          "uitleg": "Je moet volledig op de berm of het trottoir staan."
+        },
+        {
+          "afb": "E9f",
+          "naam": "Verplicht parkeren deels op de berm of het trottoir",
+          "uitleg": "Deels op de berm/het trottoir, deels op de rijbaan."
+        },
+        {
+          "afb": "E9g",
+          "naam": "Verplicht parkeren op de rijbaan",
+          "uitleg": "Je moet op de rijbaan parkeren."
+        },
+        {
+          "afb": "E9h",
+          "naam": "Parkeren voor kampeerwagens",
+          "uitleg": "Voorbehouden voor kampeerauto's."
+        },
+        {
+          "afb": "E9i",
+          "naam": "Parkeren voor motorfietsen",
+          "uitleg": "Voorbehouden voor motorfietsen."
+        },
+        {
+          "afb": "E9j",
+          "naam": "Parkeren met tijdsgebonden regeling",
+          "uitleg": "Bv. fietsen overdag en auto's 's avonds; de uren staan op het bord."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Voor welk voertuig?",
+          "afbs": [
+            "E9b",
+            "E9c",
+            "E9d"
+          ],
+          "verschil": "Personenauto's en minibussen, bestelwagens en vrachtauto's, of autocars."
+        },
+        {
+          "titel": "Waar verplicht parkeren?",
+          "afbs": [
+            "E9e",
+            "E9f",
+            "E9g"
+          ],
+          "verschil": "Op de berm of het trottoir, deels erop, of op de rijbaan."
+        }
       ]
     },
     {
@@ -1421,6 +2179,54 @@
       "bronnen": [
         "BORD-001",
         "BORD-002"
+      ],
+      "kaarten": [
+        {
+          "afb": "F4a",
+          "naam": "Begin zone 30",
+          "uitleg": "Maximaal 30 km/u in de hele zone."
+        },
+        {
+          "afb": "F4b",
+          "naam": "Einde zone 30",
+          "uitleg": "De zone met 30 km/u eindigt."
+        },
+        {
+          "afb": "F12a",
+          "naam": "Begin woonerf of erf",
+          "uitleg": "Bijzondere regels: voetgangers mogen de hele weg gebruiken, snelheid max. 20 km/u."
+        },
+        {
+          "afb": "F12b",
+          "naam": "Einde woonerf of erf",
+          "uitleg": "Je verlaat het woonerf of erf."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Zone 30: begin of einde?",
+          "afbs": [
+            "F4a",
+            "F4b"
+          ],
+          "verschil": "Het eerste is het begin van de zone, het tweede het einde."
+        },
+        {
+          "titel": "Woonerf of erf: begin of einde?",
+          "afbs": [
+            "F12a",
+            "F12b"
+          ],
+          "verschil": "Het eerste is het begin, het tweede het einde."
+        },
+        {
+          "titel": "Zone 30 of woonerf?",
+          "afbs": [
+            "F4a",
+            "F12a"
+          ],
+          "verschil": "Zone 30: 30 km/u. Woonerf of erf: 20 km/u."
+        }
       ]
     },
     {
@@ -1562,6 +2368,96 @@
       "bronnen": [
         "BORD-001",
         "BORD-008"
+      ],
+      "kaarten": [
+        {
+          "afb": "F5",
+          "naam": "Begin of oprit van een autosnelweg",
+          "uitleg": "Vanaf hier gelden de regels voor autosnelwegen."
+        },
+        {
+          "afb": "F7",
+          "naam": "Einde van een autosnelweg",
+          "uitleg": "De autosnelwegregels eindigen."
+        },
+        {
+          "afb": "F9",
+          "naam": "Autoweg",
+          "uitleg": "Begin van een autoweg: bijzondere regels van autowegen gelden."
+        },
+        {
+          "afb": "F11",
+          "naam": "Einde van een autoweg",
+          "uitleg": "De autowegregels eindigen."
+        },
+        {
+          "afb": "F8",
+          "naam": "Tunnel",
+          "uitleg": "Tunnel langer dan 500 m. Onderborden geven lengte en naam."
+        },
+        {
+          "afb": "F23a",
+          "naam": "Nummer van een gewone weg",
+          "uitleg": "Wegnummer van een gewone weg."
+        },
+        {
+          "afb": "F23b",
+          "naam": "Nummer van een autosnelweg",
+          "uitleg": "Wegnummer van een autosnelweg."
+        },
+        {
+          "afb": "F23c",
+          "naam": "Nummer van een internationale weg",
+          "uitleg": "Nummer van een internationale weg."
+        },
+        {
+          "afb": "F23d",
+          "naam": "Nummer van een ring",
+          "uitleg": "Nummer van een ring."
+        },
+        {
+          "afb": "F95",
+          "naam": "Noodstopstrook",
+          "uitleg": "Een strook om in nood te stoppen."
+        },
+        {
+          "afb": "F98",
+          "naam": "Vluchthaven",
+          "uitleg": "Plaats om te schuilen. Onderbord toont noodtelefoon en brandblusser."
+        },
+        {
+          "afb": "F52",
+          "naam": "Nooduitgang in tunnel",
+          "uitleg": "Aankondiging van een nooduitgang."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Autosnelweg: begin of einde?",
+          "afbs": [
+            "F5",
+            "F7"
+          ],
+          "verschil": "Het eerste is het begin of de oprit, het tweede het einde."
+        },
+        {
+          "titel": "Autoweg: begin of einde?",
+          "afbs": [
+            "F9",
+            "F11"
+          ],
+          "verschil": "Het eerste is het begin, het tweede het einde."
+        },
+        {
+          "titel": "Welk soort wegnummer?",
+          "afbs": [
+            "F23a",
+            "F23b",
+            "F23c",
+            "F23d"
+          ],
+          "verschil": "Gewone weg, autosnelweg, internationale weg of ring."
+        }
       ]
     },
     {
@@ -1737,6 +2633,106 @@
       "bronnen": [
         "BORD-001",
         "BORD-003"
+      ],
+      "kaarten": [
+        {
+          "afb": "F13",
+          "naam": "Rijstrookkeuze",
+          "uitleg": "Kies een rijstrook volgens de pijlen."
+        },
+        {
+          "afb": "F14",
+          "naam": "Opstelvak voor fietsers",
+          "uitleg": "Plaats waar fietsers en tweewielige bromfietsen zich opstellen."
+        },
+        {
+          "afb": "F17",
+          "naam": "Busstrook",
+          "uitleg": "Toont rijstroken van een rijbaan met een strook voor autobussen."
+        },
+        {
+          "afb": "F18",
+          "naam": "Overrijdbare bedding",
+          "uitleg": "Een overrijdbare bedding voor geregeld openbaar vervoer."
+        },
+        {
+          "afb": "F19",
+          "naam": "Eenrichtingsverkeer",
+          "uitleg": "Verkeer in één richting toegelaten."
+        },
+        {
+          "afb": "F21",
+          "naam": "Links of rechts voorbijrijden",
+          "uitleg": "Beide kanten mogen voorbijgereden worden."
+        },
+        {
+          "afb": "F45",
+          "naam": "Doodlopende weg",
+          "uitleg": "Geen doorgang."
+        },
+        {
+          "afb": "F45b",
+          "naam": "Doodlopende weg, behalve voetgangers en fietsers",
+          "uitleg": "Voetgangers en fietsers kunnen er wel door."
+        },
+        {
+          "afb": "F79",
+          "naam": "Vermindering aantal rijstroken (werken)",
+          "uitleg": "Voorwegwijzer bij werken."
+        },
+        {
+          "afb": "F81",
+          "naam": "Uitwijking (werken)",
+          "uitleg": "Voorwegwijzer die een uitwijking aankondigt."
+        },
+        {
+          "afb": "F83",
+          "naam": "Doorsteek middenberm",
+          "uitleg": "Aankondiging bij werken."
+        },
+        {
+          "afb": "F85",
+          "naam": "Tweerichtingsverkeer op eenrichtingsrijbaan",
+          "uitleg": "Op een deel van de rijbaan geldt verkeer in beide richtingen."
+        },
+        {
+          "afb": "F87",
+          "naam": "Verhoogde inrichting(en)",
+          "uitleg": "Aankondiging van een drempel of plateau."
+        },
+        {
+          "afb": "F89",
+          "naam": "Aankondiging voor bepaalde rijstroken",
+          "uitleg": "Voorwegwijzer van een gevaar of regel die enkel voor sommige rijstroken geldt."
+        },
+        {
+          "afb": "F91",
+          "naam": "Gevaar of regel voor bepaalde rijstroken",
+          "uitleg": "Geldt enkel voor de aangeduide rijstrook(stroken)."
+        },
+        {
+          "afb": "F97",
+          "naam": "Versmalling van rijstrookomvang",
+          "uitleg": "De rijstrook wordt smaller."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Verboden richting of eenrichtingsverkeer?",
+          "afbs": [
+            "C1",
+            "F19"
+          ],
+          "verschil": "Het ene verbiedt het inrijden voor elke bestuurder, het andere toont eenrichtingsverkeer."
+        },
+        {
+          "titel": "Doodlopende weg: voor wie?",
+          "afbs": [
+            "F45",
+            "F45b"
+          ],
+          "verschil": "Het tweede is een doodlopende weg behalve voor voetgangers en fietsers."
+        }
       ]
     },
     {
@@ -1862,6 +2858,28 @@
       "bronnen": [
         "BORD-001",
         "BORD-003"
+      ],
+      "kaarten": [
+        {
+          "afb": "F17",
+          "naam": "Busstrook",
+          "uitleg": "Openbaar vervoer mag erop; andere voertuigen enkel met symbool op het bord."
+        },
+        {
+          "afb": "F18",
+          "naam": "Overrijdbare bedding",
+          "uitleg": "Andere voertuigen: enkel hindernis omzeilen, dwarsen of een eigendom bereiken."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Busstrook of overrijdbare bedding?",
+          "afbs": [
+            "F17",
+            "F18"
+          ],
+          "verschil": "Op de busstrook mag je soms van richting veranderen, op de overrijdbare bedding niet."
+        }
       ]
     },
     {
@@ -2125,6 +3143,203 @@
       "bronnen": [
         "BORD-001",
         "BORD-008"
+      ],
+      "kaarten": [
+        {
+          "afb": "F25",
+          "naam": "Voorwegwijzer",
+          "uitleg": "Kondigt vooraf een richting aan."
+        },
+        {
+          "afb": "F29",
+          "naam": "Wegwijzer",
+          "uitleg": "Wijst naar een bestemming; afstand in km mag erbij."
+        },
+        {
+          "afb": "F31",
+          "naam": "Wegwijzer autosnelweg",
+          "uitleg": "Reisweg over een autosnelweg."
+        },
+        {
+          "afb": "F33a",
+          "naam": "Bewegwijzering ver weg",
+          "uitleg": "Luchthaven, ziekenhuis, haven, industriepark, enz."
+        },
+        {
+          "afb": "F34a",
+          "naam": "Bewegwijzering nabije instellingen",
+          "uitleg": "Openbare of algemene instellingen zoals bibliotheek, politie, school."
+        },
+        {
+          "afb": "F34b1",
+          "naam": "Aanbevolen route voor weggebruikers",
+          "uitleg": "Voor fietsers, ruiters of voetgangers."
+        },
+        {
+          "afb": "F35",
+          "naam": "Wegwijzer toeristisch",
+          "uitleg": "Sport- en recreatiecentrum, monument, enz."
+        },
+        {
+          "afb": "F37",
+          "naam": "Wegwijzer overnachting en restaurant",
+          "uitleg": "Jeugdherberg, kampeerterrein, restaurant."
+        },
+        {
+          "afb": "F39",
+          "naam": "Voorwegwijzer omlegging",
+          "uitleg": "Kondigt een omleiding aan."
+        },
+        {
+          "afb": "F41",
+          "naam": "Wegwijzer omleggingsweg",
+          "uitleg": "Volg deze route."
+        },
+        {
+          "afb": "F43",
+          "naam": "Plaatsnaambord",
+          "uitleg": "Naam van de gemeente of plaats."
+        },
+        {
+          "afb": "F47",
+          "naam": "Einde van de werken",
+          "uitleg": "De werken zijn voorbij."
+        },
+        {
+          "afb": "F49",
+          "naam": "Oversteekplaats voor voetgangers",
+          "uitleg": "Hier steken voetgangers over."
+        },
+        {
+          "afb": "F50",
+          "naam": "Oversteekplaats voor fietsers",
+          "uitleg": "Oversteek voor fietsers en tweewielige bromfietsen."
+        },
+        {
+          "afb": "F51",
+          "naam": "Ondergrondse of bovengrondse oversteek",
+          "uitleg": "Tunnel of brug voor voetgangers."
+        },
+        {
+          "afb": "F53",
+          "naam": "Verplegingsinrichting",
+          "uitleg": "Ziekenhuis of dergelijke."
+        },
+        {
+          "afb": "F55",
+          "naam": "Hulppost",
+          "uitleg": "Hier vind je een hulppost."
+        },
+        {
+          "afb": "F59",
+          "naam": "Parking",
+          "uitleg": "Aankondiging van een parking."
+        },
+        {
+          "afb": "F60",
+          "naam": "Overdekte parking",
+          "uitleg": "Parkeergarage."
+        },
+        {
+          "afb": "F61",
+          "naam": "Telefoon",
+          "uitleg": "Telefoon beschikbaar."
+        },
+        {
+          "afb": "F62",
+          "naam": "Noodtelefoon",
+          "uitleg": "Telefoon voor noodgevallen."
+        },
+        {
+          "afb": "F63",
+          "naam": "Tankstation",
+          "uitleg": "Brandstoffen zoals benzine, diesel, LPG, CNG, LNG, waterstof, elektriciteit."
+        },
+        {
+          "afb": "F65",
+          "naam": "Hotel of motel",
+          "uitleg": "Overnachting."
+        },
+        {
+          "afb": "F67",
+          "naam": "Restaurant",
+          "uitleg": "Eetgelegenheid."
+        },
+        {
+          "afb": "F69",
+          "naam": "Drankgelegenheid",
+          "uitleg": "Café of dergelijke."
+        },
+        {
+          "afb": "F71",
+          "naam": "Kampeerterrein",
+          "uitleg": "Hier is een kampeerterrein."
+        },
+        {
+          "afb": "F73",
+          "naam": "Caravanterrein",
+          "uitleg": "Plaats voor caravans."
+        },
+        {
+          "afb": "F75",
+          "naam": "Jeugdherberg",
+          "uitleg": "Overnachting voor jongeren."
+        },
+        {
+          "afb": "F77",
+          "naam": "Toeristische info",
+          "uitleg": "Toerismekantoor of informatiepunt."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Voorwegwijzer of wegwijzer?",
+          "afbs": [
+            "F25",
+            "F29"
+          ],
+          "verschil": "Het eerste kondigt vooraf een richting aan, het tweede wijst naar een bestemming."
+        },
+        {
+          "titel": "Gewone of overdekte parking?",
+          "afbs": [
+            "F59",
+            "F60"
+          ],
+          "verschil": "Het tweede is een overdekte parking."
+        },
+        {
+          "titel": "Telefoon of noodtelefoon?",
+          "afbs": [
+            "F61",
+            "F62"
+          ],
+          "verschil": "Het tweede is een noodtelefoon."
+        },
+        {
+          "titel": "Voetgangers of fietsers oversteken?",
+          "afbs": [
+            "F49",
+            "F50"
+          ],
+          "verschil": "Het eerste is een oversteekplaats voor voetgangers, het tweede voor fietsers."
+        },
+        {
+          "titel": "Verpleging of hulppost?",
+          "afbs": [
+            "F53",
+            "F55"
+          ],
+          "verschil": "Het eerste is een verplegingsinrichting, het tweede een hulppost."
+        },
+        {
+          "titel": "Omleiding: voor of wegwijzer?",
+          "afbs": [
+            "F39",
+            "F41"
+          ],
+          "verschil": "Het eerste is een voorwegwijzer van de omlegging, het tweede een wegwijzer van de omleggingsweg."
+        }
       ]
     },
     {
@@ -2332,6 +3547,138 @@
       "bronnen": [
         "BORD-001",
         "BORD-006"
+      ],
+      "kaarten": [
+        {
+          "afb": "D7",
+          "naam": "Verplicht fietspad",
+          "uitleg": "Fietsers en tweewielige bromfietsen A moeten dit fietspad volgen."
+        },
+        {
+          "afb": "D11",
+          "naam": "Verplichte weg voor voetgangers",
+          "uitleg": "Voetgangers moeten dit pad volgen."
+        },
+        {
+          "afb": "D13",
+          "naam": "Verplichte weg voor ruiters",
+          "uitleg": "Ruiters moeten dit pad volgen."
+        },
+        {
+          "afb": "C11",
+          "naam": "Verboden voor rijwielen",
+          "uitleg": "Fietsers mogen niet door."
+        },
+        {
+          "afb": "C15",
+          "naam": "Verboden voor ruiters",
+          "uitleg": "Geen ruiters."
+        },
+        {
+          "afb": "C19",
+          "naam": "Verboden voor voetgangers",
+          "uitleg": "Geen voetgangers."
+        },
+        {
+          "afb": "F99a",
+          "naam": "Begin weg voor voetgangers, fietsers, ruiters en speed pedelecs",
+          "uitleg": "Dubbel voorzichtig; max. 30 km/u."
+        },
+        {
+          "afb": "F99b",
+          "naam": "Begin weg met aanduiding van de delen",
+          "uitleg": "Iedereen blijft op zijn deel; het andere deel gebruiken mag als de ander kan passeren."
+        },
+        {
+          "afb": "F99c",
+          "naam": "Begin weg voor landbouwvoertuigen, voetgangers, fietsers, ruiters en speed pedelecs",
+          "uitleg": "Landbouwvoertuigen toegelaten."
+        },
+        {
+          "afb": "F101a",
+          "naam": "Einde weg voor voetgangers, fietsers, ruiters",
+          "uitleg": "Hier eindigen de regels van het begin-bord."
+        },
+        {
+          "afb": "F101b",
+          "naam": "Einde weg met delen",
+          "uitleg": "Hier eindigen de regels van het begin-bord."
+        },
+        {
+          "afb": "F101c",
+          "naam": "Einde weg met landbouwvoertuigen",
+          "uitleg": "Hier eindigen de regels van het begin-bord."
+        },
+        {
+          "afb": "F103",
+          "naam": "Begin voetgangerszone",
+          "uitleg": "Enkel voetgangers; max. stapvoets voor wie toegelaten is."
+        },
+        {
+          "afb": "F105",
+          "naam": "Einde voetgangerszone",
+          "uitleg": "Je verlaat de voetgangerszone."
+        },
+        {
+          "afb": "F111",
+          "naam": "Begin fietszone",
+          "uitleg": "Specifieke fietsersregels; motorvoertuigen mogen fietsers niet inhalen, max. 30 km/u."
+        },
+        {
+          "afb": "F113",
+          "naam": "Einde fietszone",
+          "uitleg": "Einde van de fietszone."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Fietsen verplicht of verboden?",
+          "afbs": [
+            "D7",
+            "C11"
+          ],
+          "verschil": "Het ene verplicht het fietspad, het andere verbiedt rijwielen."
+        },
+        {
+          "titel": "Ruiters verplicht of verboden?",
+          "afbs": [
+            "D13",
+            "C15"
+          ],
+          "verschil": "Het ene verplicht de weg voor ruiters, het andere verbiedt ruiters."
+        },
+        {
+          "titel": "Voetgangers verplicht of verboden?",
+          "afbs": [
+            "D11",
+            "C19"
+          ],
+          "verschil": "Het ene verplicht de weg voor voetgangers, het andere verbiedt voetgangers."
+        },
+        {
+          "titel": "Begin of einde van een weg voor zwakke weggebruikers",
+          "afbs": [
+            "F99a",
+            "F101a"
+          ],
+          "verschil": "Het eerste is het begin, het tweede het einde."
+        },
+        {
+          "titel": "Voetgangerszone of fietszone?",
+          "afbs": [
+            "F103",
+            "F111"
+          ],
+          "verschil": "Voetgangerszone: enkel voetgangers. Fietszone: motorvoertuigen toegelaten, max. 30 km/u, niet inhalen."
+        },
+        {
+          "titel": "Fietszone: begin of einde?",
+          "afbs": [
+            "F111",
+            "F113"
+          ],
+          "verschil": "Het eerste is het begin, het tweede het einde."
+        }
       ]
     },
     {
@@ -2573,6 +3920,82 @@
         "BORD-001",
         "BORD-002",
         "BORD-007"
+      ],
+      "kaarten": [
+        {
+          "afb": "M2",
+          "naam": "Uitgezonderd fietsers",
+          "uitleg": "Het hoofdbord geldt niet voor fietsers."
+        },
+        {
+          "afb": "M3",
+          "naam": "Uitgezonderd fietsers en bromfietsen klasse A",
+          "uitleg": "Het hoofdbord geldt niet voor fietsers en bromfietsen A."
+        },
+        {
+          "afb": "M6",
+          "naam": "Verplicht voor bromfietsen klasse B",
+          "uitleg": "Ook bromfietsen B moeten het fietspad volgen."
+        },
+        {
+          "afb": "M7",
+          "naam": "Verboden voor bromfietsen klasse B",
+          "uitleg": "Bromfietsen B mogen het fietspad niet volgen."
+        },
+        {
+          "afb": "M11",
+          "naam": "Uitgezonderd speed pedelecs",
+          "uitleg": "Het verbod/gebod geldt niet voor speed pedelecs."
+        },
+        {
+          "afb": "M12",
+          "naam": "Uitgezonderd bromfietsen A en speed pedelecs",
+          "uitleg": "Het hoofdbord geldt niet voor bromfietsen A en speed pedelecs."
+        },
+        {
+          "afb": "M13",
+          "naam": "Fietspad verplicht voor speed pedelecs",
+          "uitleg": "Onderbord bij het verplichte fietspad: speed pedelecs moeten het volgen."
+        },
+        {
+          "afb": "M15",
+          "naam": "Fietspad verboden voor speed pedelecs",
+          "uitleg": "Onderbord bij het verplichte fietspad: speed pedelecs mogen het niet volgen."
+        }
+      ],
+      "vergelijk": [
+        {
+          "titel": "Welke weggebruikers uitgezonderd?",
+          "afbs": [
+            "M2",
+            "M3"
+          ],
+          "verschil": "Het eerste neemt fietsers uit, het tweede ook bromfietsen klasse A."
+        },
+        {
+          "titel": "Bromfiets B: verplicht of verboden?",
+          "afbs": [
+            "M6",
+            "M7"
+          ],
+          "verschil": "Het ene verplicht het fietspad voor bromfietsen B, het andere verbiedt het."
+        },
+        {
+          "titel": "Speed pedelecs uitgezonderd?",
+          "afbs": [
+            "M11",
+            "M12"
+          ],
+          "verschil": "Het eerste neemt speed pedelecs uit, het tweede ook bromfietsen A."
+        },
+        {
+          "titel": "Speed pedelec: fietspad verplicht of verboden?",
+          "afbs": [
+            "M13",
+            "M15"
+          ],
+          "verschil": "Het ene verplicht het fietspad voor speed pedelecs, het andere verbiedt het."
+        }
       ]
     },
     {

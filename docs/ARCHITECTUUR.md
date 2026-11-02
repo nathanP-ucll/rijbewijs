@@ -37,3 +37,11 @@ Stijl van een echt studieboek, met nummers die je ook in de inhoudsopgave ziet:
 - Paragraaf N.M = theorieblok (titelKort), onderdeel N.M.K = elke pagina/kaart/oefening binnen de paragraaf, in leesvolgorde, bv. 3.2.1 theorie, 3.2.2 vergelijking, 3.2.3 mini-oefening 'Oefening'. Dus bv. 1.2.8 kan een oefening zijn over de borden uit 1.2.
 - De nummers worden automatisch door de build/engine gegenereerd uit de volgorde in de data (niet handmatig in de JSON), staan in de kop van elke pagina en in de inhoud (uitklapbaar, groep per hoofdstuk), en in 'Mijn fouten' ('fout bij 3.2.4').
 - Les-eindtest en samenvatting staan als laatste onderdelen van het les-overzicht (niet genummerd binnen een hoofdstuk, bv. 'Eindtest les 1').
+
+## Echte pagina's (feedback gebruiker, 2026-11-03)
+Elke pagina is een goed gevulde, goed opgemaakte boekpagina: niet leeg en niet overladen.
+- Vaste opbouw: kop met nummer + titel (bv. '1.2.3 Gevaarsborden'), één inleidende zin, hoofdinhoud (kaarten, opsomming of schema, groot), maximaal één kader (regel/let op/tip), onderaan een mini-oefening of 'onthoud dit'.
+- Minimum: elke pagina heeft minstens kop + inleidende zin + 3 inhoudselementen (bv. 3 bordkaarten, of schema + 3 punten) + kader of oefening. Te kleine blokken worden samengevoegd tot één pagina; te grote worden gesplitst (bordkaarten ~6 per pagina).
+- Maximum: past op één scherm zonder lange scroll op desktop; op mobiel mag een pagina scrollen maar blijft overzichtelijk.
+- Goede, korte, vlotte teksten in gewone taal; consequente stijl, witruimte, uitgelijnd raster; pagina's voelen even 'vol'.
+- De pagina-opbouw wordt door de engine automatisch uit de data samengesteld (kort/kaarten/vergelijk/paginas/schema's/kaders/mini), met herbruikbare pagina-sjablonen (bv. 'bordenpagina', 'regelpagina', 'schemapagina', 'vergelijkpagina', 'oefenpagina', 'samenvatting').

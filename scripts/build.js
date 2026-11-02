@@ -69,6 +69,13 @@ const LES_ONDERTITELS = {
   4: 'Alcohol en afleiding, remweg, ongeval en eerste hulp, het rijbewijs, het theorie-examen en je voertuig.',
 };
 
+// indeling in hoofdstukken (data/hoofdstukken.json): volgorde = hoofdstuknummer
+const hoofdCfg = readJSON(path.join(DATA, 'hoofdstukken.json'), null);
+const HOOFD = (hoofdCfg && hoofdCfg.hoofdstukken) || Object.keys(THEMA_NAMEN).map((t) => ({ thema: t, titel: THEMA_NAMEN[t] }));
+const themaNr = {};
+HOOFD.forEach((h, i) => { themaNr[h.thema] = i + 1; if (h.titel) THEMA_NAMEN[h.thema] = h.titel; });
+if (hoofdCfg && hoofdCfg.lessen) for (const [k, v] of Object.entries(hoofdCfg.lessen)) { if (v.titel) LES_TITELS[k] = v.titel; if (v.ondertitel) LES_ONDERTITELS[k] = v.ondertitel; }
+
 // theorie
 const theorie = [];
 for (const f of jsonFiles(path.join(DATA, 'theorie'))) {
@@ -273,45 +280,57 @@ oefeningen.forEach((o) => {
 const SIGN_CHUNK = 3, KAART_CHUNK = 3, CARD_CHUNK = 4, INLINE_MAX = 3;
 function rowIsSign(r) { return !!(r && (r.code || r.bord || r.afb) && (bordFiles[r.code || r.bord || r.afb] || schemaFiles[r.afb] || demoFiles[r.afb])); }
 const exLookup = new Map(oefeningen.map((o) => [o.id, o]));
+const exLoc = {};
 for (const les of [1, 2, 3, 4]) {
   const blokken = theorie.filter((b) => lesVanBlok(b) === les);
   blokken.sort((a, b) => blokOrder(a) - blokOrder(b) || a._ord - b._ord);
-  const themas = [...new Set(blokken.map((b) => b.thema))].sort((a, b) => themaVolgorde.indexOf(a) - themaVolgorde.indexOf(b));
+  const themas = [...new Set(blokken.map((b) => b.thema))].sort((a, b) => (themaNr[a] || 99) - (themaNr[b] || 99));
   const pages = [{ t: 'intro', titel: 'Inleiding', toc: true }];
-  const addOef = (ids, hoofdstuk, blokId) => ids.forEach((id) => pages.push({ t: 'oef', ex: id, blok: blokId, hoofdstuk, titel: 'Oefening' }));
   for (const th of themas) {
     const hoofdstuk = THEMA_NAMEN[th] || th;
+    const hn = themaNr[th] || 0;
+    let m = 0;
     for (const b of blokken.filter((x) => x.thema === th)) {
+      m++;
+      let k = 0;
+      const num = (pg) => { k++; pg.hn = hn; pg.par = hn + '.' + m; pg.nr = hn + '.' + m + '.' + k; pg.hoofdstukNr = hn; return pg; };
       const kaart = Array.isArray(b.kaarten) && b.kaarten.length > 0;
       const rows = kaart ? b.kaarten : (b.regels || []);
       const chunk = kaart ? KAART_CHUNK : (rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK);
       const inline = !kaart && rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
-      const first = { t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline };
+      const first = num({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline });
       const theoryPages = [first];
       pages.push(first);
       if (rows.length && !inline) {
         const parts = Math.ceil(rows.length / chunk);
         for (let p = 0; p < parts; p++) {
-          const pg = { t: 'regels', id: b.id, titel: b.titel, hoofdstuk, kaart, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts };
+          const pg = num({ t: 'regels', id: b.id, titel: b.titel, hoofdstuk, kaart, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts });
           pages.push(pg); theoryPages.push(pg);
         }
       }
       (b.vergelijk || []).forEach((v, vi) => {
-        const pg = { t: 'vergelijk', id: b.id, titel: b.titel, hoofdstuk, v: vi };
+        const pg = num({ t: 'vergelijk', id: b.id, titel: b.titel, hoofdstuk, v: vi });
         pages.push(pg); theoryPages.push(pg);
       });
       const blokOef = oefPerBlok[b.id] || [];
       const minis = blokOef.filter((id) => exLookup.get(id) && exLookup.get(id).mini);
       minis.forEach((id, j) => { const pg = theoryPages[Math.min(j, theoryPages.length - 1)]; (pg.mini = pg.mini || []).push(id); });
-      addOef(blokOef.filter((id) => !minis.includes(id)), hoofdstuk, b.id);
+      blokOef.filter((id) => !minis.includes(id)).forEach((id) => pages.push(num({ t: 'oef', ex: id, blok: b.id, hoofdstuk, titel: 'Oefening' })));
       placed.add(b.id);
     }
-    pages.push({ t: 'samenvatting', titel: 'Samenvatting: ' + hoofdstuk, hoofdstuk, thema: th, toc: true });
   }
   const lesEx = oefeningen.filter((o) => o.les === les && !o.theorieblok).map((o) => o.id);
-  if (lesEx.length) { pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', toc: true }); addOef(lesEx, 'Extra oefenen', null); }
-  pages.push({ t: 'eindtest', titel: 'Eindtest', toc: true });
-  boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t })), pages };
+  if (lesEx.length) {
+    pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', toc: true });
+    lesEx.forEach((id) => pages.push({ t: 'oef', ex: id, blok: null, hoofdstuk: 'Extra oefenen', titel: 'Oefening' }));
+  }
+  themas.forEach((th, ti) => pages.push({ t: 'samenvatting', titel: 'Samenvatting: ' + (THEMA_NAMEN[th] || th), hoofdstuk: THEMA_NAMEN[th] || th, hn: themaNr[th], thema: th, toc: ti === 0 }));
+  pages.push({ t: 'eindtest', titel: 'Eindtest les ' + les, toc: true });
+  pages.forEach((p, i) => {
+    if (p.t === 'oef') exLoc[p.ex] = { les, pagina: i + 1, nr: p.nr || null };
+    (p.mini || []).forEach((id) => { exLoc[id] = { les, pagina: i + 1, nr: p.nr || null }; });
+  });
+  boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t, nr: themaNr[t] })), pages };
 }
 const blokPagina = {};
 for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if (p.t === 'blok') blokPagina[p.id] = { les: +les, pagina: i + 1 }; });
@@ -376,6 +395,8 @@ const cursus = {
   meta: { gebouwd: new Date().toISOString(), demo: DEMO },
   curriculum: nieuweCurriculum.map((c) => ({ id: c.id, les: c.les, naam: c.naam, thema: c.thema })),
   themaNamen: THEMA_NAMEN,
+  themaNr,
+  exLoc,
   boeken,
   blokPagina,
   theorie: theorie.map((b) => { const x = Object.assign({}, b); delete x._ord; return x; }),

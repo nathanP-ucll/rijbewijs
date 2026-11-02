@@ -67,3 +67,4 @@ Voelt als een schoolboek, niet als een quiz. Per les een mix van: koppelen/verbi
 - `koppel.paren[].linksAfb`: afbeeldingsnaam (bord) links van het label; geef het label dan de betekenis, niet de code.
 - `tabel.rijen[].cellen[].correct` mag een string, een array varianten of een boolean (checkbox) zijn; `opties` maakt er een dropdown van.
 - Elke oefening komt op een eigen lespagina, direct na de theoriepagina(s) van haar `theorieblok`.
+- Bordkaarten (optioneel, op borden-blokken): `kaarten` [{ "afb" (bordbestand zonder .svg, gecontroleerd), "naam", "uitleg", "letop"? , "groep"? }] en `vergelijk` [{ "titel", "afbs": [..], "verschil" }] voor borden die op elkaar lijken.

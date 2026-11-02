@@ -5,6 +5,51 @@
   var App = window.App, el = App.el, esc = App.esc;
   var Types = {};
 
+  /** Slepen met pointer-events (werkt met muis en touch). opts: { selector, drop(targetEl), ghost }  */
+  function dragBind(node, opts) {
+    var pid = null, sx = 0, sy = 0, moved = false, ghost = null, suppress = false, last = null;
+    function targetAt(e) {
+      if (ghost) ghost.style.display = 'none';
+      var t = document.elementFromPoint(e.clientX, e.clientY);
+      if (ghost) ghost.style.display = '';
+      return t && t.closest ? t.closest(opts.selector) : null;
+    }
+    function clear() { if (last) { last.classList.remove('drop'); last = null; } }
+    function end() {
+      pid = null; moved = false; clear();
+      if (ghost) { ghost.remove(); ghost = null; }
+      node.classList.remove('dragging');
+    }
+    node.style.touchAction = 'none';
+    node.addEventListener('pointerdown', function (e) {
+      if (e.button > 0) return;
+      pid = e.pointerId; sx = e.clientX; sy = e.clientY; moved = false;
+    });
+    node.addEventListener('pointermove', function (e) {
+      if (pid == null || e.pointerId !== pid) return;
+      if (!moved) {
+        if (Math.hypot(e.clientX - sx, e.clientY - sy) < 8) return;
+        moved = true;
+        try { node.setPointerCapture(pid); } catch (x) { /* oké */ }
+        ghost = (opts.ghost || node).cloneNode(true);
+        ghost.classList.add('drag-ghost'); ghost.removeAttribute('id');
+        document.body.appendChild(ghost); node.classList.add('dragging');
+      }
+      ghost.style.left = e.clientX + 'px'; ghost.style.top = e.clientY + 'px';
+      var t = targetAt(e);
+      if (t !== last) { clear(); if (t) { t.classList.add('drop'); last = t; } }
+    });
+    node.addEventListener('pointerup', function (e) {
+      if (pid == null || e.pointerId !== pid) return;
+      var was = moved, t = was ? targetAt(e) : null;
+      end();
+      if (was) { suppress = true; setTimeout(function () { suppress = false; }, 0); if (t) opts.drop(t); }
+    });
+    node.addEventListener('pointercancel', end);
+    node.addEventListener('click', function (e) { if (suppress) { e.stopImmediatePropagation(); e.preventDefault(); } }, true);
+  }
+  App.dragBind = dragBind;
+
   function setRight(n, st) { // st: 'right' | 'wrong' | 'missed' | null
     n.classList.remove('is-right', 'is-wrong', 'is-missed');
     if (st) n.classList.add('is-' + st);
@@ -149,18 +194,13 @@
           sel = leftSel ? null : { kind: 'row', i: i }; render();
           var again = rowsBox.querySelectorAll('.match-slot')[i]; if (again) again.focus();
         });
-        slot.addEventListener('dragover', function (e) { if (!locked) { e.preventDefault(); slot.classList.add('drop'); } });
-        slot.addEventListener('dragleave', function () { slot.classList.remove('drop'); });
-        slot.addEventListener('drop', function (e) {
-          e.preventDefault(); slot.classList.remove('drop');
-          var c = Number(e.dataTransfer.getData('text/plain')); if (!isNaN(c) && !locked) doAssign(i, c);
-        });
+        slot.setAttribute('data-row', String(i));
         rowsBox.appendChild(el('div', { class: 'match-row' }, left, el('span', { class: 'match-arrow', 'aria-hidden': 'true', html: App.icon('right', 16) }), slot));
       });
       order.forEach(function (ci) {
         if (assign.indexOf(ci) >= 0) return;
         var isSel = sel && sel.kind === 'chip' && sel.i === ci;
-        var chip = el('button', { type: 'button', class: 'chip-item' + (isSel ? ' selected' : ''), draggable: locked ? null : 'true', disabled: locked }, ex.paren[ci].rechts);
+        var chip = el('button', { type: 'button', class: 'chip-item' + (isSel ? ' selected' : ''), disabled: locked }, ex.paren[ci].rechts);
         chip.addEventListener('click', function () {
           if (locked) return;
           if (sel && sel.kind === 'row') return doAssign(sel.i, ci);
@@ -168,7 +208,7 @@
           var chips = pool.querySelectorAll('.chip-item');
           for (var q = 0; q < chips.length; q++) if (chips[q].textContent === ex.paren[ci].rechts) { chips[q].focus(); break; }
         });
-        chip.addEventListener('dragstart', function (e) { e.dataTransfer.setData('text/plain', String(ci)); e.dataTransfer.effectAllowed = 'move'; });
+        if (!locked) dragBind(chip, { selector: '.match-slot', drop: function (t) { if (!locked) doAssign(Number(t.getAttribute('data-row')), ci); } });
         pool.appendChild(chip);
       });
       if (!pool.children.length) pool.appendChild(el('span', { class: 'muted small' }, 'Alles gekoppeld.'));
@@ -213,7 +253,7 @@
     function render() {
       list.innerHTML = '';
       order.forEach(function (v, pos) {
-        var li = el('li', { class: 'seq-item', draggable: locked ? null : 'true', data: { pos: pos } });
+        var li = el('li', { class: 'seq-item', data: { pos: pos } });
         if (shown) setRight(li, shown[pos]);
         li.appendChild(el('span', { class: 'seq-grip', 'aria-hidden': 'true', html: App.icon('grip', 18) }));
         li.appendChild(el('span', { class: 'seq-n', 'aria-hidden': 'true' }, String(pos + 1)));
@@ -221,14 +261,7 @@
         li.appendChild(el('span', { class: 'seq-btns' },
           el('button', { type: 'button', class: 'iconbtn up', disabled: locked || pos === 0, 'aria-label': 'Omhoog: ' + ex.items[v], html: App.icon('up', 18), on: { click: function () { move(pos, pos - 1, 'up'); } } }),
           el('button', { type: 'button', class: 'iconbtn down', disabled: locked || pos === n - 1, 'aria-label': 'Omlaag: ' + ex.items[v], html: App.icon('down', 18), on: { click: function () { move(pos, pos + 1, 'down'); } } })));
-        li.addEventListener('dragstart', function (e) { e.dataTransfer.setData('text/plain', String(pos)); e.dataTransfer.effectAllowed = 'move'; li.classList.add('dragging'); });
-        li.addEventListener('dragend', function () { li.classList.remove('dragging'); });
-        li.addEventListener('dragover', function (e) { if (!locked) { e.preventDefault(); li.classList.add('drop'); } });
-        li.addEventListener('dragleave', function () { li.classList.remove('drop'); });
-        li.addEventListener('drop', function (e) {
-          e.preventDefault(); li.classList.remove('drop');
-          var from = Number(e.dataTransfer.getData('text/plain')); if (!isNaN(from)) move(from, pos, 'seq-none');
-        });
+        if (!locked) dragBind(li.querySelector('.seq-grip'), { selector: '.seq-item', ghost: li, drop: function (t) { move(pos, Number(t.getAttribute('data-pos')), 'seq-none'); } });
         list.appendChild(li);
       });
     }
