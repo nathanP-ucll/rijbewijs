@@ -7,11 +7,10 @@
   "vraag": "Zet de volgorde van voorrang: wat gaat boven wat? Het belangrijkste staat bovenaan.",
   "items": [
    "Bevoegde persoon (bv. politie)",
-   "Verkeerslichten",
-   "Verkeersborden",
+   "Verkeerstekens (verkeerslichten, verkeersborden, wegmarkeringen)",
    "Algemene verkeersregels (bv. voorrang van rechts)"
   ],
-  "uitleg": "Je loopt de lijst van boven naar onder af: eerst de bevoegde persoon, dan de lichten, dan de borden, dan de algemene regels.",
+  "uitleg": "Bevelen van een bevoegde persoon gaan boven de verkeerstekens, en de verkeerstekens gaan boven de algemene verkeersregels.",
   "bronnen": [
    "VOOR-001",
    "VOOR-002",
@@ -22,7 +21,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": true,
-  "id": "L2-001"
+  "id": "L2-001",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -500,7 +500,7 @@
   "vraag": "Je verlaat als automobilist de rotonde. Voor wie moet je voorrang verlenen? Kruis aan.",
   "opties": [
    "Voetgangers die de afrit oversteken",
-   "Fietsers die de afrit kruisen",
+   "Fietsers op een doorlopend fietspad dat de afrit kruist",
    "Voor niemand: wie de rotonde verlaat, heeft altijd voorrang",
    "Alleen voor auto's van rechts"
   ],
@@ -509,7 +509,7 @@
    1
   ],
   "meerdere": true,
-  "uitleg": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers en fietsers die de afrit kruisen.",
+  "uitleg": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers die de afrit oversteken en aan fietsers op een doorlopend fietspad dat de afrit kruist.",
   "bronnen": [
    "VOOR-001",
    "VOOR-003",
@@ -519,7 +519,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "id": "L2-015"
+  "id": "L2-015",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -867,18 +868,18 @@
   "onderwerp": "T15",
   "theorieblok": "lichten-voetgangers",
   "type": "meerkeuze",
-  "vraag": "Voetgangers zijn regelmatig begonnen over te steken en jouw licht wordt groen. Wat doe je?",
+  "vraag": "Je slaat af bij groen licht en voetgangers zijn regelmatig begonnen de zijstraat over te steken waarin je afslaat. Wat doe je?",
   "opties": [
    "Je rijdt meteen door",
    "Je toetert",
    "Je rijdt om hen heen",
-   "Je laat de voetgangers uitlopen aan een normaal tempo"
+   "Je verleent voorrang aan de voetgangers"
   ],
   "correct": [
    3
   ],
   "meerdere": false,
-  "uitleg": "Voetgangers die regelmatig zijn begonnen, laat je uitlopen.",
+  "uitleg": "Wie afslaat, verleent voorrang aan voetgangers die de rijbaan oversteken die hij oprijdt, ook bij groen licht.",
   "bronnen": [
    "LICH-001"
   ],
@@ -886,7 +887,8 @@
   "gewicht": "gewoon",
   "examen": true,
   "eindtest": false,
-  "id": "L2-028"
+  "id": "L2-028",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -1139,11 +1141,11 @@
   "onderwerp": "T17",
   "theorieblok": "zebrapad-voorrang-bestuurder",
   "type": "meerkeuze",
-  "vraag": "Wat is verboden bij een zebrapad? Kruis aan.",
+  "vraag": "Wat is verboden bij een zebrapad waar het verkeer niet geregeld is? Kruis aan.",
   "opties": [
    "Stilstaan of parkeren op het zebrapad",
    "Parkeren op minder dan 5 meter ervoor",
-   "Links inhalen van een voertuig dat voor het zebrapad stopt",
+   "Inhalen van een voertuig dat voor het zebrapad stopt",
    "Stoppen om voetgangers voor te laten"
   ],
   "correct": [
@@ -1152,7 +1154,7 @@
    2
   ],
   "meerdere": true,
-  "uitleg": "Stilstaan en parkeren zijn verboden op de oversteekplaats en minder dan 5 meter ervoor; links inhalen ook.",
+  "uitleg": "Stilstaan en parkeren zijn verboden op de oversteekplaats en minder dan 5 meter ervoor; een voertuig dat stopt voor het zebrapad, mag je er niet inhalen.",
   "bronnen": [
    "KWET-001",
    "KWET-005"
@@ -1161,7 +1163,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": true,
-  "id": "L2-038"
+  "id": "L2-038",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -1336,7 +1339,9 @@
    {
     "antwoorden": [
      "spiegel",
-     "spiegels"
+     "spiegels",
+     "buitenspiegel",
+     "buitenspiegels"
     ]
    },
    {
@@ -1353,7 +1358,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "id": "L2-044"
+  "id": "L2-044",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -1434,7 +1440,7 @@
   "onderwerp": "T18",
   "theorieblok": "fietsers-rotonde",
   "type": "meerkeuze",
-  "vraag": "Je verlaat een rotonde en kruist een fietspad. Wat moet je doen?",
+  "vraag": "Je verlaat een rotonde en kruist een doorlopend fietspad. Wat moet je doen?",
   "opties": [
    "Doorrijden: je verlaat de rotonde",
    "Toeteren",
@@ -1445,7 +1451,7 @@
    3
   ],
   "meerdere": false,
-  "uitleg": "Wie de rotonde verlaat of een fietspad oversteekt, verleent voorrang aan wie het fietspad volgt.",
+  "uitleg": "Wie de rotonde verlaat en een doorlopend fietspad oversteekt, verleent voorrang aan wie dat fietspad volgt.",
   "bronnen": [
    "KWET-001"
   ],
@@ -1453,7 +1459,8 @@
   "gewicht": "gewoon",
   "examen": true,
   "eindtest": false,
-  "id": "L2-048"
+  "id": "L2-048",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -1509,7 +1516,7 @@
   "vraag": "Hoe verklein je als fietser of voetganger het gevaar van de dode hoek? Kruis aan.",
   "opties": [
    "Niet rechts naast een vrachtwagen fietsen",
-   "Rechts achter een stilstaande vrachtwagen blijven",
+   "Ruim achter een stilstaande vrachtwagen blijven",
    "Oogcontact zoeken met de chauffeur",
    "Naast de vrachtwagen blijven staan om gezien te worden"
   ],
@@ -1519,7 +1526,7 @@
    2
   ],
   "meerdere": true,
-  "uitleg": "Blijf uit de dode hoek en zoek oogcontact.",
+  "uitleg": "Blijf uit de dode hoek (naast, vlak voor en vlak achter de vrachtwagen) en zoek oogcontact.",
   "bronnen": [
    "KWET-007"
   ],
@@ -1527,7 +1534,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "id": "L2-051"
+  "id": "L2-051",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -1694,19 +1702,18 @@
   "onderwerp": "T20",
   "theorieblok": "openbaar-busstrook",
   "type": "meerkeuze",
-  "vraag": "Wie mag altijd op de busstrook? Kruis aan.",
+  "vraag": "Welk voertuig mag op de busstrook rijden zonder dat het op het bord of onderbord vermeld staat? Kruis aan.",
   "opties": [
    "Bussen van geregelde diensten",
-   "Trams van geregelde diensten",
-   "Fietsers, ook zonder aanduiding op het bord",
-   "Gewone personenwagens"
+   "Fietsers, zonder vermelding op het bord of onderbord",
+   "Gewone personenwagens",
+   "Vrachtwagens"
   ],
   "correct": [
-   0,
-   1
+   0
   ],
-  "meerdere": true,
-  "uitleg": "Anderen mogen enkel als het bord of onderbord het uitdrukkelijk toelaat.",
+  "meerdere": false,
+  "uitleg": "Op de busstrook rijden voertuigen van de geregelde diensten voor gemeenschappelijk vervoer. Anderen mogen enkel als het bord of onderbord het uitdrukkelijk toelaat.",
   "bronnen": [
    "OPEN-001",
    "OPEN-002",
@@ -1716,7 +1723,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": true,
-  "id": "L2-058"
+  "id": "L2-058",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -2073,11 +2081,11 @@
   "type": "volgorde",
   "vraag": "In welke volgorde check je een T-kruispunt?",
   "items": [
-   "Bevoegde persoon of verkeerslicht",
-   "Verkeersborden",
+   "Bevoegde persoon",
+   "Verkeerslichten en verkeersborden",
    "Voorrang van rechts"
   ],
-  "uitleg": "Eerst personen en lichten, dan borden, en pas dan voorrang van rechts.",
+  "uitleg": "Eerst de bevoegde persoon, dan de lichten en borden, en pas dan voorrang van rechts.",
   "bronnen": [
    "VOOR-001",
    "VOOR-007"
@@ -2087,7 +2095,8 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M09"
+  "id": "L2-M09",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -2156,14 +2165,14 @@
   "opties": [
    "Alleen wie de rotonde oprijdt",
    "Niemand",
-   "Fietsers en voetgangers die de afrit kruisen",
+   "Voetgangers die de afrit oversteken",
    "Alleen auto's"
   ],
   "correct": [
    2
   ],
   "meerdere": false,
-  "uitleg": "Je verleent voorrang aan voetgangers en fietsers die de afrit kruisen.",
+  "uitleg": "Als je de rotonde verlaat, verleen je voorrang aan voetgangers die de afrit oversteken.",
   "bronnen": [
    "VOOR-001",
    "VOOR-003",
@@ -2174,7 +2183,8 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M12"
+  "id": "L2-M12",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -2726,10 +2736,6 @@
    {
     "links": "Elektrische fiets tot 25 km/u",
     "rechts": "Fietser"
-   },
-   {
-    "links": "Fiets aan de hand",
-    "rechts": "Voetganger"
    }
   ],
   "uitleg": "Gebruikers van voortbewegingstoestellen worden gelijkgesteld met voetgangers of fietsers.",
@@ -2742,7 +2748,8 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M32"
+  "id": "L2-M32",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -2949,22 +2956,18 @@
   "onderwerp": "T17",
   "theorieblok": "voetgangerszone-speelstraat-woonerf",
   "type": "koppel",
-  "vraag": "Koppel de zone aan de snelheid.",
+  "vraag": "Koppel de zone aan de regel.",
   "paren": [
    {
     "links": "Woonerf",
-    "rechts": "20 km/u"
+    "rechts": "Maximaal 20 km/u"
    },
    {
     "links": "Voetgangerszone",
-    "rechts": "Stapvoets"
-   },
-   {
-    "links": "Speelstraat",
-    "rechts": "Stapvoets"
+    "rechts": "Stapvoets voor wie er mag rijden"
    }
   ],
-  "uitleg": "Op deze wegen rijd je traag.",
+  "uitleg": "In een woonerf rijd je maximaal 20 km/u; in een voetgangerszone rijdt wie er mag rijden stapvoets en laat voetgangers voor.",
   "bronnen": [
    "KWET-001"
   ],
@@ -2973,20 +2976,16 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M40"
+  "id": "L2-M40",
+  "gewijzigd": true
  },
  {
   "les": 2,
   "onderwerp": "T17",
   "theorieblok": "portier-openen",
-  "type": "volgorde",
-  "vraag": "Zet de stappen in volgorde.",
-  "items": [
-   "Spiegel controleren",
-   "Over je schouder kijken",
-   "Portier openen"
-  ],
-  "uitleg": "Eerst kijken, dan de deur openen.",
+  "type": "meerkeuze",
+  "vraag": "Wat doe je voor je een portier opent?",
+  "uitleg": "Je vergewist je eerst dat er niemand aankomt (spiegel en over je schouder), pas daarna open je voorzichtig de deur.",
   "bronnen": [
    "KWET-001"
   ],
@@ -2995,7 +2994,18 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M41"
+  "id": "L2-M41",
+  "opties": [
+   "Eerst in je spiegel en over je schouder kijken, dan voorzichtig openen",
+   "Meteen openen en daarna pas kijken",
+   "Toeteren en dan openen",
+   "Enkel naar voren kijken en dan openen"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -3450,8 +3460,8 @@
   "vraag": "Koppel de weggebruiker aan zijn toegang.",
   "paren": [
    {
-    "links": "Bus en tram",
-    "rechts": "Altijd toegelaten"
+    "links": "Bus van een geregelde dienst",
+    "rechts": "Toegelaten"
    },
    {
     "links": "Fiets",
@@ -3462,7 +3472,7 @@
     "rechts": "Niet toegelaten, behalve in de uitzonderingen"
    }
   ],
-  "uitleg": "Buiten bussen en trams mag enkel wie op het bord of onderbord staat.",
+  "uitleg": "Voertuigen van geregelde diensten voor gemeenschappelijk vervoer mogen op de busstrook; anderen enkel als het bord of onderbord het toelaat.",
   "bronnen": [
    "OPEN-001",
    "OPEN-002",
@@ -3473,7 +3483,8 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M57"
+  "id": "L2-M57",
+  "gewijzigd": true
  },
  {
   "les": 2,
@@ -3640,7 +3651,7 @@
   "theorieblok": "openbaar-overweg-pech",
   "type": "cloze",
   "vraag": "Vul aan.",
-  "tekst": "Bij pech op een overweg bel je meteen het gratis noodnummer {{1}}.",
+  "tekst": "Bij pech op een overweg stap je uit, ga je achter de slagbomen staan en bel je dan het gratis noodnummer {{1}}.",
   "gaten": [
    {
     "antwoorden": [
@@ -3648,7 +3659,7 @@
     ]
    }
   ],
-  "uitleg": "Het nummer van Infrabel is 1711.",
+  "uitleg": "Breng jezelf en je passagiers eerst in veiligheid achter de slagbomen en bel dan het gratis noodnummer van Infrabel: 1711.",
   "bronnen": [
    "OPEN-003"
   ],
@@ -3657,6 +3668,7 @@
   "examen": false,
   "eindtest": false,
   "mini": true,
-  "id": "L2-M64"
+  "id": "L2-M64",
+  "gewijzigd": true
  }
 ]

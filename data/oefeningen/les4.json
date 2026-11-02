@@ -109,14 +109,14 @@
   "theorieblok": "gedrag-alcohol-grenzen",
   "type": "waaronwaar",
   "vraag": "Juist of onjuist?",
-  "stelling": "Voor een BOB gelden andere alcoholgrenzen dan voor andere bestuurders.",
+  "stelling": "Voor een BOB gelden andere alcoholgrenzen dan voor andere bestuurders van dezelfde categorie.",
   "juist": false,
-  "motivatie": "BOB is een campagne en geen wettelijk statuut: voor iedereen gelden dezelfde grenzen.",
+  "motivatie": "BOB is een campagne en geen wettelijk statuut. Een BOB heeft geen eigen, hogere grens: voor hem gelden dezelfde grenzen als voor elke andere bestuurder van zijn categorie.",
   "foutemotivaties": [
    "Een BOB mag tot 0,8 promille drinken omdat hij de anderen thuisbrengt.",
    "Een BOB heeft een wettelijk statuut met een eigen, hogere grens."
   ],
-  "uitleg": "BOB is een sensibiliseringscampagne. De alcoholgrenzen zijn voor iedereen dezelfde.",
+  "uitleg": "BOB is een sensibiliseringscampagne zonder wettelijk statuut. Voor een BOB gelden dezelfde alcoholgrenzen als voor andere bestuurders van zijn categorie (gewone bestuurders 0,5 g/l, professionele bestuurders 0,2 g/l).",
   "bronnen": [
    "GEDR-003",
    "GEDR-010",
@@ -128,7 +128,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-005",
@@ -275,7 +276,12 @@
   "antwoorden": [
    "28",
    "28 m",
-   "28m"
+   "28m",
+   "28 meter",
+   "ongeveer 28",
+   "27,8",
+   "27,8 m",
+   "27.8"
   ],
   "eenheid": "m",
   "uitleg": "Bij 50 km/u rijd je in 2 seconden ongeveer 28 meter \"blind\" als je wegkijkt.",
@@ -286,7 +292,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-011",
@@ -332,7 +339,7 @@
    1
   ],
   "meerdere": true,
-  "uitleg": "Voor geneesmiddelen is er geen vaste grenswaarde. Combineer ze nooit met alcohol.",
+  "uitleg": "Voor geneesmiddelen is er geen vaste grenswaarde: jouw rijvaardigheid telt. Combineer ze liever niet met alcohol, want dat verhoogt het risico sterk.",
   "bronnen": [
    "GEDR-007",
    "GEDR-016"
@@ -340,7 +347,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-013",
@@ -352,7 +360,7 @@
   "opties": [
    "Een bestuurder die achteruit rijdt",
    "Een taxichauffeur met een klant aan boord",
-   "Een persoon met een medisch attest",
+   "Een persoon met een officiële medische vrijstelling",
    "Een passagier achterin op een korte rit",
    "De bestuurder bij weinig verkeer"
   ],
@@ -362,14 +370,15 @@
    2
   ],
   "meerdere": true,
-  "uitleg": "Vrijgesteld zijn onder meer wie achteruit rijdt, taxichauffeurs met klant en personen met een medisch attest.",
+  "uitleg": "Vrijgesteld zijn onder meer wie achteruit rijdt, taxichauffeurs met klant en personen met een officieel bewijs van medische vrijstelling. Een korte rit of weinig verkeer is geen reden om de gordel niet te dragen.",
   "bronnen": [
    "GEDR-001"
   ],
   "moeilijkheid": 3,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-014",
@@ -770,33 +779,6 @@
   "eindtest": false
  },
  {
-  "id": "L4-026",
-  "les": 4,
-  "onderwerp": "T33",
-  "theorieblok": "gedrag-remweg",
-  "type": "meerkeuze",
-  "vraag": "Je rijdt twee keer zo snel. Hoeveel keer langer wordt je remafstand ongeveer?",
-  "opties": [
-   "2 keer",
-   "3 keer",
-   "4 keer",
-   "8 keer"
-  ],
-  "correct": [
-   2
-  ],
-  "meerdere": false,
-  "uitleg": "De remafstand groeit met het kwadraat van de snelheid: dubbel zo snel is ongeveer vier keer zo lang.",
-  "bronnen": [
-   "GEDR-018",
-   "GEDR-008"
-  ],
-  "moeilijkheid": 3,
-  "gewicht": "gewoon",
-  "examen": true,
-  "eindtest": false
- },
- {
   "id": "L4-027",
   "les": 4,
   "onderwerp": "T33",
@@ -871,15 +853,15 @@
   "opties": [
    "Je past je snelheid aan.",
    "Je houdt 3 seconden afstand.",
-   "Je gebruikt cruise control.",
-   "Een afstand van 2 seconden is altijd genoeg."
+   "Je rijdt even snel als op een droge weg.",
+   "Een afstand van 2 seconden volstaat op een nat wegdek."
   ],
   "correct": [
    0,
    1
   ],
   "meerdere": true,
-  "uitleg": "Bij nat wegdek is de remafstand langer: rij trager en tel 3 seconden. Gebruik geen cruise control op gladde wegen.",
+  "uitleg": "Bij nat wegdek is de remafstand langer: rij trager en tel 3 seconden afstand.",
   "bronnen": [
    "GEDR-001",
    "GEDR-008",
@@ -889,7 +871,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-030",
@@ -984,7 +967,6 @@
    2
   ],
   "meerdere": false,
-  "afbeelding": "schema-gevarendriehoek-afstand",
   "uitleg": "Op de autosnelweg 100 meter, op een gewone weg 30 meter.",
   "bronnen": [
    "ONGE-001",
@@ -993,7 +975,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": true,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-034",
@@ -1040,11 +1023,11 @@
     "rechts": "Dringende politiehulp"
    },
    {
-    "links": "100",
-    "rechts": "Komt bij dezelfde noodcentrale uit als 112"
+    "links": "070 245 245",
+    "rechts": "Antigifcentrum"
    }
   ],
-  "uitleg": "112 is het noodnummer voor ambulance en brandweer, 101 voor dringende politiehulp.",
+  "uitleg": "112 is het noodnummer voor ambulance en brandweer, 101 voor dringende politiehulp en 070 245 245 is het nummer van het Antigifcentrum.",
   "bronnen": [
    "ONGE-002",
    "ONGE-003",
@@ -1053,7 +1036,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-036",
@@ -1091,7 +1075,7 @@
   "theorieblok": "ongeval-ehbo-stappen",
   "type": "cloze",
   "vraag": "Vul aan.",
-  "tekst": "Het ABC staat voor: bewustzijn, {{1}}, ademhaling. De ademhaling controleer je door te kijken, te luisteren en te {{2}}.",
+  "tekst": "Bij het beoordelen van het slachtoffer controleer je het bewustzijn, open je de {{1}} en controleer je de ademhaling door te kijken, te luisteren en te {{2}}.",
   "gaten": [
    {
     "opties": [
@@ -1110,7 +1094,7 @@
     "correct": 0
    }
   ],
-  "uitleg": "Je controleert bewustzijn, luchtweg en ademhaling (kijken, luisteren, voelen) in maximaal 10 seconden.",
+  "uitleg": "Je controleert het bewustzijn, opent de luchtweg en controleert de ademhaling (kijken, luisteren, voelen) in maximaal 10 seconden.",
   "bronnen": [
    "ONGE-005",
    "ONGE-008",
@@ -1119,7 +1103,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-038",
@@ -1184,23 +1169,24 @@
   "opties": [
    "Koelen met stromend water",
    "Afdekken met gepast verbandmateriaal",
-   "Er ijs op leggen",
-   "Er zalf op smeren",
-   "Blaren openprikken"
+   "Er boter of olie op smeren",
+   "Blaren openprikken",
+   "Niet koelen en de wonde zo laten"
   ],
   "correct": [
    0,
    1
   ],
   "meerdere": true,
-  "uitleg": "Koel met stromend water en bedek de wonde. Geen ijs, geen zalf en prik blaren niet open.",
+  "uitleg": "Koel met stromend water en bedek de wonde met gepast verbandmateriaal. Smeer er geen boter of olie op en prik blaren niet open.",
   "bronnen": [
    "ONGE-006"
   ],
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-041",
@@ -1398,7 +1384,7 @@
    1
   ],
   "meerdere": false,
-  "uitleg": "Niet ter plaatse blijven of niets melden is vluchtmisdrijf en strafbaar.",
+  "uitleg": "Wegrijden zonder je gegevens achter te laten of te melden is vluchtmisdrijf en strafbaar.",
   "bronnen": [
    "ONGE-001",
    "ONGE-012",
@@ -1407,7 +1393,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": true,
-  "eindtest": true
+  "eindtest": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-048",
@@ -1898,11 +1885,11 @@
     "rechts": "Spanning te hoog"
    },
    {
-    "links": "Bult of bobbel in de flank",
-    "rechts": "Band vervangen"
+    "links": "Zichtbare beschadiging, zoals een bult in de flank",
+    "rechts": "Band laten nakijken of vervangen"
    }
   ],
-  "uitleg": "Slijtage vertelt je veel over de bandenspanning. Een bult in de flank betekent: band vervangen.",
+  "uitleg": "Slijtage vertelt je veel over de bandenspanning. Bij zichtbare beschadiging, zoals een bult in de flank, laat je de band nakijken of vervang je ze.",
   "bronnen": [
    "TECH-008",
    "TECH-009"
@@ -1910,7 +1897,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-061",
@@ -2043,7 +2031,7 @@
    0
   ],
   "meerdere": false,
-  "afbeelding": "tech-lampje-olie",
+  "afbeelding": "tech-lampje-olie-oefening",
   "uitleg": "Het rode oliekannetje wijst op te lage oliedruk. Stop en controleer het peil.",
   "bronnen": [
    "TECH-012",
@@ -2052,7 +2040,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": true,
-  "eindtest": true
+  "eindtest": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-066",
@@ -2071,7 +2060,7 @@
    0
   ],
   "meerdere": false,
-  "afbeelding": "tech-lampje-motor",
+  "afbeelding": "tech-lampje-motor-oefening",
   "uitleg": "Een knipperend motorlampje is ernstiger dan een brandend lampje: veilig stoppen.",
   "bronnen": [
    "TECH-012",
@@ -2080,7 +2069,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": true,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L4-067",
@@ -2466,7 +2456,7 @@
    },
    {
     "links": "Geneesmiddel en alcohol",
-    "rechts": "Nooit combineren"
+    "rechts": "Liever niet combineren: het risico stijgt sterk"
    }
   ],
   "uitleg": "Voor geneesmiddelen is er geen vaste grens; jouw rijvaardigheid telt.",
@@ -2478,7 +2468,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M09",
@@ -2673,7 +2664,7 @@
    0
   ],
   "meerdere": false,
-  "uitleg": "In andere omstandigheden mag het achtermistlicht niet branden.",
+  "uitleg": "Enkel bij mist of sneeuwval met zicht onder ongeveer 100 m, of bij felle regen. In andere omstandigheden mag het achtermistlicht niet branden.",
   "bronnen": [
    "GEDR-001",
    "GEDR-015"
@@ -2682,7 +2673,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M16",
@@ -2759,24 +2751,26 @@
     "rechts": "Stopafstand"
    },
    {
-    "links": "Dubbel zo snel rijden",
-    "rechts": "Ongeveer vier keer zo lange remafstand"
-   },
-   {
     "links": "Nat of glad wegdek",
     "rechts": "Langere remafstand"
+   },
+   {
+    "links": "Vermoeid of afgeleid rijden",
+    "rechts": "Langere reactietijd"
    }
   ],
   "uitleg": "Stopafstand is reactieafstand plus remafstand.",
   "bronnen": [
    "GEDR-018",
-   "GEDR-008"
+   "GEDR-008",
+   "GEDR-006"
   ],
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M19",
@@ -2821,7 +2815,7 @@
     "rechts": "Aanpassen aan weer en wegdek"
    },
    {
-    "links": "Volgafstand",
+    "links": "Volgafstand bij nat wegdek",
     "rechts": "3 seconden"
    },
    {
@@ -2829,7 +2823,7 @@
     "rechts": "Dimlicht bij zicht onder ongeveer 200 m"
    }
   ],
-  "uitleg": "Bij regen is de remafstand langer en je zicht slechter.",
+  "uitleg": "Bij regen is de remafstand langer en je zicht slechter. Bij slecht zicht wordt soms zelfs 4 seconden afstand aangeraden.",
   "bronnen": [
    "GEDR-001",
    "GEDR-008",
@@ -2840,7 +2834,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M21",
@@ -3044,11 +3039,11 @@
     "rechts": "Wat er gebeurd is en hoeveel voertuigen"
    },
    {
-    "links": "Wie?",
-    "rechts": "Gewonden: hoeveel en hoe ernstig"
+    "links": "Gewonden?",
+    "rechts": "Hoeveel en hoe ernstig"
    }
   ],
-  "uitleg": "Antwoord rustig en hang niet op voor de operator klaar is.",
+  "uitleg": "Antwoord rustig, zeg ook wie je bent en hang niet op voor de operator klaar is.",
   "bronnen": [
    "ONGE-002",
    "ONGE-015"
@@ -3057,7 +3052,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M28",
@@ -3106,13 +3102,13 @@
   "opties": [
    "Het is bewusteloos maar ademt normaal",
    "Het ademt niet normaal",
-   "Je vermoedt een wervelletsel"
+   "Het is bij bewustzijn en praat"
   ],
   "correct": [
    0
   ],
   "meerdere": false,
-  "uitleg": "Zo blijft de luchtweg open. Bij vermoeden van wervelletsel draai je het niet.",
+  "uitleg": "Zo blijft de luchtweg open.",
   "bronnen": [
    "ONGE-008",
    "ONGE-004"
@@ -3121,7 +3117,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M30",
@@ -3206,14 +3203,14 @@
    },
    {
     "links": "Lichamelijk letsel",
-    "rechts": "Zo nodig hulp verlenen en het voertuig niet verplaatsen"
+    "rechts": "Zo nodig hulp verlenen; het voertuig hoeft niet verplaatst te worden"
    },
    {
     "links": "Afwezige tegenpartij",
     "rechts": "Naam en adres opgeven en snel melden"
    }
   ],
-  "uitleg": "Bij gewonden mag je het voertuig niet verplaatsen.",
+  "uitleg": "Bij gewonden hoef je het voertuig niet te verplaatsen: laat het staan voor de vaststellingen, tenzij er gevaar is.",
   "bronnen": [
    "ONGE-001",
    "ONGE-009"
@@ -3222,7 +3219,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M34",
@@ -3474,7 +3472,7 @@
   "paren": [
    {
     "links": "Minimale oefenperiode",
-    "rechts": "5 maanden"
+    "rechts": "Minstens 5 maanden (niet bij M12)"
    },
    {
     "links": "Gebied",
@@ -3495,7 +3493,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M43",
@@ -3576,7 +3575,7 @@
    },
    {
     "links": "Vernieuwen",
-    "rechts": "Minstens 3 maanden voor het einde"
+    "rechts": "Uiterlijk 3 maanden voor het einde"
    },
    {
     "links": "Oogtest",
@@ -3593,7 +3592,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M46",
@@ -3799,7 +3799,7 @@
    },
    {
     "links": "Brandblusser",
-    "rechts": "Binnen handbereik; vervaldatum en zegel controleren"
+    "rechts": "Binnen handbereik; vervaldatum en staat controleren"
    },
    {
     "links": "Fluohesje",
@@ -3816,7 +3816,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M53",
@@ -3865,27 +3866,27 @@
    {
     "links": "Lampje A",
     "rechts": "Oliedruk",
-    "linksAfb": "tech-lampje-olie"
+    "linksAfb": "tech-lampje-olie-oefening"
    },
    {
     "links": "Lampje B",
     "rechts": "Remmen",
-    "linksAfb": "tech-lampje-remmen"
+    "linksAfb": "tech-lampje-remmen-oefening"
    },
    {
     "links": "Lampje C",
     "rechts": "Motorstoring",
-    "linksAfb": "tech-lampje-motor"
+    "linksAfb": "tech-lampje-motor-oefening"
    },
    {
     "links": "Lampje D",
     "rechts": "Grootlicht",
-    "linksAfb": "tech-lampje-grootlicht"
+    "linksAfb": "tech-lampje-grootlicht-oefening"
    },
    {
     "links": "Lampje E",
     "rechts": "Richtingaanwijzer",
-    "linksAfb": "tech-lampje-richtingaanwijzer"
+    "linksAfb": "tech-lampje-richtingaanwijzer-oefening"
    }
   ],
   "uitleg": "Olie en remmen zijn rood, de motorstoring oranje, het grootlicht blauw en de richtingaanwijzer groen.",
@@ -3897,7 +3898,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M55",
@@ -3916,10 +3918,6 @@
     "rechts": "Lager toerental, lager verbruik"
    },
    {
-    "links": "Uitrollen",
-    "rechts": "Geen brandstof nodig tijdens uitrollen"
-   },
-   {
     "links": "Dakkoffer en ballast weg",
     "rechts": "Minder luchtweerstand en gewicht"
    }
@@ -3934,7 +3932,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M56",
@@ -3982,7 +3981,7 @@
    },
    {
     "links": "Wallonië",
-    "rechts": "Geen regionale LEZ meer"
+    "rechts": "Geen regionale LEZ"
    }
   ],
   "uitleg": "LEZ-regels verschillen per gewest.",
@@ -3996,7 +3995,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L4-M58",

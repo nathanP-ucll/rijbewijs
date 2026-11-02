@@ -199,10 +199,10 @@ function V(nr, label, kleur, x, y, rot, extra = {}) { return { nr, label, kleur,
 
 // ---------------------------------------------------------------- uitrit
 (function () {
-  const vs = [V(1, 'auto die de oprit verlaat', 'rood', 560, 535, 0, { blink: 'R' }), V(2, 'voetganger op het trottoir', null, 600, 468, 0, { type: 'ped' }), V(3, 'fietser op het fietspad', null, 700, 420, 270, { type: 'bike' }), V(4, 'auto op de rijbaan', 'blauw', 150, 340, 90)];
+  const vs = [V(1, 'auto die de oprit verlaat', 'rood', 560, 535, 0, { blink: 'R' }), V(2, 'voetganger op het trottoir', null, 630, 430, 0, { type: 'ped' }), V(3, 'fietser op het fietspad', null, 440, 389, 90, { type: 'bike' }), V(4, 'auto op de rijbaan', 'blauw', 150, 340, 90)];
   dual({
     naam: 'schema-uitrit-parkeerplaats', title: 'Uit een oprit of parking: altijd voorrang verlenen',
-    desc: 'Een auto (1) verlaat een oprit en moet over een trottoir (met voetganger 2) en een fietspad (met fietser 3) naar de rijbaan. Op de rijbaan rijdt auto 4 van links naar rechts. Alle weggebruikers rijden voorbij de oprit.',
+    desc: 'Een auto (1) verlaat een oprit en moet over een trottoir (met voetganger 2) en een fietspad (met fietser 3) naar de rijbaan. De voetganger staat op het trottoir, de fietser rijdt op het fietspad naar rechts. Op de rijbaan rijdt auto 4 van links naar rechts. Alle weggebruikers rijden voorbij de oprit.',
     descUitleg: 'Wie een oprit, garage, parkeerplaats of tankstation verlaat, voert een manoeuvre uit: hij verleent voorrang aan de voetgangers op het trottoir, de fietsers op het fietspad en het verkeer op de rijbaan.',
     theorieblok: 'voorrang-manoeuvres-uitritten', bronnen: ['VOOR-001', 'VOOR-002', 'VOOR-007'], oefening: true, voertuigen: vs,
     situatie: { moetWachten: [1], voorrangVoor: [2, 3, 4], motivatie: 'Wie een eigendom verlaat voert een manoeuvre uit en verleent voorrang aan voetgangers, fietsers en het verkeer op de rijbaan.' },
@@ -210,11 +210,11 @@ function V(nr, label, kleur, x, y, rot, extra = {}) { return { nr, label, kleur,
       s.rect(0, 250, 800, 120, C.road);
       s.line(0, 310, 800, 310, '#fff', 3, 'stroke-dasharray="16 14"');
       s.rect(0, 370, 800, 38, C.bike); s.rect(0, 408, 800, 44, C.sidewalk);
-      s.rect(480, 452, 160, 148, '#9aa0a6'); s.rect(540, 440, 60, 14, '#9aa0a6');
+      s.rect(480, 452, 160, 148, '#9aa0a6'); s.rect(540, 408, 60, 46, '#9aa0a6');
       s.rect(30, 470, 250, 110, '#d9c8a8', 'stroke="#8a7a5a" stroke-width="3"'); s.text(155, 535, 'woning', { size: 18, fill: '#6a5a3a' });
       s.route('M560,500 L560,410 Q560,350 625,340 L755,340', col('rood'));
-      s.route('M680,420 L400,420', '#f0b429');
-      s.route('M650,468 L480,468', '#fff', { dash: '4 8' });
+      s.route('M480,389 L690,389', '#f0b429');
+      s.route('M610,430 L490,430', '#fff', { dash: '4 8' });
       s.route('M200,340 L450,340', col('blauw'));
       vs.forEach((v) => drawVeh(s, v));
       s.label(130, 400, 'fietspad', { size: 16, bg: C.bike, fg: '#fff' }); s.label(130, 445, 'trottoir', { size: 16, bg: '#888', fg: '#fff' });

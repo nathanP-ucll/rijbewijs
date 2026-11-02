@@ -1258,15 +1258,15 @@
     "nr": 2,
     "label": "voetganger op het trottoir",
     "kleur": null,
-    "x": 75,
-    "y": 78
+    "x": 78.75,
+    "y": 71.67
    },
    {
     "nr": 3,
     "label": "fietser op het fietspad",
     "kleur": null,
-    "x": 87.5,
-    "y": 70
+    "x": 55,
+    "y": 64.83
    },
    {
     "nr": 4,
@@ -1299,7 +1299,7 @@
   "naam": "schema-uitrit-parkeerplaats-oefening",
   "bestand": "img/schemas/schema-uitrit-parkeerplaats-oefening.svg",
   "titel": "Uit een oprit of parking: altijd voorrang verlenen (oefening)",
-  "beschrijving": "Een auto (1) verlaat een oprit en moet over een trottoir (met voetganger 2) en een fietspad (met fietser 3) naar de rijbaan. Op de rijbaan rijdt auto 4 van links naar rechts. Alle weggebruikers rijden voorbij de oprit.",
+  "beschrijving": "Een auto (1) verlaat een oprit en moet over een trottoir (met voetganger 2) en een fietspad (met fietser 3) naar de rijbaan. De voetganger staat op het trottoir, de fietser rijdt op het fietspad naar rechts. Op de rijbaan rijdt auto 4 van links naar rechts. Alle weggebruikers rijden voorbij de oprit.",
   "borden": [],
   "theorieblok": "voorrang-manoeuvres-uitritten",
   "voertuigen": [
@@ -1314,15 +1314,15 @@
     "nr": 2,
     "label": "voetganger op het trottoir",
     "kleur": null,
-    "x": 75,
-    "y": 78
+    "x": 78.75,
+    "y": 71.67
    },
    {
     "nr": 3,
     "label": "fietser op het fietspad",
     "kleur": null,
-    "x": 87.5,
-    "y": 70
+    "x": 55,
+    "y": 64.83
    },
    {
     "nr": 4,

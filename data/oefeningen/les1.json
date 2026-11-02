@@ -885,7 +885,7 @@
       1
     ],
     "meerdere": true,
-    "uitleg": "Alle verbodsborden en parkeerborden kunnen een zone aanduiden, behalve enkele: verboden richting, afslaan, keren en de tolpost kunnen dat niet.",
+    "uitleg": "Bijna alle verbodsborden en parkeerborden kunnen een zone aanduiden. Uitzonderingen: verboden richting, afslaan, keren, de tolpost en het beurtelings parkeren.",
     "bronnen": [
       "BORD-001",
       "BORD-002",
@@ -894,7 +894,8 @@
     "moeilijkheid": 3,
     "gewicht": "gewoon",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-027",
@@ -1042,7 +1043,7 @@
     "onderwerp": "T08",
     "theorieblok": "snelheden-overzicht-gewest",
     "type": "tabel",
-    "vraag": "Vul de maximumsnelheid in zonder bord (in km/u).",
+    "vraag": "Vul de maximumsnelheid in zonder bord (in km/u), voor een personenwagen.",
     "kolommen": [
       "Vlaanderen",
       "Wallonië",
@@ -1155,7 +1156,7 @@
         ]
       }
     ],
-    "uitleg": "Zonder bord geldt: Brussel 30 en de rest 50 in de bebouwde kom; Wallonië 90 en de rest 70 buiten de bebouwde kom; autosnelweg overal 120.",
+    "uitleg": "Zonder bord geldt voor een personenwagen: Brussel 30 en de rest 50 in de bebouwde kom; Wallonië 90 en de rest 70 buiten de bebouwde kom; autosnelweg overal 120.",
     "bronnen": [
       "SNEL-001",
       "SNEL-002",
@@ -1165,7 +1166,8 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-033",
@@ -1301,7 +1303,7 @@
     "onderwerp": "T08",
     "theorieblok": "snelheden-buiten-bebouwde-kom",
     "type": "koppel",
-    "vraag": "Koppel elke situatie (zonder bord) aan de maximumsnelheid.",
+    "vraag": "Koppel elke situatie (zonder bord) aan de maximumsnelheid voor een personenwagen.",
     "paren": [
       {
         "links": "Brussel, in de bebouwde kom",
@@ -1334,7 +1336,8 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-038",
@@ -1372,7 +1375,7 @@
     "theorieblok": "snelheden-autosnelweg-autoweg",
     "type": "cloze",
     "vraag": "Vul in.",
-    "tekst": "Op een autosnelweg is de maximumsnelheid {{1}} km/u en de minimumsnelheid {{2}} km/u.",
+    "tekst": "Op een autosnelweg is de maximumsnelheid voor personenwagens {{1}} km/u en de minimumsnelheid {{2}} km/u.",
     "gaten": [
       {
         "opties": [],
@@ -1387,7 +1390,7 @@
         ]
       }
     ],
-    "uitleg": "Op de autosnelweg geldt in elk gewest een maximum van 120 km/u en een minimum van 70 km/u.",
+    "uitleg": "Op de autosnelweg geldt in elk gewest een maximum van 120 km/u voor personenwagens en een minimum van 70 km/u. Zwaardere voertuigen en bussen hebben een lager maximum.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003",
@@ -1396,7 +1399,8 @@
     "moeilijkheid": 1,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": false
+    "eindtest": false,
+    "gewijzigd": true
   },
   {
     "id": "L1-040",
@@ -1407,7 +1411,7 @@
     "vraag": "Wat klopt voor de autosnelweg? Kruis alle juiste antwoorden aan.",
     "opties": [
       "Voertuigen die op een vlakke weg geen 70 km/u kunnen halen, mogen er niet op",
-      "De maximumsnelheid is in elk gewest 120 km/u, tenzij een bord een lagere snelheid oplegt",
+      "Voor personenwagens is de maximumsnelheid in elk gewest 120 km/u, tenzij een bord een lagere snelheid oplegt",
       "Er geldt geen minimumsnelheid",
       "Je mag altijd 120 rijden, ook bij dichte mist"
     ],
@@ -1416,7 +1420,7 @@
       1
     ],
     "meerdere": true,
-    "uitleg": "Op de autosnelweg is het maximum 120 en het minimum 70. Voertuigen die op een vlakke weg geen 70 halen, mogen er niet op.",
+    "uitleg": "Op de autosnelweg is het maximum voor personenwagens 120 en het minimum 70. Voertuigen die op een vlakke weg geen 70 halen, mogen er niet op.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003",
@@ -1425,7 +1429,8 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": false
+    "eindtest": false,
+    "gewijzigd": true
   },
   {
     "id": "L1-041",
@@ -1478,7 +1483,7 @@
       "Einde zone 30",
       "Einde bebouwde kom",
       "Einde woonerf of erf",
-      "Einde van de snelheidsbeperking"
+      "Einde van de voorrangsweg"
     ],
     "correct": [
       0
@@ -1494,7 +1499,8 @@
     "moeilijkheid": 1,
     "gewicht": "gewoon",
     "examen": true,
-    "eindtest": false
+    "eindtest": false,
+    "gewijzigd": true
   },
   {
     "id": "L1-043",
@@ -1622,10 +1628,6 @@
         "rechts": "45 km/u"
       },
       {
-        "links": "Bus op een gewone weg",
-        "rechts": "75 km/u"
-      },
-      {
         "links": "Voertuig boven 7,5 ton op luchtbanden, gewone weg",
         "rechts": "60 km/u"
       },
@@ -1634,7 +1636,7 @@
         "rechts": "90 km/u"
       }
     ],
-    "uitleg": "Voor bepaalde voertuigen gelden lagere limieten bovenop de snelheid van de weg.",
+    "uitleg": "Voor bepaalde voertuigen gelden lagere limieten bovenop de snelheid van de weg: bromfiets A 25, bromfiets B 45, zwaar voertuig op luchtbanden 60 op een gewone weg en boven 3,5 ton 90 op de autosnelweg.",
     "bronnen": [
       "SNEL-001",
       "SNEL-002"
@@ -1642,7 +1644,8 @@
     "moeilijkheid": 3,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-048",
@@ -1714,7 +1717,7 @@
     "theorieblok": "snelheden-actualiteit",
     "type": "waaronwaar",
     "vraag": "Juist of onjuist?",
-    "stelling": "Voor het theorie-examen van nu gelden de huidige snelheidsregels.",
+    "stelling": "Tot 1 juni 2027 gelden de huidige snelheidsregels uit het koninklijk besluit van 1975.",
     "juist": true,
     "motivatie": "De nieuwe wegcode is uitgesteld tot 1 juni 2027. Tot dan blijven de huidige regels gelden.",
     "foutemotivaties": [
@@ -1729,7 +1732,8 @@
     "moeilijkheid": 1,
     "gewicht": "gewoon",
     "examen": false,
-    "eindtest": false
+    "eindtest": false,
+    "gewijzigd": true
   },
   {
     "id": "L1-M01",
@@ -2031,7 +2035,7 @@
       },
       {
         "links": "Bord 5",
-        "rechts": "Einde van alle verbodsbepalingen",
+        "rechts": "Einde van alle verbodsbepalingen voor rijdende voertuigen",
         "linksAfb": "C46"
       }
     ],
@@ -2044,7 +2048,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M08",
@@ -2486,8 +2491,8 @@
         "rechts": "Normale onderborden"
       },
       {
-        "links": "Zwart op wit",
-        "rechts": "Onderborden voor fietsen, voortbewegingstoestellen en tweewielige bromfietsen"
+        "links": "Pijlen op een onderbord bij een parkeerbord",
+        "rechts": "Tonen het begin of einde van de reglementering"
       },
       {
         "links": "Tijdsaanduiding op een onderbord",
@@ -2508,7 +2513,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M19",
@@ -2590,7 +2596,7 @@
     "onderwerp": "T08",
     "theorieblok": "snelheden-overzicht-gewest",
     "type": "koppel",
-    "vraag": "Koppel elke situatie aan de maximumsnelheid.",
+    "vraag": "Koppel elke situatie aan de maximumsnelheid voor een personenwagen.",
     "paren": [
       {
         "links": "Zone 30",
@@ -2624,7 +2630,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M22",
@@ -2750,7 +2757,7 @@
         "rechts": "70 km/u"
       }
     ],
-    "uitleg": "Een autosnelweg heeft een maximum van 120 en een minimum van 70 km/u.",
+    "uitleg": "Een autosnelweg heeft een maximum van 120 km/u (voor personenwagens) en een minimum van 70 km/u.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003",
@@ -2760,7 +2767,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M26",
@@ -2782,16 +2790,15 @@
       },
       {
         "links": "Bord 3",
-        "rechts": "Verhoogde inrichting: hoogstens 30 km/u",
+        "rechts": "Gevaarsbord voor een drempel of plateau",
         "linksAfb": "A14"
       },
       {
-        "links": "Bord 4",
-        "rechts": "Aankondiging van een drempel of plateau",
-        "linksAfb": "F87"
+        "links": "Over een drempel of plateau rijden",
+        "rechts": "Hoogstens 30 km/u"
       }
     ],
-    "uitleg": "In een zone 30 en over een drempel rij je hoogstens 30 km/u.",
+    "uitleg": "In een zone 30 en over een drempel of plateau rij je hoogstens 30 km/u.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003",
@@ -2801,7 +2808,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M27",
@@ -2857,12 +2865,12 @@
       },
       {
         "links": "Bord 2",
-        "rechts": "Begin van de schoolomgeving: maximaal 30 km/u",
+        "rechts": "Begin van een zone 30 rond een school (schoolomgeving): maximaal 30 km/u",
         "linksAfb": "F4a"
       },
       {
         "links": "Bord 3",
-        "rechts": "Einde van de schoolomgeving",
+        "rechts": "Einde van de zone 30 rond een school",
         "linksAfb": "F4b"
       },
       {
@@ -2870,7 +2878,7 @@
         "rechts": "30 km/u in de bebouwde kom"
       }
     ],
-    "uitleg": "In een schoolomgeving geldt maximaal 30 km/u.",
+    "uitleg": "Een schoolomgeving is een zone 30 rond een school, afgebakend met begin- en eindbord: er geldt maximaal 30 km/u.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003"
@@ -2879,7 +2887,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M29",
@@ -2929,9 +2938,9 @@
       "Bromfiets klasse A: 25 km/u",
       "Bromfiets klasse B: 45 km/u",
       "Voertuig boven 7,5 ton op luchtbanden, gewone weg: 60 km/u",
-      "Bus op een gewone weg: 75 km/u"
+      "Voertuig boven 3,5 ton, op de autosnelweg: 90 km/u"
     ],
-    "uitleg": "Bromfiets A 25, bromfiets B 45, zwaar voertuig op luchtbanden 60, bus 75 km/u.",
+    "uitleg": "Bromfiets A 25, bromfiets B 45, zwaar voertuig op luchtbanden 60 op een gewone weg, voertuig boven 3,5 ton 90 op de autosnelweg.",
     "bronnen": [
       "SNEL-001",
       "SNEL-002"
@@ -2940,7 +2949,8 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": false,
-    "mini": true
+    "mini": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M31",

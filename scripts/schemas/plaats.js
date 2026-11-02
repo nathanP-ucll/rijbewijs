@@ -228,22 +228,21 @@ mk('schema-parkeren-berm', 'Parkeren op de berm: 1,50 m doorgang voor voetganger
 // ---- snelweg: oprit (dual met oefening)
 (function () {
   const vs = [
-    { nr: 1, label: 'auto 1 (op de autosnelweg)', kleur: 'rood', x: 580, y: 480, rot: 0 },
-    { nr: 2, label: 'auto 2 (op de oprit)', kleur: 'blauw', x: 276, y: 545, rot: 25, blink: 'R' },
+    { nr: 1, label: 'auto 1 (op de autosnelweg)', kleur: 'rood', x: 345, y: 480, rot: 0 },
+    { nr: 2, label: 'auto 2 (op de oprit)', kleur: 'blauw', x: 649, y: 545, rot: -25, blink: 'L' },
   ];
   for (const sol of [true, false]) {
     const naam = sol ? 'schema-oprit-snelweg' : 'schema-oprit-snelweg-oefening';
     const s = new Svg(naam, 'Oprit van de autosnelweg: voorrang verlenen' + (sol ? '' : ' (oefening)'),
-      sol ? 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.'
-        : 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.');
-    s.rect(660, 0, 70, 600, '#6a707a');
-    s.rect(400, 0, 260, 600, C.road); s.line(530, 0, 530, 600, '#fff', 3, 'stroke-dasharray="16 14"'); s.line(660, 0, 660, 600, '#fff', 3);
-    s.add(`<path d="M230,640 Q330,400 590,170" fill="none" stroke="${C.road}" stroke-width="92" stroke-linecap="butt"/>`);
-    s.add(`<path d="M257,640 Q357,400 640,160" fill="none" stroke="#fff" stroke-width="0"/>`);
-    s.route('M334,451 Q440,330 590,190 L590,40', CAR.blauw); s.route('M580,420 L580,40', CAR.rood);
-    s.sign('B1', 335, 590, 56);
-    s.car(580, 480, 0, 'rood', 1); s.car(276, 545, 25, 'blauw', 2, { blink: 'R' });
-    if (sol) { s.titel('Oprit: altijd voorrang verlenen aan wie al rijdt'); s.label(470, 330, 'auto 1: voorrang', { size: 17, bg: GRN, fg: '#fff' }); s.label(180, 470, 'auto 2 wacht\nen voegt in\nzonder te hinderen', { size: 17, bg: RED, fg: '#fff' }); }
+      sol ? 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van rechtsonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord voorrang verlenen aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.'
+        : 'Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van rechtsonder invoegt, met het bord voorrang verlenen aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.');
+    s.rect(410, 0, 70, 600, '#6a707a');
+    s.rect(150, 0, 260, 600, C.road); s.line(280, 0, 280, 600, '#fff', 3, 'stroke-dasharray="16 14"'); s.line(410, 0, 410, 600, '#fff', 3);
+    s.add(`<path d="M695,640 Q595,400 335,170" fill="none" stroke="${C.road}" stroke-width="92" stroke-linecap="butt"/>`);
+    s.route('M591,451 Q485,330 335,190 L335,40', CAR.blauw); s.route('M345,420 L345,40', CAR.rood);
+    s.sign('B1', 735, 500, 56);
+    s.car(345, 480, 0, 'rood', 1); s.car(649, 545, -25, 'blauw', 2, { blink: 'L' });
+    if (sol) { s.titel('Oprit: altijd voorrang verlenen aan wie al rijdt'); s.label(225, 330, 'auto 1: voorrang', { size: 17, bg: GRN, fg: '#fff' }); s.label(690, 420, 'auto 2 wacht\nen voegt in\nzonder te hinderen', { size: 17, bg: RED, fg: '#fff' }); }
     const e = s.finish({ theorieblok: 'snelweg-op-en-afrit', bronnen: ['SNEL-001'], voertuigen: vs.map((v) => ({ nr: v.nr, label: v.label, kleur: v.kleur, ...pct(s, v.x, v.y) })), situatie: { juisteVoorrang: 1, moetWachten: [2], motivatie: 'Bij het oprijden van de autosnelweg verleen je altijd voorrang aan de bestuurders die al op de autosnelweg rijden.' }, type: sol ? 'uitleg' : 'oefening', partner: sol ? 'schema-oprit-snelweg-oefening' : 'schema-oprit-snelweg' });
     register(e);
   }

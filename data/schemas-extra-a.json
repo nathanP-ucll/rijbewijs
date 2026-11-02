@@ -1,0 +1,161 @@
+[
+ {
+  "naam": "schema-bebouwde-kom-snelheid",
+  "bestand": "img/schemas/schema-bebouwde-kom-snelheid.svg",
+  "titel": "In de bebouwde kom zonder bord: 50 of 30",
+  "beschrijving": "Bovenaanzicht van een straat die door een bebouwde kom loopt, met aan het begin het bord begin van de bebouwde kom en aan het einde het bord einde van de bebouwde kom. Onderaan de snelheid zonder bord in de bebouwde kom: Vlaanderen 50, Wallonië 50, Brussel 30 km/u.",
+  "borden": [
+   "Begin van de bebouwde kom (liggend)",
+   "Einde van de bebouwde kom (liggend)"
+  ],
+  "theorieblok": "snelheden-bebouwde-kom",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-002",
+   "SNEL-004"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-combinatie-massa",
+  "bestand": "img/schemas/schema-combinatie-massa.svg",
+  "titel": "Auto met aanhangwagen: de combinatie telt",
+  "beschrijving": "Twee rijen. Boven: een auto met een kleine aanhangwagen waarvan de combinatie samen tot 3,5 ton blijft: de gewone limiet van de weg. Onder: een auto met een grote aanhangwagen waarvan de combinatie samen boven 3,5 ton komt: de lagere limiet van zwaardere voertuigen, 90 km/u op de autosnelweg.",
+  "borden": [],
+  "theorieblok": "snelheden-voertuigtype",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-laagste-limiet",
+  "bestand": "img/schemas/schema-laagste-limiet.svg",
+  "titel": "De laagste limiet wint: weg of voertuig",
+  "beschrijving": "Twee kaarten boven elkaar naar een resultaat: de weg (voorbeeld Wallonië, gewone weg buiten de bebouwde kom, 90 km/u) en je voertuig (voorbeeld bus of autocar op een gewone weg, 75 km/u). Samen volgt daaruit dat je maximaal 75 km/u mag, de laagste van de twee.",
+  "borden": [],
+  "theorieblok": "snelheden-voertuigtype",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-limiet-is-maximum",
+  "bestand": "img/schemas/schema-limiet-is-maximum.svg",
+  "titel": "De limiet is een maximum, geen streefsnelheid",
+  "beschrijving": "Een balk die de toegelaten snelheid voorstelt tot het maximum van 70 km/u. Het eerste deel, een aangepaste snelheid, is groen. Het laatste deel is rood: dat mag volgens het bord, maar is te snel bij mist of op een gladde weg. Onder de balk een auto op een mistige weg.",
+  "borden": [],
+  "theorieblok": "snelheden-aangepast",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelheid-aanpassen",
+  "bestand": "img/schemas/schema-snelheid-aanpassen.svg",
+  "titel": "Waar je je snelheid aan aanpast",
+  "beschrijving": "Een auto in het midden met vijf kaartjes errond: andere weggebruikers (vooral de kwetsbaarste), weer, zicht en verkeersdichtheid, de plaats en de staat van de weg, de staat en de lading van je voertuig, en een voldoende veiligheidsafstand tot je voorligger.",
+  "borden": [],
+  "theorieblok": "snelheden-aangepast",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelheid-drie-plaatsen",
+  "bestand": "img/schemas/schema-snelheid-drie-plaatsen.svg",
+  "titel": "Snelheid zonder bord: plaats en gewest",
+  "beschrijving": "Overzicht met drie rijen. Bebouwde kom: Vlaanderen 50, Wallonië 50, Brussel 30 km/u. Buiten de bebouwde kom op een gewone weg: Vlaanderen 70 (90 enkel met een bord), Wallonië 90, Brussel 70 km/u. Autosnelweg: in alle drie de gewesten 120 km/u.",
+  "borden": [
+   "Begin van de bebouwde kom (liggend)",
+   "Einde van de bebouwde kom (liggend)",
+   ""
+  ],
+  "theorieblok": "snelheden-overzicht-gewest",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelheid-stappen",
+  "bestand": "img/schemas/schema-snelheid-stappen.svg",
+  "titel": "Zo kom je tot de juiste snelheid",
+  "beschrijving": "Vier stappen onder elkaar met pijlen ertussen: 1 zoek een snelheidsbord, 2 kijk naar de plaats en het gewest, 3 kijk naar je voertuig, 4 pas je snelheid aan de omstandigheden aan.",
+  "borden": [
+   "",
+   "Begin van de bebouwde kom (liggend)"
+  ],
+  "theorieblok": "snelheden-overzicht-gewest",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voertuig-limieten",
+  "bestand": "img/schemas/schema-voertuig-limieten.svg",
+  "titel": "Maximumsnelheid per voertuigtype",
+  "beschrijving": "Staafdiagram van maximumsnelheden: bromfiets klasse A 25 km/u, bromfiets klasse B 45 km/u, voertuig boven 7,5 ton op luchtbanden op gewone wegen 60 km/u, bus of autocar op gewone wegen 75 km/u, bus op de autosnelweg 90 km/u, autocar met gordels en snelheidsbegrenzer op de autosnelweg 100 km/u.",
+  "borden": [],
+  "theorieblok": "snelheden-voertuigtype",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-weg-met-middenberm",
+  "bestand": "img/schemas/schema-weg-met-middenberm.svg",
+  "titel": "Weg met middenberm: fysieke scheiding",
+  "beschrijving": "Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn gescheiden door een middenberm, een brede groene strook met een stoeprand en struiken. Auto's rijden in beide richtingen. Onderaan staat: de snelheid is 120 km/u in elk gewest.",
+  "borden": [],
+  "theorieblok": "snelheden-buiten-bebouwde-kom",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-weg-middenberm-vergelijk",
+  "bestand": "img/schemas/schema-weg-middenberm-vergelijk.svg",
+  "titel": "Zonder of met middenberm: twee rijstroken per richting",
+  "beschrijving": "Twee bovenaanzichten naast elkaar van een weg buiten de bebouwde kom met twee rijstroken per richting. Links zonder middenberm: de rijrichtingen zijn alleen gescheiden door een witte lijn en de snelheid is de gewone limiet van het gewest. Rechts met middenberm: de rijrichtingen zijn gescheiden door een fysieke middenberm en de snelheid is 120 km/u in elk gewest.",
+  "borden": [],
+  "theorieblok": "snelheden-buiten-bebouwde-kom",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-weg-zonder-middenberm",
+  "bestand": "img/schemas/schema-weg-zonder-middenberm.svg",
+  "titel": "Weg zonder middenberm: alleen een witte lijn",
+  "beschrijving": "Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn alleen gescheiden door een witte lijn op het wegdek, er is geen middenberm. Auto's rijden in beide richtingen. Onderaan staat: de snelheid is de gewone limiet van het gewest.",
+  "borden": [],
+  "theorieblok": "snelheden-buiten-bebouwde-kom",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "uitleg"
+ }
+]

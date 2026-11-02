@@ -102,6 +102,7 @@ async function solve(page, art, ex, right) {
   for (let i = 0; i < 10; i++) { const b = page.locator('.more-btn:visible'); if (await b.count()) await b.click(); else break; }
   ok((await page.locator('article.ex').count()) === exs.length, `oefenbank toont alle ${exs.length} oefeningen`);
   for (const right of [true, false]) {
+    if (!right) { await page.reload(); await page.waitForSelector('.ex'); for (let i = 0; i < 10; i++) { const b = page.locator('.more-btn:visible'); if (await b.count()) await b.click(); else break; } }
     for (const ex of exs) {
       const art = page.locator(`article.ex[data-id="${ex.id}"]`);
       await art.scrollIntoViewIfNeeded();
@@ -131,11 +132,13 @@ async function solve(page, art, ex, right) {
   await page.goto(url('les1.html'));
   await page.waitForSelector('.float-bar .fb-count');
   ok((await page.locator('.toc, aside').count()) === 0, 'geen zijbalk');
-  ok((await page.textContent('.fb-count')).startsWith('Pagina 1 van'), 'les1 start op pagina 1');
+  ok((await page.textContent('.fb-count')).includes('Inleiding'), 'les1 start op de inleiding');
   await page.getByRole('link', { name: /Volgende/ }).click();
   ok(page.url().endsWith('#p2'), 'Volgende -> #p2');
+  await page.waitForTimeout(150);
   await page.keyboard.press('ArrowRight');
   ok(page.url().endsWith('#p3'), 'pijl rechts -> #p3');
+  await page.waitForTimeout(150);
   await page.keyboard.press('ArrowLeft');
   ok(page.url().endsWith('#p2'), 'pijl links -> #p2');
   await page.getByRole('button', { name: /Inhoud/ }).click();
@@ -172,7 +175,7 @@ async function solve(page, art, ex, right) {
   await page.getByRole('button', { name: 'Start het proefexamen' }).click();
   await page.waitForSelector('.quiz-stage .ex');
   const n = await page.locator('.quiz-stage article').count();
-  ok(n === exs.length, `examen toont ${n} vragen`);
+  ok(n === exs.filter((e) => !e.mini).length, `examen toont ${n} vragen (mini-oefeningen tellen niet mee)`);
   await page.screenshot({ path: SHOTS + '/qa-exam.png' });
   await page.getByRole('button', { name: 'Afronden' }).click();
   await page.getByRole('button', { name: 'Toch afronden' }).click();

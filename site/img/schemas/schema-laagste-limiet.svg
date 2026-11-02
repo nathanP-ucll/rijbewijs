@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">De laagste limiet wint: weg of voertuig</title>
+<desc id="d">Twee kaarten boven elkaar naar een resultaat: de weg (voorbeeld Wallonië, gewone weg buiten de bebouwde kom, 90 km/u) en je voertuig (voorbeeld bus of autocar op een gewone weg, 75 km/u). Samen volgt daaruit dat je maximaal 75 km/u mag, de laagste van de twee.</desc>
+<defs><marker id="ah1c2230" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#1c2230"/></marker></defs>
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="30" y="74" width="350" height="230" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="205" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="205" dy="0">De weg</tspan></text>
+<rect x="130" y="128" width="150" height="40" fill="#4a4f57"/><line x1="130" y1="148" x2="280" y2="148" stroke="#fff" stroke-width="3" stroke-dasharray="14 10"/>
+<rect x="140" y="183" width="130" height="70" rx="16" fill="#1c2230" stroke="#1c2230" stroke-width="2.5" />
+<text x="205" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="205" dy="0">90</tspan></text>
+<text x="205" y="243" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d6dbe6" text-anchor="middle" ><tspan x="205" dy="0">km/u</tspan></text>
+<text x="205" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="205" dy="0">Wallonië, gewone weg</tspan><tspan x="205" dy="17.7">buiten de bebouwde kom</tspan></text>
+<rect x="420" y="74" width="350" height="230" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="595" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="595" dy="0">Je voertuig</tspan></text>
+<g transform="translate(595 148) rotate(90)"><rect x="-19" y="-58" width="38" height="116" rx="8" fill="#f2c230" stroke="#1c2230" stroke-width="2.5"/><rect x="-14" y="-48" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="-28" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="-8" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="12" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="32" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-15" y="-60" width="8" height="4" rx="2" fill="#fff3a8"/><rect x="7" y="-60" width="8" height="4" rx="2" fill="#fff3a8"/></g>
+<rect x="530" y="183" width="130" height="70" rx="16" fill="#1c2230" stroke="#1c2230" stroke-width="2.5" />
+<text x="595" y="226" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="595" dy="0">75</tspan></text>
+<text x="595" y="243" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#d6dbe6" text-anchor="middle" ><tspan x="595" dy="0">km/u</tspan></text>
+<text x="595" y="280" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="595" dy="0">Bus of autocar</tspan><tspan x="595" dy="17.7">op gewone wegen</tspan></text>
+<line x1="205" y1="308" x2="330" y2="368" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
+<line x1="595" y1="308" x2="470" y2="368" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
+<rect x="150" y="372" width="500" height="150" rx="14" fill="#1f9d55" stroke="#1c2230" stroke-width="2.5" />
+<text x="400" y="420" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Jij mag maximaal</tspan></text>
+<text x="400" y="480" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="54" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">75 km/u</tspan></text>
+<text x="400" y="566" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Je volgt altijd de laagste limiet, van de weg of van je voertuig.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">De laagste limiet wint</tspan></text>
+</svg>

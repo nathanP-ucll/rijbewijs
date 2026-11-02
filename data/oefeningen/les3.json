@@ -37,14 +37,14 @@
    "Op een rotonde",
    "Op een plein",
    "Op een tweerichtingsweg zonder rijstroken",
-   "Op de rechterrijstrook van de autosnelweg"
+   "Op een gewone weg buiten de bebouwde kom"
   ],
   "correct": [
    0,
    1
   ],
   "meerdere": true,
-  "uitleg": "Op een rotonde en op een plein mag je afwijken van de rechterrand. Op de andere plaatsen blijf je rechts.",
+  "uitleg": "Op een rotonde en op een plein mag je afwijken van de rechterrand. Op een tweerichtingsweg zonder rijstroken en op een gewone weg blijf je zo dicht mogelijk bij de rechterrand.",
   "bronnen": [
    "PLAA-001",
    "PLAA-005"
@@ -52,7 +52,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-003",
@@ -250,7 +251,7 @@
   "onderwerp": "T24",
   "theorieblok": "inhalen-regels",
   "type": "volgorde",
-  "vraag": "Zet de stappen van het inhalen in de juiste volgorde.",
+  "vraag": "Zet de stappen van het inhalen in de juiste volgorde, zoals de verkeersregels ze voorschrijven.",
   "items": [
    "Controleren dat de weg voor je vrij is",
    "Linker richtingaanwijzer geven",
@@ -265,7 +266,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-011",
@@ -299,23 +301,9 @@
   "les": 3,
   "onderwerp": "T24",
   "theorieblok": "inhalen-regels",
-  "type": "koppel",
-  "vraag": "Aan welke kant haal je in? Koppel.",
-  "paren": [
-   {
-    "links": "Een gewone voorligger op de rijbaan",
-    "rechts": "Links"
-   },
-   {
-    "links": "Een tram op de rijbaan",
-    "rechts": "Rechts"
-   },
-   {
-    "links": "Een voorligger die links wil afslaan",
-    "rechts": "Rechts van de voorligger"
-   }
-  ],
-  "uitleg": "Je haalt gewoonlijk links in. Een tram haal je rechts in, en ook een voorligger die links afslaat of links is opgesteld.",
+  "type": "tabel",
+  "vraag": "Aan welke kant haal je in?",
+  "uitleg": "Je haalt gewoonlijk links in. Een tram die de rijbaan volgt haal je in de regel rechts in, en ook een voorligger die links wil afslaan en zich al naar links heeft begeven.",
   "bronnen": [
    "PLAA-001",
    "PLAA-005"
@@ -323,7 +311,49 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "kolommen": [
+   "Kant om in te halen"
+  ],
+  "rijen": [
+   {
+    "label": "Een gewone voorligger op de rijbaan",
+    "cellen": [
+     {
+      "correct": "Links",
+      "opties": [
+       "Links",
+       "Rechts"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Een tram die de rijbaan volgt",
+    "cellen": [
+     {
+      "correct": "Rechts",
+      "opties": [
+       "Links",
+       "Rechts"
+      ]
+     }
+    ]
+   },
+   {
+    "label": "Een voorligger die links wil afslaan en zich al naar links heeft begeven",
+    "cellen": [
+     {
+      "correct": "Rechts",
+      "opties": [
+       "Links",
+       "Rechts"
+      ]
+     }
+    ]
+   }
+  ],
+  "gewijzigd": true
  },
  {
   "id": "L3-013",
@@ -362,23 +392,23 @@
   "vraag": "Koppel elk bord aan zijn betekenis.",
   "paren": [
    {
-    "links": "Links inhalen verboden voor voertuigen met meer dan twee wielen",
-    "rechts": "Verbod links in te halen",
+    "links": "Bord 1",
+    "rechts": "Verbod links in te halen voor voertuigen met meer dan twee wielen",
     "linksAfb": "C35"
    },
    {
-    "links": "Einde van dat inhaalverbod",
-    "rechts": "Einde van het inhaalverbod",
+    "links": "Bord 2",
+    "rechts": "Einde van het verbod links in te halen voor voertuigen met meer dan twee wielen",
     "linksAfb": "C37"
    },
    {
-    "links": "Inhaalverbod voor vrachtwagens van meer dan 3.500 kg",
-    "rechts": "Inhaalverbod voor vrachtwagens",
+    "links": "Bord 3",
+    "rechts": "Verbod links in te halen voor voertuigen voor goederenvervoer met een maximale massa van meer dan 3.500 kg",
     "linksAfb": "C39"
    },
    {
-    "links": "Einde van het inhaalverbod voor vrachtwagens",
-    "rechts": "Einde inhaalverbod vrachtwagens",
+    "links": "Bord 4",
+    "rechts": "Einde van het inhaalverbod voor voertuigen voor goederenvervoer van meer dan 3.500 kg",
     "linksAfb": "C41"
    }
   ],
@@ -391,7 +421,8 @@
   "moeilijkheid": 3,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-015",
@@ -583,22 +614,27 @@
   "les": 3,
   "onderwerp": "T28",
   "theorieblok": "van-rijstrook-veranderen",
-  "type": "volgorde",
-  "vraag": "Zet in de juiste volgorde: van rijstrook veranderen.",
-  "items": [
-   "Kijk in je spiegels",
-   "Geef tijdig een richtingaanwijzer",
-   "Kijk over je schouder (dode hoek)",
-   "Verander van rijstrook als het zonder gevaar kan"
-  ],
-  "uitleg": "Spiegel, richtingaanwijzer, schouderblik en dan pas bewegen.",
+  "type": "meerkeuze",
+  "vraag": "Wat doe je voordat je van rijstrook verandert?",
+  "uitleg": "Van rijstrook veranderen is een manoeuvre: je kijkt in je spiegels en over je schouder, kondigt het tijdig aan met je richtingaanwijzer en verleent voorrang aan wie al op de rijstrook rijdt.",
   "bronnen": [
    "PLAA-001"
   ],
   "moeilijkheid": 1,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "opties": [
+   "Je vergewist je dat het zonder gevaar kan en geeft tijdig een richtingaanwijzer",
+   "Je verandert eerst van rijstrook en geeft daarna pas een richtingaanwijzer",
+   "Je zet je richtingaanwijzer aan en rekent erop dat de anderen je voorrang geven",
+   "Je kijkt enkel voor je uit, de rest is de zaak van de anderen"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-021",
@@ -617,14 +653,15 @@
    0
   ],
   "meerdere": false,
-  "uitleg": "Een doorlopende streep mag je niet overschrijden. Een onderbroken streep mag je wel overschrijden.",
+  "uitleg": "Een doorlopende streep mag niemand overschrijden, ook niet om in te halen, van rijstrook te veranderen of te keren. Een onderbroken streep mag je enkel overschrijden om in te halen, links af te slaan, te keren of van rijstrook te veranderen.",
   "bronnen": [
    "PLAA-001"
   ],
   "moeilijkheid": 1,
   "gewicht": "gewoon",
   "examen": true,
-  "eindtest": true
+  "eindtest": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-022",
@@ -886,8 +923,8 @@
   "onderwerp": "T27",
   "theorieblok": "stilstaan-parkeerverbod-plaatsen",
   "type": "hotspot",
-  "vraag": "Klik aan waar stilstaan en parkeren verboden is.",
-  "afbeelding": "schema-stilstaanverbod-zebrapad",
+  "vraag": "Waar mag je op de rijbaan vlak voor het zebrapad niet stilstaan of parkeren? Klik de verboden zones aan.",
+  "afbeelding": "schema-stilstaanverbod-zebrapad-oefening",
   "zones": [
    {
     "id": "zone-links",
@@ -914,14 +951,15 @@
     "correct": false
    }
   ],
-  "uitleg": "Op de rijbaan op minder dan 5 m vóór een zebrapad mag je niet stilstaan of parkeren. Verder weg mag het wel.",
+  "uitleg": "Op de rijbaan op minder dan 5 m vóór een zebrapad mag je niet stilstaan of parkeren. Ook op het zebrapad zelf mag het niet. Verder weg mag het wel.",
   "bronnen": [
    "PLAA-001"
   ],
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-032",
@@ -1051,7 +1089,7 @@
   "vraag": "Waar of niet waar?",
   "stelling": "Een kaart voor personen met een handicap achter de voorruit vervangt de parkeerschijf.",
   "juist": true,
-  "motivatie": "Op plaatsen voor personen met een handicap gelden de tijdsbeperkingen niet als de speciale kaart achter de voorruit ligt.",
+  "motivatie": "Met de speciale kaart achter de voorruit gelden de beperkingen van de parkeertijd niet. De kaart vervangt de parkeerschijf als die verplicht is.",
   "foutemotivaties": [
    "Je moet altijd ook een parkeerschijf leggen.",
    "Die kaart geldt enkel buiten de bebouwde kom."
@@ -1064,7 +1102,8 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-037",
@@ -1175,21 +1214,22 @@
    },
    {
     "links": "Links afslaan op een tweerichtingsweg",
-    "rechts": "Links van de middenlijn, zonder tegenliggers te hinderen"
+    "rechts": "Naar links in je eigen rijrichting, tegen de middenlijn, zonder de tegenliggers te hinderen"
    },
    {
     "links": "Links afslaan op een eenrichtingsweg",
     "rechts": "Zo dicht mogelijk bij de linkerrand"
    }
   ],
-  "uitleg": "Voorsorteren is tijdig de juiste plaats of rijstrook kiezen voor je richting.",
+  "uitleg": "Voorsorteren is tijdig de juiste plaats of rijstrook kiezen voor je richting. Bij links afslaan op een tweerichtingsweg blijf je in je eigen rijrichting: je rijdt niet over de middenlijn naar de tegenliggers toe.",
   "bronnen": [
    "PLAA-001"
   ],
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-040",
@@ -1384,7 +1424,7 @@
   ],
   "modus": "klik",
   "correct": 1,
-  "uitleg": "Wie de autosnelweg oprijdt, verleent voorrang aan wie er al rijdt.",
+  "uitleg": "Wie de autosnelweg oprijdt, verleent voorrang aan wie er al rijdt. Laat een bestuurder je invoegen, dan is dat hoffelijkheid.",
   "bronnen": [
    "SNWG-001",
    "SNWG-002"
@@ -1392,7 +1432,8 @@
   "moeilijkheid": 1,
   "gewicht": "gewoon",
   "examen": false,
-  "eindtest": false
+  "eindtest": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-047",
@@ -1558,10 +1599,10 @@
    },
    {
     "links": "Gescheiden rijbanen",
-    "rechts": "Nooit op de rijbaan links van je"
+    "rechts": "Niet op de rijbaan links van je"
    }
   ],
-  "uitleg": "Rijstrookmarkeringen volg je altijd. Bij gescheiden rijbanen blijf je op jouw rijbaan.",
+  "uitleg": "Rijstrookmarkeringen respecteer je: je rijdt binnen je rijstrook en overschrijdt een streep enkel als dat mag. Bij gescheiden rijbanen blijf je op jouw rijbaan.",
   "bronnen": [
    "PLAA-001",
    "PLAA-005"
@@ -1570,7 +1611,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M02",
@@ -1650,7 +1692,7 @@
    0
   ],
   "meerdere": false,
-  "uitleg": "Sinds het KB van 12 maart 2023 maken de busstrook en de bijzondere overrijdbare bedding geen deel meer uit van de rijbaan.",
+  "uitleg": "Sinds april 2023 maken de busstrook en de bijzondere overrijdbare bedding geen deel meer uit van de rijbaan.",
   "bronnen": [
    "PLAA-001",
    "PLAA-003",
@@ -1660,7 +1702,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M05",
@@ -1768,7 +1811,7 @@
   "paren": [
    {
     "links": "Doorlopende witte streep",
-    "rechts": "Niet overschrijden, dus ook niet inhalen als dat moet"
+    "rechts": "Mag niet overschreden worden, ook niet om in te halen"
    },
    {
     "links": "Onderbroken witte streep",
@@ -1776,10 +1819,10 @@
    },
    {
     "links": "Voorligger die zelf een voertuig inhaalt",
-    "rechts": "Tripleren: niet toegelaten, tenzij er minstens drie rijstroken in jouw richting zijn"
+    "rechts": "Tripleren: in de regel niet toegelaten, met enkele beperkte uitzonderingen (bv. minstens drie rijstroken in jouw richting)"
    }
   ],
-  "uitleg": "Een doorlopende streep mag je niet overschrijden.",
+  "uitleg": "Een doorlopende streep mag niemand overschrijden, ook niet om in te halen. Tripleren is in de regel verboden; de uitzonderingen zijn beperkt.",
   "bronnen": [
    "PLAA-001",
    "PLAA-003",
@@ -1789,7 +1832,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M09",
@@ -1836,14 +1880,14 @@
    },
    {
     "links": "Links afslaan op een tweerichtingsweg",
-    "rechts": "Links van de middenlijn"
+    "rechts": "Naar links in je eigen rijrichting, tegen de middenlijn, zonder de tegenliggers te hinderen"
    },
    {
     "links": "Links afslaan op een eenrichtingsweg",
     "rechts": "Zo dicht mogelijk bij de linkerrand"
    }
   ],
-  "uitleg": "Bij links afslaan op een tweerichtingsweg hinder je de tegenliggers niet.",
+  "uitleg": "Bij links afslaan op een tweerichtingsweg blijf je in je eigen rijrichting, tegen de middenlijn, en hinder je de tegenliggers niet.",
   "bronnen": [
    "PLAA-001"
   ],
@@ -1851,7 +1895,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M11",
@@ -2004,17 +2049,17 @@
   "onderwerp": "T27",
   "theorieblok": "parkeerverbod-plaatsen",
   "type": "meerkeuze",
-  "vraag": "Mag je parkeren voor de oprit van een eigendom?",
+  "vraag": "Mag je parkeren voor de oprit of garage van een ander eigendom?",
   "opties": [
-   "Nee, tenzij je nummerplaat leesbaar zichtbaar is vanaf die oprit",
+   "Nee, tenzij het inschrijvingsteken (nummerplaat) van je voertuig leesbaar op die oprit zelf is aangebracht",
    "Ja, altijd",
-   "Ja, als je in de wagen blijft zitten"
+   "Ja, als je alarmlichten aan staan"
   ],
   "correct": [
    0
   ],
   "meerdere": false,
-  "uitleg": "Voor een oprit mag je enkel parkeren als je nummerplaat leesbaar zichtbaar is vanaf die oprit.",
+  "uitleg": "Voor een oprit mag je enkel parkeren als het inschrijvingsteken (nummerplaat) van je voertuig leesbaar op die oprit is aangebracht, bijvoorbeeld op een bordje bij je eigen oprit.",
   "bronnen": [
    "PLAA-001"
   ],
@@ -2022,7 +2067,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M17",
@@ -2090,11 +2136,11 @@
    },
    {
     "links": "Over een doorlopende witte streep",
-    "rechts": "Niet toegelaten"
+    "rechts": "Mag niet: de streep mag je niet overschrijden"
    },
    {
     "links": "Autosnelweg of autoweg",
-    "rechts": "Verboden"
+    "rechts": "Verboden, ook als het rustig is"
    }
   ],
   "uitleg": "Keren en achteruitrijden zijn manoeuvres: je verleent voorrang aan alle anderen.",
@@ -2105,7 +2151,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M20",
@@ -2165,19 +2212,9 @@
   "les": 3,
   "onderwerp": "T26",
   "theorieblok": "snelweg-toegelaten-voertuigen",
-  "type": "koppel",
-  "vraag": "Wie is toegelaten? Koppel.",
-  "paren": [
-   {
-    "links": "Autosnelweg",
-    "rechts": "Motorvoertuigen die 70 km/u kunnen halen"
-   },
-   {
-    "links": "Autoweg",
-    "rechts": "Motorvoertuigen en hun aanhangwagens"
-   }
-  ],
-  "uitleg": "Op beide wegen zijn bromfietsen en landbouwvoertuigen niet toegelaten.",
+  "type": "meerkeuze",
+  "vraag": "Welk voertuig is niet toegelaten op de autosnelweg?",
+  "uitleg": "Bromfietsen, fietsen, voetgangers en landbouwvoertuigen zijn niet toegelaten op de autosnelweg. Personenwagens, autocars en vrachtwagens mogen er wel rijden, als ze minstens 70 km/u kunnen halen.",
   "bronnen": [
    "SNWG-001",
    "SNWG-002"
@@ -2186,7 +2223,18 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "opties": [
+   "Een personenauto",
+   "Een bromfiets",
+   "Een autocar",
+   "Een vrachtwagen"
+  ],
+  "correct": [
+   1
+  ],
+  "meerdere": false,
+  "gewijzigd": true
  },
  {
   "id": "L3-M23",
@@ -2226,19 +2274,19 @@
   "vraag": "Wat doe je? Koppel.",
   "paren": [
    {
-    "links": "Oprijden",
+    "links": "Je rijdt de autosnelweg op",
     "rechts": "Voorrang verlenen aan het verkeer op de autosnelweg"
    },
    {
-    "links": "Invoegen",
-    "rechts": "Zonder hinder voor wie al rijdt"
+    "links": "Je rijdt al op de autosnelweg en iemand wil invoegen",
+    "rechts": "Je hoeft niet te ritsen; laat je hem toch voor, dan is dat hoffelijkheid"
    },
    {
-    "links": "Afrit gemist",
+    "links": "Je hebt je afrit gemist",
     "rechts": "Doorrijden tot de volgende afrit"
    }
   ],
-  "uitleg": "Bij het oprijden verleen je voorrang.",
+  "uitleg": "Bij het oprijden verleen je voorrang. Wie al op de autosnelweg rijdt, moet niet ritsen met wie oprijdt.",
   "bronnen": [
    "SNWG-001",
    "SNWG-002"
@@ -2247,7 +2295,8 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "gewijzigd": true
  },
  {
   "id": "L3-M25",
@@ -2335,16 +2384,9 @@
   "les": 3,
   "onderwerp": "T26",
   "theorieblok": "snelweg-pech",
-  "type": "volgorde",
-  "vraag": "Pech op de autosnelweg: zet de stappen in volgorde.",
-  "items": [
-   "Alarmlichten aan en fluohesje aan",
-   "Zo ver mogelijk naar rechts, bij voorkeur op de pechstrook",
-   "Uitstappen aan de kant van de vangrail",
-   "Gevarendriehoek plaatsen",
-   "112 bellen"
-  ],
-  "uitleg": "Eerst zichtbaar maken, dan stoppen, uitstappen aan de veilige kant, waarschuwen en bellen.",
+  "type": "meerkeuze",
+  "vraag": "Je hebt pech op de autosnelweg. Op welke afstand achter je voertuig plaats je minstens de gevarendriehoek?",
+  "uitleg": "Op de autosnelweg plaats je de gevarendriehoek minstens 100 m achter je voertuig; op gewone wegen minstens 30 m. Zet eerst je alarmlichten aan en trek je fluohesje aan.",
   "bronnen": [
    "SNWG-002",
    "SNWG-004",
@@ -2354,6 +2396,17 @@
   "gewicht": "gewoon",
   "examen": false,
   "eindtest": false,
-  "mini": true
+  "mini": true,
+  "opties": [
+   "Minstens 100 m",
+   "Ongeveer 30 m",
+   "Een paar meter, vlak achter de wagen",
+   "Ongeveer 50 m"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false,
+  "gewijzigd": true
  }
 ]

@@ -1,0 +1,64 @@
+[
+ {
+  "naam": "schema-busstrook-toegang",
+  "bestand": "img/schemas/schema-busstrook-toegang.svg",
+  "titel": "Wie mag op de busstrook?",
+  "beschrijving": "Links een weg met een gewone rijstrook en een busstrook (afgebakend met een brede onderbroken witte streep) waarop een bus rijdt; een personenauto op de gewone rijstrook blijft ervan af. Rechts een overzicht: bus en tram altijd, taxi, fiets, bromfiets en motorfiets enkel als het bord of onderbord dat toont, een gewone personenauto nooit.",
+  "borden": [],
+  "theorieblok": "openbaar-busstrook",
+  "bronnen": [
+   "OPEN-001",
+   "OPEN-002",
+   "OPEN-004"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-halte-parkeerverbod",
+  "bestand": "img/schemas/schema-halte-parkeerverbod.svg",
+  "titel": "Bij een halte: niet parkeren en niet oversteken over tramsporen",
+  "beschrijving": "Bovenaan een weg met een halte langs het trottoir. Aan weerszijden van het haltebord is een rode zone getekend van minder dan 15 meter waar parkeren verboden is; een auto in die zone staat fout, een auto ver erbuiten staat goed. Onderaan wacht een voetganger aan de rand van tramsporen omdat er een tram nadert.",
+  "borden": [],
+  "theorieblok": "openbaar-tramhalte",
+  "bronnen": [
+   "OPEN-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-overweg-pech",
+  "bestand": "img/schemas/schema-overweg-pech.svg",
+  "titel": "Pech op een overweg: eerst uit, dan bellen",
+  "beschrijving": "Een auto staat stil op de sporen van een overweg met zijn alarmlichten aan. Drie stappen: de inzittenden stappen uit, lopen weg van de sporen naar een veilige plaats achter de slagbomen, en bellen daarna het gratis noodnummer 1711 met de locatie die bij de overweg staat.",
+  "borden": [],
+  "theorieblok": "openbaar-overweg-pech",
+  "bronnen": [
+   "OPEN-003"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-schoolbus-alarmlichten",
+  "bestand": "img/schemas/schema-schoolbus-alarmlichten.svg",
+  "titel": "Schoolbus met knipperende richtingaanwijzers",
+  "beschrijving": "Een schoolbus staat langs de weg met alle vier de richtingaanwijzers knipperend (oranje stralen). Op het trottoir staan drie kinderen. Een auto komt van achteren en vertraagt sterk; zijn remlichten branden.",
+  "borden": [],
+  "theorieblok": "openbaar-schoolvervoer",
+  "bronnen": [
+   "OPEN-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-tramlichten-tekens",
+  "bestand": "img/schemas/schema-tramlichten-tekens.svg",
+  "titel": "Tramlichten: witte tekens op een zwarte achtergrond",
+  "beschrijving": "Overzicht van zes tramlichten, elk een wit teken op een zwart vierkant: horizontale balk (zoals rood: stoppen), cirkel (zoals oranje: stoppen tenzij het niet meer veilig kan), omgekeerde driehoek (zoals groen: doorrijden toegelaten), verticale balk (enkel rechtdoor), schuine balk (enkel in de richting van de balk) en knipperende cirkel (zoals oranje knipperlicht).",
+  "borden": [],
+  "theorieblok": "openbaar-tramlichten",
+  "bronnen": [
+   "OPEN-001"
+  ],
+  "type": "uitleg"
+ }
+]

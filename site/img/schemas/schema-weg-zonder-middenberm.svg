@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" width="600" height="560" role="img" aria-labelledby="t d">
+<title id="t">Weg zonder middenberm: alleen een witte lijn</title>
+<desc id="d">Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn alleen gescheiden door een witte lijn op het wegdek, er is geen middenberm. Auto's rijden in beide richtingen. Onderaan staat: de snelheid is de gewone limiet van het gewest.</desc>
+<defs><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker></defs>
+<rect width="600" height="560" fill="#86b96b"/>
+<rect x="0" y="0" width="600" height="560" fill="#86b96b" />
+<rect x="0" y="0" width="600" height="62" fill="#1c2230" />
+<text x="300" y="30" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="300" dy="0">Zonder middenberm</tspan></text>
+<text x="300" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#d6dbe6" text-anchor="middle" ><tspan x="300" dy="0">buiten de bebouwde kom, twee rijstroken per richting</tspan></text>
+<rect x="74" y="62" width="232" height="498" fill="#4a4f57" />
+<line x1="80" y1="62" x2="80" y2="560" stroke="#fff" stroke-width="3" />
+<line x1="300" y1="62" x2="300" y2="560" stroke="#fff" stroke-width="3" />
+<line x1="132" y1="62" x2="132" y2="560" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>
+<line x1="248" y1="62" x2="248" y2="560" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>
+<line x1="190" y1="62" x2="190" y2="560" stroke="#fff" stroke-width="5" />
+<g transform="translate(161 200) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(103 380) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(219 430) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(277 300) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2ea36b" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<line x1="103" y1="100" x2="103" y2="150" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="161" y1="290" x2="161" y2="340" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="219" y1="300" x2="219" y2="250" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="277" y1="430" x2="277" y2="380" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="192" y1="118" x2="365" y2="118" stroke="#1c2230" stroke-width="3" />
+<circle cx="190" cy="118" r="6" fill="#1c2230" stroke="#fff" stroke-width="2"/>
+<rect x="365" y="104" width="179.28" height="73.72" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="454.64" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="454.64" dy="0">alleen een witte</tspan><tspan x="454.64" dy="21.24">lijn tussen de</tspan><tspan x="454.64" dy="21.24">rijrichtingen</tspan></text>
+<line x1="277" y1="360" x2="365" y2="360" stroke="#1c2230" stroke-width="3" />
+<circle cx="277" cy="360" r="6" fill="#1c2230" stroke="#fff" stroke-width="2"/>
+<rect x="365" y="346" width="169.2" height="52.48" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="449.6" y="366" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="449.6" dy="0">twee rijstroken</tspan><tspan x="449.6" dy="21.24">per richting</tspan></text>
+<rect x="173.4" y="490" width="253.2" height="57.2" rx="9" fill="#fff3d6" stroke="#f08a1c" stroke-width="2" opacity="0.95"/>
+<text x="300" y="512" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="300" dy="0">Snelheid: de gewone</tspan><tspan x="300" dy="23.6">limiet van het gewest</tspan></text>
+</svg>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 560" width="600" height="560" role="img" aria-labelledby="t d">
+<title id="t">Weg met middenberm: fysieke scheiding</title>
+<desc id="d">Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn gescheiden door een middenberm, een brede groene strook met een stoeprand en struiken. Auto's rijden in beide richtingen. Onderaan staat: de snelheid is 120 km/u in elk gewest.</desc>
+<defs><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker></defs>
+<rect width="600" height="560" fill="#86b96b"/>
+<rect x="0" y="0" width="600" height="560" fill="#86b96b" />
+<rect x="0" y="0" width="600" height="62" fill="#1c2230" />
+<text x="300" y="30" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="300" dy="0">Met middenberm</tspan></text>
+<text x="300" y="52" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#d6dbe6" text-anchor="middle" ><tspan x="300" dy="0">buiten de bebouwde kom, twee rijstroken per richting</tspan></text>
+<rect x="40" y="62" width="120" height="498" fill="#4a4f57" />
+<rect x="220" y="62" width="120" height="498" fill="#4a4f57" />
+<rect x="158" y="62" width="64" height="498" fill="#d9d9d3" />
+<rect x="164" y="62" width="52" height="498" fill="#74a85a" />
+<circle cx="190" cy="100" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="106" r="8" fill="#5e9c49" />
+<circle cx="190" cy="180" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="186" r="8" fill="#5e9c49" />
+<circle cx="190" cy="260" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="266" r="8" fill="#5e9c49" />
+<circle cx="190" cy="340" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="346" r="8" fill="#5e9c49" />
+<circle cx="190" cy="420" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="426" r="8" fill="#5e9c49" />
+<circle cx="190" cy="500" r="13" fill="#4f8a3d" />
+<circle cx="184" cy="506" r="8" fill="#5e9c49" />
+<line x1="46" y1="62" x2="46" y2="560" stroke="#fff" stroke-width="3" />
+<line x1="334" y1="62" x2="334" y2="560" stroke="#fff" stroke-width="3" />
+<line x1="100" y1="62" x2="100" y2="560" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>
+<line x1="280" y1="62" x2="280" y2="560" stroke="#fff" stroke-width="3" stroke-dasharray="18 14"/>
+<g transform="translate(130 200) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(70 380) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(250 300) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(310 430) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2ea36b" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<line x1="70" y1="100" x2="70" y2="150" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="130" y1="290" x2="130" y2="340" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="250" y1="200" x2="250" y2="150" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="310" y1="300" x2="310" y2="250" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<line x1="192" y1="118" x2="365" y2="118" stroke="#1c2230" stroke-width="3" />
+<circle cx="190" cy="118" r="6" fill="#1c2230" stroke="#fff" stroke-width="2"/>
+<rect x="365" y="104" width="189.36" height="94.96" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="459.68" y="124" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="459.68" dy="0">middenberm:</tspan><tspan x="459.68" dy="21.24">fysieke scheiding</tspan><tspan x="459.68" dy="21.24">tussen de</tspan><tspan x="459.68" dy="21.24">rijrichtingen</tspan></text>
+<line x1="310" y1="360" x2="365" y2="360" stroke="#1c2230" stroke-width="3" />
+<circle cx="310" cy="360" r="6" fill="#1c2230" stroke="#fff" stroke-width="2"/>
+<rect x="365" y="346" width="169.2" height="52.48" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="449.6" y="366" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="449.6" dy="0">twee rijstroken</tspan><tspan x="449.6" dy="21.24">per richting</tspan></text>
+<rect x="184.6" y="490" width="230.8" height="57.2" rx="9" fill="#dff3e3" stroke="#1f9d55" stroke-width="2" opacity="0.95"/>
+<text x="300" y="512" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="300" dy="0">Snelheid: 120 km/u,</tspan><tspan x="300" dy="23.6">in elk gewest</tspan></text>
+</svg>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Maximumsnelheid per voertuigtype</title>
+<desc id="d">Staafdiagram van maximumsnelheden: bromfiets klasse A 25 km/u, bromfiets klasse B 45 km/u, voertuig boven 7,5 ton op luchtbanden op gewone wegen 60 km/u, bus of autocar op gewone wegen 75 km/u, bus op de autosnelweg 90 km/u, autocar met gordels en snelheidsbegrenzer op de autosnelweg 100 km/u.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<text x="24" y="106" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Bromfiets klasse A</tspan></text>
+<rect x="318" y="80" width="82.5" height="52" fill="#f08a1c" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="410.5" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="410.5" dy="0">25 km/u</tspan></text>
+<text x="24" y="186" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Bromfiets klasse B</tspan></text>
+<rect x="318" y="160" width="148.5" height="52" fill="#f08a1c" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="476.5" y="198" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="476.5" dy="0">45 km/u</tspan></text>
+<text x="24" y="258" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Voertuig boven 7,5 ton op</tspan><tspan x="24" dy="20.06">luchtbanden, gewone weg</tspan></text>
+<rect x="318" y="240" width="198" height="52" fill="#6b7280" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="526" y="278" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="526" dy="0">60 km/u</tspan></text>
+<text x="24" y="338" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Bus of autocar,</tspan><tspan x="24" dy="20.06">gewone weg</tspan></text>
+<rect x="318" y="320" width="247.5" height="52" fill="#c27d00" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="575.5" y="358" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="575.5" dy="0">75 km/u</tspan></text>
+<text x="24" y="418" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Bus,</tspan><tspan x="24" dy="20.06">autosnelweg</tspan></text>
+<rect x="318" y="400" width="297" height="52" fill="#c27d00" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="625" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="625" dy="0">90 km/u</tspan></text>
+<text x="24" y="498" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="start" ><tspan x="24" dy="0">Autocar met gordels en</tspan><tspan x="24" dy="20.06">begrenzer, autosnelweg</tspan></text>
+<rect x="318" y="480" width="330" height="52" fill="#c27d00" rx="8" stroke="#1c2230" stroke-width="2.5"/>
+<text x="658" y="518" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="658" dy="0">100 km/u</tspan></text>
+<line x1="318" y1="70" x2="318" y2="556" stroke="#1c2230" stroke-width="3" />
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Maximumsnelheid per voertuigtype</tspan></text>
+</svg>
