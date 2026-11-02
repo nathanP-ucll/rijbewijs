@@ -1,0 +1,309 @@
+{
+  "L2-043": {
+    "status": "ok",
+    "opmerking": "KB art. 22sexies.2 nagelezen: wie in een voetgangerszone mag rijden, doet dat stapvoets en laat de doorgang vrij voor voetgangers. Juist en ondubbelzinnig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-044": {
+    "status": "ok",
+    "opmerking": "KB art. 28 (portieren openen: zich vergewissen, vooral t.o.v. voetgangers en tweewielers) nagelezen; veiligverkeer.be-quiz bevestigt de techniek spiegel + over de schouder kijken. Feitelijk juist. Let op: vrije-tekst-gaten; overweeg meer toegelaten antwoorden (buitenspiegel, dode hoek) of dropdown.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.veiligverkeer.be/quiz/8-5-2025-portier-openen/?answer=2"
+    ]
+  },
+  "L2-045": {
+    "status": "ok",
+    "opmerking": "KB art. 9.1.2 3: wie het fietspad moet volgen mag het verlaten om van richting te veranderen, in te halen of omheen een hindernis te rijden. Opties 1-3 juist, optie 4 fout. Ondubbelzinnig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-046": {
+    "status": "ok",
+    "opmerking": "KB art. 9.1.2 5: fietsers van minder dan 10 jaar mogen in alle omstandigheden de trottoirs en verhoogde bermen volgen. Antwoord 10 klopt. wegcode.be-pagina bevestigt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/fietsers-en-de-wegcode"
+    ]
+  },
+  "L2-047": {
+    "status": "ok",
+    "opmerking": "KB art. 76.4 (afbakening fietsoversteekplaats) kent geen voorrang toe; art. 43.3: fietsers mogen zich slechts voorzichtig op de oversteekplaats begeven met inachtneming van naderende voertuigen. wegcode.be en veiligverkeer.be bevestigen: de markering geeft geen voorrang. Antwoord 'onjuist' klopt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/fietsers-en-de-wegcode",
+      "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-voorrang-fietsers/oversteken-fietsoversteekplaats-zebrapad/"
+    ]
+  },
+  "L2-048": {
+    "status": "ok",
+    "opmerking": "KB art. 12.4bis: wie een fietspad oversteekt verleent voorrang aan wie het fietspad volgt; veiligverkeer.be bevestigt dit voor het doorlopende fietspad op de rotonde. Opmerking: bij een onderbroken fietspad rond de rotonde (haaientanden/B1 voor de fietser) moet de fietser zelf voorrang geven; de vraag zegt 'kruist een fietspad', wat het eerste geval beschrijft. Optioneel verduidelijken met 'doorlopend fietspad'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-voorrang-fietsers/rotondes/"
+    ]
+  },
+  "L2-049": {
+    "status": "ok",
+    "opmerking": "KB art. 22novies: in een fietszone mag de snelheid nooit hoger liggen dan 30 km/u (ook motorvoertuigen). Juist. 'Fietsstraat' mag volgens overgangsbepaling tot 2035 nog op het bord staan.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-waar-fietsen/fietszone-fietsstraat/"
+    ]
+  },
+  "L2-050": {
+    "status": "ok",
+    "opmerking": "KB art. 40ter: zijdelingse afstand minstens 1 m, buiten de bebouwde kom minstens 1,5 m ten opzichte van fietsers (geldt voor bestuurders van auto's en motorfietsen). Antwoord 1,5 klopt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-051": {
+    "status": "twijfel",
+    "opmerking": "Optie 2 'Rechts achter een stilstaande vrachtwagen blijven' is dubbelzinnig: de dode hoek ligt ook vlak achter (en vlak voor) een vrachtwagen en het advies is RUIM (ca. 3 m) achter de vrachtwagen blijven, niet 'rechts achter'. Opties 1 en 3 zijn juist (niet rechts naast; oogcontact), optie 4 fout. Voorstel: optie 2 herformuleren naar 'Ruim achter een stilstaande vrachtwagen blijven' (of weglaten). Bronnen: lesfiche Dode hoek (VSV, PDF zelf niet als tekst leesbaar), Vias/VRT over dode hoek, rijksoverheid.nl (NL, ter vergelijking).",
+    "bronnen": [
+      "https://degroteverkeerstoets.be/storage/verkeerstoets_primair/4001061-vsv-gvt-goud-lesfiche-dode-hoek-03.pdf",
+      "https://www.rijksoverheid.nl/documenten/vraag-en-antwoord/verkeersveiligheid/hoe-blijf-ik-als-fietser-uit-de-dode-hoek-van-een-vrachtwagen",
+      "https://www.vrt.be/vrtnws/nl/2022/04/22/waarom-dodehoekongevallen-niet-meteen-verleden-tijd-zullen-zijn/"
+    ]
+  },
+  "L2-052": {
+    "status": "ok",
+    "opmerking": "mobilit.belgium.be (AM): bromfiets klasse A zonder rijbewijs vanaf 16 jaar, klasse B met rijbewijs AM vanaf 16 jaar. Antwoord 16 klopt. Let op: de vlaanderen.be-pagina vermeldt voor klasse A geen leeftijd; de mobilit-bron is de bevestiging.",
+    "bronnen": [
+      "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/belgisch-rijbewijs/bromfietsen-en-speedpedelec-categorie-am",
+      "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/rijbewijzen-en-rijopleiding/rijbewijs-am-voor-bromfiets-en-speedpedelec/welke-voertuigen-mag-ik-besturen-met-een-rijbewijs-am"
+    ]
+  },
+  "L2-053": {
+    "status": "ok",
+    "opmerking": "Beide borden nagekeken in de render (ruiter in blauwe cirkel; ruiter in rode cirkel) en in KB art. 69-70: D13 = verplichte weg voor ruiters, C15 = verboden toegang voor ruiters. Koppeling juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-054": {
+    "status": "ok",
+    "opmerking": "KB art. 20.1: elk verkeer op buiten de rijbaan aangelegde sporen is verboden. Antwoord 'verboden' klopt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-055": {
+    "status": "ok",
+    "opmerking": "KB art. 62ter: horizontale balk = rood, cirkel = vast oranjegeel, omgekeerde driehoek = groen, verticale balk = enkel rechtdoor; art. 61.1 2 voor de oranje-regel. Alle vier de paren juist, verzameling ondubbelzinnig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-056": {
+    "status": "ok",
+    "opmerking": "KB art. 40.3.1 (snelheid matigen langs stilstaande bus/tram) en 40.3.2 (zonder vluchtheuvel stoppen en pas met matige snelheid vertrekken) nagelezen. Opties 1-3 juist, toeteren fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-057": {
+    "status": "ok",
+    "opmerking": "KB art. 72.6 3: andere voertuigen mogen de bijzondere overrijdbare bedding gebruiken om omheen een hindernis te rijden, haar te dwarsen op kruispunten en om een eigendom/parking langs de bedding in of uit te rijden. Opties 1-3 juist. (Verschil met busstrook: geen 'van richting veranderen'.)",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-058": {
+    "status": "twijfel",
+    "opmerking": "Opties 1 en 4 correct; optie 2 'Trams van geregelde diensten' is verdedigbaar maar niet expliciet: KB art. 72.5 zegt 'voertuigen van de geregelde diensten voor gemeenschappelijk vervoer' (trams vallen daar ook onder, vgl. art. 62ter), maar het bord F17 is 'strook voorbehouden voor autobussen' en trams rijden normaal op eigen bedding/F18. De omzendbrief MOW/AWV/2024/13 kon niet als tekst gelezen worden. Voorstel: optie herformuleren naar 'Voertuigen van geregelde diensten voor gemeenschappelijk vervoer' of 'Bussen van De Lijn' en de tram-optie schrappen. Optie 3 (fietsers zonder aanduiding) is terecht fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://wegenenverkeer.be/sites/default/files/uploads/documenten/MOW-AWV-2024-13.pdf"
+    ]
+  },
+  "L2-059": {
+    "status": "ok",
+    "opmerking": "KB art. 72.5 3: andere voertuigen mogen op de busstrook om omheen een hindernis te rijden, om in de onmiddellijke nabijheid van een kruispunt van richting te veranderen, de busstrook te dwarsen op een kruispunt en om een eigendom/parking in of uit te rijden. Precies de vier opties; file-optie fout. Ondubbelzinnig (vraag zegt 'gewone bestuurder').",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-060": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd en vergeleken met KB art. 66 en 71: F17 (strook met BUS) = busstrook, F18 (BUS TRAM) = bijzondere overrijdbare bedding, A49 (tram in rijbaan) = kruising door in de rijbaan aangelegde sporen. De rechterkolom noemt A49 'Tramsporen die in de rijbaan liggen' - iets vereenvoudigd (officieel: waarschuwing voor kruising door sporen in de rijbaan) maar niet foutief; geen andere optie past.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://wegenenverkeer.be/sites/default/files/uploads/documenten/MOW-AWV-2024-13.pdf"
+    ]
+  },
+  "L2-061": {
+    "status": "ok",
+    "opmerking": "KB art. 20.3: verboden op de overweg bij bewegende/gesloten slagbomen, rode knipperlichten en werkend geluidssein; art. 64.3: maanwit knipperlicht = signaal mag voorbijgereden worden. Opties 1-3 juist, 4 fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-062": {
+    "status": "ok",
+    "opmerking": "VRT/Infrabel-campagne: eerst uitstappen en je achter de slagbomen in veiligheid brengen, dan 1711 (gratis) bellen en het overwegnummer doorgeven; mobilit.belgium.be bevestigt de volgorde veiligheid - 1711 - locatiegegevens. Volgorde is door bronnen ondersteund.",
+    "bronnen": [
+      "https://www.vrt.be/vrtnws/nl/2024/11/16/nieuwe-campagne-infrabel-veiligheid-overwegen-1711/",
+      "https://mobilit.belgium.be/nl/news/overwegen-draag-bij-aan-jouw-veiligheid-en-die-van-anderen"
+    ]
+  },
+  "L2-M01": {
+    "status": "ok",
+    "opmerking": "KB art. 12.3.1: voorrang aan de bestuurder die van rechts komt (behalve op een rotonde / uit verboden rijrichting); bevoegde persoon en verkeerstekens gaan boven de regel (art. 6). Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M02": {
+    "status": "ok",
+    "opmerking": "KB art. 12.4 (manoeuvre, o.a. keren: voorrang aan de andere weggebruikers) en 12.4bis (trottoir oversteken: voorrang aan wie er regelmatig gebruik van maakt). Beide paren juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M03": {
+    "status": "ok",
+    "opmerking": "KB art. 12.3.1 b: wie uit een aardeweg of pad op een openbare weg met rijbaan komt, verleent voorrang aan iedere bestuurder op de openbare weg. Antwoord 2 juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M04": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd (woonerf-bord, doorstreept woonerf-bord) en KB art. 71 gelezen: F12a = begin, F12b = einde van een woonerf of erf. Koppeling juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M05": {
+    "status": "ok",
+    "opmerking": "KB art. 12.1: elke weggebruiker verleent voorrang aan spoorvoertuigen. Juist (enig randgeval: prioritaire voertuigen met sirene, niet relevant voor de stelling).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M06": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd (omgekeerde driehoek, STOP) en KB art. 12.3.1 a / art. 67: B1 = voorrang verlenen, B5 = stoppen en voorrang verlenen. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M07": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd (oranje ruit; oranje ruit doorstreept) en KB art. 67: B9 = voorrangsweg, B11 = einde van voorrangsweg. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M08": {
+    "status": "ok",
+    "opmerking": "Bord gerenderd (driehoek met kruis) en KB art. 67: B17 = kruispunt waar de voorrang van rechts geldt. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M09": {
+    "status": "ok",
+    "opmerking": "KB art. 6.1-6.3: bevelen van bevoegde personen gaan boven verkeerstekens (lichten, borden) en die boven de verkeersregels (voorrang van rechts); werkende verkeerslichten gaan boven voorrangsborden. De volgorde persoon/licht - borden - voorrang van rechts is dus bronondersteund. De vermelding 'T-kruispunt' is niet nodig maar niet fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M10": {
+    "status": "ok",
+    "opmerking": "KB art. 19.2 1: oprijden van een rotonde = richtingsverandering waarbij richtingaanwijzers niet moeten gebruikt worden; verlaten = wel (rechts); art. 12.3.1: wie op de rotonde rijdt heeft voorrang (toegangswegen hebben B1/B5, art. 2.39). Alle paren juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M11": {
+    "status": "ok",
+    "opmerking": "KB art. 9.3.1: zo dicht mogelijk bij de rechterrand, behalve op pleinen (en op een rotonde). Stelling 'hoef je niet' is juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M12": {
+    "status": "twijfel",
+    "opmerking": "Juridisch klopt het voor voetgangers (KB art. 19.5) en voor fietsers op een doorlopend fietspad (art. 12.4bis, veiligverkeer.be). Bij een onderbroken fietspad rond de rotonde (haaientanden/B1 voor de fietser) moet de fietser zelf voorrang verlenen aan wie de rotonde verlaat. 'Fietsers ... die de afrit kruisen' is dus niet altijd juist. Voorstel: 'Voetgangers en fietsers op een doorlopend fietspad' of enkel 'voetgangers die de afrit oversteken'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-voorrang-fietsers/rotondes/"
+    ]
+  },
+  "L2-M13": {
+    "status": "ok",
+    "opmerking": "KB art. 19.3 3: wie links afslaat verleent voorrang aan de tegenliggers op de rijbaan die hij gaat verlaten. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M14": {
+    "status": "ok",
+    "opmerking": "KB art. 2.44: middenberm = elke aanleg in de lengterichting om de rijbanen te scheiden, behalve wegmarkeringen. Optie 2 juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M15": {
+    "status": "ok",
+    "opmerking": "KB art. 37.2-37.3: blauwe knipperlichten moeten gebruikt worden bij een dringende opdracht; het speciaal geluidstoestel mag enkel bij een dringende opdracht. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M16": {
+    "status": "ok",
+    "opmerking": "KB art. 38: bij het speciaal geluidstoestel moet elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen, ook wie zelf voorrang heeft. Stelling onjuist klopt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M17": {
+    "status": "ok",
+    "opmerking": "KB art. 37/38: blauwe lichten met sirene = voorrang geven. Oranjegele knipperlichten (art. 32.2: werk-/takel-/landbouwvoertuigen of hinder) geven geen voorrang; opletten klopt. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M18": {
+    "status": "ok",
+    "opmerking": "KB art. 61.1: rood = stopstreep/licht niet voorbij; vast oranjegeel = niet voorbij tenzij niet meer veilig te stoppen; groen = mag voorbij. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M19": {
+    "status": "ok",
+    "opmerking": "KB art. 61.1 2: oranje = stoppen tenzij je niet meer op voldoende veilige wijze kan stoppen. 'veilig' juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M20": {
+    "status": "ok",
+    "opmerking": "KB art. 61.4.1 (enkel BHG en Vlaams Gewest): driekleurige cirkelvormige lichten worden rechts van de rijbaan geplaatst en mogen links/boven herhaald worden. Juist voor Vlaanderen.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M21": {
+    "status": "ok",
+    "opmerking": "KB art. 64.1: oranjegeel knipperlicht = met dubbele voorzichtigheid voorbijrijden, wijzigt voorrangsregeling niet. Optie 3 juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-M22": {
+    "status": "ok",
+    "opmerking": "KB art. 61.1 4 en 5: rode pijl = verbod enkel voor de pijlrichting; groene pijl samen met rood/oranje = enkel in pijlrichting verder met voorrang voor wie regelmatig uit andere richtingen komt en voetgangers. Juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  }
+}

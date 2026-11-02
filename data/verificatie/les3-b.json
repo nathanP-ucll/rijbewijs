@@ -1,0 +1,292 @@
+{
+ "L3-040": {
+  "status": "ok",
+  "opmerking": "Art. 19.6 (gelezen op wegcode.be): bij verkeer in meerdere rijen/files (art. 9.4/9.5) sla je links af vanuit de linkerstrook en rechts vanuit de rechterstrook. Enig juist antwoord.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-041": {
+  "status": "ok",
+  "opmerking": "Gerenderd en bekeken: F5 = begin autosnelweg, F7 doorgekruist = einde, F9 (auto) = begin autoweg, F11 doorgekruist = einde. Klopt met art. 2.3 en 2.4 (gelezen). Geen bordcodes in de tekst.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-042": {
+  "status": "ok",
+  "opmerking": "Art. 21.1 (gelezen): toegang verboden voor voetgangers, bestuurders van rijwielen, bromfietsen, dieren en landbouwvoertuigen; personenauto's mogen wel. Drie juiste opties, vierde fout: klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-043": {
+  "status": "ok",
+  "opmerking": "Art. 21.2 (gelezen): niet trager dan 70 km/u behalve als bord C43 lager oplegt; art. 21.1 sluit voertuigen uit die geen 70 halen. Klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-044": {
+  "status": "ok",
+  "opmerking": "Art. 21.4 (gelezen): keren, achteruitrijden, dwarsverbindingen gebruiken en stilstaan buiten parkeerstroken verboden op autosnelwegen. Doorrijden tot de volgende afrit is het enige juiste antwoord.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-045": {
+  "status": "ok",
+  "opmerking": "Mobilit FAQ Voorrangsregels vraag 5 (gelezen): bij het oprijden van de autosnelweg steeds voorrang verlenen; invoegen laten is enkel hoffelijkheid van wie al rijdt. De uitleg klopt. Distractor \"ritsen\" is dus fout, zoals bedoeld.",
+  "bronnen": [
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels",
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-046": {
+  "status": "twijfel",
+  "opmerking": "Antwoord (auto 1 op de autosnelweg heeft voorrang; auto 2 komt van een oprit met B1) klopt volgens art. 12.3.1 a). Maar de afbeelding (gerenderd) is meetkundig vreemd: de oprit komt van LINKS en de blauwe route kruist de linkerrijstrook om in de rechterrijstrook te voegen, terwijl de pechstrook rechts ligt. Opritten komen in Belgie aan de rechterkant. Het B1-bord onderaan is deels afgesneden. Verbetering: schema spiegelen zodat de oprit rechts invoegt in de rechterrijstrook, B1-bord volledig zichtbaar.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-047": {
+  "status": "ok",
+  "opmerking": "VSV (gelezen): zo dicht mogelijk bij de rechterrand (art. 9.3.1) is op de autosnelweg de rechterrijstrook; links enkel om in te halen met uitzonderingen. Klopt.",
+  "bronnen": [
+   "https://www.veiligverkeer.be/weggebruikers/automobilisten/middenstrookrijden-mag-dat",
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-048": {
+  "status": "ok",
+  "opmerking": "Art. 9.7 (gelezen): rijden op de pechstrook verboden, behalve prioritaire voertuigen, door OM/politie opgeroepen diensten en takelwagens. Mobilit FAQ Reddingsstrook bevestigt dat de pechstrook niet bruikbaar is voor de file. \"Nee\" is enig juist antwoord.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-049": {
+  "status": "ok",
+  "opmerking": "Ritsen bij sterk vertraagd verkeer als een rijstrook eindigt (art. 12bis); voorrang bij oprijden (FAQ Voorrangsregels vraag 5); reddingsstrook bij file op wegen met minstens twee rijstroken in dezelfde richting (art. 9.8, FAQ Reddingsstrook vraag 1). Alle drie rijen juist en ondubbelzinnig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-050": {
+  "status": "ok",
+  "opmerking": "Touring (gelezen): op de autosnelweg uitstappen aan de kant van de vangrail en ver van de rijbaan blijven; KBC-stappenplan zegt eveneens achter de vangrail. Opmerking: enkel niet-officiele bronnen gevonden (de KB-tekst regelt dit niet), maar ze zijn consistent.",
+  "bronnen": [
+   "https://www.touring.be/nl/wat-te-doen-bij-panne",
+   "https://www.kbc.be/particulieren/nl/thema/mymobility/artikels/stappenplan-voor-pech-onderweg.html"
+  ]
+ },
+ "L3-M01": {
+  "status": "twijfel",
+  "opmerking": "Paren 1 en 2 kloppen (art. 9.3.1, markeringen). Paar 3 gebruikt \"Nooit op de rijbaan links van je\", maar art. 9.2 zegt \"behoudens plaatselijke reglementering\"; ook de uitleg \"Rijstrookmarkeringen volg je altijd\" is te absoluut (onderbroken strepen mag je overschrijden om van strook te veranderen). Verbetering: \"Niet op de rijbaan links van je\" en \"Rijstrookmarkeringen respecteer je\".",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M02": {
+  "status": "ok",
+  "opmerking": "Art. 9.4 (gelezen): in de bebouwde kom vrije rijstrookkeuze op eenrichtingsrijbanen met rijstroken en op tweerichtingsrijbanen met vier of meer rijstroken (min. twee per richting); art. 9.5: enkel de stroken van de eigen richting. Buiten de bebouwde kom: zo dicht mogelijk bij de rechterrand (9.3.1).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M03": {
+  "status": "ok",
+  "opmerking": "Art. 9.1.2 punt 1 en 5, art. 2.7 en art. 24 punt 2 (gelezen): fietsers en tweewielige bromfietsen klasse A moeten het berijdbare fietspad rechts volgen; fietsers jonger dan 10 jaar mogen in alle omstandigheden het trottoir volgen; fietspad is geen deel van de rijbaan; stilstaan en parkeren op een fietspad verboden.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M04": {
+  "status": "ok",
+  "opmerking": "Art. 72.5 (gelezen): \"De busstrook maakt geen deel uit van de rijbaan\"; KB 12 maart 2023 (BS 16 maart 2023), in werking sinds 1 april 2023; omzendbrief MOW/AWV/2024/13 bevestigt. Opmerking: \"KB van 12 maart 2023\" in de uitleg is jargon; mag korter (\"sinds april 2023\").",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://wegenenverkeer.be/sites/default/files/uploads/documenten/MOW-AWV-2024-13.pdf"
+  ]
+ },
+ "L3-M05": {
+  "status": "ok",
+  "opmerking": "Art. 9.8 (gelezen): bij twee rijstroken links uiterst links en rechts uiterst rechts; bij meer dan twee gaat de linkerstrook uiterst links en de andere stroken naar rechts. FAQ Reddingsstrook bevestigt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-M06": {
+  "status": "ok",
+  "opmerking": "Art. 15.1 (kruisen rechts), 16.1 en 16.3 (inhalen links, enkel bewegende voertuigen), 15.3 (gelijkgrondse berm of zijdelingse strook als kruisen moeilijk is, zonder gevaar) gelezen. Alle paren juist.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M07": {
+  "status": "ok",
+  "opmerking": "Art. 16.7 (links ingehaalde wijkt naar rechts, versnelt niet), 16.9 (spoorvoertuigen op de rijbaan rechts inhalen, met uitzonderingen), 16.2 (sneller rijden in een andere rij is geen inhalen) gelezen. Opmerking: tram rechts inhalen geldt voor trams die de rijbaan volgen; acceptabele vereenvoudiging.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M08": {
+  "status": "twijfel",
+  "opmerking": "Paar 1 is slecht geformuleerd (\"dus ook niet inhalen als dat moet\" is onduidelijk); art. 72.2: doorlopende streep nooit overschrijden, ook niet om in te halen. Paar 3 (tripleren) zegt \"tenzij minstens drie rijstroken\", maar art. 17.2 punt 4 kent een tweede uitzondering: tripleren mag wel als het ingehaalde voertuig een fiets, tweewielige bromfiets of tweewielige motorfiets inhaalt. Verbetering: paar 1 \"Mag niet overschreden worden, ook niet om in te halen\"; paar 3 de tweede uitzondering vermelden of herformuleren zonder absolute \"tenzij\".",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M09": {
+  "status": "ok",
+  "opmerking": "Art. 19.2 (gelezen): oprijden van een rotonde is een richtingsverandering waarbij de richtingaanwijzers niet moeten worden gebruikt; verlaten wel. Rechts/links afslaan: rechter/linker richtingaanwijzer (art. 19.2 en 19.3).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M10": {
+  "status": "fout",
+  "opmerking": "Paar 2: \"Links afslaan op een tweerichtingsweg -> Links van de middenlijn\" is fout/misleidend: links van de middenlijn is de rijbaanhelft van de tegenliggers. Art. 19.3 punt 2a: \"zich naar links begeven zonder de tegenliggers te hinderen\" (dus naar de middenlijn toe, niet erover). Verbetering: \"Naar de middenlijn toe, zonder de tegenliggers te hinderen\". Paar 1 en 3 kloppen (art. 19.2 punt 2, 19.3 punt 2b).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M11": {
+  "status": "ok",
+  "opmerking": "Art. 12.4 (gelezen): van rijstrook veranderen is een manoeuvre met voorrang aan andere weggebruikers; bij ritsen (art. 12bis) is het wisselen van rijstrook geen manoeuvre; art. 72.2: doorlopende streep niet overschrijden.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M12": {
+  "status": "ok",
+  "opmerking": "Art. 12bis (gelezen): bij sterk vertraagd verkeer invoegen vlak voor de versmalling; bij blokkering van beide stroken eerst voorrang aan een bestuurder rechts, dan links; ritsen enkel bij sterk vertraagd verkeer (FAQ: op alle wegen met minstens twee stroken in dezelfde richting).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-M13": {
+  "status": "ok",
+  "opmerking": "Art. 2.22 en 2.23 (gelezen): stilstaan = niet langer dan nodig om in/uit te stappen of te laden/lossen; langer = parkeren (ook tanken of opladen).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M14": {
+  "status": "ok",
+  "opmerking": "Art. 23.1 en 23.2 (gelezen): rechts (op eenrichtingsrijbaan ook links), zo ver mogelijk van de aslijn, in een enkele file; op een gelijkgrondse berm met 1,50 m begaanbare strook voor voetgangers (bij bermen die voetgangers moeten volgen).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M15": {
+  "status": "ok",
+  "opmerking": "Art. 24 punt 2 (gelezen): stilstaan en parkeren verboden op fietspaden; art. 2.7: fietspad is geen deel van de rijbaan, dus de eerste foute motivatie is onjuist zoals bedoeld.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M16": {
+  "status": "fout",
+  "opmerking": "De uitzondering is verkeerd verwoord. Art. 25.1 punt 3 en Mobilit FAQ Parkeren vraag 5: parkeren voor een oprit mag enkel als het inschrijvingsteken van het voertuig leesbaar OP die oprit/garage is aangebracht (bv. bordje met je nummerplaat bij je eigen oprit). De optie zegt \"zichtbaar vanaf die oprit\", wat iets anders betekent en dubbelzinnig is (bijna elke geparkeerde nummerplaat is vanaf de oprit zichtbaar). Verbetering: \"Nee, tenzij het inschrijvingsteken (nummerplaat) van je voertuig leesbaar op die oprit is aangebracht\" en de vraag specificeren (oprit van een ander / eigen oprit).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-M17": {
+  "status": "ok",
+  "opmerking": "Art. 70.2.2 punt 1 (gelezen): borden E1, E3, E5, E7 en E9a-E9j gelden langs de kant waar ze staan, vanaf het bord tot het volgende kruispunt; einde wordt aangeduid met een bord.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M18": {
+  "status": "ok",
+  "opmerking": "Art. 27.1.3 (gelezen): onjuiste aanduidingen op de schijf zijn verboden en mogen niet gewijzigd worden voor het voertuig vertrokken is; art. 27.1.2: voertuig moet weg zijn bij het verstrijken van de toegelaten duur.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-M19": {
+  "status": "twijfel",
+  "opmerking": "Inhoudelijk kloppen de regels (art. 12.4: keren/achteruitrijden zijn manoeuvres; art. 72.2: doorlopende streep niet overschrijden; art. 21.4 en 22.2: verboden op autosnelweg en autoweg). Maar de rechterkant bevat twee bijna synoniemen (\"Niet toegelaten\" en \"Verboden\"), waardoor paren 2 en 3 verwisselbaar zijn en de koppeling niet ondubbelzinnig is. Verbetering: de rechterkanten verschillend formuleren (bv. \"Mag niet: de streep mag je niet overschrijden\" / \"Mag nooit, ook niet bij weinig verkeer\").",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M20": {
+  "status": "ok",
+  "opmerking": "Art. 19.6 (gelezen): bij verkeer in meerdere files rechts afslaan enkel vanuit de rechterstrook.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M21": {
+  "status": "ok",
+  "opmerking": "Gerenderd: F9 toont het autoweg-bord (auto op blauw veld); art. 2.4: begin autoweg = F9. Geen bordcode in de tekst.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M22": {
+  "status": "twijfel",
+  "opmerking": "Art. 21.1 en 22.1 (gelezen) bevestigen de inhoud, maar de koppeling is niet ondubbelzinnig: \"Motorvoertuigen en hun aanhangwagens\" is ook toegelaten op de autosnelweg (met extra het 70 km/u-criterium), en \"motorvoertuigen die 70 km/u kunnen halen\" mogen evengoed op de autoweg. Het enige onderscheid zit in het 70 km/u-criterium. Verbetering: vraag herformuleren, bv. \"Welk voertuig is op de autosnelweg wel/niet toegelaten\" als meerkeuze, of de koppeling vervangen door \"Voertuig dat geen 70 km/u haalt -> niet op de autosnelweg, wel op de autoweg\".",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M23": {
+  "status": "ok",
+  "opmerking": "Art. 21.4 (gelezen): verboden op autosnelwegen: dwarsverbindingen gebruiken, keren, achteruitrijden of tegen de richting rijden. Drie juiste opties; doorrijden tot de volgende afrit is geen verbod.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M24": {
+  "status": "twijfel",
+  "opmerking": "Inhoud juist (FAQ Voorrangsregels vraag 5; art. 21.4), maar paren 1 en 2 zijn synoniem (\"Oprijden -> voorrang verlenen aan het verkeer op de autosnelweg\" en \"Invoegen -> zonder hinder voor wie al rijdt\"): verwisselbaar, dus niet ondubbelzinnig. Verbetering: paar 2 vervangen door iets onderscheidends, bv. \"Wie al op de autosnelweg rijdt en je ziet invoegen -> hoeft niet te ritsen, enkel uit hoffelijkheid\".",
+  "bronnen": [
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels",
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M25": {
+  "status": "ok",
+  "opmerking": "Art. 21.3 (gelezen): bij drie of meer rijstroken mogen autobussen, autocars en voertuigen/slepen met een maximale toegelaten massa van meer dan 3,5 ton enkel op de twee rechtse stroken rijden (behalve om F13/F15 te volgen). 3,5 ton bevestigd. Personenwagen: rechterstrook, links om in te halen (VSV; uitzonderingen bij opeenvolgend inhalen, druk verkeer en richtingborden). \"Links enkel om in te halen\" is een licht vereenvoudigde maar acceptabele normaalregel.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://www.veiligverkeer.be/weggebruikers/automobilisten/middenstrookrijden-mag-dat"
+  ]
+ },
+ "L3-M26": {
+  "status": "ok",
+  "opmerking": "Art. 2.62 (pechstrook: rechts van de rijbaan) en 2.70 (reddingsstrook: vrije ruimte tussen twee rijstroken in een file) gelezen; FAQ Reddingsstrook vraag 5: de pechstrook mag niet gebruikt worden om een reddingsstrook te vormen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels"
+  ]
+ },
+ "L3-M27": {
+  "status": "ok",
+  "opmerking": "FAQ Voorrangsregels vraag 5 (gelezen): ritsen bij het oprijden van de autosnelweg is niet verplicht (\"Neen\"), voorrang verlenen wel; invoegen laten is louter hoffelijkheid. Kleine opmerking: foute motivatie \"bij een oprit ritsen we enkel bij file\" is deels herkenbaar als hoffelijkheid, maar blijft verkeerd als regel.",
+  "bronnen": [
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/verkeersregels",
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ },
+ "L3-M28": {
+  "status": "twijfel",
+  "opmerking": "Er is geen bron met een vaste volgorde. Touring (gelezen): alarmlichten + hesje, uitstappen aan de vangrail, gevarendriehoek (min. 100 m op autosnelweg, art. 51.2), maar bij autosnelwegpech \"eerst 112 bellen\" (dus niet als laatste stap); KBC geeft een andere volgorde (veilige plek/pechstrook, uitstappen, dan driehoek) en noemt 112 niet. Het item \"naar de pechstrook\" staat niet bij Touring. Verbetering: omzetten naar meerkeuze (\"wat doe je als eerste/wat is verplicht\") of 112 vroeger in de rij zetten; gevarendriehoek 100 m klopt (art. 51.2: 30 m gewone wegen, 100 m autosnelwegen).",
+  "bronnen": [
+   "https://www.touring.be/nl/wat-te-doen-bij-panne",
+   "https://www.kbc.be/particulieren/nl/thema/mymobility/artikels/stappenplan-voor-pech-onderweg.html",
+   "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+  ]
+ }
+}

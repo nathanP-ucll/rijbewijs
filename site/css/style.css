@@ -1,6 +1,6 @@
 /* Theorie rijbewijs B – stijl. Palet: wegblauw als inkt, signaalgeel als accent, bordkleuren met betekenis. */
 :root {
-  --paper: #faf8f3; --surface: #ffffff; --surface-2: #f3f0e8; --ink: #17213a; --muted: #566074; --line: #e2ddd0;
+  --paper: #ffffff; --surface: #ffffff; --surface-2: #f4f5f7; --ink: #17213a; --muted: #566074; --line: #e1e4e8; --hl: #fff2a8;
   --brand: #1d4e89; --brand-ink: #ffffff; --brand-soft: #e3edf9; --accent: #f5b800; --accent-ink: #231a00;
   --ok: #17693f; --ok-bg: #e2f4ea; --bad: #b3261e; --bad-bg: #fde8e6; --warn: #8a4b00; --warn-bg: #fff0d6;
   --regel: #1d5fa8; --regel-bg: #e6f0fb; --letop: #a64b00; --letop-bg: #fff0dc; --zware: #b3261e; --zware-bg: #fde8e6; --tip: #17693f; --tip-bg: #e3f5ea;
@@ -19,18 +19,18 @@
 }
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #10151f; --surface: #182030; --surface-2: #1f293b; --ink: #edf0f6; --muted: #aab3c5; --line: #2c374c;
-    --brand: #7db2ee; --brand-ink: #0b1626; --brand-soft: #1b2b44; --accent: #f5b800; --accent-ink: #231a00;
-    --ok: #6fd69b; --ok-bg: #12301f; --bad: #ff8f86; --bad-bg: #3a1815; --warn: #ffc46b; --warn-bg: #36260a;
-    --regel: #8dbdf2; --regel-bg: #172944; --letop: #ffb36b; --letop-bg: #382207; --zware: #ff8f86; --zware-bg: #3a1815; --tip: #6fd69b; --tip-bg: #12301f;
+    --paper: #15171a; --surface: #1e2125; --surface-2: #272b30; --ink: #eef0f3; --muted: #b0b7c1; --line: #353a41; --hl: rgba(245,196,0,.32);
+    --brand: #7db2ee; --brand-ink: #0b1626; --brand-soft: #243246; --accent: #f5b800; --accent-ink: #231a00;
+    --ok: #6fd69b; --ok-bg: #1b2e24; --bad: #ff8f86; --bad-bg: #3a1815; --warn: #ffc46b; --warn-bg: #36260a;
+    --regel: #8dbdf2; --regel-bg: #1d2b3f; --letop: #ffb36b; --letop-bg: #382207; --zware: #ff8f86; --zware-bg: #3a1815; --tip: #6fd69b; --tip-bg: #1b2e24;
     --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.3); color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #10151f; --surface: #182030; --surface-2: #1f293b; --ink: #edf0f6; --muted: #aab3c5; --line: #2c374c;
-  --brand: #7db2ee; --brand-ink: #0b1626; --brand-soft: #1b2b44; --accent: #f5b800; --accent-ink: #231a00;
-  --ok: #6fd69b; --ok-bg: #12301f; --bad: #ff8f86; --bad-bg: #3a1815; --warn: #ffc46b; --warn-bg: #36260a;
-  --regel: #8dbdf2; --regel-bg: #172944; --letop: #ffb36b; --letop-bg: #382207; --zware: #ff8f86; --zware-bg: #3a1815; --tip: #6fd69b; --tip-bg: #12301f;
+  --paper: #15171a; --surface: #1e2125; --surface-2: #272b30; --ink: #eef0f3; --muted: #b0b7c1; --line: #353a41; --hl: rgba(245,196,0,.32);
+  --brand: #7db2ee; --brand-ink: #0b1626; --brand-soft: #243246; --accent: #f5b800; --accent-ink: #231a00;
+  --ok: #6fd69b; --ok-bg: #1b2e24; --bad: #ff8f86; --bad-bg: #3a1815; --warn: #ffc46b; --warn-bg: #36260a;
+  --regel: #8dbdf2; --regel-bg: #1d2b3f; --letop: #ffb36b; --letop-bg: #382207; --zware: #ff8f86; --zware-bg: #3a1815; --tip: #6fd69b; --tip-bg: #1b2e24;
   --shadow: 0 1px 2px rgba(0,0,0,.4), 0 6px 20px rgba(0,0,0,.3); color-scheme: dark;
 }
 
@@ -634,3 +634,21 @@ body[data-page="les"]::before { content: ""; position: fixed; left: 0; right: 0;
 .ex-feedback.fb-visual { display: grid; grid-template-columns: auto minmax(0, 1fr); gap: 1rem; align-items: center; }
 .fb-fig { margin: 0; background: #fff; border-radius: 14px; padding: 10px; border: 2px solid var(--ok); } .fb-fig img { max-height: 150px; max-width: 220px; display: block; }
 @media (max-width: 560px) { .ex-feedback.fb-visual { grid-template-columns: 1fr; } }
+
+
+/* wit papier, kleur enkel als accent; tip = markeerstift */
+body[data-page="les"] { background-color: var(--paper); background-image: none; }
+.bkaart-media, .vcol-media, .opt-media { background: #fff; border: 1px solid var(--line); }
+.schema-fig { background: #fff; border: 1px solid var(--line); }
+.cat-bg-A, .cat-bg-B, .cat-bg-C, .cat-bg-D, .cat-bg-E, .cat-bg-F { background: #fff; }
+.tbl-book tbody tr:nth-child(odd) > * { background: var(--surface-2); } .tbl-book tbody tr:nth-child(even) > * { background: var(--surface); }
+.mini-ex { background: var(--surface); }
+.ex, .match .match-left { background: var(--surface); }
+.kader-tip { background: transparent; border: 0; border-radius: 0; box-shadow: none; padding: .2rem 0; align-items: flex-start; gap: .6rem; }
+.kader-tip .kader-icon { width: auto; height: auto; border: 0; background: none; color: var(--muted); margin-top: .35rem; }
+.kader-tip .kader-icon svg { width: 20px; height: 20px; }
+.kader-tip .kader-label { font-size: .85rem; font-weight: 400; color: var(--muted); margin: 0 0 .1rem; }
+.kader-tip .kader-text { display: inline; background: var(--hl); color: var(--ink); padding: .12em .3em; border-radius: 0; line-height: 1.75; -webkit-box-decoration-break: clone; box-decoration-break: clone; font-size: clamp(1.15rem, 1.6vw, 1.4rem); }
+.voorbeeld-l { color: var(--ink); opacity: .75; }
+.stage { display: block; max-width: 720px; } .stage img { width: 100%; max-height: 460px; object-fit: contain; }
+.schema-img, .vcol-img, .bkaart-img, .opt-img, .rcard-img { min-width: 40px; }

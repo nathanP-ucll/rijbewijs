@@ -1,0 +1,337 @@
+{
+  "L4-M17": {
+    "status": "ok",
+    "opmerking": "Reactietijd (ongeveer 1 s tussen gevaar zien en rempedaal indrukken), reactieafstand (afstand in die tijd) en remafstand (vanaf rempedaal tot stilstand) staan zo gedefinieerd bij veiligverkeer.be. Uitleg klopt (reactietijd constant, reactieafstand groeit met snelheid).",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoe-sneller-je-rijdt-hoe-groter-je-stopafstand/"
+    ]
+  },
+  "L4-M18": {
+    "status": "ok",
+    "opmerking": "Stopafstand = reactieafstand + remafstand (veiligverkeer.be). Natte weg: stopafstand groter (zelfde bron). Dubbele snelheid = ongeveer 4x remafstand klopt (remafstand evenredig met het kwadraat van de snelheid; de cijfers op de bron, 27 m stopafstand bij 50 km/u en 107 m bij 120 km/u, zijn hiermee consistent). Politie.be-bron (GEDR-018) gaf 403 en kon ik niet zelf nalezen.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoe-sneller-je-rijdt-hoe-groter-je-stopafstand/",
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos"
+    ]
+  },
+  "L4-M19": {
+    "status": "ok",
+    "opmerking": "Veiligverkeer.be: 2 seconden als basisregel, op nat wegdek een seconde extra = 3 seconden. Wegcode art. 10.1 zegt zelf enkel \"voldoende veiligheidsafstand\" (geen vaste seconden), dus het zijn aanbevelingen van veiligverkeer.be; als zodanig juist.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-M20": {
+    "status": "twijfel",
+    "opmerking": "Dimlicht bij zicht onder ongeveer 200 m klopt (KB art. 30: wanneer het niet meer mogelijk is duidelijk te zien tot ongeveer 200 m). Maar veiligverkeer.be spreekt zichzelf tegen: kop \"3 seconden volgafstand bij regen / nat wegdek\", terwijl de lijst \"4 seconden\" o.a. slecht zicht door mist, regen, nevel noemt. Voorstel: linkerkant \"Volgafstand bij nat wegdek\" of vermeld in de uitleg dat bij slecht zicht 4 s wordt aangeraden.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-M21": {
+    "status": "ok",
+    "opmerking": "KB art. 30.1: voormistlichten enkel bij mist, sneeuwval of felle regen; achtermistlichten (indien aanwezig) moeten gebruikt worden bij mist/sneeuwval die het zicht tot minder dan (ongeveer) 100 m verminderen en bij felle regen, en mogen in geen andere omstandigheden gebruikt worden (dus doven bij beter zicht). Vias bevestigt de 100 m. Geen bordcodes of artikelnummers in de tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-M22": {
+    "status": "ok",
+    "opmerking": "Vias: \"Wees vooral voorzichtig op de bruggen, waar de temperatuur altijd lager is dan elders.\" Distractors (tunnels, parkings) zijn duidelijk minder gevoelig. Eenduidig voor een cursus.",
+    "bronnen": [
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-M23": {
+    "status": "ok",
+    "opmerking": "Touring en Assuralia: beveilig de plaats (gevarendriehoek, waarschuwingsknipperlichten, fluohesje), roep 112 bij gewonden, help en blijf ter plaatse als je betrokken bent. De volgorde in de uitleg (veiligheid, hulp roepen, helpen en blijven) komt overeen met de bronnen.",
+    "bronnen": [
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen",
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding",
+      "https://www.vlaanderen.be/noodoproepen"
+    ]
+  },
+  "L4-M24": {
+    "status": "ok",
+    "opmerking": "KB art. 51.2: gevarendriehoek op minstens 30 m op gewone wegen en minstens 100 m op autosnelwegen; binnen de bebouwde kom, waar 30 m niet kan, op kleinere afstand of eventueel op het voertuig. Vias bevestigt 100 m op de autosnelweg.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/bijna-de-helft-van-de-mensen-die-stoppen-op-de-pechstrook-respecteren-de-veiligheidsvoorschriften-niet/"
+    ]
+  },
+  "L4-M25": {
+    "status": "ok",
+    "opmerking": "Vias pechstrook-pagina: passagiers langs rechts laten uitstappen en ver achter de vangrail plaatsnemen; \"Blijf in geen geval op de pechstrook staan\". Touring: passagiers in veiligheid brengen, bv. achter de vangrails. Opties 2 en 3 zijn onveilig.",
+    "bronnen": [
+      "https://www.vias.be/nl/newsroom/bijna-de-helft-van-de-mensen-die-stoppen-op-de-pechstrook-respecteren-de-veiligheidsvoorschriften-niet/",
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen"
+    ]
+  },
+  "L4-M26": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: 112 voor brandweer of ambulance, 101 voor dringende politiehulp. Assuralia: bel 112 of gebruik de praatpaal. Opmerking: 112 bereikt ook de politie, maar als leerkoppeling is het eenduidig.",
+    "bronnen": [
+      "https://www.vlaanderen.be/noodoproepen",
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding"
+    ]
+  },
+  "L4-M27": {
+    "status": "twijfel",
+    "opmerking": "Vlaanderen.be zegt dat de operator wil horen: de juiste locatie, wat er gebeurd is, of er gewonden zijn en WIE U BENT. Het Rode Kruis noemt de drie vragen Waar/Wat/Wie zonder uitleg bij \"Wie\". De koppeling \"Wie? = gewonden: hoeveel en hoe ernstig\" botst met de Vlaamse bron (Wie = wie je bent) en is dus voor een leerling dubbelzinnig. Voorstel: links \"Gewonden?\" i.p.v. \"Wie?\" (of \"Wie? = Wie je bent en je telefoonnummer\" met een aparte \"Gewonden?\"). Touring bevestigt wel dat je het aantal voertuigen en slachtoffers/hun toestand meldt.",
+    "bronnen": [
+      "https://www.vlaanderen.be/noodoproepen",
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen",
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf"
+    ]
+  },
+  "L4-M28": {
+    "status": "ok",
+    "opmerking": "Rode Kruis affiche \"Vier stappen in eerste hulp\": 1 Zorg voor veiligheid, 2 Beoordeel de toestand van het slachtoffer, 3 Raadpleeg gespecialiseerde hulp (Waar? Wat? Wie?), 4 Verleen verdere eerste hulp. Exact de volgorde van de oefening.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2021-124-affiche-vier-stappen-in-eerste-hulp-a2-v3.pdf",
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf"
+    ]
+  },
+  "L4-M29": {
+    "status": "ok",
+    "opmerking": "Rode Kruis (cursus 2017, stap 2): wel ademhaling = hulpdiensten alarmeren en in stabiele zijligging leggen, behalve wanneer je wervelletsel vermoedt; Touring: bewusteloze slachtoffers in zijdelingse veiligheidsligging plaatsen. Antwoord A is juist en eenduidig. Kanttekening: de bron is van 2017 en recentere richtlijnen geven voorrang aan een vrije luchtweg; overweeg optie C te vervangen door een duidelijk foute optie (bv. \"Het slachtoffer is bij bewustzijn en praat\") en de zin over wervelletsel uit de uitleg te halen.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf",
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen",
+      "https://www.rodekruis.be/storage/main/2026-affiche-reanimeren-en-defibrilleren.pdf"
+    ]
+  },
+  "L4-M30": {
+    "status": "ok",
+    "opmerking": "Rode Kruis affiche Reanimeren en defibrilleren (mei 2026): bewusteloos = alarmeer 112, laat AED halen; \"Activeer de AED en volg de aanwijzingen\"; kleef de 2 elektroden op de ontblote borstkas; tijdens analyse/schok raakt niemand het slachtoffer aan. Volgorde van de 4 items klopt. De reanimatiestappen (30:2) ontbreken tussen item 1 en 2, maar de oefening beweert niet volledig te zijn.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2026-affiche-reanimeren-en-defibrilleren.pdf"
+    ]
+  },
+  "L4-M31": {
+    "status": "ok",
+    "opmerking": "Rode Kruis affiche brandwonden (mei 2026): was/ontsmet je handen en trek wegwerphandschoenen aan, koel de brandwonde 20 minuten met stromend water, (112 bij ernstige brandwonde), bedek met gepast verbandmateriaal. Volgorde klopt.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2026-affiche-eh-bij-brandwonden.pdf"
+    ]
+  },
+  "L4-M32": {
+    "status": "ok",
+    "opmerking": "Rode Kruis affiche bloedingen: handschoenen aan, slachtoffer laten neerliggen, alarmeer 112, druk (drukverband of propere doek), blijf druk uitoefenen tot de hulpdiensten aankomen. Volgorde van de 4 items klopt met de affiche. De allereerste stap van de affiche (laat het slachtoffer zelf drukken op de wonde) ontbreekt, maar dat maakt de volgorde niet fout.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2021-124-affiche-eh-bij-bloedingen-a2-v3.pdf"
+    ]
+  },
+  "L4-M33": {
+    "status": "twijfel",
+    "opmerking": "KB art. 52: stoffelijke schade = ter plaatse blijven en maatregelen voor veiligheid/vlotheid (52.1, 52.2); letsel = zo nodig hulp verlenen en ter plaatse blijven (52.3); afwezige benadeelde = zoveel mogelijk ter plaatse naam en adres opgeven en zo snel mogelijk mededelen (52.2). Probleem: 52.1 zegt dat het voertuig bij lichamelijk letsel \"niet verplaatst moet worden\" (geen plicht tot verplaatsen), niet dat het verboden is; de oefening en uitleg zeggen \"niet verplaatsen\" / \"mag je het voertuig niet verplaatsen\". Voorstel: \"Het voertuig hoeft niet verplaatst te worden (laat het staan voor de vaststellingen), behalve bij gevaar\" en pas de uitleg aan.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding"
+    ]
+  },
+  "L4-M34": {
+    "status": "ok",
+    "opmerking": "KB art. 81.2: elke auto moet een gevaarsdriehoek, een of twee blustoestellen en een verbandkist of -etui bevatten. Doelen kloppen. Geen artikelnummers in de tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.kbcbrussels.be/particulieren/nl/thema/mymobility/artikels/wat-hoort-er-echt-in-je-auto-te-liggen.html"
+    ]
+  },
+  "L4-M35": {
+    "status": "ok",
+    "opmerking": "Wikifin: voorzijde samen invullen en door beide partijen ondertekenen, achterzijde individueel invullen, bij onenigheid eigen versie in het vakje \"Opmerkingen\". Assuralia: de aangifte houdt geen erkenning van aansprakelijkheid in.",
+    "bronnen": [
+      "https://www.wikifin.be/nl/budget-betalen-lenen-en-verzekeren/verzekeren/auto-en-fietsverzekering/wat-moet-je-doen-na-een",
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding"
+    ]
+  },
+  "L4-M36": {
+    "status": "ok",
+    "opmerking": "Assuralia: bij gewonden de politie erbij halen voor een PV; schade zo snel mogelijk melden; bij onverzekerde of onbekende voertuigen kan je verzekeraar uitleggen welke oplossing bestaat. Koppelingen eenduidig.",
+    "bronnen": [
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding",
+      "https://www.wikifin.be/nl/budget-betalen-lenen-en-verzekeren/verzekeren/auto-en-fietsverzekering/wat-moet-je-doen-na-een"
+    ]
+  },
+  "L4-M37": {
+    "status": "ok",
+    "opmerking": "Assuralia: hospitalisatie- en ongevallenverzekeringen zoals de bestuurderspolis komen tussen bij letsels; omnium dekt materiele schade aan het eigen voertuig; BA dekt schade aan anderen. Antwoord C eenduidig.",
+    "bronnen": [
+      "https://www.assuralia.be/nl/artikel/checklist-aanrijding",
+      "https://www.test-aankoop.be/geld/autoverzekeringen/dossier/rijden-onder-invloed"
+    ]
+  },
+  "L4-M38": {
+    "status": "ok",
+    "opmerking": "Wegverkeerswet art. 33: bestuurder die de vlucht neemt om zich aan de vaststellingen te onttrekken is strafbaar, zelfs als het ongeval niet zijn schuld is. KB art. 52 verplicht ter plaatse blijven. Definitie in de oefening klopt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1968031601~invynqx4tj",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-M39": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: theorie-examen is de eerste stap, daarna voorlopig rijbewijs (met of zonder begeleider), minstens 5 maanden oefenen op de openbare weg voor het praktijkexamen, daarna rijbewijs aanvragen met het formulier \"Aanvraag om een rijbewijs\", en het terugkommoment 6 tot 9 maanden na afgifte van het definitieve rijbewijs. Volgorde dus bronbevestigd. Uitzonderingen (M12 zonder 5 maanden, 20 uur rijles bij M18) veranderen de hoofdvolgorde niet.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/terugkommoment-voor-rijbewijs-b-auto",
+      "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/belgisch-rijbewijs/personenwagen-categorie-b"
+    ]
+  },
+  "L4-M40": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: M18 = voorlopig rijbewijs zonder begeleider (vanaf 18 jaar, 18 maanden geldig, minstens 20 uur rijles). M36 en M12 hebben een begeleider. Eenduidig.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b"
+    ]
+  },
+  "L4-M41": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: maximaal 2 begeleiders, minstens 8 jaar rijbewijs, vormingsmoment van 3 uur (verplicht sinds 1 maart 2024). Alle drie bevestigd.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b/vormingsmoment-voor-begeleiders"
+    ]
+  },
+  "L4-M42": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: minstens 5 maanden oefenen (niet voor M12); niet rijden in het buitenland (wel op het volledige Belgische grondgebied); niet met een aanhangwagen. Bevestigd. Kleine kanttekening: de 5 maanden gelden niet voor M12 en de oefening vermeldt dat niet.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b"
+    ]
+  },
+  "L4-M43": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: praktijkexamen vanaf 18 jaar; terugkommoment = verplichte opleiding van 4 uur, 6 tot 9 maanden na afgifte van het definitieve rijbewijs; na 2 keer niet slagen voor het praktijkexamen minimaal 6 uur rijles. Alle bevestigd.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/terugkommoment-voor-rijbewijs-b-auto"
+    ]
+  },
+  "L4-M44": {
+    "status": "ok",
+    "opmerking": "Verval = door de rechter uitgesproken (mobilit.belgium.be). Onmiddellijke intrekking wordt bevolen door de procureur des Konings (bij bepaalde snelheids- en alcoholgevallen ook door de officier van gerechtelijke politie) (Wegverkeerswet art. 55); het rijbewijs moet na 15 dagen teruggegeven worden tenzij de politierechtbank de termijn verlengt (art. 56 en 55bis, tot 3 maanden). \"Meestal\" is een correcte nuancering. De wet van 25 mei 2026 wijzigt delen van de Wegverkeerswet (deels per 1/7/2026 of 1/9/2026); voor zover ik kon nagaan raakt dat deze kernregels niet.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1968031601~invynqx4tj",
+      "https://mobilit.belgium.be/en/node/1237",
+      "https://mobiliteit.d8.pr.belgium.be/nl/news/verkeersregels-binnenkort-treden-verschillende-wijzigingen-werking"
+    ]
+  },
+  "L4-M45": {
+    "status": "ok",
+    "opmerking": "Mobilit.belgium.be: bankkaartmodel 10 jaar geldig en moet minstens 3 maanden voor de vervaldatum hernieuwd worden (online via BelDrive of bij de gemeente). Vlaanderen.be: oogtest meteen na het theorie-examen in het examencentrum. Let op de woordkeuze \"minstens 3 maanden voor het einde\": dat volgt de bron, maar kan als \"ten vroegste\" gelezen worden; overweeg \"Uiterlijk 3 maanden voor het einde\".",
+    "bronnen": [
+      "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/rijbewijs-hernieuwen/rijbewijs-hernieuwen",
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+    ]
+  },
+  "L4-M46": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: nadat de vraag volledig is voorgelezen krijg je 15 seconden om te antwoorden.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+    ]
+  },
+  "L4-M47": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: 50 vragen, start met 50 punten, -1 bij fout of onbeantwoord, -5 per fout op vragen over overtredingen van de 3de of 4de graad of de maximumsnelheid, slagen vanaf 41/50.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+    ]
+  },
+  "L4-M48": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: na 2 keer niet slagen 12 uur theorielessen bij een erkende rijschool voor de 3de deelname; na 5 keer niet slagen vertraagd examen zonder attest; theorie-examen 3 jaar geldig; herkansen niet op dezelfde dag. De nieuwe regel (theorie-examen verplicht in Vlaanderen vanaf 1/1/2027) komt in de oefening niet voor.",
+    "bronnen": [
+      "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+    ]
+  },
+  "L4-M49": {
+    "status": "ok",
+    "opmerking": "Test-Aankoop en AutoScout24: wettelijke minimale profieldiepte 1,6 mm in Belgie; banden ouder dan 10 jaar vervangen; AutoScout24: bandenspanning maandelijks controleren, bij koude banden. De eerste is wet, de andere twee zijn adviezen; de uitleg (\"ondergrens, geen advies\") is correct.",
+    "bronnen": [
+      "https://www.test-aankoop.be/mobiliteit/banden/antwoord-van-expert/bandengrip-verkeersveiligheid",
+      "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/onderhoud-banden"
+    ]
+  },
+  "L4-M50": {
+    "status": "ok",
+    "opmerking": "Radar/ANWB: maandelijks oliepeil controleren; ruitenwissers vervangen als ze strepen trekken of stuiteren. ANWB: remvloeistof meestal elke twee jaar vervangen.",
+    "bronnen": [
+      "https://radar.avrotros.nl/artikel/auto-onderhoud-deze-7-dingen-kun-je-zelf-doen-61201",
+      "https://www.anwb.nl/auto/onderhoud-en-reparatie/auto-onderdelen/remvloeistof"
+    ]
+  },
+  "L4-M51": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: eerste keuring wanneer de personenwagen 4 jaar oud wordt, gerekend vanaf de eerste inverkeerstelling; dit blijft gelden na de hervorming van 1/9/2026 (die betreft de frequentie, 2-jaarlijks voor alle personenwagens). \"Eerste inschrijving\" is in de praktijk dezelfde datum.",
+    "bronnen": [
+      "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+      "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/technische-keuring-wordt-eenvoudiger-en-minder-frequent-vanaf-september-2026"
+    ]
+  },
+  "L4-M52": {
+    "status": "ok",
+    "opmerking": "KB art. 51.2: gevarendriehoek 30 m (gewone weg) en 100 m (autosnelweg); art. 51.4: retro-reflecterend vest dragen zodra je het pechvoertuig verlaat op autosnelweg/autoweg; Vias: hesje aan voor je uitstapt en binnen handbereik (niet in de koffer); KBC en AutoScout24: brandblusser goed bereikbaar, houdbaarheidsdatum en staat (drukmeter) controleren. Het detail \"zegel\" vond ik niet letterlijk, maar de controle van vervaldatum/staat is bevestigd.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/bijna-de-helft-van-de-mensen-die-stoppen-op-de-pechstrook-respecteren-de-veiligheidsvoorschriften-niet/",
+      "https://www.kbcbrussels.be/particulieren/nl/thema/mymobility/artikels/wat-hoort-er-echt-in-je-auto-te-liggen.html",
+      "https://www.autoscout24.be/nl/informeren/advies/veiligheid/brandblusser-in-de-auto/"
+    ]
+  },
+  "L4-M53": {
+    "status": "ok",
+    "opmerking": "AutoScout24: rood = gevaar/direct ingrijpen, oranje = nazicht nodig, groen = systeem werkt, blauw = grootlicht aan. ANWB: rood lampje = stoppen, oranje = doorrijden en laten nakijken. Kanttekening: sommige wagens gebruiken blauw ook voor \"koude motor\"; dat wordt hier niet gevraagd.",
+    "bronnen": [
+      "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/wat-betekenen-de-lichtjes-op-uw-dashboard/",
+      "https://www.anwb.nl/auto/onderhoud-en-reparatie/autopech/waarschuwingslampjes"
+    ]
+  },
+  "L4-M54": {
+    "status": "twijfel",
+    "opmerking": "Inhoud klopt: olie (rood, oliedruk), remmen (rood), motor (oranje, motorstoring), grootlicht (blauw), richtingaanwijzer (groen) (ANWB, AutoScout24). Beeldprobleem: elk SVG (site/img/schemas/tech-lampje-*.svg) bevat zelf het bijschrift met de naam (\"Oliedruk\", \"Remmen\", \"Motorstoring\", \"Grootlicht\", \"Richtingaanwijzer\") plus een kleurregel eronder. Daardoor staat het antwoord in de afbeelding en is de oefening zinloos. Voorstel: de tekstlabels uit de SVG halen (of neutrale varianten maken) en bij remmen de tekst \"eerst handrem controleren\" niet tonen.",
+    "bronnen": [
+      "https://www.anwb.nl/auto/onderhoud-en-reparatie/autopech/waarschuwingslampjes",
+      "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/wat-betekenen-de-lichtjes-op-uw-dashboard/"
+    ]
+  },
+  "L4-M55": {
+    "status": "twijfel",
+    "opmerking": "Anticiperen, vroeg opschakelen (2000-2500 toeren) en dakkoffer/energievreters zijn bevestigd bij Belfius. \"Uitrollen: geen brandstof nodig tijdens uitrollen\" staat niet in de gelezen bronnen (Belfius zegt enkel: laat de auto uitbollen in de versnelling). In vrij rijden verbruikt de motor stationair brandstof; de brandstofafsluiting geldt enkel in de versnelling bij moderne inspuitmotoren. Voorstel: \"Uitrollen in de versnelling: motor remt, vrijwel geen brandstofverbruik\" of een voorzichtiger formulering (\"Uitrollen: minder remmen en brandstof besparen\").",
+    "bronnen": [
+      "https://www.belfius.be/retail/nl/sleutelmomenten/mobiliteit/dagelijks-gebruik/vragen-antwoorden/energiezuiniger-rijden/index.aspx",
+      "https://www.autoscout24.be/nl/informeren/advies/veiligheid/brandblusser-in-de-auto/"
+    ]
+  },
+  "L4-M56": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be LEZ: hoe hoger de euronorm van uw voertuig, hoe milieuvriendelijker uw wagen is. De norm regelt vervuilende stoffen, geen CO2-uitstoot; opties 2 en 3 zijn fout. Eenduidig.",
+    "bronnen": [
+      "https://www.vlaanderen.be/lez"
+    ]
+  },
+  "L4-M57": {
+    "status": "ok",
+    "opmerking": "Vlaanderen.be: Antwerpen en Gent zijn de Vlaamse steden met een LEZ; bijna heel het Brussels Hoofdstedelijk Gewest is een LEZ (ook lez.brussels). Wallonie: het plan voor een regionale LEZ is geschrapt (Ayvens); gemeenten kunnen vrijwillig een ZBE invoeren. Kanttekening: \"Geen regionale LEZ meer\" suggereert dat er vroeger een was; \"Geen regionale LEZ\" is nauwkeuriger. De Vlaamse verstrenging is geschrapt (besluit 28/11/2025), dus de huidige regels gelden.",
+    "bronnen": [
+      "https://www.vlaanderen.be/lez",
+      "https://lez.brussels",
+      "https://www.ayvens.com/nl-be/over-ayvens/blog/mobiliteit/waar-in-belgie-geldt-een-lage-emissiezone/"
+    ]
+  },
+  "L4-M58": {
+    "status": "ok",
+    "opmerking": "Test-Aankoop: bij full hybrides wordt de batterij opgeladen door recuperatie van de energie die vrijkomt bij het remmen. Optie A juist, B en C duidelijk fout.",
+    "bronnen": [
+      "https://www.test-aankoop.be/mobiliteit/auto-s/dossier/hybride-auto-plug-in-full-hybride"
+    ]
+  }
+}

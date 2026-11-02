@@ -1,0 +1,325 @@
+{
+ "L4-044": {
+  "status": "ok",
+  "opmerking": "Assuralia: het aangeven van de feiten houdt geen erkenning van aansprakelijkheid in; de verzekeraars bepalen de aansprakelijkheid. Overige opties duidelijk fout.",
+  "bronnen": [
+   "https://www.assuralia.be/nl/artikel/checklist-aanrijding"
+  ]
+ },
+ "L4-045": {
+  "status": "ok",
+  "opmerking": "Assuralia: van zodra er gewonden zijn moet je de politie erbij halen voor een PV (en 112 bellen). Eenduidig.",
+  "bronnen": [
+   "https://www.assuralia.be/nl/artikel/checklist-aanrijding"
+  ]
+ },
+ "L4-046": {
+  "status": "ok",
+  "opmerking": "Test-Aankoop: BA is verplicht en dekt schade aan derden, niet eigen letsels of eigen voertuig; omnium dekt eigen wagen volgens contract (mini/full); bestuurdersverzekering dekt eigen lichamelijk letsel. Paren eenduidig.",
+  "bronnen": [
+   "https://www.test-aankoop.be/geld/autoverzekeringen/dossier/autoverzekering-verplicht"
+  ]
+ },
+ "L4-047": {
+  "status": "twijfel",
+  "opmerking": "Antwoord juist: KB 1/12/1975 art. 52.2 (op wegcode.be gelezen): is de benadeelde niet aanwezig, dan naam en adres zoveel mogelijk ter plaatse opgeven en in elk geval zo haast mogelijk rechtstreeks of via de politie meedelen. De uitleg \"Niet ter plaatse blijven of niets melden is vluchtmisdrijf\" is te absoluut: bij een afwezige eigenaar mag je weggaan nadat je gegevens zijn opgegeven/gemeld. Voorstel uitleg: \"Wegrijden zonder je gegevens achter te laten of te melden is vluchtmisdrijf en strafbaar.\"",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-048": {
+  "status": "ok",
+  "opmerking": "Theorie-examen vanaf 17, M36 vanaf 17, M18 vanaf 18, praktijkexamen vanaf 18 (vlaanderen.be, mobilit.belgium.be).",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b",
+   "https://mobilit.belgium.be/nl/node/1096"
+  ]
+ },
+ "L4-049": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be en mobilit.belgium.be: M36 met begeleider, 36 maanden, vanaf 17; M18 zonder begeleider, 18 maanden, vanaf 18; M12 eenmalig aan te vragen nadat M36/M18 verlopen is (6 uur rijles + geldig theorie-examen).",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+   "https://mobilit.belgium.be/nl/node/1096"
+  ]
+ },
+ "L4-050": {
+  "status": "ok",
+  "opmerking": "Begeleider: minstens 8 jaar rijbewijs voor het voertuigtype, niet vervallen verklaard van het recht tot sturen (ook niet in de laatste 3 jaar), in het afgelopen jaar geen andere leerling begeleid (uitzondering gezinsleden) -> \"elke andere leerling\" is fout; \"3 jaar\" is fout. Twee juiste opties, correct aangeduid.",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+   "https://mobilit.belgium.be/nl/node/1096"
+  ]
+ },
+ "L4-051": {
+  "status": "ok",
+  "opmerking": "Nachtverbod 22 u tot 6 u op vrijdag, zaterdag, zondag, vooravond van feestdagen en op feestdagen, geldt voor M36, M18 en M12 (mobilit.belgium.be, vlaanderen.be). Enkel zaterdag 23 u valt erin; de andere opties liggen buiten 22-6 u.",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/oefenperiode-voorlopig-rijbewijs-b",
+   "https://mobilit.belgium.be/nl/node/1096"
+  ]
+ },
+ "L4-052": {
+  "status": "ok",
+  "opmerking": "Praktijkexamen vanaf 18 jaar (vlaanderen.be); terugkommoment verplicht, 4 uur, tussen 6 en 9 maanden na afgifte van het definitieve rijbewijs B (vlaanderen.be; pagina meldt geen afschaffing).",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b",
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/terugkommoment-voor-rijbewijs-b-auto"
+  ]
+ },
+ "L4-053": {
+  "status": "ok",
+  "opmerking": "Verval van het recht tot sturen: uitgesproken door de rechter (mobilit.belgium.be; art. 38 Wegverkeerswet). Onmiddellijke intrekking: bevolen door de procureur des Konings (art. 55-56 Wegverkeerswet, volgens Grondwettelijk Hof-arresten en recordinglaw.com; wegcode.be geeft de 15 dagen). Nuance: sinds de wet van 2014 mogen in bepaalde gevallen ook officieren van gerechtelijke politie intrekken en ik vond geen officiele burgerpagina die \"procureur\" letterlijk noemt; de binaire vraag blijft correct en \"meestal\" in de uitleg is gepast.",
+  "bronnen": [
+   "https://mobilit.belgium.be/en/node/1237",
+   "https://www.recordinglaw.com/nl/belgium/driving-laws/licence-withdrawal/",
+   "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed"
+  ]
+ },
+ "L4-054": {
+  "status": "ok",
+  "opmerking": "mobilit.belgium.be: een rijbewijs in bankkaartmodel is 10 jaar geldig.",
+  "bronnen": [
+   "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/rijbewijs-hernieuwen/rijbewijs-hernieuwen"
+  ]
+ },
+ "L4-055": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be: 50 meerkeuzevragen, 15 seconden per vraag na het volledig voorlezen, vanaf 17 jaar, oogtest meteen na het examen.",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+  ]
+ },
+ "L4-056": {
+  "status": "ok",
+  "opmerking": "50 punten, -1 per fout, -5 bij vragen over 3de/4de graad of maximumsnelheid, slagen vanaf 41. 9 fouten = 41 geslaagd; 10 = 40 niet; 5+4 = 41 geslaagd; 2x5 = 40 niet. Klopt. \"Zware fout\" is een lichte vereenvoudiging.",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+  ]
+ },
+ "L4-057": {
+  "status": "ok",
+  "opmerking": "Slagen vanaf 41/50 (vlaanderen.be).",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b"
+  ]
+ },
+ "L4-058": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be: geslaagd theorie-examen 3 jaar geldig; na 2 mislukte pogingen 12 uur theorielessen bij een erkende rijschool voor de 3de poging.",
+  "bronnen": [
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/theorie-examen-voor-rijbewijs-b",
+   "https://www.vlaanderen.be/rijbewijs-b-voor-auto/praktijkexamen-rijbewijs-b"
+  ]
+ },
+ "L4-059": {
+  "status": "ok",
+  "opmerking": "Wettelijk minimum 1,6 mm over de volledige breedte van het loopvlak (Test-Aankoop, AutoScout24).",
+  "bronnen": [
+   "https://www.test-aankoop.be/mobiliteit/banden/antwoord-van-expert/bandengrip-verkeersveiligheid",
+   "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/onderhoud-banden"
+  ]
+ },
+ "L4-060": {
+  "status": "twijfel",
+  "opmerking": "Inhoudelijk juist, maar niet volledig gestaafd: AutoScout24 bevestigt buitenkanten versleten = te lage spanning en midden versleten = te hoge spanning. Voor \"bult in de flank: band vervangen\" noemt AutoScout24 bulten wel als beschadiging en raadt vervangen bij zichtbare beschadiging aan, maar niet expliciet voor een bult in de flank; geen bron met expliciete formulering teruggevonden. Voorstel: extra bron (Touring/Vias/bandenfabrikant) toevoegen.",
+  "bronnen": [
+   "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/onderhoud-banden"
+  ]
+ },
+ "L4-061": {
+  "status": "ok",
+  "opmerking": "ANWB: remvloeistof neemt vocht op (hygroscopisch), kookpunt daalt, dampbellen; meestal elke twee jaar vervangen.",
+  "bronnen": [
+   "https://www.anwb.nl/auto/onderhoud-en-reparatie/auto-onderdelen/remvloeistof"
+  ]
+ },
+ "L4-062": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be: eerste keuring personenwagen op 4 jaar (vanaf eerste inverkeerstelling); vanaf 1 september 2026 om de 2 jaar voor alle personenwagens; taxi en ambulance van 6 maanden naar 1 jaar. Enkel Vlaanderen, zoals de uitleg vermeldt.",
+  "bronnen": [
+   "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/wanneer-naar-de-technische-keuring",
+   "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/auto-en-motor/technische-keuring-van-voertuigen/technische-keuring-wordt-eenvoudiger-en-minder-frequent-vanaf-september-2026"
+  ]
+ },
+ "L4-063": {
+  "status": "ok",
+  "opmerking": "KB 15/3/1968 art. 70 (op wegcode.be gelezen): blustoestel op een in het oog vallende en gemakkelijk bereikbare plaats, minstens een binnen bereik van de bestuurder, verzegeld (zegel intact), geldigheidsdatum op het toestel (verstreken = voldoet niet meer). Foutemotivaties zijn terecht fout.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1968031501~fhniyzocos",
+   "https://www.kbcbrussels.be/particulieren/nl/thema/mymobility/artikels/wat-hoort-er-echt-in-je-auto-te-liggen.html"
+  ]
+ },
+ "L4-064": {
+  "status": "ok",
+  "opmerking": "ANWB: bij een rood lampje stoppen en de auto aan de kant zetten; AutoScout24: rood = gevaar. Afbeelding tech-dashboard-kleuren gerenderd en bekeken: rood/oranje/groen/blauw met correcte tekst, geen tegenstrijdigheid.",
+  "bronnen": [
+   "https://www.anwb.nl/auto/onderhoud-en-reparatie/autopech/waarschuwingslampjes",
+   "https://www.autoscout24.be/nl/informeren/advies/autotechnologie/wat-betekenen-de-lichtjes-op-uw-dashboard/"
+  ]
+ },
+ "L4-065": {
+  "status": "ok",
+  "opmerking": "ANWB: rood oliedruklampje (oliekannetje): oliedruk te laag, stoppen en oliepeil controleren. Afbeelding tech-lampje-olie gerenderd: rood oliekannetje met druppel, bijschrift \"Oliedruk, rood: veilig stoppen\". Klopt met de vraag.",
+  "bronnen": [
+   "https://www.anwb.nl/auto/onderhoud-en-reparatie/autopech/waarschuwingslampjes"
+  ]
+ },
+ "L4-066": {
+  "status": "ok",
+  "opmerking": "ANWB: knipperend motorlampje is ernstiger dan een brandend; stop op een veilige plaats. Afbeelding tech-lampje-motor gerenderd: oranje motorsymbool, past bij de vraag.",
+  "bronnen": [
+   "https://www.anwb.nl/auto/onderhoud-en-reparatie/autopech/waarschuwingslampjes"
+  ]
+ },
+ "L4-067": {
+  "status": "ok",
+  "opmerking": "Belfius: met de juiste rijstijl al gauw 10 % brandstof besparen; schakel zo vroeg mogelijk op tussen 2.000 en 2.500 toeren. Opmerking: bij diesel ligt het advies soms iets lager (rond 2.000) en de bron is een bank, maar de enige juiste optie is eenduidig.",
+  "bronnen": [
+   "https://www.belfius.be/retail/nl/sleutelmomenten/mobiliteit/dagelijks-gebruik/vragen-antwoorden/energiezuiniger-rijden/index.aspx"
+  ]
+ },
+ "L4-068": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be/lez: euronorm en voertuigcategorie staan op het inschrijvingsbewijs en de Car-Pass. Euronorm = Europese uitstootgrenzen (Verordening 715/2007), hoger cijfer = strengere norm; CO2 is een broeikasgas dat afneemt bij lager verbruik.",
+  "bronnen": [
+   "https://www.vlaanderen.be/lez",
+   "https://stad.gent/nl/groen-milieu/nieuws-evenementen/5-lez-tips-voor-wie-gent-antwerpen-en-brussel-bezoekt",
+   "https://eur-lex.europa.eu/eli/reg/2007/715/oj/eng"
+  ]
+ },
+ "L4-069": {
+  "status": "ok",
+  "opmerking": "vlaanderen.be/lez: Antwerpen en Gent zijn momenteel de enige Vlaamse steden met een LEZ; bijna heel Brussel is ook LEZ. Stand later hercontroleren bij nieuwe steden.",
+  "bronnen": [
+   "https://www.vlaanderen.be/lez",
+   "https://stad.gent/nl/groen-milieu/nieuws-evenementen/5-lez-tips-voor-wie-gent-antwerpen-en-brussel-bezoekt"
+  ]
+ },
+ "L4-070": {
+  "status": "ok",
+  "opmerking": "Test-Aankoop: micro-hybride = enkel start-stop; mild hybrid = kleine elektromotor ondersteunt; full hybrid = batterij laadt tijdens rijden en via remenergie; plug-in = batterij met kabel.",
+  "bronnen": [
+   "https://www.test-aankoop.be/mobiliteit/auto-s/dossier/hybride-auto-plug-in-full-hybride"
+  ]
+ },
+ "L4-M01": {
+  "status": "ok",
+  "opmerking": "wegcode.be tabel rijden onder invloed: het laagste niveau 0,09-0,22 mg/l (0,2-0,5 g/l) geldt enkel voor professionele bestuurders; gewone bestuurder 0,22 mg/l en 0,5 g/l (be.brussels bevestigt 0,5 g/l en 0,22 mg/l). De drie paren zijn eenduidig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed",
+   "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen"
+  ]
+ },
+ "L4-M02": {
+  "status": "ok",
+  "opmerking": "Op dit moment (nov 2026) geen aparte grens voor beginners: 0,5 g/l. VRT 6/10/2026: nultolerantie (0,2 promille) voor bestuurders met rijbewijs korter dan 3 jaar is pas voor 2027 aangekondigd. Tijdsgevoelig: herzien zodra dit in werking treedt.",
+  "bronnen": [
+   "https://www.vrt.be/vrtnws/nl/2026/10/06/federale-regering-voert-in-2027-nultolerantie-in-voor-beginnende/",
+   "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed"
+  ]
+ },
+ "L4-M03": {
+  "status": "ok",
+  "opmerking": "mobilit.belgium.be: de rechter legt het alcoholslot op, 1 tot 3 jaar of levenslang, de veroordeelde betaalt de kosten zelf, omkaderingsprogramma bij een erkende instelling.",
+  "bronnen": [
+   "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/sancties/rijden-onder-invloed-en-veroordeling-tot-een"
+  ]
+ },
+ "L4-M04": {
+  "status": "ok",
+  "opmerking": "Vias-briefing drugs: drie opeenvolgende fases: checklist uiterlijke tekenen, speekseltest (eerste vaststelling), speekselanalyse in erkend laboratorium (juridische bewijswaarde).",
+  "bronnen": [
+   "https://www.vias.be/publications/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs.pdf"
+  ]
+ },
+ "L4-M05": {
+  "status": "ok",
+  "opmerking": "KB 1/12/1975 art. 8.4 (op wegcode.be gelezen): behalve bij stilstaan of geparkeerd mag de bestuurder geen mobiel elektronisch apparaat met een scherm gebruiken, vasthouden of manipuleren, tenzij het in een daartoe bestemde houder zit. Handsfree bellen: toegelaten. Alle vier de paren kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M06": {
+  "status": "ok",
+  "opmerking": "Art. 8.4 verbiedt scherm bedienen onderweg (tenzij in houder); advies Athlon/TomTom: route, muziek en volume instellen voor je wegrijdt. Eenduidig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.athlon.com/be/nieuws-advies/afleiding-tijdens-het-rijden-4-tips-om-je-veiligheid-te-verhogen/"
+  ]
+ },
+ "L4-M07": {
+  "status": "ok",
+  "opmerking": "Vias: stop na maximaal 2 uur, dutje maximaal 20 minuten, bij slaperigheid stoppen op een rustige en veilige plek.",
+  "bronnen": [
+   "https://www.vias.be/nl/newsroom/6-op-de-10-belgen-vertrekt-s-nachts-als-ze-met-de-auto-op-reis-gaan/"
+  ]
+ },
+ "L4-M08": {
+  "status": "twijfel",
+  "opmerking": "Paren 1 en 2 kloppen met de Vias-briefing (arts/apotheker raadplegen, bijsluiter lezen, DRUID-categorieen). Paar 3 \"Nooit combineren\" is een absolute formulering die in geen enkele gelezen bron letterlijk staat (Vias: combinatie verhoogt het ongevalsrisico sterk, bv. +670 % bij benzodiazepines; be.brussels: combinatie tast reflexen aan). Voorstel: \"Liever niet combineren\" of \"Vraag advies; alcohol verhoogt het risico sterk\".",
+  "bronnen": [
+   "https://www.vias.be/publications/Briefing%20-%20conduite%20sous%20l%27influence%20de%20m%C3%A9dicaments/Briefing_Rijden_onder_invloed_van_geneesmiddelen.pdf",
+   "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen"
+  ]
+ },
+ "L4-M09": {
+  "status": "ok",
+  "opmerking": "Art. 35.2.1: vrijgesteld van gordel- en kinderbeveiligingsplicht o.a. bestuurders die achteruit rijden. Korte rit en autosnelweg zijn geen vrijstelling.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M10": {
+  "status": "ok",
+  "opmerking": "Art. 35.1.1: kinderen jonger dan 18 en kleiner dan 135 cm in kinderbeveiligingssysteem; achterwaarts systeem niet bij actieve voorairbag. 135 cm of groter: gewone gordel. Wegcode.be-uitleg bevestigt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/hoe-moet-ik-mijn-kind-vervoeren"
+  ]
+ },
+ "L4-M11": {
+  "status": "ok",
+  "opmerking": "Art. 35.1.2: derde kind of incidenteel kort vervoer: kind van 3 jaar of ouder en kleiner dan 135 cm mag zonder zitje, enkel op andere zitplaatsen dan voorin en met gordel.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M12": {
+  "status": "ok",
+  "opmerking": "Art. 45.1: lading mag het zicht van de bestuurder niet hinderen, niet slepen of vallen, lichten, reflectoren en nummerplaat niet onzichtbaar maken.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M13": {
+  "status": "ok",
+  "opmerking": "Art. 30.1: bij niet meer duidelijk kunnen zien tot ongeveer 200 m: vooraan dimlichten of grootlichten, achteraan rode lichten.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M14": {
+  "status": "ok",
+  "opmerking": "Art. 30.1.1: grootlicht doven bij tegenligger en bij volgen op minder dan 50 m (behalve bij inhalen); grootlicht toegelaten op een donkere weg zonder verkeer.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L4-M15": {
+  "status": "twijfel",
+  "opmerking": "Antwoord juist: art. 30.1.2: achtermistlicht bij mist of sneeuwval die het zicht beperkt tot minder dan 100 m, en ook bij felle regen. De uitleg \"In andere omstandigheden mag het achtermistlicht niet branden\" is daardoor onvolledig (felle regen is ook toegelaten). Voorstel uitleg: \"Enkel bij mist of sneeuwval met zicht onder ongeveer 100 m, of bij felle regen.\"",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+  ]
+ },
+ "L4-M16": {
+  "status": "ok",
+  "opmerking": "Art. 31.1.1 3 graden: binnen de bebouwde kom mag een parkeerlicht de standlichten vervangen als het voertuig evenwijdig met de aslijn staat zonder aanhangwagen; enkel het parkeerlicht aan de kant van de aslijn van de rijbaan mag branden.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ }
+}

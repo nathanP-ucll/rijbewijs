@@ -1,0 +1,301 @@
+{
+ "L1-001": {
+  "status": "ok",
+  "opmerking": "KB art. 65.1: zes categorieën. Alle zes paren kloppen met de afbeeldingen (A21 gevaar, B1 voorrang, C3 verbod, D5 gebod, E1 stilstaan/parkeren, F4a aanwijzing); SVG's gerenderd en bekeken.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-002": {
+  "status": "ok",
+  "opmerking": "KB art. 66.4: A33 = Verkeerslichten (gevaarsbord). Afbeelding toont verkeerslicht in rode driehoek: klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-003": {
+  "status": "ok",
+  "opmerking": "KB art. 6.1 en 6.2: bevelen van bevoegde personen gaan boven verkeerstekens en verkeersregels; verkeerstekens gaan boven de verkeersregels. Vaste volgorde, ondubbelzinnig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-004": {
+  "status": "ok",
+  "opmerking": "KB art. 66.4: A1a bocht naar links, A3 gevaarlijke daling, A9 beweegbare brug, A15 glibberige rijbaan, A19 vallende stenen. Afbeeldingen gerenderd en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-005": {
+  "status": "ok",
+  "opmerking": "KB art. 66.4: A41 = overweg met slagbomen (A43 zonder). Afbeelding toont slagboom/hekwerk: klopt. Afleiders zijn fout (A49 = sporen in de rijbaan).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-006": {
+  "status": "ok",
+  "opmerking": "KB art. 66.4: A25 = oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen. Afbeelding toont fietser: klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-007": {
+  "status": "ok",
+  "opmerking": "KB art. 67.3: B1 voorrang verlenen, B5 stoppen en voorrang verlenen, B9 voorrangsweg, B11 einde voorrangsweg, B19 smalle doorgang met gebod voorrang te verlenen aan tegenliggers. Afbeeldingen gerenderd (B19: rode pijl = eigen richting, zwarte = tegenligger) en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-008": {
+  "status": "ok",
+  "opmerking": "Klopt: B1 = voorrang verlenen; stoppen enkel zo nodig (KB art. 76.2: dwarsstreep van driehoeken = zo nodig stoppen om voorrang te verlenen ingevolge B1), terwijl B5 verplicht stoppen is (art. 76.1). Stelling is onjuist, ondubbelzinnig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-009": {
+  "status": "ok",
+  "opmerking": "KB art. 68.3: C7 motorfietsen, C9 bromfietsen, C11 rijwielen, C15 ruiters, C19 voetgangers, C22 autocars. Afbeeldingen gerenderd en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-010": {
+  "status": "ok",
+  "opmerking": "KB art. 68.3: C43 = verbod te rijden met grotere snelheid dan aangeduid, dus maximumsnelheid. Afbeelding C43_70 klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-011": {
+  "status": "ok",
+  "opmerking": "KB art. 68.3 (C43): verbod geldt vanaf het bord tot en met het volgend kruispunt, of tot een ander C43/begin of einde bebouwde kom, woonerf of voetgangerszone. Opties 1 en 2 juist; 3 en 4 fout. Ondubbelzinnig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-012": {
+  "status": "ok",
+  "opmerking": "KB art. 69.3: D1 = verplichting de door de pijl aangeduide richting te volgen; D5 verplicht rondgaand verkeer; D7 verplicht fietspad; D11 verplichte weg voor voetgangers; D13 verplichte weg voor ruiters. D1a toont pijl omhoog (rechtdoor), D1e toont gebogen pijl naar links (links afslaan): afbeelding gerenderd en klopt. De KB-tekst geeft geen aparte benaming per D1-variant; de mapping steunt op de pijlafbeelding (Bordenwijzer toont D1a tot D1f).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.verkeersbord.be/user/file/tsb_bordenwiizerposter_2021_lr.pdf"
+  ]
+ },
+ "L1-013": {
+  "status": "ok",
+  "opmerking": "KB art. 69.3: D5 = verplicht rondgaand verkeer. Antwoord klopt, afbeelding klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-014": {
+  "status": "ok",
+  "opmerking": "KB art. 9.1.2: bij D7 moeten fietsers en tweewielige bromfietsen klasse A het fietspad volgen. Klasse B enkel onder voorwaarden/onderbord (niet als optie aangeboden). Ruiters en personenwagens fout. Antwoord 1+2 klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-015": {
+  "status": "ok",
+  "opmerking": "KB art. 70.2.1: E1 = parkeerverbod (E3 = stilstaan en parkeren verboden). Stilstaan (in-/uitstappen, laden/lossen) blijft toegelaten (art. 2.22/2.23). Afbeelding E1 (enkele schuine streep) klopt. Stelling juist.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-016": {
+  "status": "ok",
+  "opmerking": "KB art. 70.2.1: E9a + symbool handicap, E9d autocars, E9h kampeerauto's, E9i motorfietsen, E9g verplicht parkeren op de rijbaan, E9e verplicht parkeren op de berm of het trottoir. Afbeeldingen gerenderd: E9e beide wielen op de berm, E9g rood kruis op de berm; klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-017": {
+  "status": "ok",
+  "opmerking": "KB art. 70.2.1 3° b): onderbord/symbool parkeerschijf bij E9a = parkeertijd beperkt en schijf moet gebruikt worden (schijf mag op E9a afgebeeld worden). Afbeelding klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-018": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F12a = begin van een woonerf of van een erf. Afbeelding klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-019": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F4a = begin zone 30 (maximaal 30 km/u). Afbeelding klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-020": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F5 begin autosnelweg, F7 einde autosnelweg, F9 autoweg, F11 einde autoweg, F8 tunnel, F95 noodstopstrook. Afbeeldingen gerenderd en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-021": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F45b = doodlopende weg, uitgezonderd voor voetgangers en fietsers. Afbeelding klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-022": {
+  "status": "ok",
+  "opmerking": "KB art. 72.5 3°: andere voertuigen mogen de busstrook gebruiken om een hindernis te omzeilen, om van richting te veranderen vlak bij een kruispunt, om te dwarsen op een kruispunt en om een eigendom of parkeerplaats langs de busstrook in of uit te rijden. Opties 1 en 2 juist; 3 en 4 fout.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-023": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F53 verplegingsinrichting, F59 aankondiging van een parking, F62 noodtelefoon, F63 tankstation, F67 restaurant, F71 kampeerterrein. Afbeeldingen gerenderd en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-024": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2/68.3/69.3: F103 begin en F105 einde voetgangerszone, D11 en D13 verplichte weg voor voetgangers en ruiters, C19 verboden voor voetgangers, D7 verplicht fietspad. Afbeeldingen kloppen (F105 is grijs met doorhaling, de normale einde-weergave).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-025": {
+  "status": "ok",
+  "opmerking": "KB art. 22sexies.1: tot voetgangerszones hebben alleen voetgangers toegang, met opgesomde uitzonderingen. Afbeelding F103 klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-026": {
+  "status": "ok",
+  "opmerking": "KB art. 65.5.1 en MB 11/10/1976 art. 6.7.1: zonale geldigheid voor verbodsborden behalve C1 (verboden richting), C31 (afslaan), C33 (keren) en C47 (tolpost), en voor stilstaan- en parkeerborden behalve E5, E7, E11. Dus enkel optie 1 en 2 juist. Kleine opmerking: uitleg mag ook E5/E7/E11 (beurtelings parkeren) als uitzondering noemen; het antwoord is correct.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.wegcode.be/nl/regelgeving/1976101105~j6siwtihko"
+  ]
+ },
+ "L1-027": {
+  "status": "ok",
+  "opmerking": "KB art. 65.2 en 68.4/69.4: M2 uitgezonderd fietsers, M3 uitgezonderd fietsers en bromfietsen klasse A, M6 bij D7 = fietspad moet gevolgd worden door klasse B, M7 = mag niet gevolgd worden door klasse B. Afbeeldingen gerenderd en kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-028": {
+  "status": "ok",
+  "opmerking": "KB art. 72.3: onderbroken streep met kortere trekken, dichter bij elkaar kondigt een doorlopende streep aan. Markering is wit (art. 72.1). Antwoord klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-029": {
+  "status": "ok",
+  "opmerking": "KB art. 75.1 2°: gele onderbroken streep op de rand van de rijbaan: parkeren op de rijbaan langs deze streep verboden (stilstaan niet). Antwoord klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-030": {
+  "status": "ok",
+  "opmerking": "KB art. 76.2: dwarsstreep van witte driehoeken: zo nodig stoppen om voorrang te verlenen ingevolge B1. Antwoord klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-031": {
+  "status": "ok",
+  "opmerking": "KB art. 24 4: stilstaan en parkeren verboden op oversteekplaatsen voor voetgangers en op de rijbaan op minder dan 5 meter ervoor. Antwoord 5 klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-032": {
+  "status": "ok",
+  "opmerking": "KB art. 11.1 en 11.2 per gewest: bebouwde kom Brussel 30, Vlaanderen en Wallonië 50; buiten bebouwde kom Vlaanderen en Brussel 70, Wallonië 90; autosnelweg 120 in elk gewest. Bevestigd door Vias/Veilig Verkeer Vlaanderen en be.brussels (30 sinds 1/1/2021).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/",
+   "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/beperkte-snelheid-iedereen-vaart-er-wel-bij"
+  ]
+ },
+ "L1-033": {
+  "status": "ok",
+  "opmerking": "Zelfde regel als L1-032: Brussel 30 en Vlaanderen/Wallonië 50 in de bebouwde kom; Wallonië 90 en Vlaanderen/Brussel 70 daarbuiten (KB art. 11.1 en 11.2).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+  ]
+ },
+ "L1-034": {
+  "status": "ok",
+  "opmerking": "KB art. 11.2 Vlaams Gewest: 70 km/u, 90 enkel met C43-bord. Vlaanderen 70 als algemene regel sinds 1/1/2017 (Autogids, Mobiliteitsbrief 172 Vlaamse overheid).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.autogids.be/autonieuws/nieuws-autosalon-brussel-2017/wat-in-2017-verandert-op-de-weg.html",
+   "https://mow.vlaanderen.be/storage/30/mobiliteitsbrief-172.pdf"
+  ]
+ },
+ "L1-035": {
+  "status": "ok",
+  "opmerking": "KB art. 2.12: bebouwde kom = gebied met bebouwing waarvan de invalswegen aangeduid zijn met F1-borden en de uitvalswegen met F3-borden. Stelling onjuist, ondubbelzinnig.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ },
+ "L1-036": {
+  "status": "ok",
+  "opmerking": "KB art. 11.1: Vlaanderen en Wallonië 50, Brussel 30. Brussel 30 als norm sinds 1/1/2021 (be.brussels).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/beperkte-snelheid-iedereen-vaart-er-wel-bij"
+  ]
+ },
+ "L1-037": {
+  "status": "ok",
+  "opmerking": "KB art. 11.1 en 11.2: alle vijf paren juist en ondubbelzinnig (Brussel 30 binnen de kom, Vlaanderen 50, Vlaanderen buiten 70, Wallonië buiten 90, autosnelweg 120 in elk gewest). Bevestigd door Veilig Verkeer.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+  ]
+ },
+ "L1-038": {
+  "status": "ok",
+  "opmerking": "KB art. 11.2 Vlaams Gewest: 120 geldt enkel op autosnelwegen en wegen met vier of meer rijstroken waarvan de rijrichtingen anders dan door wegmarkeringen gescheiden zijn; zijn ze enkel door markeringen gescheiden, dan 70 (3° a). Autogids bevestigt: 70 geldt ook op 2x2 zonder middenberm. Antwoord 70 klopt.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.autogids.be/autonieuws/nieuws-autosalon-brussel-2017/wat-in-2017-verandert-op-de-weg.html"
+  ]
+ },
+ "L1-039": {
+  "status": "ok",
+  "opmerking": "KB art. 11.2 (120 km/u op autosnelwegen) en art. 21.2 (geen lagere snelheid dan 70 km/u, tenzij C43 of omstandigheden). Opmerking: voor zware voertuigen en autobussen geldt 90 (of 100); voor een B-cursus aanvaardbaar.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+  ]
+ },
+ "L1-040": {
+  "status": "ok",
+  "opmerking": "KB art. 21.1 (toegang verboden aan voertuigen die op een horizontale weg geen 70 km/u halen), art. 21.2 (minimum 70) en art. 11.2 (120). Opties 1 en 2 juist; 3 en 4 fout. Optie 2 geldt voor personenwagens; zware voertuigen en autobussen max. 90 (eventueel 'voor personenwagens' toevoegen).",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+   "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+  ]
+ },
+ "L1-041": {
+  "status": "ok",
+  "opmerking": "KB art. 71.2: F4a/F4b begin en einde zone 30; F12a/F12b begin en einde woonerf of erf; art. 22bis 3°: in een woonerf of erf maximaal 20 km/u. Afbeeldingen kloppen.",
+  "bronnen": [
+   "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+  ]
+ }
+}

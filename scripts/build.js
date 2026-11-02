@@ -4,6 +4,7 @@
  * Geen dependencies. Gebruik:
  *   node scripts/build.js                 strikt (faalt als de curriculum-checklist niet groen is)
  *   node scripts/build.js --lenient       waarschuwt enkel
+ *   node scripts/build.js --demo-only      alleen demo-oefeningen en demo-boek (voor de QA-scripts)
  *   node scripts/build.js --demo          bouwt mee met data/_demo (impliceert --lenient, schrijft curriculum.json niet bij)
  *   node scripts/build.js --allow-unverified   neemt ook oefeningen zonder 'ok' in verificatie.json op
  */
@@ -15,7 +16,8 @@ const ROOT = path.resolve(__dirname, '..');
 const DATA = path.join(ROOT, 'data');
 const SITE = path.join(ROOT, 'site');
 const args = new Set(process.argv.slice(2));
-const DEMO = args.has('--demo');
+const DEMO_ONLY = args.has('--demo-only');
+const DEMO = args.has('--demo') || DEMO_ONLY;
 const LENIENT = args.has('--lenient') || DEMO;
 const ALLOW_UNVERIFIED = args.has('--allow-unverified');
 
@@ -192,7 +194,7 @@ for (const vf of verifFiles) {
   }
 }
 let oefRaw = [];
-for (const f of jsonFiles(path.join(DATA, 'oefeningen'))) {
+for (const f of (DEMO_ONLY ? [] : jsonFiles(path.join(DATA, 'oefeningen')))) {
   const d = readJSON(f, []);
   const arr = Array.isArray(d) ? d : (d.oefeningen || []);
   arr.forEach((o) => { o._bron = path.basename(f); oefRaw.push(o); });
@@ -264,7 +266,7 @@ function blokOrder(b) {
 }
 function lesVanBlok(b) { return b.les; }
 /* ----- het boek: met de hand geschreven in data/boek/h<N>.json (demo: data/_demo/boek) ----- */
-const boekFiles = jsonFiles(path.join(DATA, 'boek'));
+const boekFiles = DEMO_ONLY ? [] : jsonFiles(path.join(DATA, 'boek'));
 const boekDir = (DEMO && !boekFiles.length) ? path.join(DATA, '_demo', 'boek') : path.join(DATA, 'boek');
 const hoofdstukken = [];
 for (const f of jsonFiles(boekDir)) {
@@ -302,6 +304,7 @@ function valideerPagina(pg, where) {
   if (pg.intro) zin(where + ' intro', pg.intro);
   const bl = Array.isArray(pg.blokken) ? pg.blokken : [];
   if (bl.length < 3) warn(where + ' (' + (pg.titel || '?') + '): slechts ' + bl.length + ' inhoudsblok(ken); minimum is 3');
+  if (bl.filter((x) => x.type === 'kader').length > 1) warn(where + ' (' + (pg.titel || '?') + '): meer dan 1 kader op de pagina');
   bl.forEach((k, i) => {
     const w = where + ' blok ' + (i + 1) + ' (' + k.type + ')';
     if (!BLOK_TYPES.includes(k.type)) { err(w + ': onbekend type'); return; }

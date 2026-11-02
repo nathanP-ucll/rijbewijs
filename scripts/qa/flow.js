@@ -82,7 +82,7 @@ async function solve(page, art, ex, right) {
       break;
     }
     case 'bord': {
-      if (ex.modus === 'categorie') await L('.cat-opt', { hasText: new RegExp('^' + (right ? ex.categorie : (ex.categorie === 'B' ? 'C' : 'B'))) }).first().click();
+      if (ex.modus === 'categorie') { const N = { A: 'Gevaar', B: 'Voorrang', C: 'Verbod', D: 'Gebod', E: 'Parkeren', F: 'Aanwijzing' }; await L('.cat-opt', { hasText: N[right ? ex.categorie : (ex.categorie === 'B' ? 'C' : 'B')] }).first().click(); }
       else if (ex.opties) { const labs = L('label.opt'); const n = await labs.count(); for (let i = 0; i < n; i++) { const t = (await labs.nth(i).innerText()).trim(); if ((ex.antwoorden.includes(t)) === right) { await labs.nth(i).click(); break; } } }
       else await L('input.txt').fill(right ? ex.antwoorden[0] : 'nee');
       break;

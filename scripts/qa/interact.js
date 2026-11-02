@@ -80,7 +80,7 @@ async function volgordeTests(page, tag) {
   ok((await art.locator('.seq-n').allTextContents()).join() === '1,2,3,4', tag + ' volgorde: nummers kloppen');
   // slepen: haal het laatste item naar boven
   const last = art.locator('.seq-item').last(); const grip = last.locator('.seq-grip');
-  const g = await center(grip); const topB = await art.locator('.seq-item').first().boundingBox();
+  await last.scrollIntoViewIfNeeded(); await page.waitForTimeout(150); const g = await center(grip); const topB = await art.locator('.seq-item').first().boundingBox();
   await page.mouse.move(g.x, g.y); await page.mouse.down(); await page.mouse.move(g.x, g.y - 20, { steps: 3 });
   const lifted = await art.locator('.seq-item.lifted').count();
   ok(lifted === 1, tag + ' volgorde: gesleept item licht op');
@@ -88,7 +88,7 @@ async function volgordeTests(page, tag) {
   const tr = await art.locator('.seq-item.lifted').evaluate((n) => getComputedStyle(n).transform);
   ok(tr !== 'none', tag + ' volgorde: gesleept item volgt de pointer (transform ' + tr.slice(0, 30) + ')');
   await page.screenshot({ path: `${SHOTS}/qa-volgorde-${tag}-slepen.png` });
-  await page.mouse.move(g.x, topB.y + 6, { steps: 10 }); await page.mouse.up(); await page.waitForTimeout(400);
+  const lb = await art.locator('.seq').boundingBox(); for (let y = g.y - 20; y > lb.y + 6; y -= 14) await page.mouse.move(g.x, y); await page.mouse.move(g.x, lb.y + 4, { steps: 3 }); await page.mouse.up(); await page.waitForTimeout(400);
   const texts2 = await art.locator('.seq-text').allTextContents();
   ok(texts2[0] === texts1[3], tag + ' volgorde: gesleept item landt bovenaan ' + JSON.stringify([texts1, texts2]));
   ok(await art.locator('.seq-item.lifted').count() === 0 && await art.locator('.seq-item.placeholder-slot').count() === 0, tag + ' volgorde: opgeruimd na loslaten');

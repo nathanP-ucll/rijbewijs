@@ -1,0 +1,338 @@
+{
+  "L4-001": {
+    "status": "ok",
+    "opmerking": "Gewone bestuurder 0,5 g/l bloed en 0,22 mg/l adem; professionele bestuurder 0,2 g/l en 0,09 mg/l: bevestigd (wegcode.be tabel, voetnoot art. 34 par. 3 wet 16/3/1968 enkel professionele bestuurders; be.brussels 0,5 g/l en 0,22 mg/l). Paren ondubbelzinnig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed",
+      "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen"
+    ]
+  },
+  "L4-002": {
+    "status": "ok",
+    "opmerking": "0,5 g/l voor gewone bestuurders bevestigd (eerste strafbare band 0,5-0,8 g/l; be.brussels). 0,2 g/l geldt enkel voor professionele bestuurders, dus afleider terecht. Geen beginnersregel in werking.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed",
+      "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen"
+    ]
+  },
+  "L4-003": {
+    "status": "ok",
+    "opmerking": "Sinds 1/7/2026 altijd 12 uur onmiddellijk rijverbod (voorheen 2-12 uur): bevestigd door VRT en Gevaco; wegcode.be-tabel toont 12 uur in alle banden.",
+    "bronnen": [
+      "https://www.vrt.be/vrtnws/nl/2026/06/09/rijverbod-na-positieve-alcoholtest-duurt-sowieso-12-uur-vanaf-ju/",
+      "https://advocatenbureau-gevaco.be/belangrijke-wijzigingen-in-de-verkeerswetgeving-sinds-1-juli-2026/",
+      "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed"
+    ]
+  },
+  "L4-004": {
+    "status": "fout",
+    "opmerking": "Stelling (BOB heeft geen eigen grenzen) klopt: BOB is een Vias-sensibiliseringscampagne zonder wettelijk statuut. MAAR motivatie en uitleg zeggen \"voor iedereen gelden dezelfde grenzen\" en dat is onjuist: professionele bestuurders hebben 0,2 g/l (zie L4-001). Fix: herformuleer naar \"voor een BOB gelden dezelfde grenzen als voor andere bestuurders van zijn categorie (gewoon: 0,5 g/l)\" of \"een BOB heeft geen eigen, hogere grens\".",
+    "bronnen": [
+      "https://www.vias.be/nl/bedrijven-en-overheden/campagnes/bob-campagne/",
+      "https://www.wegcode.be/nl/verkeersovertredingen/rijden-onder-invloed"
+    ]
+  },
+  "L4-005": {
+    "status": "ok",
+    "opmerking": "Nov. 2026: beginners hebben nog dezelfde grens (0,5 g/l); de 0,2 promille voor <3 jaar rijbewijs is door minister Crucke en Vias aangekondigd voor 2027, nog geen wet (VRT 6/10/2026, Brussels Times). Let op: foutemotivatie \"zelfde grens als professionele bestuurders (0,2 g/l)\" wordt in 2027 mogelijk waar; bij herziening na invoering bijwerken.",
+    "bronnen": [
+      "https://www.vrt.be/vrtnws/nl/2026/10/06/federale-regering-voert-in-2027-nultolerantie-in-voor-beginnende/",
+      "https://www.brusselstimes.com/2348359/belgium-to-introduce-a-near-zero-alcohol-tolerance-for-new-drivers-in-2027",
+      "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen"
+    ]
+  },
+  "L4-006": {
+    "status": "ok",
+    "opmerking": "Alcoholslot: motor start pas na blaastest (<0,09 mg/l); opgelegd door de rechter na veroordeling (mobilit.belgium.be).",
+    "bronnen": [
+      "https://mobilit.belgium.be/nl/weg/rijden/wegcode-verkeersregels-en-sancties/sancties/rijden-onder-invloed-en-veroordeling-tot-een"
+    ]
+  },
+  "L4-007": {
+    "status": "ok",
+    "opmerking": "Drie opeenvolgende fasen in Belgie: checklist uiterlijke tekenen (>=3 tekenen), speekseltest, speekselanalyse in erkend labo (Vias briefing; VRT 2024 bevestigt dat de checklist eerst komt). Nuance: na een ongeval wordt de checklist overgeslagen; de vraag zegt algemeen \"de drie stappen\", aanvaardbaar.",
+    "bronnen": [
+      "https://www.vias.be/publications/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs.pdf",
+      "https://www.vrt.be/vrtnws/nl/2024/06/24/politie-gaat-sneller-drugstests-uitvoeren-in-verkeer/"
+    ]
+  },
+  "L4-008": {
+    "status": "ok",
+    "opmerking": "Juist: nultolerantie voor illegale drugs (Vias, be.brussels); cannabis verdubbelt ongevalsrisico (Vias briefing). Onjuist: toegelaten hoeveelheid, en speekseltest dekt niet alle drugs (be.brussels noemt THC, amfetamine, cocaine, MDMA, opiaten; VRT jan. 2026: ketamine niet op te sporen). Lichte nuance: nultolerantie geldt wettelijk voor bepaalde stoffen, de rest via gedragsregel; voor een basiscursus aanvaardbaar.",
+    "bronnen": [
+      "https://www.vias.be/publications/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs.pdf",
+      "https://be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/vermijd-alcohol-drugs-en-medicijnen",
+      "https://www.vrt.be/vrtnws/nl/2026/01/17/ketamine-verkeer-speekseltest/"
+    ]
+  },
+  "L4-009": {
+    "status": "ok",
+    "opmerking": "KB art. 8.4: geen mobiel apparaat met scherm gebruiken/vasthouden, behalve in een daartoe bestemde houder aan het voertuig (of stilstaand/geparkeerd). Antwoord \"in een houder\" correct; \"Nooit\" fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-010": {
+    "status": "ok",
+    "opmerking": "50 km/u = 13,89 m/s x 2 s = 27,8 m, dus ca. 28 m: rekenkundig juist. Suggestie: voeg \"28 meter\", \"27,8\", \"27,8 m\", \"ongeveer 28\" toe aan de geaccepteerde antwoorden (nu enkel \"28\", \"28 m\", \"28m\").",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos"
+    ]
+  },
+  "L4-011": {
+    "status": "ok",
+    "opmerking": "Vias: stop op een rustige, veilige plek en doe een dutje van maximaal 20 minuten (eventueel koffie vooraf), pauze na max. 2 uur. Raam open/radio luider/doorrijden zijn niet de aanbevolen oplossing.",
+    "bronnen": [
+      "https://www.vias.be/nl/newsroom/6-op-de-10-belgen-vertrekt-s-nachts-als-ze-met-de-auto-op-reis-gaan/"
+    ]
+  },
+  "L4-012": {
+    "status": "ok",
+    "opmerking": "Vias-briefing geneesmiddelen: voor geneesmiddelen geen per-se-limiet maar een gedragsregel; arts/apotheker en bijsluiter zijn de adviezen; combinatie met alcohol versterkt het risico. Antwoorden 1 en 2 correct, 3 en 4 fout.",
+    "bronnen": [
+      "https://www.vias.be/publications/Briefing%20-%20conduite%20sous%20l'influence%20de%20m%C3%A9dicaments/Briefing_Rijden_onder_invloed_van_geneesmiddelen.pdf"
+    ]
+  },
+  "L4-013": {
+    "status": "twijfel",
+    "opmerking": "Achteruit rijden en taxichauffeur met klant zijn vrijgesteld (art. 35.2.1 KB). De vrijstelling om medische redenen geldt echter enkel met een officieel vrijstellingsbewijs van de minister (niet zomaar een \"medisch attest\" van een arts). Optie \"Een persoon met een medisch attest\" is daardoor vatbaar voor discussie. Fix: \"Een persoon met een officiele medische vrijstelling\".",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-014": {
+    "status": "ok",
+    "opmerking": "Kinderbeveiligingssysteem verplicht voor kinderen <18 jaar EN <135 cm; 138 cm = gewone gordel (art. 35.1.1 KB; wegcode.be tabel; be.brussels).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/hoe-moet-ik-mijn-kind-vervoeren",
+      "https://www.be.brussels/nl/transport-mobiliteit/verkeersveiligheid/veiligheidstips/een-kind-veilig-vervoeren"
+    ]
+  },
+  "L4-015": {
+    "status": "ok",
+    "opmerking": "Art. 35.1.2 tweede lid: uitzondering incidenteel vervoer korte afstand, kinderen >=3 jaar en <135 cm achterin met gordel, \"Dit geldt niet met betrekking tot kinderen waarvan een ouder het voertuig bestuurt\". Stelling onjuist is correct. Kleine suggestie: uitleg \"de bestuurder is geen ouder van de kinderen\".",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-016": {
+    "status": "ok",
+    "opmerking": "Art. 45.1 KB: lading mag zicht niet hinderen, stabiliteit niet in het gedrang brengen, lichten/reflectoren/inschrijvingsnummer niet onzichtbaar maken en niet op de weg slepen of vallen. Opties 1-3 juist, 4-5 fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-017": {
+    "status": "ok",
+    "opmerking": "Art. 30 KB: lichten tussen avond en dageraad en bij zicht onder ongeveer 200 m. Letterlijk bevestigd.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-018": {
+    "status": "ok",
+    "opmerking": "Dagrijlicht brandt enkel vooraan (vlaanderen.be keuring: \"Dagrijlicht (alleen vooraan)\"); achterlichten zijn vereist tussen avond en dageraad en bij slecht zicht (art. 30 KB). Gevaar correct beschreven.",
+    "bronnen": [
+      "https://www.vlaanderen.be/technische-keuring-van-voertuigen/onderdelen-gecontroleerd-tijdens-de-technische-keuring/technische-keuring-lichten",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-019": {
+    "status": "ok",
+    "opmerking": "Art. 30.1.1 KB: grootlicht dimmen bij tegenligger, bij volgen op <50 m (behalve bij inhalen) en wanneer de rijbaan voldoende verlicht is (zicht ca. 100 m). Alle vier rijen correct.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-020": {
+    "status": "ok",
+    "opmerking": "Art. 30.1.1 a): grootlicht dimmen zodra een bestuurder snel zijn grootlicht ontsteekt en dooft om aan te geven dat hij verblind wordt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-021": {
+    "status": "ok",
+    "opmerking": "Art. 30.1: voormistlichten enkel bij mist, sneeuwval of felle regen; achtermistlichten verplicht (indien aanwezig) bij mist/sneeuwval met zicht <100 m of felle regen en \"in geen andere omstandigheden\". Drie paren juist en ondubbelzinnig. Opmerking: bij felle regen is het achtermistlicht ook verplicht; paar 2 vermeldt dat niet maar is niet fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-022": {
+    "status": "ok",
+    "opmerking": "Art. 30.1.2: achtermistlichten moeten gebruikt worden bij mist of sneeuwval met zicht <100 m. Overige opties duidelijk fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-023": {
+    "status": "ok",
+    "opmerking": "Art. 31.1.1.3 KB: binnen de bebouwde kom mogen standlichten en rode achterlichten vervangen worden door een parkeerlicht als het voertuig evenwijdig met de aslijn van de rijbaan staat en er geen aanhangwagen gekoppeld is; enkel het parkeerlicht aan de kant van de aslijn. Cloze juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-024": {
+    "status": "ok",
+    "opmerking": "Alcohol, vermoeidheid, afleiding en bepaalde geneesmiddelen/drugs verlengen de reactietijd (Vias-briefings); snelheid wijzigt de reactieafstand, niet de reactietijd; droog wegdek is irrelevant voor reactietijd.",
+    "bronnen": [
+      "https://www.vias.be/publications/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs/Briefing%20-%20Rijden%20onder%20invloed%20van%20drugs.pdf",
+      "https://www.vias.be/publications/Briefing%20-%20conduite%20sous%20l'influence%20de%20m%C3%A9dicaments/Briefing_Rijden_onder_invloed_van_geneesmiddelen.pdf",
+      "https://www.vias.be/nl/newsroom/6-op-de-10-belgen-vertrekt-s-nachts-als-ze-met-de-auto-op-reis-gaan/",
+      "https://webwoordenboek.nl/kenniscentrum/wat-is-het-verschil-tussen-de-stopafstand-en-de-remweg"
+    ]
+  },
+  "L4-025": {
+    "status": "ok",
+    "opmerking": "Reactietijd is onafhankelijk van snelheid; reactieafstand groeit lineair met snelheid. Stelling onjuist is correct. (Belgische politie.be-pagina onbereikbaar; bevestigd via algemene bronnen webwoordenboek/SWOV.)",
+    "bronnen": [
+      "https://webwoordenboek.nl/kenniscentrum/wat-is-het-verschil-tussen-de-stopafstand-en-de-remweg",
+      "https://swov.nl/en/publicatie/verdubbel-de-snelheid-halveer-de-afstand"
+    ]
+  },
+  "L4-026": {
+    "status": "ok",
+    "opmerking": "Remafstand groeit met het kwadraat van de snelheid: 2x snelheid = ca. 4x remafstand. Fysisch correct; politie.be-bron gaf 403/onderhoud, bevestigd via andere bron (webwoordenboek, SWOV). Voorbeeldcijfers veiligverkeer.be (stopafstand 27 m bij 50 km/u, 67 m bij 90 km/u) consistent met niet-lineair verband.",
+    "bronnen": [
+      "https://webwoordenboek.nl/kenniscentrum/wat-is-het-verschil-tussen-de-stopafstand-en-de-remweg",
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos"
+    ]
+  },
+  "L4-027": {
+    "status": "ok",
+    "opmerking": "Tweeseconderegel: 2 s droog, 3 s nat (veiligverkeer.be; VRT 8/12/2025). Het is een adviesregel; wettelijk verplicht pas vanaf juni 2027 op wegen >50 km/u (VRT). De oefening stelt het correct als vuistregel (\"volgens de tweeseconderegel\"); niet herformuleren als huidige wettelijke plicht.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos",
+      "https://www.vrt.be/vrtnws/nl/2025/12/08/hoe-hou-je-afstand-op-de-weg/"
+    ]
+  },
+  "L4-028": {
+    "status": "ok",
+    "opmerking": "Volgorde komt overeen met de uitleg van veiligverkeer.be en VRT: vast punt kiezen, wachten tot voorligger er voorbij is, tellen, vergelijken met 2 s (te vroeg = te dicht). Echte logische volgorde.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos",
+      "https://www.vrt.be/vrtnws/nl/2025/12/08/hoe-hou-je-afstand-op-de-weg/"
+    ]
+  },
+  "L4-029": {
+    "status": "twijfel",
+    "opmerking": "Snelheid aanpassen en 3 s afstand bij nat wegdek juist (veiligverkeer.be, VRT). Maar de optie \"Je gebruikt cruise control\" als fout bestempelen is discutabel: Vias adviseert cruise control niet te gebruiken \"bij gladde wegen\", niet algemeen bij regen. Fix: optie vervangen door een duidelijk foute (bv. \"Je rijdt even snel als op een droge weg\") of vraag herformuleren naar \"gladde weg\".",
+    "bronnen": [
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/hoeveel-afstand-houden-tussen-autos",
+      "https://www.vrt.be/vrtnws/nl/2025/12/08/hoe-hou-je-afstand-op-de-weg/",
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-030": {
+    "status": "ok",
+    "opmerking": "Art. 30.1.2: achtermistlichten \"mogen in geen andere omstandigheden gebruikt worden\"; blijven branden bij beter zicht verblindt achterliggers.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-031": {
+    "status": "ok",
+    "opmerking": "Vias: \"Voor je vertrekt is het belangrijk om je hele voorruit te ontdooien\"; een kijkgaatje volstaat niet en kan een boete opleveren.",
+    "bronnen": [
+      "https://www.vias.be/nl/newsroom/10-goede-reflexen-voor-bestuurders-in-de-winter/"
+    ]
+  },
+  "L4-032": {
+    "status": "ok",
+    "opmerking": "Volgorde komt overeen met Touring (kalm blijven, beveiligen, mensen in veiligheid, 112 bellen, eerste hulp, ter plaatse blijven) en past bij de Rode Kruis-vierstappen (veiligheid, beoordelen, 112, verdere hulp) en art. 52.3 KB (ter plaatse blijven). Opmerking: Rode Kruis zet \"beoordeel toestand slachtoffer\" voor het alarmeren; dat item ontbreekt in de lijst, geen conflict.",
+    "bronnen": [
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen",
+      "https://www.rodekruis.be/storage/main/2021-124-affiche-vier-stappen-in-eerste-hulp-a2-v3.pdf",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-033": {
+    "status": "twijfel",
+    "opmerking": "Feit juist: gevarendriehoek minstens 100 m op autosnelwegen, 30 m op gewone wegen (art. 51.2 KB). Afbeelding (SVG gerenderd en bekeken) toont schaalvast beide afstanden, MAAR bevat de labels \"Autosnelweg: minstens 100 m\" en \"100 m\" en verklapt dus het antwoord op de vraag. Fix: afbeelding niet bij de vraag tonen (enkel in uitleg/feedback) of neutrale versie zonder cijfers. Opmerking: de nieuwe Code (1/6/2027) maakt de driehoek minder vaak verplicht; tot dan geldt het KB.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-034": {
+    "status": "ok",
+    "opmerking": "Art. 51.4 KB: op autosnelwegen/autowegen moet de bestuurder van een pechvoertuig een retroreflecterend veiligheidsvest dragen zodra hij zijn voertuig verlaat; Europ Assistance/Redion: \"Trek uw fluohesje aan vooraleer u uw voertuig verlaat\". Antwoord \"voor je uitstapt\" correct.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.redion.be/nl/blog/pechstrook-is-geen-inhaalstrook"
+    ]
+  },
+  "L4-035": {
+    "status": "twijfel",
+    "opmerking": "112 (ambulance/brandweer, Europees) en 101 (politie) juist (vlaanderen.be, securitecivile.be); 100 komt bij dezelfde centrale als 112. Maar 100 is historisch zelf het nummer voor ambulance/brandweer, waardoor paren 1 en 3 verwisselbaar zijn (\"ambulance en brandweer\" past ook bij 100). Verzameling dus niet strikt ondubbelzinnig. Fix: derde paar vervangen door bv. 070 245 245 = Antigifcentrum (staat in de Rode Kruis-cursus), of 100 laten vallen.",
+    "bronnen": [
+      "https://www.vlaanderen.be/noodoproepen",
+      "https://securitecivile.be/en/what-do-emergency-centres-112-do",
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf"
+    ]
+  },
+  "L4-036": {
+    "status": "ok",
+    "opmerking": "vlaanderen.be: operator vraagt exacte locatie, wat er gebeurd is, of er gewonden zijn en wie je bent; niet inhaken. Touring: ook aantal voertuigen en slachtoffers/toestand. Opties 1-3 juist, 4 fout.",
+    "bronnen": [
+      "https://www.vlaanderen.be/noodoproepen",
+      "https://www.touring.be/nl/artikels/ongeval-wat-te-doen"
+    ]
+  },
+  "L4-037": {
+    "status": "fout",
+    "opmerking": "\"ABC = bewustzijn, luchtweg, ademhaling\" klopt niet: ABC staat gangbaar voor Airway-Breathing-Circulation, en de gebruikte volgorde levert geen A-B-C op. Het Rode Kruis (vierstappenaffiche, cursus) gebruikt de term ABC niet maar zegt in stap 2: \"controleer het bewustzijn, open de luchtweg, controleer de ademhaling\". De ademhalingscontrole \"kijken, luisteren, voelen, maximaal 10 seconden\" is wel juist. Fix: schrap \"ABC\" uit vraag en uitleg; herformuleer \"Bij het beoordelen van het slachtoffer controleer je het bewustzijn, open je de {{1}} en controleer je de ademhaling door te kijken, te luisteren en te {{2}}.\" (Ook in data/theorie/ongeval.json de \"ABC\"-bullet corrigeren.)",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2021-124-affiche-vier-stappen-in-eerste-hulp-a2-v3.pdf",
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf"
+    ]
+  },
+  "L4-038": {
+    "status": "ok",
+    "opmerking": "Rode Kruis: bewusteloos + normale ademhaling = stabiele zijligging, behalve bij vermoeden van wervelletsel; geen normale ademhaling = alarmeren en reanimatie starten (30:2). Stelling \"elk bewusteloos slachtoffer\" is dus onjuist.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-2-3-stappen-in-eh-1.pdf",
+      "https://www.rodekruis.be/storage/main/2026-affiche-reanimeren-en-defibrilleren.pdf"
+    ]
+  },
+  "L4-039": {
+    "status": "ok",
+    "opmerking": "Rode Kruis-affiche reanimeren en defibrilleren (mei 2026): AED activeren en aanwijzingen volgen, 2 elektroden op ontblote borstkas, niemand raakt het slachtoffer aan tijdens analyse/schok; AED wordt meteen gehaald, niet pas na de ambulance.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2026-affiche-reanimeren-en-defibrilleren.pdf"
+    ]
+  },
+  "L4-040": {
+    "status": "twijfel",
+    "opmerking": "Koelen met stromend water (20 min volgens affiche 2026) en afdekken met gepast verbandmateriaal juist; blaren niet openprikken (Rode Kruis cursus). Voor \"ijs\" en \"zalf\" vond ik in de geraadpleegde Rode Kruis-bronnen geen expliciete verwerping; de cursus noemt bij kleine eerstegraadsbrandwonden zelfs een \"vochtinbrengend product\", wat bij \"zalf smeren\" tot discussie kan leiden. Fix: optie \"zalf\" preciseren (bv. \"Boter of olie erop smeren\") of een expliciete bron toevoegen.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2026-affiche-eh-bij-brandwonden.pdf",
+      "https://www.rodekruis.be/storage/local/tervuren/eerste-hulp-les-8-brandwonden-1.pdf"
+    ]
+  },
+  "L4-041": {
+    "status": "ok",
+    "opmerking": "Rode Kruis affiche bloedingen: handschoenen aan, slachtoffer neerliggen, 112, drukverband/propere doek en druk blijven uitoefenen tot de hulpdiensten er zijn.",
+    "bronnen": [
+      "https://www.rodekruis.be/storage/main/2021-124-affiche-eh-bij-bloedingen-a2-v3.pdf"
+    ]
+  },
+  "L4-042": {
+    "status": "ok",
+    "opmerking": "Art. 52.3 KB (ongeval met lichamelijk letsel): wie zich tijdelijk verwijdert om hulp te halen schendt de plicht tot ter plaatse blijven niet, na naam en adres aan een aanwezige te hebben opgegeven. Opties 1/3/4 fout. Kleine nuance: de uitzondering staat in lid 52.3 (letsel); de vraag impliceert dit met \"hulp halen\".",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L4-043": {
+    "status": "ok",
+    "opmerking": "Art. 81.2 KB: in elke auto een gevarendriehoek, een of twee blustoestellen, een verbandkist/-etui. Winterbanden zijn niet verplicht; het aanrijdingsformulier evenmin (Assuralia). Opmerking: vanaf 1/6/2027 verandert het gebruik van de driehoek in de nieuwe Code; nu nog juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.assuralia.be/nl/faq/mobiliteit/ik-hoor-zeggen-dat-het-gebruik-van-het-aanrijdingsformulier-niet-verplicht-is-en-dat"
+    ]
+  }
+}

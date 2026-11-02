@@ -1,0 +1,338 @@
+{
+  "L2-001": {
+    "status": "twijfel",
+    "opmerking": "Art. 6.1-6.2 KB 1975 geven alleen: bevelen van bevoegde personen > verkeerstekens > verkeersregels. Verkeerslichten en verkeersborden zijn beide verkeerstekens en staan wettelijk op hetzelfde niveau; enkel art. 6.3 zegt dat werkende lichten gaan boven voorrangsborden op dezelfde weg (met uitzonderingen: knipperoranje, rijstrooklichten, B22/B23). Een vaste volgorde lichten > borden is dus niet algemeen wettelijk. Voorstel: 3 items (bevoegde persoon > verkeerstekens (lichten, borden, markeringen) > algemene verkeersregels), of de vraag herformuleren naar \"werkende lichten gaan boven voorrangsborden\".",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-002": {
+    "status": "ok",
+    "opmerking": "Afbeelding gerenderd en gecontroleerd: auto 2 (van rechts) heeft niemand rechts, auto 1 heeft auto 2 rechts, auto 3 heeft auto 1 rechts. Art. 12.3.1 KB 1975. Opmerking: auto 2 en 3 rijden in tegengestelde richting zonder onderling conflict, maar de voorrangsketen 2-1-3 is de klassieke leerstof en juist (3 moet voor 1 wijken).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-003": {
+    "status": "ok",
+    "opmerking": "Art. 12.3.1: geen voorrang van rechts als de bestuurder die moet wijken op een rotonde rijdt, of als die van rechts uit een verboden rijrichting komt; fietsers zijn bestuurders en vallen wel onder de regel. Opties 3 en 4 zijn fout. Antwoordset [0,1] klopt.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-004": {
+    "status": "fout",
+    "opmerking": "Het antwoord (auto 1 verleent voorrang aan voetganger, fietser en verkeer op de rijbaan; art. 12.4 en 12.4bis, 19.4/19.5) klopt, maar de AFBEELDING klopt niet met de labels: in schema-uitrit-parkeerplaats-oefening.svg ligt het fietspad (rood) op y=370-408 en het trottoir (grijs) op y=408-452, terwijl de fietser (nr 3, y=420) op het trottoir getekend staat en de voetganger (nr 2, y=468) op de oprit onder het trottoir. Bovendien rijdt de fietser (pijl naar links) tegen de rijrichting van de rijbaan in op een rechts gelegen fietspad. Fix: fietser op het fietspad (y~389) met pijl naar rechts (zelfde richting als auto 4), voetganger op het trottoir (y~430), voertuigcoordinaten in de oefening aanpassen en de labels fietspad/trottoir recht op de stroken zetten.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-005": {
+    "status": "ok",
+    "opmerking": "Art. 12.3.1 b): wie uit een aardeweg of pad een openbare weg met rijbaan oprijdt, verleent voorrang aan iedere bestuurder op die weg, ook van links. Afbeelding gecontroleerd (bruine aardeweg die op verharde weg uitkomt, auto 2 van links).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-006": {
+    "status": "ok",
+    "opmerking": "Art. 22bis KB 1975: in woonerf en erf maximaal 20 km/u. Geldt in het huidige KB tot 1/6/2027.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-007": {
+    "status": "ok",
+    "opmerking": "Art. 12.1: elke weggebruiker verleent voorrang aan spoorvoertuigen. Afbeelding gecontroleerd: tram op eigen sporen van links, geen lichten of borden.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-008": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd: B1 omgekeerde driehoek, B5 STOP, B3 driehoek met 150m, B7 driehoek met STOP 150m; betekenissen volgens art. 67.3 (B1 voorrang verlenen, B3 kondigt B1 aan, B5 stoppen en voorrang verlenen, B7 kondigt B5 aan) en art. 12.3.1. Paren eenduidig.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-009": {
+    "status": "ok",
+    "opmerking": "Afbeelding gecontroleerd: STOP aan de kant van auto 3, voorrangsbord (B1) aan de kant van auto 2, auto 1 zonder bord. Art. 12.3.1 + art. 6.2 (tekens gaan boven regels): auto 2 en 3 verlenen voorrang aan het verkeer op de weg die ze oprijden, dus auto 1 (ook al komt auto 2 van rechts). Juist.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-010": {
+    "status": "ok",
+    "opmerking": "B11 gerenderd (ruit met zwarte balk, oranje): einde voorrangsweg volgens art. 67.3. De andere opties horen bij andere borden. Uitleg correct.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-011": {
+    "status": "ok",
+    "opmerking": "Afbeelding gecontroleerd (T-kruispunt zonder borden). Voorrang van rechts: auto 2 eerst, dan auto 1 (heeft auto 2 rechts), dan auto 3 (heeft auto 1 rechts). Art. 12.3.1; 12.3.2 is opgeheven, dus geen aparte regel voor de doorlopende weg.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-012": {
+    "status": "ok",
+    "opmerking": "Afbeelding gecontroleerd: voorrangsbord (B1) rechts van auto 1 op de zijstraat. Art. 12.3.1 a): auto 1 verleent voorrang aan het verkeer op de doorlopende weg.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-013": {
+    "status": "ok",
+    "opmerking": "Afbeelding gecontroleerd: rotonde met D5 en B1 op alle toegangen, auto 1 rijdt op de rotonde (tegen de klok in), auto 2 rijdt op. Art. 12.3.1 + 2.39: wie op een rotonde rijdt, heeft voorrang op wie oprijdt.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-014": {
+    "status": "ok",
+    "opmerking": "Art. 2.39 KB 1975: een rotonde is een weg met eenrichtingsverkeer rond een middeneiland, aangeduid met D5 en met B1/B5 op de toegangswegen. Enkel optie 2 past. Geldt tot 1/6/2027.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-015": {
+    "status": "twijfel",
+    "opmerking": "Optie \"Fietsers die de afrit kruisen\" is niet algemeen waar. Volgens Vias (veiligverkeer.be, rotondes) hebben fietsers op een DOORLOPEND fietspad voorrang op automobilisten die de rotonde verlaten, maar fietsers op een fietspad rondom de rotonde met haaientanden/voorrangsbord moeten voorrang verlenen aan wie de rotonde verlaat. Voetgangers: art. 19.5 (voorrang aan voetgangers die de rijbaan oversteken die je oprijdt) klopt wel. Voorstel: optie herformuleren naar \"Fietsers op een doorlopend fietspad dat de afrit kruist\" of de vraag beperken tot voetgangers en deze optie schrappen.",
+    "bronnen": [
+      "https://www.veiligverkeer.be/weggebruikers/fietsers/verkeersregels-voorrang-fietsers/rotondes/",
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782"
+    ]
+  },
+  "L2-016": {
+    "status": "ok",
+    "opmerking": "Art. 19.3.3 KB 1975: wie links afslaat verleent voorrang aan tegenliggers. Afbeelding gecontroleerd: auto 1 slaat links af, auto 2 komt tegemoet en rijdt rechtdoor.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-017": {
+    "status": "ok",
+    "opmerking": "Art. 2.44: middenberm = aanleg in de lengterichting die rijbanen scheidt, geen wegmarkering. Cloze en afleiders (zebrapad, fietspad) kloppen.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-018": {
+    "status": "ok",
+    "opmerking": "Art. 37.2-37.3 KB 1975: het speciale geluidstoestel mag enkel gebruikt worden bij een dringende opdracht.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-019": {
+    "status": "ok",
+    "opmerking": "Art. 38 KB 1975: bij het geluidssignaal van een voorrangsvoertuig moet elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen, zo nodig stoppen; ook wie zelf voorrang heeft.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-020": {
+    "status": "ok",
+    "opmerking": "Alle paren kloppen: art. 37-38 (blauw licht + sirene), art. 32.2-32.3 (oranje lichten takelwagen: geen voorrang), art. 39 (bus in bebouwde kom met richtingaanwijzers: vertragen en zo nodig stoppen), art. 12.1 (spoorvoertuigen). Verzameling eenduidig.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-021": {
+    "status": "ok",
+    "opmerking": "Art. 61.2 KB 1975: rood boven, oranjegeel midden, groen onder.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-022": {
+    "status": "ok",
+    "opmerking": "Art. 61.1.2: bij oranjegeel mag je enkel voorbij het licht als je zo dicht bent genaderd dat je niet meer veilig kunt stoppen. Antwoorden \"stoppen\"/\"stilstaan\" aanvaard.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-023": {
+    "status": "ok",
+    "opmerking": "Art. 61.4: cirkelvormige driekleurige lichten staan rechts van de rijbaan en mogen links of boven herhaald worden.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-024": {
+    "status": "ok",
+    "opmerking": "Art. 64: knipperend oranjegeel mag met dubbele voorzichtigheid voorbijgereden worden; de voorrangsregeling blijft (art. 6.3 sluit knipperoranje uit van het lichten-gaan-voor-borden principe).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-025": {
+    "status": "ok",
+    "opmerking": "Art. 61.1.5: groene pijl bij rood of oranjegeel: enkel in de aangeduide richting verder, met voorrang voor wie regelmatig uit andere richtingen komt en voor voetgangers.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-026": {
+    "status": "ok",
+    "opmerking": "B22 gerenderd met pijl naar rechts, B23 met pijl omhoog; art. 67.3: B22 fietsers rechtsaf bij rood/oranjegeel, B23 rechtdoor, telkens met voorrang voor anderen. Uitleg (fietsers en speed pedelecs) conform de bron.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-027": {
+    "status": "ok",
+    "opmerking": "Art. 77.6: opstelvak afgebakend door twee stopstrepen, enkel voor fietsers/bromfietsers tijdens de rode fase; andere bestuurders stoppen voor de eerste stopstreep. SVG gerenderd: zone-coordinaten (x/y = linksboven) vallen op het vak tussen de stopstrepen; afleiderzone op de auto. Opmerking: de bron spreekt van opstelvlak aansluitend op een fietspad; afbeelding toont geen fietspad (geen fout).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-028": {
+    "status": "twijfel",
+    "opmerking": "Geen expliciete bepaling over regelmatig begonnen voetgangers laten uitlopen teruggevonden in het KB 1975 (art. 61-63 en 14); alleen art. 19.5 (afslaan: voorrang aan voetgangers die de rijbaan oversteken die je oprijdt) en art. 40.2 (dubbele voorzichtigheid). Het antwoord is veiligheidshalve het enige verdedigbare, maar de vraag is vaag (rechtdoor of afslaan?). Voorstel: situatie preciseren (je slaat af bij groen en voetgangers steken de zijstraat over: je verleent voorrang, art. 19.5) en de uitleg daarop baseren.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-029": {
+    "status": "ok",
+    "opmerking": "Art. 62bis (lichten boven rijstroken): rood kruis = verboden richting, groene pijl naar beneden = toegelaten, oranje schuine pijl = verboden behalve om de strook te verlaten in de aangeduide richting. Paren kloppen.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-030": {
+    "status": "ok",
+    "opmerking": "Art. 14.2 KB 1975: ook bij groen mag een bestuurder een kruispunt niet oprijden als hij waarschijnlijk op het kruispunt zou moeten stoppen en zo het dwarsverkeer hindert.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-031": {
+    "status": "ok",
+    "opmerking": "Art. 3 KB 1975: bevoegde personen o.a. politiepersoneel (1), wegeninspecteurs (4) en douanepersoneel bij de uitoefening van hun dienst (7). Een voorbijganger is het niet. Antwoordset [0,1,2] klopt.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-032": {
+    "status": "ok",
+    "opmerking": "Art. 4.2 KB 1975: arm rechtop = alle weggebruikers stoppen (wie al op het kruispunt is maakt het vrij); armen horizontaal = stoppen voor wie uit de richting komt die de armen snijdt; rood licht zwaaien = stoppen voor wie het licht tegemoet ziet. Formuleringen conform.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-033": {
+    "status": "ok",
+    "opmerking": "Art. 41.3.1 KB 1975: aanwijzingen van signaalgevers (wielerwedstrijden/evenementen), wegkapiteins (groepen fietsers/motorrijders) en werfopzichters (wegenwerken) moeten gevolgd worden; een willekeurige voorbijganger heeft geen gezag. Opmerking: dit zijn aanwijzingen (art. 41), geen bevelen van bevoegde personen (art. 3-4).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-034": {
+    "status": "ok",
+    "opmerking": "Art. 6.1 en 4.1 KB 1975: bevelen van bevoegde personen gaan boven verkeerstekens (lichten) en regels; onmiddellijk opvolgen.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-035": {
+    "status": "ok",
+    "opmerking": "Art. 7bis KB 1975: gebruikers van gemotoriseerde voortbewegingstoestellen (max. 25 km/u, o.a. elektrische step) worden gelijkgesteld met fietsers.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-036": {
+    "status": "ok",
+    "opmerking": "Art. 42.1 KB 1975: op de rijbaan zo dicht mogelijk bij de rand, links in de looprichting, of rechts als de veiligheid dat vereist. Optie 2 correct, uitleg consistent.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-037": {
+    "status": "ok",
+    "opmerking": "Art. 42.4.1: ligt een oversteekplaats voor voetgangers op minder dan ongeveer 20 meter, dan moeten voetgangers die gebruiken. Antwoord 20 klopt.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-038": {
+    "status": "ok",
+    "opmerking": "Art. 24 (stilstaan/parkeren verboden op oversteekplaatsen en op de rijbaan minder dan 5 m ervoor) en art. 17.2.5 (inhalen verboden van een bestuurder die stopt voor een oversteekplaats voor voetgangers waar het verkeer niet geregeld is). Optie 4 (stoppen om voor te laten) is toegelaten. Antwoordset [0,1,2] klopt. Opmerking: het inhaalverbod geldt niet bij geregeld verkeer (agent/lichten); de vraag zegt niet altijd, dus aanvaardbaar.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-039": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd: F49 voetganger op zebrapad, F50 fietser, A21 rode driehoek met voetganger. Art. 66.4: A21 oversteekplaats voor voetgangers (waarschuwing); F49/F50 aanwijzingsborden voor oversteekplaatsen voor voetgangers resp. fietsers en tweewielige bromfietsen. Paren eenduidig.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-040": {
+    "status": "ok",
+    "opmerking": "Afbeelding gecontroleerd: auto slaat rechts af, voetganger steekt de zijstraat over, fietser rijdt rechtdoor op het fietspad naast de rijbaan (coordinaten kloppen met de figuren). Art. 19.4-19.5 en 12.4bis: wie afslaat verleent voorrang aan voetgangers en aan fietsers op het fietspad. Klikbaar antwoord = auto (1).",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-041": {
+    "status": "ok",
+    "opmerking": "Art. 40.2 KB 1975: dubbel voorzichtig t.o.v. o.a. blinden met witte of gele stok; zo nodig vertragen en stoppen.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L2-042": {
+    "status": "ok",
+    "opmerking": "Art. 40.7: minstens 1 m (buiten bebouwde kom 1,5 m) zijdelingse afstand tot een voetganger op de rijbaan; kan dat niet, dan enkel stapvoets rijden en zo nodig stoppen.",
+    "bronnen": [
+      "https://codex.opendata.api.vlaanderen.be/api/WetgevingDocument/1023782",
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  }
+}
