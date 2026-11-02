@@ -19,3 +19,9 @@ Elke les is een echt "boek" met pagina's, geen lange scrollpagina:
 - Onderaan een kleine, zwevende (floating) balk: vorige / "pagina X van Y" / volgende, een inhoud-knop (opent een compact paneel/dropdown om naar een punt te springen) en een dropdown om naar een andere les (Les 1-4, examen) te wisselen.
 - Veel simpelere interface, weinig chrome, grote duidelijke knoppen.
 - MINDER TEKST: per pagina één onderwerp, grote opsommingen, korte woorden/zinnen, grote bordafbeeldingen, kaders kort (max ~1 zin). Lange uitleg alleen achter een "Meer uitleg"-knop. Geen overflow aan blokken/kaders per pagina; oefeningen op eigen (volgende) pagina in plaats van gepropt onder de theorie.
+
+## Geen bordcodes leren (feedback gebruiker, 2026-11-03)
+Bordcodes (B1, C43, E9a, ...) hoef je niet te kennen voor het examen. Dus:
+- Toon codes NIET in de leerinhoud (geen kolom 'code', niet in titels/vragen/antwoorden). Hooguit klein en grijs als bestandsreferentie, liefst helemaal niet. Bord = afbeelding + naam/betekenis.
+- Geen oefeningen die een code vragen of koppelen (bord-modus 'code' vervalt). Wel: bord -> betekenis, bord -> categorie (gevaar/voorrang/verbod/gebod/parkeren/aanwijzing), betekenis -> bord.
+- Gebruik geen jargon als 'artikel 12.3.2' in de cursus; bronnen alleen op de bronnenpagina.
