@@ -26,13 +26,10 @@
     <button class="theme-btn" id="theme-btn" type="button" aria-label="Wissel tussen lichte en donkere modus" title="Licht / donker"><svg class="ic-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" fill="currentColor"/></svg><svg class="ic-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
   </div>
 </header>
-<div class="book-layout" id="book-root">
-  <aside class="toc" id="toc" aria-label="Inhoudsopgave"></aside>
-  <main id="main" class="book" tabindex="-1">
-    <div class="book-page" id="book-page"><p class="loading">Les 4 wordt geladen…</p></div>
-    <div class="pager" id="pager" role="navigation" aria-label="Bladeren"></div>
-  </main>
-</div>
+<main id="main" class="reader" tabindex="-1">
+  <div class="slide-wrap" id="book-page"><p class="loading">Les 4 wordt geladen…</p></div>
+</main>
+<div class="float-bar" id="float-bar" role="navigation" aria-label="Bladeren"></div>
 <footer class="footer">
   <p>Gratis leermiddel, geen officiële uitgave van de overheid. Controleer belangrijke regels altijd bij de <a href="bronnen.html">bronnen</a>. Afbeeldingen: <a href="bronnen.html#afbeeldingen">auteurs en licenties</a>. Je voortgang blijft enkel in je eigen browser.</p>
 </footer>

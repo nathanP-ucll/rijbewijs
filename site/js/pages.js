@@ -236,7 +236,7 @@
         var g = el('div', { class: 'sign-grid' });
         rows.forEach(function (r) {
           var info = App.imgInfo(r.code);
-          g.appendChild(el('div', { class: 'sg-item' }, info ? App.img(r.code, { alt: '' }) : null, el('span', { class: 'sg-code cat-' + (info ? info.cat : '') }, String(r.code).replace(/_/g, ' ')), el('span', { class: 'sg-name' }, r.naam || '')));
+          g.appendChild(el('div', { class: 'sg-item' }, info ? App.img(r.code, { alt: '' }) : null, el('span', { class: 'sg-name' }, App.clean(r.naam || (info && info.naam) || ''))));
         });
         return g;
       }
@@ -290,7 +290,7 @@
       sec.appendChild(el('p', { class: 'muted' }, 'Deze afbeeldingen gebruik je onder de licentie ', el('a', { href: 'https://creativecommons.org/licenses/by-sa/4.0/deed.nl', target: '_blank', rel: 'noopener' }, 'CC BY-SA 4.0'), '. Bij elke afbeelding staat de auteur; alle gegevens vind je ook hier.'));
       var tb = el('tbody');
       cc.forEach(function (c) {
-        tb.appendChild(el('tr', {}, el('td', { 'data-label': 'Bord', class: 'cell-sign' }, App.img(c.code, { alt: 'Verkeersbord ' + c.code.replace(/_/g, ' '), class: 'sign-thumb' }), el('span', { class: 'sign-code' }, c.code.replace(/_/g, ' '))),
+        tb.appendChild(el('tr', {}, el('td', { 'data-label': 'Bord', class: 'cell-sign' }, App.img(c.code, { alt: (App.imgInfo(c.code) || {}).naam || 'Verkeersbord', class: 'sign-thumb' }), el('span', {}, (App.imgInfo(c.code) || {}).naam || '', ' ', el('small', { class: 'muted' }, c.code.replace(/_/g, ' ')))),
           el('td', { 'data-label': 'Auteur' }, c.auteur), el('td', { 'data-label': 'Licentie' }, c.licentie),
           el('td', { 'data-label': 'Bron' }, el('a', { href: c.url, target: '_blank', rel: 'noopener' }, 'Wikimedia Commons'))));
       });

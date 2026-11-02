@@ -448,7 +448,7 @@
       var name = App.uid('bc');
       var radios = CATS.map(function (c) {
         var inp = el('input', { type: 'radio', name: name, value: c });
-        return { c: c, inp: inp, lab: el('label', { class: 'cat-opt cat-' + c }, inp, el('span', { class: 'cat-letter' }, c), el('span', { class: 'cat-name' }, App.CAT_NAMEN[c])) };
+        return { c: c, inp: inp, lab: el('label', { class: 'cat-opt cat-' + c }, inp, el('span', { class: 'cat-dot', 'aria-hidden': 'true' }), el('span', { class: 'cat-name' }, App.CAT_NAMEN[c])) };
       });
       body = el('div', { class: 'cat-grid', role: 'radiogroup', 'aria-label': 'Categorie' }, radios.map(function (r) { return r.lab; }));
       var get = function () { for (var i = 0; i < radios.length; i++) if (radios[i].inp.checked) return radios[i].c; return ''; };
@@ -477,7 +477,7 @@
         lock: function (b) { rows.forEach(function (r) { r.inp.disabled = b; }); }
       };
     } else {
-      var inp = el('input', { type: 'text', class: 'txt', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': ex.modus === 'code' ? 'Code van het bord' : 'Naam van het bord', placeholder: ex.modus === 'code' ? 'bv. B1' : 'Wat betekent dit bord?' });
+      var inp = el('input', { type: 'text', class: 'txt', autocomplete: 'off', autocapitalize: 'off', spellcheck: 'false', 'aria-label': 'Betekenis van het bord', placeholder: 'Wat betekent dit bord?' });
       body = el('div', { class: 'fill-row' }, inp);
       api = {
         answered: function () { return inp.value.trim() !== ''; },

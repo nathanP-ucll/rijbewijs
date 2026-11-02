@@ -25,3 +25,8 @@ Bordcodes (B1, C43, E9a, ...) hoef je niet te kennen voor het examen. Dus:
 - Toon codes NIET in de leerinhoud (geen kolom 'code', niet in titels/vragen/antwoorden). Hooguit klein en grijs als bestandsreferentie, liefst helemaal niet. Bord = afbeelding + naam/betekenis.
 - Geen oefeningen die een code vragen of koppelen (bord-modus 'code' vervalt). Wel: bord -> betekenis, bord -> categorie (gevaar/voorrang/verbod/gebod/parkeren/aanwijzing), betekenis -> bord.
 - Gebruik geen jargon als 'artikel 12.3.2' in de cursus; bronnen alleen op de bronnenpagina.
+
+## Mini-oefeningen en bordkaarten (feedback gebruiker, 2026-11-03)
+- Na elke theoriepagina (bv. inleiding 'soorten borden') staat ONDERAAN dezelfde pagina meteen een kleine oefening (`mini: true`) over precies die pagina, liefst slepen/koppelen (bv. soort bord <-> betekenis). Grotere oefeningen blijven op eigen pagina's.
+- Bordkaarten: links groot bord, rechts korte duidelijke tekst: wat betekent het, wat moet je doen, 'let op' (bv. 'geen voorrang'). Geen code. Borden die op elkaar lijken staan NAAST elkaar met één regel 'het verschil'.
+- Aankondigingsborden (bv. voorrangsbord met onderbord afstand): zeg expliciet dat het een AANKONDIGING is en dat het eigenlijke bord nog moet komen, ~afstand VERDERop (de afstand wijst vooruit, niet achteruit), en wat er verschilt met het bord zonder aankondiging.

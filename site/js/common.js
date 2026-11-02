@@ -109,12 +109,22 @@
   }
 
   /* inline markdown-light: **vet**, `code` */
+  /* Toon geen bordcodes of artikelnummers in de leerinhoud. */
+  var CODE = '(?:Z)?[A-GZ]\\d{1,2}[a-z]?(?:[_-]\\d+)?';
+  var RE_CODES = new RegExp('\\s*\\((?:\\s*(?:' + CODE + '|…|\\.\\.\\.|en|of|t\\.e\\.m\\.|[,/;–-])\\s*)+\\)', 'g');
+  App.clean = function (s) {
+    return String(s == null ? '' : s).replace(RE_CODES, '')
+      .replace(/\s*\((?:art\.|artikel)[^)]*\)/gi, '')
+      .replace(/,?\s*\bart(?:ikel|\.)\s*\d+[\d.a-z°]*(?:\s*(?:lid|§)\s*\d+)?/gi, '')
+      .replace(/[ \t]{2,}/g, ' ').trim();
+  };
   App.inline = function (s) {
-    return App.esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/`([^`]+)`/g, '<code>$1</code>');
+    return App.esc(App.clean(s)).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>').replace(/`([^`]+)`/g, '<code>$1</code>');
   };
   /* blok-markdown-light: alinea's, "- " lijsten, "1. " lijsten */
   App.md = function (text) {
     if (!text) return '';
+    text = String(text).split('\n').map(function (l) { return App.clean(l); }).join('\n');
     var out = [];
     String(text).split(/\n\s*\n/).forEach(function (para) {
       var lines = para.split('\n');
@@ -140,7 +150,7 @@
     });
     return out.join('');
   };
-  App.plain = function (s) { return String(s || '').replace(/\*\*/g, '').replace(/`/g, '').replace(/\s+/g, ' ').trim(); };
+  App.plain = function (s) { return App.clean(s || '').replace(/\*\*/g, '').replace(/`/g, '').replace(/\s+/g, ' ').trim(); };
 
   /* ---------- iconen ---------- */
   var ICONS = {
@@ -172,7 +182,7 @@
   };
 
   /* ---------- afbeeldingen ---------- */
-  App.CAT_NAMEN = { A: 'Gevaar', B: 'Voorrang', C: 'Verbod', D: 'Gebod', E: 'Parkeren en stilstaan', F: 'Aanwijzing' };
+  App.CAT_NAMEN = { A: 'Gevaar', B: 'Voorrang', C: 'Verbod', D: 'Gebod', E: 'Parkeren', F: 'Aanwijzing' };
   App.imgInfo = function (name) { return (C.afb && C.afb[name]) || null; };
   /** <img>-element; verbergt zichzelf als het bestand ontbreekt. */
   App.img = function (name, opts) {
@@ -196,7 +206,7 @@
     if (opts.caption !== false) {
       var cap = App.el('figcaption');
       if (info.soort === 'bord') {
-        cap.innerHTML = '<strong class="code cat-' + (info.cat || '') + '">' + App.esc(name.replace(/_/g, ' ')) + '</strong>' + (info.naam ? ' <span>' + App.esc(info.naam) + '</span>' : '');
+        cap.innerHTML = info.naam ? '<span class="sign-name">' + App.esc(info.naam) + '</span>' : '';
       } else {
         cap.textContent = info.alt || '';
       }

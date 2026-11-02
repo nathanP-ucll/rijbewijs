@@ -93,7 +93,7 @@ async function solve(page, art, ex, right) {
 (async () => {
   const browser = await chromium.launch();
   const ctx = await browser.newContext({ viewport: { width: 1440, height: 900 } });
-  const page = await ctx.newPage();
+  const page = await ctx.newPage(); page.setDefaultTimeout(8000);
   page.on('console', (m) => { if (m.type() === 'error') { errs++; console.log('CONSOLE ERROR', m.text()); } });
   page.on('pageerror', (e) => { errs++; console.log('PAGE ERROR', e.message); });
   await page.goto(url('oefenbank.html'));
@@ -127,22 +127,34 @@ async function solve(page, art, ex, right) {
   ok(Object.keys(st.res).length === exs.length, 'resultaten bewaard in localStorage');
   ok(Object.keys(st.fouten).length === 0, 'fouten leeg na juiste antwoorden');
 
-  // boek: paginering
+  // boek: paginering + zwevende balk (geen zijbalk)
   await page.goto(url('les1.html'));
-  await page.waitForSelector('.pager');
-  ok((await page.textContent('.pager-count')).startsWith('Pagina 1 van'), 'les1 start op pagina 1');
+  await page.waitForSelector('.float-bar .fb-count');
+  ok((await page.locator('.toc, aside').count()) === 0, 'geen zijbalk');
+  ok((await page.textContent('.fb-count')).startsWith('Pagina 1 van'), 'les1 start op pagina 1');
   await page.getByRole('link', { name: /Volgende/ }).click();
   ok(page.url().endsWith('#p2'), 'Volgende -> #p2');
   await page.keyboard.press('ArrowRight');
   ok(page.url().endsWith('#p3'), 'pijl rechts -> #p3');
   await page.keyboard.press('ArrowLeft');
   ok(page.url().endsWith('#p2'), 'pijl links -> #p2');
-  await page.locator('.toc-link', { hasText: 'Samenvatting' }).click();
-  ok(/Samenvatting/.test(await page.textContent('#page-title')), 'TOC-sprong naar samenvatting');
-  const total1 = await page.evaluate(() => window.CURSUS.boeken[1].pages.length);
-  await page.goto(url('les1.html')); await page.waitForSelector('.pager');
-  ok(page.url().endsWith('#p' + (total1 - 1)), 'terug naar laatst bezochte pagina (localStorage)');
-  ok((await page.locator('.toc-link.done').count()) >= 2, "vinkjes voor gedane pagina's");
+  await page.getByRole('button', { name: /Inhoud/ }).click();
+  ok(await page.locator('#pop-toc').isVisible(), 'inhoudspaneel opent');
+  await page.locator('#pop-toc a', { hasText: 'Samenvatting' }).first().click();
+  ok(/Samenvatting/.test(await page.title()), 'sprong via inhoud naar samenvatting');
+  await page.getByRole('button', { name: /Les 1/ }).click();
+  ok(await page.locator('#pop-les a', { hasText: 'Proefexamen' }).isVisible(), 'lesmenu bevat proefexamen');
+  await page.keyboard.press('Escape');
+  ok(!(await page.locator('#pop-les').isVisible()), 'Escape sluit menu');
+  const cnt = await page.evaluate(() => window.CURSUS.boeken[1].pages.length);
+  await page.goto(url('les1.html')); await page.waitForSelector('.fb-count');
+  const hashNow = page.url().split('#p')[1];
+  ok(Number(hashNow) > 2, 'terug naar laatst bezochte pagina (localStorage): p' + hashNow + ' van ' + cnt);
+  await page.getByRole('button', { name: /Inhoud/ }).click();
+  ok((await page.locator('#pop-toc .pop-link.done').count()) >= 1, "vinkjes voor gedane onderdelen");
+  await page.keyboard.press('Escape');
+  const noCode = await page.evaluate(() => !/(s*[A-F]d+/.test(document.querySelector('#book-page').innerText));
+  ok(noCode, 'geen (bordcode)-lijsten in zichtbare tekst');
 
   // eindtest
   const total2 = await page.evaluate(() => window.CURSUS.boeken[2].pages.length);
@@ -188,7 +200,7 @@ async function solve(page, art, ex, right) {
     await p2.goto(url(f)); await p2.waitForTimeout(400);
     ok((await p2.locator('#main').innerText()).length > 50, `geblokkeerde opslag: ${f} rendert`);
   }
-  await p2.goto(url('les1.html')); await p2.getByRole('link', { name: /Volgende/ }).click();
+  await p2.goto(url('les1.html#p1')); await p2.waitForSelector('.fb-count'); await p2.getByRole('link', { name: /Volgende/ }).click();
   ok(p2.url().endsWith('#p2'), 'geblokkeerde opslag: bladeren werkt');
   await p2.goto(url('index.html')); ok(await p2.locator('.notice.warn').count() > 0, 'melding bij geblokkeerde opslag');
   await ctx2.close();

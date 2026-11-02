@@ -8,6 +8,14 @@
         "T11"
       ],
       "titel": "Rangorde: wie of wat bepaalt de voorrang?",
+      "titelKort": "Rangorde",
+      "kort": [
+        "1. Bevoegde persoon",
+        "2. Verkeerslichten",
+        "3. Verkeersborden",
+        "4. Algemene regels",
+        "Hoogste niveau wint"
+      ],
       "uitleg": "Op de weg krijg je soms tegenstrijdige signalen: een agent zegt iets anders dan het licht, een bord iets anders dan de gewone regel. De wegcode legt daarom een vaste volgorde vast. Je loopt de lijst van boven naar onder af en volgt de eerste die van toepassing is.\n\n- **1. Bevoegde personen** (bv. politie) gaan boven alles. Je moet hun bevelen onmiddellijk opvolgen.\n- **2. Verkeerslichten** (zolang ze werken) gaan boven de voorrangsborden op dezelfde weg.\n- **3. Verkeersborden** (B1, B5, B9 ... ) gaan boven de algemene verkeersregels.\n- **4. Algemene verkeersregels**: zonder lichten of borden geldt voorrang van rechts.\n\nVoorrangsvoertuigen met blauwe lichten en sirene (zie verder) krijgen op hun beurt voorrang van alle andere weggebruikers die hen horen naderen.",
       "regels": [
         {
@@ -31,17 +39,20 @@
         {
           "type": "regel",
           "titel": "Volgorde",
-          "tekst": "Bevoegde persoon, dan verkeerslichten, dan verkeersborden, dan de algemene verkeersregels. Het hoogste niveau wint."
+          "tekst": "Bevoegde persoon, dan verkeerslichten, dan verkeersborden, dan de algemene verkeersregels. Het hoogste niveau wint.",
+          "kort": "Hoogste niveau wint."
         },
         {
           "type": "letop",
           "titel": "Knipperend oranje licht",
-          "tekst": "Een knipperend oranjegeel licht geeft geen bevel: dan gelden de borden of, bij gebrek daaraan, voorrang van rechts. Werkende lichten vervangen de voorrangsborden wel."
+          "tekst": "Een knipperend oranjegeel licht geeft geen bevel: dan gelden de borden of, bij gebrek daaraan, voorrang van rechts. Werkende lichten vervangen de voorrangsborden wel.",
+          "kort": "Knipperend oranje geeft geen bevel."
         },
         {
           "type": "tip",
           "titel": "Nieuwe wegcode",
-          "tekst": "De huidige wegcode (KB van 1 december 1975) blijft gelden tot 31 mei 2027. Op 1 juni 2027 wordt hij vervangen door de nieuwe Code van de openbare weg. In deze cursus leer je de regels die nu gelden."
+          "tekst": "De huidige wegcode (KB van 1 december 1975) blijft gelden tot 31 mei 2027. Op 1 juni 2027 wordt hij vervangen door de nieuwe Code van de openbare weg. In deze cursus leer je de regels die nu gelden.",
+          "kort": "Nieuwe wegcode geldt pas vanaf 1 juni 2027."
         }
       ],
       "uitzonderingen": [],
@@ -61,6 +72,14 @@
         "T11"
       ],
       "titel": "Voorrang van rechts: de basisregel",
+      "titelKort": "Voorrang van rechts",
+      "kort": [
+        "Geen bord, licht of agent: rechts heeft voorrang",
+        "Geldt voor alle bestuurders",
+        "Niet op de rotonde",
+        "Niet bij verboden rijrichting",
+        "Voorrang verlenen: zonder gevaar verder"
+      ],
       "uitleg": "Een **kruispunt** is een plaats waar twee of meer openbare wegen samenkomen. Als er geen bevoegde persoon, geen werkende verkeerslichten en geen voorrangsbord is, moet **elke bestuurder voorrang verlenen aan de bestuurder die van rechts komt**. Dat geldt voor alle bestuurders, dus ook voor fietsers en bromfietsers.\n\nWie een kruispunt oprijdt, moet bovendien **dubbel voorzichtig** zijn om ongevallen te voorkomen. Wie voorrang moet verlenen, mag pas verder rijden als het kan **zonder gevaar voor een ongeval**, rekening houdend met de plaats, de snelheid en de afstand van de andere weggebruikers.\n\nVoorrang betekent: de andere bestuurder vrij laten doorrijden, zonder dat hij moet remmen of uitwijken.",
       "regels": [
         {
@@ -84,17 +103,20 @@
         {
           "type": "regel",
           "titel": "Voorrang van rechts",
-          "tekst": "Elke bestuurder moet voorrang verlenen aan de bestuurder die van rechts komt, behalve als hij op een rotonde rijdt of als de bestuurder van rechts uit een verboden rijrichting komt."
+          "tekst": "Elke bestuurder moet voorrang verlenen aan de bestuurder die van rechts komt, behalve als hij op een rotonde rijdt of als de bestuurder van rechts uit een verboden rijrichting komt.",
+          "kort": "Voorrang aan wie van rechts komt, met uitzonderingen."
         },
         {
           "type": "letop",
           "titel": "Voorrang blijft behouden als je afremt of stopt",
-          "tekst": "Vroeger verloor je voorrang als je stopte voor iemand anders. Sinds 1 maart 2007 is die regel afgeschaft: ook wie voorrang heeft en toch even stopt, behoudt zijn voorrang. Als de andere bestuurder door jouw gedrag misleid kan zijn (bv. je zet je richtingaanwijzer verkeerd), blijf je voorzichtig."
+          "tekst": "Vroeger verloor je voorrang als je stopte voor iemand anders. Sinds 1 maart 2007 is die regel afgeschaft: ook wie voorrang heeft en toch even stopt, behoudt zijn voorrang. Als de andere bestuurder door jouw gedrag misleid kan zijn (bv. je zet je richtingaanwijzer verkeerd), blijf je voorzichtig.",
+          "kort": "Wie voorrang heeft en stopt, behoudt die."
         },
         {
           "type": "tip",
           "titel": "Kijk eerst naar borden en lichten",
-          "tekst": "Een bord of werkend licht gaat voor voorrang van rechts. Reken pas op voorrang van rechts als je geen bord, licht of bevoegde persoon ziet."
+          "tekst": "Een bord of werkend licht gaat voor voorrang van rechts. Reken pas op voorrang van rechts als je geen bord, licht of bevoegde persoon ziet.",
+          "kort": "Eerst borden en lichten, dan pas rechts."
         }
       ],
       "uitzonderingen": [
@@ -119,6 +141,14 @@
         "T12"
       ],
       "titel": "Manoeuvres, uitritten en parkeerplaatsen: altijd voorrang verlenen",
+      "titelKort": "Manoeuvres en uitritten",
+      "kort": [
+        "Manoeuvre: altijd voorrang verlenen",
+        "Ook aan wie van links komt",
+        "Oprit of parking verlaten: voorrang",
+        "Trottoir of fietspad kruisen: voorrang",
+        "Ritsen: om beurten één voertuig"
+      ],
       "uitleg": "Wie een **manoeuvre** uitvoert, moet voorrang verlenen aan de andere weggebruikers, ook aan wie van links komt. Als manoeuvres tellen onder meer: van rijstrook of file veranderen, de rijbaan oversteken, een parkeerplaats verlaten of oprijden, uit een aanpalende eigendom komen (oprit, garage, tankstation ...), keren en achteruitrijden.\n\nWie een **trottoir of fietspad oversteekt** (bv. bij het verlaten van een oprit), moet voorrang verlenen aan de gebruikers die daar regelmatig rijden of stappen.\n\nBij het ritsen (rijstrook die eindigt in langzaam verkeer) rijd je pas vlak voor de versmalling in, en laat je de aangrenzende rijstrook om beurten één voertuig invoegen.",
       "regels": [
         {
@@ -146,17 +176,20 @@
         {
           "type": "regel",
           "titel": "Manoeuvre",
-          "tekst": "Wie een manoeuvre doet, geeft voorrang aan de andere weggebruikers."
+          "tekst": "Wie een manoeuvre doet, geeft voorrang aan de andere weggebruikers.",
+          "kort": "Manoeuvre: voorrang aan andere weggebruikers."
         },
         {
           "type": "regel",
           "titel": "Trottoir of fietspad kruisen",
-          "tekst": "Wie een trottoir of fietspad oversteekt, geeft voorrang aan de gebruikers die er regelmatig rijden of stappen."
+          "tekst": "Wie een trottoir of fietspad oversteekt, geeft voorrang aan de gebruikers die er regelmatig rijden of stappen.",
+          "kort": "Trottoir of fietspad kruisen: voorrang aan gebruikers."
         },
         {
           "type": "letop",
           "titel": "Einde van een fietspad",
-          "tekst": "Wie op het einde van een fietspad rechtdoor naar de rijbaan gaat, voert geen manoeuvre uit en moet dus niet automatisch voorrang verlenen."
+          "tekst": "Wie op het einde van een fietspad rechtdoor naar de rijbaan gaat, voert geen manoeuvre uit en moet dus niet automatisch voorrang verlenen.",
+          "kort": "Einde fietspad rechtdoor is niet automatisch een manoeuvre."
         }
       ],
       "uitzonderingen": [
@@ -178,17 +211,26 @@
         "T12"
       ],
       "titel": "Uitzondering: aardeweg of pad",
+      "titelKort": "Aardeweg of pad",
+      "kort": [
+        "Uit aardeweg of pad: voorrang verlenen",
+        "Aan iedereen op de openbare weg",
+        "Ook aan wie van links komt",
+        "Staat er een bord, dan geldt het bord"
+      ],
       "uitleg": "Wie uit een **aardeweg** of een **pad** op een openbare weg met een rijbaan rijdt, moet voorrang verlenen aan alle bestuurders op die openbare weg, ook als die van links komen. Voorrang van rechts geldt in dit geval dus niet in jouw voordeel.\n\nIn de wegcode is een pad een smalle openbare weg die enkel voor voetgangers bedoeld is. Een aardeweg is een openbare weg die breder is dan een pad.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Aardeweg of pad",
-          "tekst": "Kom je uit een aardeweg of pad op een openbare weg met een rijbaan, dan geef je voorrang aan iedereen die op die weg rijdt."
+          "tekst": "Kom je uit een aardeweg of pad op een openbare weg met een rijbaan, dan geef je voorrang aan iedereen die op die weg rijdt.",
+          "kort": "Uit aardeweg of pad: voorrang aan iedereen."
         },
         {
           "type": "letop",
           "titel": "Zonder bord",
-          "tekst": "Deze uitzondering geldt zonder dat er een B1 of B5 staat. Staat er wel een B1 of B5, dan geldt dat bord."
+          "tekst": "Deze uitzondering geldt zonder dat er een B1 of B5 staat. Staat er wel een B1 of B5, dan geldt dat bord.",
+          "kort": "Een bord gaat voor deze uitzondering."
         }
       ],
       "uitzonderingen": [],
@@ -205,6 +247,14 @@
         "T12"
       ],
       "titel": "Woonerf en erf",
+      "titelKort": "Woonerf en erf",
+      "kort": [
+        "Maximum 20 km/u",
+        "Voetgangers gebruiken de hele breedte",
+        "Kinderen mogen spelen",
+        "Voetgangers nooit hinderen",
+        "Parkeren enkel op aangeduide plaatsen"
+      ],
       "uitleg": "Een **woonerf** is een speciaal ingerichte openbare weg waarvan de toegang is aangeduid met bord **F12a**; het einde met **F12b**. Een **erf** heeft dezelfde kenmerken, maar naast wonen is er ook plaats voor ambacht, handel, toerisme, onderwijs of recreatie.\n\nIn een woonerf of erf mogen voetgangers de volledige breedte van de weg gebruiken en mogen kinderen er spelen. Als bestuurder mag je voetgangers niet in gevaar brengen of hinderen en moet je zo nodig stoppen. Wees extra voorzichtig voor kinderen. Je mag er niet harder rijden dan **20 km/u** en parkeren mag er enkel op plaatsen die met een P gemarkeerd zijn of waar een bord het toelaat.",
       "regels": [
         {
@@ -228,12 +278,14 @@
         {
           "type": "regel",
           "titel": "Snelheid en voetgangers",
-          "tekst": "In een woonerf of erf: maximaal 20 km/u, voetgangers hinderen mag je niet en je stopt zo nodig."
+          "tekst": "In een woonerf of erf: maximaal 20 km/u, voetgangers hinderen mag je niet en je stopt zo nodig.",
+          "kort": "Maximaal 20 km/u en voetgangers niet hinderen."
         },
         {
           "type": "tip",
           "titel": "Kinderen",
-          "tekst": "In een woonerf of erf mogen kinderen spelen. Verwacht ze overal en rij zo traag dat je kunt stoppen."
+          "tekst": "In een woonerf of erf mogen kinderen spelen. Verwacht ze overal en rij zo traag dat je kunt stoppen.",
+          "kort": "Verwacht kinderen overal."
         }
       ],
       "uitzonderingen": [],
@@ -252,17 +304,26 @@
         "T12"
       ],
       "titel": "Voorrang voor trams en andere spoorvoertuigen",
+      "titelKort": "Trams en treinen",
+      "kort": [
+        "Spoorvoertuigen hebben altijd voorrang",
+        "Ook als ze van links komen",
+        "Agent of licht gaat toch voor",
+        "Overrijdbare bedding is geen rijbaan"
+      ],
       "uitleg": "Elke weggebruiker moet **voorrang verlenen aan spoorvoertuigen** (trams, treinen). Een tram heeft dus voorrang, ook als hij van links komt.\n\nDe algemene rangorde blijft wel gelden: een bevoegde persoon of een werkend verkeerslicht gaat voor de gewone voorrangsregel.\n\nEen **bijzondere overrijdbare bedding** (afgebakend voor geregeld openbaar vervoer) maakt geen deel uit van de rijbaan. Fietsers mogen een rijstrook of bedding voor geregeld openbaar vervoer volgen als dat is toegelaten; ze rijden dan achter elkaar.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Spoorvoertuigen",
-          "tekst": "Spoorvoertuigen hebben voorrang op alle andere weggebruikers."
+          "tekst": "Spoorvoertuigen hebben voorrang op alle andere weggebruikers.",
+          "kort": "Spoorvoertuigen hebben voorrang op iedereen."
         },
         {
           "type": "letop",
           "titel": "Lichten en agenten",
-          "tekst": "Een bevoegde persoon of werkend verkeerslicht gaat voor de gewone voorrangsregel."
+          "tekst": "Een bevoegde persoon of werkend verkeerslicht gaat voor de gewone voorrangsregel.",
+          "kort": "Agent of werkend licht gaat voor."
         }
       ],
       "uitzonderingen": [],
@@ -281,6 +342,14 @@
         "T12"
       ],
       "titel": "Voorrangsborden B1 en B5",
+      "titelKort": "Voorrangsborden",
+      "kort": [
+        "Omgekeerde driehoek: voorrang verlenen",
+        "Stopbord: altijd volledig stoppen",
+        "Dan voorrang verlenen",
+        "Voorbord kondigt het bord aan",
+        "Gaat boven voorrang van rechts"
+      ],
       "uitleg": "Voorrangsborden gaan boven voorrang van rechts. Zie je **B1** of **B5** aan jouw kant, dan moet je voorrang verlenen aan iedere bestuurder die rijdt op de weg die je gaat oprijden.\n\n- **B1** (omgekeerde driehoek): voorrang verlenen aan het verkeer op de voorrangsweg.\n- **B5** (stopbord): stoppen en daarna voorrang verlenen.\n- **B3** kondigt op de aangegeven afstand een B1 aan, **B7** een B5.\n\nWie op de andere weg rijdt, heeft voorrang en moet dus niet naar rechts kijken om voorrang te verlenen aan de zijwegen met B1 of B5.",
       "regels": [
         {
@@ -304,12 +373,14 @@
         {
           "type": "regel",
           "titel": "B1 en B5",
-          "tekst": "Wie uit een openbare weg of rijbaan met B1 of B5 komt, moet voorrang verlenen aan iedere bestuurder op de weg die hij oprijdt."
+          "tekst": "Wie uit een openbare weg of rijbaan met B1 of B5 komt, moet voorrang verlenen aan iedere bestuurder op de weg die hij oprijdt.",
+          "kort": "Voorrangsbord: voorrang aan iedereen op de weg die je oprijdt."
         },
         {
           "type": "letop",
           "titel": "B5 negeren",
-          "tekst": "Bij B5 stop je altijd volledig, ook als er geen ander verkeer in zicht is."
+          "tekst": "Bij B5 stop je altijd volledig, ook als er geen ander verkeer in zicht is.",
+          "kort": "Bij stopbord altijd volledig stoppen."
         }
       ],
       "uitzonderingen": [],
@@ -332,6 +403,14 @@
         "T12"
       ],
       "titel": "Voorrangsweg: B9, B11 en B15",
+      "titelKort": "Voorrangsweg",
+      "kort": [
+        "Voorrangsweg: jij hebt voorrang",
+        "Einde voorrangsweg: voorrang stopt",
+        "Voorbord kondigt het einde aan",
+        "Voorrangsbord bevestigt jouw voorrang",
+        "Werkende lichten gaan voor"
+      ],
       "uitleg": "Een **voorrangsweg** is een weg waarop jij voorrang hebt op de zijwegen.\n\n- **B9** (voorrangsweg): je rijdt op een weg met voorrang.\n- **B11** (einde van de voorrangsweg): de voorrang van die weg eindigt hier.\n- **B13** kondigt op de aangegeven afstand een B11 aan.\n- **B15** (voorrang): bevestigt dat jij voorrang hebt. Het symbool op het bord wordt aan de situatie aangepast en toont welke weg voorrang heeft.",
       "regels": [
         {
@@ -355,12 +434,14 @@
         {
           "type": "regel",
           "titel": "Na B11",
-          "tekst": "Na het einde van de voorrangsweg heb je geen voorrang meer: dan gelden bord, licht of de gewone regels."
+          "tekst": "Na het einde van de voorrangsweg heb je geen voorrang meer: dan gelden bord, licht of de gewone regels.",
+          "kort": "Na het einde heb je geen voorrang meer."
         },
         {
           "type": "letop",
           "titel": "Verkeerslichten",
-          "tekst": "Werken verkeerslichten, dan gelden de voorrangsborden op dezelfde weg niet."
+          "tekst": "Werken verkeerslichten, dan gelden de voorrangsborden op dezelfde weg niet.",
+          "kort": "Werkende lichten zetten de voorrangsborden buiten werking."
         }
       ],
       "uitzonderingen": [],
@@ -382,6 +463,12 @@
         "T12"
       ],
       "titel": "B17: kruispunt met voorrang van rechts",
+      "titelKort": "Kruispunt met voorrang rechts",
+      "kort": [
+        "Volgend kruispunt: voorrang van rechts",
+        "Rij voorzichtig naderen",
+        "Zonder bord geldt dit ook"
+      ],
       "uitleg": "Het bord **B17** betekent: op het eerstvolgende kruispunt geldt **voorrang van rechts**. Rij er voorzichtig heen en verleen voorrang aan wie van rechts komt.",
       "regels": [
         {
@@ -393,7 +480,8 @@
         {
           "type": "tip",
           "titel": "Geen B17, toch voorrang van rechts",
-          "tekst": "Ook zonder B17 geldt voorrang van rechts op kruispunten zonder bord of licht. B17 maakt het enkel duidelijk."
+          "tekst": "Ook zonder B17 geldt voorrang van rechts op kruispunten zonder bord of licht. B17 maakt het enkel duidelijk.",
+          "kort": "Zonder dit bord geldt voorrang van rechts ook."
         }
       ],
       "uitzonderingen": [],
@@ -412,12 +500,20 @@
         "T12"
       ],
       "titel": "T-kruispunt",
+      "titelKort": "T-kruispunt",
+      "kort": [
+        "Geen aparte regel",
+        "1. Agent of licht",
+        "2. Borden",
+        "3. Anders voorrang van rechts"
+      ],
       "uitleg": "Een **T-kruispunt** is een gewoon kruispunt: een weg komt uit op een andere weg die niet doorloopt aan de overkant. De wegcode kent hiervoor geen aparte voorrangsregel. De gewone rangorde geldt:\n\n1. Is er een bevoegde persoon of werkend verkeerslicht? Dan volg je die.\n2. Staan er borden (bv. B1 of B5 op de zijtak, B9 of B15 op de andere weg)? Dan volg je die.\n3. Is er niets? Dan geldt voorrang van rechts: wie van rechts komt, heeft voorrang.",
       "kaders": [
         {
           "type": "tip",
           "titel": "Zoek eerst borden",
-          "tekst": "Kijk bij elk T-kruispunt eerst naar borden en lichten, pas daarna naar voorrang van rechts."
+          "tekst": "Kijk bij elk T-kruispunt eerst naar borden en lichten, pas daarna naar voorrang van rechts.",
+          "kort": "Eerst borden en lichten zoeken."
         }
       ],
       "uitzonderingen": [],
@@ -435,6 +531,14 @@
         "T13"
       ],
       "titel": "Rotonde: wie heeft voorrang?",
+      "titelKort": "Rotonde",
+      "kort": [
+        "Op de rotonde: jij hebt voorrang",
+        "Oprijden: voorrang verlenen",
+        "Oprijden: geen richtingaanwijzer",
+        "Verlaten: rechter richtingaanwijzer",
+        "Bij afrit: voorrang aan voetgangers en fietsers"
+      ],
       "uitleg": "Een **rotonde** is volgens de wegcode een weg waarop het verkeer in één richting rond een aangelegd middeneiland rijdt, gesignaleerd met bord **D5**. De toegangswegen hebben **B1** of **B5**.\n\nMet D5 en B1/B5 geldt: **wie op de rotonde rijdt, heeft voorrang** op wie de rotonde oprijdt. Wie al op de rotonde rijdt, moet niet langer voorrang van rechts verlenen.\n\n**Op de rotonde**\n- Je moet niet zo dicht mogelijk bij de rechterrand rijden; je volgt de rijstrookmarkering en kiest de rijstrook die bij jouw bestemming past.\n- **Oprijden**: je hoeft geen richtingaanwijzer te gebruiken.\n- **Verlaten**: je gebruikt wel de rechter richtingaanwijzer.\n- Bij het verlaten geef je voorrang aan voetgangers en fietsers die de afrit kruisen.",
       "regels": [
         {
@@ -458,12 +562,14 @@
         {
           "type": "regel",
           "titel": "Rotonde",
-          "tekst": "Oprijden: voorrang verlenen aan wie op de rotonde rijdt. Op de rotonde: geen voorrang van rechts verlenen. Verlaten: rechter richtingaanwijzer."
+          "tekst": "Oprijden: voorrang verlenen aan wie op de rotonde rijdt. Op de rotonde: geen voorrang van rechts verlenen. Verlaten: rechter richtingaanwijzer.",
+          "kort": "Oprijden: voorrang verlenen; verlaten: rechts aanwijzen."
         },
         {
           "type": "letop",
           "titel": "Rijstrook kiezen",
-          "tekst": "Op een rotonde hoef je niet zo dicht mogelijk bij de rechterrand te blijven. Volg de pijlen en markeringen en kies de strook die bij je bestemming past."
+          "tekst": "Op een rotonde hoef je niet zo dicht mogelijk bij de rechterrand te blijven. Volg de pijlen en markeringen en kies de strook die bij je bestemming past.",
+          "kort": "Kies de rijstrook die bij je bestemming past."
         }
       ],
       "uitzonderingen": [],
@@ -485,17 +591,26 @@
         "T13"
       ],
       "titel": "Rotonde zonder borden en verkeersplein",
+      "titelKort": "Rotonde zonder borden",
+      "kort": [
+        "Rotonde = rotondebord plus voorrangsborden",
+        "Zonder die borden: gewoon plein",
+        "Dan voorrang van rechts",
+        "Controleer elke toegang apart"
+      ],
       "uitleg": "De wegcode noemt een rotonde alleen zo als ze met bord **D5** gesignaleerd is en de toegangswegen **B1** of **B5** dragen. Ontbreekt dat, dan is het een gewoon **plein** of kruispunt in de vorm van een cirkel.\n\nEen **plein** is een open ruimte waarop een openbare weg uitkomt of meerdere wegen samenkomen. Op zo'n plein of 'verkeersplein' zonder D5 en B1/B5 gelden de gewone regels: bevoegde persoon, lichten, borden en anders **voorrang van rechts**.\n\nOp pleinen hoef je niet zo dicht mogelijk bij de rechterrand te blijven.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Geen D5 met B1/B5",
-          "tekst": "Zonder D5 en voorrangsborden op de toegangen is het geen rotonde in de zin van de wegcode: dan geldt voorrang van rechts."
+          "tekst": "Zonder D5 en voorrangsborden op de toegangen is het geen rotonde in de zin van de wegcode: dan geldt voorrang van rechts.",
+          "kort": "Zonder rotondebord en voorrangsborden geldt voorrang van rechts."
         },
         {
           "type": "letop",
           "titel": "Let op borden aan elke toegang",
-          "tekst": "Controleer bij elke toegang of er een B1 of B5 staat. De situatie kan per toegang verschillen."
+          "tekst": "Controleer bij elke toegang of er een B1 of B5 staat. De situatie kan per toegang verschillen.",
+          "kort": "Elke toegang kan anders zijn."
         }
       ],
       "uitzonderingen": [],
@@ -514,17 +629,26 @@
         "T13"
       ],
       "titel": "Fietsers op en rond de rotonde",
+      "titelKort": "Fietsers en rotonde",
+      "kort": [
+        "Zonder fietspad: fietser rijdt mee",
+        "Doorlopend fietspad: fietser heeft voorrang",
+        "Fietspad rondom: kijk naar de borden",
+        "Fietser steekt arm uit bij verlaten"
+      ],
       "uitleg": "Het hangt van de inrichting af hoe fietsers de rotonde nemen.\n\n**Geen fietspad, fietser rijdt mee op de rotonde.** Een fietser geeft voorrang aan wie al op de rotonde rijdt en heeft daarna zelf voorrang op wie oprijdt of verlaat. Hij rijdt best in het midden van de rijstrook en steekt bij het verlaten de rechterarm uit.\n\n**Doorlopend fietspad op de rotonde.** Bestuurders die de rotonde verlaten én oprijden, moeten voorrang verlenen aan fietsers op het doorlopende fietspad. De fietser zelf geeft bij het oprijden voorrang aan wie al op de rotonde rijdt.\n\n**Fietspad rond de rotonde (met oversteekplaatsen).** Het fietspad is onderbroken bij elke oversteekplaats. Haaientanden en voorrangsborden staan bij elke oversteek. De fietser verleent er voorrang aan bestuurders die de rotonde verlaten en aan wie willen oprijden. Ga altijd na wat de borden ter plaatse zeggen.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Als automobilist",
-          "tekst": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers en fietsers die de afrit kruisen."
+          "tekst": "Bij het verlaten van de rotonde geef je voorrang aan voetgangers en fietsers die de afrit kruisen.",
+          "kort": "Bij het verlaten voorrang aan voetgangers en fietsers."
         },
         {
           "type": "letop",
           "titel": "Dode hoek",
-          "tekst": "Fietsers zijn vaak pas laat zichtbaar en rijden sneller dan je denkt. Kijk goed rondom voor je de rotonde verlaat."
+          "tekst": "Fietsers zijn vaak pas laat zichtbaar en rijden sneller dan je denkt. Kijk goed rondom voor je de rotonde verlaat.",
+          "kort": "Fietsers zie je laat: kijk goed rondom."
         }
       ],
       "uitzonderingen": [],
@@ -544,6 +668,14 @@
         "T14"
       ],
       "titel": "Linksafslaan en tegenliggers",
+      "titelKort": "Linksaf en tegenliggers",
+      "kort": [
+        "Linksaf: voorrang aan tegenliggers",
+        "Ook aan voetgangers op de nieuwe weg",
+        "Tijdig links aanwijzen",
+        "Matige snelheid",
+        "Ruime bocht op kruispunt"
+      ],
       "uitleg": "Wie **links afslaat** moet voorrang verlenen aan de **tegenliggers** op de rijbaan die hij gaat verlaten. Tegenliggers die rechtdoor rijden of rechts afslaan, hebben dus voorrang op jou.\n\nVerder geldt bij linksaf:\n- Kondig je voornemen tijdig aan met de linker richtingaanwijzer.\n- Op tweerichtingsverkeer begeef je je naar links zonder tegenliggers te hinderen; in eenrichtingsverkeer rij je zo dicht mogelijk bij de linkerrand.\n- Voer de beweging uit met matige snelheid.\n- Op kruispunten maak je de bocht zo ruim mogelijk, zodat je rechts op de nieuwe rijbaan terechtkomt.\n- Wie van richting verandert, geeft ook voorrang aan de andere bestuurders en aan voetgangers op andere delen van dezelfde weg, en aan voetgangers die de rijbaan oversteken die hij gaat oprijden.",
       "regels": [
         {
@@ -563,7 +695,8 @@
         {
           "type": "regel",
           "titel": "Linksaf",
-          "tekst": "Wie linksaf slaat, verleent voorrang aan de tegenliggers op de rijbaan die hij gaat verlaten."
+          "tekst": "Wie linksaf slaat, verleent voorrang aan de tegenliggers op de rijbaan die hij gaat verlaten.",
+          "kort": "Linksaf: voorrang aan tegenliggers."
         }
       ],
       "uitzonderingen": [],
@@ -582,17 +715,26 @@
         "T14"
       ],
       "titel": "Middenberm en gescheiden rijbanen",
+      "titelKort": "Middenberm",
+      "kort": [
+        "Gescheiden rijbanen: links niet volgen",
+        "Behalve bij plaatselijke regeling",
+        "Blijf niet op een te smalle berm staan",
+        "Kijk naar borden en lichten"
+      ],
       "uitleg": "Een **middenberm** is elke aanleg in de lengterichting die rijbanen scheidt, behalve wegmarkeringen. Heeft een weg twee of drie duidelijk van elkaar gescheiden rijbanen, dan mag je de rijbaan die **links** van jouw rijrichting ligt niet volgen, tenzij plaatselijke regels dat anders bepalen.\n\nWil je een weg met middenberm oversteken of erop afslaan, ga dan niet op de middenberm staan als je voertuig niet volledig past: je zou het andere verkeer blokkeren. Kijk bovendien naar de borden en lichten ter plaatse.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Linkse rijbaan",
-          "tekst": "Bij gescheiden rijbanen mag je de rijbaan links van je rijrichting niet volgen (behalve plaatselijke regeling)."
+          "tekst": "Bij gescheiden rijbanen mag je de rijbaan links van je rijrichting niet volgen (behalve plaatselijke regeling).",
+          "kort": "Rijbaan links van jouw richting niet volgen."
         },
         {
           "type": "letop",
           "titel": "Past je voertuig?",
-          "tekst": "Blijf nooit op een te smalle middenberm staan: je hindert het verkeer."
+          "tekst": "Blijf nooit op een te smalle middenberm staan: je hindert het verkeer.",
+          "kort": "Nooit op te smalle middenberm blijven staan."
         }
       ],
       "uitzonderingen": [],
@@ -611,6 +753,13 @@
         "T22"
       ],
       "titel": "Voorrangsvoertuigen: blauw licht en sirene",
+      "titelKort": "Voorrangsvoertuigen",
+      "kort": [
+        "Blauwe lichten plus sirene",
+        "Dringende opdracht: jij verleent voorrang",
+        "Mag door rood, met matige snelheid",
+        "Sirene enkel bij dringende opdracht"
+      ],
       "uitleg": "Een **prioritair voertuig** (voorrangsvoertuig) is uitgerust met één of meer **blauwe knipperlichten** en een **speciaal geluidstoestel** (sirene). Voorbeelden zijn politie, brandweer, ziekenwagens, Civiele Bescherming en andere hulpdiensten.\n\n- De blauwe lichten moeten aan bij een **dringende opdracht**; bij andere opdrachten alleen als de aard van de opdracht dat rechtvaardigt.\n- Het geluidstoestel (sirene) mag alleen bij een **dringende opdracht** gebruikt worden.\n- Bij een dringende opdracht mogen ze, mits blauwe lichten én sirene aan zijn, afwijken van het reglement. Enkele regels blijven ook voor hen gelden.\n- Bij verkeerslichten mag zo'n voertuig met sirene door rood rijden, met matige snelheid en zonder andere weggebruikers in gevaar te brengen.\n- Op de pechstrook mogen onder meer voorrangsvoertuigen op dringende opdracht rijden.",
       "regels": [
         {
@@ -634,12 +783,14 @@
         {
           "type": "regel",
           "titel": "Prioritair voertuig",
-          "tekst": "Blauwe knipperlichten en een speciaal geluidstoestel kenmerken een prioritair voertuig."
+          "tekst": "Blauwe knipperlichten en een speciaal geluidstoestel kenmerken een prioritair voertuig.",
+          "kort": "Blauwe lichten en sirene kenmerken een voorrangsvoertuig."
         },
         {
           "type": "letop",
           "titel": "Blauw licht zonder sirene",
-          "tekst": "De plicht om onmiddellijk de doorgang vrij te maken geldt zodra het geluidstoestel (de sirene) klinkt. Blauw licht alleen verplicht niet automatisch tot wijken, maar rij toch voorzichtig."
+          "tekst": "De plicht om onmiddellijk de doorgang vrij te maken geldt zodra het geluidstoestel (de sirene) klinkt. Blauw licht alleen verplicht niet automatisch tot wijken, maar rij toch voorzichtig.",
+          "kort": "Sirene klinkt: direct doorgang vrijmaken."
         }
       ],
       "uitzonderingen": [],
@@ -657,17 +808,27 @@
         "T22"
       ],
       "titel": "Hoe reageer je op een voorrangsvoertuig?",
+      "titelKort": "Reageren op hulpdiensten",
+      "kort": [
+        "Sirene hoorbaar: direct doorgang vrijmaken",
+        "Voorrang verlenen",
+        "Zo nodig stoppen",
+        "Ook met eigen voorrang",
+        "Geldt voor alle weggebruikers"
+      ],
       "uitleg": "Zodra het geluidstoestel het naderen van een prioritair voertuig aankondigt, moet **elke weggebruiker onmiddellijk de doorgang vrijmaken en voorrang verlenen**. Zo nodig moet je **stoppen**.\n\nDat geldt ook als je zelf voorrang zou hebben, bijvoorbeeld op een voorrangsweg. Het geldt voor alle weggebruikers, niet alleen voor autobestuurders.",
       "kaders": [
         {
           "type": "regel",
           "titel": "Reageren",
-          "tekst": "Sirene hoorbaar: onmiddellijk de doorgang vrijmaken, voorrang verlenen en zo nodig stoppen."
+          "tekst": "Sirene hoorbaar: onmiddellijk de doorgang vrijmaken, voorrang verlenen en zo nodig stoppen.",
+          "kort": "Sirene hoorbaar: doorgang vrij, voorrang, zo nodig stop."
         },
         {
           "type": "letop",
           "titel": "Niet reageren",
-          "tekst": "Wie bij een naderende sirene blijft doorrijden en het voorrangsvoertuig hindert, overtreedt de plicht om de doorgang vrij te maken."
+          "tekst": "Wie bij een naderende sirene blijft doorrijden en het voorrangsvoertuig hindert, overtreedt de plicht om de doorgang vrij te maken.",
+          "kort": "Doorrijden en hinderen is een overtreding."
         }
       ],
       "uitzonderingen": [],
@@ -685,6 +846,14 @@
         "T22"
       ],
       "titel": "Andere bijzondere voertuigen",
+      "titelKort": "Andere bijzondere voertuigen",
+      "kort": [
+        "Blauw plus sirene: voorrang geven",
+        "Oranje knipperlicht: geen voorrang",
+        "Bus vertrekt: laat hem vertrekken",
+        "Enkel binnen de bebouwde kom",
+        "Tram of trein: voorrang verlenen"
+      ],
       "uitleg": "Niet elk voertuig met een knipperlicht heeft voorrang.\n\n**Oranjegele knipperlichten** (bv. takelwagens) mogen alleen gebruikt worden zolang het voertuig werkelijk zijn taak uitvoert of zijn aanwezigheid hinder of gevaar vormt. Ze geven **geen voorrang**; ze waarschuwen. Takelvoertuigen en hulpdiensten op de pechstrook of reddingsstrook gebruiken één of twee oranjegele knipperlichten.\n\n**Bus of trolleybus die zijn halte verlaat.** Binnen de bebouwde kom moet elke bestuurder die dezelfde richting volgt de buschauffeur de kans geven te vertrekken, zodra die zijn richtingaanwijzers aanzet. Je vertraagt en stopt zo nodig. De buschauffeur hoeft zelf geen voorrang te verlenen aan bestuurders die dezelfde richting volgen.\n\n**Spoorvoertuigen** (trams, treinen) hebben voorrang op alle weggebruikers (zie blok trams).",
       "regels": [
         {
@@ -708,12 +877,14 @@
         {
           "type": "letop",
           "titel": "Buiten de bebouwde kom",
-          "tekst": "De regel voor de vertrekkende bus geldt binnen de bebouwde kom. Buiten de bebouwde kom gelden de gewone voorrangsregels."
+          "tekst": "De regel voor de vertrekkende bus geldt binnen de bebouwde kom. Buiten de bebouwde kom gelden de gewone voorrangsregels.",
+          "kort": "Buiten bebouwde kom: gewone voorrangsregels."
         },
         {
           "type": "tip",
           "titel": "Kleuren onderscheiden",
-          "tekst": "Blauw met sirene = voorrang geven. Oranje = opletten maar geen voorrang."
+          "tekst": "Blauw met sirene = voorrang geven. Oranje = opletten maar geen voorrang.",
+          "kort": "Blauw met sirene: wijken. Oranje: opletten."
         }
       ],
       "uitzonderingen": [],

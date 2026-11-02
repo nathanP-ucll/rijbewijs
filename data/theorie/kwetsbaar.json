@@ -4,409 +4,1270 @@
   "blokken": [
     {
       "id": "kwetsbaar-algemeen",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Kwetsbare weggebruikers: extra zorg",
+      "titelKort": "Kwetsbare weggebruikers",
+      "kort": [
+        "Voetgangers en tweewielers: geen bescherming",
+        "Breng hen nooit in gevaar",
+        "Dubbel voorzichtig bij kinderen en ouderen",
+        "Step en rolstoel tellen als voetganger of fietser",
+        "Fiets aan de hand: je bent voetganger"
+      ],
       "uitleg": "Voetgangers, fietsers en bestuurders van tweewielige bromfietsen hebben geen koetswerk dat hen beschermt. De wegcode legt de bestuurder daarom extra plichten op.\n\n- Je mag kwetsbare weggebruikers niet in gevaar brengen, ook niet als je zelf volgens de regels rijdt.\n- Je bent **dubbel voorzichtig** bij kinderen, bejaarden en personen met een handicap, en vooral als hun aanwezigheid te voorzien is (bijvoorbeeld in een winkelstraat of bij een school).\n- Gebruikers van een voortbewegingstoestel (step, rolstoel, ...) worden gelijkgesteld met voetgangers of fietsers. Alle voorschriften die voor jou tegenover voetgangers en fietsers gelden, gelden dus ook tegenover hen.\n- Ook een fiets die je aan de hand leidt, maakt van jou een voetganger.",
       "regels": [
-        { "weggebruiker": "Niet-gemotoriseerd voortbewegingstoestel (bv. step zonder motor), stapvoets", "gelijkgesteld met": "voetganger" },
-        { "weggebruiker": "Niet-gemotoriseerd voortbewegingstoestel, sneller dan stapvoets", "gelijkgesteld met": "fietser" },
-        { "weggebruiker": "Gemotoriseerd voortbewegingstoestel (bv. elektrische step, max. 25 km/u)", "gelijkgesteld met": "fietser" },
-        { "weggebruiker": "Persoon met verminderde mobiliteit op eigen gemotoriseerd toestel, stapvoets", "gelijkgesteld met": "voetganger" },
-        { "weggebruiker": "Tweewielig gemotoriseerd rijwiel (elektrische fiets tot 25 km/u)", "gelijkgesteld met": "fietser" },
-        { "weggebruiker": "Persoon die fiets of bromfiets aan de hand leidt", "gelijkgesteld met": "voetganger" }
+        {
+          "weggebruiker": "Niet-gemotoriseerd voortbewegingstoestel (bv. step zonder motor), stapvoets",
+          "gelijkgesteld met": "voetganger"
+        },
+        {
+          "weggebruiker": "Niet-gemotoriseerd voortbewegingstoestel, sneller dan stapvoets",
+          "gelijkgesteld met": "fietser"
+        },
+        {
+          "weggebruiker": "Gemotoriseerd voortbewegingstoestel (bv. elektrische step, max. 25 km/u)",
+          "gelijkgesteld met": "fietser"
+        },
+        {
+          "weggebruiker": "Persoon met verminderde mobiliteit op eigen gemotoriseerd toestel, stapvoets",
+          "gelijkgesteld met": "voetganger"
+        },
+        {
+          "weggebruiker": "Tweewielig gemotoriseerd rijwiel (elektrische fiets tot 25 km/u)",
+          "gelijkgesteld met": "fietser"
+        },
+        {
+          "weggebruiker": "Persoon die fiets of bromfiets aan de hand leidt",
+          "gelijkgesteld met": "voetganger"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Kwetsbaarder = jouw verantwoordelijkheid", "tekst": "Naast alle andere regels geldt altijd: breng kwetsbare weggebruikers niet in gevaar. Zelfs wie voorrang heeft, mag je dus niet zomaar 'laten' schrikken of zwenken." },
-        { "type": "letop", "titel": "Elektrische step", "tekst": "Een elektrische step (max. 25 km/u) is een gemotoriseerd voortbewegingstoestel en wordt gelijkgesteld met een fietser, niet met een voetganger. Onder 16 jaar is een e-step alleen toegelaten op plaatsen waar de wegcode een uitzondering voorziet." }
+        {
+          "type": "regel",
+          "titel": "Kwetsbaarder = jouw verantwoordelijkheid",
+          "tekst": "Naast alle andere regels geldt altijd: breng kwetsbare weggebruikers niet in gevaar. Zelfs wie voorrang heeft, mag je dus niet zomaar 'laten' schrikken of zwenken.",
+          "kort": "Breng kwetsbare weggebruikers nooit in gevaar, ook niet met voorrang."
+        },
+        {
+          "type": "letop",
+          "titel": "Elektrische step",
+          "tekst": "Een elektrische step (max. 25 km/u) is een gemotoriseerd voortbewegingstoestel en wordt gelijkgesteld met een fietser, niet met een voetganger. Onder 16 jaar is een e-step alleen toegelaten op plaatsen waar de wegcode een uitzondering voorziet.",
+          "kort": "Elektrische step telt als fietser."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["A23"],
-      "bronnen": ["KWET-001", "KWET-006"]
+      "afbeeldingen": [
+        "A23"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-006"
+      ]
     },
     {
       "id": "voetganger-plaats-op-de-weg",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Waar loopt een voetganger?",
+      "titelKort": "Plaats van de voetganger",
+      "kort": [
+        "Eerst trottoir",
+        "Dan berm, parkeerstrook, zijstrook",
+        "Fietspad pas na die delen",
+        "Rijbaan als laatste",
+        "Op de rijbaan: links lopen"
+      ],
       "uitleg": "Voetgangers moeten de voor hen bestemde delen van de openbare weg gebruiken, in een vaste volgorde van wat aanwezig en begaanbaar is.\n\n- Staat er een trottoir, dan gebruiken ze dat. Als er geen trottoir is, nemen ze een verhoogde berm, daarna een gelijkgrondse berm, parkeerstrook, zijdelingse strook, **fietspad** en pas als laatste de rijbaan.\n- Op de rijbaan houden ze zich zo dicht mogelijk bij de rand en lopen ze **links** (naar het tegemoetkomend verkeer toe), of rechts als de veiligheid dat vraagt.\n- Wie op het fietspad loopt, moet doorgang verlenen aan fietsers en andere gebruikers.\n- Een voetganger met een fiets, bromfiets of kinderwagen aan de hand is nog steeds voetganger, maar moet de rijbaan nemen als hij andere voetgangers sterk hindert.",
       "regels": [
-        { "volgorde": "1", "deel van de weg": "Trottoir of deel met bord D9, D10 of D11" },
-        { "volgorde": "2", "deel van de weg": "Deel met bord D13 (verplichte weg voor ruiters)" },
-        { "volgorde": "3", "deel van de weg": "Verhoogde berm" },
-        { "volgorde": "4", "deel van de weg": "Gelijkgrondse berm" },
-        { "volgorde": "5", "deel van de weg": "Parkeerstrook" },
-        { "volgorde": "6", "deel van de weg": "Zijdelingse strook" },
-        { "volgorde": "7", "deel van de weg": "Fietspad" },
-        { "volgorde": "8", "deel van de weg": "Rijbaan" }
+        {
+          "volgorde": "1",
+          "deel van de weg": "Trottoir of deel met bord D9, D10 of D11"
+        },
+        {
+          "volgorde": "2",
+          "deel van de weg": "Deel met bord D13 (verplichte weg voor ruiters)"
+        },
+        {
+          "volgorde": "3",
+          "deel van de weg": "Verhoogde berm"
+        },
+        {
+          "volgorde": "4",
+          "deel van de weg": "Gelijkgrondse berm"
+        },
+        {
+          "volgorde": "5",
+          "deel van de weg": "Parkeerstrook"
+        },
+        {
+          "volgorde": "6",
+          "deel van de weg": "Zijdelingse strook"
+        },
+        {
+          "volgorde": "7",
+          "deel van de weg": "Fietspad"
+        },
+        {
+          "volgorde": "8",
+          "deel van de weg": "Rijbaan"
+        }
+      ],
+      "paginas": [
+        {
+          "titel": "Eerste keuzes",
+          "rijen": [
+            0,
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "titel": "Laatste keuzes",
+          "rijen": [
+            4,
+            5,
+            6,
+            7
+          ]
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Links lopen op de rijbaan", "tekst": "Als voetgangers de rijbaan of een zijdelingse strook moeten gebruiken, lopen ze links in hun looprichting, zodat ze het verkeer zien aankomen. Alleen om veiligheidsredenen gaan ze rechts." },
-        { "type": "tip", "titel": "Groepen", "tekst": "Stoeten, processies en groepen voetgangers met een leider mogen de rijbaan volgen en lopen dan rechts. Een groep van minstens vijf personen met leider mag ook links lopen, maar dan achter elkaar." }
+        {
+          "type": "regel",
+          "titel": "Links lopen op de rijbaan",
+          "tekst": "Als voetgangers de rijbaan of een zijdelingse strook moeten gebruiken, lopen ze links in hun looprichting, zodat ze het verkeer zien aankomen. Alleen om veiligheidsredenen gaan ze rechts.",
+          "kort": "Op de rijbaan lopen voetgangers links, rechts enkel om veiligheid."
+        },
+        {
+          "type": "tip",
+          "titel": "Groepen",
+          "tekst": "Stoeten, processies en groepen voetgangers met een leider mogen de rijbaan volgen en lopen dan rechts. Een groep van minstens vijf personen met leider mag ook links lopen, maar dan achter elkaar.",
+          "kort": "Groepen met leider: rechts, of links achter elkaar vanaf vijf."
+        }
       ],
       "uitzonderingen": [
         "Groepen van minstens 5 voetgangers met een leider mogen links van de rijbaan lopen, in dat geval achter elkaar."
       ],
-      "afbeeldingen": ["D9", "D10", "D11", "D13"],
-      "bronnen": ["KWET-001", "KWET-006"]
+      "afbeeldingen": [
+        "D9",
+        "D10",
+        "D11",
+        "D13"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-006"
+      ]
     },
     {
       "id": "voetganger-oversteken",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Hoe steekt een voetganger over?",
+      "titelKort": "Voetganger oversteken",
+      "kort": [
+        "Haaks oversteken",
+        "Zebrapad binnen ongeveer 20 meter: gebruiken",
+        "Rood: niet de rijbaan op",
+        "Agent of licht: bevelen volgen",
+        "Zonder regeling: voorzichtig oversteken"
+      ],
       "uitleg": "Een voetganger steekt de rijbaan veilig en vooral recht over.\n\n- Steek **haaks** op de asrichting van de weg over en blijf niet nodeloos op de rijbaan staan of slenteren.\n- Is er op minder dan ongeveer **20 meter** een oversteekplaats voor voetgangers (zebrapad), dan moet je die gebruiken.\n- Waar tweekleurige voetgangerslichten staan, wacht je op groen. Rood betekent: niet de rijbaan op.\n- Waar het verkeer geregeld wordt door een agent of door gewone verkeerslichten, volg je hun bevelen.\n- Waar niets het verkeer regelt, ga je enkel voorzichtig de rijbaan op en let je op naderende voertuigen.\n- Bij een oversteekplaats waar een tram- of spoorbedding doorloopt, mag je niet oversteken als een tram nadert (tenzij een licht het toelaat).",
       "regels": [
-        { "situatie": "Zebrapad op minder dan ca. 20 m", "voetganger moet": "het zebrapad gebruiken" },
-        { "situatie": "Tweekleurige voetgangerslichten", "voetganger moet": "wachten op groen; rood = verboden de rijbaan op te gaan" },
-        { "situatie": "Agent of gewone verkeerslichten", "voetganger moet": "de bevelen of lichten volgen" },
-        { "situatie": "Geen regeling", "voetganger moet": "voorzichtig oversteken, rekening houdend met naderende voertuigen" },
-        { "situatie": "Zebrapad met tramsporen, tram nadert", "voetganger moet": "wachten, tenzij een licht hem toelaat over te steken" }
+        {
+          "situatie": "Zebrapad op minder dan ca. 20 m",
+          "voetganger moet": "het zebrapad gebruiken"
+        },
+        {
+          "situatie": "Tweekleurige voetgangerslichten",
+          "voetganger moet": "wachten op groen; rood = verboden de rijbaan op te gaan"
+        },
+        {
+          "situatie": "Agent of gewone verkeerslichten",
+          "voetganger moet": "de bevelen of lichten volgen"
+        },
+        {
+          "situatie": "Geen regeling",
+          "voetganger moet": "voorzichtig oversteken, rekening houdend met naderende voertuigen"
+        },
+        {
+          "situatie": "Zebrapad met tramsporen, tram nadert",
+          "voetganger moet": "wachten, tenzij een licht hem toelaat over te steken"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "20 meter", "tekst": "De afstand waarbinnen je een oversteekplaats moet gebruiken, is sinds 2019 teruggebracht van 30 naar ongeveer 20 meter." },
-        { "type": "letop", "titel": "Groen knipperend", "tekst": "Het groene voetgangerslicht kan gaan knipperen om aan te kondigen dat de toelating om over te steken bijna afloopt." }
+        {
+          "type": "regel",
+          "titel": "20 meter",
+          "tekst": "De afstand waarbinnen je een oversteekplaats moet gebruiken, is sinds 2019 teruggebracht van 30 naar ongeveer 20 meter.",
+          "kort": "Binnen ongeveer 20 meter van een zebrapad moet je het gebruiken."
+        },
+        {
+          "type": "letop",
+          "titel": "Groen knipperend",
+          "tekst": "Het groene voetgangerslicht kan gaan knipperen om aan te kondigen dat de toelating om over te steken bijna afloopt.",
+          "kort": "Groen knippert: oversteektijd bijna voorbij."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F49", "schema-zebrapad", "schema-voetgangerslichten"],
-      "bronnen": ["KWET-001", "KWET-002"]
+      "afbeeldingen": [
+        "F49",
+        "schema-zebrapad",
+        "schema-voetgangerslichten"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-002"
+      ]
     },
     {
       "id": "zebrapad-voorrang-bestuurder",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Zebrapad: wat moet de bestuurder doen?",
+      "titelKort": "Zebrapad en bestuurder",
+      "kort": [
+        "Nader met matige snelheid",
+        "Voetgangers erop of ertegen: voorrang",
+        "Licht of agent: voetganger laten uitlopen",
+        "Niet oprijden als je moet stilstaan",
+        "Niet links voorbijrijden bij stoppende voorligger",
+        "Stilstaan en parkeren verboden"
+      ],
       "uitleg": "Een zebrapad (oversteekplaats voor voetgangers) is afgebakend door witte banden evenwijdig met de as van de rijbaan en wordt vaak aangegeven met bord F49 en waarschuwingsbord A21.\n\n**Waar geen agent of verkeerslicht het verkeer regelt:**\n- Je nadert het zebrapad met **matige snelheid**.\n- Je **verleent voorrang** aan voetgangers die op het zebrapad staan of op het punt staan er op te stappen.\n\n**Waar wel een agent of verkeerslicht is:**\n- Voetgangers die regelmatig zijn begonnen mogen hun oversteek met normale gang afmaken, ook al wordt het ondertussen groen voor jou.\n- Staat het licht op rood voor jou, dan stop je voor het zebrapad.\n\n**Altijd:**\n- Rijd een zebrapad niet op als je in de file waarschijnlijk op het zebrapad zou moeten stilstaan.\n- Stilstaan en parkeren is verboden op een oversteekplaats en op de rijbaan binnen 5 meter ervoor.\n- Links inhalen is verboden als de bestuurder voor je stopt voor een zebrapad of er (zonder regeling) aan nadert.",
       "regels": [
-        { "situatie": "Zebrapad zonder agent of licht", "bestuurder": "matig naderen en voorrang verlenen aan voetgangers erop of op het punt erop te stappen" },
-        { "situatie": "Zebrapad met licht, voetganger is al op weg", "bestuurder": "de voetganger laten oversteken met normale gang" },
-        { "situatie": "Licht of agent sluit het verkeer in jouw richting", "bestuurder": "stoppen voor het zebrapad" },
-        { "situatie": "Verkeer staat vast voorbij het zebrapad", "bestuurder": "niet op het zebrapad rijden (je zou erop moeten stoppen)" },
-        { "situatie": "Voorligger stopt voor zebrapad (zonder regeling)", "bestuurder": "niet links inhalen" },
-        { "situatie": "Stilstaan of parkeren", "bestuurder": "verboden op het zebrapad en op minder dan 5 m ervoor" }
+        {
+          "situatie": "Zebrapad zonder agent of licht",
+          "bestuurder": "matig naderen en voorrang verlenen aan voetgangers erop of op het punt erop te stappen"
+        },
+        {
+          "situatie": "Zebrapad met licht, voetganger is al op weg",
+          "bestuurder": "de voetganger laten oversteken met normale gang"
+        },
+        {
+          "situatie": "Licht of agent sluit het verkeer in jouw richting",
+          "bestuurder": "stoppen voor het zebrapad"
+        },
+        {
+          "situatie": "Verkeer staat vast voorbij het zebrapad",
+          "bestuurder": "niet op het zebrapad rijden (je zou erop moeten stoppen)"
+        },
+        {
+          "situatie": "Voorligger stopt voor zebrapad (zonder regeling)",
+          "bestuurder": "niet links inhalen"
+        },
+        {
+          "situatie": "Stilstaan of parkeren",
+          "bestuurder": "verboden op het zebrapad en op minder dan 5 m ervoor"
+        }
       ],
       "kaders": [
-        { "type": "zwarefout", "titel": "Niet voorrang verlenen aan voetgangers", "tekst": "Wie voetgangers op een zebrapad niet laat voorgaan, brengt hen in gevaar." },
-        { "type": "letop", "titel": "Voorbijrijden is geen oplossing", "tekst": "Als een voertuig voor een zebrapad stopt, kan het zijn dat het voor een overstekende voetganger stopt die jij niet ziet. Rij er dus niet langs." },
-        { "type": "tip", "titel": "Zicht", "tekst": "Wees extra attent bij een bus of grote auto die voor het zebrapad staat: ze kunnen voetgangers aan het zicht onttrekken." }
+        {
+          "type": "zwarefout",
+          "titel": "Niet voorrang verlenen aan voetgangers",
+          "tekst": "Wie voetgangers op een zebrapad niet laat voorgaan, brengt hen in gevaar.",
+          "kort": "Voetgangers niet laten voorgaan brengt hen in gevaar."
+        },
+        {
+          "type": "letop",
+          "titel": "Voorbijrijden is geen oplossing",
+          "tekst": "Als een voertuig voor een zebrapad stopt, kan het zijn dat het voor een overstekende voetganger stopt die jij niet ziet. Rij er dus niet langs.",
+          "kort": "Stopt iemand voor het zebrapad, rij er dan niet langs."
+        },
+        {
+          "type": "tip",
+          "titel": "Zicht",
+          "tekst": "Wees extra attent bij een bus of grote auto die voor het zebrapad staat: ze kunnen voetgangers aan het zicht onttrekken.",
+          "kort": "Let op bus of grote auto die zicht ontneemt."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F49", "A21", "schema-zebrapad"],
-      "bronnen": ["KWET-001", "KWET-005"]
+      "afbeeldingen": [
+        "F49",
+        "A21",
+        "schema-zebrapad"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-005"
+      ]
     },
     {
       "id": "zebrapad-fietsers-en-steps",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Zebrapad en fietsers: wie heeft voorrang?",
+      "titelKort": "Zebrapad en fietsers",
+      "kort": [
+        "Zebrapad is voor voetgangers",
+        "Rijdende fietser heeft geen voorrang",
+        "Wil je voorrang? Stap af",
+        "Voetgangers hindert hij niet",
+        "Fietsoversteek is iets anders"
+      ],
       "uitleg": "De voorrang op een zebrapad is er voor **voetgangers**. Een fietser mag een zebrapad wel overrijden, maar heeft er geen voorrang.\n\n- Wil je als fietser voorrang? Stap af en leid je fiets aan de hand: dan ben je voetganger.\n- Een fietser die op een zebrapad voetgangers hindert, moet hen laten voorgaan.\n- Voor gemotoriseerde voortbewegingstoestellen (zoals een e-step) is dat net zo: gelijkgesteld met fietsers.\n\nHet **zebrapad (witte banden)** is dus iets anders dan de **fietsoversteekplaats** (twee onderbroken lijnen van witte blokjes).",
       "regels": [
-        { "oversteekplaats": "Zebrapad (brede witte banden)", "voor": "voetgangers", "voorrang?": "ja, voor voetgangers; fietser rijdend: nee" },
-        { "oversteekplaats": "Fietsoversteekplaats (onderbroken witte blokjes)", "voor": "fietsers en tweewielige bromfietsen", "voorrang?": "niet door de oversteekplaats zelf; bestuurder moet wel matig naderen en zo nodig stoppen" }
+        {
+          "oversteekplaats": "Zebrapad (brede witte banden)",
+          "voor": "voetgangers",
+          "voorrang?": "ja, voor voetgangers; fietser rijdend: nee"
+        },
+        {
+          "oversteekplaats": "Fietsoversteekplaats (onderbroken witte blokjes)",
+          "voor": "fietsers en tweewielige bromfietsen",
+          "voorrang?": "niet door de oversteekplaats zelf; bestuurder moet wel matig naderen en zo nodig stoppen"
+        }
       ],
       "kaders": [
-        { "type": "zwarefout", "titel": "'Ik rijd gewoon over'", "tekst": "Voetgangers hebben op een zebrapad voorrang; een fietser die doorrijdt, moet hen laten voorgaan." },
-        { "type": "tip", "titel": "Examenvraag", "tekst": "Let op het onderscheid tussen een oversteekplaats voor voetgangers (zebrapad, bord F49) en een oversteekplaats voor fietsers (bord F50, onderbroken blokjes)." }
+        {
+          "type": "zwarefout",
+          "titel": "'Ik rijd gewoon over'",
+          "tekst": "Voetgangers hebben op een zebrapad voorrang; een fietser die doorrijdt, moet hen laten voorgaan.",
+          "kort": "Een doorrijdende fietser laat voetgangers voorgaan."
+        },
+        {
+          "type": "tip",
+          "titel": "Examenvraag",
+          "tekst": "Let op het onderscheid tussen een oversteekplaats voor voetgangers (zebrapad, bord F49) en een oversteekplaats voor fietsers (bord F50, onderbroken blokjes).",
+          "kort": "Zebrapad en fietsoversteekplaats zijn verschillend."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F49", "F50", "schema-zebrapad", "schema-fietsoversteekplaats"],
-      "bronnen": ["KWET-001", "KWET-005"]
+      "afbeeldingen": [
+        "F49",
+        "F50",
+        "schema-zebrapad",
+        "schema-fietsoversteekplaats"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-005"
+      ]
     },
     {
       "id": "afslaan-voorrang-voetgangers",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Afslaan: voorrang aan voetgangers en fietsers",
+      "titelKort": "Afslaan en voetgangers",
+      "kort": [
+        "Afslaan: voorrang aan voetgangers in de zijstraat",
+        "Voorrang aan fietsers op fietspad of trottoir",
+        "Controleer de dode hoek",
+        "Rechts afslaan: matige snelheid",
+        "Dicht bij de rechterrand"
+      ],
       "uitleg": "Wie van richting verandert (links of rechts afslaat), moet voorrang verlenen aan wie de andere delen van dezelfde weg gebruikt, en aan voetgangers die de weg oversteken waar je binnenrijdt.\n\n- Sla je af naar een zijstraat, dan laat je **voetgangers die die zijstraat oversteken** eerst voorbij, ook zonder zebrapad.\n- Je laat fietsers en voetgangers voorgaan die het **fietspad of trottoir** volgen en dat jij oversteekt (bijvoorbeeld bij een inrit of een zijstraat).\n- Controleer zeker de **dode hoek**, vooral rechts, vóór je rechts afslaat: daar kan een fietser of voetganger zitten.\n- Rechts afslaan: richtingaanwijzer, zo dicht mogelijk bij de rechterrand, matige snelheid.",
       "regels": [
-        { "wat je doet": "Rechts of links afslaan", "voorrang aan": "voetgangers die de weg oversteken waar je binnenrijdt" },
-        { "wat je doet": "Afslaan en daarbij een fietspad of trottoir oversteken", "voorrang aan": "fietsers, voetgangers en anderen die het fietspad of trottoir volgen" },
-        { "wat je doet": "Van richting veranderen", "voorrang aan": "bestuurders en voetgangers op de andere delen van dezelfde weg (bv. fietspad)" }
+        {
+          "wat je doet": "Rechts of links afslaan",
+          "voorrang aan": "voetgangers die de weg oversteken waar je binnenrijdt"
+        },
+        {
+          "wat je doet": "Afslaan en daarbij een fietspad of trottoir oversteken",
+          "voorrang aan": "fietsers, voetgangers en anderen die het fietspad of trottoir volgen"
+        },
+        {
+          "wat je doet": "Van richting veranderen",
+          "voorrang aan": "bestuurders en voetgangers op de andere delen van dezelfde weg (bv. fietspad)"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Nooit afsnijden", "tekst": "Wie afslaat naar rechts blijft zo dicht mogelijk bij de rechterrand en neemt de bocht met matige snelheid." },
-        { "type": "letop", "titel": "Fietser op het fietspad rechts van jou", "tekst": "Een fietser die rechtdoor rijdt op het fietspad, heeft voorrang op de auto die rechts afslaat. Kijk dus altijd in je rechterspiegel en over je schouder voor je afslaat." },
-        { "type": "zwarefout", "titel": "Rechtsaf zonder kijken", "tekst": "Rechts afslaan zonder te controleren of er fietsers of voetgangers aankomen, brengt hen ernstig in gevaar." }
+        {
+          "type": "regel",
+          "titel": "Nooit afsnijden",
+          "tekst": "Wie afslaat naar rechts blijft zo dicht mogelijk bij de rechterrand en neemt de bocht met matige snelheid.",
+          "kort": "Rechts afslaan: matig en dicht bij de rechterrand."
+        },
+        {
+          "type": "letop",
+          "titel": "Fietser op het fietspad rechts van jou",
+          "tekst": "Een fietser die rechtdoor rijdt op het fietspad, heeft voorrang op de auto die rechts afslaat. Kijk dus altijd in je rechterspiegel en over je schouder voor je afslaat.",
+          "kort": "Rechtdoorrijdende fietser heeft voorrang: kijk in spiegel en over schouder."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Rechtsaf zonder kijken",
+          "tekst": "Rechts afslaan zonder te controleren of er fietsers of voetgangers aankomen, brengt hen ernstig in gevaar.",
+          "kort": "Rechtsaf zonder kijken brengt fietsers en voetgangers in gevaar."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-afslaan-voetgangers", "schema-dode-hoek", "F50bis"],
-      "bronnen": ["KWET-001", "KWET-007"]
+      "afbeeldingen": [
+        "schema-afslaan-voetgangers",
+        "schema-dode-hoek",
+        "F50bis"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-007"
+      ]
     },
     {
       "id": "voetgangers-kinderen-handicap",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Kinderen, ouderen en personen met een handicap",
+      "titelKort": "Kinderen en beperkten",
+      "kort": [
+        "Dubbel voorzichtig",
+        "Witte of gele stok: blinde of slechtziende",
+        "Vertragen en zo nodig stoppen",
+        "Groep onder leiding niet doorbreken",
+        "Stilstaande bus of tram: stoppen bij in- en uitstappen"
+      ],
       "uitleg": "Voor sommige groepen voetgangers moet je extra goed opletten.\n\n- Wees **dubbel voorzichtig** bij kinderen, bejaarden en personen met een handicap, zeker bij blinden met een **witte of gele stok** en bij mensen in een elektrische rolstoel die niet sneller dan stapvoets kan.\n- Vertraag en stop zo nodig.\n- Een groep kinderen, scholieren, personen met een handicap of bejaarden die in rijen met een leider loopt, of die onder toezicht oversteekt, mag je **niet doorbreken**.\n- Volg de aanwijzingen van gemachtigde opzichters (schoolbrigadiers) die met een rond bord (C3) het verkeer stilleggen.\n- Staat een bus of tram stil om reizigers te laten in- of uitstappen? Matig je snelheid. Is er geen vluchtheuvel, dan stop je tot het in- en uitstappen voorbij is en vertrek je daarna met matige snelheid.",
       "regels": [
-        { "situatie": "Kinderen, bejaarden, personen met een handicap", "bestuurder": "dubbel voorzichtig, vertragen, zo nodig stoppen" },
-        { "situatie": "Blinde met witte of gele stok", "bestuurder": "dubbel voorzichtig, vertragen, zo nodig stoppen" },
-        { "situatie": "Groep onder leiding of onder toezicht van een opzichter", "bestuurder": "de groep niet doorbreken, aanwijzingen opvolgen" },
-        { "situatie": "Opzichter toont bord C3", "bestuurder": "verkeer staat stil" },
-        { "situatie": "Stilstaande bus of tram met in- of uitstappende reizigers, geen vluchtheuvel", "bestuurder": "stoppen tot ze veilig op het trottoir of de berm zijn" }
+        {
+          "situatie": "Kinderen, bejaarden, personen met een handicap",
+          "bestuurder": "dubbel voorzichtig, vertragen, zo nodig stoppen"
+        },
+        {
+          "situatie": "Blinde met witte of gele stok",
+          "bestuurder": "dubbel voorzichtig, vertragen, zo nodig stoppen"
+        },
+        {
+          "situatie": "Groep onder leiding of onder toezicht van een opzichter",
+          "bestuurder": "de groep niet doorbreken, aanwijzingen opvolgen"
+        },
+        {
+          "situatie": "Opzichter toont bord C3",
+          "bestuurder": "verkeer staat stil"
+        },
+        {
+          "situatie": "Stilstaande bus of tram met in- of uitstappende reizigers, geen vluchtheuvel",
+          "bestuurder": "stoppen tot ze veilig op het trottoir of de berm zijn"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Witte of gele stok", "tekst": "Wie een witte of gele stok draagt, is blind of slechtziend. Zie je zo'n persoon, dan vertraag je en stop je zo nodig." },
-        { "type": "letop", "titel": "Kinderen zijn onvoorspelbaar", "tekst": "Kinderen kunnen plots tussen geparkeerde auto's de rijbaan op rennen. Verminder je snelheid in de buurt van scholen en speelplaatsen." }
+        {
+          "type": "regel",
+          "titel": "Witte of gele stok",
+          "tekst": "Wie een witte of gele stok draagt, is blind of slechtziend. Zie je zo'n persoon, dan vertraag je en stop je zo nodig.",
+          "kort": "Witte of gele stok: vertragen en zo nodig stoppen."
+        },
+        {
+          "type": "letop",
+          "titel": "Kinderen zijn onvoorspelbaar",
+          "tekst": "Kinderen kunnen plots tussen geparkeerde auto's de rijbaan op rennen. Verminder je snelheid in de buurt van scholen en speelplaatsen.",
+          "kort": "Kinderen kunnen plots tussen auto's oversteken: vertraag bij scholen."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["A23", "C3"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "A23",
+        "C3"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     },
     {
       "id": "voetgangers-afstand-hindernis",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Voetgangers op de rijbaan: afstand en hindernissen",
+      "titelKort": "Afstand tot voetgangers",
+      "kort": [
+        "Binnen de bebouwde kom: 1 meter",
+        "Buiten de bebouwde kom: 1,5 meter",
+        "Lukt dat niet: stapvoets",
+        "Bij hindernis: 1 meter ruimte laten",
+        "Zo nodig stoppen"
+      ],
       "uitleg": "Soms lopen voetgangers wettelijk op de rijbaan (bijvoorbeeld als er geen trottoir is). Dan gelden afstandsregels.\n\n- Houd een zijdelingse afstand van minstens **1 meter** binnen de bebouwde kom en minstens **1,5 meter** buiten de bebouwde kom.\n- Kan dat niet, rij dan **stapvoets** en stop zo nodig.\n- Moeten voetgangers op de rijbaan een hindernis (bv. een geparkeerde auto of een werf) omzeilen, dan laat je daarlangs minstens **1 meter** vrije ruimte. Lukt dat niet en loopt er een voetganger ter hoogte van de hindernis, dan passeer je niet sneller dan stapvoets.",
       "regels": [
-        { "plaats": "Binnen de bebouwde kom", "minimale zijdelingse afstand tot voetganger op rijbaan": "1 m" },
-        { "plaats": "Buiten de bebouwde kom", "minimale zijdelingse afstand tot voetganger op rijbaan": "1,5 m" },
-        { "plaats": "Hindernis waar voetgangers omheen moeten", "minimale zijdelingse afstand tot voetganger op rijbaan": "1 m vrije ruimte, anders stapvoets" }
+        {
+          "plaats": "Binnen de bebouwde kom",
+          "minimale zijdelingse afstand tot voetganger op rijbaan": "1 m"
+        },
+        {
+          "plaats": "Buiten de bebouwde kom",
+          "minimale zijdelingse afstand tot voetganger op rijbaan": "1,5 m"
+        },
+        {
+          "plaats": "Hindernis waar voetgangers omheen moeten",
+          "minimale zijdelingse afstand tot voetganger op rijbaan": "1 m vrije ruimte, anders stapvoets"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Niet haalbaar? Stapvoets.", "tekst": "Kun je de minimumafstand niet houden, dan mag je enkel stapvoets rijden en moet je zo nodig stoppen." }
+        {
+          "type": "regel",
+          "titel": "Niet haalbaar? Stapvoets.",
+          "tekst": "Kun je de minimumafstand niet houden, dan mag je enkel stapvoets rijden en moet je zo nodig stoppen.",
+          "kort": "Afstand niet haalbaar: stapvoets en zo nodig stoppen."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-zijdelingse-afstand"],
-      "bronnen": ["KWET-001", "KWET-002"]
+      "afbeeldingen": [
+        "schema-zijdelingse-afstand"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-002"
+      ]
     },
     {
       "id": "voetgangerszone-speelstraat-woonerf",
-      "curriculum": ["T17"],
+      "curriculum": [
+        "T17"
+      ],
       "titel": "Voetgangerszone, woonerf, speelstraat en schoolstraat",
+      "titelKort": "Zones voor voetgangers",
+      "kort": [
+        "Voetgangerszone: stapvoets",
+        "Woonerf: maximum 20 km/u",
+        "Speelstraat: stapvoets",
+        "Schoolstraat: stapvoets",
+        "Voetgangers en spelers gaan voor"
+      ],
       "uitleg": "Op sommige wegen is de voetganger de baas. De regels verschillen per zone.\n\n**Voetgangerszone (F103 begin, F105 einde):**\n- Alleen voetgangers hebben toegang, met een lijst uitzonderingen (bijvoorbeeld hulpdiensten, openbaar vervoer, bewoners met vrije-doorgangskaart, laden en lossen of fietsers als een bord dat toelaat).\n- Voetgangers mogen de volledige breedte gebruiken. Wie er mag rijden, doet dat **stapvoets**, laat voetgangers voor en stopt zo nodig.\n- Fietsers die er mogen rijden, stappen af als het te druk is.\n- Parkeren is verboden.\n\n**Woonerf en erf (F12a begin, F12b einde):**\n- Voetgangers mogen de hele breedte gebruiken en er spelen is toegestaan.\n- Maximumsnelheid **20 km/u**; bestuurders mogen voetgangers niet in gevaar brengen of hinderen en zijn dubbel voorzichtig bij kinderen.\n- Parkeren mag enkel op aangeduide plaatsen.\n\n**Speelstraat (bord C3 met onderbord 'speelstraat'):**\n- De hele breedte is voorbehouden voor spelen, vooral door kinderen. Spelende personen zijn gelijkgesteld met voetgangers.\n- Toegang hebben alleen bewoners met motorvoertuig (of wie er een garage heeft), prioritaire voertuigen, voertuigen met vergunning en fietsers.\n- Wie er rijdt, doet dat **stapvoets**, laat spelers voor en stopt zo nodig. Fietsers stappen zo nodig af.\n\n**Schoolstraat (C3 met onderbord 'schoolstraat'):**\n- Tijdelijk alleen voetgangers, rijwielen en speed pedelecs. Prioritaire voertuigen en voertuigen met een vergunning hebben ook toegang. Wie er rijdt, doet dat stapvoets en laat voetgangers en fietsers voorgaan.\n\n**Wegen voorbehouden voor voetgangers, fietsers, ruiters en speed pedelecs (F99a/F101a):**\n- Alleen de afgebeelde categorieën. Max. 30 km/u. Gebruikers mogen elkaar niet hinderen en zijn dubbel voorzichtig voor kinderen.",
       "regels": [
-        { "zone": "Voetgangerszone (F103-F105)", "snelheid": "stapvoets", "voetgangers": "mogen de volledige breedte gebruiken" },
-        { "zone": "Woonerf of erf (F12a-F12b)", "snelheid": "max. 20 km/u", "voetgangers": "mogen de volledige breedte gebruiken, spelen toegelaten" },
-        { "zone": "Speelstraat (C3 met onderbord)", "snelheid": "stapvoets", "voetgangers": "spelers hebben voorrang; hele breedte voorbehouden voor spel" },
-        { "zone": "Schoolstraat (C3 met onderbord)", "snelheid": "stapvoets", "voetgangers": "voetgangers en fietsers hebben voorrang" },
-        { "zone": "Weg voor voetgangers, fietsers, ruiters, speed pedelecs (F99a-F101a)", "snelheid": "max. 30 km/u", "voetgangers": "mogen hele breedte gebruiken, dubbel voorzichtig voor kinderen" }
+        {
+          "zone": "Voetgangerszone (F103-F105)",
+          "snelheid": "stapvoets",
+          "voetgangers": "mogen de volledige breedte gebruiken"
+        },
+        {
+          "zone": "Woonerf of erf (F12a-F12b)",
+          "snelheid": "max. 20 km/u",
+          "voetgangers": "mogen de volledige breedte gebruiken, spelen toegelaten"
+        },
+        {
+          "zone": "Speelstraat (C3 met onderbord)",
+          "snelheid": "stapvoets",
+          "voetgangers": "spelers hebben voorrang; hele breedte voorbehouden voor spel"
+        },
+        {
+          "zone": "Schoolstraat (C3 met onderbord)",
+          "snelheid": "stapvoets",
+          "voetgangers": "voetgangers en fietsers hebben voorrang"
+        },
+        {
+          "zone": "Weg voor voetgangers, fietsers, ruiters, speed pedelecs (F99a-F101a)",
+          "snelheid": "max. 30 km/u",
+          "voetgangers": "mogen hele breedte gebruiken, dubbel voorzichtig voor kinderen"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Bestuurders passen zich aan", "tekst": "In deze zones moet de bestuurder voetgangers steeds laten voorgaan en zo nodig stoppen. Voetgangers mogen het verkeer wel niet nodeloos belemmeren." },
-        { "type": "letop", "titel": "Spelen op straat", "tekst": "In een woonerf, voetgangerszone en speelstraat mag er gespeeld worden. Wees dubbel voorzichtig voor kinderen." },
-        { "type": "tip", "titel": "Snelheden onthouden", "tekst": "Woonerf = 20 km/u. Zone 30 = 30 km/u. Voetgangerszone en speelstraat = stapvoets." }
+        {
+          "type": "regel",
+          "titel": "Bestuurders passen zich aan",
+          "tekst": "In deze zones moet de bestuurder voetgangers steeds laten voorgaan en zo nodig stoppen. Voetgangers mogen het verkeer wel niet nodeloos belemmeren.",
+          "kort": "Voetgangers laten voorgaan en zo nodig stoppen."
+        },
+        {
+          "type": "letop",
+          "titel": "Spelen op straat",
+          "tekst": "In een woonerf, voetgangerszone en speelstraat mag er gespeeld worden. Wees dubbel voorzichtig voor kinderen.",
+          "kort": "Kinderen mogen spelen: wees dubbel voorzichtig."
+        },
+        {
+          "type": "tip",
+          "titel": "Snelheden onthouden",
+          "tekst": "Woonerf = 20 km/u. Zone 30 = 30 km/u. Voetgangerszone en speelstraat = stapvoets.",
+          "kort": "Woonerf 20, zone 30, voetgangerszone en speelstraat stapvoets."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F103", "F105", "F12a", "F12b", "C3", "F99a", "F101a", "F4a"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "F103",
+        "F105",
+        "F12a",
+        "F12b",
+        "C3",
+        "F99a",
+        "F101a",
+        "F4a"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     },
     {
       "id": "portier-openen",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Portier openen",
+      "titelKort": "Portier openen",
+      "kort": [
+        "Eerst kijken, dan openen",
+        "Spiegel plus schouderblik",
+        "Let op fietsers en voetgangers",
+        "Ook niet open laten staan"
+      ],
       "uitleg": "Het openen van een autodeur kan een fietser of voetganger zwaar verwonden.\n\n- Je mag een portier **niet openen of open laten staan**, en niet in- of uitstappen, zonder je ervan te vergewissen dat je andere weggebruikers niet in gevaar brengt of hindert.\n- Let in het bijzonder op **voetgangers en bestuurders van tweewielers** (fietsers, bromfietsers, motorrijders).\n- Controleer de spiegel en kijk over je schouder voor je de deur opent.",
       "regels": [],
       "kaders": [
-        { "type": "regel", "titel": "Eerst kijken, dan openen", "tekst": "Voor je een portier opent, controleer je of er geen fietser, voetganger of ander voertuig aankomt." },
-        { "type": "zwarefout", "titel": "Plots een deur openen", "tekst": "Een deur openen zonder te kijken kan een fietser doen vallen; het is verboden." }
+        {
+          "type": "regel",
+          "titel": "Eerst kijken, dan openen",
+          "tekst": "Voor je een portier opent, controleer je of er geen fietser, voetganger of ander voertuig aankomt.",
+          "kort": "Controleer eerst of er niemand aankomt."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Plots een deur openen",
+          "tekst": "Een deur openen zonder te kijken kan een fietser doen vallen; het is verboden.",
+          "kort": "Zonder kijken een deur openen is verboden."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-portier"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "schema-portier"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     },
     {
       "id": "fietspad-verplichting",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Fietspad: wanneer moet je het volgen?",
+      "titelKort": "Fietspad volgen",
+      "kort": [
+        "Fietspad rechts van jou: volgen",
+        "Fietspad links: niet volgen",
+        "Mag verlaten om af te slaan of in te halen",
+        "Stilstaan en parkeren verboden",
+        "Gebruikers hinderen elkaar niet"
+      ],
       "uitleg": "Een **fietspad** is het deel van de openbare weg dat voorbehouden is voor fietsen en tweewielige bromfietsen klasse A. Het wordt aangeduid door de borden **D7** of **D9**, of door **twee evenwijdige onderbroken witte lijnen** (de strook is dan te smal voor autoverkeer). Een fietspad is geen deel van de rijbaan.\n\n- Is er een berijdbaar fietspad **rechts** in je rijrichting (gemarkeerd), dan **moet** je als fietser of bromfiets A het volgen. Ligt het links, dan volg je het niet.\n- Bij een fietspad met bord D7 of D9 moet je het volgen als het in jouw rijrichting is aangeduid. Ligt het links en rechtvaardigen bijzondere omstandigheden het, dan mag je op de rijbaan rechts rijden.\n- Bord **D10** duidt een deel aan dat voor voetgangers en fietsers is bestemd: fietsers volgen dit deel.\n- Je mag het fietspad verlaten om van richting te veranderen, om in te halen of om een hindernis te omzeilen.\n- Gebruikers van het fietspad mogen elkaar niet hinderen of in gevaar brengen en mogen geen gevaarlijk gedrag vertonen.\n- Voetgangers mogen het fietspad alleen gebruiken als er geen andere voetgangersdelen zijn; ze laten dan fietsers doorgaan.\n- Stilstaan en parkeren op het fietspad is verboden, ook op minder dan 5 m van de plaats waar fietsers het fietspad moeten verlaten of opnieuw oprijden.",
       "regels": [
-        { "bord of markering": "D7 (verplicht fietspad)", "betekenis": "voor fietsen en tweewielige bromfietsen A; volgen als het in jouw richting aangeduid is" },
-        { "bord of markering": "D9 (voetgangers, fietsen en bromfietsen A)", "betekenis": "gedeeld deel van de weg; fietsers en bromfietsen A moeten het volgen" },
-        { "bord of markering": "D10 (voetgangers en fietsers)", "betekenis": "fietsers volgen dit deel van de weg" },
-        { "bord of markering": "Twee onderbroken witte lijnen", "betekenis": "gemarkeerd fietspad; volgen als het rechts in jouw richting ligt" }
+        {
+          "bord of markering": "D7 (verplicht fietspad)",
+          "betekenis": "voor fietsen en tweewielige bromfietsen A; volgen als het in jouw richting aangeduid is"
+        },
+        {
+          "bord of markering": "D9 (voetgangers, fietsen en bromfietsen A)",
+          "betekenis": "gedeeld deel van de weg; fietsers en bromfietsen A moeten het volgen"
+        },
+        {
+          "bord of markering": "D10 (voetgangers en fietsers)",
+          "betekenis": "fietsers volgen dit deel van de weg"
+        },
+        {
+          "bord of markering": "Twee onderbroken witte lijnen",
+          "betekenis": "gemarkeerd fietspad; volgen als het rechts in jouw richting ligt"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Mag je ervan af?", "tekst": "Je mag het fietspad verlaten om af te slaan, in te halen of om een hindernis te omzeilen. Daarna keer je terug." },
-        { "type": "letop", "titel": "Fietspad links", "tekst": "Een fietspad dat links in jouw rijrichting ligt, hoef je niet te volgen." },
-        { "type": "zwarefout", "titel": "Parkeren op het fietspad", "tekst": "Stilstaan of parkeren op een fietspad is verboden." }
+        {
+          "type": "regel",
+          "titel": "Mag je ervan af?",
+          "tekst": "Je mag het fietspad verlaten om af te slaan, in te halen of om een hindernis te omzeilen. Daarna keer je terug.",
+          "kort": "Verlaten mag om af te slaan, in te halen of een hindernis te omzeilen."
+        },
+        {
+          "type": "letop",
+          "titel": "Fietspad links",
+          "tekst": "Een fietspad dat links in jouw rijrichting ligt, hoef je niet te volgen.",
+          "kort": "Een fietspad links van jou volg je niet."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Parkeren op het fietspad",
+          "tekst": "Stilstaan of parkeren op een fietspad is verboden.",
+          "kort": "Stilstaan of parkeren op het fietspad is verboden."
+        }
       ],
       "uitzonderingen": [
         "Een fietspad met D7 of D9 dat links ligt, hoeft niet gevolgd te worden als bijzondere omstandigheden dat rechtvaardigen en je rechts blijft rijden."
       ],
-      "afbeeldingen": ["D7", "D9", "D10", "schema-fietspad"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "D7",
+        "D9",
+        "D10",
+        "schema-fietspad"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     },
     {
       "id": "fietsers-zonder-fietspad",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Fietsen zonder fietspad en fietsersgedrag",
+      "titelKort": "Fietsen zonder fietspad",
+      "kort": [
+        "Rijbaan, dicht bij de rechterrand",
+        "Buiten bebouwde kom: ook trottoir of berm",
+        "Onder 10 jaar: altijd trottoir of berm",
+        "Twee naast elkaar mag",
+        "Met aanhangwagen: achter elkaar"
+      ],
       "uitleg": "Is er geen fietspad, dan gelden de volgende regels.\n\n- Fietsers volgen de **rijbaan**, zo dicht mogelijk bij de rechterrand.\n- Bestaan er gelijkgrondse bermen of parkeerstroken rechts in jouw rijrichting, dan mag je die volgen op voorwaarde rechts te rijden en voorrang te verlenen aan wie daar al is.\n- **Buiten de bebouwde kom** mogen fietsers ook het trottoir en de verhoogde berm volgen.\n- Kinderen jonger dan **10 jaar** mogen in alle omstandigheden op het trottoir en de verhoogde berm fietsen.\n- Op de rijbaan mogen fietsers **met twee naast elkaar** rijden, behalve wanneer kruisen niet mogelijk is. Buiten de bebouwde kom rijden ze achter elkaar als een voertuig van achteren nadert. Met een aanhangwagen aan de fiets rijd je steeds achter elkaar.\n- Verboden voor fietsers: rijden zonder het stuur vast te houden, zonder voeten op de pedalen, zich laten voorttrekken, of terwijl ze een dier aan een leiband houden.",
       "regels": [
-        { "situatie": "Geen fietspad", "fietser": "rijbaan, zo dicht mogelijk bij de rechterrand" },
-        { "situatie": "Buiten de bebouwde kom, geen fietspad", "fietser": "mag ook trottoir of verhoogde berm volgen" },
-        { "situatie": "Fietser jonger dan 10 jaar", "fietser": "mag altijd trottoir en verhoogde berm volgen" },
-        { "situatie": "Op de rijbaan", "fietser": "twee naast elkaar toegestaan, behalve als kruisen onmogelijk is of (buiten de bebouwde kom) bij achteropkomend verkeer" },
-        { "situatie": "Aanhangwagen aan de fiets", "fietser": "achter elkaar" }
+        {
+          "situatie": "Geen fietspad",
+          "fietser": "rijbaan, zo dicht mogelijk bij de rechterrand"
+        },
+        {
+          "situatie": "Buiten de bebouwde kom, geen fietspad",
+          "fietser": "mag ook trottoir of verhoogde berm volgen"
+        },
+        {
+          "situatie": "Fietser jonger dan 10 jaar",
+          "fietser": "mag altijd trottoir en verhoogde berm volgen"
+        },
+        {
+          "situatie": "Op de rijbaan",
+          "fietser": "twee naast elkaar toegestaan, behalve als kruisen onmogelijk is of (buiten de bebouwde kom) bij achteropkomend verkeer"
+        },
+        {
+          "situatie": "Aanhangwagen aan de fiets",
+          "fietser": "achter elkaar"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Fiets = rijwiel", "tekst": "Drie- en vierwielers die niet breder zijn dan 1 meter (bakfiets, gocart, handbike) worden met fietsen gelijkgesteld. Een elektrische fiets tot 25 km/u (hulpmotor tot 0,25 kW, uitgeschakeld bij 25 km/u) blijft een rijwiel." },
-        { "type": "tip", "titel": "Naast elkaar fietsen", "tekst": "Twee naast elkaar mag, maar laat auto's wel veilig voorbijsteken. Moet je kruisen, dan rijd je achter elkaar." }
+        {
+          "type": "regel",
+          "titel": "Fiets = rijwiel",
+          "tekst": "Drie- en vierwielers die niet breder zijn dan 1 meter (bakfiets, gocart, handbike) worden met fietsen gelijkgesteld. Een elektrische fiets tot 25 km/u (hulpmotor tot 0,25 kW, uitgeschakeld bij 25 km/u) blijft een rijwiel.",
+          "kort": "Drie- en vierwielers tot 1 meter breed tellen als fiets."
+        },
+        {
+          "type": "tip",
+          "titel": "Naast elkaar fietsen",
+          "tekst": "Twee naast elkaar mag, maar laat auto's wel veilig voorbijsteken. Moet je kruisen, dan rijd je achter elkaar.",
+          "kort": "Twee naast elkaar mag, maar laat auto's voorbij."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-fietspad"],
-      "bronnen": ["KWET-001", "KWET-002"]
+      "afbeeldingen": [
+        "schema-fietspad"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-002"
+      ]
     },
     {
       "id": "fietsers-voorrang-fietspad-oversteek",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Voorrang van fietsers op het fietspad en bij oversteekplaatsen",
+      "titelKort": "Voorrang bij fietspad",
+      "kort": [
+        "Fietspad kruisen: voorrang aan fietsers",
+        "Fietsoversteek geeft zelf geen voorrang",
+        "Bestuurder nadert matig",
+        "Niet oprijden in een file",
+        "Niet links voorbijrijden bij stoppende voorligger"
+      ],
       "uitleg": "**Doorlopend fietspad:** een bestuurder die een fietspad of trottoir oversteekt (bijvoorbeeld bij een inrit of bij het afslaan), moet voorrang verlenen aan de gebruikers van dat fietspad of trottoir.\n\n**Fietsoversteekplaats** (twee onderbroken witte lijnen van vierkantjes of parallellogrammen, soms met bord F50 of waarschuwingsbord A25):\n- Fietsers die op een fietspad rijden, moeten de fietsoversteekplaats gebruiken om de rijbaan over te steken, en begeven zich er **voorzichtig** op met inachtneming van naderende voertuigen. De oversteekplaats zelf geeft hen dus **geen** voorrang.\n- De bestuurder nadert met **matige snelheid**, zodat hij fietsers die al aan het oversteken zijn niet in gevaar brengt of hindert wanneer ze met normale snelheid hun oversteek afmaken, en stopt zo nodig.\n- Bij file mag de bestuurder een fietsoversteekplaats niet oprijden als hij er waarschijnlijk zou moeten stilstaan.\n- Stilstaan en parkeren is verboden op de oversteekplaats en op minder dan 5 m ervoor. Links inhalen van een voertuig dat voor de oversteekplaats stopt of nadert (waar geen agent of licht het verkeer regelt), is verboden.\n\nLet op: de voorrang van een fietser hangt af van het kruispunt (voorrang van rechts, voorrangsborden, verkeerslichten). Een fietsoversteekplaats alleen is geen voorrangsregel.",
       "regels": [
-        { "situatie": "Bestuurder steekt fietspad of trottoir over (inrit, afslaan)", "voorrang": "aan fietsers en voetgangers op dat fietspad of trottoir" },
-        { "situatie": "Fietser op fietsoversteekplaats", "voorrang": "geen eigen voorrang door de markering; fietser gaat voorzichtig; bestuurder nadert matig en stopt zo nodig" },
-        { "situatie": "File op het kruispunt", "voorrang": "fietsoversteekplaats vrijhouden, er niet op stilstaan" },
-        { "situatie": "Voorligger stopt voor fietsoversteekplaats", "voorrang": "niet links inhalen" }
+        {
+          "situatie": "Bestuurder steekt fietspad of trottoir over (inrit, afslaan)",
+          "voorrang": "aan fietsers en voetgangers op dat fietspad of trottoir"
+        },
+        {
+          "situatie": "Fietser op fietsoversteekplaats",
+          "voorrang": "geen eigen voorrang door de markering; fietser gaat voorzichtig; bestuurder nadert matig en stopt zo nodig"
+        },
+        {
+          "situatie": "File op het kruispunt",
+          "voorrang": "fietsoversteekplaats vrijhouden, er niet op stilstaan"
+        },
+        {
+          "situatie": "Voorligger stopt voor fietsoversteekplaats",
+          "voorrang": "niet links inhalen"
+        }
       ],
       "kaders": [
-        { "type": "letop", "titel": "Onderbroken blokjes = geen voorrang", "tekst": "Fietsers hebben op een fietsoversteekplaats met enkel onderbroken witte vierkantjes niet automatisch voorrang. Hun voorrang komt van de kruispuntregels, niet van de markering." },
-        { "type": "regel", "titel": "Voorrang geven bij oversteek", "tekst": "Als jij een fietspad of trottoir kruist, ben jij het die voorrang verleent aan wie het fietspad of trottoir volgt." },
-        { "type": "zwarefout", "titel": "Stilstaan op de oversteekplaats", "tekst": "Een oversteekplaats oprijden terwijl je daar waarschijnlijk zal moeten stilstaan (bijvoorbeeld in een file), is verboden." }
+        {
+          "type": "letop",
+          "titel": "Onderbroken blokjes = geen voorrang",
+          "tekst": "Fietsers hebben op een fietsoversteekplaats met enkel onderbroken witte vierkantjes niet automatisch voorrang. Hun voorrang komt van de kruispuntregels, niet van de markering.",
+          "kort": "Onderbroken blokjes geven niet automatisch voorrang."
+        },
+        {
+          "type": "regel",
+          "titel": "Voorrang geven bij oversteek",
+          "tekst": "Als jij een fietspad of trottoir kruist, ben jij het die voorrang verleent aan wie het fietspad of trottoir volgt.",
+          "kort": "Wie een fietspad of trottoir kruist, geeft voorrang."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Stilstaan op de oversteekplaats",
+          "tekst": "Een oversteekplaats oprijden terwijl je daar waarschijnlijk zal moeten stilstaan (bijvoorbeeld in een file), is verboden.",
+          "kort": "Oprijden terwijl je moet stilstaan is verboden."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F50", "A25", "schema-fietsoversteekplaats", "schema-afslaan-voetgangers"],
-      "bronnen": ["KWET-001", "KWET-004", "KWET-005"]
+      "afbeeldingen": [
+        "F50",
+        "A25",
+        "schema-fietsoversteekplaats",
+        "schema-afslaan-voetgangers"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-004",
+        "KWET-005"
+      ]
     },
     {
       "id": "fietsers-rotonde",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Fietsers op de rotonde",
+      "titelKort": "Fietsers op rotonde",
+      "kort": [
+        "Geen eigen voorrangsregel",
+        "Op de rotonde: voorrang op wie oprijdt",
+        "Verlaten: richtingaanwijzer verplicht",
+        "Fietspad kruisen: voorrang geven",
+        "Let op fietsers naast je"
+      ],
       "uitleg": "Een rotonde heeft geen eigen voorrangsregel voor fietsers: ze volgen de algemene regels.\n\n- Wie op de rotonde rijdt, heeft voorrang op wie de rotonde oprijdt (toegangswegen hebben bord B1 of B5).\n- Op een rotonde hoeft de bestuurder niet zo dicht mogelijk bij de rechterrand te rijden, behalve als een deel van de weg voor hem voorbehouden is (zoals een fietspad rond de rotonde).\n- Het **verlaten** van de rotonde is een richtingsverandering: gebruik de richtingaanwijzer (of arm). Het oprijden hoeft niet.\n- Een bestuurder die de rotonde verlaat of een fietspad oversteekt, moet voorrang verlenen aan wie dat fietspad volgt.\n- Wees als automobilist alert op fietsers rechts van of naast je op de rotonde, vooral wanneer je de rotonde verlaat.",
       "regels": [
-        { "situatie": "Je rijdt al op de rotonde", "voorrang": "ten opzichte van wie de rotonde oprijdt (toegang met B1 of B5)" },
-        { "situatie": "Je verlaat de rotonde", "voorrang": "richtingaanwijzer verplicht; voorrang geven aan wie een fietspad volgt dat je oversteekt" },
-        { "situatie": "Je rijdt de rotonde op", "voorrang": "richtingaanwijzer niet verplicht" }
+        {
+          "situatie": "Je rijdt al op de rotonde",
+          "voorrang": "ten opzichte van wie de rotonde oprijdt (toegang met B1 of B5)"
+        },
+        {
+          "situatie": "Je verlaat de rotonde",
+          "voorrang": "richtingaanwijzer verplicht; voorrang geven aan wie een fietspad volgt dat je oversteekt"
+        },
+        {
+          "situatie": "Je rijdt de rotonde op",
+          "voorrang": "richtingaanwijzer niet verplicht"
+        }
       ],
       "kaders": [
-        { "type": "letop", "titel": "Dode hoek bij het verlaten", "tekst": "Een fietser die op de rotonde naast je rijdt, bevindt zich bij het verlaten snel in je dode hoek. Kijk in je spiegel en over je schouder." }
+        {
+          "type": "letop",
+          "titel": "Dode hoek bij het verlaten",
+          "tekst": "Een fietser die op de rotonde naast je rijdt, bevindt zich bij het verlaten snel in je dode hoek. Kijk in je spiegel en over je schouder.",
+          "kort": "Naast je fietsende fietser zit snel in de dode hoek."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["B1", "schema-rotonde-fiets"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "B1",
+        "schema-rotonde-fiets"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     },
     {
       "id": "fietsers-door-rood-b22-b23",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Fietsers en verkeerslichten: B22, B23, opstelvak",
+      "titelKort": "Fietsers en lichten",
+      "kort": [
+        "Bord rechts: fietsers rechtsaf door rood",
+        "Bord rechtdoor: fietsers rechtdoor door rood",
+        "Altijd voorrang verlenen",
+        "Niet voor bromfietsen A en B",
+        "Opstelvak enkel bij rood"
+      ],
       "uitleg": "Fietsers en voetgangers hebben soms eigen lichten of bijzondere uitzonderingen.\n\n**Bord B22 en B23 (fietsers door het rood):**\n- Bord **B22**: fietsers en bestuurders van speed pedelecs mogen bij **rood of oranjegeel** licht naar **rechts** afslaan.\n- Bord **B23**: ze mogen bij rood of oranjegeel **rechtdoor** rijden. Het bord wordt alleen geplaatst op plekken waar fietsers daarbij geen verkeersstroom moeten dwarsen.\n- In beide gevallen **verlenen ze voorrang** aan de andere weggebruikers.\n- Het speciale oranjegele fietslichtje met pijl werkt op dezelfde manier en geldt ook voor tweewielige bromfietsen A, B en P; de borden zelf gelden alleen voor fietsers (en speed pedelecs), niet voor bromfietsen A en B.\n\n**Speciale lichten:**\n- Gecombineerde fiets-voetgangerslichten gelden enkel voor fietsers, voetgangers en tweewielige bromfietsen die op het fietspad mogen rijden.\n- Een 'integrale groenfase' (silhouet omringd door pijltjes) geeft tegelijk groen of rood voor de dwarsrichting; die lichten gelden enkel voor fietsers of voor voetgangers.\n\n**Opstelvak en voorsorteerstroken:**\n- Het fietsopstelvak (tussen twee stopstrepen, met wit fietssymbool) mag je alleen tijdens de rode fase gebruiken. Andere bestuurders stoppen voor de eerste stopstreep.\n- Voorsorteerstroken voor fietsers zijn door doorlopende witte lijnen afgebakend en voorbehouden voor fietsers en tweewielige bromfietsen.",
       "regels": [
-        { "bord": "B22", "betekenis": "fietsers en speed pedelecs mogen bij rood of oranjegeel rechts afslaan, mits voorrang verlenen" },
-        { "bord": "B23", "betekenis": "fietsers en speed pedelecs mogen bij rood of oranjegeel rechtdoor rijden, mits voorrang verlenen" },
-        { "bord": "Fietsopstelvak", "betekenis": "enkel tijdens rood; andere bestuurders stoppen voor de eerste stopstreep" }
+        {
+          "bord": "B22",
+          "betekenis": "fietsers en speed pedelecs mogen bij rood of oranjegeel rechts afslaan, mits voorrang verlenen"
+        },
+        {
+          "bord": "B23",
+          "betekenis": "fietsers en speed pedelecs mogen bij rood of oranjegeel rechtdoor rijden, mits voorrang verlenen"
+        },
+        {
+          "bord": "Fietsopstelvak",
+          "betekenis": "enkel tijdens rood; andere bestuurders stoppen voor de eerste stopstreep"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "B22/B23: geen vrijbrief", "tekst": "Door het rood rijden met een van deze borden mag alleen in de aangeduide richting, en altijd met voorrang voor andere weggebruikers (zoals voetgangers die oversteken)." },
-        { "type": "zwarefout", "titel": "Rood licht zonder bord", "tekst": "Zonder B22/B23 of speciaal lichtsignaal moet een fietser gewoon stoppen voor een rood licht." }
+        {
+          "type": "regel",
+          "titel": "B22/B23: geen vrijbrief",
+          "tekst": "Door het rood rijden met een van deze borden mag alleen in de aangeduide richting, en altijd met voorrang voor andere weggebruikers (zoals voetgangers die oversteken).",
+          "kort": "Alleen in de aangeduide richting en met voorrang."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Rood licht zonder bord",
+          "tekst": "Zonder B22/B23 of speciaal lichtsignaal moet een fietser gewoon stoppen voor een rood licht.",
+          "kort": "Zonder bord of speciaal licht stopt de fietser gewoon voor rood."
+        }
       ],
       "uitzonderingen": [
         "B22 en B23 gelden niet voor bromfietsen klasse A en B, wel voor fietsers, speed pedelecs en gelijkgestelde drie- en vierwielers tot 1 m breed."
       ],
-      "afbeeldingen": ["B22", "B23", "schema-opstelvak"],
-      "bronnen": ["KWET-001", "KWET-002", "KWET-006"]
+      "afbeeldingen": [
+        "B22",
+        "B23",
+        "schema-opstelvak"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-002",
+        "KWET-006"
+      ]
     },
     {
       "id": "fietszone-fietsstraat",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Fietszone (vroeger fietsstraat)",
+      "titelKort": "Fietszone",
+      "kort": [
+        "Vroeger fietsstraat",
+        "Maximum 30 km/u",
+        "Auto's halen fietsers niet in",
+        "Eenrichting: hele breedte voor fietsers",
+        "Tweerichting: rechterhelft voor fietsers"
+      ],
       "uitleg": "In Vlaanderen sprak men lang van 'fietsstraat'; de wegcode noemt dit sinds 2023 een **fietszone**. Het begin staat aangeduid met bord **F111**, het einde met **F113**.\n\n- Fietsers mogen de **volledige breedte** van de rijbaan gebruiken bij eenrichtingsverkeer, en de **helft aan de rechterkant** bij tweerichtingsverkeer.\n- Motorvoertuigen hebben toegang, maar mogen fietsers **niet inhalen**.\n- De maximumsnelheid is **30 km/u** voor iedereen.\n- Bestuurders van rijwielen (zoals bakfietsen) en speed pedelecs worden met fietsers gelijkgesteld.\n- Het bord kan ook zonale geldigheid hebben.\n\nHoud ook rekening met de zijdelingse afstand en de verplichte voorzichtigheid tegenover fietsers, zeker op kruispunten.",
       "regels": [
-        { "kenmerk": "Begin en einde", "regel": "F111 en F113" },
-        { "kenmerk": "Plaats van fietsers", "regel": "hele breedte bij eenrichting; rechterhelft bij tweerichting" },
-        { "kenmerk": "Motorvoertuigen", "regel": "toegelaten, maar inhalen van fietsers verboden" },
-        { "kenmerk": "Snelheid", "regel": "max. 30 km/u" }
+        {
+          "kenmerk": "Begin en einde",
+          "regel": "F111 en F113"
+        },
+        {
+          "kenmerk": "Plaats van fietsers",
+          "regel": "hele breedte bij eenrichting; rechterhelft bij tweerichting"
+        },
+        {
+          "kenmerk": "Motorvoertuigen",
+          "regel": "toegelaten, maar inhalen van fietsers verboden"
+        },
+        {
+          "kenmerk": "Snelheid",
+          "regel": "max. 30 km/u"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Niet inhalen", "tekst": "In een fietszone mag een motorvoertuig een fietser nooit inhalen, ook niet als er genoeg plaats is." },
-        { "type": "tip", "titel": "Nieuwe naam", "tekst": "Op oudere borden staat nog 'fietsstraat'. In de wegcode heet het intussen 'fietszone'. Examenvragen kunnen beide termen gebruiken." }
+        {
+          "type": "regel",
+          "titel": "Niet inhalen",
+          "tekst": "In een fietszone mag een motorvoertuig een fietser nooit inhalen, ook niet als er genoeg plaats is.",
+          "kort": "Een motorvoertuig haalt een fietser nooit in."
+        },
+        {
+          "type": "tip",
+          "titel": "Nieuwe naam",
+          "tekst": "Op oudere borden staat nog 'fietsstraat'. In de wegcode heet het intussen 'fietszone'. Examenvragen kunnen beide termen gebruiken.",
+          "kort": "Oudere borden zeggen nog fietsstraat."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["F111", "F113", "schema-fietszone"],
-      "bronnen": ["KWET-001", "KWET-006"]
+      "afbeeldingen": [
+        "F111",
+        "F113",
+        "schema-fietszone"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-006"
+      ]
     },
     {
       "id": "inhalen-fietser-afstand",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Een fietser voorbijrijden: afstand",
+      "titelKort": "Fietser voorbijrijden",
+      "kort": [
+        "Binnen de bebouwde kom: 1 meter",
+        "Buiten de bebouwde kom: 1,5 meter",
+        "Geen plaats: niet inhalen",
+        "Dubbel voorzichtig bij kinderen en ouderen",
+        "Afstand tot de fietser, niet tot het pad"
+      ],
       "uitleg": "Rijd je met een auto of motorfiets voorbij een fietser of een tweewielige bromfiets, dan houd je een **minimale zijdelingse afstand** tussen je voertuig en de fietser.\n\n- **Binnen de bebouwde kom:** minstens **1 meter**.\n- **Buiten de bebouwde kom:** minstens **1,5 meter**.\n- Je moet de fietser niet in gevaar brengen en bent **dubbel voorzichtig** bij fietsende kinderen en bejaarden.\n- Is er onvoldoende plaats om de afstand te houden, dan haal je niet in.\n- Voor voetgangers op de rijbaan gelden dezelfde afstanden (1 m / 1,5 m).\n\n**Let op:** de afstand wordt gemeten tussen je voertuig en de fietser, niet tot het fietspad.",
       "regels": [
-        { "plaats": "Binnen de bebouwde kom", "afstand tot fietser/tweewielige bromfiets": "minstens 1 m" },
-        { "plaats": "Buiten de bebouwde kom", "afstand tot fietser/tweewielige bromfiets": "minstens 1,5 m" },
-        { "plaats": "Fietszone", "afstand tot fietser/tweewielige bromfiets": "inhalen verboden voor motorvoertuigen" }
+        {
+          "plaats": "Binnen de bebouwde kom",
+          "afstand tot fietser/tweewielige bromfiets": "minstens 1 m"
+        },
+        {
+          "plaats": "Buiten de bebouwde kom",
+          "afstand tot fietser/tweewielige bromfiets": "minstens 1,5 m"
+        },
+        {
+          "plaats": "Fietszone",
+          "afstand tot fietser/tweewielige bromfiets": "inhalen verboden voor motorvoertuigen"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Actuele regel", "tekst": "Dit is de regel van het huidige verkeersreglement (KB van 1 december 1975), zoals gewijzigd sinds 2019. Het geldt tot de nieuwe code van de openbare weg in werking treedt." },
-        { "type": "gewest", "titel": "Nieuwe codes vanaf 1 juni 2027", "tekst": "Het huidige verkeersreglement wordt op 1 juni 2027 vervangen door de federale Code van de openbare weg en een regionale code per gewest. Voor de examenvragen vandaag geldt nog het huidige reglement.", "gewest": { "vlaanderen": "Vlaams verkeersreglement (besluit van 19 juli 2024); inwerkingtreding afgestemd op de federale code", "wallonie": "Waalse Code van de openbare weg: in maart 2026 nog niet gepubliceerd", "brussel": "Brusselse Code van de openbare weg (besluit van 29 augustus 2024)" } },
-        { "type": "zwarefout", "titel": "Te dicht langs de fietser", "tekst": "Wie een fietser met minder dan de minimumafstand voorbijrijdt, brengt hem in gevaar, zeker buiten de bebouwde kom." }
+        {
+          "type": "regel",
+          "titel": "Actuele regel",
+          "tekst": "Dit is de regel van het huidige verkeersreglement (KB van 1 december 1975), zoals gewijzigd sinds 2019. Het geldt tot de nieuwe code van de openbare weg in werking treedt.",
+          "kort": "Dit is de regel van het huidige reglement."
+        },
+        {
+          "type": "gewest",
+          "titel": "Nieuwe codes vanaf 1 juni 2027",
+          "tekst": "Het huidige verkeersreglement wordt op 1 juni 2027 vervangen door de federale Code van de openbare weg en een regionale code per gewest. Voor de examenvragen vandaag geldt nog het huidige reglement.",
+          "gewest": {
+            "vlaanderen": "Vlaams verkeersreglement (besluit van 19 juli 2024); inwerkingtreding afgestemd op de federale code",
+            "wallonie": "Waalse Code van de openbare weg: in maart 2026 nog niet gepubliceerd",
+            "brussel": "Brusselse Code van de openbare weg (besluit van 29 augustus 2024)"
+          },
+          "kort": "Nieuwe codes vanaf 1 juni 2027; nu geldt het huidige reglement."
+        },
+        {
+          "type": "zwarefout",
+          "titel": "Te dicht langs de fietser",
+          "tekst": "Wie een fietser met minder dan de minimumafstand voorbijrijdt, brengt hem in gevaar, zeker buiten de bebouwde kom.",
+          "kort": "Te dicht voorbijrijden brengt de fietser in gevaar."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-zijdelingse-afstand"],
-      "bronnen": ["KWET-001", "KWET-002", "KWET-004", "KWET-006"]
+      "afbeeldingen": [
+        "schema-zijdelingse-afstand"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-002",
+        "KWET-004",
+        "KWET-006"
+      ]
     },
     {
       "id": "dode-hoek",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Dode hoek",
+      "titelKort": "Dode hoek",
+      "kort": [
+        "Elk voertuig heeft een dode hoek",
+        "Spiegel plus schouderblik",
+        "Extra alert aan de rechterkant",
+        "Fietser: niet naast een vrachtwagen",
+        "Zoek oogcontact met de chauffeur"
+      ],
       "uitleg": "Elk voertuig heeft zones waar de bestuurder een andere weggebruiker niet (goed) kan zien. Bij vrachtwagens en bussen zijn die zones groot, maar ook bestelwagens en personenwagens hebben een dode hoek.\n\n**Als bestuurder:**\n- Controleer vóór je rechts afslaat of van rijstrook verandert altijd je spiegels en kijk over je schouder.\n- Wees extra alert op fietsers en voetgangers naast je, vooral aan de rechterkant.\n- Laat dashboard en voorruit vrij zodat je uitzicht niet beperkt wordt.\n\n**Als fietser of voetganger:**\n- Ga niet naast een groot voertuig staan of fietsen, zeker niet rechts naast een vrachtwagen die kan afslaan.\n- Blijf rechts **achter** een stilstaande vrachtwagen en laat hem eerst afslaan.\n- Zoek oogcontact met de chauffeur.\n\nDe sticker 'Kijk uit, dode hoek' waarschuwt fietsers en voetgangers.",
       "regels": [],
       "kaders": [
-        { "type": "letop", "titel": "Rechts afslaan", "tekst": "Een vrachtwagen die rechts afslaat heeft een grote dode hoek langs zijn rechterzijde. Wie daar fietst of loopt, wordt niet gezien." },
-        { "type": "tip", "titel": "Altijd twee keer kijken", "tekst": "Spiegel plus schouderblik: samen dekken ze het grootste deel van je dode hoek." }
+        {
+          "type": "letop",
+          "titel": "Rechts afslaan",
+          "tekst": "Een vrachtwagen die rechts afslaat heeft een grote dode hoek langs zijn rechterzijde. Wie daar fietst of loopt, wordt niet gezien.",
+          "kort": "Vrachtwagen die rechts afslaat ziet je niet."
+        },
+        {
+          "type": "tip",
+          "titel": "Altijd twee keer kijken",
+          "tekst": "Spiegel plus schouderblik: samen dekken ze het grootste deel van je dode hoek.",
+          "kort": "Spiegel en schouderblik samen dekken het meeste."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-dode-hoek"],
-      "bronnen": ["KWET-007"]
+      "afbeeldingen": [
+        "schema-dode-hoek"
+      ],
+      "bronnen": [
+        "KWET-007"
+      ]
     },
     {
       "id": "bromfiets-klassen-speed-pedelec",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Bromfiets klasse A, B en speed pedelec",
+      "titelKort": "Bromfietsklassen",
+      "kort": [
+        "Elektrische fiets tot 25 km/u: fiets",
+        "Klasse A: maximum 25 km/u",
+        "Klasse B: maximum 45 km/u",
+        "Speed pedelec: ondersteuning tot 45 km/u",
+        "Helm verplicht"
+      ],
       "uitleg": "De wegcode onderscheidt verschillende types tweewielers met een motor.\n\n- **Gewone elektrische fiets:** hulpmotor tot 0,25 kW die tot 25 km/u ondersteunt; blijft een rijwiel (fiets).\n- **Gemotoriseerd rijwiel:** trapondersteuning tot **25 km/u** met een sterkere motor (tot 1 kW). Tweewielig: gelijkgesteld met een fiets; minimumleeftijd 16 jaar.\n- **Bromfiets klasse A:** twee- of driewielig voertuig met een door de constructie bepaalde maximumsnelheid van **25 km/u** (verbrandingsmotor tot 50 cm³ of elektrisch tot 4 kW).\n- **Bromfiets klasse B:** voertuig met maximumsnelheid tot **45 km/u** (50 cm³ of 4 kW).\n- **Speed pedelec:** tweewielig voertuig met pedalen en trapondersteuning die pas bij **45 km/u** wegvalt. Wordt in de wegcode als bromfiets (klasse P) behandeld.\n\n**Minimumleeftijd:** 16 jaar voor bromfietsen (en gemotoriseerde rijwielen).\n\n**Rijbewijs voor een speed pedelec:** minstens AM (ook A1, A2, A of B volstaan). **Nummerplaat:** SP-plaat, inschrijving bij DIV.\n\n**Helm:** verplicht voor bromfietsen. Op een speed pedelec mag je een bromfietshelm of een fietshelm dragen, maar die moet slapen en achterhoofd beschermen.",
       "regels": [
-        { "type": "Gewone elektrische fiets / gemotoriseerd rijwiel (tweewielig)", "snelheid": "ondersteuning tot 25 km/u", "gelijkgesteld met": "fietser" },
-        { "type": "Bromfiets klasse A", "snelheid": "max. 25 km/u", "gelijkgesteld met": "bromfiets klasse A: volgt het fietspad zoals fietsers" },
-        { "type": "Bromfiets klasse B", "snelheid": "max. 45 km/u", "gelijkgesteld met": "bromfiets klasse B: fietspad enkel onder voorwaarden (zie volgend blok)" },
-        { "type": "Speed pedelec", "snelheid": "ondersteuning tot 45 km/u", "gelijkgesteld met": "bromfiets (klasse P)" }
+        {
+          "type": "Gewone elektrische fiets / gemotoriseerd rijwiel (tweewielig)",
+          "snelheid": "ondersteuning tot 25 km/u",
+          "gelijkgesteld met": "fietser"
+        },
+        {
+          "type": "Bromfiets klasse A",
+          "snelheid": "max. 25 km/u",
+          "gelijkgesteld met": "bromfiets klasse A: volgt het fietspad zoals fietsers"
+        },
+        {
+          "type": "Bromfiets klasse B",
+          "snelheid": "max. 45 km/u",
+          "gelijkgesteld met": "bromfiets klasse B: fietspad enkel onder voorwaarden (zie volgend blok)"
+        },
+        {
+          "type": "Speed pedelec",
+          "snelheid": "ondersteuning tot 45 km/u",
+          "gelijkgesteld met": "bromfiets (klasse P)"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "Helm bij speed pedelec", "tekst": "Een bromfietshelm of een fietshelm die slapen en achterhoofd beschermt. Een fietshelm kan dus alleen als hij slapen en achterhoofd beschermt." },
-        { "type": "letop", "titel": "Rechtsaf door rood", "tekst": "Bromfietsen A en B mogen niet rechtsaf door rood met de borden B22 en B23; speed pedelecs wel." }
+        {
+          "type": "regel",
+          "titel": "Helm bij speed pedelec",
+          "tekst": "Een bromfietshelm of een fietshelm die slapen en achterhoofd beschermt. Een fietshelm kan dus alleen als hij slapen en achterhoofd beschermt.",
+          "kort": "Speed pedelec: bromfietshelm, of fietshelm die slapen en achterhoofd beschermt."
+        },
+        {
+          "type": "letop",
+          "titel": "Rechtsaf door rood",
+          "tekst": "Bromfietsen A en B mogen niet rechtsaf door rood met de borden B22 en B23; speed pedelecs wel.",
+          "kort": "Bromfietsen A en B niet door rood met de speciale borden; speed pedelecs wel."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["schema-bromfietsklassen"],
-      "bronnen": ["KWET-001", "KWET-003", "KWET-006"]
+      "afbeeldingen": [
+        "schema-bromfietsklassen"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-003",
+        "KWET-006"
+      ]
     },
     {
       "id": "bromfiets-fietspad-gebruik",
-      "curriculum": ["T18"],
+      "curriculum": [
+        "T18"
+      ],
       "titel": "Bromfietsen en speed pedelecs op het fietspad",
+      "titelKort": "Bromfiets op fietspad",
+      "kort": [
+        "Klasse A: fietspad volgen zoals fietsers",
+        "Tot 50 km/u: klasse B en speed pedelec mogen",
+        "Boven 50 km/u: ze moeten",
+        "Speed pedelec ook gedeeld deel",
+        "Geen fietspad: rijbaan"
+      ],
       "uitleg": "Welke tweewieler waar mag rijden, hangt af van het soort fietspad en de snelheidsbeperking.\n\n- **Bromfiets klasse A (tweewielig):** volgt het fietspad gelijk met fietsers (gemarkeerd rechts, of met D7/D9).\n- **Bromfiets klasse B en speed pedelec**, op wegen met maximaal **50 km/u**: ze **mogen** het fietspad met D7 of markering volgen, op voorwaarde dat ze andere gebruikers niet in gevaar brengen. Speed pedelecs mogen daarenboven ook het fietspad met D9 volgen.\n- Op wegen met een **hogere** snelheidsbeperking (boven 50 km/u) **moeten** bromfietsen B en speed pedelecs het fietspad met D7 of markering volgen als dat aanwezig en bruikbaar is; speed pedelecs ook D9.\n- Is er geen fietspad (of mag je het niet gebruiken), dan volg je de rijbaan.\n- Speed pedelecs mogen met twee naast elkaar rijden zoals fietsers en worden in een fietszone met fietsers gelijkgesteld.",
       "regels": [
-        { "voertuig": "Bromfiets A (tweewielig)", "fietspad met markering of D7/D9": "verplicht (zoals fietsers) indien rechts / aangeduid" },
-        { "voertuig": "Bromfiets B, weg ≤ 50 km/u", "fietspad met markering of D7/D9": "mag D7 of markering; D9 niet" },
-        { "voertuig": "Bromfiets B, weg > 50 km/u", "fietspad met markering of D7/D9": "moet D7 of markering volgen als bruikbaar" },
-        { "voertuig": "Speed pedelec, weg ≤ 50 km/u", "fietspad met markering of D7/D9": "mag D7, D9 of markering" },
-        { "voertuig": "Speed pedelec, weg > 50 km/u", "fietspad met markering of D7/D9": "moet D7, D9 of markering volgen als bruikbaar" }
+        {
+          "voertuig": "Bromfiets A (tweewielig)",
+          "fietspad met markering of D7/D9": "verplicht (zoals fietsers) indien rechts / aangeduid"
+        },
+        {
+          "voertuig": "Bromfiets B, weg ≤ 50 km/u",
+          "fietspad met markering of D7/D9": "mag D7 of markering; D9 niet"
+        },
+        {
+          "voertuig": "Bromfiets B, weg > 50 km/u",
+          "fietspad met markering of D7/D9": "moet D7 of markering volgen als bruikbaar"
+        },
+        {
+          "voertuig": "Speed pedelec, weg ≤ 50 km/u",
+          "fietspad met markering of D7/D9": "mag D7, D9 of markering"
+        },
+        {
+          "voertuig": "Speed pedelec, weg > 50 km/u",
+          "fietspad met markering of D7/D9": "moet D7, D9 of markering volgen als bruikbaar"
+        }
       ],
       "kaders": [
-        { "type": "regel", "titel": "50 km/u-grens", "tekst": "De snelheidsbeperking van de weg bepaalt of het fietspad voor bromfiets B en speed pedelec een mogelijkheid of een verplichting is." },
-        { "type": "tip", "titel": "Samengevat", "tekst": "Tot en met 50 km/u mag het, erboven moet het. D9 geldt extra voor speed pedelecs, niet voor bromfietsen B." }
+        {
+          "type": "regel",
+          "titel": "50 km/u-grens",
+          "tekst": "De snelheidsbeperking van de weg bepaalt of het fietspad voor bromfiets B en speed pedelec een mogelijkheid of een verplichting is.",
+          "kort": "Snelheidsbeperking bepaalt of het fietspad mag of moet."
+        },
+        {
+          "type": "tip",
+          "titel": "Samengevat",
+          "tekst": "Tot en met 50 km/u mag het, erboven moet het. D9 geldt extra voor speed pedelecs, niet voor bromfietsen B.",
+          "kort": "Tot en met 50 km/u mag het, erboven moet het."
+        }
       ],
       "uitzonderingen": [
         "Het fietspad mag verlaten worden om af te slaan, in te halen of een hindernis te omzeilen."
       ],
-      "afbeeldingen": ["D7", "D9", "schema-bromfietsklassen"],
-      "bronnen": ["KWET-001", "KWET-003", "KWET-006"]
+      "afbeeldingen": [
+        "D7",
+        "D9",
+        "schema-bromfietsklassen"
+      ],
+      "bronnen": [
+        "KWET-001",
+        "KWET-003",
+        "KWET-006"
+      ]
     },
     {
       "id": "ruiters-en-dieren",
-      "curriculum": ["T17", "T18"],
+      "curriculum": [
+        "T17",
+        "T18"
+      ],
       "titel": "Ruiters en dieren op de weg",
+      "titelKort": "Ruiters en dieren",
+      "kort": [
+        "Ruiters op de rijbaan",
+        "Twee naast elkaar mag",
+        "Binnen de bebouwde kom niet galopperen",
+        "Dieren onder controle houden",
+        "Ruiter: minimumleeftijd 14 jaar"
+      ],
       "uitleg": "Ruiters en bestuurders van lastdieren, trekdieren of vee zijn ook weggebruikers.\n\n- Ruiters volgen de rijbaan en mogen met **twee naast elkaar** rijden.\n- Ze mogen, buiten de bebouwde kom, de gelijkgrondse bermen rechts in hun richting volgen, op voorwaarde de andere weggebruikers niet in gevaar te brengen.\n- Binnen de bebouwde kom is **galopperen verboden**.\n- Bestuurders en begeleiders blijven bij de dieren en houden ze onder controle.\n- Bord **D13** duidt een verplichte weg voor ruiters aan; **C15** verbiedt toegang voor ruiters.\n- Groepen van minstens 10 ruiters mogen een groepsleider hebben die het verkeer op dwarswegen kan stilleggen.\n- Minimumleeftijd: 14 jaar, voor rijdieren 12 jaar als een ruiter van minstens 21 jaar begeleidt.",
       "regels": [
-        { "situatie": "Ruiters op de rijbaan", "regel": "twee naast elkaar toegestaan" },
-        { "situatie": "Galop binnen de bebouwde kom", "regel": "verboden" },
-        { "situatie": "Bord D13", "regel": "verplichte weg voor ruiters" },
-        { "situatie": "Bord C15", "regel": "verboden toegang voor ruiters" }
+        {
+          "situatie": "Ruiters op de rijbaan",
+          "regel": "twee naast elkaar toegestaan"
+        },
+        {
+          "situatie": "Galop binnen de bebouwde kom",
+          "regel": "verboden"
+        },
+        {
+          "situatie": "Bord D13",
+          "regel": "verplichte weg voor ruiters"
+        },
+        {
+          "situatie": "Bord C15",
+          "regel": "verboden toegang voor ruiters"
+        }
       ],
       "kaders": [
-        { "type": "letop", "titel": "Paarden zijn schrikachtig", "tekst": "Rijd langzaam voorbij, geef veel ruimte en toeter niet onnodig. Een schrikkend paard kan onverwacht reageren." }
+        {
+          "type": "letop",
+          "titel": "Paarden zijn schrikachtig",
+          "tekst": "Rijd langzaam voorbij, geef veel ruimte en toeter niet onnodig. Een schrikkend paard kan onverwacht reageren.",
+          "kort": "Rijd langzaam voorbij en geef veel ruimte."
+        }
       ],
       "uitzonderingen": [],
-      "afbeeldingen": ["D13", "C15"],
-      "bronnen": ["KWET-001"]
+      "afbeeldingen": [
+        "D13",
+        "C15"
+      ],
+      "bronnen": [
+        "KWET-001"
+      ]
     }
   ]
 }

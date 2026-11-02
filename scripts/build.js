@@ -219,7 +219,7 @@ function validateEx(o) {
     case 'situatie': need(o.afbeelding && arr(o.voertuigen) && (o.modus === 'volgorde' || o.modus === 'klik') && o.correct != null, 'afbeelding/voertuigen/modus/correct'); break;
     case 'hotspot': need(o.afbeelding && arr(o.zones) && o.zones.some((z) => z.correct), 'afbeelding/zones'); break;
     case 'tabel': need(arr(o.kolommen) && arr(o.rijen) && o.rijen.every((r) => arr(r.cellen)), 'kolommen/rijen'); break;
-    case 'bord': need(o.afbeelding && ['code', 'naam', 'categorie'].includes(o.modus), 'afbeelding/modus'); need(o.modus === 'categorie' ? !!o.categorie : arr(o.antwoorden), 'antwoorden/categorie'); break;
+    case 'bord': need(o.afbeelding && ['naam', 'categorie'].includes(o.modus), 'afbeelding/modus (alleen naam of categorie; geen codes leren)'); need(o.modus === 'categorie' ? !!o.categorie : arr(o.antwoorden), 'antwoorden/categorie'); break;
     case 'reken': need(typeof o.antwoord === 'number', 'antwoord (getal)'); break;
   }
   return e;
@@ -266,23 +266,33 @@ oefeningen.forEach((o) => {
   o.theorieblok = target || null;
   if (target) (oefPerBlok[target] = oefPerBlok[target] || []).push(o.id);
 });
+const SIGN_CHUNK = 6, CARD_CHUNK = 4, INLINE_MAX = 3;
+function rowIsSign(r) { return !!(r && (r.code || r.bord) && bordFiles[r.code || r.bord]); }
 for (const les of [1, 2, 3, 4]) {
   const blokken = theorie.filter((b) => lesVanBlok(b) === les);
-  const chapters = [];
   blokken.sort((a, b) => blokOrder(a) - blokOrder(b) || a._ord - b._ord);
   const themas = [...new Set(blokken.map((b) => b.thema))].sort((a, b) => themaVolgorde.indexOf(a) - themaVolgorde.indexOf(b));
-  const pages = [{ t: 'intro', titel: 'Inleiding' }];
+  const pages = [{ t: 'intro', titel: 'Inleiding', toc: true }];
+  const addOef = (ids, hoofdstuk, blokId) => ids.forEach((id) => pages.push({ t: 'oef', ex: id, blok: blokId, hoofdstuk, titel: 'Oefening' }));
   for (const th of themas) {
+    const hoofdstuk = THEMA_NAMEN[th] || th;
     for (const b of blokken.filter((x) => x.thema === th)) {
-      pages.push({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk: THEMA_NAMEN[th] || th, oef: oefPerBlok[b.id] || [] });
+      const rows = b.regels || [];
+      const chunk = rows.some(rowIsSign) ? SIGN_CHUNK : CARD_CHUNK;
+      const inline = rows.length > 0 && rows.length <= INLINE_MAX && !rows.some(rowIsSign);
+      pages.push({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk, toc: true, inline });
+      if (rows.length && !inline) {
+        const parts = Math.ceil(rows.length / chunk);
+        for (let p = 0; p < parts; p++) pages.push({ t: 'regels', id: b.id, titel: b.titel, hoofdstuk, van: p * chunk, tot: Math.min(rows.length, (p + 1) * chunk), deel: p + 1, delen: parts });
+      }
+      addOef(oefPerBlok[b.id] || [], hoofdstuk, b.id);
       placed.add(b.id);
     }
+    pages.push({ t: 'samenvatting', titel: 'Samenvatting: ' + hoofdstuk, hoofdstuk, thema: th, toc: true });
   }
   const lesEx = oefeningen.filter((o) => o.les === les && !o.theorieblok).map((o) => o.id);
-  if (lesEx.length) pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', oef: lesEx });
-  pages.push({ t: 'samenvatting', titel: 'Samenvatting' });
-  pages.push({ t: 'eindtest', titel: 'Eindtest' });
-  void chapters;
+  if (lesEx.length) { pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', toc: true }); addOef(lesEx, 'Extra oefenen', null); }
+  pages.push({ t: 'eindtest', titel: 'Eindtest', toc: true });
   boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t })), pages };
 }
 const blokPagina = {};
@@ -463,8 +473,8 @@ pages['index.html'] = shell({
   <section id="inleiding" class="intro-sec" aria-labelledby="h-intro">
     <h2 id="h-intro" class="section-title">Inleiding: zo werkt de cursus</h2>
     <div class="steps">
-      <article class="step card"><span class="step-n">1</span><h3>Lees een pagina</h3><p>Elke les is een boek. Je ziet telkens één pagina: een stukje uitleg met regels, kaders en afbeeldingen. Onderaan blader je met <kbd>Volgende</kbd> of met de pijltjestoetsen <kbd>←</kbd> <kbd>→</kbd>.</p></article>
-      <article class="step card"><span class="step-n">2</span><h3>Oefen meteen</h3><p>Onder de uitleg staan oefeningen over precies die stof. Klik op <em>Nakijken</em>, lees de uitleg en probeer opnieuw als het fout was. Twijfel je? Met <em>Toon theorie</em> spring je terug naar de uitleg.</p></article>
+      <article class="step card"><span class="step-n">1</span><h3>Lees een pagina</h3><p>Elke les is een boek. Je ziet telkens één klein onderwerp met korte regels en grote afbeeldingen. Onderaan blader je met <kbd>Volgende</kbd> of met de pijltjestoetsen <kbd>←</kbd> <kbd>→</kbd>.</p></article>
+      <article class="step card"><span class="step-n">2</span><h3>Oefen meteen</h3><p>Na de uitleg komen oefeningen over precies die stof, elk op een eigen pagina. Klik op <em>Nakijken</em>, lees de uitleg en probeer opnieuw als het fout was. Twijfel je? Met <em>Toon theorie</em> spring je terug naar de uitleg.</p></article>
       <article class="step card"><span class="step-n">3</span><h3>Herhaal en test</h3><p>Sluit een les af met de samenvatting en een eindtest van 20 vragen. Je ziet wat je moet herhalen. Foute vragen komen automatisch in <a href="mijnfouten.html">Mijn fouten</a> terecht.</p></article>
       <article class="step card"><span class="step-n">4</span><h3>Doe het proefexamen</h3><p>Pas als de lessen goed zitten, doe je het <a href="examen.html">proefexamen</a> met 50 vragen en dezelfde puntentelling als het echte examen.</p></article>
     </div>
@@ -485,7 +495,7 @@ pages['index.html'] = shell({
       <article class="card prose">
         <h3>Zo gebruik je deze site</h3>
         <ul class="ticks">
-          <li><strong>Inhoudsopgave links</strong> in elke les: klik om te springen, een vinkje toont wat je al las. Op een smal scherm klap je ze open met de knop <em>Inhoud</em>.</li>
+          <li><strong>Onderaan</strong> zit een kleine balk: vorige, volgende, <em>Inhoud</em> om naar een onderwerp te springen en een knop om van les te wisselen.</li>
           <li><strong>Onthouden</strong>: je plek en je resultaten worden in je eigen browser bewaard, zonder account.</li>
           <li><strong>Gewestverschillen</strong> staan in een kader met drie badges: Vlaanderen, Wallonië en Brussel. Voor je examen telt Vlaanderen.</li>
           <li><strong>Kaders</strong>: <span class="chip chip-regel">Regel</span> <span class="chip chip-letop">Let op</span> <span class="chip chip-zwarefout">Zware fout</span> <span class="chip chip-tip">Tip</span>.</li>
@@ -503,13 +513,10 @@ for (const les of [1, 2, 3, 4]) {
   pages[`les${les}.html`] = shell({
     file: `les${les}.html`, title: `Les ${les}: ${LES_TITELS[les]}`, page: 'les', les,
     scripts: ['exercises.js', 'quiz.js', 'lesson.js'],
-    main: `<div class="book-layout" id="book-root">
-  <aside class="toc" id="toc" aria-label="Inhoudsopgave"></aside>
-  <main id="main" class="book" tabindex="-1">
-    <div class="book-page" id="book-page"><p class="loading">Les ${les} wordt geladen…</p></div>
-    <div class="pager" id="pager" role="navigation" aria-label="Bladeren"></div>
-  </main>
-</div>`,
+    main: `<main id="main" class="reader" tabindex="-1">
+  <div class="slide-wrap" id="book-page"><p class="loading">Les ${les} wordt geladen…</p></div>
+</main>
+<div class="float-bar" id="float-bar" role="navigation" aria-label="Bladeren"></div>`,
   });
 }
 

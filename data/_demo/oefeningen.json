@@ -33,11 +33,12 @@
   "moeilijkheid": 2,
   "gewicht": "gewoon",
   "examen": true,
-  "vraag": "Geef de code van dit bord.",
+  "vraag": "Wat betekent dit bord? (typ het antwoord)",
   "afbeelding": "B1",
-  "modus": "code",
+  "modus": "naam",
   "antwoorden": [
-   "b1"
+   "voorrang verlenen",
+   "geef voorrang"
   ]
  },
  {
@@ -600,12 +601,12 @@
   "vraag": "Koppel het bord aan de categorie.",
   "paren": [
    {
-    "links": "A1a",
+    "links": "Gevaarlijke bocht naar links",
     "rechts": "Gevaar",
     "linksAfb": "A1a"
    },
    {
-    "links": "B1",
+    "links": "Voorrang verlenen",
     "rechts": "Voorrang",
     "linksAfb": "B1"
    }

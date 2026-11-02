@@ -8,7 +8,7 @@ const base = (id, les, ond, blok, type, extra) => E.push(Object.assign({
 const GB = 'borden-gevaar-weg', SN = 'snelheden-overzicht-gewest', VR = 'voorrang-rangorde', LI = 'lichten-driekleurig', PL = 'plaats-rechts-rijden',
   SW = 'snelweg-autosnelweg-autoweg', AL = 'gedrag-alcohol-grenzen', RB = 'rijbewijs-traject', OV = 'ongeval-stappenplan', TE = 'techniek-banden';
 base('DEMO-01', 1, 'T01', GB, 'meerkeuze', { vraag: 'Wat betekent dit bord?', afbeelding: 'A1a', opties: ['Gevaarlijke bocht naar links', 'Gevaarlijke bocht naar rechts', 'Slecht wegdek'], correct: [0], meerdere: false });
-base('DEMO-02', 1, 'T02', VR, 'bord', { vraag: 'Geef de code van dit bord.', afbeelding: 'B1', modus: 'code', antwoorden: ['b1'] });
+base('DEMO-02', 1, 'T02', VR, 'bord', { vraag: 'Wat betekent dit bord? (typ het antwoord)', afbeelding: 'B1', modus: 'naam', antwoorden: ['voorrang verlenen', 'geef voorrang'] });
 base('DEMO-03', 1, 'T03', GB, 'bord', { vraag: 'Wat betekent dit bord?', afbeelding: 'C3', modus: 'naam', opties: ['Verboden toegang in beide richtingen', 'Parkeerverbod', 'Voorrangsweg'], antwoorden: ['Verboden toegang in beide richtingen'] });
 base('DEMO-04', 1, 'T01', GB, 'bord', { vraag: 'Tot welke categorie hoort dit bord?', afbeelding: 'A1a', modus: 'categorie', categorie: 'A' });
 base('DEMO-05', 1, 'T01', GB, 'hotspot', { vraag: 'Klik op het gebouw.', afbeelding: 'demo-hotspot', zones: [{ id: 'huis', x: 10, y: 25, w: 25, h: 30, correct: true, label: 'Gebouw' }, { id: 'boom', x: 68, y: 25, w: 15, h: 50, correct: false, label: 'Boom' }] });
@@ -32,5 +32,5 @@ base('DEMO-22', 4, 'T29', AL, 'invul', { vraag: 'Hoeveel g/l bloed is de grens v
 base('DEMO-23', 4, 'T36', RB, 'waaronwaar', { stelling: 'Je mag het theorie-examen afleggen vanaf 17 jaar.', juist: true, motivatie: 'Vanaf 17 jaar kan je het theorie-examen afleggen.', foutemotivaties: ['Pas vanaf 21 jaar.', 'Dat kan op elke leeftijd.'] });
 base('DEMO-24', 4, 'T34', OV, 'volgorde', { vraag: 'Zet in volgorde bij een ongeval.', items: ['Beveilig de plaats', 'Verwittig de hulpdiensten', 'Verleen eerste hulp'] });
 base('DEMO-25', 4, 'T38', TE, 'tabel', { vraag: 'Vul in.', kolommen: ['Onderdeel', 'Juist?'], rijen: [{ label: 'Bandenspanning controleren', cellen: [{ correct: true }] }, { label: 'Rijden met kale banden', cellen: [{ correct: false }] }] });
-base('DEMO-26', 4, 'T38', TE, 'koppel', { vraag: 'Koppel het bord aan de categorie.', paren: [{ links: 'A1a', rechts: 'Gevaar', linksAfb: 'A1a' }, { links: 'B1', rechts: 'Voorrang', linksAfb: 'B1' }] });
+base('DEMO-26', 4, 'T38', TE, 'koppel', { vraag: 'Koppel het bord aan de categorie.', paren: [{ links: 'Gevaarlijke bocht naar links', rechts: 'Gevaar', linksAfb: 'A1a' }, { links: 'Voorrang verlenen', rechts: 'Voorrang', linksAfb: 'B1' }] });
 require('fs').writeFileSync(__dirname + '/oefeningen.json', JSON.stringify(E, null, 1));
