@@ -270,12 +270,12 @@
       }
       function clearHot() { if (hot) { hot.querySelector('.mdot').classList.remove('dragover'); hot = null; } }
       btn.style.touchAction = 'none';
-      btn.addEventListener('pointerdown', function (e) { if (locked || (e.button != null && e.button > 0)) return; pid = e.pointerId; sx = e.clientX; sy = e.clientY; moved = false; });
+      btn.addEventListener('pointerdown', function (e) { if (locked || (e.button != null && e.button > 0)) return; pid = e.pointerId; sx = e.clientX; sy = e.clientY; moved = false; try { btn.setPointerCapture(pid); } catch (x) { /* oké */ } });
       btn.addEventListener('pointermove', function (e) {
         if (pid == null || e.pointerId !== pid) return;
         if (!moved) {
           if (Math.hypot(e.clientX - sx, e.clientY - sy) < 7) return;
-          moved = true; try { btn.setPointerCapture(pid); } catch (x) { /* oké */ }
+          moved = true;
           if (side === 'l' && link[idx] != null) { link[idx] = null; shown = null; }
           else if (side === 'r') { var row = link.indexOf(idx); if (row >= 0) { link[row] = null; shown = null; } }
           sel = null; paint();

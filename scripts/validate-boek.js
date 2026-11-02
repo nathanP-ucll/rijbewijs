@@ -89,7 +89,7 @@ for (const file of files) {
             kop(bc + ' titel', b.titel);
             for (const z of ['links', 'rechts']) {
               if (!b[z]) { fout(bc, z + ' ontbreekt'); continue; }
-              afb(bc, b[z].afb, 'borden'); tekst(bc + ' ' + z, b[z].tekst, { max: 12 });
+              afb(bc, b[z].afb, 'borden'); tekst(bc + ' ' + z, b[z].tekst, { max: 12, zonderEinde: true }); // bijschrift-label
             }
             tekst(bc + ' verschil', b.verschil, { max: 25 });
             break;
