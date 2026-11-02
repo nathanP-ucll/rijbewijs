@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Gele onderbroken streep op de rand van de rijbaan</title>
+<desc id="d">Een straat met een gele onderbroken streep langs de rand van de rijbaan. Een auto die langs die streep geparkeerd staat, staat fout: parkeren op de rijbaan langs die streep is verboden. Een auto die op een stuk zonder gele streep geparkeerd staat, staat goed (indien niets anders het verbiedt).</desc>
+
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="230" width="800" height="150" fill="#4a4f57" />
+<line x1="0" y1="305" x2="800" y2="305" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="380" y1="372" x2="800" y2="372" stroke="#f2c230" stroke-width="6" stroke-dasharray="26 20"/>
+<g transform="translate(560 345) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g stroke="#d63a3a" stroke-width="8.5" stroke-linecap="round"><line x1="543" y1="328" x2="577" y2="362"/><line x1="577" y1="328" x2="543" y2="362"/></g>
+<g transform="translate(190 345) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2ea36b" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<path d="M173,345 L185.75,358.6 L207,331.4" fill="none" stroke="#1f9d55" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="465.08" y="440" width="249.84" height="52.48" rx="9" fill="#f2c230"  opacity="0.95"/>
+<text x="590" y="460" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">gele onderbroken streep</tspan><tspan x="590" dy="21.24">langs de rand</tspan></text>
+<rect x="90.28" y="440" width="199.44" height="31.24" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="190" y="460" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="190" dy="0">zonder gele streep</tspan></text>
+<rect x="160" y="113" width="480" height="45.4" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Stilstaan om iets in of uit te laden of iemand te laten</tspan><tspan x="400" dy="17.7">uitstappen blijft mogelijk; parkeren niet.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Gele onderbroken streep: parkeerverbod</tspan></text>
+</svg>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Afstanden bij stilstaan en parkeren</title>
+<desc id="d">Vier kleine schema's van een straat met rode gearceerde zones. Linksboven: 5 meter voor een zebrapad (stilstaan en parkeren verboden). Rechtsboven: 20 meter voor verkeerslichten (stilstaan en parkeren verboden). Linksonder: 15 meter aan weerszijden van het bord van een bus- of tramhalte (parkeren verboden). Rechtsonder: minder dan 1 meter vóór of achter een ander geparkeerd voertuig (parkeren verboden).</desc>
+<defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="rgba(214,58,58,.22)"/><line x1="0" y1="0" x2="0" y2="12" stroke="#d63a3a" stroke-width="5"/></pattern></defs>
+<rect width="800" height="600" fill="#2c3a2a"/>
+<g transform="translate(2 2)">
+<rect x="0" y="0" width="396" height="296" fill="#74a85a" rx="10"/>
+<rect x="0" y="95" width="396" height="90" fill="#4a4f57"/><line x1="0" y1="140" x2="396" y2="140" stroke="#fff" stroke-width="2.5" stroke-dasharray="14 12"/>
+<rect x="150" y="95" width="40" height="90" fill="none" />
+<rect x="150" y="95" width="40" height="9" fill="#fff"/><rect x="150" y="113" width="40" height="9" fill="#fff"/><rect x="150" y="131" width="40" height="9" fill="#fff"/><rect x="150" y="149" width="40" height="9" fill="#fff"/><rect x="150" y="167" width="40" height="9" fill="#fff"/>
+<rect x="105" y="140" width="45" height="45" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="190" y="95" width="45" height="45" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<g stroke="#fff" stroke-width="2.5"><line x1="105" y1="205" x2="150" y2="205"/><line x1="105" y1="199" x2="105" y2="211"/><line x1="150" y1="199" x2="150" y2="211"/></g>
+<text x="127.5" y="195" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="127.5" dy="0">5 m</tspan></text>
+<g stroke="#fff" stroke-width="2.5"><line x1="190" y1="82" x2="235" y2="82"/><line x1="190" y1="76" x2="190" y2="88"/><line x1="235" y1="76" x2="235" y2="88"/></g>
+<text x="212.5" y="72" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="212.5" dy="0">5 m</tspan></text>
+<g transform="translate(270 163) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<path d="M259,163 L267.25,171.8 L281,154.2" fill="none" stroke="#1f9d55" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+</g>
+<rect x="95.8" y="13" width="208.4" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="200" y="32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="200" dy="0">Zebrapad: 5 m ervoor</tspan></text>
+<g transform="translate(402 2)">
+<rect x="0" y="0" width="396" height="296" fill="#74a85a" rx="10"/>
+<rect x="0" y="95" width="396" height="90" fill="#4a4f57"/><line x1="0" y1="140" x2="396" y2="140" stroke="#fff" stroke-width="2.5" stroke-dasharray="14 12"/>
+<rect x="200" y="140" width="180" height="45" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="377" y="139.5" width="6" height="45" fill="#fff" />
+<rect x="372" y="60" width="16" height="36" rx="5" fill="#1d2128"/><circle cx="380" cy="70" r="4.5" fill="#e5322d"/><circle cx="380" cy="86" r="4.5" fill="#1fbf5a" opacity=".5"/>
+<g stroke="#fff" stroke-width="2.5"><line x1="200" y1="215" x2="380" y2="215"/><line x1="200" y1="209" x2="200" y2="221"/><line x1="380" y1="209" x2="380" y2="221"/></g>
+<text x="290" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="290" dy="0">20 m</tspan></text>
+</g>
+<rect x="457.72" y="13" width="284.56" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="600" y="32" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="600" dy="0">Verkeerslichten: 20 m ervoor</tspan></text>
+<g transform="translate(2 302)">
+<rect x="0" y="0" width="396" height="296" fill="#74a85a" rx="10"/>
+<rect x="0" y="95" width="396" height="90" fill="#4a4f57"/><line x1="0" y1="140" x2="396" y2="140" stroke="#fff" stroke-width="2.5" stroke-dasharray="14 12"/>
+<rect x="63" y="140" width="135" height="45" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="198" y="140" width="135" height="45" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="190" y="60" width="16" height="28" fill="#2f6fd6" />
+<text x="198" y="80" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="198" dy="0">H</tspan></text>
+<g stroke="#fff" stroke-width="2.5"><line x1="63" y1="215" x2="198" y2="215"/><line x1="63" y1="209" x2="63" y2="221"/><line x1="198" y1="209" x2="198" y2="221"/></g>
+<text x="130.5" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="130.5" dy="0">15 m</tspan></text>
+<g stroke="#fff" stroke-width="2.5"><line x1="198" y1="215" x2="333" y2="215"/><line x1="198" y1="209" x2="198" y2="221"/><line x1="333" y1="209" x2="333" y2="221"/></g>
+<text x="265.5" y="205" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="265.5" dy="0">15 m</tspan></text>
+</g>
+<rect x="62.48" y="313" width="275.04" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="200" y="332" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="200" dy="0">Halte: 15 m aan weerszijden</tspan></text>
+<g transform="translate(402 302)">
+<rect x="0" y="0" width="396" height="296" fill="#74a85a" rx="10"/>
+<rect x="0" y="95" width="396" height="90" fill="#4a4f57"/><line x1="0" y1="140" x2="396" y2="140" stroke="#fff" stroke-width="2.5" stroke-dasharray="14 12"/>
+<g transform="translate(130 163) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(300 163) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<rect x="160" y="150" width="9" height="30" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="260" y="150" width="9" height="30" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<g stroke="#fff" stroke-width="2.5"><line x1="161" y1="205" x2="170" y2="205"/></g>
+<rect x="92.32" y="224" width="245.36" height="43.04" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="215" y="240" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="215" dy="0">minder dan 1 m vrij laten</tspan><tspan x="215" dy="16.52">vóór of achter: parkeerverbod</tspan></text>
+</g>
+<rect x="481.52" y="313" width="236.96" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="600" y="332" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="600" dy="0">Tot ander voertuig: 1 m</tspan></text>
+</svg>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Fietslichten</title>
+<desc id="d">Vier voorbeelden: (1) een fietslicht met een fietssilhouet in rood, oranje en groen: geldt alleen voor fietsers en tweewielige bromfietsen; (2) een fietslicht met pijltjes rond het fietsje: dezelfde kleur geldt tegelijk voor de dwarsrichting; (3) een combinatielicht fiets en voetganger; (4) een knipperend oranje fietslicht met een knipperende oranje pijl, samen met rood: alleen in de richting van de pijl verder, met voorrang voor anderen.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="104" y="308" width="12" height="40" fill="#6b7280"/>
+<rect x="71" y="90" width="78" height="220" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="110" cy="132" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(110 132) scale(1.4)" fill="none" stroke="#4a1d1d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#4a1d1d" stroke="none"/></g>
+<circle cx="110" cy="200" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(110 200) scale(1.4)" fill="none" stroke="#4d3410" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#4d3410" stroke="none"/></g>
+<circle cx="110" cy="268" r="35" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="110" cy="268" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(110 268) scale(1.4)" fill="none" stroke="#1fbf5a" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1fbf5a" stroke="none"/></g>
+<text x="110" y="410" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#1c2230" text-anchor="middle" ><tspan x="110" dy="0">Fietslicht:</tspan><tspan x="110" dy="17.7">enkel voor fietsers</tspan><tspan x="110" dy="17.7">en tweewielige</tspan><tspan x="110" dy="17.7">bromfietsen</tspan></text>
+<rect x="304" y="308" width="12" height="40" fill="#6b7280"/>
+<rect x="271" y="90" width="78" height="220" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="310" cy="132" r="35" fill="#e5322d" opacity="0.28"/>
+<circle cx="310" cy="132" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(310 132) scale(1.4)" fill="none" stroke="#e5322d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#e5322d" stroke="none"/></g>
+<circle cx="310" cy="200" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(310 200) scale(1.4)" fill="none" stroke="#4d3410" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#4d3410" stroke="none"/></g>
+<circle cx="310" cy="268" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(310 268) scale(1.4)" fill="none" stroke="#143b24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#143b24" stroke="none"/></g>
+<g fill="#e5322d"><path d="M258,108 l-14,-10 v20 z"/><path d="M362,108 l14,-10 v20 z"/></g>
+<text x="310" y="410" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#1c2230" text-anchor="middle" ><tspan x="310" dy="0">Met pijltjes rond</tspan><tspan x="310" dy="17.7">het fietsje: dezelfde</tspan><tspan x="310" dy="17.7">kleur geldt ook voor</tspan><tspan x="310" dy="17.7">de dwarsrichting</tspan></text>
+<rect x="504" y="240" width="12" height="40" fill="#6b7280"/>
+<rect x="471" y="90" width="78" height="152" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="510" cy="132" r="35" fill="#e5322d" opacity="0.28"/>
+<circle cx="510" cy="132" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(498.24 132) scale(1.008)" fill="none" stroke="#e5322d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#e5322d" stroke="none"/></g><g transform="translate(524 132) scale(1.008)" fill="#e5322d" stroke="#e5322d" stroke-width="3.4" stroke-linecap="round"><circle cx="0" cy="-14" r="4.6" stroke="none"/><path d="M-8,-7 L8,-7 L7,6 L-7,6 Z" stroke-linejoin="round"/><line x1="-3.5" y1="7" x2="-3.5" y2="17"/><line x1="3.5" y1="7" x2="3.5" y2="17"/></g>
+<circle cx="510" cy="200" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(498.24 200) scale(1.008)" fill="none" stroke="#143b24" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#143b24" stroke="none"/></g><g transform="translate(524 200) scale(1.008)" fill="#143b24" stroke="#143b24" stroke-width="3.4" stroke-linecap="round"><circle cx="0" cy="-14" r="4.6" stroke="none"/><path d="M-8,-7 L8,-7 L7,6 L-7,6 Z" stroke-linejoin="round"/><line x1="-3.5" y1="7" x2="-3.5" y2="17"/><line x1="3.5" y1="7" x2="3.5" y2="17"/></g>
+<text x="510" y="355" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#1c2230" text-anchor="middle" ><tspan x="510" dy="0">Combinatielicht fiets</tspan><tspan x="510" dy="17.7">en voetganger</tspan></text>
+<rect x="694" y="240" width="12" height="40" fill="#6b7280"/>
+<rect x="661" y="90" width="78" height="152" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="700" cy="132" r="35" fill="#e5322d" opacity="0.28"/>
+<circle cx="700" cy="132" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(700 132) scale(1.4)" fill="none" stroke="#e5322d" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#e5322d" stroke="none"/></g>
+<circle cx="700" cy="200" r="35" fill="#ff9d00" opacity="0.28"/>
+<circle cx="700" cy="200" r="28" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<g transform="translate(700 200) rotate(90)"><path d="M0,-25.2 L17.639999999999997,-1.26 L6.552,-1.26 L6.552,25.2 L-6.552,25.2 L-6.552,-1.26 L-17.639999999999997,-1.26 Z" fill="#ff9d00"/></g>
+<g stroke="#ff9d00" stroke-width="4" stroke-linecap="round"><line x1="740" y1="188" x2="754" y2="180"/><line x1="742" y1="200" x2="758" y2="200"/><line x1="740" y1="212" x2="754" y2="220"/><line x1="660" y1="188" x2="646" y2="180"/><line x1="658" y1="200" x2="642" y2="200"/><line x1="660" y1="212" x2="646" y2="220"/></g>
+<text x="700" y="355" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#1c2230" text-anchor="middle" ><tspan x="700" dy="0">Knipperende oranje pijl</tspan><tspan x="700" dy="17.7">+ rood: enkel in de pijl-</tspan><tspan x="700" dy="17.7">richting, met voorrang</tspan><tspan x="700" dy="17.7">voor anderen</tspan></text>
+<rect x="108.76" y="505" width="582.48" height="31.24" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="525" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Geen fietslicht? Dan volgt een fietser het gewone licht.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Lichten voor fietsers</tspan></text>
+</svg>

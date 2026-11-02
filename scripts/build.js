@@ -1,0 +1,541 @@
+#!/usr/bin/env node
+/*
+ * Build: data/*.json  ->  site/data/cursus.js (window.CURSUS) + HTML-pagina's in site/.
+ * Geen dependencies. Gebruik:
+ *   node scripts/build.js                 strikt (faalt als de curriculum-checklist niet groen is)
+ *   node scripts/build.js --lenient       waarschuwt enkel
+ *   node scripts/build.js --demo          bouwt mee met data/_demo (impliceert --lenient, schrijft curriculum.json niet bij)
+ *   node scripts/build.js --allow-unverified   neemt ook oefeningen zonder 'ok' in verificatie.json op
+ */
+'use strict';
+const fs = require('fs');
+const path = require('path');
+
+const ROOT = path.resolve(__dirname, '..');
+const DATA = path.join(ROOT, 'data');
+const SITE = path.join(ROOT, 'site');
+const args = new Set(process.argv.slice(2));
+const DEMO = args.has('--demo');
+const LENIENT = args.has('--lenient') || DEMO;
+const ALLOW_UNVERIFIED = args.has('--allow-unverified');
+
+const errors = [];
+const warnings = [];
+const err = (m) => errors.push(m);
+const warn = (m) => warnings.push(m);
+
+function readJSON(p, fallback) {
+  try {
+    return JSON.parse(fs.readFileSync(p, 'utf8'));
+  } catch (e) {
+    if (fallback !== undefined && e.code === 'ENOENT') return fallback;
+    err('Kan ' + path.relative(ROOT, p) + ' niet lezen: ' + e.message);
+    return fallback;
+  }
+}
+function jsonFiles(dir) {
+  if (!fs.existsSync(dir)) return [];
+  return fs.readdirSync(dir).filter((f) => f.endsWith('.json')).sort().map((f) => path.join(dir, f));
+}
+
+/* ---------- invoer ---------- */
+const curriculum = readJSON(path.join(DATA, 'curriculum.json'), []);
+const curIndex = new Map(curriculum.map((c, i) => [c.id, i]));
+
+const THEMA_NAMEN = {
+  borden: 'Verkeersborden en markeringen',
+  snelheden: 'Snelheden en zones',
+  voorrang: 'Voorrang',
+  lichten: 'Verkeerslichten en bevoegde personen',
+  kwetsbaar: 'Voetgangers en fietsers',
+  openbaar: 'Tram, bus en overweg',
+  plaats: 'Plaats op de weg en parkeren',
+  snelwegen: 'Autosnelweg en autoweg',
+  gedrag: 'Gedrag en veiligheid',
+  ongeval: 'Ongeval en eerste hulp',
+  rijbewijs: 'Rijbewijs en theorie-examen',
+  techniek: 'Voertuig, dashboard en milieu',
+};
+const LES_TITELS = {
+  1: 'Borden, markeringen en snelheden',
+  2: 'Voorrang, lichten en weggebruikers',
+  3: 'Plaats op de weg en snelwegen',
+  4: 'Gedrag, ongeval, rijbewijs en techniek',
+};
+const LES_ONDERTITELS = {
+  1: 'Alle verkeersborden, wegmarkeringen en de toegelaten snelheden per wegtype en gewest.',
+  2: 'Wie heeft voorrang? Rotondes, verkeerslichten, bevoegde personen, voetgangers, fietsers, tram en bus.',
+  3: 'Rijstroken, kruisen en inhalen, parkeren en keren, en de regels op autosnelwegen.',
+  4: 'Alcohol en afleiding, remweg, ongeval en eerste hulp, het rijbewijs, het theorie-examen en je voertuig.',
+};
+
+// theorie
+const theorie = [];
+for (const f of jsonFiles(path.join(DATA, 'theorie'))) {
+  const d = readJSON(f);
+  if (!d || !Array.isArray(d.blokken)) { err(path.relative(ROOT, f) + ': geen blokken'); continue; }
+  d.blokken.forEach((b, i) => {
+    b.thema = d.thema;
+    b.les = b.les || d.les;
+    b._ord = theorie.length;
+    theorie.push(b);
+  });
+}
+const blokIds = new Set();
+for (const b of theorie) {
+  if (!b.id) { err('Theorieblok zonder id in thema ' + b.thema); continue; }
+  if (blokIds.has(b.id)) err('Dubbel theorieblok-id: ' + b.id);
+  blokIds.add(b.id);
+  for (const c of b.curriculum || []) if (!curIndex.has(c)) err(`Blok ${b.id}: onbekend curriculum-id ${c}`);
+}
+
+// bronnen
+const bronnen = {};
+for (const f of jsonFiles(path.join(DATA, 'bronnen'))) {
+  const d = readJSON(f, {});
+  for (const [k, v] of Object.entries(d)) {
+    if (bronnen[k]) err('Dubbel bron-id ' + k + ' in ' + path.basename(f));
+    bronnen[k] = v;
+  }
+}
+Object.assign(bronnen, readJSON(path.join(DATA, 'bronnen.json'), {}));
+
+// afbeeldingen
+const bordenIndex = readJSON(path.join(DATA, 'borden-index.json'), {});
+const creditsRaw = readJSON(path.join(DATA, 'credits.json'), []);
+const schemasIndexRaw = readJSON(path.join(DATA, 'schemas-index.json'), null);
+const schemaInfo = {}; // naam -> beschrijving
+if (schemasIndexRaw) {
+  const put = (naam, o) => {
+    if (!naam) return;
+    schemaInfo[naam] = (o && (o.beschrijving || o.alt || o.omschrijving || o.titel || o.naam_nl)) || '';
+  };
+  const arr = Array.isArray(schemasIndexRaw) ? schemasIndexRaw : (schemasIndexRaw.schemas || null);
+  if (Array.isArray(arr)) {
+    arr.forEach((o) => {
+      const n = typeof o === 'string' ? o : (o.naam || o.id || (o.bestand || '').replace(/^.*\//, '').replace(/\.\w+$/, ''));
+      put(n, typeof o === 'string' ? null : o);
+    });
+  } else {
+    Object.entries(schemasIndexRaw.schemas || schemasIndexRaw).forEach(([k, o]) => put(k.replace(/\.\w+$/, ''), typeof o === 'object' ? o : { beschrijving: String(o) }));
+  }
+}
+function dirBases(dir) {
+  const m = {};
+  if (fs.existsSync(dir)) for (const f of fs.readdirSync(dir)) {
+    const ext = path.extname(f).toLowerCase();
+    if (['.svg', '.png', '.jpg', '.jpeg', '.webp'].includes(ext)) m[path.basename(f, ext)] = f;
+  }
+  return m;
+}
+const bordFiles = dirBases(path.join(SITE, 'img', 'borden'));
+const schemaFiles = dirBases(path.join(SITE, 'img', 'schemas'));
+const demoImgDir = path.join(DATA, '_demo', 'img');
+const demoFiles = DEMO ? dirBases(demoImgDir) : {};
+const afb = {};
+const warnedImg = new Set();
+function resolveImg(name) {
+  if (!name) return null;
+  if (name in afb) return afb[name];
+  let r = null;
+  if (bordFiles[name]) {
+    const bi = bordenIndex[name] || {};
+    r = { src: 'img/borden/' + bordFiles[name], soort: 'bord', alt: bi.naam_nl || ('Verkeersbord ' + name), cat: bi.categorie || null, naam: bi.naam_nl || null };
+  } else if (schemaFiles[name]) {
+    r = { src: 'img/schemas/' + schemaFiles[name], soort: 'schema', alt: schemaInfo[name] || humanize(name) };
+  } else if (demoFiles[name]) {
+    r = { src: 'img/_demo/' + demoFiles[name], soort: 'schema', alt: 'Demo-afbeelding ' + name };
+  } else if (name in schemaInfo) {
+    // staat in de index maar het bestand is er (nog) niet
+    r = null;
+    if (!warnedImg.has(name)) { warn(`Afbeelding '${name}' staat in schemas-index maar het bestand ontbreekt in site/img/schemas`); warnedImg.add(name); }
+  } else if (!warnedImg.has(name)) {
+    warn(`Afbeelding '${name}' niet gevonden (borden/schemas)`);
+    warnedImg.add(name);
+  }
+  afb[name] = r;
+  return r;
+}
+function humanize(n) {
+  return n.replace(/^(schema|markering|tech)-/, '').replace(/[-_]/g, ' ');
+}
+
+// credits: enkel niet-publiek-domein in afb-map, alles in credits-lijst
+const credits = creditsRaw.map((c) => ({
+  code: c.bordcode,
+  auteur: c.auteur,
+  licentie: c.licentie,
+  url: c.bron_url,
+  bestand: (c.bestand || '').replace(/^site\//, ''),
+  opmerking: c.opmerking || '',
+}));
+const creditByCode = Object.fromEntries(credits.map((c) => [c.code, c]));
+
+// oefeningen
+let verif = null;
+const verifFiles = [path.join(DATA, 'verificatie.json'), ...jsonFiles(path.join(DATA, 'verificatie'))];
+for (const vf of verifFiles) {
+  if (fs.existsSync(vf)) {
+    verif = verif || {};
+    Object.assign(verif, readJSON(vf, {}));
+  }
+}
+let oefRaw = [];
+for (const f of jsonFiles(path.join(DATA, 'oefeningen'))) {
+  const d = readJSON(f, []);
+  const arr = Array.isArray(d) ? d : (d.oefeningen || []);
+  arr.forEach((o) => { o._bron = path.basename(f); oefRaw.push(o); });
+}
+let demoCount = 0;
+if (DEMO) {
+  for (const f of jsonFiles(path.join(DATA, '_demo'))) {
+    const d = readJSON(f, []);
+    const arr = Array.isArray(d) ? d : (d.oefeningen || []);
+    arr.forEach((o) => { o._bron = '_demo/' + path.basename(f); o._demo = true; oefRaw.push(o); demoCount++; });
+  }
+}
+const verifActive = !!verif && !ALLOW_UNVERIFIED;
+if (!verif) console.log('[info] data/verificatie.json ontbreekt: alle oefeningen worden opgenomen (niet getoond aan gebruiker).');
+else if (ALLOW_UNVERIFIED) console.log('[info] --allow-unverified: verificatie genegeerd.');
+
+const TYPES = ['meerkeuze', 'invul', 'cloze', 'koppel', 'volgorde', 'waaronwaar', 'situatie', 'hotspot', 'tabel', 'bord', 'reken'];
+function validateEx(o) {
+  const e = [];
+  const need = (c, m) => { if (!c) e.push(m); };
+  need(o.id, 'id ontbreekt');
+  need(TYPES.includes(o.type), 'onbekend type ' + o.type);
+  need(o.vraag || o.type === 'cloze' || o.type === 'waaronwaar', 'vraag ontbreekt');
+  need(o.uitleg, 'uitleg ontbreekt');
+  need(o.onderwerp && curIndex.has(o.onderwerp), 'onderwerp ontbreekt of onbekend: ' + o.onderwerp);
+  need(!o.theorieblok || blokIds.has(o.theorieblok), 'theorieblok onbekend: ' + o.theorieblok);
+  const arr = (x) => Array.isArray(x) && x.length > 0;
+  switch (o.type) {
+    case 'meerkeuze': need(arr(o.opties) && o.opties.length >= 2, 'opties'); need(arr(o.correct) && o.correct.every((i) => Number.isInteger(i) && i >= 0 && i < (o.opties || []).length), 'correct (indices)'); break;
+    case 'invul': need(arr(o.antwoorden), 'antwoorden'); break;
+    case 'cloze': need(typeof o.tekst === 'string' && arr(o.gaten), 'tekst/gaten'); if (o.tekst && o.gaten) { const n = (o.tekst.match(/\{\{\d+\}\}/g) || []).length; need(n === o.gaten.length, `aantal gaten (${n}) <> gaten[] (${o.gaten.length})`); } break;
+    case 'koppel': need(arr(o.paren) && o.paren.length >= 2 && o.paren.every((p) => p.links != null && p.rechts != null), 'paren'); break;
+    case 'volgorde': need(arr(o.items) && o.items.length >= 2, 'items'); break;
+    case 'waaronwaar': need(o.stelling && typeof o.juist === 'boolean' && o.motivatie && arr(o.foutemotivaties), 'stelling/juist/motivatie/foutemotivaties'); break;
+    case 'situatie': need(o.afbeelding && arr(o.voertuigen) && (o.modus === 'volgorde' || o.modus === 'klik') && o.correct != null, 'afbeelding/voertuigen/modus/correct'); break;
+    case 'hotspot': need(o.afbeelding && arr(o.zones) && o.zones.some((z) => z.correct), 'afbeelding/zones'); break;
+    case 'tabel': need(arr(o.kolommen) && arr(o.rijen) && o.rijen.every((r) => arr(r.cellen)), 'kolommen/rijen'); break;
+    case 'bord': need(o.afbeelding && ['code', 'naam', 'categorie'].includes(o.modus), 'afbeelding/modus'); need(o.modus === 'categorie' ? !!o.categorie : arr(o.antwoorden), 'antwoorden/categorie'); break;
+    case 'reken': need(typeof o.antwoord === 'number', 'antwoord (getal)'); break;
+  }
+  return e;
+}
+const oefeningen = [];
+const seenEx = new Set();
+let uitVerificatie = 0;
+for (const o of oefRaw) {
+  const e = validateEx(o);
+  if (e.length) { err(`Oefening ${o.id || '?'} (${o._bron}): ${e.join('; ')}`); continue; }
+  if (seenEx.has(o.id)) { err('Dubbel oefening-id ' + o.id); continue; }
+  seenEx.add(o.id);
+  if (verifActive && !o._demo) {
+    const v = verif[o.id];
+    if (!v || v.status !== 'ok') { uitVerificatie++; continue; }
+  }
+  const x = Object.assign({}, o);
+  delete x._bron; delete x._demo;
+  x.les = x.les || (curriculum[curIndex.get(x.onderwerp)] || {}).les;
+  x.gewicht = x.gewicht || 'gewoon';
+  x.moeilijkheid = x.moeilijkheid || 1;
+  oefeningen.push(x);
+  if (x.afbeelding) resolveImg(x.afbeelding);
+}
+if (uitVerificatie) console.log(`[info] ${uitVerificatie} oefening(en) niet opgenomen (verificatie niet 'ok').`);
+
+/* ---------- boeken (pagina's per les) ---------- */
+function blokOrder(b) {
+  const ix = (b.curriculum || []).map((c) => curIndex.has(c) ? curIndex.get(c) : 9999);
+  return ix.length ? Math.min(...ix) : 9999;
+}
+function lesVanBlok(b) { return b.les; }
+const themaVolgorde = []; // eerste voorkomen in curriculum
+curriculum.forEach((c) => { if (!themaVolgorde.includes(c.thema)) themaVolgorde.push(c.thema); });
+const boeken = {};
+const placed = new Set();
+const oefPerBlok = {};
+oefeningen.forEach((o) => {
+  let target = o.theorieblok && blokIds.has(o.theorieblok) ? o.theorieblok : null;
+  if (!target) {
+    const b = theorie.find((t) => (t.curriculum || []).includes(o.onderwerp));
+    if (b) target = b.id;
+  }
+  o.theorieblok = target || null;
+  if (target) (oefPerBlok[target] = oefPerBlok[target] || []).push(o.id);
+});
+for (const les of [1, 2, 3, 4]) {
+  const blokken = theorie.filter((b) => lesVanBlok(b) === les);
+  const chapters = [];
+  blokken.sort((a, b) => blokOrder(a) - blokOrder(b) || a._ord - b._ord);
+  const themas = [...new Set(blokken.map((b) => b.thema))].sort((a, b) => themaVolgorde.indexOf(a) - themaVolgorde.indexOf(b));
+  const pages = [{ t: 'intro', titel: 'Inleiding' }];
+  for (const th of themas) {
+    for (const b of blokken.filter((x) => x.thema === th)) {
+      pages.push({ t: 'blok', id: b.id, titel: b.titel, thema: th, hoofdstuk: THEMA_NAMEN[th] || th, oef: oefPerBlok[b.id] || [] });
+      placed.add(b.id);
+    }
+  }
+  const lesEx = oefeningen.filter((o) => o.les === les && !o.theorieblok).map((o) => o.id);
+  if (lesEx.length) pages.push({ t: 'extra', titel: 'Extra oefenen', hoofdstuk: 'Extra oefenen', oef: lesEx });
+  pages.push({ t: 'samenvatting', titel: 'Samenvatting' });
+  pages.push({ t: 'eindtest', titel: 'Eindtest' });
+  void chapters;
+  boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: themas.map((t) => ({ id: t, naam: THEMA_NAMEN[t] || t })), pages };
+}
+const blokPagina = {};
+for (const les of Object.keys(boeken)) boeken[les].pages.forEach((p, i) => { if (p.t === 'blok') blokPagina[p.id] = { les: +les, pagina: i + 1 }; });
+
+// afbeeldingen van blokken resolven + bronnen controleren
+for (const b of theorie) {
+  (b.afbeeldingen || []).forEach(resolveImg);
+  for (const r of b.regels || []) {
+    for (const v of Object.values(r)) if (typeof v === 'string' && bordenIndex[v]) resolveImg(v);
+  }
+  for (const s of b.bronnen || []) if (!bronnen[s]) err(`Blok ${b.id}: onbekende bron ${s}`);
+}
+// regel-tabellen: codes in regels altijd resolven (voor miniaturen)
+const alleBordCodes = Object.keys(bordenIndex);
+alleBordCodes.forEach((c) => { if (bordFiles[c] && !afb[c]) resolveImg(c); });
+// credits voor niet-pd afbeeldingen
+Object.keys(afb).forEach((n) => {
+  const c = creditByCode[n];
+  if (afb[n] && c && !/public domain/i.test(c.licentie)) afb[n].credit = { auteur: c.auteur, licentie: c.licentie, url: c.url };
+});
+
+/* ---------- curriculum-checklist ---------- */
+const checklistFouten = [];
+const nieuweCurriculum = curriculum.map((c) => {
+  const blokken = theorie.filter((b) => (b.curriculum || []).includes(c.id));
+  const nOef = oefeningen.filter((o) => o.onderwerp === c.id).length;
+  const heeftAfb = blokken.some((b) => (b.afbeeldingen || []).some((a) => afb[a]));
+  const heeftBron = blokken.some((b) => (b.bronnen || []).some((s) => bronnen[s]));
+  const nc = Object.assign({}, c, {
+    theorie: blokken.length > 0,
+    oefeningen3: nOef >= 3,
+    afbeelding: heeftAfb,
+    bron: heeftBron,
+  });
+  const missing = ['theorie', 'oefeningen3', 'afbeelding', 'bron'].filter((k) => !nc[k]);
+  if (missing.length) checklistFouten.push(`${c.id} (${c.naam}): ontbreekt ${missing.join(', ')}${nOef < 3 ? ` [${nOef} oefeningen]` : ''}`);
+  return nc;
+});
+if (!DEMO) {
+  fs.writeFileSync(path.join(DATA, 'curriculum.json'), JSON.stringify(nieuweCurriculum, null, 1) + '\n');
+}
+if (checklistFouten.length) {
+  const msg = 'Curriculum-checklist onvolledig:\n  - ' + checklistFouten.join('\n  - ');
+  if (LENIENT) warn(msg); else err(msg);
+}
+
+/* ---------- uitvoer ---------- */
+function report() {
+  warnings.forEach((w) => console.warn('[waarschuwing] ' + w));
+  errors.forEach((e) => console.error('[FOUT] ' + e));
+}
+if (errors.length && !LENIENT) {
+  report();
+  console.error(`\nBuild MISLUKT: ${errors.length} fout(en).`);
+  process.exit(1);
+}
+if (errors.length) console.warn(`[lenient] ${errors.length} fout(en) genegeerd (zie onder).`);
+
+const cursus = {
+  meta: { gebouwd: new Date().toISOString(), demo: DEMO },
+  curriculum: nieuweCurriculum.map((c) => ({ id: c.id, les: c.les, naam: c.naam, thema: c.thema })),
+  themaNamen: THEMA_NAMEN,
+  boeken,
+  blokPagina,
+  theorie: theorie.map((b) => { const x = Object.assign({}, b); delete x._ord; return x; }),
+  oefeningen,
+  bronnen,
+  borden: Object.fromEntries(Object.entries(bordenIndex).map(([k, v]) => [k, { naam: v.naam_nl, cat: v.categorie }])),
+  afb: Object.fromEntries(Object.entries(afb).filter(([, v]) => v)),
+  credits,
+};
+fs.mkdirSync(path.join(SITE, 'data'), { recursive: true });
+fs.writeFileSync(path.join(SITE, 'data', 'cursus.js'), '/* gegenereerd door scripts/build.js, niet met de hand aanpassen */\nwindow.CURSUS = ' + JSON.stringify(cursus) + ';\n');
+
+// demo-afbeeldingen
+const demoOut = path.join(SITE, 'img', '_demo');
+fs.rmSync(demoOut, { recursive: true, force: true });
+if (DEMO && fs.existsSync(demoImgDir)) {
+  fs.mkdirSync(demoOut, { recursive: true });
+  for (const f of fs.readdirSync(demoImgDir)) fs.copyFileSync(path.join(demoImgDir, f), path.join(demoOut, f));
+}
+
+/* ---------- HTML ---------- */
+const NAV = [
+  ['index.html', 'Start'],
+  ['les1.html', 'Les 1'],
+  ['les2.html', 'Les 2'],
+  ['les3.html', 'Les 3'],
+  ['les4.html', 'Les 4'],
+  ['examen.html', 'Proefexamen'],
+  ['oefenbank.html', 'Oefenbank'],
+  ['spiekbrief.html', 'Spiekbrief'],
+  ['mijnfouten.html', 'Mijn fouten'],
+  ['bronnen.html', 'Bronnen'],
+];
+const esc = (s) => String(s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+const FAVICON = "data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4e89'/%3E%3Cpath d='M16 5l9 17H7z' fill='%23f5b800' stroke='%23fff' stroke-width='2' stroke-linejoin='round'/%3E%3Crect x='15' y='11' width='2' height='6' fill='%231d4e89'/%3E%3Crect x='15' y='19' width='2' height='2' fill='%231d4e89'/%3E%3C/svg%3E";
+
+function shell({ file, title, page, les, main, scripts = [], extraClass = '' }) {
+  const navHtml = NAV.map(([href, label]) => {
+    const cur = href === file ? ' aria-current="page"' : '';
+    return `<li><a href="${href}"${cur}>${esc(label)}</a></li>`;
+  }).join('');
+  return `<!doctype html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>${esc(title)} · Theorie rijbewijs B Vlaanderen</title>
+<meta name="description" content="Gratis online cursus voor het theorie-examen rijbewijs B in Vlaanderen: uitleg, oefeningen en proefexamen.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="${FAVICON}">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
+<script>(function(){try{var t=localStorage.getItem('rbc.theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="${page}"${les ? ` data-les="${les}"` : ''} class="${extraClass}">
+<a class="skip" href="#main">Naar de inhoud</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html" aria-label="Theorie rijbewijs B, startpagina">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M16 6l9 16.5H7z" fill="#f5b800" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><rect x="15" y="11.5" width="2" height="5.5" fill="#1d4e89"/><rect x="15" y="19" width="2" height="2" fill="#1d4e89"/></svg>
+      <span class="brand-text">Theorie rijbewijs B<small>Vlaanderen</small></span>
+    </a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg><span class="sr">Menu</span></button>
+    <nav class="sitenav" id="site-nav" aria-label="Hoofdmenu"><ul>${navHtml}</ul></nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Wissel tussen lichte en donkere modus" title="Licht / donker"><svg class="ic-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" fill="currentColor"/></svg><svg class="ic-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+</header>
+${main}
+<footer class="footer">
+  <p>Gratis leermiddel, geen officiële uitgave van de overheid. Controleer belangrijke regels altijd bij de <a href="bronnen.html">bronnen</a>. Afbeeldingen: <a href="bronnen.html#afbeeldingen">auteurs en licenties</a>. Je voortgang blijft enkel in je eigen browser.</p>
+</footer>
+<noscript><p class="noscript">Voor deze cursus is JavaScript nodig (voor de oefeningen en het bladeren door de pagina's).</p></noscript>
+<script defer src="data/cursus.js"></script>
+<script defer src="js/common.js"></script>
+${scripts.map((s) => `<script defer src="js/${s}"></script>`).join('\n')}
+</body>
+</html>
+`;
+}
+
+const pages = {};
+
+// index
+pages['index.html'] = shell({
+  file: 'index.html', title: 'Start', page: 'home',
+  scripts: ['exercises.js', 'quiz.js', 'pages.js'],
+  main: `<main id="main" class="wrap home">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Gratis online cursus</p>
+      <h1>Theorie rijbewijs B <span>in Vlaanderen</span></h1>
+      <p class="lead">Vier lessen, opgebouwd als een boek: eerst de uitleg, meteen daarna oefeningen. Sluit elke les af met een eindtest en test jezelf in het proefexamen.</p>
+      <div class="hero-actions" id="hero-actions"><a class="btn btn-primary btn-lg" href="les1.html">Begin met les 1</a><a class="btn btn-lg" href="#inleiding">Hoe werkt het?</a></div>
+    </div>
+    <div class="hero-progress card" id="home-progress" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="h-lessen">
+    <h2 id="h-lessen" class="section-title">De vier lessen</h2>
+    <div class="lesson-grid" id="lesson-grid"></div>
+  </section>
+
+  <section aria-labelledby="h-tools">
+    <h2 id="h-tools" class="section-title">Oefenen en opzoeken</h2>
+    <div class="tool-grid">
+      <a class="tool card" href="examen.html"><span class="tool-ic" aria-hidden="true">${'<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg>'}</span><h3>Proefexamen</h3><p>Zoals het echte examen: 50 vragen, 50 punten, min 1 of min 5 per fout. Slagen vanaf 41.</p></a>
+      <a class="tool card" href="oefenbank.html"><span class="tool-ic" aria-hidden="true">${'<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg>'}</span><h3>Oefenbank</h3><p>Alle oefeningen op één plaats. Filter op les, onderwerp of type en oefen waar je wilt.</p></a>
+      <a class="tool card" href="mijnfouten.html"><span class="tool-ic" aria-hidden="true">${'<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg>'}</span><h3>Mijn fouten <span class="count-badge" id="fouten-count" hidden></span></h3><p>Alle vragen die je fout had, bij elkaar. Herhaal ze tot ze zitten.</p></a>
+      <a class="tool card" href="spiekbrief.html"><span class="tool-ic" aria-hidden="true">${'<svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg>'}</span><h3>Spiekbrief</h3><p>De belangrijkste regels op één afdrukbaar blad, per les te kiezen.</p></a>
+    </div>
+  </section>
+
+  <section id="inleiding" class="intro-sec" aria-labelledby="h-intro">
+    <h2 id="h-intro" class="section-title">Inleiding: zo werkt de cursus</h2>
+    <div class="steps">
+      <article class="step card"><span class="step-n">1</span><h3>Lees een pagina</h3><p>Elke les is een boek. Je ziet telkens één pagina: een stukje uitleg met regels, kaders en afbeeldingen. Onderaan blader je met <kbd>Volgende</kbd> of met de pijltjestoetsen <kbd>←</kbd> <kbd>→</kbd>.</p></article>
+      <article class="step card"><span class="step-n">2</span><h3>Oefen meteen</h3><p>Onder de uitleg staan oefeningen over precies die stof. Klik op <em>Nakijken</em>, lees de uitleg en probeer opnieuw als het fout was. Twijfel je? Met <em>Toon theorie</em> spring je terug naar de uitleg.</p></article>
+      <article class="step card"><span class="step-n">3</span><h3>Herhaal en test</h3><p>Sluit een les af met de samenvatting en een eindtest van 20 vragen. Je ziet wat je moet herhalen. Foute vragen komen automatisch in <a href="mijnfouten.html">Mijn fouten</a> terecht.</p></article>
+      <article class="step card"><span class="step-n">4</span><h3>Doe het proefexamen</h3><p>Pas als de lessen goed zitten, doe je het <a href="examen.html">proefexamen</a> met 50 vragen en dezelfde puntentelling als het echte examen.</p></article>
+    </div>
+
+    <div class="two-col">
+      <article class="card prose">
+        <h3>Het theorie-examen in Vlaanderen</h3>
+        <ul class="ticks">
+          <li>Je mag het theorie-examen afleggen vanaf <strong>17 jaar</strong>.</li>
+          <li>Het examen bestaat uit <strong>50 meerkeuzevragen</strong>. Je start met <strong>50 punten</strong>.</li>
+          <li>Elk fout of onbeantwoord antwoord kost <strong>1 punt</strong>. Een fout antwoord op een vraag over een zware overtreding (3de of 4de graad) of over de maximumsnelheid kost <strong>5 punten</strong>.</li>
+          <li>Je bent <strong>geslaagd vanaf 41 op 50</strong>.</li>
+          <li>Volgens Vlaanderen.be heb je <strong>15 seconden per vraag</strong>, nadat de vraag volledig is voorgelezen.</li>
+          <li>Na het examen kun je je foute antwoorden bekijken. Een geslaagd examen is <strong>3 jaar</strong> geldig.</li>
+        </ul>
+        <p class="small muted">Bron: Vlaanderen.be, <a href="bronnen.html">zie bronnen</a>. Regels kunnen wijzigen: controleer ze vóór je examen.</p>
+      </article>
+      <article class="card prose">
+        <h3>Zo gebruik je deze site</h3>
+        <ul class="ticks">
+          <li><strong>Inhoudsopgave links</strong> in elke les: klik om te springen, een vinkje toont wat je al las. Op een smal scherm klap je ze open met de knop <em>Inhoud</em>.</li>
+          <li><strong>Onthouden</strong>: je plek en je resultaten worden in je eigen browser bewaard, zonder account.</li>
+          <li><strong>Gewestverschillen</strong> staan in een kader met drie badges: Vlaanderen, Wallonië en Brussel. Voor je examen telt Vlaanderen.</li>
+          <li><strong>Kaders</strong>: <span class="chip chip-regel">Regel</span> <span class="chip chip-letop">Let op</span> <span class="chip chip-zwarefout">Zware fout</span> <span class="chip chip-tip">Tip</span>.</li>
+          <li><strong>Donkere modus</strong> met de knop rechtsboven. <strong>Afdrukken</strong> kan het best via de <a href="spiekbrief.html">spiekbrief</a>.</li>
+        </ul>
+      </article>
+    </div>
+    <p class="notice" id="wegcode-note">De huidige wegcode blijft gelden tot 31 mei 2027; op 1 juni 2027 volgt de nieuwe Code van de openbare weg. In deze cursus leer je de regels die nu gelden, met een opmerking waar de nieuwe code iets wijzigt.</p>
+  </section>
+</main>`,
+});
+
+// lessen
+for (const les of [1, 2, 3, 4]) {
+  pages[`les${les}.html`] = shell({
+    file: `les${les}.html`, title: `Les ${les}: ${LES_TITELS[les]}`, page: 'les', les,
+    scripts: ['exercises.js', 'quiz.js', 'lesson.js'],
+    main: `<div class="book-layout" id="book-root">
+  <aside class="toc" id="toc" aria-label="Inhoudsopgave"></aside>
+  <main id="main" class="book" tabindex="-1">
+    <div class="book-page" id="book-page"><p class="loading">Les ${les} wordt geladen…</p></div>
+    <div class="pager" id="pager" role="navigation" aria-label="Bladeren"></div>
+  </main>
+</div>`,
+  });
+}
+
+pages['examen.html'] = shell({
+  file: 'examen.html', title: 'Proefexamen', page: 'exam', scripts: ['exercises.js', 'quiz.js', 'pages.js'],
+  main: `<main id="main" class="wrap narrow"><div id="exam-root"><p class="loading">Proefexamen wordt geladen…</p></div></main>`,
+});
+pages['oefenbank.html'] = shell({
+  file: 'oefenbank.html', title: 'Oefenbank', page: 'bank', scripts: ['exercises.js', 'quiz.js', 'pages.js'],
+  main: `<main id="main" class="wrap narrow"><header class="page-head"><p class="eyebrow">Oefenen</p><h1>Oefenbank</h1><p class="lead">Alle oefeningen van de cursus. Kies een les, onderwerp of type en oefen zo lang je wilt.</p></header><div id="bank-root"><p class="loading">Oefeningen worden geladen…</p></div></main>`,
+});
+pages['mijnfouten.html'] = shell({
+  file: 'mijnfouten.html', title: 'Mijn fouten', page: 'fouten', scripts: ['exercises.js', 'quiz.js', 'pages.js'],
+  main: `<main id="main" class="wrap narrow"><header class="page-head"><p class="eyebrow">Herhalen</p><h1>Mijn fouten</h1><p class="lead">Elke vraag die je fout beantwoordde, staat hier. Beantwoord ze goed en ze verdwijnen uit de lijst.</p></header><div id="fouten-root"><p class="loading">Even laden…</p></div></main>`,
+});
+pages['spiekbrief.html'] = shell({
+  file: 'spiekbrief.html', title: 'Spiekbrief', page: 'spiek', scripts: ['pages.js'],
+  main: `<main id="main" class="wrap spiek"><header class="page-head no-print"><p class="eyebrow">Samenvatting</p><h1>Spiekbrief</h1><p class="lead">De belangrijkste regels, borden en snelheden op één blad. Kies welke lessen je wilt zien en druk af (Ctrl+P).</p><div id="spiek-controls" class="spiek-controls"></div></header><div id="spiek-root"></div></main>`,
+});
+pages['bronnen.html'] = shell({
+  file: 'bronnen.html', title: 'Bronnen en afbeeldingen', page: 'bronnen', scripts: ['pages.js'],
+  main: `<main id="main" class="wrap narrow"><header class="page-head"><p class="eyebrow">Transparantie</p><h1>Bronnen &amp; afbeeldingen</h1><p class="lead">Waar komt de leerstof vandaan, en wie maakte de afbeeldingen? Alles hier is controleerbaar.</p></header><div id="bronnen-root"><p class="loading">Even laden…</p></div></main>`,
+});
+
+for (const [f, html] of Object.entries(pages)) fs.writeFileSync(path.join(SITE, f), html);
+
+report();
+const nOef = oefeningen.length;
+console.log(`Build OK${DEMO ? ' (DEMO)' : ''}${LENIENT ? ' (lenient)' : ''}: ${theorie.length} theorieblokken, ${nOef} oefeningen${DEMO ? ` (waarvan ${demoCount} demo)` : ''}, ${Object.keys(bronnen).length} bronnen, ${Object.keys(afb).filter((k) => afb[k]).length} afbeeldingen gebruikt, ${credits.length} credits.`);

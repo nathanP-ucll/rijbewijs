@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Driekleurig verkeerslicht: groen, oranje, rood, groen</title>
+<desc id="d">Een verkeerslicht met rood bovenaan, oranje in het midden en groen onderaan. Daarnaast vier stappen van de volgorde: groen, dan oranje, dan rood, dan weer groen. Onderaan de betekenis: rood stoppen voor de stopstreep, oranje stoppen tenzij je niet meer veilig kunt stoppen, groen mag voorbij.</desc>
+<defs><marker id="ah1c2230" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#1c2230"/></marker></defs>
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="104" y="352" width="12" height="40" fill="#6b7280"/>
+<rect x="67" y="110" width="86" height="244" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="110" cy="156" r="32" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="110" cy="156" r="25.6" fill="#4a1d1d"/>
+<circle cx="110" cy="232" r="32" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="110" cy="232" r="25.6" fill="#4d3410"/>
+<circle cx="110" cy="308" r="39" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="110" cy="308" r="32" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="110" cy="308" r="25.6" fill="#1fbf5a"/>
+<text x="110" y="425" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="110" dy="0">rood boven</tspan><tspan x="110" dy="21.24">oranje midden</tspan><tspan x="110" dy="21.24">groen onder</tspan></text>
+<rect x="284" y="294" width="12" height="24" fill="#6b7280"/>
+<rect x="255" y="100" width="70" height="196" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="290" cy="138" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="290" cy="138" r="19.200000000000003" fill="#4a1d1d"/>
+<circle cx="290" cy="198" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="290" cy="198" r="19.200000000000003" fill="#4d3410"/>
+<circle cx="290" cy="258" r="31" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="290" cy="258" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="290" cy="258" r="19.200000000000003" fill="#1fbf5a"/>
+<text x="290" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#6b7280" text-anchor="middle" ><tspan x="290" dy="0">1</tspan></text>
+<line x1="334" y1="190" x2="394" y2="190" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
+<rect x="434" y="294" width="12" height="24" fill="#6b7280"/>
+<rect x="405" y="100" width="70" height="196" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="440" cy="138" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="440" cy="138" r="19.200000000000003" fill="#4a1d1d"/>
+<circle cx="440" cy="198" r="31" fill="#ff9d00" opacity="0.28"/>
+<circle cx="440" cy="198" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="440" cy="198" r="19.200000000000003" fill="#ff9d00"/>
+<circle cx="440" cy="258" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="440" cy="258" r="19.200000000000003" fill="#143b24"/>
+<text x="440" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#6b7280" text-anchor="middle" ><tspan x="440" dy="0">2</tspan></text>
+<line x1="484" y1="190" x2="544" y2="190" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
+<rect x="584" y="294" width="12" height="24" fill="#6b7280"/>
+<rect x="555" y="100" width="70" height="196" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="590" cy="138" r="31" fill="#e5322d" opacity="0.28"/>
+<circle cx="590" cy="138" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="590" cy="138" r="19.200000000000003" fill="#e5322d"/>
+<circle cx="590" cy="198" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="590" cy="198" r="19.200000000000003" fill="#4d3410"/>
+<circle cx="590" cy="258" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="590" cy="258" r="19.200000000000003" fill="#143b24"/>
+<text x="590" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#6b7280" text-anchor="middle" ><tspan x="590" dy="0">3</tspan></text>
+<line x1="634" y1="190" x2="694" y2="190" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
+<rect x="734" y="294" width="12" height="24" fill="#6b7280"/>
+<rect x="705" y="100" width="70" height="196" rx="16" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="740" cy="138" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="740" cy="138" r="19.200000000000003" fill="#4a1d1d"/>
+<circle cx="740" cy="198" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="740" cy="198" r="19.200000000000003" fill="#4d3410"/>
+<circle cx="740" cy="258" r="31" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="740" cy="258" r="24" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/>
+<circle cx="740" cy="258" r="19.200000000000003" fill="#1fbf5a"/>
+<text x="740" y="345" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#6b7280" text-anchor="middle" ><tspan x="740" dy="0">4</tspan></text>
+<text x="485" y="90" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="485" dy="0">Volgorde: groen, oranje, rood, groen</tspan></text>
+<rect x="160.36" y="530" width="179.28" height="47.76" rx="9" fill="#e5322d"  opacity="0.95"/>
+<text x="250" y="548" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="250" dy="0">ROOD: stoppen</tspan><tspan x="250" dy="18.88">voor de stopstreep</tspan></text>
+<rect x="372.96" y="530" width="224.08" height="66.64" rx="9" fill="#ff9d00"  opacity="0.95"/>
+<text x="485" y="548" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="485" dy="0">ORANJE: stoppen, tenzij</tspan><tspan x="485" dy="18.88">je niet meer veilig</tspan><tspan x="485" dy="18.88">kunt stoppen</tspan></text>
+<rect x="628.28" y="530" width="143.44" height="47.76" rx="9" fill="#1fbf5a"  opacity="0.95"/>
+<text x="700" y="548" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="700" dy="0">GROEN:</tspan><tspan x="700" dy="18.88">je mag voorbij</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Verkeerslicht: rood boven, oranje midden, groen onder</tspan></text>
+</svg>

@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="nl-BE">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Start · Theorie rijbewijs B Vlaanderen</title>
+<meta name="description" content="Gratis online cursus voor het theorie-examen rijbewijs B in Vlaanderen: uitleg, oefeningen en proefexamen.">
+<meta name="color-scheme" content="light dark">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%231d4e89'/%3E%3Cpath d='M16 5l9 17H7z' fill='%23f5b800' stroke='%23fff' stroke-width='2' stroke-linejoin='round'/%3E%3Crect x='15' y='11' width='2' height='6' fill='%231d4e89'/%3E%3Crect x='15' y='19' width='2' height='2' fill='%231d4e89'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Fraunces:opsz,wght@9..144,600;9..144,700&display=swap">
+<script>(function(){try{var t=localStorage.getItem('rbc.theme');if(t==='dark'||t==='light')document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body data-page="home" class="">
+<a class="skip" href="#main">Naar de inhoud</a>
+<header class="topbar">
+  <div class="topbar-in">
+    <a class="brand" href="index.html" aria-label="Theorie rijbewijs B, startpagina">
+      <svg class="brand-mark" viewBox="0 0 32 32" aria-hidden="true"><rect width="32" height="32" rx="8" fill="currentColor"/><path d="M16 6l9 16.5H7z" fill="#f5b800" stroke="#fff" stroke-width="1.8" stroke-linejoin="round"/><rect x="15" y="11.5" width="2" height="5.5" fill="#1d4e89"/><rect x="15" y="19" width="2" height="2" fill="#1d4e89"/></svg>
+      <span class="brand-text">Theorie rijbewijs B<small>Vlaanderen</small></span>
+    </a>
+    <button class="menu-btn" id="menu-btn" aria-expanded="false" aria-controls="site-nav"><svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round" fill="none"/></svg><span class="sr">Menu</span></button>
+    <nav class="sitenav" id="site-nav" aria-label="Hoofdmenu"><ul><li><a href="index.html" aria-current="page">Start</a></li><li><a href="les1.html">Les 1</a></li><li><a href="les2.html">Les 2</a></li><li><a href="les3.html">Les 3</a></li><li><a href="les4.html">Les 4</a></li><li><a href="examen.html">Proefexamen</a></li><li><a href="oefenbank.html">Oefenbank</a></li><li><a href="spiekbrief.html">Spiekbrief</a></li><li><a href="mijnfouten.html">Mijn fouten</a></li><li><a href="bronnen.html">Bronnen</a></li></ul></nav>
+    <button class="theme-btn" id="theme-btn" type="button" aria-label="Wissel tussen lichte en donkere modus" title="Licht / donker"><svg class="ic-moon" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><path d="M20 14.5A8 8 0 019.5 4 8 8 0 1020 14.5z" fill="currentColor"/></svg><svg class="ic-sun" viewBox="0 0 24 24" width="20" height="20" aria-hidden="true"><circle cx="12" cy="12" r="4.2" fill="currentColor"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M4.9 4.9l2.1 2.1M17 17l2.1 2.1M4.9 19.1L7 17M17 7l2.1-2.1" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button>
+  </div>
+</header>
+<main id="main" class="wrap home">
+  <section class="hero">
+    <div class="hero-text">
+      <p class="eyebrow">Gratis online cursus</p>
+      <h1>Theorie rijbewijs B <span>in Vlaanderen</span></h1>
+      <p class="lead">Vier lessen, opgebouwd als een boek: eerst de uitleg, meteen daarna oefeningen. Sluit elke les af met een eindtest en test jezelf in het proefexamen.</p>
+      <div class="hero-actions" id="hero-actions"><a class="btn btn-primary btn-lg" href="les1.html">Begin met les 1</a><a class="btn btn-lg" href="#inleiding">Hoe werkt het?</a></div>
+    </div>
+    <div class="hero-progress card" id="home-progress" aria-live="polite"></div>
+  </section>
+
+  <section aria-labelledby="h-lessen">
+    <h2 id="h-lessen" class="section-title">De vier lessen</h2>
+    <div class="lesson-grid" id="lesson-grid"></div>
+  </section>
+
+  <section aria-labelledby="h-tools">
+    <h2 id="h-tools" class="section-title">Oefenen en opzoeken</h2>
+    <div class="tool-grid">
+      <a class="tool card" href="examen.html"><span class="tool-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><rect x="5" y="3" width="14" height="18" rx="2"/><path d="M9 8h6M9 12h6M9 16h3"/></svg></span><h3>Proefexamen</h3><p>Zoals het echte examen: 50 vragen, 50 punten, min 1 of min 5 per fout. Slagen vanaf 41.</p></a>
+      <a class="tool card" href="oefenbank.html"><span class="tool-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6h16M4 12h16M4 18h10"/><circle cx="19" cy="18" r="2"/></svg></span><h3>Oefenbank</h3><p>Alle oefeningen op één plaats. Filter op les, onderwerp of type en oefen waar je wilt.</p></a>
+      <a class="tool card" href="mijnfouten.html"><span class="tool-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l9 16H3z"/><path d="M12 10v4M12 17v.5"/></svg></span><h3>Mijn fouten <span class="count-badge" id="fouten-count" hidden></span></h3><p>Alle vragen die je fout had, bij elkaar. Herhaal ze tot ze zitten.</p></a>
+      <a class="tool card" href="spiekbrief.html"><span class="tool-ic" aria-hidden="true"><svg viewBox="0 0 24 24" width="28" height="28" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3h8l4 4v14H7z"/><path d="M15 3v4h4M10 12h6M10 16h6"/></svg></span><h3>Spiekbrief</h3><p>De belangrijkste regels op één afdrukbaar blad, per les te kiezen.</p></a>
+    </div>
+  </section>
+
+  <section id="inleiding" class="intro-sec" aria-labelledby="h-intro">
+    <h2 id="h-intro" class="section-title">Inleiding: zo werkt de cursus</h2>
+    <div class="steps">
+      <article class="step card"><span class="step-n">1</span><h3>Lees een pagina</h3><p>Elke les is een boek. Je ziet telkens één pagina: een stukje uitleg met regels, kaders en afbeeldingen. Onderaan blader je met <kbd>Volgende</kbd> of met de pijltjestoetsen <kbd>←</kbd> <kbd>→</kbd>.</p></article>
+      <article class="step card"><span class="step-n">2</span><h3>Oefen meteen</h3><p>Onder de uitleg staan oefeningen over precies die stof. Klik op <em>Nakijken</em>, lees de uitleg en probeer opnieuw als het fout was. Twijfel je? Met <em>Toon theorie</em> spring je terug naar de uitleg.</p></article>
+      <article class="step card"><span class="step-n">3</span><h3>Herhaal en test</h3><p>Sluit een les af met de samenvatting en een eindtest van 20 vragen. Je ziet wat je moet herhalen. Foute vragen komen automatisch in <a href="mijnfouten.html">Mijn fouten</a> terecht.</p></article>
+      <article class="step card"><span class="step-n">4</span><h3>Doe het proefexamen</h3><p>Pas als de lessen goed zitten, doe je het <a href="examen.html">proefexamen</a> met 50 vragen en dezelfde puntentelling als het echte examen.</p></article>
+    </div>
+
+    <div class="two-col">
+      <article class="card prose">
+        <h3>Het theorie-examen in Vlaanderen</h3>
+        <ul class="ticks">
+          <li>Je mag het theorie-examen afleggen vanaf <strong>17 jaar</strong>.</li>
+          <li>Het examen bestaat uit <strong>50 meerkeuzevragen</strong>. Je start met <strong>50 punten</strong>.</li>
+          <li>Elk fout of onbeantwoord antwoord kost <strong>1 punt</strong>. Een fout antwoord op een vraag over een zware overtreding (3de of 4de graad) of over de maximumsnelheid kost <strong>5 punten</strong>.</li>
+          <li>Je bent <strong>geslaagd vanaf 41 op 50</strong>.</li>
+          <li>Volgens Vlaanderen.be heb je <strong>15 seconden per vraag</strong>, nadat de vraag volledig is voorgelezen.</li>
+          <li>Na het examen kun je je foute antwoorden bekijken. Een geslaagd examen is <strong>3 jaar</strong> geldig.</li>
+        </ul>
+        <p class="small muted">Bron: Vlaanderen.be, <a href="bronnen.html">zie bronnen</a>. Regels kunnen wijzigen: controleer ze vóór je examen.</p>
+      </article>
+      <article class="card prose">
+        <h3>Zo gebruik je deze site</h3>
+        <ul class="ticks">
+          <li><strong>Inhoudsopgave links</strong> in elke les: klik om te springen, een vinkje toont wat je al las. Op een smal scherm klap je ze open met de knop <em>Inhoud</em>.</li>
+          <li><strong>Onthouden</strong>: je plek en je resultaten worden in je eigen browser bewaard, zonder account.</li>
+          <li><strong>Gewestverschillen</strong> staan in een kader met drie badges: Vlaanderen, Wallonië en Brussel. Voor je examen telt Vlaanderen.</li>
+          <li><strong>Kaders</strong>: <span class="chip chip-regel">Regel</span> <span class="chip chip-letop">Let op</span> <span class="chip chip-zwarefout">Zware fout</span> <span class="chip chip-tip">Tip</span>.</li>
+          <li><strong>Donkere modus</strong> met de knop rechtsboven. <strong>Afdrukken</strong> kan het best via de <a href="spiekbrief.html">spiekbrief</a>.</li>
+        </ul>
+      </article>
+    </div>
+    <p class="notice" id="wegcode-note">De huidige wegcode blijft gelden tot 31 mei 2027; op 1 juni 2027 volgt de nieuwe Code van de openbare weg. In deze cursus leer je de regels die nu gelden, met een opmerking waar de nieuwe code iets wijzigt.</p>
+  </section>
+</main>
+<footer class="footer">
+  <p>Gratis leermiddel, geen officiële uitgave van de overheid. Controleer belangrijke regels altijd bij de <a href="bronnen.html">bronnen</a>. Afbeeldingen: <a href="bronnen.html#afbeeldingen">auteurs en licenties</a>. Je voortgang blijft enkel in je eigen browser.</p>
+</footer>
+<noscript><p class="noscript">Voor deze cursus is JavaScript nodig (voor de oefeningen en het bladeren door de pagina's).</p></noscript>
+<script defer src="data/cursus.js"></script>
+<script defer src="js/common.js"></script>
+<script defer src="js/exercises.js"></script>
+<script defer src="js/quiz.js"></script>
+<script defer src="js/pages.js"></script>
+</body>
+</html>

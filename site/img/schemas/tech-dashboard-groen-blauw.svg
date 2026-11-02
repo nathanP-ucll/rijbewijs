@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 360" width="800" height="360" role="img" aria-labelledby="t d">
+<title id="t">Groen en blauw</title>
+<desc id="d">Overzicht van een groen en een blauw dashboardlampje: groen de richtingaanwijzer (systeem staat aan en werkt), blauw het grootlicht (enkel het grootlicht is aan).</desc>
+
+<rect width="800" height="360" fill="#171b22"/>
+<text x="400" y="42" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#2fd36b" text-anchor="middle" ><tspan x="400" dy="0">Groen en blauw</tspan></text>
+<circle cx="210" cy="170" r="70" fill="#2fd36b" opacity=".12"/>
+<g transform="translate(210 170) scale(2.4) translate(-32 -32)"><g fill="#2fd36b"><path d="M6 32 L26 14 V24 H30 V40 H26 V50 Z"/><path d="M58 32 L38 14 V24 H34 V40 H38 V50 Z" opacity=".95"/></g></g>
+<text x="210" y="290" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#e8ecf3" text-anchor="middle" ><tspan x="210" dy="0">Richtingaanwijzer (groen)</tspan></text>
+<circle cx="590" cy="170" r="70" fill="#3d8bff" opacity=".12"/>
+<g transform="translate(590 170) scale(2.4) translate(-32 -32)"><g fill="none" stroke="#3d8bff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M34 14 C22 14 14 22 14 32 C14 42 22 50 34 50 Z"/><line x1="42" y1="18" x2="58" y2="14"/><line x1="42" y1="26" x2="58" y2="24"/><line x1="42" y1="34" x2="58" y2="34"/><line x1="42" y1="42" x2="58" y2="44"/></g></g>
+<text x="590" y="290" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#e8ecf3" text-anchor="middle" ><tspan x="590" dy="0">Grootlicht (blauw)</tspan></text>
+</svg>

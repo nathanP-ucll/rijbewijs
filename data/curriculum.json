@@ -4,399 +4,399 @@
   "les": 1,
   "thema": "borden",
   "naam": "Gevaarsborden (A)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T02",
   "les": 1,
   "thema": "borden",
   "naam": "Voorrangsborden (B1, B5, B9, B11, B15…)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T03",
   "les": 1,
   "thema": "borden",
   "naam": "Verbodsborden (C) en einde verbod",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T04",
   "les": 1,
   "thema": "borden",
   "naam": "Gebodsborden (D)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T05",
   "les": 1,
   "thema": "borden",
   "naam": "Parkeer- en stilstaanborden (E)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T06",
   "les": 1,
   "thema": "borden",
   "naam": "Aanwijzingsborden (F) en autosnelweg/autoweg-borden",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T07",
   "les": 1,
   "thema": "borden",
   "naam": "Zone-, G-, Z-borden en aanvullende panelen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T08",
   "les": 1,
   "thema": "snelheden",
   "naam": "Snelheden per wegtype en gewest",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T09",
   "les": 1,
   "thema": "snelheden",
   "naam": "Zone 30, woonerf, erf, schoolomgeving",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T10",
   "les": 1,
   "thema": "borden",
   "naam": "Wegmarkeringen (strepen, pijlen, gele lijnen, zebrapad)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T11",
   "les": 2,
   "thema": "voorrang",
   "naam": "Rangorde van voorrang en voorrang van rechts",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T12",
   "les": 2,
   "thema": "voorrang",
   "naam": "Voorrangsborden op kruispunten, T-kruispunt, uitzonderingen op voorrang van rechts",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T13",
   "les": 2,
   "thema": "voorrang",
   "naam": "Rotonde en verkeersplein",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T14",
   "les": 2,
   "thema": "voorrang",
   "naam": "Linksafslaan, tegenliggers, middenberm/gescheiden rijbanen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T15",
   "les": 2,
   "thema": "lichten",
   "naam": "Verkeerslichten (3-kleuren, knipperend geel/oranje, pijlen, fietslichten)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T16",
   "les": 2,
   "thema": "lichten",
   "naam": "Bevoegde personen en hun seinen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T17",
   "les": 2,
   "thema": "kwetsbaar",
   "naam": "Voetgangers, zebrapad, oversteken",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T18",
   "les": 2,
   "thema": "kwetsbaar",
   "naam": "Fietsers, fietspaden, fietsstraten, bromfietsklasse A/B",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T19",
   "les": 2,
   "thema": "openbaar",
   "naam": "Tram: trambaan, tramlichten, tramhalte, voorrang",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T20",
   "les": 2,
   "thema": "openbaar",
   "naam": "Bus: busstrook, bushalte, voorrang bus, schoolbus",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T21",
   "les": 2,
   "thema": "openbaar",
   "naam": "Overweg (spoorweg) en bijhorende signalisatie",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T22",
   "les": 2,
   "thema": "voorrang",
   "naam": "Voorrangsvoertuigen en bijzondere voertuigen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T23",
   "les": 3,
   "thema": "plaats",
   "naam": "Plaats op de weg, rijstroken, rechts rijden",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T24",
   "les": 3,
   "thema": "plaats",
   "naam": "Kruisen en inhalen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T25",
   "les": 3,
   "thema": "plaats",
   "naam": "Richtingaanwijzers, van rijstrook veranderen, ritsen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T26",
   "les": 3,
   "thema": "snelwegen",
   "naam": "Autosnelweg en autoweg: regels, op-/afrit, reddingsstrook",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T27",
   "les": 3,
   "thema": "plaats",
   "naam": "Parkeren en stilstaan (afstanden, gele lijnen, zones, verboden plaatsen)",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T28",
   "les": 3,
   "thema": "plaats",
   "naam": "Achteruitrijden, keren, voorsorteren",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
-  "afbeelding": false,
-  "bron": false
+  "afbeelding": true,
+  "bron": true
  },
  {
   "id": "T29",
   "les": 4,
   "thema": "gedrag",
   "naam": "Alcohol (BAC, jonge bestuurder, BOB) en drugs",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T30",
   "les": 4,
   "thema": "gedrag",
   "naam": "Gsm, handsfree, afleiding, vermoeidheid, medicatie",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T31",
   "les": 4,
   "thema": "gedrag",
   "naam": "Gordel, kinderzitjes, vervoer van kinderen en lading",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T32",
   "les": 4,
   "thema": "gedrag",
   "naam": "Lichten van het voertuig, mist, zicht",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T33",
   "les": 4,
   "thema": "gedrag",
   "naam": "Reactietijd, remweg, volgafstand, 2-secondenregel, weersomstandigheden",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T34",
   "les": 4,
   "thema": "ongeval",
   "naam": "Ongeval: veiligheid, alarmnummers, EHBO, gevarendriehoek, hulpverlening",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T35",
   "les": 4,
   "thema": "ongeval",
   "naam": "Europees aanrijdingsformulier, verzekering, vluchtmisdrijf",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T36",
   "les": 4,
   "thema": "rijbewijs",
   "naam": "Rijbewijs B: leerperiode, begeleider, voorlopig rijbewijs, punten, intrekking, vervallenverklaring",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T37",
   "les": 4,
   "thema": "rijbewijs",
   "naam": "Theorie-examen: regels, puntentelling, duur, aantal vragen, wijzigingen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T38",
   "les": 4,
   "thema": "techniek",
   "naam": "Voertuigtechniek: banden, onderhoud, keuring, verplichte uitrusting",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T39",
   "les": 4,
   "thema": "techniek",
   "naam": "Dashboard: controlelampjes en symbolen",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  },
  {
   "id": "T40",
   "les": 4,
   "thema": "techniek",
   "naam": "Milieu en zuinig rijden, lage-emissiezones",
-  "theorie": false,
+  "theorie": true,
   "oefeningen3": false,
   "afbeelding": false,
-  "bron": false
+  "bron": true
  }
 ]

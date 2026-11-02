@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Stilstaan en parkeren: niet op en niet vlak voor een zebrapad</title>
+<desc id="d">Een straat met een zebrapad. Op de rijbaan in minder dan 5 meter voor het zebrapad (in de rijrichting) is stilstaan en parkeren verboden: rode gearceerde zones. Een auto die in zo'n zone staat is fout; een auto die verder weg staat (meer dan 5 meter) mag er staan.</desc>
+<defs><pattern id="hatch" width="12" height="12" patternUnits="userSpaceOnUse" patternTransform="rotate(45)"><rect width="12" height="12" fill="rgba(214,58,58,.22)"/><line x1="0" y1="0" x2="0" y2="12" stroke="#d63a3a" stroke-width="5"/></pattern></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="230" width="800" height="150" fill="#4a4f57" />
+<line x1="0" y1="305" x2="800" y2="305" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="400" y="230" width="60" height="150" fill="none" />
+<rect x="400" y="230" width="60" height="9" fill="#fff"/><rect x="400" y="248" width="60" height="9" fill="#fff"/><rect x="400" y="266" width="60" height="9" fill="#fff"/><rect x="400" y="284" width="60" height="9" fill="#fff"/><rect x="400" y="302" width="60" height="9" fill="#fff"/><rect x="400" y="320" width="60" height="9" fill="#fff"/><rect x="400" y="338" width="60" height="9" fill="#fff"/><rect x="400" y="356" width="60" height="9" fill="#fff"/><rect x="400" y="374" width="60" height="9" fill="#fff"/>
+<rect x="335" y="305" width="65" height="75" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<rect x="460" y="230" width="65" height="75" fill="url(#hatch)" stroke="#d63a3a" stroke-width="2" stroke-dasharray="6 4"/>
+<g transform="translate(365 345) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g stroke="#d63a3a" stroke-width="8.5" stroke-linecap="round"><line x1="348" y1="328" x2="382" y2="362"/><line x1="382" y1="328" x2="348" y2="362"/></g>
+<g transform="translate(150 345) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2ea36b" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<path d="M133,345 L145.75,358.6 L167,331.4" fill="none" stroke="#1f9d55" stroke-width="8.5" stroke-linecap="round" stroke-linejoin="round"/>
+<g stroke="#fff" stroke-width="3"><line x1="335" y1="440" x2="400" y2="440"/><line x1="335" y1="432" x2="335" y2="448"/><line x1="400" y1="432" x2="400" y2="448"/></g>
+<rect x="344.22" y="407" width="46.56" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="367.5" y="426" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="367.5" dy="0">5 m</tspan></text>
+<g stroke="#fff" stroke-width="3"><line x1="460" y1="190" x2="525" y2="190"/><line x1="460" y1="182" x2="460" y2="198"/><line x1="525" y1="182" x2="525" y2="198"/></g>
+<rect x="469.22" y="157" width="46.56" height="30.06" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="492.5" y="176" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="492.5" dy="0">5 m</tspan></text>
+<g transform="translate(430 300) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<rect x="143.48" y="501" width="513.04" height="50.12" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="520" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">In de rijrichting gezien: geen stilstaan of parkeren</tspan><tspan x="400" dy="20.06">op het zebrapad en minder dan 5 m ervoor.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Zebrapad: minder dan 5 m ervoor geen stilstaan of parkeren</tspan></text>
+</svg>

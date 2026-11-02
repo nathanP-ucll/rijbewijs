@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Rechts afslaan: voetgangers en fietsers gaan voor</title>
+<desc id="d">Wie afslaat, verleent voorrang aan voetgangers die de zijstraat oversteken en aan fietsers op het fietspad dat hij kruist. De auto wacht op de fietser en de voetganger. Kijk ook over je rechterschouder: de dode hoek.</desc>
+<defs><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker><marker id="ahf0b429" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#f0b429"/></marker><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="340" y="250" width="120" height="350" fill="#4a4f57" />
+<rect x="0" y="190" width="400" height="120" fill="#4a4f57" />
+<rect x="400" y="190" width="400" height="120" fill="#4a4f57" />
+<rect x="340" y="190" width="120" height="120" fill="#4a4f57" />
+<line x1="400" y1="318" x2="400" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="0" y1="250" x2="332" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="468" y1="250" x2="800" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="0" y="310" width="340" height="30" fill="#b8574b" />
+<rect x="460" y="310" width="340" height="30" fill="#b8574b" />
+<rect x="340" y="310" width="120" height="30" fill="#b8574b" opacity=".85"/>
+<rect x="345" y="322" width="5" height="6" fill="#fff" />
+<rect x="355" y="322" width="5" height="6" fill="#fff" />
+<rect x="365" y="322" width="5" height="6" fill="#fff" />
+<rect x="375" y="322" width="5" height="6" fill="#fff" />
+<rect x="385" y="322" width="5" height="6" fill="#fff" />
+<rect x="395" y="322" width="5" height="6" fill="#fff" />
+<rect x="405" y="322" width="5" height="6" fill="#fff" />
+<rect x="415" y="322" width="5" height="6" fill="#fff" />
+<rect x="425" y="322" width="5" height="6" fill="#fff" />
+<rect x="435" y="322" width="5" height="6" fill="#fff" />
+<rect x="445" y="322" width="5" height="6" fill="#fff" />
+<rect x="455" y="322" width="5" height="6" fill="#fff" />
+<path d="M255,280 L335,280 Q372,282 372,345 L372,560" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M255,280 L335,280 Q372,282 372,345 L372,560" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahd64545)"/>
+<path d="M200,325 L720,325" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M200,325 L720,325" fill="none" stroke="#f0b429" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahf0b429)"/>
+<path d="M455,395 L345,395" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M455,395 L345,395" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 8" marker-end="url(#ahfff)"/>
+<g transform="translate(220 280) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<circle cx="220" cy="280" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="220" y="284.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="220" dy="0">1</tspan></text>
+<g transform="translate(430 395) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<circle cx="450" cy="381" r="11" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="450" y="385.18" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.850000000000001" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="450" dy="0">2</tspan></text>
+<g transform="translate(160 325) rotate(90)"><rect x="-3" y="-20" width="6" height="40" rx="3" fill="#333" stroke="#fff" stroke-width="1.2"/><line x1="-11" y1="-13" x2="11" y2="-13" stroke="#333" stroke-width="3" stroke-linecap="round"/><ellipse cx="0" cy="0" rx="10" ry="6" fill="#e0782a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="-3" r="5.5" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<circle cx="182" cy="325" r="11" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="182" y="329.18" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14.850000000000001" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="182" dy="0">3</tspan></text>
+<rect x="585.16" y="354" width="89.68" height="28.88" rx="9" fill="#b8574b"  opacity="0.95"/>
+<text x="630" y="372" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="630" dy="0">fietspad</tspan></text>
+<rect x="73.4" y="196" width="113.2" height="30.06" rx="9" fill="#d63a3a"  opacity="0.95"/>
+<text x="130" y="215" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="130" dy="0">auto wacht</tspan></text>
+<rect x="70.08" y="361" width="179.84" height="30.06" rx="9" fill="#1f9d55"  opacity="0.95"/>
+<text x="160" y="380" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="160" dy="0">fietser: voorrang</tspan></text>
+<rect x="515.8" y="421" width="208.4" height="30.06" rx="9" fill="#1f9d55"  opacity="0.95"/>
+<text x="620" y="440" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="620" dy="0">voetganger: voorrang</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Afslaan: voetgangers en fietsers hebben voorrang</tspan></text>
+</svg>

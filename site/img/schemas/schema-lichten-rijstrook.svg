@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Lichten boven de rijstroken</title>
+<desc id="d">Een rijbaan met drie rijstroken van onder naar boven gezien, met boven elke rijstrook een signaal: boven de linkse strook een rood kruis (verboden), boven de middelste een groene pijl naar onder (toegelaten) en boven de rechtse een oranje schuine pijl (verlaat deze rijstrook naar de aangeduide strook).</desc>
+
+<rect width="800" height="600" fill="#d8dde5"/>
+<rect x="200" y="70" width="400" height="530" fill="#4a4f57" />
+<line x1="333" y1="70" x2="333" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="466" y1="70" x2="466" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="180" y="78" width="440" height="12" fill="#6b7280" />
+<rect x="230" y="94" width="72" height="72" rx="10" fill="#1d2128" stroke="#000" stroke-width="3"/><circle cx="266" cy="130" r="30" fill="#0b0d10"/>
+<g stroke="#e5322d" stroke-width="8.4" stroke-linecap="round"><line x1="248" y1="112" x2="284" y2="148"/><line x1="284" y1="112" x2="248" y2="148"/></g>
+<rect x="213.88" y="199" width="104.24" height="43.04" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="266" y="215" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="266" dy="0">Rood kruis:</tspan><tspan x="266" dy="16.52">verboden</tspan></text>
+<rect x="364" y="94" width="72" height="72" rx="10" fill="#1d2128" stroke="#000" stroke-width="3"/><circle cx="400" cy="130" r="30" fill="#0b0d10"/>
+<g transform="translate(400 130) rotate(180)"><path d="M0,-27 L18.9,-1.35 L7.0200000000000005,-1.35 L7.0200000000000005,27 L-7.0200000000000005,27 L-7.0200000000000005,-1.35 L-18.9,-1.35 Z" fill="#1fbf5a"/></g>
+<rect x="343.96" y="199" width="112.08" height="43.04" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="215" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Groene pijl:</tspan><tspan x="400" dy="16.52">toegelaten</tspan></text>
+<rect x="497" y="94" width="72" height="72" rx="10" fill="#1d2128" stroke="#000" stroke-width="3"/><circle cx="533" cy="130" r="30" fill="#0b0d10"/>
+<g transform="translate(533 130) rotate(225)"><path d="M0,-27 L18.9,-1.35 L7.0200000000000005,-1.35 L7.0200000000000005,27 L-7.0200000000000005,27 L-7.0200000000000005,-1.35 L-18.9,-1.35 Z" fill="#ff9d00"/></g>
+<rect x="457.36" y="199" width="151.28" height="59.56" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="533" y="215" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="533" dy="0">Oranje pijl:</tspan><tspan x="533" dy="16.52">verlaat de strook</tspan><tspan x="533" dy="16.52">naar de pijl</tspan></text>
+<g transform="translate(400 450) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(533 520) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<rect x="32.2" y="484" width="135.6" height="59.56" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="100" y="500" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="100" dy="0">Elk licht geldt</tspan><tspan x="100" dy="16.52">enkel voor de</tspan><tspan x="100" dy="16.52">strook eronder</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Lichten boven de rijstroken</tspan></text>
+</svg>

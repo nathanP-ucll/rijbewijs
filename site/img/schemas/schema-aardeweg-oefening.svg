@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Aardeweg komt uit op een verharde weg (oefening)</title>
+<desc id="d">T-kruispunt: een bruine aardeweg (zandweg) komt van onder uit op een grijze verharde weg. Auto 1 rijdt op de aardeweg richting de verharde weg en rijdt rechtdoor het kruispunt op. Auto 2 rijdt op de verharde weg en komt van links (vanuit de gezichtshoek van auto 1) en rijdt naar rechts. Er staan geen borden.</desc>
+<defs><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker><marker id="ah2f6fd6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fd6"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="190" width="400" height="120" fill="#4a4f57" />
+<rect x="400" y="190" width="400" height="120" fill="#4a4f57" />
+<rect x="340" y="190" width="120" height="120" fill="#4a4f57" />
+<line x1="0" y1="250" x2="332" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<line x1="468" y1="250" x2="800" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="350" y="310" width="100" height="300" fill="#b08a5a" />
+<circle cx="358" cy="318" r="3" fill="#9b7647" />
+<circle cx="395" cy="371" r="3" fill="#9b7647" />
+<circle cx="432" cy="424" r="3" fill="#9b7647" />
+<circle cx="384" cy="477" r="3" fill="#9b7647" />
+<circle cx="421" cy="530" r="3" fill="#9b7647" />
+<circle cx="373" cy="583" r="3" fill="#9b7647" />
+<circle cx="410" cy="356" r="3" fill="#9b7647" />
+<circle cx="362" cy="409" r="3" fill="#9b7647" />
+<circle cx="399" cy="462" r="3" fill="#9b7647" />
+<circle cx="436" cy="515" r="3" fill="#9b7647" />
+<circle cx="388" cy="568" r="3" fill="#9b7647" />
+<circle cx="425" cy="341" r="3" fill="#9b7647" />
+<circle cx="377" cy="394" r="3" fill="#9b7647" />
+<circle cx="414" cy="447" r="3" fill="#9b7647" />
+<circle cx="366" cy="500" r="3" fill="#9b7647" />
+<circle cx="403" cy="553" r="3" fill="#9b7647" />
+<circle cx="440" cy="326" r="3" fill="#9b7647" />
+<circle cx="392" cy="379" r="3" fill="#9b7647" />
+<circle cx="429" cy="432" r="3" fill="#9b7647" />
+<circle cx="381" cy="485" r="3" fill="#9b7647" />
+<circle cx="418" cy="538" r="3" fill="#9b7647" />
+<circle cx="370" cy="591" r="3" fill="#9b7647" />
+<circle cx="407" cy="364" r="3" fill="#9b7647" />
+<circle cx="359" cy="417" r="3" fill="#9b7647" />
+<circle cx="396" cy="470" r="3" fill="#9b7647" />
+<circle cx="433" cy="523" r="3" fill="#9b7647" />
+<circle cx="385" cy="576" r="3" fill="#9b7647" />
+<circle cx="422" cy="349" r="3" fill="#9b7647" />
+<circle cx="374" cy="402" r="3" fill="#9b7647" />
+<circle cx="411" cy="455" r="3" fill="#9b7647" />
+<rect x="350" y="310" width="100" height="14" fill="#4a4f57" />
+<path d="M430,445 L430,340" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M430,445 L430,340" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahd64545)"/>
+<path d="M180,280 L755,280" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M180,280 L755,280" fill="none" stroke="#2f6fd6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ah2f6fd6)"/>
+<g transform="translate(430 490) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<circle cx="430" cy="490" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="430" y="494.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="430" dy="0">1</tspan></text>
+<g transform="translate(140 280) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<circle cx="140" cy="280" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="140" y="284.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="140" dy="0">2</tspan></text>
+<rect x="470.68" y="540" width="98.64" height="31.24" rx="9" fill="#b08a5a"  opacity="0.95"/>
+<text x="520" y="560" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="520" dy="0">aardeweg</tspan></text>
+</svg>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 460" width="800" height="460" role="img" aria-labelledby="t d">
+<title id="t">Dashboardlampjes: de kleurcode</title>
+<desc id="d">Vier gekleurde lampjes met hun betekenis. Rood: gevaar of veiligheid, veilig stoppen en nagaan. Oranje of geel: storing of nazicht nodig, snel naar de garage. Groen: een systeem staat aan en werkt. Blauw: het grootlicht is aan.</desc>
+
+<rect width="800" height="460" fill="#171b22"/>
+<text x="400" y="46" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Dashboardlampjes: de kleur zegt hoe dringend het is</tspan></text>
+<circle cx="90" cy="120" r="42" fill="#ff3b30" opacity=".16"/><circle cx="90" cy="120" r="26" fill="#ff3b30"/>
+<text x="170" y="116" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#ff3b30" text-anchor="start" ><tspan x="170" dy="0">ROOD</tspan></text>
+<text x="170" y="144" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#e8ecf3" text-anchor="start" ><tspan x="170" dy="0">Gevaar of veiligheid: veilig stoppen en nagaan</tspan></text>
+<circle cx="90" cy="205" r="42" fill="#ffa31a" opacity=".16"/><circle cx="90" cy="205" r="26" fill="#ffa31a"/>
+<text x="170" y="201" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#ffa31a" text-anchor="start" ><tspan x="170" dy="0">ORANJE / GEEL</tspan></text>
+<text x="170" y="229" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#e8ecf3" text-anchor="start" ><tspan x="170" dy="0">Storing of nazicht nodig: snel naar de garage</tspan></text>
+<circle cx="90" cy="290" r="42" fill="#2fd36b" opacity=".16"/><circle cx="90" cy="290" r="26" fill="#2fd36b"/>
+<text x="170" y="286" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#2fd36b" text-anchor="start" ><tspan x="170" dy="0">GROEN</tspan></text>
+<text x="170" y="314" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#e8ecf3" text-anchor="start" ><tspan x="170" dy="0">Systeem staat aan en werkt (bv. richtingaanwijzer)</tspan></text>
+<circle cx="90" cy="375" r="42" fill="#3d8bff" opacity=".16"/><circle cx="90" cy="375" r="26" fill="#3d8bff"/>
+<text x="170" y="371" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#3d8bff" text-anchor="start" ><tspan x="170" dy="0">BLAUW</tspan></text>
+<text x="170" y="399" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="500" fill="#e8ecf3" text-anchor="start" ><tspan x="170" dy="0">Enkel het grootlicht is aan</tspan></text>
+<text x="400" y="445" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#9aa3b2" text-anchor="middle" ><tspan x="400" dy="0">Een knipperend motorlampje is ernstiger dan een brandend lampje.</tspan></text>
+</svg>

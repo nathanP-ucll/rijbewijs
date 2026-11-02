@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220" role="img" aria-labelledby="t d">
+<title id="t">Dashboardlampje accu en laadcircuit</title>
+<desc id="d">Een accu-symbool met plus- en minpool op een donker dashboardvlak: probleem met accu of laadcircuit. De kleur van dit lampje verschilt per merk, daarom is het in neutrale kleur getekend.</desc>
+
+<rect width="200" height="220" rx="22" fill="#171b22"/>
+<rect x="6" y="6" width="188" height="208" rx="18" fill="none" stroke="#2c323d" stroke-width="2"/>
+<g transform="translate(100 100) scale(2.1) translate(-32 -32)"><g fill="none" stroke="#d4dae4" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><rect x="8" y="22" width="48" height="28" rx="3"/><path d="M16 22 V16 H24 V22"/><path d="M40 22 V16 H48 V22"/><path d="M15 36 H25"/><path d="M39 36 H49 M44 31 V41"/></g></g>
+<text x="100" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e8ecf3" text-anchor="middle" ><tspan x="100" dy="0">Accu / laadcircuit</tspan></text>
+<text x="100" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#9aa3b2" text-anchor="middle" ><tspan x="100" dy="0">kleur verschilt per merk</tspan></text>
+</svg>

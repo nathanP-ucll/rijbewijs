@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Bus verlaat zijn halte (binnen de bebouwde kom)</title>
+<desc id="d">Binnen de bebouwde kom laat je een bus of trolleybus in dezelfde rijrichting vertrekken uit zijn halte zodra hij zijn richtingaanwijzer links aan zet. Je vertraagt en stopt zo nodig. Buiten de bebouwde kom geldt dit niet.</desc>
+<defs><marker id="ahf0b429" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#f0b429"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="300" y="0" width="200" height="600" fill="#4a4f57" />
+<line x1="400" y1="0" x2="400" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="500" y="120" width="40" height="300" fill="#c9c9c4" />
+<rect x="520" y="160" width="70" height="70" fill="#9bd0e8" rx="6" stroke="#333" stroke-width="2"/>
+<text x="555" y="202" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="14" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="555" dy="0">HALTE</tspan></text>
+<g transform="translate(520 300) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<g transform="translate(515 340) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<g transform="translate(455 250) rotate(0)"><rect x="-19" y="-58" width="38" height="116" rx="8" fill="#f2c230" stroke="#1c2230" stroke-width="2.5"/><rect x="-14" y="-48" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="-28" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="-8" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="12" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-14" y="32" width="28" height="12" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-15" y="-60" width="8" height="4" rx="2" fill="#fff3a8"/><rect x="7" y="-60" width="8" height="4" rx="2" fill="#fff3a8"/><circle cx="-18" cy="-55" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="-18" cy="55" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<circle cx="455" cy="250" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="455" y="254.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="455" dy="0">1</tspan></text>
+<g transform="translate(450 470) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="-13" y="28" width="7" height="3" fill="#ff2d2d"/><rect x="6" y="28" width="7" height="3" fill="#ff2d2d"/></g>
+<circle cx="450" cy="470" r="13" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
+<text x="450" y="474.94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.55" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="450" dy="0">2</tspan></text>
+<path d="M470,195 Q470,160 410,120 L410,50" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M470,195 Q470,160 410,120 L410,50" fill="none" stroke="#f0b429" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahf0b429)"/>
+<rect x="555.88" y="439" width="188.24" height="77.26" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="650" y="460" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="650" dy="0">auto 2 vertraagt</tspan><tspan x="650" dy="22.42">en laat de bus</tspan><tspan x="650" dy="22.42">vertrekken</tspan></text>
+<rect x="0" y="0" width="800" height="66" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Bus vertrekt uit halte: laat hem voorgaan</tspan></text>
+<text x="400" y="57" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#d6dbe6" text-anchor="middle" ><tspan x="400" dy="0">binnen de bebouwde kom</tspan></text>
+</svg>

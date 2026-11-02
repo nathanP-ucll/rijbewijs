@@ -13,3 +13,9 @@ Elke les is een echt "boek" met pagina's, geen lange scrollpagina:
 - Vaste volgorde per les: Inleiding (leerdoelen, wat leer je, hoe lang) -> theorie/oefen-pagina's -> samenvatting -> eindtest.
 - Ook een algemene cursus-inleiding (hoe werkt de cursus, het examen, hoe gebruik je de site).
 - Pijltjestoetsen (links/rechts) bladeren, #pagina-nummer in de URL zodat je terug kunt naar waar je was; laatste pagina per les onthouden in localStorage.
+
+## Herziening interface (feedback gebruiker, 2026-11-03) – GAAT VOOR op eerdere 'Boekvorm'
+- GEEN zijbalk. Content volledig scherm, zoals een PDF-reader.
+- Onderaan een kleine, zwevende (floating) balk: vorige / "pagina X van Y" / volgende, een inhoud-knop (opent een compact paneel/dropdown om naar een punt te springen) en een dropdown om naar een andere les (Les 1-4, examen) te wisselen.
+- Veel simpelere interface, weinig chrome, grote duidelijke knoppen.
+- MINDER TEKST: per pagina één onderwerp, grote opsommingen, korte woorden/zinnen, grote bordafbeeldingen, kaders kort (max ~1 zin). Lange uitleg alleen achter een "Meer uitleg"-knop. Geen overflow aan blokken/kaders per pagina; oefeningen op eigen (volgende) pagina in plaats van gepropt onder de theorie.

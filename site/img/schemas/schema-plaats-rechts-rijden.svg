@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Rechts rijden op een tweerichtingsweg</title>
+<desc id="d">Een weg met twee rijrichtingen van onder naar boven gezien. De auto die naar boven rijdt, rijdt rechts van de middenlijn; de tegenligger die naar beneden rijdt, rijdt aan de andere kant van de middenlijn, dus ook rechts voor zijn eigen rijrichting.</desc>
+<defs><marker id="ah2f6fd6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fd6"/></marker><marker id="ahd64545" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#d64545"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="250" y="0" width="300" height="600" fill="#4a4f57" />
+<line x1="400" y1="0" x2="400" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<g transform="translate(475 440) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(325 170) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<path d="M475,380 L475,120" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M475,380 L475,120" fill="none" stroke="#2f6fd6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ah2f6fd6)"/>
+<path d="M325,230 L325,500" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M325,230 L325,500" fill="none" stroke="#d64545" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ahd64545)"/>
+<rect x="552.6" y="278" width="174.8" height="57.2" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="640" y="300" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="640" dy="0">Jij rijdt aan</tspan><tspan x="640" dy="23.6">je rechterkant</tspan></text>
+<rect x="62.6" y="278" width="174.8" height="80.8" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="150" y="300" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="150" dy="0">Tegenligger</tspan><tspan x="150" dy="23.6">rijdt aan zijn</tspan><tspan x="150" dy="23.6">rechterkant</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Rechts rijden, tegenliggers kruis je rechts</tspan></text>
+</svg>

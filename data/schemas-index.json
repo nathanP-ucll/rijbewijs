@@ -1,0 +1,1767 @@
+[
+ {
+  "naam": "schema-aardeweg",
+  "bestand": "img/schemas/schema-aardeweg.svg",
+  "titel": "Aardeweg komt uit op een verharde weg",
+  "beschrijving": "Wie uit een aardeweg of pad op een openbare weg met rijbaan komt, verleent voorrang aan alle bestuurders op die weg, ook als ze van links komen. Auto 1 wacht dus op auto 2.",
+  "borden": [],
+  "theorieblok": "voorrang-aardeweg-pad",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (op de aardeweg)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (op de verharde weg, van links)",
+    "kleur": "blauw",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001"
+  ],
+  "situatie": {
+   "juisteVoorrang": 2,
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Auto 1 komt uit een aardeweg: hij verleent voorrang aan alle verkeer op de verharde weg, ook aan wie van links komt."
+  },
+  "type": "uitleg",
+  "partner": "schema-aardeweg-oefening"
+ },
+ {
+  "naam": "schema-aardeweg-oefening",
+  "bestand": "img/schemas/schema-aardeweg-oefening.svg",
+  "titel": "Aardeweg komt uit op een verharde weg (oefening)",
+  "beschrijving": "T-kruispunt: een bruine aardeweg (zandweg) komt van onder uit op een grijze verharde weg. Auto 1 rijdt op de aardeweg richting de verharde weg en rijdt rechtdoor het kruispunt op. Auto 2 rijdt op de verharde weg en komt van links (vanuit de gezichtshoek van auto 1) en rijdt naar rechts. Er staan geen borden.",
+  "borden": [],
+  "theorieblok": "voorrang-aardeweg-pad",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (op de aardeweg)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (op de verharde weg, van links)",
+    "kleur": "blauw",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001"
+  ],
+  "situatie": {
+   "juisteVoorrang": 2,
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Auto 1 komt uit een aardeweg: hij verleent voorrang aan alle verkeer op de verharde weg, ook aan wie van links komt."
+  },
+  "type": "oefening",
+  "partner": "schema-aardeweg"
+ },
+ {
+  "naam": "schema-afslaan-voetgangers",
+  "bestand": "img/schemas/schema-afslaan-voetgangers.svg",
+  "titel": "Rechts afslaan: voetgangers en fietsers gaan voor",
+  "beschrijving": "Wie afslaat, verleent voorrang aan voetgangers die de zijstraat oversteken en aan fietsers op het fietspad dat hij kruist. De auto wacht op de fietser en de voetganger. Kijk ook over je rechterschouder: de dode hoek.",
+  "borden": [],
+  "theorieblok": "afslaan-voorrang-voetgangers",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto (slaat rechts af)",
+    "kleur": "rood",
+    "x": 27.5,
+    "y": 46.67
+   },
+   {
+    "nr": 2,
+    "label": "voetganger (steekt de zijstraat over)",
+    "kleur": null,
+    "x": 53.75,
+    "y": 65.83
+   },
+   {
+    "nr": 3,
+    "label": "fietser op het fietspad (rijdt rechtdoor)",
+    "kleur": null,
+    "x": 20,
+    "y": 54.17
+   }
+  ],
+  "bronnen": [
+   "KWET-001"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "voorrangVoor": [
+    2,
+    3
+   ],
+   "motivatie": "De auto die afslaat verleent voorrang aan de voetgangers die de zijstraat oversteken en aan de fietsers op het fietspad dat hij oversteekt."
+  },
+  "type": "uitleg",
+  "partner": "schema-afslaan-voetgangers-oefening"
+ },
+ {
+  "naam": "schema-afslaan-voetgangers-oefening",
+  "bestand": "img/schemas/schema-afslaan-voetgangers-oefening.svg",
+  "titel": "Rechts afslaan: voetgangers en fietsers gaan voor (oefening)",
+  "beschrijving": "Bovenaanzicht van een T-kruispunt met een fietspad (rood) langs de hoofdweg. Auto 1 rijdt van links naar rechts en slaat rechts af naar de zijstraat (rechter richtingaanwijzer). Een fietser (3) rijdt rechtdoor op het fietspad rechts van de auto. Een voetganger (2) steekt de zijstraat over.",
+  "borden": [],
+  "theorieblok": "afslaan-voorrang-voetgangers",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto (slaat rechts af)",
+    "kleur": "rood",
+    "x": 27.5,
+    "y": 46.67
+   },
+   {
+    "nr": 2,
+    "label": "voetganger (steekt de zijstraat over)",
+    "kleur": null,
+    "x": 53.75,
+    "y": 65.83
+   },
+   {
+    "nr": 3,
+    "label": "fietser op het fietspad (rijdt rechtdoor)",
+    "kleur": null,
+    "x": 20,
+    "y": 54.17
+   }
+  ],
+  "bronnen": [
+   "KWET-001"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "voorrangVoor": [
+    2,
+    3
+   ],
+   "motivatie": "De auto die afslaat verleent voorrang aan de voetgangers die de zijstraat oversteken en aan de fietsers op het fietspad dat hij oversteekt."
+  },
+  "type": "oefening",
+  "partner": "schema-afslaan-voetgangers"
+ },
+ {
+  "naam": "schema-b1-b5-kruispunt",
+  "bestand": "img/schemas/schema-b1-b5-kruispunt.svg",
+  "titel": "Voorrangsborden B1 en B5 op een kruispunt",
+  "beschrijving": "Voorrangsborden gaan voor voorrang van rechts. Auto 1 rijdt op de weg zonder bord en heeft voorrang op beide andere auto's, ook al komt auto 2 van rechts. Auto 2 (B1) moet voorrang verlenen. Auto 3 (B5) moet eerst volledig stoppen en voorrang verlenen.",
+  "borden": [
+   "B1",
+   "B5"
+  ],
+  "theorieblok": "voorrang-borden-b1-b5",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van onder, geen bord)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80.83
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts, B1)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 45
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links, B5)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 55
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-003"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2,
+    3
+   ],
+   "motivatie": "Auto 2 en auto 3 hebben een B1 (voorrang verlenen) en een B5 (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
+  },
+  "type": "uitleg",
+  "partner": "schema-b1-b5-kruispunt-oefening"
+ },
+ {
+  "naam": "schema-b1-b5-kruispunt-oefening",
+  "bestand": "img/schemas/schema-b1-b5-kruispunt-oefening.svg",
+  "titel": "Voorrangsborden B1 en B5 op een kruispunt (oefening)",
+  "beschrijving": "Kruispunt met drie auto's. Auto 1 komt van onder en heeft geen bord. Auto 2 komt van rechts en heeft bord B1 (voorrang verlenen) aan zijn kant. Auto 3 komt van links en heeft bord B5 (stop) aan zijn kant met een stopstreep. Alle auto's rijden rechtdoor.",
+  "borden": [
+   "B1",
+   "B5"
+  ],
+  "theorieblok": "voorrang-borden-b1-b5",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van onder, geen bord)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80.83
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts, B1)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 45
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links, B5)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 55
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-003"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2,
+    3
+   ],
+   "motivatie": "Auto 2 en auto 3 hebben een B1 (voorrang verlenen) en een B5 (stoppen en voorrang verlenen) aan hun kant. Auto 1 rijdt op de weg zonder bord en heeft voorrang. Het bord gaat voor voorrang van rechts."
+  },
+  "type": "oefening",
+  "partner": "schema-b1-b5-kruispunt"
+ },
+ {
+  "naam": "schema-bevoegde-persoon-armen",
+  "bestand": "img/schemas/schema-bevoegde-persoon-armen.svg",
+  "titel": "Bevoegde persoon: armen horizontaal",
+  "beschrijving": "Links een bevoegde persoon die je van voren ziet met beide armen horizontaal uitgestrekt. Rechts een kruispunt van boven gezien met de bevoegde persoon in het midden. De weggebruikers voor en achter hem (van onder en van boven) moeten stoppen, want de armen dwarsen hun richting. De weggebruikers die langs de uitgestrekte armen rijden (van links en van rechts) krijgen doorgang.",
+  "borden": [],
+  "theorieblok": "bevoegde-personen-seinen",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-bevoegde-persoon-stop",
+  "bestand": "img/schemas/schema-bevoegde-persoon-stop.svg",
+  "titel": "Bevoegde persoon: arm rechtop betekent stoppen voor iedereen",
+  "beschrijving": "Links een bevoegde persoon (agent) met één arm rechtop. Rechts een kruispunt van boven gezien met in het midden de agent en op elk van de vier takken een auto met een rode stopstreep: alle weggebruikers uit alle richtingen moeten stoppen, wie al op het kruispunt staat maakt het vrij.",
+  "borden": [],
+  "theorieblok": "bevoegde-personen-seinen",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-bus-verlaat-halte",
+  "bestand": "img/schemas/schema-bus-verlaat-halte.svg",
+  "titel": "Bus verlaat zijn halte (binnen de bebouwde kom)",
+  "beschrijving": "Binnen de bebouwde kom laat je een bus of trolleybus in dezelfde rijrichting vertrekken uit zijn halte zodra hij zijn richtingaanwijzer links aan zet. Je vertraagt en stopt zo nodig. Buiten de bebouwde kom geldt dit niet.",
+  "borden": [],
+  "theorieblok": "openbaar-bushalte-vertrek",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "bus aan de halte",
+    "kleur": null,
+    "x": 57.5,
+    "y": 41.67
+   },
+   {
+    "nr": 2,
+    "label": "auto achter de bus",
+    "kleur": "rood",
+    "x": 56.25,
+    "y": 78.33
+   }
+  ],
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-busstrook-rechtsaf",
+  "bestand": "img/schemas/schema-busstrook-rechtsaf.svg",
+  "titel": "Busstrook: rechtsaf slaan vlak voor het kruispunt",
+  "beschrijving": "Een straat met rechts een busstrook (bruinrood) en een zijstraat naar rechts. Een auto op de gewone rijstrook slaat rechts af en rijdt daarvoor vlak voor het kruispunt even op de busstrook; verder terug op de busstrook rijden mag niet. Het bord F17 duidt de busstrook aan.",
+  "borden": [
+   "F17"
+  ],
+  "theorieblok": "openbaar-busstrook-afslaan",
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-dode-hoek",
+  "bestand": "img/schemas/schema-dode-hoek.svg",
+  "titel": "Dode hoek van een vrachtwagen",
+  "beschrijving": "Een vrachtwagen van bovenaf, rijdend naar boven, met drie gearceerde oranje zones waar de bestuurder niet goed kan zien: een zone vlak voor de cabine, een lange zone langs de rechterzijde en een kleinere zone links. Een fietser rijdt rechts naast de vrachtwagen in de dode hoek. De zones zijn schematisch, niet op schaal.",
+  "borden": [],
+  "theorieblok": "dode-hoek",
+  "bronnen": [
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "schema-fietszone",
+  "bestand": "img/schemas/schema-fietszone.svg",
+  "titel": "Fietszone: fietsers voorop, 30 km/u, niet inhalen",
+  "beschrijving": "Een straat met twee rijrichtingen waar het begin van een fietszone met bord F111 is aangeduid en de snelheid beperkt is tot 30 km/u (bord C43). Twee fietsers rijden samen op de rechterhelft van de rijbaan. Een auto rijdt erachter en mag de fietsers niet inhalen; een doorgestreepte inhaalbeweging is aangeduid met een rood kruis.",
+  "borden": [
+   "F111",
+   "C43_30"
+  ],
+  "theorieblok": "fietszone-fietsstraat",
+  "bronnen": [
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "schema-gele-streep",
+  "bestand": "img/schemas/schema-gele-streep.svg",
+  "titel": "Gele onderbroken streep op de rand van de rijbaan",
+  "beschrijving": "Een straat met een gele onderbroken streep langs de rand van de rijbaan. Een auto die langs die streep geparkeerd staat, staat fout: parkeren op de rijbaan langs die streep is verboden. Een auto die op een stuk zonder gele streep geparkeerd staat, staat goed (indien niets anders het verbiedt).",
+  "borden": [],
+  "theorieblok": "parkeerverbod-plaatsen",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-gevarendriehoek-afstand",
+  "bestand": "img/schemas/schema-gevarendriehoek-afstand.svg",
+  "titel": "Gevarendriehoek: 30 m op een gewone weg, 100 m op de autosnelweg",
+  "beschrijving": "Twee wegen naast elkaar, op dezelfde schaal. Links een gewone weg met een stilstaande auto met alarmlichten en een gevarendriehoek op 30 meter achter de auto (in de richting vanwaar het verkeer komt). Rechts een autosnelweg met een auto op de pechstrook en de gevarendriehoek op minstens 100 meter achter de auto. Naderend verkeer komt van onder.",
+  "borden": [],
+  "theorieblok": "ongeval-gevarendriehoek",
+  "bronnen": [
+   "ONGE-001",
+   "TECH-001"
+  ]
+ },
+ {
+  "naam": "schema-inhaalverbod-zicht",
+  "bestand": "img/schemas/schema-inhaalverbod-zicht.svg",
+  "titel": "Geen zicht: niet links inhalen",
+  "beschrijving": "Een weg die over een heuvelkruin loopt. Een auto rijdt achter een tragere voorligger, maar achter de kruin ziet hij niet of er een tegenligger aankomt (die zit achter de kruin, weergegeven als een vage auto met vraagteken). Daarom mag hij niet inhalen.",
+  "borden": [],
+  "theorieblok": "inhaalverbod",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-inhalen-links",
+  "bestand": "img/schemas/schema-inhalen-links.svg",
+  "titel": "Inhalen: links, veilig en met richtingaanwijzer",
+  "beschrijving": "Een auto (blauw) haalt een tragere auto (rood) links in op een tweerichtingsweg. Vier stappen met nummers: eerst controleren dat de weg vrij is, dan de linker richtingaanwijzer, dan voorbijrijden met voldoende zijdelingse afstand, en tot slot rechts terugkeren met de rechter richtingaanwijzer.",
+  "borden": [],
+  "theorieblok": "inhalen-regels",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-kruisen",
+  "bestand": "img/schemas/schema-kruisen.svg",
+  "titel": "Kruisen: rechts, met voldoende zijdelingse afstand",
+  "beschrijving": "Twee auto's kruisen elkaar op een tweerichtingsweg. Elk blijft rechts en houdt een ruime zijdelingse afstand tot de tegenligger (aangeduid met een dubbele pijl). Rechts langs de weg staat een geparkeerde auto als hindernis; de auto op die kant vertraagt.",
+  "borden": [],
+  "theorieblok": "kruisen",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-3kleuren",
+  "bestand": "img/schemas/schema-lichten-3kleuren.svg",
+  "titel": "Driekleurig verkeerslicht: groen, oranje, rood, groen",
+  "beschrijving": "Een verkeerslicht met rood bovenaan, oranje in het midden en groen onderaan. Daarnaast vier stappen van de volgorde: groen, dan oranje, dan rood, dan weer groen. Onderaan de betekenis: rood stoppen voor de stopstreep, oranje stoppen tenzij je niet meer veilig kunt stoppen, groen mag voorbij.",
+  "borden": [],
+  "theorieblok": "lichten-driekleurig",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-fiets",
+  "bestand": "img/schemas/schema-lichten-fiets.svg",
+  "titel": "Fietslichten",
+  "beschrijving": "Vier voorbeelden: (1) een fietslicht met een fietssilhouet in rood, oranje en groen: geldt alleen voor fietsers en tweewielige bromfietsen; (2) een fietslicht met pijltjes rond het fietsje: dezelfde kleur geldt tegelijk voor de dwarsrichting; (3) een combinatielicht fiets en voetganger; (4) een knipperend oranje fietslicht met een knipperende oranje pijl, samen met rood: alleen in de richting van de pijl verder, met voorrang voor anderen.",
+  "borden": [],
+  "theorieblok": "lichten-fietslichten",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-knipperoranje",
+  "bestand": "img/schemas/schema-lichten-knipperoranje.svg",
+  "titel": "Knipperend oranje: dubbel voorzichtig, voorrang blijft",
+  "beschrijving": "Links een driekleurig verkeerslicht waarvan alleen het oranje licht knippert. Rechts de borden B1 en B9 met de tekst dat de voorrangsborden blijven gelden. Betekenis: je mag voorbij, maar dubbel voorzichtig; je hebt niet automatisch voorrang.",
+  "borden": [
+   "B1",
+   "B9"
+  ],
+  "theorieblok": "lichten-oranje-knipperlicht",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-kruispunt",
+  "bestand": "img/schemas/schema-lichten-kruispunt.svg",
+  "titel": "Kruispunt met lichten: niet oprijden als je er vast komt te staan",
+  "beschrijving": "Een kruispunt met verkeerslichten. Auto 1 heeft groen en staat vlak voor het kruispunt, maar de weg aan de overkant staat vol: drie auto's staan er stil in de file. Auto 1 mag het kruispunt niet oprijden want hij zou er blijven staan en het dwarsverkeer hinderen. Het dwarsverkeer heeft rood maar zou anders niet kunnen doorrijden.",
+  "borden": [],
+  "theorieblok": "lichten-kruispunt-vrijmaken",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-pijlen",
+  "bestand": "img/schemas/schema-lichten-pijlen.svg",
+  "titel": "Pijllichten en groene pijl naast rood",
+  "beschrijving": "Drie voorbeelden: (1) een rood licht met een groene pijl naar links eronder: je mag enkel naar links, met voorrang voor wie regelmatig uit andere richtingen komt en voor voetgangers; (2) een rode pijl naar links: links afslaan is verboden, rechtdoor volgt het gewone licht; (3) een apart groene pijl naar links bij het uitrijden van een kruispunt: het tegenliggend verkeer staat stil (ontruimingspijl).",
+  "borden": [],
+  "theorieblok": "lichten-pijlen",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-rijstrook",
+  "bestand": "img/schemas/schema-lichten-rijstrook.svg",
+  "titel": "Lichten boven de rijstroken",
+  "beschrijving": "Een rijbaan met drie rijstroken van onder naar boven gezien, met boven elke rijstrook een signaal: boven de linkse strook een rood kruis (verboden), boven de middelste een groene pijl naar onder (toegelaten) en boven de rechtse een oranje schuine pijl (verlaat deze rijstrook naar de aangeduide strook).",
+  "borden": [],
+  "theorieblok": "lichten-boven-rijstroken",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-lichten-voetgangers",
+  "bestand": "img/schemas/schema-lichten-voetgangers.svg",
+  "titel": "Voetgangerslichten",
+  "beschrijving": "Een tweekleurig voetgangerslicht: rood met een stilstaand mannetje bovenaan en groen met een stappend mannetje onderaan. Drie toestanden: rood (niet de rijbaan op), groen (je mag oversteken) en knipperend groen (de toelating eindigt binnenkort). Een variant met pijltjes rond het mannetje geldt ook voor de dwarsrichting.",
+  "borden": [],
+  "theorieblok": "lichten-voetgangers",
+  "bronnen": [
+   "LICH-001",
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "schema-linksaf-tegenligger",
+  "bestand": "img/schemas/schema-linksaf-tegenligger.svg",
+  "titel": "Linksaf slaan en een tegenligger",
+  "beschrijving": "Wie links afslaat, verleent voorrang aan de tegenliggers op de rijbaan die hij verlaat. Auto 2 rijdt rechtdoor en heeft voorrang; auto 1 wacht.",
+  "borden": [],
+  "theorieblok": "voorrang-linksaf-tegenliggers",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (tegenligger, rijdt rechtdoor)",
+    "kleur": "blauw",
+    "x": 46.25,
+    "y": 20
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-008",
+   "VOOR-009"
+  ],
+  "situatie": {
+   "juisteVoorrang": 2,
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Wie links afslaat verleent voorrang aan de tegenliggers (rechtdoor of rechtsaf)."
+  },
+  "type": "uitleg",
+  "partner": "schema-linksaf-tegenligger-oefening"
+ },
+ {
+  "naam": "schema-linksaf-tegenligger-oefening",
+  "bestand": "img/schemas/schema-linksaf-tegenligger-oefening.svg",
+  "titel": "Linksaf slaan en een tegenligger (oefening)",
+  "beschrijving": "Kruispunt zonder borden of lichten. Auto 1 komt van onder en slaat links af (linker richtingaanwijzer knippert). Auto 2 komt van boven, dus als tegenligger, en rijdt rechtdoor naar beneden.",
+  "borden": [],
+  "theorieblok": "voorrang-linksaf-tegenliggers",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (tegenligger, rijdt rechtdoor)",
+    "kleur": "blauw",
+    "x": 46.25,
+    "y": 20
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-008",
+   "VOOR-009"
+  ],
+  "situatie": {
+   "juisteVoorrang": 2,
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Wie links afslaat verleent voorrang aan de tegenliggers (rechtdoor of rechtsaf)."
+  },
+  "type": "oefening",
+  "partner": "schema-linksaf-tegenligger"
+ },
+ {
+  "naam": "schema-middenberm",
+  "bestand": "img/schemas/schema-middenberm.svg",
+  "titel": "Weg met middenberm: past je auto op de berm?",
+  "beschrijving": "Twee bovenaanzichten van een weg met twee gescheiden rijbanen en een middenberm waarop een auto die de weg wil oversteken tussen de rijbanen wacht. Links: de middenberm is smal en de auto steekt er met zijn achterkant naar buiten in de rijbaan, de auto hindert het verkeer en dit mag niet. Rechts: de middenberm is breed genoeg en de auto staat er volledig op, zonder het verkeer te hinderen.",
+  "borden": [],
+  "theorieblok": "voorrang-middenberm-gescheiden-rijbanen",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-007"
+  ]
+ },
+ {
+  "naam": "schema-oprit-snelweg",
+  "bestand": "img/schemas/schema-oprit-snelweg.svg",
+  "titel": "Oprit van de autosnelweg: voorrang verlenen",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt. Auto 1 rijdt op de autosnelweg, auto 2 rijdt de oprit op (bord B1 aan de oprit). Wie oprijdt verleent altijd voorrang aan wie al op de autosnelweg rijdt, ook bij file; een bestuurder die je laat invoegen doet dat uit hoffelijkheid.",
+  "borden": [
+   "B1"
+  ],
+  "theorieblok": "snelweg-op-en-afrit",
+  "bronnen": [
+   "SNEL-001"
+  ],
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (op de autosnelweg)",
+    "kleur": "rood",
+    "x": 72.5,
+    "y": 80
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (op de oprit)",
+    "kleur": "blauw",
+    "x": 34.5,
+    "y": 90.83
+   }
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Bij het oprijden van de autosnelweg verleen je altijd voorrang aan de bestuurders die al op de autosnelweg rijden."
+  },
+  "type": "uitleg",
+  "partner": "schema-oprit-snelweg-oefening"
+ },
+ {
+  "naam": "schema-oprit-snelweg-oefening",
+  "bestand": "img/schemas/schema-oprit-snelweg-oefening.svg",
+  "titel": "Oprit van de autosnelweg: voorrang verlenen (oefening)",
+  "beschrijving": "Een autosnelweg met twee rijstroken van onder naar boven en een oprit die schuin van linksonder invoegt, met bord B1 aan de oprit. Auto 1 rijdt op de autosnelweg (rechterstrook), auto 2 komt van de oprit en wil invoegen.",
+  "borden": [
+   "B1"
+  ],
+  "theorieblok": "snelweg-op-en-afrit",
+  "bronnen": [
+   "SNEL-001"
+  ],
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (op de autosnelweg)",
+    "kleur": "rood",
+    "x": 72.5,
+    "y": 80
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (op de oprit)",
+    "kleur": "blauw",
+    "x": 34.5,
+    "y": 90.83
+   }
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Bij het oprijden van de autosnelweg verleen je altijd voorrang aan de bestuurders die al op de autosnelweg rijden."
+  },
+  "type": "oefening",
+  "partner": "schema-oprit-snelweg"
+ },
+ {
+  "naam": "schema-opstelvak",
+  "bestand": "img/schemas/schema-opstelvak.svg",
+  "titel": "Opstelvak voor fietsers bij verkeerslichten",
+  "beschrijving": "Een rijbaan van onder naar boven met twee stopstrepen achter elkaar en daartussen een wit fietssymbool: het opstelvak. Een fietser staat in het vak, een auto staat achter de eerste stopstreep. Het verkeerslicht staat op rood.",
+  "borden": [],
+  "theorieblok": "lichten-fietslichten",
+  "bronnen": [
+   "LICH-001"
+  ],
+  "hotspots": [
+   {
+    "id": "opstelvak",
+    "x": 50,
+    "y": 48.3,
+    "w": 18.75,
+    "h": 20,
+    "label": "Het opstelvak (hier mogen fietsers tijdens rood staan)",
+    "correct": true
+   },
+   {
+    "id": "auto",
+    "x": 56.9,
+    "y": 80,
+    "w": 5.4,
+    "h": 10,
+    "label": "Hier staat de auto (voor de eerste stopstreep)",
+    "correct": false
+   }
+  ]
+ },
+ {
+  "naam": "schema-overweg-file",
+  "bestand": "img/schemas/schema-overweg-file.svg",
+  "titel": "Overweg: niet oprijden als je er moet stilstaan",
+  "beschrijving": "Een weg die een spoor kruist, zonder werkende slagbomen, met file. Aan de overkant staat het verkeer stil en is er geen plaats. Een auto staat voor de overweg en rijdt niet op, want hij zou op de sporen moeten stilstaan. Stilstaan op een overweg is verboden.",
+  "borden": [],
+  "theorieblok": "openbaar-overweg-gedrag",
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-overweg-lichten",
+  "bestand": "img/schemas/schema-overweg-lichten.svg",
+  "titel": "Overweg met knipperende rode lichten en slagbomen",
+  "beschrijving": "Een weg die een spoor kruist (overweg). Aan beide kanten staan twee beurtelings knipperende rode lichten en slagbomen die dichtgaan; bord A45 staat bij de overweg. Een auto stopt voor de stopstreep en rijdt niet verder zolang de lichten knipperen, de slagbomen bewegen of dicht zijn.",
+  "borden": [
+   "A45"
+  ],
+  "theorieblok": "openbaar-overweg-signalisatie",
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-parkeerafstanden",
+  "bestand": "img/schemas/schema-parkeerafstanden.svg",
+  "titel": "Afstanden bij stilstaan en parkeren",
+  "beschrijving": "Vier kleine schema's van een straat met rode gearceerde zones. Linksboven: 5 meter voor een zebrapad (stilstaan en parkeren verboden). Rechtsboven: 20 meter voor verkeerslichten (stilstaan en parkeren verboden). Linksonder: 15 meter aan weerszijden van het bord van een bus- of tramhalte (parkeren verboden). Rechtsonder: minder dan 1 meter vóór of achter een ander geparkeerd voertuig (parkeren verboden).",
+  "borden": [],
+  "theorieblok": "stilstaan-parkeerverbod-plaatsen",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-parkeren-berm",
+  "bestand": "img/schemas/schema-parkeren-berm.svg",
+  "titel": "Parkeren op de berm: 1,50 m doorgang voor voetgangers",
+  "beschrijving": "Een straat met een gelijkgrondse berm waarop een auto geparkeerd staat. Tussen de auto en de buitenrand van de weg blijft minstens 1,50 meter vrij voor voetgangers (aangeduid met een dubbele pijl).",
+  "borden": [],
+  "theorieblok": "parkeren-plaats-en-manier",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-parkeren-rijbaan",
+  "bestand": "img/schemas/schema-parkeren-rijbaan.svg",
+  "titel": "Parkeren op de rijbaan: rechts, in één rij",
+  "beschrijving": "Een tweerichtingsstraat. Een auto staat geparkeerd aan de rechterkant van de rijbaan, zo ver mogelijk van de middenlijn en evenwijdig met de rand. Een tweede auto die ernaast dubbel geparkeerd staat is fout.",
+  "borden": [],
+  "theorieblok": "parkeren-plaats-en-manier",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-plaats-rechts-rijden",
+  "bestand": "img/schemas/schema-plaats-rechts-rijden.svg",
+  "titel": "Rechts rijden op een tweerichtingsweg",
+  "beschrijving": "Een weg met twee rijrichtingen van onder naar boven gezien. De auto die naar boven rijdt, rijdt rechts van de middenlijn; de tegenligger die naar beneden rijdt, rijdt aan de andere kant van de middenlijn, dus ook rechts voor zijn eigen rijrichting.",
+  "borden": [],
+  "theorieblok": "plaats-rechts-rijden",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-portier",
+  "bestand": "img/schemas/schema-portier.svg",
+  "titel": "Portier openen: eerst kijken",
+  "beschrijving": "Een straat met een geparkeerde auto waarvan het portier aan de rijbaanzijde open gaat. Een fietser rijdt vlak langs de auto en zou tegen het open portier botsen. Een rood kruis en de tekst: kijk in je spiegel en over je schouder voor je het portier opent.",
+  "borden": [],
+  "theorieblok": "portier-openen",
+  "bronnen": [
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "schema-rangorde-lichten",
+  "bestand": "img/schemas/schema-rangorde-lichten.svg",
+  "titel": "Rangorde: bevoegde persoon, lichten, borden en regels",
+  "beschrijving": "Een trap met drie treden: 1 bevelen van een bevoegde persoon, 2 verkeerstekens (lichten, borden, wegmarkeringen), 3 verkeersregels zoals voorrang van rechts. Een agent die je laat stoppen bij groen licht gaat voor: je stopt.",
+  "borden": [],
+  "theorieblok": "lichten-rangorde",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-rangorde-voorrang",
+  "bestand": "img/schemas/schema-rangorde-voorrang.svg",
+  "titel": "Rangorde: wie of wat bepaalt de voorrang?",
+  "beschrijving": "Een trap met vier treden van boven naar onder: 1 bevoegde persoon, 2 verkeerslichten, 3 verkeersborden, 4 algemene verkeersregels (voorrang van rechts). Wat hoger staat, gaat voor wat lager staat.",
+  "borden": [
+   "B1"
+  ],
+  "theorieblok": "voorrang-rangorde",
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-reddingsstrook-2",
+  "bestand": "img/schemas/schema-reddingsstrook-2.svg",
+  "titel": "Reddingsstrook bij file: twee rijstroken",
+  "beschrijving": "Een weg met twee rijstroken in dezelfde richting en file. De auto's op de linkse strook rijden uiterst links, de auto's op de rechtse strook uiterst rechts, zodat er in het midden een vrije strook ontstaat (geel gearceerd). Onderaan nadert een ziekenwagen via die strook.",
+  "borden": [],
+  "theorieblok": "plaats-reddingsstrook-file",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-reddingsstrook-3",
+  "bestand": "img/schemas/schema-reddingsstrook-3.svg",
+  "titel": "Reddingsstrook bij file: drie of meer rijstroken",
+  "beschrijving": "Een weg met drie rijstroken in dezelfde richting en file. De auto's op de linkse strook rijden uiterst links; de auto's op de middelste en rechtse strook rijden zo ver mogelijk naar rechts. Tussen de linkse en de middelste strook ontstaat een vrije strook (geel gearceerd) waar een ziekenwagen doorrijdt.",
+  "borden": [],
+  "theorieblok": "plaats-reddingsstrook-file",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-ritsen",
+  "bestand": "img/schemas/schema-ritsen.svg",
+  "titel": "Ritsen: invoegen vlak voor de versmalling, om beurten",
+  "beschrijving": "Een weg met twee rijstroken waarvan de linker eindigt (afgezet met pylonen). Vier auto's voegen om beurten in: eerst auto 1 op de rechterstrook, dan auto 2 van de linkerstrook, dan auto 3 rechts, dan auto 4 links. Wie op de doorlopende strook rijdt, laat beurtelings één invoegen. Er wordt pas vlak voor de versmalling ingevoegd.",
+  "borden": [],
+  "theorieblok": "ritsen",
+  "bronnen": [
+   "PLAA-001"
+  ]
+ },
+ {
+  "naam": "schema-rotonde",
+  "bestand": "img/schemas/schema-rotonde.svg",
+  "titel": "Rotonde met D5 en B1: wie op de rotonde rijdt, heeft voorrang",
+  "beschrijving": "Met D5 en B1 aan de toegangen: wie op de rotonde rijdt, heeft voorrang op wie oprijdt. Auto 2 verleent voorrang aan auto 1. Bij het oprijden is een richtingaanwijzer niet verplicht; bij het verlaten gebruik je de rechter richtingaanwijzer.",
+  "borden": [
+   "D5",
+   "B1"
+  ],
+  "theorieblok": "voorrang-rotonde",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (rijdt op de rotonde)",
+    "kleur": "rood",
+    "x": 38.88,
+    "y": 60.33
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (rijdt de rotonde op)",
+    "kleur": "blauw",
+    "x": 53.75,
+    "y": 83.33
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-003",
+   "VOOR-004"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Bij een rotonde met D5 en B1 verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
+  },
+  "type": "uitleg",
+  "partner": "schema-rotonde-oefening"
+ },
+ {
+  "naam": "schema-rotonde-oefening",
+  "bestand": "img/schemas/schema-rotonde-oefening.svg",
+  "titel": "Rotonde met D5 en B1: wie op de rotonde rijdt, heeft voorrang (oefening)",
+  "beschrijving": "Bovenaanzicht van een rotonde met bord D5 op het middeneiland en bord B1 (voorrang verlenen) aan elke toegang. Het verkeer draait tegen de wijzers van de klok rond het eiland. Auto 1 rijdt al op de rotonde en nadert de toegang van onderen. Auto 2 komt van onder de rotonde op en wil de eerste afrit rechts nemen.",
+  "borden": [
+   "D5",
+   "B1"
+  ],
+  "theorieblok": "voorrang-rotonde",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (rijdt op de rotonde)",
+    "kleur": "rood",
+    "x": 38.88,
+    "y": 60.33
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (rijdt de rotonde op)",
+    "kleur": "blauw",
+    "x": 53.75,
+    "y": 83.33
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-003",
+   "VOOR-004"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Bij een rotonde met D5 en B1 verleent wie oprijdt voorrang aan wie al op de rotonde rijdt."
+  },
+  "type": "oefening",
+  "partner": "schema-rotonde"
+ },
+ {
+  "naam": "schema-stilstaanverbod-zebrapad",
+  "bestand": "img/schemas/schema-stilstaanverbod-zebrapad.svg",
+  "titel": "Stilstaan en parkeren: niet op en niet vlak voor een zebrapad",
+  "beschrijving": "Een straat met een zebrapad. Op de rijbaan in minder dan 5 meter voor het zebrapad (in de rijrichting) is stilstaan en parkeren verboden: rode gearceerde zones. Een auto die in zo'n zone staat is fout; een auto die verder weg staat (meer dan 5 meter) mag er staan.",
+  "borden": [],
+  "theorieblok": "stilstaan-parkeerverbod-plaatsen",
+  "bronnen": [
+   "PLAA-001"
+  ],
+  "hotspots": [
+   {
+    "id": "zone-links",
+    "x": 41.9,
+    "y": 50.8,
+    "w": 8.1,
+    "h": 12.5,
+    "label": "Verboden zone voor het zebrapad (rijrichting naar rechts)",
+    "correct": true
+   },
+   {
+    "id": "zone-west",
+    "x": 57.5,
+    "y": 38.3,
+    "w": 8.1,
+    "h": 12.5,
+    "label": "Verboden zone voor het zebrapad (rijrichting naar links)",
+    "correct": true
+   },
+   {
+    "id": "ver-weg",
+    "x": 12,
+    "y": 51,
+    "w": 13,
+    "h": 14,
+    "label": "Hier staat een auto ver van het zebrapad",
+    "correct": false
+   }
+  ]
+ },
+ {
+  "naam": "schema-t-kruispunt",
+  "bestand": "img/schemas/schema-t-kruispunt.svg",
+  "titel": "T-kruispunt zonder borden",
+  "beschrijving": "T-kruispunt zonder borden: voorrang van rechts. Auto 2 heeft niemand rechts van zich en rijdt eerst. Auto 1 heeft auto 2 aan zijn rechterkant en wacht. Auto 3 heeft auto 1 (uit de zijstraat) aan zijn rechterkant en wacht als laatste.",
+  "borden": [],
+  "theorieblok": "voorrang-t-kruispunt",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van de zijstraat, slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 36.67
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "juisteVolgorde": [
+    2,
+    1,
+    3
+   ],
+   "motivatie": "Er zijn geen borden of lichten, dus voorrang van rechts. Auto 2 heeft niemand rechts. Auto 1 komt uit de zijstraat en heeft auto 2 aan zijn rechterkant. Auto 3 heeft de zijstraat (auto 1) aan zijn rechterkant."
+  },
+  "type": "uitleg",
+  "partner": "schema-t-kruispunt-oefening"
+ },
+ {
+  "naam": "schema-t-kruispunt-b1",
+  "bestand": "img/schemas/schema-t-kruispunt-b1.svg",
+  "titel": "T-kruispunt met B1 op de zijtak",
+  "beschrijving": "Met B1 op de zijtak moet auto 1 voorrang verlenen aan al het verkeer op de doorlopende weg: zowel aan auto 2 als aan auto 3. Auto 1 rijdt als laatste.",
+  "borden": [
+   "B1"
+  ],
+  "theorieblok": "voorrang-t-kruispunt",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van de zijstraat, slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 36.67
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007",
+   "VOOR-003"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Het bord B1 staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
+  },
+  "type": "uitleg",
+  "partner": "schema-t-kruispunt-b1-oefening"
+ },
+ {
+  "naam": "schema-t-kruispunt-b1-oefening",
+  "bestand": "img/schemas/schema-t-kruispunt-b1-oefening.svg",
+  "titel": "T-kruispunt met B1 op de zijtak (oefening)",
+  "beschrijving": "T-kruispunt. Auto 1 komt uit de zijstraat en slaat links af; bij de zijstraat staat bord B1 (voorrang verlenen) met een stopstreep. Auto 2 komt van rechts, auto 3 van links, beide rijden rechtdoor op de doorlopende weg.",
+  "borden": [
+   "B1"
+  ],
+  "theorieblok": "voorrang-t-kruispunt",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van de zijstraat, slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 36.67
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007",
+   "VOOR-003"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "motivatie": "Het bord B1 staat op de zijstraat: auto 1 verleent voorrang aan het verkeer op de doorlopende weg (auto 2 en auto 3)."
+  },
+  "type": "oefening",
+  "partner": "schema-t-kruispunt-b1"
+ },
+ {
+  "naam": "schema-t-kruispunt-oefening",
+  "bestand": "img/schemas/schema-t-kruispunt-oefening.svg",
+  "titel": "T-kruispunt zonder borden (oefening)",
+  "beschrijving": "T-kruispunt zonder borden of lichten. Een weg loopt van links naar rechts, een zijstraat komt van onder uit op die weg. Auto 1 komt uit de zijstraat en slaat links af (richting links). Auto 2 komt van rechts en rijdt naar links. Auto 3 komt van links en rijdt naar rechts.",
+  "borden": [],
+  "theorieblok": "voorrang-t-kruispunt",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (van de zijstraat, slaat links af)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 81.67
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (van rechts)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 36.67
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (van links)",
+    "kleur": "geel",
+    "x": 17.5,
+    "y": 46.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "juisteVolgorde": [
+    2,
+    1,
+    3
+   ],
+   "motivatie": "Er zijn geen borden of lichten, dus voorrang van rechts. Auto 2 heeft niemand rechts. Auto 1 komt uit de zijstraat en heeft auto 2 aan zijn rechterkant. Auto 3 heeft de zijstraat (auto 1) aan zijn rechterkant."
+  },
+  "type": "oefening",
+  "partner": "schema-t-kruispunt"
+ },
+ {
+  "naam": "schema-tram-inhalen-rechts",
+  "bestand": "img/schemas/schema-tram-inhalen-rechts.svg",
+  "titel": "Een tram in de rijbaan haal je rechts in",
+  "beschrijving": "Een straat met een tramspoor in het midden. Een tram staat stil aan een halte. Een auto rijdt rechts langs de tram voorbij (groen vinkje). Links langs de tram voorbijrijden is fout (rood kruis); links is de rijstrook van het tegemoetkomende verkeer, waar een tegenligger rijdt.",
+  "borden": [],
+  "theorieblok": "openbaar-spoorvoertuigen-voorrang",
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-tram-voorrang",
+  "bestand": "img/schemas/schema-tram-voorrang.svg",
+  "titel": "Tram heeft voorrang op de auto",
+  "beschrijving": "Spoorvoertuigen hebben voorrang op alle andere weggebruikers, ook als ze van links komen. De auto laat de tram eerst passeren.",
+  "borden": [],
+  "theorieblok": "voorrang-tram-spoorvoertuigen",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "tram",
+    "kleur": null,
+    "x": 18.75,
+    "y": 55
+   },
+   {
+    "nr": 2,
+    "label": "auto (van onder)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Elke weggebruiker verleent voorrang aan spoorvoertuigen, dus ook aan een tram die van links komt (zolang er geen bevoegde persoon of werkend licht anders bepaalt)."
+  },
+  "type": "uitleg",
+  "partner": "schema-tram-voorrang-oefening"
+ },
+ {
+  "naam": "schema-tram-voorrang-oefening",
+  "bestand": "img/schemas/schema-tram-voorrang-oefening.svg",
+  "titel": "Tram heeft voorrang op de auto (oefening)",
+  "beschrijving": "Kruispunt zonder borden of lichten met een tramspoor in de weg van links naar rechts. De tram (1) rijdt van links naar rechts over het kruispunt. Auto 2 komt van onder en rijdt rechtdoor naar boven.",
+  "borden": [],
+  "theorieblok": "voorrang-tram-spoorvoertuigen",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "tram",
+    "kleur": null,
+    "x": 18.75,
+    "y": 55
+   },
+   {
+    "nr": 2,
+    "label": "auto (van onder)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 80
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "juisteVoorrang": 1,
+   "moetWachten": [
+    2
+   ],
+   "motivatie": "Elke weggebruiker verleent voorrang aan spoorvoertuigen, dus ook aan een tram die van links komt (zolang er geen bevoegde persoon of werkend licht anders bepaalt)."
+  },
+  "type": "oefening",
+  "partner": "schema-tram-voorrang"
+ },
+ {
+  "naam": "schema-tramhalte-zonder-vluchtheuvel",
+  "bestand": "img/schemas/schema-tramhalte-zonder-vluchtheuvel.svg",
+  "titel": "Tramhalte zonder vluchtheuvel: stoppen",
+  "beschrijving": "Is er geen vluchtheuvel aan de halte, dan stop je aan de kant waar reizigers in- of uitstappen. Je vertrekt pas weer met matige snelheid als iedereen veilig is.",
+  "borden": [],
+  "theorieblok": "openbaar-tramhalte",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "tram aan de halte",
+    "kleur": null,
+    "x": 55,
+    "y": 38.33
+   },
+   {
+    "nr": 2,
+    "label": "auto",
+    "kleur": "rood",
+    "x": 55,
+    "y": 78.33
+   }
+  ],
+  "bronnen": [
+   "OPEN-001"
+  ]
+ },
+ {
+  "naam": "schema-uitrit-parkeerplaats",
+  "bestand": "img/schemas/schema-uitrit-parkeerplaats.svg",
+  "titel": "Uit een oprit of parking: altijd voorrang verlenen",
+  "beschrijving": "Wie een oprit, garage, parkeerplaats of tankstation verlaat, voert een manoeuvre uit: hij verleent voorrang aan de voetgangers op het trottoir, de fietsers op het fietspad en het verkeer op de rijbaan.",
+  "borden": [],
+  "theorieblok": "voorrang-manoeuvres-uitritten",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto die de oprit verlaat",
+    "kleur": "rood",
+    "x": 70,
+    "y": 89.17
+   },
+   {
+    "nr": 2,
+    "label": "voetganger op het trottoir",
+    "kleur": null,
+    "x": 75,
+    "y": 78
+   },
+   {
+    "nr": 3,
+    "label": "fietser op het fietspad",
+    "kleur": null,
+    "x": 87.5,
+    "y": 70
+   },
+   {
+    "nr": 4,
+    "label": "auto op de rijbaan",
+    "kleur": "blauw",
+    "x": 18.75,
+    "y": 56.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "voorrangVoor": [
+    2,
+    3,
+    4
+   ],
+   "motivatie": "Wie een eigendom verlaat voert een manoeuvre uit en verleent voorrang aan voetgangers, fietsers en het verkeer op de rijbaan."
+  },
+  "type": "uitleg",
+  "partner": "schema-uitrit-parkeerplaats-oefening"
+ },
+ {
+  "naam": "schema-uitrit-parkeerplaats-oefening",
+  "bestand": "img/schemas/schema-uitrit-parkeerplaats-oefening.svg",
+  "titel": "Uit een oprit of parking: altijd voorrang verlenen (oefening)",
+  "beschrijving": "Een auto (1) verlaat een oprit en moet over een trottoir (met voetganger 2) en een fietspad (met fietser 3) naar de rijbaan. Op de rijbaan rijdt auto 4 van links naar rechts. Alle weggebruikers rijden voorbij de oprit.",
+  "borden": [],
+  "theorieblok": "voorrang-manoeuvres-uitritten",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto die de oprit verlaat",
+    "kleur": "rood",
+    "x": 70,
+    "y": 89.17
+   },
+   {
+    "nr": 2,
+    "label": "voetganger op het trottoir",
+    "kleur": null,
+    "x": 75,
+    "y": 78
+   },
+   {
+    "nr": 3,
+    "label": "fietser op het fietspad",
+    "kleur": null,
+    "x": 87.5,
+    "y": 70
+   },
+   {
+    "nr": 4,
+    "label": "auto op de rijbaan",
+    "kleur": "blauw",
+    "x": 18.75,
+    "y": 56.67
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002",
+   "VOOR-007"
+  ],
+  "situatie": {
+   "moetWachten": [
+    1
+   ],
+   "voorrangVoor": [
+    2,
+    3,
+    4
+   ],
+   "motivatie": "Wie een eigendom verlaat voert een manoeuvre uit en verleent voorrang aan voetgangers, fietsers en het verkeer op de rijbaan."
+  },
+  "type": "oefening",
+  "partner": "schema-uitrit-parkeerplaats"
+ },
+ {
+  "naam": "schema-verkeersplein",
+  "bestand": "img/schemas/schema-verkeersplein.svg",
+  "titel": "Rond plein zonder D5 en zonder B1/B5",
+  "beschrijving": "Zonder D5 en zonder B1/B5 is het geen rotonde in de zin van de wegcode maar een plein of kruispunt in de vorm van een cirkel: er geldt voorrang van rechts. Controleer bij elke toegang of er een bord staat.",
+  "borden": [],
+  "theorieblok": "voorrang-rotonde-zonder-borden-verkeersplein",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (op het plein)",
+    "kleur": "rood",
+    "x": 38.88,
+    "y": 60.33
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (komt van onder het plein op)",
+    "kleur": "blauw",
+    "x": 53.75,
+    "y": 83.33
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007"
+  ]
+ },
+ {
+  "naam": "schema-voorrang-rechts",
+  "bestand": "img/schemas/schema-voorrang-rechts.svg",
+  "titel": "Voorrang van rechts: kruispunt zonder borden of lichten",
+  "beschrijving": "Kruispunt zonder borden of lichten: voorrang van rechts. Auto 2 heeft niemand rechts van zich en rijdt eerst. Auto 1 moet auto 2 laten voorgaan (die komt van rechts) en rijdt als tweede. Auto 3 moet auto 1 laten voorgaan (die komt van zijn rechterkant, van onder) en rijdt als laatste.",
+  "borden": [],
+  "theorieblok": "voorrang-van-rechts",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (komt van onder)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 79.17
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (komt van rechts)",
+    "kleur": "blauw",
+    "x": 81.25,
+    "y": 45
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (komt van links)",
+    "kleur": "geel",
+    "x": 18.75,
+    "y": 55
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "situatie": {
+   "juisteVolgorde": [
+    2,
+    1,
+    3
+   ],
+   "motivatie": "Zonder borden of lichten geldt voorrang van rechts. Auto 2 heeft niemand aan zijn rechterkant, dus gaat eerst. Auto 1 heeft auto 2 aan zijn rechterkant, auto 3 heeft auto 1 aan zijn rechterkant."
+  },
+  "type": "uitleg",
+  "partner": "schema-voorrang-rechts-oefening"
+ },
+ {
+  "naam": "schema-voorrang-rechts-oefening",
+  "bestand": "img/schemas/schema-voorrang-rechts-oefening.svg",
+  "titel": "Voorrang van rechts: kruispunt zonder borden of lichten (oefening)",
+  "beschrijving": "Bovenaanzicht van een kruispunt zonder verkeersborden, lichten of bevoegde persoon. Drie auto's rijden elk rechtdoor: auto 1 komt van onder (rijdt naar boven), auto 2 komt van rechts (rijdt naar links) en auto 3 komt van links (rijdt naar rechts).",
+  "borden": [],
+  "theorieblok": "voorrang-van-rechts",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto 1 (komt van onder)",
+    "kleur": "rood",
+    "x": 53.75,
+    "y": 79.17
+   },
+   {
+    "nr": 2,
+    "label": "auto 2 (komt van rechts)",
+    "kleur": "blauw",
+    "x": 81.25,
+    "y": 45
+   },
+   {
+    "nr": 3,
+    "label": "auto 3 (komt van links)",
+    "kleur": "geel",
+    "x": 18.75,
+    "y": 55
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ],
+  "situatie": {
+   "juisteVolgorde": [
+    2,
+    1,
+    3
+   ],
+   "motivatie": "Zonder borden of lichten geldt voorrang van rechts. Auto 2 heeft niemand aan zijn rechterkant, dus gaat eerst. Auto 1 heeft auto 2 aan zijn rechterkant, auto 3 heeft auto 1 aan zijn rechterkant."
+  },
+  "type": "oefening",
+  "partner": "schema-voorrang-rechts"
+ },
+ {
+  "naam": "schema-voorrangsvoertuig",
+  "bestand": "img/schemas/schema-voorrangsvoertuig.svg",
+  "titel": "Voorrangsvoertuig: doorgang vrijmaken",
+  "beschrijving": "Zodra de sirene van een prioritair voertuig te horen is, maakt elke weggebruiker onmiddellijk de doorgang vrij en verleent voorrang, zo nodig door te stoppen. Dat geldt ook als je zelf voorrang zou hebben.",
+  "borden": [],
+  "theorieblok": "voorrang-reageren-op-hulpdiensten",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "ziekenwagen met blauw licht en sirene",
+    "kleur": null,
+    "x": 50,
+    "y": 83.33
+   },
+   {
+    "nr": 2,
+    "label": "auto",
+    "kleur": "rood",
+    "x": 60.62,
+    "y": 50
+   },
+   {
+    "nr": 3,
+    "label": "auto",
+    "kleur": "blauw",
+    "x": 61,
+    "y": 28.33
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-007"
+  ]
+ },
+ {
+  "naam": "schema-voorrangsweg-b9-b11",
+  "bestand": "img/schemas/schema-voorrangsweg-b9-b11.svg",
+  "titel": "Voorrangsweg: B9 aan het begin, B11 aan het einde",
+  "beschrijving": "Een rechte weg van onder naar boven. Onderaan staat bord B9 (voorrangsweg), daarna volgt een kruispunt met zijwegen waar de weg voorrang heeft. Halverwege staat bord B11 (einde voorrangsweg). Bij het volgende kruispunt komt een auto van rechts uit de zijweg: daar geldt weer voorrang van rechts.",
+  "borden": [
+   "B9",
+   "B11"
+  ],
+  "theorieblok": "voorrang-voorrangsweg-b9-b11-b15",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "auto op de voorrangsweg",
+    "kleur": "rood",
+    "x": 56.25,
+    "y": 93.33
+   },
+   {
+    "nr": 2,
+    "label": "auto uit de zijweg (onderste kruispunt)",
+    "kleur": "blauw",
+    "x": 82.5,
+    "y": 70
+   },
+   {
+    "nr": 3,
+    "label": "auto uit de zijweg (bovenste kruispunt)",
+    "kleur": "geel",
+    "x": 82.5,
+    "y": 18.33
+   }
+  ],
+  "bronnen": [
+   "VOOR-001",
+   "VOOR-002"
+  ]
+ },
+ {
+  "naam": "schema-werfzeiger-schijf",
+  "bestand": "img/schemas/schema-werfzeiger-schijf.svg",
+  "titel": "Signaalgever of werfopzichter met schijf C3",
+  "beschrijving": "Links een werfopzichter die een ronde schijf met verkeersbord C3 (verboden toegang) omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord C3 op de schijf betekent: stoppen.",
+  "borden": [
+   "C3"
+  ],
+  "theorieblok": "bevoegde-personen-signaalgevers-werf",
+  "bronnen": [
+   "LICH-001"
+  ]
+ },
+ {
+  "naam": "schema-zebrapad",
+  "bestand": "img/schemas/schema-zebrapad.svg",
+  "titel": "Zebrapad: voorrang verlenen aan voetgangers",
+  "beschrijving": "Een zebrapad over een straat met borden F49 en A21. Een voetganger staat op het punt het zebrapad op te stappen. De auto nadert met matige snelheid, remt en verleent voorrang aan de voetganger.",
+  "borden": [
+   "F49",
+   "A21"
+  ],
+  "theorieblok": "zebrapad-voorrang-bestuurder",
+  "bronnen": [
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "schema-zijdelingse-afstand",
+  "bestand": "img/schemas/schema-zijdelingse-afstand.svg",
+  "titel": "Een fietser voorbijrijden: 1 m of 1,5 m afstand",
+  "beschrijving": "Twee wegen naast elkaar, van onder naar boven. Links: binnen de bebouwde kom rijdt een auto een fietser voorbij met minstens 1 meter zijdelingse afstand. Rechts: buiten de bebouwde kom is de afstand minstens 1,5 meter. De afstanden zijn niet op schaal getekend.",
+  "borden": [],
+  "theorieblok": "inhalen-fietser-afstand",
+  "bronnen": [
+   "KWET-001"
+  ]
+ },
+ {
+  "naam": "tech-dashboard-groen-blauw",
+  "bestand": "img/schemas/tech-dashboard-groen-blauw.svg",
+  "titel": "Groen en blauw",
+  "beschrijving": "Overzicht van een groen en een blauw dashboardlampje: groen de richtingaanwijzer (systeem staat aan en werkt), blauw het grootlicht (enkel het grootlicht is aan).",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ]
+ },
+ {
+  "naam": "tech-dashboard-kleuren",
+  "bestand": "img/schemas/tech-dashboard-kleuren.svg",
+  "titel": "Dashboardlampjes: de kleurcode",
+  "beschrijving": "Vier gekleurde lampjes met hun betekenis. Rood: gevaar of veiligheid, veilig stoppen en nagaan. Oranje of geel: storing of nazicht nodig, snel naar de garage. Groen: een systeem staat aan en werkt. Blauw: het grootlicht is aan.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-kleuren",
+  "bronnen": [
+   "TECH-001"
+  ]
+ },
+ {
+  "naam": "tech-dashboard-oranje",
+  "bestand": "img/schemas/tech-dashboard-oranje.svg",
+  "titel": "Oranje: laten nakijken",
+  "beschrijving": "Overzicht van een oranje dashboardlampje: motorstoring (motorblok). Oranje betekent: storing of nazicht nodig, snel naar de garage.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ]
+ },
+ {
+  "naam": "tech-dashboard-rood",
+  "bestand": "img/schemas/tech-dashboard-rood.svg",
+  "titel": "Rood: veilig stoppen",
+  "beschrijving": "Overzicht van twee rode dashboardlampjes: oliedruk (oliekannetje) en remmen (uitroepteken tussen haakjes). Rood betekent gevaar of veiligheid: veilig stoppen en nagaan.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ]
+ },
+ {
+  "naam": "tech-lampje-abs",
+  "bestand": "img/schemas/tech-lampje-abs.svg",
+  "titel": "Dashboardlampje ABS",
+  "beschrijving": "De letters ABS in een cirkel tussen haakjes op een donker dashboardvlak: storing in het antiblokkeersysteem. De kleur verschilt per bron, daarom neutraal getekend.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": false,
+  "kleur": null,
+  "symbool": "ABS"
+ },
+ {
+  "naam": "tech-lampje-accu",
+  "bestand": "img/schemas/tech-lampje-accu.svg",
+  "titel": "Dashboardlampje accu en laadcircuit",
+  "beschrijving": "Een accu-symbool met plus- en minpool op een donker dashboardvlak: probleem met accu of laadcircuit. De kleur van dit lampje verschilt per merk, daarom is het in neutrale kleur getekend.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": false,
+  "kleur": null,
+  "symbool": "Accu"
+ },
+ {
+  "naam": "tech-lampje-airbag",
+  "bestand": "img/schemas/tech-lampje-airbag.svg",
+  "titel": "Dashboardlampje airbag",
+  "beschrijving": "Een zittende persoon met een grote cirkel (airbag) voor zich op een donker dashboardvlak: storing in airbag of gordelspanner. De kleur verschilt per bron, daarom neutraal getekend.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": false,
+  "kleur": null,
+  "symbool": "Airbag"
+ },
+ {
+  "naam": "tech-lampje-bandenspanning",
+  "bestand": "img/schemas/tech-lampje-bandenspanning.svg",
+  "titel": "Dashboardlampje bandenspanning",
+  "beschrijving": "Een doorsnede van een band met een uitroepteken op een donker dashboardvlak: de bandenspanning is te laag. De kleur verschilt per bron, daarom neutraal getekend.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": false,
+  "kleur": null,
+  "symbool": "Bandenspanning"
+ },
+ {
+  "naam": "tech-lampje-grootlicht",
+  "bestand": "img/schemas/tech-lampje-grootlicht.svg",
+  "titel": "Dashboardlampje grootlicht (blauw)",
+  "beschrijving": "Een blauw koplamp-symbool met vier lichtstralen op een donker dashboardvlak: het grootlicht brandt. Geen waarschuwing; schakel het uit bij tegenliggers.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "blauw",
+  "symbool": "Grootlicht"
+ },
+ {
+  "naam": "tech-lampje-koelvloeistof",
+  "bestand": "img/schemas/tech-lampje-koelvloeistof.svg",
+  "titel": "Dashboardlampje koelvloeistof en temperatuur",
+  "beschrijving": "Een thermometer in golvende vloeistof op een donker dashboardvlak: motor te warm of koelvloeistof op. De kleur verschilt per merk, daarom neutraal getekend.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": false,
+  "kleur": null,
+  "symbool": "Koelvloeistof"
+ },
+ {
+  "naam": "tech-lampje-motor",
+  "bestand": "img/schemas/tech-lampje-motor.svg",
+  "titel": "Dashboardlampje motorstoring (oranje)",
+  "beschrijving": "Een oranje motorblok op een donker dashboardvlak: storing in het motorsysteem. Naar de garage; als het lampje knippert veilig stoppen.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "oranje",
+  "symbool": "Motorstoring"
+ },
+ {
+  "naam": "tech-lampje-olie",
+  "bestand": "img/schemas/tech-lampje-olie.svg",
+  "titel": "Dashboardlampje oliedruk (rood)",
+  "beschrijving": "Een rood oliekannetje met een druppel op een donker dashboardvlak: te lage oliedruk. Stoppen en het oliepeil controleren.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "rood",
+  "symbool": "Oliedruk"
+ },
+ {
+  "naam": "tech-lampje-remmen",
+  "bestand": "img/schemas/tech-lampje-remmen.svg",
+  "titel": "Dashboardlampje remmen (rood)",
+  "beschrijving": "Een rood uitroepteken in een cirkel tussen twee haakjes op een donker dashboardvlak: probleem met het remsysteem of handrem nog aan.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "rood",
+  "symbool": "Remmen"
+ },
+ {
+  "naam": "tech-lampje-richtingaanwijzer",
+  "bestand": "img/schemas/tech-lampje-richtingaanwijzer.svg",
+  "titel": "Dashboardlampje richtingaanwijzer (groen)",
+  "beschrijving": "Twee groene pijlen naar links en naar rechts op een donker dashboardvlak: de richtingaanwijzer of alarmlichten staan aan. Groen betekent: het systeem werkt.",
+  "borden": [],
+  "theorieblok": "techniek-dashboard-symbolen",
+  "bronnen": [
+   "TECH-001"
+  ],
+  "kleurEenduidig": true,
+  "kleur": "groen",
+  "symbool": "Richtingaanwijzer"
+ }
+]

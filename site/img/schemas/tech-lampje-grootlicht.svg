@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 220" width="200" height="220" role="img" aria-labelledby="t d">
+<title id="t">Dashboardlampje grootlicht (blauw)</title>
+<desc id="d">Een blauw koplamp-symbool met vier lichtstralen op een donker dashboardvlak: het grootlicht brandt. Geen waarschuwing; schakel het uit bij tegenliggers.</desc>
+
+<rect width="200" height="220" rx="22" fill="#171b22"/>
+<rect x="6" y="6" width="188" height="208" rx="18" fill="none" stroke="#2c323d" stroke-width="2"/>
+<circle cx="100" cy="100" r="62" fill="#3d8bff" opacity=".13"/>
+<g transform="translate(100 100) scale(2.1) translate(-32 -32)"><g fill="none" stroke="#3d8bff" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><path d="M34 14 C22 14 14 22 14 32 C14 42 22 50 34 50 Z"/><line x1="42" y1="18" x2="58" y2="14"/><line x1="42" y1="26" x2="58" y2="24"/><line x1="42" y1="34" x2="58" y2="34"/><line x1="42" y1="42" x2="58" y2="44"/></g></g>
+<text x="100" y="190" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#e8ecf3" text-anchor="middle" ><tspan x="100" dy="0">Grootlicht</tspan></text>
+<text x="100" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="500" fill="#9aa3b2" text-anchor="middle" ><tspan x="100" dy="0">blauw: grootlicht aan</tspan></text>
+</svg>

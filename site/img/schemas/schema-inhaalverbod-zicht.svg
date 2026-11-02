@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Geen zicht: niet links inhalen</title>
+<desc id="d">Een weg die over een heuvelkruin loopt. Een auto rijdt achter een tragere voorligger, maar achter de kruin ziet hij niet of er een tegenligger aankomt (die zit achter de kruin, weergegeven als een vage auto met vraagteken). Daarom mag hij niet inhalen.</desc>
+<defs><linearGradient id="fog2" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#d9e8cf" stop-opacity="0"/><stop offset="0.6" stop-color="#d9e8cf" stop-opacity="0.92"/></linearGradient><marker id="ah999" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#999"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="250" y="0" width="300" height="600" fill="#4a4f57" />
+<line x1="400" y1="0" x2="400" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<g transform="translate(325 110) rotate(180)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f08a2b" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<text x="325" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="325" dy="0">?</tspan></text>
+<rect x="240" y="48" width="320" height="250" fill="url(#fog2)" />
+<rect x="262.2" y="153" width="275.6" height="33.6" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="175" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">heuvelkruin: geen zicht</tspan></text>
+<g transform="translate(475 340) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(475 500) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="-15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="-15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<path d="M475,445 L475,420 Q410,380 410,340" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M475,445 L475,420 Q410,380 410,340" fill="none" stroke="#999" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="4 8" marker-end="url(#ah999)"/>
+<g stroke="#d63a3a" stroke-width="9" stroke-linecap="round"><line x1="392" y1="312" x2="428" y2="348"/><line x1="428" y1="312" x2="392" y2="348"/></g>
+<rect x="45.8" y="431" width="208.4" height="90.24" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="150" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="150" dy="0">Kun je niet ver</tspan><tspan x="150" dy="20.06">genoeg zien dat</tspan><tspan x="150" dy="20.06">de weg vrij is?</tspan><tspan x="150" dy="20.06">Dan haal je niet in.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Je ziet niet of de weg vrij is: niet inhalen</tspan></text>
+</svg>

@@ -1,0 +1,614 @@
+[
+ {
+  "id": "DEMO-01",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-gevaar-weg",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Wat betekent dit bord?",
+  "afbeelding": "A1a",
+  "opties": [
+   "Gevaarlijke bocht naar links",
+   "Gevaarlijke bocht naar rechts",
+   "Slecht wegdek"
+  ],
+  "correct": [
+   0
+  ],
+  "meerdere": false
+ },
+ {
+  "id": "DEMO-02",
+  "les": 1,
+  "onderwerp": "T02",
+  "theorieblok": "voorrang-rangorde",
+  "type": "bord",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Geef de code van dit bord.",
+  "afbeelding": "B1",
+  "modus": "code",
+  "antwoorden": [
+   "b1"
+  ]
+ },
+ {
+  "id": "DEMO-03",
+  "les": 1,
+  "onderwerp": "T03",
+  "theorieblok": "borden-gevaar-weg",
+  "type": "bord",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Wat betekent dit bord?",
+  "afbeelding": "C3",
+  "modus": "naam",
+  "opties": [
+   "Verboden toegang in beide richtingen",
+   "Parkeerverbod",
+   "Voorrangsweg"
+  ],
+  "antwoorden": [
+   "Verboden toegang in beide richtingen"
+  ]
+ },
+ {
+  "id": "DEMO-04",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-gevaar-weg",
+  "type": "bord",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Tot welke categorie hoort dit bord?",
+  "afbeelding": "A1a",
+  "modus": "categorie",
+  "categorie": "A"
+ },
+ {
+  "id": "DEMO-05",
+  "les": 1,
+  "onderwerp": "T01",
+  "theorieblok": "borden-gevaar-weg",
+  "type": "hotspot",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Klik op het gebouw.",
+  "afbeelding": "demo-hotspot",
+  "zones": [
+   {
+    "id": "huis",
+    "x": 10,
+    "y": 25,
+    "w": 25,
+    "h": 30,
+    "correct": true,
+    "label": "Gebouw"
+   },
+   {
+    "id": "boom",
+    "x": 68,
+    "y": 25,
+    "w": 15,
+    "h": 50,
+    "correct": false,
+    "label": "Boom"
+   }
+  ]
+ },
+ {
+  "id": "DEMO-06",
+  "les": 1,
+  "onderwerp": "T08",
+  "theorieblok": "snelheden-overzicht-gewest",
+  "type": "invul",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Hoeveel km/u mag je in Vlaanderen buiten de bebouwde kom zonder bord?",
+  "antwoorden": [
+   "70"
+  ],
+  "eenheid": "km/u"
+ },
+ {
+  "id": "DEMO-07",
+  "les": 1,
+  "onderwerp": "T08",
+  "theorieblok": "snelheden-overzicht-gewest",
+  "type": "reken",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Je rijdt 90 km/u. Hoeveel meter leg je af in 2 seconden?",
+  "gegeven": "1 km/u = 0,2778 m/s",
+  "antwoord": 50,
+  "tolerantie": 1,
+  "eenheid": "m"
+ },
+ {
+  "id": "DEMO-08",
+  "les": 1,
+  "onderwerp": "T08",
+  "theorieblok": "snelheden-overzicht-gewest",
+  "type": "tabel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "zwaar",
+  "examen": true,
+  "vraag": "Vul de snelheden in.",
+  "kolommen": [
+   "Wegtype",
+   "Vlaanderen"
+  ],
+  "rijen": [
+   {
+    "label": "Bebouwde kom",
+    "cellen": [
+     {
+      "correct": "50"
+     }
+    ]
+   },
+   {
+    "label": "Buiten bebouwde kom",
+    "cellen": [
+     {
+      "correct": "70",
+      "opties": [
+       "50",
+       "70",
+       "90",
+       "120"
+      ]
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DEMO-09",
+  "les": 2,
+  "onderwerp": "T11",
+  "theorieblok": "voorrang-rangorde",
+  "type": "volgorde",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Zet de rangorde van boven (belangrijkst) naar onder.",
+  "items": [
+   "Bevoegde persoon",
+   "Verkeerslichten",
+   "Verkeersborden",
+   "Algemene regels"
+  ]
+ },
+ {
+  "id": "DEMO-10",
+  "les": 2,
+  "onderwerp": "T11",
+  "theorieblok": "voorrang-rangorde",
+  "type": "situatie",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Welk voertuig mag eerst rijden?",
+  "afbeelding": "demo-kruispunt",
+  "modus": "klik",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "Rode auto (zuid)",
+    "x": 50,
+    "y": 78
+   },
+   {
+    "nr": 2,
+    "label": "Blauwe auto (west)",
+    "x": 19,
+    "y": 47
+   },
+   {
+    "nr": 3,
+    "label": "Gele auto (oost)",
+    "x": 83,
+    "y": 57
+   }
+  ],
+  "correct": 1
+ },
+ {
+  "id": "DEMO-11",
+  "les": 2,
+  "onderwerp": "T11",
+  "theorieblok": "voorrang-rangorde",
+  "type": "situatie",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Zet de voertuigen in volgorde van doorrijden.",
+  "afbeelding": "demo-kruispunt",
+  "modus": "volgorde",
+  "voertuigen": [
+   {
+    "nr": 1,
+    "label": "Rode auto"
+   },
+   {
+    "nr": 2,
+    "label": "Blauwe auto"
+   },
+   {
+    "nr": 3,
+    "label": "Gele auto"
+   }
+  ],
+  "correct": [
+   1,
+   3,
+   2
+  ]
+ },
+ {
+  "id": "DEMO-12",
+  "les": 2,
+  "onderwerp": "T15",
+  "theorieblok": "lichten-driekleurig",
+  "type": "waaronwaar",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "stelling": "Bij oranje licht mag je altijd doorrijden.",
+  "juist": false,
+  "motivatie": "Je mag enkel doorrijden als je niet veilig meer kunt stoppen.",
+  "foutemotivaties": [
+   "Oranje betekent altijd voorrang.",
+   "Oranje geldt enkel voor voetgangers."
+  ]
+ },
+ {
+  "id": "DEMO-13",
+  "les": 2,
+  "onderwerp": "T15",
+  "theorieblok": "lichten-driekleurig",
+  "type": "koppel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Koppel het licht aan de betekenis.",
+  "paren": [
+   {
+    "links": "Rood",
+    "rechts": "Stoppen"
+   },
+   {
+    "links": "Oranje",
+    "rechts": "Stoppen, tenzij onveilig"
+   },
+   {
+    "links": "Groen",
+    "rechts": "Doorrijden"
+   }
+  ]
+ },
+ {
+  "id": "DEMO-14",
+  "les": 2,
+  "onderwerp": "T15",
+  "theorieblok": "lichten-driekleurig",
+  "type": "cloze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "tekst": "Bij {{1}} licht moet je stoppen en bij {{2}} licht mag je rijden.",
+  "gaten": [
+   {
+    "opties": [
+     "rood",
+     "groen"
+    ],
+    "correct": 0
+   },
+   {
+    "opties": [
+     "rood",
+     "groen"
+    ],
+    "correct": 1
+   }
+  ]
+ },
+ {
+  "id": "DEMO-15",
+  "les": 2,
+  "onderwerp": "T11",
+  "theorieblok": "voorrang-rangorde",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Welke zaken gaan boven de algemene regels? (meerdere juist)",
+  "opties": [
+   "Verkeersborden",
+   "Verkeerslichten",
+   "Het weer"
+  ],
+  "correct": [
+   0,
+   1
+  ],
+  "meerdere": true
+ },
+ {
+  "id": "DEMO-16",
+  "les": 3,
+  "onderwerp": "T23",
+  "theorieblok": "plaats-rechts-rijden",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Waar rijd je normaal op de rijbaan?",
+  "opties": [
+   "Zo rechts mogelijk",
+   "In het midden",
+   "Links"
+  ],
+  "correct": [
+   0
+  ]
+ },
+ {
+  "id": "DEMO-17",
+  "les": 3,
+  "onderwerp": "T23",
+  "theorieblok": "plaats-rechts-rijden",
+  "type": "cloze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "tekst": "Je rijdt op de rijbaan zo {{1}} als mogelijk, behalve bij {{2}}.",
+  "gaten": [
+   {
+    "antwoorden": [
+     "rechts"
+    ]
+   },
+   {
+    "antwoorden": [
+     "inhalen",
+     "links afslaan"
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DEMO-18",
+  "les": 3,
+  "onderwerp": "T26",
+  "theorieblok": "snelweg-autosnelweg-autoweg",
+  "type": "invul",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Wat is de maximumsnelheid op een autosnelweg in België (zonder bord)?",
+  "antwoorden": [
+   "120",
+   "120 km/u"
+  ],
+  "eenheid": "km/u"
+ },
+ {
+  "id": "DEMO-19",
+  "les": 3,
+  "onderwerp": "T26",
+  "theorieblok": "snelweg-autosnelweg-autoweg",
+  "type": "volgorde",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Zet de stappen bij pech op de snelweg in orde.",
+  "items": [
+   "Zet de alarmlichten aan",
+   "Trek je hesje aan",
+   "Stap uit aan de kant van de berm",
+   "Bel de hulpdiensten"
+  ]
+ },
+ {
+  "id": "DEMO-20",
+  "les": 3,
+  "onderwerp": "T26",
+  "theorieblok": "snelweg-autosnelweg-autoweg",
+  "type": "reken",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Hoeveel km leg je af in 30 minuten aan 100 km/u?",
+  "antwoord": 50,
+  "tolerantie": 0,
+  "eenheid": "km"
+ },
+ {
+  "id": "DEMO-21",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "meerkeuze",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "zwaar",
+  "examen": true,
+  "vraag": "Vanaf hoeveel promille ben je strafbaar als gewone bestuurder?",
+  "opties": [
+   "0,2",
+   "0,5",
+   "0,8"
+  ],
+  "correct": [
+   1
+  ]
+ },
+ {
+  "id": "DEMO-22",
+  "les": 4,
+  "onderwerp": "T29",
+  "theorieblok": "gedrag-alcohol-grenzen",
+  "type": "invul",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Hoeveel g/l bloed is de grens voor gewone bestuurders?",
+  "antwoorden": [
+   "0,5",
+   "0.5"
+  ],
+  "eenheid": "g/l"
+ },
+ {
+  "id": "DEMO-23",
+  "les": 4,
+  "onderwerp": "T36",
+  "theorieblok": "rijbewijs-traject",
+  "type": "waaronwaar",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "stelling": "Je mag het theorie-examen afleggen vanaf 17 jaar.",
+  "juist": true,
+  "motivatie": "Vanaf 17 jaar kan je het theorie-examen afleggen.",
+  "foutemotivaties": [
+   "Pas vanaf 21 jaar.",
+   "Dat kan op elke leeftijd."
+  ]
+ },
+ {
+  "id": "DEMO-24",
+  "les": 4,
+  "onderwerp": "T34",
+  "theorieblok": "ongeval-stappenplan",
+  "type": "volgorde",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 3,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Zet in volgorde bij een ongeval.",
+  "items": [
+   "Beveilig de plaats",
+   "Verwittig de hulpdiensten",
+   "Verleen eerste hulp"
+  ]
+ },
+ {
+  "id": "DEMO-25",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-banden",
+  "type": "tabel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 1,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Vul in.",
+  "kolommen": [
+   "Onderdeel",
+   "Juist?"
+  ],
+  "rijen": [
+   {
+    "label": "Bandenspanning controleren",
+    "cellen": [
+     {
+      "correct": true
+     }
+    ]
+   },
+   {
+    "label": "Rijden met kale banden",
+    "cellen": [
+     {
+      "correct": false
+     }
+    ]
+   }
+  ]
+ },
+ {
+  "id": "DEMO-26",
+  "les": 4,
+  "onderwerp": "T38",
+  "theorieblok": "techniek-banden",
+  "type": "koppel",
+  "uitleg": "Demo-uitleg: hier staat waarom dit antwoord juist is, in één tot drie zinnen.",
+  "bronnen": [],
+  "moeilijkheid": 2,
+  "gewicht": "gewoon",
+  "examen": true,
+  "vraag": "Koppel het bord aan de categorie.",
+  "paren": [
+   {
+    "links": "A1a",
+    "rechts": "Gevaar",
+    "linksAfb": "A1a"
+   },
+   {
+    "links": "B1",
+    "rechts": "Voorrang",
+    "linksAfb": "B1"
+   }
+  ]
+ }
+]

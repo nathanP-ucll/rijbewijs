@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Parkeren op de berm: 1,50 m doorgang voor voetgangers</title>
+<desc id="d">Een straat met een gelijkgrondse berm waarop een auto geparkeerd staat. Tussen de auto en de buitenrand van de weg blijft minstens 1,50 meter vrij voor voetgangers (aangeduid met een dubbele pijl).</desc>
+
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="0" y="130" width="800" height="150" fill="#4a4f57" />
+<line x1="0" y1="205" x2="800" y2="205" stroke="#fff" stroke-width="3" stroke-dasharray="16 14"/>
+<rect x="0" y="280" width="800" height="260" fill="#9bbf86" />
+<rect x="0" y="440" width="800" height="60" fill="#c9c9c4" />
+<line x1="0" y1="440" x2="800" y2="440" stroke="#fff" stroke-width="3" />
+<g transform="translate(400 335) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(150 470) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<g transform="translate(640 470) rotate(0)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d4a8a" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<g stroke="#fff" stroke-width="3"><line x1="520" y1="352" x2="520" y2="500"/><line x1="508" y1="352" x2="532" y2="352"/><line x1="508" y1="500" x2="532" y2="500"/></g>
+<rect x="519.28" y="399" width="241.44" height="54.84" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="640" y="420" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="640" dy="0">minstens 1,50 m</tspan><tspan x="640" dy="22.42">vrij voor voetgangers</tspan></text>
+<rect x="29.8" y="558" width="740.4" height="27.7" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="400" y="575" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Moet de berm door voetgangers gebruikt worden? Laat dan minstens 1,50 m doorgang vrij.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Parkeren op de berm: laat doorgang voor voetgangers</tspan></text>
+</svg>
