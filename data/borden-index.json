@@ -1,0 +1,1874 @@
+{
+ "A1a": {
+  "bestand": "img/borden/A1a.svg",
+  "naam_nl": "Gevaarlijke bocht naar links",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A1b": {
+  "bestand": "img/borden/A1b.svg",
+  "naam_nl": "Gevaarlijke bocht naar rechts",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A1c": {
+  "bestand": "img/borden/A1c.svg",
+  "naam_nl": "Dubbele bocht of meer dan twee bochten, de eerste naar links",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A1d": {
+  "bestand": "img/borden/A1d.svg",
+  "naam_nl": "Dubbele bocht of meer dan twee bochten, de eerste naar rechts",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A3": {
+  "bestand": "img/borden/A3.svg",
+  "naam_nl": "Gevaarlijke daling",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A5": {
+  "bestand": "img/borden/A5.svg",
+  "naam_nl": "Gevaarlijke stijging",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A7a": {
+  "bestand": "img/borden/A7a.svg",
+  "naam_nl": "Rijbaanversmalling (aan beide zijden)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A7b": {
+  "bestand": "img/borden/A7b.svg",
+  "naam_nl": "Rijbaanversmalling langs links",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A7c": {
+  "bestand": "img/borden/A7c.svg",
+  "naam_nl": "Rijbaanversmalling langs rechts",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A9": {
+  "bestand": "img/borden/A9.svg",
+  "naam_nl": "Beweegbare brug",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A11": {
+  "bestand": "img/borden/A11.svg",
+  "naam_nl": "Uitweg op een kaai of oever",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A13": {
+  "bestand": "img/borden/A13.svg",
+  "naam_nl": "Overdwarse uitholling of ezelsrug",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A14": {
+  "bestand": "img/borden/A14.svg",
+  "naam_nl": "Verhoogde inrichting (verkeersdrempel)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A15": {
+  "bestand": "img/borden/A15.svg",
+  "naam_nl": "Glibberige rijbaan (slipgevaar)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A17": {
+  "bestand": "img/borden/A17.svg",
+  "naam_nl": "Kiezelprojectie (losse steenslag)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A19": {
+  "bestand": "img/borden/A19.svg",
+  "naam_nl": "Vallende stenen",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A21": {
+  "bestand": "img/borden/A21.svg",
+  "naam_nl": "Oversteekplaats voor voetgangers",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A23": {
+  "bestand": "img/borden/A23.svg",
+  "naam_nl": "Plaats waar speciaal veel kinderen komen",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A25": {
+  "bestand": "img/borden/A25.svg",
+  "naam_nl": "Oversteekplaats voor fietsers en tweewielige bromfietsen",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A27": {
+  "bestand": "img/borden/A27.svg",
+  "naam_nl": "Doortocht van groot wild",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A29": {
+  "bestand": "img/borden/A29.svg",
+  "naam_nl": "Doortocht van vee",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A31": {
+  "bestand": "img/borden/A31.svg",
+  "naam_nl": "Werken",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A33": {
+  "bestand": "img/borden/A33.svg",
+  "naam_nl": "Verkeerslichten",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A35": {
+  "bestand": "img/borden/A35.svg",
+  "naam_nl": "Overtocht van vliegtuigen op geringe hoogte",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A37": {
+  "bestand": "img/borden/A37.svg",
+  "naam_nl": "Zijwind",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A39": {
+  "bestand": "img/borden/A39.svg",
+  "naam_nl": "Verkeer in twee richtingen na een deel met eenrichtingsverkeer",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A41": {
+  "bestand": "img/borden/A41.svg",
+  "naam_nl": "Overweg met slagbomen",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A43": {
+  "bestand": "img/borden/A43.svg",
+  "naam_nl": "Overweg zonder slagbomen",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A45": {
+  "bestand": "img/borden/A45.svg",
+  "naam_nl": "Overweg voor enkel spoor (Andreaskruis)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A47": {
+  "bestand": "img/borden/A47.svg",
+  "naam_nl": "Overweg voor twee of meer sporen (Andreaskruis)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A49": {
+  "bestand": "img/borden/A49.svg",
+  "naam_nl": "Kruising met tramsporen in de rijbaan",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "A51": {
+  "bestand": "img/borden/A51.svg",
+  "naam_nl": "Ander gevaar (onderbord duidt de aard aan)",
+  "categorie": "A",
+  "gecontroleerd": true
+ },
+ "B1": {
+  "bestand": "img/borden/B1.svg",
+  "naam_nl": "Voorrang verlenen",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B3": {
+  "bestand": "img/borden/B3.svg",
+  "naam_nl": "Aankondiging van B1: voorrang verlenen op aangeduide afstand",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B5": {
+  "bestand": "img/borden/B5.svg",
+  "naam_nl": "Stoppen en voorrang verlenen (STOP)",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B7": {
+  "bestand": "img/borden/B7.svg",
+  "naam_nl": "Aankondiging van B5: stop op aangeduide afstand",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B9": {
+  "bestand": "img/borden/B9.svg",
+  "naam_nl": "Voorrangsweg",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B11": {
+  "bestand": "img/borden/B11.svg",
+  "naam_nl": "Einde van voorrangsweg",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B13": {
+  "bestand": "img/borden/B13.svg",
+  "naam_nl": "Aankondiging van B11: einde voorrangsweg op aangeduide afstand",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B15": {
+  "bestand": "img/borden/B15.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt (symbool toont voorrangsweg)",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15a": {
+  "bestand": "img/borden/B15a.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant a",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15b": {
+  "bestand": "img/borden/B15b.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant b",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15c": {
+  "bestand": "img/borden/B15c.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant c",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15d": {
+  "bestand": "img/borden/B15d.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant d",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15e": {
+  "bestand": "img/borden/B15e.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant e",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15f": {
+  "bestand": "img/borden/B15f.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant f",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B15g": {
+  "bestand": "img/borden/B15g.svg",
+  "naam_nl": "Voorrangsbord bij kruispunt, variant g",
+  "categorie": "B",
+  "gecontroleerd": false
+ },
+ "B17": {
+  "bestand": "img/borden/B17.svg",
+  "naam_nl": "Kruispunt waar de voorrang van rechts geldt",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B19": {
+  "bestand": "img/borden/B19.svg",
+  "naam_nl": "Smalle doorgang: voorrang verlenen aan tegenliggers",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B21": {
+  "bestand": "img/borden/B21.svg",
+  "naam_nl": "Smalle doorgang: voorrang op tegenliggers",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B22": {
+  "bestand": "img/borden/B22.svg",
+  "naam_nl": "Fietsers mogen rood licht voorbijrijden om rechts af te slaan",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "B23": {
+  "bestand": "img/borden/B23.svg",
+  "naam_nl": "Fietsers mogen rood licht voorbijrijden om rechtdoor te rijden",
+  "categorie": "B",
+  "gecontroleerd": true
+ },
+ "C1": {
+  "bestand": "img/borden/C1.svg",
+  "naam_nl": "Verboden richting voor iedere bestuurder",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C3": {
+  "bestand": "img/borden/C3.svg",
+  "naam_nl": "Verboden toegang in beide richtingen voor ieder bestuurder",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C5": {
+  "bestand": "img/borden/C5.svg",
+  "naam_nl": "Verboden toegang voor motorvoertuigen met meer dan twee wielen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C6": {
+  "bestand": "img/borden/C6.svg",
+  "naam_nl": "Verboden toegang voor vierwielige terreinvoertuigen (quads)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C7": {
+  "bestand": "img/borden/C7.svg",
+  "naam_nl": "Verboden toegang voor motorfietsen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C9": {
+  "bestand": "img/borden/C9.svg",
+  "naam_nl": "Verboden toegang voor bromfietsen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C11": {
+  "bestand": "img/borden/C11.svg",
+  "naam_nl": "Verboden toegang voor fietsers",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C13": {
+  "bestand": "img/borden/C13.svg",
+  "naam_nl": "Verboden toegang voor bestuurders van gespannen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C15": {
+  "bestand": "img/borden/C15.svg",
+  "naam_nl": "Verboden toegang voor ruiters",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C17": {
+  "bestand": "img/borden/C17.svg",
+  "naam_nl": "Verboden toegang voor handkarren",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C19": {
+  "bestand": "img/borden/C19.svg",
+  "naam_nl": "Verboden toegang voor voetgangers",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C21_3": {
+  "bestand": "img/borden/C21_3.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met massa boven 3 ton",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C21_5": {
+  "bestand": "img/borden/C21_5.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met massa boven 5 ton",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C21_7": {
+  "bestand": "img/borden/C21_7.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met massa boven 7 ton",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C22": {
+  "bestand": "img/borden/C22.svg",
+  "naam_nl": "Verboden toegang voor autocars",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C23": {
+  "bestand": "img/borden/C23.svg",
+  "naam_nl": "Verboden toegang voor voertuigen voor het vervoer van zaken (vrachtwagens)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C24a": {
+  "bestand": "img/borden/C24a.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met gevaarlijke goederen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C24b": {
+  "bestand": "img/borden/C24b.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met ontvlambare of ontplofbare stoffen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C24c": {
+  "bestand": "img/borden/C24c.svg",
+  "naam_nl": "Verboden toegang voor voertuigen met verontreinigende stoffen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C25": {
+  "bestand": "img/borden/C25.svg",
+  "naam_nl": "Verboden toegang voor voertuigen langer dan aangeduid",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C27": {
+  "bestand": "img/borden/C27.svg",
+  "naam_nl": "Verboden toegang voor voertuigen breder dan aangeduid",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C29": {
+  "bestand": "img/borden/C29.svg",
+  "naam_nl": "Verboden toegang voor voertuigen hoger dan aangeduid",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C31a": {
+  "bestand": "img/borden/C31a.svg",
+  "naam_nl": "Verbod links af te slaan aan het volgende kruispunt",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C31b": {
+  "bestand": "img/borden/C31b.svg",
+  "naam_nl": "Verbod rechts af te slaan aan het volgende kruispunt",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C33": {
+  "bestand": "img/borden/C33.svg",
+  "naam_nl": "Verbod te keren tot het volgende kruispunt",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C35": {
+  "bestand": "img/borden/C35.svg",
+  "naam_nl": "Verbod links in te halen met voertuig met meer dan twee wielen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C37": {
+  "bestand": "img/borden/C37.svg",
+  "naam_nl": "Einde van het inhaalverbod (C35)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C39": {
+  "bestand": "img/borden/C39.svg",
+  "naam_nl": "Inhaalverbod voor vrachtwagens (meer dan 3500 kg)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C41": {
+  "bestand": "img/borden/C41.svg",
+  "naam_nl": "Einde van het inhaalverbod voor vrachtwagens (C39)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_20": {
+  "bestand": "img/borden/C43_20.svg",
+  "naam_nl": "Maximumsnelheid 20 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_30": {
+  "bestand": "img/borden/C43_30.svg",
+  "naam_nl": "Maximumsnelheid 30 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_50": {
+  "bestand": "img/borden/C43_50.svg",
+  "naam_nl": "Maximumsnelheid 50 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_60": {
+  "bestand": "img/borden/C43_60.svg",
+  "naam_nl": "Maximumsnelheid 60 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_70": {
+  "bestand": "img/borden/C43_70.svg",
+  "naam_nl": "Maximumsnelheid 70 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_80": {
+  "bestand": "img/borden/C43_80.svg",
+  "naam_nl": "Maximumsnelheid 80 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_90": {
+  "bestand": "img/borden/C43_90.svg",
+  "naam_nl": "Maximumsnelheid 90 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_100": {
+  "bestand": "img/borden/C43_100.svg",
+  "naam_nl": "Maximumsnelheid 100 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_110": {
+  "bestand": "img/borden/C43_110.svg",
+  "naam_nl": "Maximumsnelheid 110 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C43_120": {
+  "bestand": "img/borden/C43_120.svg",
+  "naam_nl": "Maximumsnelheid 120 km/u",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C45_50": {
+  "bestand": "img/borden/C45_50.svg",
+  "naam_nl": "Einde van de snelheidsbeperking (C43)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C46": {
+  "bestand": "img/borden/C46.svg",
+  "naam_nl": "Einde van alle plaatselijke verbodsbepalingen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C47": {
+  "bestand": "img/borden/C47.svg",
+  "naam_nl": "Tolpost: verbod voorbij te rijden zonder te stoppen",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C48": {
+  "bestand": "img/borden/C48.svg",
+  "naam_nl": "Verbod de cruise control te gebruiken",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "C49": {
+  "bestand": "img/borden/C49.svg",
+  "naam_nl": "Einde van het verbod op cruise control (C48)",
+  "categorie": "C",
+  "gecontroleerd": true
+ },
+ "D1a": {
+  "bestand": "img/borden/D1a.svg",
+  "naam_nl": "Verplichte rijrichting: rechtdoor",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D1b_links": {
+  "bestand": "img/borden/D1b_links.svg",
+  "naam_nl": "Verplichte rijrichting: links",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D1b_rechts": {
+  "bestand": "img/borden/D1b_rechts.svg",
+  "naam_nl": "Verplichte rijrichting: rechts",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D1c": {
+  "bestand": "img/borden/D1c.svg",
+  "naam_nl": "Hindernis links voorbijrijden",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D1d": {
+  "bestand": "img/borden/D1d.svg",
+  "naam_nl": "Hindernis rechts voorbijrijden",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D1e": {
+  "bestand": "img/borden/D1e.svg",
+  "naam_nl": "Verplichte rijrichting: links afslaan",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D1f": {
+  "bestand": "img/borden/D1f.svg",
+  "naam_nl": "Verplichte rijrichting: rechts afslaan",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D3a": {
+  "bestand": "img/borden/D3a.svg",
+  "naam_nl": "Verplicht rechtdoor of links",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D3b": {
+  "bestand": "img/borden/D3b.svg",
+  "naam_nl": "Verplicht rechtdoor of rechts",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D4_links": {
+  "bestand": "img/borden/D4_links.svg",
+  "naam_nl": "Gevaarlijke goederen: verplicht links",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D4_rechtdoor": {
+  "bestand": "img/borden/D4_rechtdoor.svg",
+  "naam_nl": "Gevaarlijke goederen: verplicht rechtdoor",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D4_rechts": {
+  "bestand": "img/borden/D4_rechts.svg",
+  "naam_nl": "Gevaarlijke goederen: verplicht rechts",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D5": {
+  "bestand": "img/borden/D5.svg",
+  "naam_nl": "Verplicht rondgaand verkeer (rotonde)",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D6": {
+  "bestand": "img/borden/D6.svg",
+  "naam_nl": "Einde van verplicht rondgaand verkeer",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D7": {
+  "bestand": "img/borden/D7.svg",
+  "naam_nl": "Verplicht fietspad",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D9": {
+  "bestand": "img/borden/D9.svg",
+  "naam_nl": "Gemeenschappelijk pad voor fietsers en voetgangers (verplicht)",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D9a": {
+  "bestand": "img/borden/D9a.svg",
+  "naam_nl": "Pad voor voetgangers en fietsers, fietsers links (verplicht)",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D9b": {
+  "bestand": "img/borden/D9b.svg",
+  "naam_nl": "Pad voor voetgangers en fietsers, fietsers rechts (verplicht)",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D10": {
+  "bestand": "img/borden/D10.svg",
+  "naam_nl": "Voetgangers en fietsers (verplicht gedeeld pad)",
+  "categorie": "D",
+  "gecontroleerd": false
+ },
+ "D11": {
+  "bestand": "img/borden/D11.svg",
+  "naam_nl": "Verplichte weg voor voetgangers",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "D13": {
+  "bestand": "img/borden/D13.svg",
+  "naam_nl": "Verplichte weg voor ruiters",
+  "categorie": "D",
+  "gecontroleerd": true
+ },
+ "E1": {
+  "bestand": "img/borden/E1.svg",
+  "naam_nl": "Parkeerverbod",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E3": {
+  "bestand": "img/borden/E3.svg",
+  "naam_nl": "Stilstaan en parkeren verboden",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E5": {
+  "bestand": "img/borden/E5.svg",
+  "naam_nl": "Parkeerverbod van de 1e tot de 15e van de maand",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E7": {
+  "bestand": "img/borden/E7.svg",
+  "naam_nl": "Parkeerverbod van de 16e tot het einde van de maand",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9": {
+  "bestand": "img/borden/E9.svg",
+  "naam_nl": "Parkeren toegelaten",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9a_Handicap": {
+  "bestand": "img/borden/E9a_Handicap.svg",
+  "naam_nl": "Parkeerplaats voorbehouden voor personen met een handicap",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9a_Parkeerschijf": {
+  "bestand": "img/borden/E9a_Parkeerschijf.svg",
+  "naam_nl": "Parkeerplaats met parkeerschijf",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9a": {
+  "bestand": "img/borden/E9a.svg",
+  "naam_nl": "Voorbehouden parkeerplaats (onderbord duidt voor wie)",
+  "categorie": "E",
+  "gecontroleerd": false
+ },
+ "E9b": {
+  "bestand": "img/borden/E9b.svg",
+  "naam_nl": "Parkeren uitsluitend voor personenauto's en motorfietsen",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9c": {
+  "bestand": "img/borden/E9c.svg",
+  "naam_nl": "Parkeren uitsluitend voor vrachtwagens",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9d": {
+  "bestand": "img/borden/E9d.svg",
+  "naam_nl": "Parkeren uitsluitend voor autocars",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9e": {
+  "bestand": "img/borden/E9e.svg",
+  "naam_nl": "Verplicht parkeren op de berm of het trottoir",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9f": {
+  "bestand": "img/borden/E9f.svg",
+  "naam_nl": "Verplicht parkeren deels op de berm of het trottoir",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9g": {
+  "bestand": "img/borden/E9g.svg",
+  "naam_nl": "Verplicht parkeren op de rijbaan",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9h": {
+  "bestand": "img/borden/E9h.svg",
+  "naam_nl": "Parkeren uitsluitend voor kampeerauto's",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9i": {
+  "bestand": "img/borden/E9i.svg",
+  "naam_nl": "Parkeren uitsluitend voor motorfietsen",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E9j": {
+  "bestand": "img/borden/E9j.svg",
+  "naam_nl": "Parkeren in bepaalde tijdsperioden voorbehouden voor specifieke voertuigen",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "E11": {
+  "bestand": "img/borden/E11.svg",
+  "naam_nl": "Halfmaandelijks parkeren in de hele bebouwde kom",
+  "categorie": "E",
+  "gecontroleerd": true
+ },
+ "F1": {
+  "bestand": "img/borden/F1.svg",
+  "naam_nl": "Begin van de bebouwde kom (oud model)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F1a_horizontaal": {
+  "bestand": "img/borden/F1a_horizontaal.svg",
+  "naam_nl": "Begin van de bebouwde kom (liggend)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F1a_verticaal": {
+  "bestand": "img/borden/F1a_verticaal.svg",
+  "naam_nl": "Begin van de bebouwde kom (staand)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F1b_horizontaal": {
+  "bestand": "img/borden/F1b_horizontaal.svg",
+  "naam_nl": "Begin van de bebouwde kom (liggend, zonder naam)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F1b_verticaal": {
+  "bestand": "img/borden/F1b_verticaal.svg",
+  "naam_nl": "Begin van de bebouwde kom (staand, zonder naam)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F3": {
+  "bestand": "img/borden/F3.svg",
+  "naam_nl": "Einde van de bebouwde kom (oud model)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F3a_horizontaal": {
+  "bestand": "img/borden/F3a_horizontaal.svg",
+  "naam_nl": "Einde van de bebouwde kom (liggend)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F3a_verticaal": {
+  "bestand": "img/borden/F3a_verticaal.svg",
+  "naam_nl": "Einde van de bebouwde kom (staand)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F3b_horizontaal": {
+  "bestand": "img/borden/F3b_horizontaal.svg",
+  "naam_nl": "Einde van de bebouwde kom (liggend, zonder naam)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F3b_verticaal": {
+  "bestand": "img/borden/F3b_verticaal.svg",
+  "naam_nl": "Einde van de bebouwde kom (staand, zonder naam)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F4a": {
+  "bestand": "img/borden/F4a.svg",
+  "naam_nl": "Begin van een zone 30",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F4b": {
+  "bestand": "img/borden/F4b.svg",
+  "naam_nl": "Einde van een zone 30",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F5": {
+  "bestand": "img/borden/F5.svg",
+  "naam_nl": "Begin van een autosnelweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F7": {
+  "bestand": "img/borden/F7.svg",
+  "naam_nl": "Einde van een autosnelweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F8": {
+  "bestand": "img/borden/F8.svg",
+  "naam_nl": "Tunnel",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F9": {
+  "bestand": "img/borden/F9.svg",
+  "naam_nl": "Autoweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F11": {
+  "bestand": "img/borden/F11.svg",
+  "naam_nl": "Einde van een autoweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F12a": {
+  "bestand": "img/borden/F12a.svg",
+  "naam_nl": "Begin van een woonerf of erf",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F12b": {
+  "bestand": "img/borden/F12b.svg",
+  "naam_nl": "Einde van een woonerf of erf",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F13": {
+  "bestand": "img/borden/F13.svg",
+  "naam_nl": "Aankondiging pijlen op de rijbaan (keuze van rijstrook)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F14": {
+  "bestand": "img/borden/F14.svg",
+  "naam_nl": "Opstelvak voor fietsers en tweewielige bromfietsen",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F15": {
+  "bestand": "img/borden/F15.svg",
+  "naam_nl": "Aankondiging keuze van richting",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F17": {
+  "bestand": "img/borden/F17.svg",
+  "naam_nl": "Busstrook",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F18": {
+  "bestand": "img/borden/F18.svg",
+  "naam_nl": "Bijzondere overrijdbare bedding",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F19": {
+  "bestand": "img/borden/F19.svg",
+  "naam_nl": "Openbare weg met eenrichtingsverkeer",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F21": {
+  "bestand": "img/borden/F21.svg",
+  "naam_nl": "Rechts of links voorbijrijden toegelaten",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F23a": {
+  "bestand": "img/borden/F23a.svg",
+  "naam_nl": "Nummerbord van een gewone weg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F23b": {
+  "bestand": "img/borden/F23b.svg",
+  "naam_nl": "Nummerbord van een autosnelweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F23c": {
+  "bestand": "img/borden/F23c.svg",
+  "naam_nl": "Nummerbord van een internationale weg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F23d": {
+  "bestand": "img/borden/F23d.svg",
+  "naam_nl": "Nummerbord van een ringweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F25": {
+  "bestand": "img/borden/F25.svg",
+  "naam_nl": "Voorwegwijzer",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F27": {
+  "bestand": "img/borden/F27.svg",
+  "naam_nl": "Voorwegwijzer",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F29": {
+  "bestand": "img/borden/F29.svg",
+  "naam_nl": "Wegwijzer",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F31": {
+  "bestand": "img/borden/F31.svg",
+  "naam_nl": "Wegwijzer naar een autosnelweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F33a": {
+  "bestand": "img/borden/F33a.svg",
+  "naam_nl": "Wegwijzer naar een ringweg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F33b": {
+  "bestand": "img/borden/F33b.svg",
+  "naam_nl": "Wegwijzer naar vallei of waterloop",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F33c": {
+  "bestand": "img/borden/F33c.svg",
+  "naam_nl": "Wegwijzer naar toeristische attracties of sportcentra",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F34a": {
+  "bestand": "img/borden/F34a.svg",
+  "naam_nl": "Wegwijzer naar etablissementen van openbaar nut",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F34b1": {
+  "bestand": "img/borden/F34b1.svg",
+  "naam_nl": "Wegwijzer voor bepaalde weggebruikers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F34c1": {
+  "bestand": "img/borden/F34c1.svg",
+  "naam_nl": "Wegwijzer voor bepaalde weggebruikers naar toeristische attracties",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F35": {
+  "bestand": "img/borden/F35.svg",
+  "naam_nl": "Wegwijzer naar toeristische attracties of sportcentra",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F37": {
+  "bestand": "img/borden/F37.svg",
+  "naam_nl": "Wegwijzer naar hotels, motels, restaurants",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F39": {
+  "bestand": "img/borden/F39.svg",
+  "naam_nl": "Voorwegwijzer wegomlegging",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F41": {
+  "bestand": "img/borden/F41.svg",
+  "naam_nl": "Wegomlegging",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F43": {
+  "bestand": "img/borden/F43.svg",
+  "naam_nl": "Plaatsnaambord",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F45": {
+  "bestand": "img/borden/F45.svg",
+  "naam_nl": "Doodlopende weg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F45b": {
+  "bestand": "img/borden/F45b.svg",
+  "naam_nl": "Doodlopende weg, uitgezonderd voetgangers en fietsers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F46": {
+  "bestand": "img/borden/F46.svg",
+  "naam_nl": "Einde doodlopende weg",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F47": {
+  "bestand": "img/borden/F47.svg",
+  "naam_nl": "Einde van de werken",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F49": {
+  "bestand": "img/borden/F49.svg",
+  "naam_nl": "Oversteekplaats voor voetgangers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F50": {
+  "bestand": "img/borden/F50.svg",
+  "naam_nl": "Oversteekplaats voor fietsers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F51": {
+  "bestand": "img/borden/F51.svg",
+  "naam_nl": "Ondergrondse of bovengrondse oversteekplaats voor voetgangers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F52": {
+  "bestand": "img/borden/F52.svg",
+  "naam_nl": "Nooduitgang",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F53": {
+  "bestand": "img/borden/F53.svg",
+  "naam_nl": "Verplegingsinrichting",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F55": {
+  "bestand": "img/borden/F55.svg",
+  "naam_nl": "Hulppost",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F56": {
+  "bestand": "img/borden/F56.svg",
+  "naam_nl": "Brandblusapparaat",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F57": {
+  "bestand": "img/borden/F57.svg",
+  "naam_nl": "Waterloop",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F59": {
+  "bestand": "img/borden/F59.svg",
+  "naam_nl": "Aankondiging van een parking",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F60": {
+  "bestand": "img/borden/F60.svg",
+  "naam_nl": "Aankondiging van een overdekte parking",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F61": {
+  "bestand": "img/borden/F61.svg",
+  "naam_nl": "Telefoon",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F62": {
+  "bestand": "img/borden/F62.svg",
+  "naam_nl": "Noodtelefoon",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F63_CNG": {
+  "bestand": "img/borden/F63_CNG.svg",
+  "naam_nl": "Tankstation (CNG)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F63_Elektrisch": {
+  "bestand": "img/borden/F63_Elektrisch.svg",
+  "naam_nl": "Laadpunt elektrische voertuigen",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F63_H2": {
+  "bestand": "img/borden/F63_H2.svg",
+  "naam_nl": "Tankstation (waterstof)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F63_LNG": {
+  "bestand": "img/borden/F63_LNG.svg",
+  "naam_nl": "Tankstation (LNG)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F63_LPG": {
+  "bestand": "img/borden/F63_LPG.svg",
+  "naam_nl": "Tankstation (LPG)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F63": {
+  "bestand": "img/borden/F63.svg",
+  "naam_nl": "Tankstation",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F65": {
+  "bestand": "img/borden/F65.svg",
+  "naam_nl": "Hotel of motel",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F67": {
+  "bestand": "img/borden/F67.svg",
+  "naam_nl": "Restaurant",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F69": {
+  "bestand": "img/borden/F69.svg",
+  "naam_nl": "Drankgelegenheid",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F71": {
+  "bestand": "img/borden/F71.svg",
+  "naam_nl": "Kampeerterrein",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F73": {
+  "bestand": "img/borden/F73.svg",
+  "naam_nl": "Caravanterrein",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F75": {
+  "bestand": "img/borden/F75.svg",
+  "naam_nl": "Jeugdherberg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F77": {
+  "bestand": "img/borden/F77.svg",
+  "naam_nl": "Trefpunt toeristische informatie",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F79": {
+  "bestand": "img/borden/F79.svg",
+  "naam_nl": "Aankondiging vermindering van rijstroken",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F81": {
+  "bestand": "img/borden/F81.svg",
+  "naam_nl": "Aankondiging uitwijking van rijstroken",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F83": {
+  "bestand": "img/borden/F83.svg",
+  "naam_nl": "Doorsteek middenberm",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F85": {
+  "bestand": "img/borden/F85.svg",
+  "naam_nl": "Verkeer toegelaten in beide richtingen op deel met eenrichtingsverkeer",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F87": {
+  "bestand": "img/borden/F87.svg",
+  "naam_nl": "Verhoogde inrichting(en)",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F89": {
+  "bestand": "img/borden/F89.svg",
+  "naam_nl": "Aankondiging snelheidsbeperking per rijstrook",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F91": {
+  "bestand": "img/borden/F91.svg",
+  "naam_nl": "Snelheidsbeperking per rijstrook",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F93": {
+  "bestand": "img/borden/F93.svg",
+  "naam_nl": "Radio verkeersinformatie",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F95": {
+  "bestand": "img/borden/F95.svg",
+  "naam_nl": "Noodstopstrook",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F97": {
+  "bestand": "img/borden/F97.svg",
+  "naam_nl": "Versmalling van de weg",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F98": {
+  "bestand": "img/borden/F98.svg",
+  "naam_nl": "Vluchthaven",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F99a": {
+  "bestand": "img/borden/F99a.svg",
+  "naam_nl": "Voorbehouden voor voetgangers, fietsers en ruiters",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F99b": {
+  "bestand": "img/borden/F99b.svg",
+  "naam_nl": "Voorbehouden voor voetgangers en fietsers",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F99c": {
+  "bestand": "img/borden/F99c.svg",
+  "naam_nl": "Voorbehouden voor landbouwvoertuigen, voetgangers, fietsers en ruiters",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F101a": {
+  "bestand": "img/borden/F101a.svg",
+  "naam_nl": "Einde van F99a",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F101b": {
+  "bestand": "img/borden/F101b.svg",
+  "naam_nl": "Einde van F99b",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F101c": {
+  "bestand": "img/borden/F101c.svg",
+  "naam_nl": "Einde van F99c",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F103": {
+  "bestand": "img/borden/F103.svg",
+  "naam_nl": "Begin van een voetgangerszone",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F105": {
+  "bestand": "img/borden/F105.svg",
+  "naam_nl": "Einde van een voetgangerszone",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F107": {
+  "bestand": "img/borden/F107.svg",
+  "naam_nl": "Inhaaltoelating (afgeschaft sinds 2019)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F109": {
+  "bestand": "img/borden/F109.svg",
+  "naam_nl": "Einde inhaaltoelating (afgeschaft sinds 2019)",
+  "categorie": "F",
+  "gecontroleerd": false
+ },
+ "F111": {
+  "bestand": "img/borden/F111.svg",
+  "naam_nl": "Begin van een fietsstraat",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F113": {
+  "bestand": "img/borden/F113.svg",
+  "naam_nl": "Einde van een fietsstraat",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F117": {
+  "bestand": "img/borden/F117.svg",
+  "naam_nl": "Begin van een lage-emissiezone",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F118": {
+  "bestand": "img/borden/F118.svg",
+  "naam_nl": "Einde van een lage-emissiezone",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F119": {
+  "bestand": "img/borden/F119.svg",
+  "naam_nl": "Begin van een luchthavengebied",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "F120": {
+  "bestand": "img/borden/F120.svg",
+  "naam_nl": "Einde van een luchthavengebied",
+  "categorie": "F",
+  "gecontroleerd": true
+ },
+ "GIa_150": {
+  "bestand": "img/borden/GIa_150.svg",
+  "naam_nl": "Aanvullend paneel GIa: 150",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIb_150": {
+  "bestand": "img/borden/GIb_150.svg",
+  "naam_nl": "Aanvullend paneel GIb: 150",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GII_10": {
+  "bestand": "img/borden/GII_10.svg",
+  "naam_nl": "Aanvullend paneel GII: 10",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Aquaplaning": {
+  "bestand": "img/borden/GIII_Aquaplaning.svg",
+  "naam_nl": "Aanvullend paneel GIII: Aquaplaning",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Bij_nat_wegdek": {
+  "bestand": "img/borden/GIII_Bij_nat_wegdek.svg",
+  "naam_nl": "Aanvullend paneel GIII: Bij nat wegdek",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Fabriek": {
+  "bestand": "img/borden/GIII_Fabriek.svg",
+  "naam_nl": "Aanvullend paneel GIII: Fabriek",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_file_mogelijk": {
+  "bestand": "img/borden/GIII_file_mogelijk.svg",
+  "naam_nl": "Aanvullend paneel GIII: File mogelijk",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Ijzel": {
+  "bestand": "img/borden/GIII_Ijzel.svg",
+  "naam_nl": "Aanvullend paneel GIII: Ijzel",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Langsgroeven": {
+  "bestand": "img/borden/GIII_Langsgroeven.svg",
+  "naam_nl": "Aanvullend paneel GIII: Langsgroeven",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Mist": {
+  "bestand": "img/borden/GIII_Mist.svg",
+  "naam_nl": "Aanvullend paneel GIII: Mist",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Rue_scolaire": {
+  "bestand": "img/borden/GIII_Rue_scolaire.svg",
+  "naam_nl": "Aanvullend paneel GIII: Rue scolaire",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Schoolstraat": {
+  "bestand": "img/borden/GIII_Schoolstraat.svg",
+  "naam_nl": "Aanvullend paneel GIII: Schoolstraat",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Spoorvorming": {
+  "bestand": "img/borden/GIII_Spoorvorming.svg",
+  "naam_nl": "Aanvullend paneel GIII: Spoorvorming",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Steengroeve": {
+  "bestand": "img/borden/GIII_Steengroeve.svg",
+  "naam_nl": "Aanvullend paneel GIII: Steengroeve",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Uitrit_vrachtwagens": {
+  "bestand": "img/borden/GIII_Uitrit_vrachtwagens.svg",
+  "naam_nl": "Aanvullend paneel GIII: Uitrit vrachtwagens",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Vervormd_wegdek": {
+  "bestand": "img/borden/GIII_Vervormd_wegdek.svg",
+  "naam_nl": "Aanvullend paneel GIII: Vervormd wegdek",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIII_Zachte_berm": {
+  "bestand": "img/borden/GIII_Zachte_berm.svg",
+  "naam_nl": "Aanvullend paneel GIII: Zachte berm",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_-5t": {
+  "bestand": "img/borden/GIV_Uitgezonderd_-5t.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd -5t",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_2+": {
+  "bestand": "img/borden/GIV_Uitgezonderd_2+.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd 2+",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_uitgezonderd_bus_taxi_gemeentelijke_afvalophaling_en_prioritaire_voertuigen": {
+  "bestand": "img/borden/GIV_uitgezonderd_bus_taxi_gemeentelijke_afvalophaling_en_prioritaire_voertuigen.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd bus taxi gemeentelijke afvalophaling en prioritaire voertuigen",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_bus": {
+  "bestand": "img/borden/GIV_Uitgezonderd_bus.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd bus",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_fietsers": {
+  "bestand": "img/borden/GIV_Uitgezonderd_fietsers.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd fietsers",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_plaatselijk_verkeer": {
+  "bestand": "img/borden/GIV_Uitgezonderd_plaatselijk_verkeer.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd plaatselijk verkeer",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIV_Uitgezonderd_vergunninghouders_en_leveranciers": {
+  "bestand": "img/borden/GIV_Uitgezonderd_vergunninghouders_en_leveranciers.svg",
+  "naam_nl": "Aanvullend paneel GIV: Uitgezonderd vergunninghouders en leveranciers",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIX_3-2": {
+  "bestand": "img/borden/GIX_3-2.svg",
+  "naam_nl": "Aanvullend paneel GIX: 3-2",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GIX": {
+  "bestand": "img/borden/GIX.svg",
+  "naam_nl": "Aanvullend paneel GIX",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GV_Van_7_tot_19u": {
+  "bestand": "img/borden/GV_Van_7_tot_19u.svg",
+  "naam_nl": "Aanvullend paneel GV: Van 7 tot 19u",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GV_Van_maandag_tot_vrijdag": {
+  "bestand": "img/borden/GV_Van_maandag_tot_vrijdag.svg",
+  "naam_nl": "Aanvullend paneel GV: Van maandag tot vrijdag",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVI": {
+  "bestand": "img/borden/GVI.svg",
+  "naam_nl": "Aanvullend paneel GVI",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIa_+2t": {
+  "bestand": "img/borden/GVIIa_+2t.svg",
+  "naam_nl": "Aanvullend paneel GVIIa: +2t",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIa_3t": {
+  "bestand": "img/borden/GVIIa_3t.svg",
+  "naam_nl": "Aanvullend paneel GVIIa: 3t",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIa_5t": {
+  "bestand": "img/borden/GVIIa_5t.svg",
+  "naam_nl": "Aanvullend paneel GVIIa: 5t",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIa_7t": {
+  "bestand": "img/borden/GVIIa_7t.svg",
+  "naam_nl": "Aanvullend paneel GVIIa: 7t",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIb": {
+  "bestand": "img/borden/GVIIb.svg",
+  "naam_nl": "Aanvullend paneel GVIIb",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIIc_30min": {
+  "bestand": "img/borden/GVIIc_30min.svg",
+  "naam_nl": "Aanvullend paneel GVIIc: 30min",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_5t_max": {
+  "bestand": "img/borden/GVIId_5t_max.svg",
+  "naam_nl": "Aanvullend paneel GVIId: 5t max",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_Carpool": {
+  "bestand": "img/borden/GVIId_Carpool.svg",
+  "naam_nl": "Aanvullend paneel GVIId: Carpool",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_Elektrische_personenwagens": {
+  "bestand": "img/borden/GVIId_Elektrische_personenwagens.svg",
+  "naam_nl": "Aanvullend paneel GVIId: Elektrische personenwagens",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_Elektrische_wagens": {
+  "bestand": "img/borden/GVIId_Elektrische_wagens.svg",
+  "naam_nl": "Aanvullend paneel GVIId: Elektrische wagens",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_Handicap": {
+  "bestand": "img/borden/GVIId_Handicap.svg",
+  "naam_nl": "Aanvullend paneel GVIId: Handicap",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_P+R": {
+  "bestand": "img/borden/GVIId_P+R.svg",
+  "naam_nl": "Aanvullend paneel GVIId: P+R",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIId_Taxis": {
+  "bestand": "img/borden/GVIId_Taxis.svg",
+  "naam_nl": "Aanvullend paneel GVIId: Taxis",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GVIII": {
+  "bestand": "img/borden/GVIII.svg",
+  "naam_nl": "Aanvullend paneel GVIII",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXa": {
+  "bestand": "img/borden/GXa.svg",
+  "naam_nl": "Aanvullend paneel GXa",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXb": {
+  "bestand": "img/borden/GXb.svg",
+  "naam_nl": "Aanvullend paneel GXb",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXc": {
+  "bestand": "img/borden/GXc.svg",
+  "naam_nl": "Aanvullend paneel GXc",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXd": {
+  "bestand": "img/borden/GXd.svg",
+  "naam_nl": "Aanvullend paneel GXd",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXI": {
+  "bestand": "img/borden/GXI.svg",
+  "naam_nl": "Aanvullend paneel GXI",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXII_B": {
+  "bestand": "img/borden/GXII_B.svg",
+  "naam_nl": "Aanvullend paneel GXII: B",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXII_C": {
+  "bestand": "img/borden/GXII_C.svg",
+  "naam_nl": "Aanvullend paneel GXII: C",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXII_D": {
+  "bestand": "img/borden/GXII_D.svg",
+  "naam_nl": "Aanvullend paneel GXII: D",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "GXII_E": {
+  "bestand": "img/borden/GXII_E.svg",
+  "naam_nl": "Aanvullend paneel GXII: E",
+  "categorie": "G",
+  "gecontroleerd": false
+ },
+ "M1": {
+  "bestand": "img/borden/M1.svg",
+  "naam_nl": "Onderbord: enkel fietsers",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M2": {
+  "bestand": "img/borden/M2.svg",
+  "naam_nl": "Onderbord: uitgezonderd fietsers",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M3": {
+  "bestand": "img/borden/M3.svg",
+  "naam_nl": "Onderbord: uitgezonderd fietsers en bromfietsen klasse A",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M4": {
+  "bestand": "img/borden/M4.svg",
+  "naam_nl": "Onderbord: fietsers in twee richtingen",
+  "categorie": "M",
+  "gecontroleerd": false
+ },
+ "M5": {
+  "bestand": "img/borden/M5.svg",
+  "naam_nl": "Onderbord: fietsers en bromfietsen klasse A in twee richtingen",
+  "categorie": "M",
+  "gecontroleerd": false
+ },
+ "M6": {
+  "bestand": "img/borden/M6.svg",
+  "naam_nl": "Onderbord: bromfietsen klasse B verplicht op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M7": {
+  "bestand": "img/borden/M7.svg",
+  "naam_nl": "Onderbord: bromfietsen klasse B verboden op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M8": {
+  "bestand": "img/borden/M8.svg",
+  "naam_nl": "Onderbord: fietsers en tweewielige bromfietsen",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M9": {
+  "bestand": "img/borden/M9.svg",
+  "naam_nl": "Onderbord: fietsers in beide richtingen op de dwarsweg",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M10": {
+  "bestand": "img/borden/M10.svg",
+  "naam_nl": "Onderbord: fietsers en bromfietsen in beide richtingen op de dwarsweg",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M11": {
+  "bestand": "img/borden/M11.svg",
+  "naam_nl": "Onderbord: uitgezonderd fietsers en speedpedelecs",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M12": {
+  "bestand": "img/borden/M12.svg",
+  "naam_nl": "Onderbord: uitgezonderd fietsers, bromfietsen klasse A en speedpedelecs",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M13": {
+  "bestand": "img/borden/M13.svg",
+  "naam_nl": "Onderbord: speedpedelecs verplicht op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M14": {
+  "bestand": "img/borden/M14.svg",
+  "naam_nl": "Onderbord: bromfietsen klasse B en speedpedelecs verplicht op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M15": {
+  "bestand": "img/borden/M15.svg",
+  "naam_nl": "Onderbord: speedpedelecs verboden op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M16": {
+  "bestand": "img/borden/M16.svg",
+  "naam_nl": "Onderbord: bromfietsen klasse B en speedpedelecs verboden op het fietspad",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M17": {
+  "bestand": "img/borden/M17.svg",
+  "naam_nl": "Onderbord: speedpedelecs in twee richtingen",
+  "categorie": "M",
+  "gecontroleerd": false
+ },
+ "M18": {
+  "bestand": "img/borden/M18.svg",
+  "naam_nl": "Onderbord: bromfietsen klasse A en speedpedelecs in twee richtingen",
+  "categorie": "M",
+  "gecontroleerd": false
+ },
+ "M19": {
+  "bestand": "img/borden/M19.svg",
+  "naam_nl": "Onderbord: parkeren voorbehouden voor speedpedelecs",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M20": {
+  "bestand": "img/borden/M20.svg",
+  "naam_nl": "Onderbord: parkeren voor fietsen en speedpedelecs",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M21": {
+  "bestand": "img/borden/M21.svg",
+  "naam_nl": "Onderbord: parkeren voor voortbewegingstoestellen (steps)",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M22": {
+  "bestand": "img/borden/M22.svg",
+  "naam_nl": "Onderbord: parkeren voor deelvoortbewegingstoestellen",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M23": {
+  "bestand": "img/borden/M23.svg",
+  "naam_nl": "Onderbord: parkeren voor deelfietsen",
+  "categorie": "M",
+  "gecontroleerd": true
+ },
+ "M24": {
+  "bestand": "img/borden/M24.svg",
+  "naam_nl": "Onderbord: parkeren voor deelfietsen en deelvoortbewegingstoestellen",
+  "categorie": "M",
+  "gecontroleerd": true
+ }
+}

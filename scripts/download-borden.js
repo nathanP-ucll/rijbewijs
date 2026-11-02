@@ -8,6 +8,9 @@ const ROOT = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
 const OUT = path.join(ROOT, 'site', 'img', 'borden');
 const API = 'https://commons.wikimedia.org/w/api.php';
 const UA = 'rijbewijs-cursus/1.0 (ntnthefirst@gmail.com; educatief project)';
+const EXCLUDE = new Set(['B0', 'B4', 'A15a', 'A50', 'E0a', 'E0b', 'E0c', 'E0d', 'D1 ld', 'D1 lo', 'D1 rb', 'D1 rd', 'D1 ro', 'D1 ru', 'D01 lb', 'D01 lu']);
+// Na visuele controle afgekeurd of dubbel/ongeschikt (nooit downloaden)
+const AFGEKEURD = new Set(['C21','C21_5_5','C24','C43','C45','C31d','C31g','D1b','D2a','D2b','D2c','D3','D4','F33','F51a','F51b','F52a','F52b','F59a','F59b','F34b2','F34c2','E0d']);
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
 
 async function api(params) {
@@ -32,14 +35,15 @@ async function listPrefix(prefix) {
   return out;
 }
 
-// bestandsnaam -> {code, prio}; lagere prio wint (2024-versie = actuele wetgeving)
+// bestandsnaam -> {code, prio}; lagere prio wint. Enkel het OUDE nummeringssysteem (KB 1975), dat geldig blijft tot 1 juni 2027.
+// De 'KB-AR 03-06-2024'-bestanden (nieuwe nummering) worden bewust overgeslagen.
 function parse(title) {
   const m = title.match(/^File:Belgian (traffic|road) sign (.+)\.svg$/);
   if (!m) return null;
   let rest = m[2];
-  let prio = m[1] === 'traffic' ? 2 : 3;
-  if (/ KB-AR 03-06-2024$/.test(rest)) { rest = rest.replace(/ KB-AR 03-06-2024$/, ''); prio = 1; }
-  else if (/KB ?-AR/.test(rest)) return null; // 03-04-2024 en andere varianten overslaan
+  let prio = m[1] === 'traffic' ? 1 : 2;
+  if (/KB ?-AR/.test(rest)) return null;
+  if (EXCLUDE.has(rest.replace(/^([A-Z])0(d)/, '$1$2'))) return null;
   if (/ \d\d$/.test(rest) && /^B1 /.test(rest)) return null; // B1 genummerde varianten
   rest = rest.replace(/^([A-Z])0(\d)/, '$1$2'); // D01a -> D1a
   // enkel eenvoudige codes en bekende numerieke varianten (snelheid/tonnage)
@@ -54,11 +58,6 @@ function parse(title) {
   else if ((mm = rest.match(/^(E9[a-j]) (Handicap|Parkeerschijf)$/))) code = mm[1] + '_' + mm[2];
   else if ((mm = rest.match(/^(F63) (CNG|Elektrisch|H2|LNG|LPG)$/))) code = mm[1] + '_' + mm[2];
   else if ((mm = rest.match(/^(F[13][ab]) (horizontaal|verticaal)$/))) code = mm[1] + '_' + mm[2];
-  else if ((mm = rest.match(/^(B22) (Li|Rd|Re|LiRd|LiRe|RdRe|LiRdRe)$/))) code = mm[1] + '_' + mm[2];
-  else if ((mm = rest.match(/^(C47) (NL|FR|DE)$/))) code = mm[1] + '_' + mm[2];
-  else if ((mm = rest.match(/^(C47) \(douane\)$/))) code = 'C47_douane';
-  else if ((mm = rest.match(/^(A27) (big game|livestock)$/))) code = mm[1] + '_' + mm[2].replace(' ', '_');
-  else if ((mm = rest.match(/^(A51) \+ (file|mist|zachte berm)$/))) code = mm[1] + '_' + mm[2].replace(' ', '_');
   if (!code) return null;
   return { code, prio };
 }
@@ -75,6 +74,7 @@ async function main() {
     if (!p) continue;
     if (!best[p.code] || p.prio < best[p.code].prio) best[p.code] = { title: t, prio: p.prio };
   }
+  for (const c of AFGEKEURD) delete best[c];
   const codes = Object.keys(best);
   console.log('kandidaten:', codes.length);
 
@@ -97,7 +97,8 @@ async function main() {
     if (!ii) { rejected.push([code, 'geen imageinfo']); continue; }
     const md = ii.extmetadata || {};
     const lic = strip(md.LicenseShortName?.value);
-    const auteur = strip(md.Artist?.value) || 'onbekend (zie bron)';
+    let auteur = strip(md.Artist?.value).replace(/Unknown authors*Unknown author/i, 'Unknown author');
+    if (!auteur || /^unknown author$/i.test(auteur)) auteur = 'Onbekende auteur (zie bron_url voor bestandsgeschiedenis)';
     if (!free(lic)) { rejected.push([code, 'licentie: ' + lic]); continue; }
     const file = code + '.svg';
     const dest = path.join(OUT, file);
@@ -111,7 +112,7 @@ async function main() {
         } else await sleep(2000 * (i + 1));
       }
       if (!ok) { rejected.push([code, 'download faalt']); continue; }
-      await sleep(350);
+      await sleep(200);
     }
     credits.push({ bestand: 'site/img/borden/' + file, bordcode: code, auteur, licentie: lic, bron_url: 'https://commons.wikimedia.org/wiki/' + encodeURI(t.replace(/ /g, '_')), opmerking: 'Commons-bestand: ' + t.replace(/^File:/, '') });
   }

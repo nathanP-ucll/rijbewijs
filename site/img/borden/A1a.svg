@@ -1,75 +1,16 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   version="1.1"
-   id="svg1"
-   width="400.38367"
-   height="350.66666"
-   viewBox="0 0 400.38367 350.66666"
-   sodipodi:docname="A1a.svg"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   inkscape:export-filename="A1a.png"
-   inkscape:export-xdpi="299.71252"
-   inkscape:export-ydpi="299.71252"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="2.0925"
-     inkscape:cx="200"
-     inkscape:cy="175.14934"
-     inkscape:window-width="1920"
-     inkscape:window-height="1017"
-     inkscape:window-x="-8"
-     inkscape:window-y="323"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g1">
-    <inkscape:page
-       x="0"
-       y="0"
-       inkscape:label="1"
-       id="page1"
-       width="400.38367"
-       height="350.66666"
-       margin="0"
-       bleed="0" />
-  </sodipodi:namedview>
-  <g
-     id="g1"
-     inkscape:groupmode="layer"
-     inkscape:label="1"
-     transform="translate(0.19166666,-24.666676)">
-    <path
-       id="path1"
-       d="M 2821.64,185 H 178.371 c -99.3554,0 -179.8085,80.449 -179.8085,179.809 0,31.64 8.26953,62.5 24.0898,89.902 L 1344.28,2725.1 c 32.91,57 89.9,89.9 155.71,89.9 65.83,0 122.82,-32.9 155.73,-89.9 L 2977.34,454.711 c 15.83,-27.402 24.1,-58.262 24.1,-89.902 0,-99.34 -80.47,-179.797 -179.8,-179.809 v 0"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path2"
-       d="m 2821.62,237.48 v -0.269 L 178.371,237.48 c -70.355,0 -127.328,56.981 -127.328,127.329 0,22.402 5.8554,44.261 17.0547,63.66 L 1389.73,2698.86 c 23.3,40.36 63.66,63.66 110.26,63.66 46.62,0 86.98,-23.3 110.28,-63.66 L 2931.9,428.469 c 11.2,-19.399 17.06,-41.258 17.06,-63.66 0,-70.348 -56.98,-127.329 -127.34,-127.329 v 0"
-       style="fill:#ed1d24;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path3"
-       d="M 398.23,486.699 H 2601.77 L 1499.99,2379.18 Z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path4"
-       d="m 1698.33,924.98 c 0,227.06 -163.02,421.36 -386.63,460.78 l -163.98,147.69 204.61,82.71 c 335.41,-59.15 579.95,-350.59 579.95,-691.18 V 623.84 L 1815.31,740.809 1698.33,623.84 v 301.14 0"
-       style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="28.51mm" height="25.02mm" fill-rule="evenodd" stroke-linejoin="round" stroke-width="28.222" preserveAspectRatio="xMidYMid" version="1.2" viewBox="4075 12500 2851 2502">
+  <g class="Page">
+    <g class="com.sun.star.drawing.PolyPolygonShape">
+      <path fill="none" d="M4075 12500h2851v2502H4075z" class="BoundingBox"/>
+      <path fill="red" d="m5393 12561-1302 2254-3 7-4 7-2 8-3 7-2 8-1 8-1 8v17l1 8 1 8 2 8 3 7 2 8 4 7 3 8 5 6 4 7 6 6 5 6 6 6 6 5 7 5 7 4 7 4 7 3 8 3 8 2 8 2 8 1 8 1 8 1h2602l8-1 8-1 8-1 8-2 8-2 8-3 7-3 7-4 7-4 7-5 6-5 6-6 5-6 6-6 4-7 5-6 3-8 4-7 2-8 3-7 2-8 1-8 1-8v-17l-1-8-1-8-2-8-3-7-2-8-4-7-3-7-1301-2254-4-6-5-7-5-6-6-6-6-6-6-5-7-5-6-4-8-4-7-3-8-3-7-2-8-2-8-1-8-1h-17l-8 1-8 1-8 2-7 2-8 3-7 3-8 4-6 4-7 5-6 5-6 6-6 6-5 6-5 7-4 6Z"/>
+    </g>
+    <g class="com.sun.star.drawing.PolyPolygonShape">
+      <path fill="none" d="M4509 12982h1983v1717H4509z" class="BoundingBox"/>
+      <path fill="#FFF" d="m6491 14698-990-1716-992 1716h1982Z"/>
+    </g>
+    <g class="com.sun.star.drawing.PolyPolygonShape">
+      <path fill="none" d="M5216 13744h722v820h-722z" class="BoundingBox"/>
+      <path d="M5936 14429v-28l-2-27-3-27-3-27-6-29-6-26-7-27-8-26-9-26-11-25-11-25-13-25-13-24-15-23-15-23-16-22-18-22-18-20-19-20-19-20-21-18-21-17-22-17-22-16-23-15-24-14-24-12-25-12-26-11-25-10-26-9-27-7-131-35-91 80 39 114 131 35 19 5 18 7 18 6 18 8 17 8 17 9 17 10 16 10 16 11 15 12 15 12 14 13 14 14 13 14 13 14 12 15 12 16 10 16 10 16 10 17 9 17 8 18 7 18 6 18 6 18 5 18 5 20 3 19 3 19 2 19 1 20v153l101-67 100 67v-134Z"/>
+    </g>
   </g>
 </svg>

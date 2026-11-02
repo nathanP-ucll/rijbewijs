@@ -1,80 +1,62 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<!-- Created with Inkscape (http://www.inkscape.org/) -->
-
-<svg
-   version="1.1"
-   id="svg1"
-   width="400"
-   height="350.33038"
-   viewBox="0 0 400 350.33038"
-   sodipodi:docname="A7b.svg"
-   inkscape:export-filename="A7b.png"
-   inkscape:export-xdpi="300"
-   inkscape:export-ydpi="300"
-   inkscape:version="1.4 (86a8ad7, 2024-10-11)"
-   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
-   xmlns="http://www.w3.org/2000/svg"
-   xmlns:svg="http://www.w3.org/2000/svg">
-  <defs
-     id="defs1" />
-  <sodipodi:namedview
-     id="namedview1"
-     pagecolor="#ffffff"
-     bordercolor="#000000"
-     borderopacity="0.25"
-     inkscape:showpageshadow="2"
-     inkscape:pageopacity="0.0"
-     inkscape:pagecheckerboard="true"
-     inkscape:deskcolor="#d1d1d1"
-     inkscape:zoom="3.0925"
-     inkscape:cx="200"
-     inkscape:cy="175.10105"
-     inkscape:window-width="2560"
-     inkscape:window-height="1417"
-     inkscape:window-x="1912"
-     inkscape:window-y="-8"
-     inkscape:window-maximized="1"
-     inkscape:current-layer="g1">
-    <inkscape:page
-       x="0"
-       y="2.3399008e-07"
-       inkscape:label="1"
-       id="page1"
-       width="400"
-       height="350.33038"
-       margin="0"
-       bleed="0" />
-  </sodipodi:namedview>
-  <g
-     id="g1"
-     inkscape:groupmode="layer"
-     inkscape:label="1"
-     transform="translate(0,-24.834677)">
-    <path
-       id="path1"
-       d="M 2820.39,186.262 H 179.637 C 80.375,186.262 0,266.629 0,365.891 c 0,31.597 8.26172,62.441 24.0664,89.82 L 1344.43,2723.93 c 32.89,56.95 89.81,89.81 155.58,89.81 65.75,0 122.69,-32.86 155.56,-89.81 L 2975.95,455.711 c 15.8,-27.379 24.05,-58.223 24.05,-89.82 0,-99.25 -80.37,-179.629 -179.61,-179.629 v 0"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path2"
-       d="m 2820.37,238.68 v -0.27 l -2640.733,0.27 c -70.289,0 -127.2112,56.922 -127.2112,127.211 0,22.379 5.8515,44.218 17.043,63.597 L 1389.84,2697.71 c 23.28,40.33 63.6,63.61 110.17,63.61 46.56,0 86.87,-23.28 110.16,-63.61 L 2930.55,429.488 c 11.18,-19.379 17.03,-41.218 17.03,-63.597 0,-70.289 -56.92,-127.211 -127.21,-127.211 v 0"
-       style="fill:#ed1d24;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path3"
-       d="M 399.285,487.648 H 2600.71 L 1499.99,2378.33 Z"
-       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path4"
-       d="M 1578.47,1751.28 V 556.629 h 196.46 V 1751.28 h -196.46"
-       style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
-    <path
-       id="path5"
-       d="M 1216.94,1751.28 V 1417.26 L 1044.03,1248.27 V 556.629 h 188.63 v 609.131 l 180.76,169 v 416.52 h -188.62 -7.86"
-       style="fill:#100f0d;fill-opacity:1;fill-rule:nonzero;stroke:none"
-       transform="matrix(0.13333333,0,0,-0.13333333,0,400)" />
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg version="1.2" width="28.52mm" height="25.02mm" viewBox="27874 12500 2852 2502" preserveAspectRatio="xMidYMid" fill-rule="evenodd" stroke-width="28.222" stroke-linejoin="round" xmlns="http://www.w3.org/2000/svg" xmlns:ooo="http://xml.openoffice.org/svg/export" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:presentation="http://sun.com/xmlns/staroffice/presentation" xmlns:smil="http://www.w3.org/2001/SMIL20/" xmlns:anim="urn:oasis:names:tc:opendocument:xmlns:animation:1.0" xml:space="preserve">
+ <defs class="EmbeddedBulletChars">
+  <g id="bullet-char-template-57356" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 580,1141 L 1163,571 580,0 -4,571 580,1141 Z"/>
   </g>
+  <g id="bullet-char-template-57354" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 8,1128 L 1137,1128 1137,0 8,0 8,1128 Z"/>
+  </g>
+  <g id="bullet-char-template-10146" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 174,0 L 602,739 174,1481 1456,739 174,0 Z M 1358,739 L 309,1346 659,739 1358,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10132" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 2015,739 L 1276,0 717,0 1260,543 174,543 174,936 1260,936 717,1481 1274,1481 2015,739 Z"/>
+  </g>
+  <g id="bullet-char-template-10007" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 0,-2 C -7,14 -16,27 -25,37 L 356,567 C 262,823 215,952 215,954 215,979 228,992 255,992 264,992 276,990 289,987 310,991 331,999 354,1012 L 381,999 492,748 772,1049 836,1024 860,1049 C 881,1039 901,1025 922,1006 886,937 835,863 770,784 769,783 710,716 594,584 L 774,223 C 774,196 753,168 711,139 L 727,119 C 717,90 699,76 672,76 641,76 570,178 457,381 L 164,-76 C 142,-110 111,-127 72,-127 30,-127 9,-110 8,-76 1,-67 -2,-52 -2,-32 -2,-23 -1,-13 0,-2 Z"/>
+  </g>
+  <g id="bullet-char-template-10004" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 285,-33 C 182,-33 111,30 74,156 52,228 41,333 41,471 41,549 55,616 82,672 116,743 169,778 240,778 293,778 328,747 346,684 L 369,508 C 377,444 397,411 428,410 L 1163,1116 C 1174,1127 1196,1133 1229,1133 1271,1133 1292,1118 1292,1087 L 1292,965 C 1292,929 1282,901 1262,881 L 442,47 C 390,-6 338,-33 285,-33 Z"/>
+  </g>
+  <g id="bullet-char-template-9679" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 813,0 C 632,0 489,54 383,161 276,268 223,411 223,592 223,773 276,916 383,1023 489,1130 632,1184 813,1184 992,1184 1136,1130 1245,1023 1353,916 1407,772 1407,592 1407,412 1353,268 1245,161 1136,54 992,0 813,0 Z"/>
+  </g>
+  <g id="bullet-char-template-8226" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 346,457 C 273,457 209,483 155,535 101,586 74,649 74,723 74,796 101,859 155,911 209,963 273,989 346,989 419,989 480,963 531,910 582,859 608,796 608,723 608,648 583,586 532,535 482,483 420,457 346,457 Z"/>
+  </g>
+  <g id="bullet-char-template-8211" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M -4,459 L 1135,459 1135,606 -4,606 -4,459 Z"/>
+  </g>
+  <g id="bullet-char-template-61548" transform="scale(0.00048828125,-0.00048828125)">
+   <path d="M 173,740 C 173,903 231,1043 346,1159 462,1274 601,1332 765,1332 928,1332 1067,1274 1183,1159 1299,1043 1357,903 1357,740 1357,577 1299,437 1183,322 1067,206 928,148 765,148 601,148 462,206 346,322 231,437 173,577 173,740 Z"/>
+  </g>
+ </defs>
+ <g class="Page">
+  <g class="com.sun.star.drawing.PolyPolygonShape">
+   <g id="id3">
+    <rect class="BoundingBox" stroke="none" fill="none" x="27874" y="12500" width="2852" height="2502"/>
+    <path fill="rgb(255,0,0)" stroke="none" d="M 29192,12561 L 27891,14815 27888,14822 27884,14829 27881,14837 27879,14844 27877,14852 27876,14860 27875,14868 27875,14876 27875,14885 27876,14893 27877,14901 27879,14909 27881,14916 27884,14924 27888,14931 27891,14939 27896,14945 27900,14952 27906,14958 27911,14964 27917,14970 27923,14975 27930,14980 27937,14984 27944,14988 27951,14991 27959,14994 27967,14996 27975,14998 27983,14999 27991,15000 27999,15001 30601,15001 30609,15000 30617,14999 30625,14998 30633,14996 30641,14994 30649,14991 30656,14988 30663,14984 30670,14980 30677,14975 30683,14970 30689,14964 30694,14958 30700,14952 30704,14945 30709,14939 30712,14931 30716,14924 30719,14916 30721,14909 30723,14901 30724,14893 30725,14885 30725,14876 30725,14868 30724,14860 30723,14852 30721,14844 30719,14837 30716,14829 30712,14822 30709,14815 29407,12561 29403,12555 29398,12548 29393,12542 29387,12536 29381,12530 29375,12525 29368,12520 29362,12516 29354,12512 29347,12509 29339,12506 29332,12504 29324,12502 29316,12501 29308,12500 29299,12500 29291,12500 29283,12501 29275,12502 29267,12504 29260,12506 29252,12509 29245,12512 29237,12516 29231,12520 29224,12525 29218,12530 29212,12536 29206,12542 29201,12548 29196,12555 29192,12561 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.PolyPolygonShape">
+   <g id="id4">
+    <rect class="BoundingBox" stroke="none" fill="none" x="28309" y="12982" width="1983" height="1717"/>
+    <path fill="rgb(255,255,255)" stroke="none" d="M 30291,14698 L 29301,12982 28309,14698 30291,14698 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.PolyPolygonShape">
+   <g id="id5">
+    <rect class="BoundingBox" stroke="none" fill="none" x="29371" y="13548" width="153" height="981"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 29523,13548 L 29371,13548 29371,14527 29523,14527 29523,13548 Z"/>
+   </g>
+  </g>
+  <g class="com.sun.star.drawing.PolyPolygonShape">
+   <g id="id6">
+    <rect class="BoundingBox" stroke="none" fill="none" x="28916" y="13548" width="305" height="981"/>
+    <path fill="rgb(0,0,0)" stroke="none" d="M 29069,14095 L 29220,13866 29220,13548 29069,13548 29069,13821 28916,14049 28916,14527 29069,14527 29069,14095 Z"/>
+   </g>
+  </g>
+ </g>
 </svg>
