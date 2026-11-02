@@ -1,0 +1,392 @@
+{
+  "hoofdstuk": 8,
+  "titel": "Autosnelweg en autoweg",
+  "les": 3,
+  "intro": {
+    "tekst": "Op de autosnelweg en de autoweg rijdt snel verkeer, en daar gelden strengere regels. Dit hoofdstuk leert je wat mag, wat niet en wat je doet bij pech.",
+    "doelen": [
+      "Je leert het verschil tussen een autosnelweg en een autoweg.",
+      "Je leert wie erop mag en welke minimumsnelheid er geldt.",
+      "Je leert oprijden, invoegen, inhalen en afrijden.",
+      "Je leert wat verboden is en wat je doet bij pech."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "8.1",
+      "titel": "Welke wegen zijn het?",
+      "paginas": [
+        {
+          "id": "h8-1-1",
+          "titel": "Autosnelweg en autoweg",
+          "intro": "Beide wegen zijn gemaakt voor snel verkeer, en je herkent ze aan hun borden.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "F5",
+                  "naam": "Begin van een autosnelweg",
+                  "uitleg": "Vanaf hier ben je op de autosnelweg."
+                },
+                {
+                  "afb": "F7",
+                  "naam": "Einde van een autosnelweg",
+                  "uitleg": "Hier houdt de autosnelweg op."
+                },
+                {
+                  "afb": "F9",
+                  "naam": "Autoweg",
+                  "uitleg": "Vanaf hier ben je op een autoweg."
+                },
+                {
+                  "afb": "F11",
+                  "naam": "Einde van een autoweg",
+                  "uitleg": "Hier houdt de autoweg op."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "De autosnelweg begint of heeft een oprit met het beginbord.",
+                "De autoweg begint met het autowegbord.",
+                "Op beide wegen mag je niet keren, achteruit rijden of parkeren.",
+                "De maximumsnelheden staan in het hoofdstuk over snelheden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Hoe herken je ze?",
+              "tekst": "Een autosnelweg begint met het beginbord of een oprit met dat bord, een autoweg met het autowegbord."
+            }
+          ],
+          "theorieblokken": ["snelweg-autosnelweg-autoweg"]
+        },
+        {
+          "id": "h8-1-2",
+          "titel": "Wie mag erop?",
+          "intro": "Niet elk voertuig mag de autosnelweg of de autoweg op.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Weg", "Toegelaten", "Niet toegelaten"],
+              "rijen": [
+                ["Autosnelweg", "Motorvoertuigen die 70 km/u kunnen halen", "Voetgangers, fietsers, bromfietsers, dieren en landbouwvoertuigen"],
+                ["Autoweg", "Motorvoertuigen en hun aanhangwagens", "Bromfietsen, landbouwvoertuigen en vierwielers zonder passagiersruimte"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Je rijdt er enkel op en af op de ingerichte plaatsen.",
+                "Op de autosnelweg rij je minstens 70 km/u.",
+                "Legt een bord een lagere minimumsnelheid op, dan geldt die.",
+                "Pas je snelheid altijd aan de omstandigheden aan."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Geen slepen met touw of stang",
+              "tekst": "Slepen met een nood- of hulpkoppeling is op beide wegen niet toegelaten, ook niet op de pechstrook."
+            }
+          ],
+          "theorieblokken": ["snelweg-toegelaten-voertuigen"]
+        }
+      ]
+    },
+    {
+      "nr": "8.2",
+      "titel": "Rijden op de autosnelweg",
+      "paginas": [
+        {
+          "id": "h8-2-1",
+          "titel": "Oprit, invoegen en afrit",
+          "intro": "Op de oprit geef je altijd voorrang aan het verkeer dat al op de autosnelweg rijdt.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-oprit-snelweg",
+              "bijschrift": "Auto 2 rijdt de oprit op en verleent voorrang aan auto 1 op de autosnelweg.",
+              "punten": [
+                "Voeg in met een snelheid die past bij het verkeer.",
+                "Hinder niemand op de autosnelweg."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "B1",
+                  "naam": "Voorrang verlenen",
+                  "uitleg": "Op de oprit moet je voorrang verlenen.",
+                  "letop": "Ook bij file heb je op de oprit geen voorrang."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij het oprijden ritsen we niet.",
+                "Laat iemand je invoegen, dan doet hij dat uit hoffelijkheid.",
+                "Volg bij de afrit de borden en markeringen.",
+                "Afrit gemist? Rij door tot de volgende."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Voorrang bij het oprijden",
+              "tekst": "Bij het oprijden van de autosnelweg verleen je steeds voorrang aan wie er al rijdt."
+            }
+          ],
+          "theorieblokken": ["snelweg-op-en-afrit"]
+        },
+        {
+          "id": "h8-2-2",
+          "titel": "Rijstroken en inhalen",
+          "intro": "Op de autosnelweg rij je op de rechterrijstrook en haal je links in.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Zo dicht mogelijk bij de rechterrand betekent: de rechterrijstrook.",
+                "Haal je links in, dan keer je daarna terug naar rechts.",
+                "Haal je binnen 10 seconden niemand meer in, ga dan terug naar rechts.",
+                "Rechts inhalen is verboden, behalve bij druk verkeer, file of om een richting te volgen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Voertuig", "Rijstrook"],
+              "rijen": [
+                ["Personenwagen", "Rechterrijstrook, links enkel om in te halen"],
+                ["Bus, autocar, voertuig of combinatie boven 3,5 ton op een weg met drie of meer rijstroken", "Enkel de twee rechtse rijstroken"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Middenstrookrijden",
+              "tekst": "Op de middelste rijstrook blijven rijden terwijl de rechterstrook vrij is, is een overtreding, ook bij weinig verkeer."
+            }
+          ],
+          "theorieblokken": ["snelweg-rijstroken-inhalen"]
+        },
+        {
+          "id": "h8-2-3",
+          "titel": "De spitsstrook",
+          "intro": "Of je een spitsstrook mag gebruiken, zie je aan de signalisatie.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Signaal", "Betekenis"],
+              "rijen": [
+                ["Groene pijl", "Je mag de spitsstrook gebruiken"],
+                ["Schuine oranje pijl", "Enkel om af te rijden"],
+                ["Rood kruis", "Verboden"],
+                ["Geen signalisatie", "Enkel om op of af te rijden of van richting te veranderen"]
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-lichten-rijstrook",
+              "bijschrift": "Boven elke rijstrook staat een signaal, zoals een rood kruis of een groene pijl.",
+              "punten": [
+                "Een rood kruis boven je strook betekent: niet rijden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Volg de signalisatie",
+              "tekst": "Groene pijl is toegelaten, schuine oranje pijl is enkel afrijden en rood kruis is verboden."
+            }
+          ],
+          "theorieblokken": ["snelweg-rijstroken-inhalen"]
+        },
+        {
+          "id": "h8-2-4",
+          "titel": "Ritsen en file",
+          "intro": "Bij sterk vertraagd verkeer rits je, en bij file vorm je een reddingsstrook.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Situatie", "Wat doe je?"],
+              "rijen": [
+                ["Een rijstrook eindigt en het verkeer is sterk vertraagd", "Ritsen: beurtelings invoegen bij de versmalling"],
+                ["Je rijdt de autosnelweg op", "Niet ritsen, maar voorrang verlenen"],
+                ["File op twee of meer rijstroken", "Een reddingsstrook vormen"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Rij door tot vlak voor de versmalling.",
+                "Voeg daar beurtelings één voertuig in.",
+                "Ritsen geldt ook op de autosnelweg."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Ritsen is verplicht",
+              "tekst": "Ritsen staat sinds 1 maart 2014 in de wegcode, en niet ritsen is een overtreding."
+            }
+          ],
+          "theorieblokken": ["snelweg-ritsen-file"]
+        }
+      ]
+    },
+    {
+      "nr": "8.3",
+      "titel": "Verboden en pech",
+      "paginas": [
+        {
+          "id": "h8-3-1",
+          "titel": "Wat is verboden?",
+          "intro": "Op de autosnelweg en de autoweg zijn een paar manoeuvres altijd verboden.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Verbod", "Toegelaten?"],
+              "rijen": [
+                ["Keren", "Nee"],
+                ["Achteruit rijden of tegen de rijrichting in rijden", "Nee"],
+                ["Stilstaan of parkeren", "Nee, enkel op parkeerstroken waar parkeren is toegelaten"],
+                ["Een dwarsverbinding gebruiken", "Nee"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Slepen met een nood- of hulpkoppeling is verboden.",
+                "Stoeten, betogingen en sportwedstrijden zijn verboden.",
+                "Voorwerpen verkopen is verboden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Afrit gemist",
+              "tekst": "Rij door tot de volgende afrit, want keren of achteruit rijden is nooit toegelaten."
+            }
+          ],
+          "theorieblokken": ["snelweg-verboden-manoeuvres"]
+        },
+        {
+          "id": "h8-3-2",
+          "titel": "Pechstrook en reddingsstrook",
+          "intro": "De pechstrook is geen rijstrook, en de reddingsstrook vorm je zelf bij file.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De pechstrook ligt rechts van de rijbaan.",
+                "Rijden op de pechstrook is verboden.",
+                "Prioritaire voertuigen en opgeroepen diensten mogen er wel op.",
+                "Takelwagens mogen er bij stilstaand verkeer naar een incident rijden."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-reddingsstrook-3",
+              "bijschrift": "Bij file vormen de auto's een vrije strook voor de hulpdiensten.",
+              "punten": [
+                "Links gaat uiterst links, alle andere gaan uiterst rechts."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Reddingsstrook is verplicht",
+              "tekst": "Sinds 1 oktober 2020 vorm je bij file een reddingsstrook, vanaf de eerste stilstand en niet pas wanneer een hulpdienst nadert."
+            }
+          ],
+          "theorieblokken": ["snelweg-pechstrook-reddingsstrook"]
+        },
+        {
+          "id": "h8-3-3",
+          "titel": "Pech op de autosnelweg",
+          "intro": "Bij pech gaat je eigen veiligheid voor je voertuig.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": ["Stap", "Wat doe je?"],
+              "rijen": [
+                ["1", "Alarmlichten aan en fluohesje aan"],
+                ["2", "Zo ver mogelijk naar rechts, bij voorkeur op de pechstrook"],
+                ["3", "Uitstappen aan de kant van de vangrail, ver van de rijbaan"],
+                ["4", "Gevarendriehoek op minstens 100 meter achter je voertuig"],
+                ["5", "Bel 112"]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Blijf nooit in het voertuig zitten op de pechstrook.",
+                "Trek je hesje aan voor je uitstapt.",
+                "Elk voertuig heeft een reflecterend hesje aan boord."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Veiligheid eerst",
+              "tekst": "Jouw veiligheid en die van je passagiers gaan voor op je voertuig, dus ga uit de buurt van het verkeer."
+            }
+          ],
+          "theorieblokken": ["snelweg-pech"]
+        }
+      ]
+    },
+    {
+      "nr": "8.4",
+      "titel": "Wat verandert er in 2027?",
+      "paginas": [
+        {
+          "id": "h8-4-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 treedt de nieuwe Code van de openbare weg in werking.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De nieuwe code was gepland voor 1 september 2026.",
+                "De start is uitgesteld tot 1 juni 2027.",
+                "Tot die datum geldt de huidige wegcode."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": ["Onderwerp", "Nu", "Vanaf 1 juni 2027"],
+              "rijen": [
+                ["Motorfiets op de reddingsstrook", "Enkel onder voorwaarden", "Mag de reddingsstrook gebruiken"],
+                ["Gevarendriehoek bij pech", "Altijd verplicht", "Niet altijd verplicht: eerst alarmlichten, driehoek enkel als dat niet kan"]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Nog niet van toepassing",
+              "tekst": "Voor het examen tot 1 juni 2027 leer je de regels zoals ze nu gelden."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "De autosnelweg begint met een eigen bord, de autoweg met een ander bord.",
+    "Op de autosnelweg mogen geen voetgangers, fietsers, bromfietsers of landbouwvoertuigen.",
+    "Op de autosnelweg rij je minstens 70 km/u, tenzij een bord anders zegt.",
+    "Bij het oprijden verleen je altijd voorrang en rits je niet.",
+    "Je rijdt rechts, haalt links in en keert terug naar rechts.",
+    "Keren, achteruit rijden, stilstaan en parkeren zijn verboden.",
+    "Bij file vorm je een reddingsstrook, en op de pechstrook rijd je niet.",
+    "Bij pech: alarmlichten, hesje, driehoek op 100 meter en 112 bellen."
+  ]
+}

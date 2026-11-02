@@ -1,0 +1,290 @@
+  /* ---------- koppel: lijnen trekken tussen links en rechts ---------- */
+  var SVGNS = 'http://www.w3.org/2000/svg';
+  Types.koppel = function (ex) {
+    var n = ex.paren.length;
+    var rightOrder = App.shuffle(ex.paren.map(function (_, i) { return i; }));
+    var link = new Array(n).fill(null); // linker rij -> index van rechter item (in ex.paren)
+    var sel = null; // { side: 'l'|'r', i }
+    var locked = false, shown = null, drag = null;
+    var live = el('span', { class: 'sr', 'aria-live': 'polite' });
+    var wrap = el('div', { class: 'mlines' });
+    var colL = el('div', { class: 'mcol' }), colM = el('div', { class: 'mmid' }), colR = el('div', { class: 'mcol' });
+    var cols = el('div', { class: 'mlines-cols' }, colL, colM, colR);
+    var svg = document.createElementNS(SVGNS, 'svg');
+    svg.setAttribute('class', 'msvg'); svg.setAttribute('aria-hidden', 'true');
+    wrap.appendChild(el('p', { class: 'ex-hint' }, 'Verbind elk item links met het juiste item rechts: sleep van bolletje naar bolletje, of klik eerst links en dan rechts (met het toetsenbord: Enter, dan Enter). Klik op een lijn om hem te wissen.'));
+    wrap.appendChild(cols); wrap.appendChild(svg); wrap.appendChild(live);
+    var itemsL = [], itemsR = {};
+
+    function mk(side, idx, p) {
+      var btn = el('button', { type: 'button', class: 'mitem ' + (side === 'l' ? 'left' : 'right'), 'data-side': side, 'data-i': String(idx), 'aria-pressed': 'false' });
+      var im = side === 'l' && p.linksAfb ? App.img(p.linksAfb, { alt: '' }) : null;
+      if (im) btn.appendChild(im);
+      btn.appendChild(el('span', { class: 'mtxt', html: App.inline(side === 'l' ? p.links : p.rechts) }));
+      btn.appendChild(el('span', { class: 'mdot', 'aria-hidden': 'true' }));
+      return btn;
+    }
+    ex.paren.forEach(function (p, i) { var b = mk('l', i, p); itemsL.push(b); colL.appendChild(b); });
+    rightOrder.forEach(function (ci) { var b = mk('r', ci, ex.paren[ci]); itemsR[ci] = b; colR.appendChild(b); });
+
+    function dotCenter(btn) {
+      var d = btn.querySelector('.mdot').getBoundingClientRect(), w = wrap.getBoundingClientRect();
+      return { x: d.left + d.width / 2 - w.left, y: d.top + d.height / 2 - w.top };
+    }
+    function pathD(a, b) { var dx = Math.max(40, Math.abs(b.x - a.x) * 0.45); return 'M' + a.x + ' ' + a.y + ' C' + (a.x + dx) + ' ' + a.y + ' ' + (b.x - dx) + ' ' + b.y + ' ' + b.x + ' ' + b.y; }
+    function mkPath(cls, d) { var p = document.createElementNS(SVGNS, 'path'); p.setAttribute('class', cls); p.setAttribute('d', d); return p; }
+
+    var drawnNew = null;
+    function draw() {
+      while (svg.firstChild) svg.removeChild(svg.firstChild);
+      // juiste antwoorden als hint bij foute/ontbrekende lijnen
+      if (shown) ex.paren.forEach(function (p, i) {
+        if (shown[i] !== 'right') {
+          var c = mkPath('mline correct-hint', pathD(dotCenter(itemsL[i]), dotCenter(itemsR[i])));
+          svg.appendChild(c);
+        }
+      });
+      ex.paren.forEach(function (p, i) {
+        if (link[i] == null) return;
+        var d = pathD(dotCenter(itemsL[i]), dotCenter(itemsR[link[i]]));
+        var cls = 'mline' + (shown ? (shown[i] === 'right' ? ' right' : ' wrong') : '') + (drawnNew === i ? ' draw' : '');
+        var line = mkPath(cls, d);
+        if (drawnNew === i) { try { line.style.setProperty('--len', String(Math.ceil(line.getTotalLength()))); } catch (e) { /* oké */ } }
+        svg.appendChild(line);
+        if (!locked) {
+          var hit = mkPath('mhit', d); hit.setAttribute('data-row', String(i));
+          hit.addEventListener('click', function () { unlink(i); });
+          svg.appendChild(hit);
+        }
+      });
+      if (drag) svg.appendChild(mkPath('mline drag', pathD(drag.from, drag.to)));
+      drawnNew = null;
+    }
+    function paint() {
+      var usedR = {};
+      link.forEach(function (r) { if (r != null) usedR[r] = true; });
+      itemsL.forEach(function (b, i) {
+        b.classList.toggle('linked', link[i] != null); b.classList.toggle('sel', !!sel && sel.side === 'l' && sel.i === i);
+        b.setAttribute('aria-pressed', sel && sel.side === 'l' && sel.i === i ? 'true' : 'false'); b.disabled = locked;
+        b.classList.remove('is-right', 'is-wrong'); if (shown) b.classList.add(shown[i] === 'right' ? 'is-right' : 'is-wrong');
+        b.setAttribute('aria-label', ex.paren[i].links + (link[i] != null ? ', gekoppeld aan ' + ex.paren[link[i]].rechts : ', nog niet gekoppeld'));
+      });
+      Object.keys(itemsR).forEach(function (k) {
+        var b = itemsR[k], ci = Number(k);
+        b.classList.toggle('linked', !!usedR[ci]); b.classList.toggle('sel', !!sel && sel.side === 'r' && sel.i === ci);
+        b.setAttribute('aria-pressed', sel && sel.side === 'r' && sel.i === ci ? 'true' : 'false'); b.disabled = locked;
+        b.classList.remove('is-right', 'is-wrong');
+        if (shown) { var row = link.indexOf(ci); if (row >= 0) b.classList.add(shown[row] === 'right' ? 'is-right' : 'is-wrong'); }
+        b.setAttribute('aria-label', ex.paren[ci].rechts + (usedR[ci] ? ', gekoppeld' : ', nog niet gekoppeld'));
+      });
+      draw();
+    }
+    function unlink(i) { if (locked) return; link[i] = null; shown = null; paint(); live.textContent = 'Lijn gewist.'; }
+    function connect(row, ci) {
+      for (var k = 0; k < n; k++) if (link[k] === ci) link[k] = null;
+      link[row] = ci; sel = null; shown = null; drawnNew = row; paint();
+      live.textContent = 'Verbonden: ' + ex.paren[row].links + ' met ' + ex.paren[ci].rechts + '.';
+      var dots = [itemsL[row].querySelector('.mdot'), itemsR[ci].querySelector('.mdot')];
+      dots.forEach(function (d) { d.classList.remove('pulse'); void d.offsetWidth; d.classList.add('pulse'); });
+    }
+    function pick(side, i) {
+      if (locked) return;
+      if (!sel) { sel = { side: side, i: i }; paint(); return; }
+      if (sel.side === side) { sel = sel.i === i ? null : { side: side, i: i }; paint(); return; }
+      if (side === 'r') connect(sel.i, i); else connect(i, sel.i);
+    }
+    itemsL.forEach(function (b, i) { b.addEventListener('click', function () { pick('l', i); }); });
+    Object.keys(itemsR).forEach(function (k) { itemsR[k].addEventListener('click', function () { pick('r', Number(k)); }); });
+    wrap.addEventListener('keydown', function (e) { if (e.key === 'Escape' && sel) { sel = null; paint(); e.stopPropagation(); } });
+
+    /* slepen van bolletje naar bolletje (muis + touch) */
+    function bindDrag(btn, side, idx) {
+      var pid = null, sx = 0, sy = 0, moved = false, suppress = false, hot = null;
+      function other(e) {
+        var t = document.elementFromPoint(e.clientX, e.clientY);
+        var it = t && t.closest ? t.closest('.mitem') : null;
+        return it && it.getAttribute('data-side') !== side ? it : null;
+      }
+      function clearHot() { if (hot) { hot.querySelector('.mdot').classList.remove('dragover'); hot = null; } }
+      btn.style.touchAction = 'none';
+      btn.addEventListener('pointerdown', function (e) { if (locked || (e.button != null && e.button > 0)) return; pid = e.pointerId; sx = e.clientX; sy = e.clientY; moved = false; });
+      btn.addEventListener('pointermove', function (e) {
+        if (pid == null || e.pointerId !== pid) return;
+        if (!moved) {
+          if (Math.hypot(e.clientX - sx, e.clientY - sy) < 7) return;
+          moved = true; try { btn.setPointerCapture(pid); } catch (x) { /* oké */ }
+          if (side === 'l' && link[idx] != null) { link[idx] = null; shown = null; }
+          else if (side === 'r') { var row = link.indexOf(idx); if (row >= 0) { link[row] = null; shown = null; } }
+          sel = null; paint();
+        }
+        var w = wrap.getBoundingClientRect();
+        drag = { from: dotCenter(btn), to: { x: e.clientX - w.left, y: e.clientY - w.top } };
+        var o = other(e); if (o !== hot) { clearHot(); if (o) { o.querySelector('.mdot').classList.add('dragover'); hot = o; } }
+        draw();
+      });
+      function finish(e, drop) {
+        if (pid == null) return;
+        var was = moved, o = was && drop ? other(e) : null;
+        pid = null; moved = false; drag = null; clearHot();
+        if (was) { suppress = true; setTimeout(function () { suppress = false; }, 0); }
+        if (o) { var oi = Number(o.getAttribute('data-i')); if (side === 'l') connect(idx, oi); else connect(oi, idx); }
+        else if (was) paint();
+      }
+      btn.addEventListener('pointerup', function (e) { if (e.pointerId === pid) finish(e, true); });
+      btn.addEventListener('pointercancel', function (e) { finish(e, false); });
+      btn.addEventListener('click', function (e) { if (suppress) { e.stopImmediatePropagation(); e.preventDefault(); } }, true);
+    }
+    itemsL.forEach(function (b, i) { bindDrag(b, 'l', i); });
+    Object.keys(itemsR).forEach(function (k) { bindDrag(itemsR[k], 'r', Number(k)); });
+
+    // lijnen opnieuw berekenen als de grootte verandert
+    if (window.ResizeObserver) { var ro = new ResizeObserver(function () { if (document.body.contains(wrap)) draw(); }); ro.observe(wrap); }
+    window.addEventListener('resize', draw);
+    wrap.addEventListener('load', draw, true);
+    setTimeout(draw, 0); setTimeout(draw, 300);
+
+    function isRight(i) { return link[i] != null && ex.paren[link[i]].rechts === ex.paren[i].rechts; }
+    return {
+      el: wrap,
+      answered: function () { return link.every(function (a) { return a != null; }); },
+      evaluate: function () { return ex.paren.every(function (_, i) { return isRight(i); }); },
+      mark: function () { shown = ex.paren.map(function (_, i) { return isRight(i) ? 'right' : 'wrong'; }); paint(); },
+      showCorrect: function () { ex.paren.forEach(function (p, i) { link[i] = i; }); shown = ex.paren.map(function () { return 'right'; }); sel = null; paint(); },
+      reset: function () { link = new Array(n).fill(null); sel = null; shown = null; locked = false; rightOrder = App.shuffle(rightOrder); rightOrder.forEach(function (ci) { colR.appendChild(itemsR[ci]); }); paint(); },
+      lock: function (b) { locked = b; paint(); }
+    };
+  };
+
+  /* ---------- volgorde: slepen met FLIP-animatie ---------- */
+  Types.volgorde = function (ex) {
+    var n = ex.items.length;
+    var idx = ex.items.map(function (_, i) { return i; });
+    function shuffled() {
+      var s, tries = 0;
+      do { s = App.shuffle(idx); tries++; } while (tries < 20 && s.every(function (v, i) { return ex.items[v] === ex.items[i]; }));
+      return s;
+    }
+    var order = shuffled();
+    var locked = false, shown = null, busy = false;
+    var list = el('ol', { class: 'seq' });
+    var live = el('span', { class: 'sr', 'aria-live': 'polite' });
+    var wrap = el('div', {}, el('p', { class: 'ex-hint' }, 'Zet de items in de juiste volgorde: sleep ze aan het handvat, of gebruik de pijltjes.'), list, live);
+    var nodes = {};
+    var noMotion = function () { return App.reducedMotion(); };
+
+    idx.forEach(function (v) {
+      var li = el('li', { class: 'seq-item', 'data-v': String(v) });
+      li.appendChild(el('span', { class: 'seq-grip', 'aria-hidden': 'true', html: App.icon('grip', 22) }));
+      li.appendChild(el('span', { class: 'seq-n', 'aria-hidden': 'true' }));
+      li.appendChild(el('span', { class: 'seq-text', html: App.inline(ex.items[v]) }));
+      li.appendChild(el('span', { class: 'seq-btns' },
+        el('button', { type: 'button', class: 'iconbtn up', 'aria-label': 'Omhoog: ' + ex.items[v], html: App.icon('up', 20) }),
+        el('button', { type: 'button', class: 'iconbtn down', 'aria-label': 'Omlaag: ' + ex.items[v], html: App.icon('down', 20) })));
+      li.querySelector('.up').addEventListener('click', function () { step(v, -1); });
+      li.querySelector('.down').addEventListener('click', function () { step(v, 1); });
+      nodes[v] = li;
+      bindGrip(li, v);
+    });
+
+    function rects() { var m = {}; idx.forEach(function (v) { m[v] = nodes[v].getBoundingClientRect(); }); return m; }
+    function flip(before, skip) {
+      if (noMotion()) return;
+      idx.forEach(function (v) {
+        if (v === skip) return;
+        var a = before[v], b = nodes[v].getBoundingClientRect(), dy = a.top - b.top;
+        if (Math.abs(dy) < 1) return;
+        nodes[v].animate([{ transform: 'translate3d(0,' + dy + 'px,0)' }, { transform: 'none' }], { duration: 260, easing: 'cubic-bezier(.2,.7,.2,1)' });
+      });
+    }
+    function paintList() {
+      order.forEach(function (v, pos) {
+        var li = nodes[v];
+        list.appendChild(li);
+        li.querySelector('.seq-n').textContent = String(pos + 1);
+        li.querySelector('.up').disabled = locked || pos === 0; li.querySelector('.down').disabled = locked || pos === n - 1;
+        li.classList.remove('is-right', 'is-wrong');
+        if (shown) li.classList.add(shown[pos] === 'right' ? 'is-right' : 'is-wrong');
+      });
+    }
+    function step(v, d) {
+      if (locked) return;
+      var from = order.indexOf(v), to = from + d;
+      if (to < 0 || to >= n) return;
+      var before = rects();
+      order.splice(from, 1); order.splice(to, 0, v); shown = null;
+      paintList(); flip(before, null);
+      live.textContent = '“' + ex.items[v] + '” staat nu op plaats ' + (to + 1) + ' van ' + n;
+      var b = nodes[v].querySelector(d < 0 ? '.up' : '.down'); if (b && !b.disabled) b.focus(); else nodes[v].querySelector('button:not(:disabled)') && nodes[v].querySelector('button:not(:disabled)').focus();
+    }
+
+    function bindGrip(li, v) {
+      var grip = li.querySelector('.seq-grip');
+      grip.style.touchAction = 'none';
+      var pid = null, startY = 0, startTop = 0, ph = null, ghostTop = 0, listRect = null;
+      grip.addEventListener('pointerdown', function (e) {
+        if (locked || (e.button != null && e.button > 0)) return;
+        pid = e.pointerId; try { grip.setPointerCapture(pid); } catch (x) { /* oké */ }
+        var r = li.getBoundingClientRect(); listRect = list.getBoundingClientRect();
+        startY = e.clientY; startTop = r.top - listRect.top;
+        ph = el('li', { class: 'seq-item placeholder-slot', 'aria-hidden': 'true' }); ph.style.height = r.height + 'px';
+        list.insertBefore(ph, li);
+        list.style.position = 'relative';
+        li.style.position = 'absolute'; li.style.left = '0'; li.style.width = r.width + 'px'; li.style.top = startTop + 'px';
+        li.classList.add('lifted'); shown = null;
+        li.style.transform = 'translate3d(0,0,0) scale(1.03) rotate(-1.2deg)';
+        e.preventDefault();
+      });
+      grip.addEventListener('pointermove', function (e) {
+        if (pid == null || e.pointerId !== pid) return;
+        var dy = e.clientY - startY;
+        var maxDy = list.offsetHeight - li.offsetHeight - startTop, minDy = -startTop;
+        dy = Math.max(minDy, Math.min(maxDy, dy));
+        li.style.transform = 'translate3d(0,' + dy + 'px,0) scale(1.03) rotate(-1.2deg)';
+        ghostTop = startTop + dy;
+        var center = ghostTop + li.offsetHeight / 2;
+        var others = idx.filter(function (x) { return x !== v; }).map(function (x) { return nodes[x]; });
+        var kids = Array.prototype.slice.call(list.children).filter(function (c) { return c !== li && c !== ph; });
+        var target = 0;
+        kids.forEach(function (c) { if (c.offsetTop + c.offsetHeight / 2 < center) target++; });
+        var curIdx = Array.prototype.indexOf.call(list.children, ph) - (Array.prototype.indexOf.call(list.children, li) >= 0 && Array.prototype.indexOf.call(list.children, li) < Array.prototype.indexOf.call(list.children, ph) ? 1 : 0);
+        if (target !== curIdx) {
+          var before = rects();
+          var ref = kids[target] || null;
+          list.insertBefore(ph, ref);
+          flip(before, v); void others;
+        }
+      });
+      function end(e, cancel) {
+        if (pid == null || (e && e.pointerId !== pid)) return;
+        pid = null;
+        // nieuwe volgorde uit DOM (placeholder = plaats van het gesleepte item)
+        var seq = Array.prototype.slice.call(list.children).map(function (c) { return c === ph ? v : (c === li ? null : Number(c.getAttribute('data-v'))); }).filter(function (x) { return x != null; });
+        var phRect = ph.getBoundingClientRect(), liRect = li.getBoundingClientRect();
+        var dy = liRect.top - phRect.top;
+        ph.remove(); ph = null;
+        li.classList.remove('lifted'); li.style.position = ''; li.style.left = ''; li.style.width = ''; li.style.top = ''; li.style.transform = '';
+        list.style.position = '';
+        if (!cancel) order = seq;
+        paintList();
+        if (!noMotion()) {
+          li.animate([{ transform: 'translate3d(0,' + dy + 'px,0) scale(1.03) rotate(-1.2deg)' }, { transform: 'translate3d(0,0,0) scale(1) rotate(0)' }], { duration: 300, easing: 'cubic-bezier(.3,1.5,.5,1)' });
+          li.classList.remove('landed'); void li.offsetWidth; li.classList.add('landed');
+        }
+        live.textContent = '“' + ex.items[v] + '” staat nu op plaats ' + (order.indexOf(v) + 1) + ' van ' + n;
+      }
+      grip.addEventListener('pointerup', function (e) { end(e, false); });
+      grip.addEventListener('pointercancel', function (e) { end(e, true); });
+    }
+    paintList();
+    function ok(pos) { return ex.items[order[pos]] === ex.items[pos]; }
+    return {
+      el: wrap,
+      answered: function () { return true; },
+      evaluate: function () { return order.every(function (_, p) { return ok(p); }); },
+      mark: function () { shown = order.map(function (_, p) { return ok(p) ? 'right' : 'wrong'; }); paintList(); },
+      showCorrect: function () { var before = rects(); order = idx.slice(); shown = order.map(function () { return 'right'; }); paintList(); flip(before, null); },
+      reset: function () { order = shuffled(); shown = null; locked = false; paintList(); },
+      lock: function (b) { locked = b; paintList(); }
+    };
+  };
+

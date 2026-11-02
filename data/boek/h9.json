@@ -1,0 +1,1085 @@
+{
+  "hoofdstuk": 9,
+  "titel": "Gedrag en alcohol",
+  "les": 4,
+  "intro": {
+    "tekst": "In dit hoofdstuk leer je hoe je je gedraagt achter het stuur. Het gaat over alcohol, drugs, afleiding, gordel, lichten en rijden bij slecht weer.",
+    "doelen": [
+      "Je kent de alcoholgrens en wat er gebeurt bij een positieve test.",
+      "Je weet wat de regels zijn voor drugs, medicijnen en vermoeidheid.",
+      "Je weet wanneer je je gsm niet mag gebruiken.",
+      "Je weet hoe je kinderen en lading veilig vervoert.",
+      "Je gebruikt je lichten en je volgafstand op het juiste moment."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "9.1",
+      "titel": "Alcohol en drugs",
+      "paginas": [
+        {
+          "id": "h9-1-1",
+          "titel": "Rijden onder invloed",
+          "intro": "Alcohol en drugs maken je trager en gevaarlijker in het verkeer.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Alcohol en drugs verlengen je reactietijd.",
+                "Alcohol meet de politie met een ademtest of een bloedproef.",
+                "Voor illegale drugs geldt nultolerantie.",
+                "Rijd je, dan drink je niet."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Middel",
+                "Hoe stelt men het vast?"
+              ],
+              "rijen": [
+                [
+                  "Alcohol",
+                  "Ademtest of bloedproef"
+                ],
+                [
+                  "Drugs",
+                  "Uiterlijke tekenen, speekseltest, speekselanalyse"
+                ],
+                [
+                  "Medicijnen",
+                  "Politie of arts beoordeelt je rijvaardigheid"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Ook weinig alcohol telt",
+              "tekst": "Zelfs een lage hoeveelheid alcohol, al vanaf ongeveer 0,2 g/l, kan je rijgedrag beïnvloeden."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h9-1-2",
+          "titel": "De alcoholgrens",
+          "intro": "De wet geeft een grens in promille of in mg/l adem.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een gewone bestuurder mag niet boven 0,5 g/l bloed.",
+                "0,5 g/l bloed is 0,5 promille.",
+                "In de adem is dezelfde grens 0,22 mg/l.",
+                "Beginnende bestuurders hebben nu dezelfde grens."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Meting",
+                "Eenheid",
+                "Grens"
+              ],
+              "rijen": [
+                [
+                  "Bloedproef",
+                  "g/l (promille)",
+                  "0,5"
+                ],
+                [
+                  "Ademtest",
+                  "mg/l",
+                  "0,22"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Twee eenheden, één grens",
+              "tekst": "0,5 promille in het bloed komt overeen met 0,22 mg/l in de adem, dus lees goed welke eenheid gevraagd wordt."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een examenvraag geeft 0,22 mg/l: dan gaat het over dezelfde grens als 0,5 promille."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-alcohol-grenzen",
+            "gedrag-alcohol-beginners"
+          ]
+        },
+        {
+          "id": "h9-1-3",
+          "titel": "Na een positieve test",
+          "intro": "Is je test positief, dan mag je niet meer verder rijden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Je krijgt meteen een rijverbod van 12 uur.",
+                "Sinds 1 juli 2026 is dat altijd 12 uur.",
+                "Vroeger liep het verbod uiteen van 2 tot 12 uur.",
+                "Daarna blaas je opnieuw."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Weer rijden",
+              "tekst": "Na het rijverbod mag je pas weer rijden als de test negatief is en je geen tekenen van dronkenschap meer vertoont."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "BOB is de bestuurder die de hele avond niets drinkt en de anderen veilig thuisbrengt; het is een campagne en geen wettelijk statuut."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h9-1-4",
+          "titel": "Het alcoholslot",
+          "intro": "Na een veroordeling kan de rechter een blaastoestel in je auto opleggen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een alcoholslot is een blaastoestel in de wagen.",
+                "De motor start pas na een blaastest onder 0,09 mg/l.",
+                "De rechter kan het opleggen na een veroordeling.",
+                "Het slot blijft 1 tot 3 jaar, of levenslang.",
+                "Zonder slot mag je dan geen motorvoertuig besturen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Vraag",
+                "Antwoord"
+              ],
+              "rijen": [
+                [
+                  "Wie legt het op?",
+                  "De rechter"
+                ],
+                [
+                  "Wie plaatst het?",
+                  "Een erkend dienstencentrum"
+                ],
+                [
+                  "Wie betaalt?",
+                  "Jijzelf, en je volgt een programma"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Bij alcoholverslaving",
+              "tekst": "Bij alcoholverslaving is een alcoholslot niet mogelijk en kan de rechter je tijdelijk of blijvend ongeschikt verklaren om te rijden."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-alcoholslot"
+          ]
+        },
+        {
+          "id": "h9-1-5",
+          "titel": "Drugs: nultolerantie",
+          "intro": "Voor illegale drugs is er geen toegelaten hoeveelheid.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Nultolerantie betekent: geen enkele toegelaten hoeveelheid.",
+                "Ook \"nog maar een beetje\" kan strafbaar zijn.",
+                "De speekseltest spoort niet alle drugs op.",
+                "Lijk je dronken, dan kan je daarvoor ook gestraft worden."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Drugs combineren",
+              "tekst": "Wie drugs combineert met alcohol of met andere drugs, heeft een nog veel groter ongevalsrisico."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Cannabis is het meest gebruikte product en verdubbelt het ongevalsrisico."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-drugs"
+          ]
+        },
+        {
+          "id": "h9-1-6",
+          "titel": "Drugs: hoe controleert de politie?",
+          "intro": "De politie stelt drugsgebruik vast in drie stappen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Stap 1: de politie let op uiterlijke tekenen.",
+                "Ze kijkt naar ogen, gezicht, gedrag, taal en gang.",
+                "Stap 2: een speekseltest op de weg.",
+                "Stap 3: speekselanalyse in een erkend laboratorium.",
+                "Die laboratoriumanalyse is het bewijs voor de rechter."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Wanneer volgt de speekseltest?",
+              "tekst": "Bij minstens 3 tekenen uit minstens 2 verschillende categorieën volgt de volgende stap."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Na een ongeval wordt de checklist met uiterlijke tekenen overgeslagen."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "9.2",
+      "titel": "Medicijnen, vermoeidheid en reactietijd",
+      "paginas": [
+        {
+          "id": "h9-2-1",
+          "titel": "Medicijnen en rijden",
+          "intro": "Ook sommige medicijnen maken je minder geschikt om te rijden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Sommige medicijnen vertragen je reacties.",
+                "Andere maken je slaperig.",
+                "Denk aan slaap- en kalmeermiddelen en sterke pijnstillers.",
+                "Voor medicijnen is er geen vaste grenswaarde."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Wat doe je?",
+                "Waarom?"
+              ],
+              "rijen": [
+                [
+                  "Vraag het aan je arts of apotheker",
+                  "Zij weten of je mag rijden"
+                ],
+                [
+                  "Lees de bijsluiter",
+                  "Daar staat wat het medicijn doet"
+                ],
+                [
+                  "Drink er geen alcohol bij",
+                  "Het effect wordt veel sterker"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Ook met legale medicijnen strafbaar",
+              "tekst": "Je kan gestraft worden als je rijvaardigheid door medicijnen zichtbaar aangetast is, ook al zijn ze voorgeschreven."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-medicatie"
+          ]
+        },
+        {
+          "id": "h9-2-2",
+          "titel": "Vermoeidheid",
+          "intro": "Een slaperige bestuurder reageert trager en merkt dat vaak te laat.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Slaperigheid maakt je trager en minder alert.",
+                "Je kan even wegdommelen: een microslaap.",
+                "Pauzeer na maximaal 2 uur rijden.",
+                "Slaperig? Doe een dutje van maximaal 20 minuten.",
+                "Vertrek uitgerust en wissel van bestuurder als het kan."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een koffie vlak voor je dutje helpt, want de cafeïne werkt na ongeveer 20 minuten."
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Doorrijden tot je er bent",
+              "tekst": "Veel bestuurders stoppen pas wanneer de eerste tekenen van slaperigheid al opduiken, dus pauzeer op tijd."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-vermoeidheid"
+          ]
+        },
+        {
+          "id": "h9-2-3",
+          "titel": "Reactietijd",
+          "intro": "Tussen zien en remmen gaat altijd tijd voorbij.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Reactietijd is de tijd tussen gevaar zien en echt remmen.",
+                "Normaal rekent men met 1 seconde.",
+                "Bij een onverwachte gebeurtenis is dat ongeveer 1,5 seconden.",
+                "In die tijd rijdt je gewoon verder aan dezelfde snelheid."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Wat verlengt je reactietijd?",
+                "Wat doe je eraan?"
+              ],
+              "rijen": [
+                [
+                  "Alcohol",
+                  "Rijd je, dan drink je niet"
+                ],
+                [
+                  "Drugs",
+                  "Nultolerantie"
+                ],
+                [
+                  "Medicijnen",
+                  "Vraag raad aan arts of apotheker"
+                ],
+                [
+                  "Vermoeidheid",
+                  "Pauzeer na maximaal 2 uur"
+                ],
+                [
+                  "Afleiding",
+                  "Regel alles vóór je vertrekt"
+                ]
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Hoe sneller je rijdt, hoe verder je blind doorrijdt, want de reactietijd blijft gelijk."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-reactietijd"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "9.3",
+      "titel": "Afleiding en gsm",
+      "paginas": [
+        {
+          "id": "h9-3-1",
+          "titel": "Afleiding achter het stuur",
+          "intro": "Alles wat je ogen, handen of aandacht van de weg haalt, is afleiding.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Houd je voertuig voortdurend goed in de hand.",
+                "Je moet altijd alle nodige rijbewegingen kunnen uitvoeren.",
+                "Voorbeelden: je gsm, een scherm, eten of zoeken in de auto.",
+                "Ook een heftig gesprek leidt af."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Bij 50 km/u leg je in 2 seconden ongeveer 28 meter af. Kijk je zolang op je scherm, dan rijd je 28 meter blind."
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Voorbereiden vóór vertrek",
+              "tekst": "Stel je route, muziek en temperatuur in vóór je wegrijdt en laat je gsm in de houder of in je tas."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-afleiding"
+          ]
+        },
+        {
+          "id": "h9-3-2",
+          "titel": "Gsm en scherm: wat mag wel, wat niet?",
+          "intro": "Een scherm in je hand is verboden, een scherm in een houder niet.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Je mag geen scherm gebruiken, vasthouden of bedienen.",
+                "Dat geldt voor gsm, smartphone en tablet.",
+                "Bellen mag handsfree, bijvoorbeeld met een carkit of bluetooth.",
+                "Een gps of gsm als navigatie mag in een stevige houder.",
+                "Programmeer je route vóór je vertrekt."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Toegelaten?"
+              ],
+              "rijen": [
+                [
+                  "Gsm in de hand tijdens het rijden",
+                  "Nee"
+                ],
+                [
+                  "Handsfree bellen zonder het toestel vast te houden",
+                  "Ja"
+                ],
+                [
+                  "Scherm (gps of gsm) in een vaste houder",
+                  "Ja, maar kijk niet te lang"
+                ],
+                [
+                  "Gsm gebruiken terwijl je geparkeerd bent",
+                  "Ja"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Ook handsfree leidt af",
+              "tekst": "De wet verbiedt het vasthouden, niet het praten, maar een gesprek blijft een afleiding: houd het kort en stop als het drukker wordt."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-gsm"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "9.4",
+      "titel": "Gordel, kinderen en lading",
+      "paginas": [
+        {
+          "id": "h9-4-1",
+          "titel": "De veiligheidsgordel",
+          "intro": "In een personenwagen draagt iedereen de gordel.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De bestuurder draagt de gordel.",
+                "Alle passagiers dragen de gordel, ook achterin.",
+                "Dat geldt op alle plaatsen die een gordel hebben.",
+                "Gebruik gordel en kinderzitje zo dat ze goed beschermen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Vrijgesteld",
+                "Wanneer?"
+              ],
+              "rijen": [
+                [
+                  "Bestuurder",
+                  "Tijdens het achteruitrijden"
+                ],
+                [
+                  "Taxichauffeur",
+                  "Met een klant aan boord"
+                ],
+                [
+                  "Persoon met medisch attest",
+                  "Vrijstelling van de minister"
+                ],
+                [
+                  "Hulpdiensten",
+                  "In bepaalde situaties"
+                ],
+                [
+                  "Postbeambten",
+                  "Bij postbedeling over korte afstand tussen de stops"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Waarom ook achterin?",
+              "tekst": "Een niet-vastgegespte passagier achterin kan bij een botsing de andere inzittenden in gevaar brengen."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-gordel"
+          ]
+        },
+        {
+          "id": "h9-4-2",
+          "titel": "Wie zit in een kinderzitje?",
+          "intro": "Of een kind een zitje nodig heeft, hangt af van leeftijd én lengte.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Jonger dan 18 jaar én kleiner dan 135 cm: kinderzitje.",
+                "Vanaf 135 cm gebruikt het kind de gewone gordel.",
+                "Het zitje past bij de lengte en het gewicht van het kind.",
+                "Maak het zitje goed vast met de gordel of met Isofix."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Kind",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Jonger dan 18 jaar en kleiner dan 135 cm",
+                  "Geschikt kinderbeveiligingssysteem"
+                ],
+                [
+                  "135 cm of groter",
+                  "Gewone veiligheidsgordel"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Beide voorwaarden tellen",
+              "tekst": "De zitjesplicht geldt voor kinderen die én jonger zijn dan 18 jaar én kleiner dan 135 cm."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-kinderzitjes"
+          ]
+        },
+        {
+          "id": "h9-4-3",
+          "titel": "Het zitje vooraan en de airbag",
+          "intro": "Een kinderzitje mag vooraan, maar onder strikte voorwaarden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een kinderzitje mag vooraan staan.",
+                "De zitplaats moet dan een gordel hebben.",
+                "Een zitje moet goed passen en goed vastzitten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Voorste plaats met voorairbag",
+                  "Achterwaarts zitje alleen met uitgeschakelde airbag"
+                ],
+                [
+                  "Zitplaats zonder gordel",
+                  "Geen kind jonger dan 3 jaar"
+                ],
+                [
+                  "Voorste plaats zonder gordel",
+                  "Geen kind jonger dan 18 jaar en kleiner dan 135 cm"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Keurmerk",
+              "tekst": "Kies een goedgekeurd zitje met het oranje keurmerk, dat is R44 of de nieuwere i-Size (R129)."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h9-4-4",
+          "titel": "Kinderen vervoeren: uitzonderingen",
+          "intro": "Er zijn enkele uitzonderingen op de zitjesplicht.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Ze gelden alleen voor kinderen van 3 jaar of ouder.",
+                "Brommers en motorfietsen hebben aparte regels."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Derde kind, geen derde zitje meer mogelijk",
+                  "Achterin met de gordel"
+                ],
+                [
+                  "Korte occasionele rit zonder zitjes",
+                  "Achterin met gordel, niet als een ouder rijdt"
+                ],
+                [
+                  "Taxi zonder kinderzitje",
+                  "Niet vooraan"
+                ],
+                [
+                  "Taxi met kinderzitje",
+                  "Het zitje gebruiken"
+                ],
+                [
+                  "Voertuig met meer dan 8 zitplaatsen",
+                  "Geen plicht voor een zitje"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Altijd achterin",
+              "tekst": "Elke uitzondering voor kinderen zonder zitje geldt enkel voor zitplaatsen die niet vooraan zijn."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-kinderzitjes-uitzonderingen"
+          ]
+        },
+        {
+          "id": "h9-4-5",
+          "titel": "Lading vervoeren",
+          "intro": "Je lading mag nooit een gevaar vormen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Je lading hindert je zicht niet.",
+                "Ze vormt geen gevaar en veroorzaakt geen schade.",
+                "Ze kan niet vallen of over de weg slepen.",
+                "Ze brengt de stabiliteit van je voertuig niet in gevaar.",
+                "Je lichten, reflectoren en nummerplaat blijven zichtbaar."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Gebruik banden, netten of dekzeilen in goede staat die de lading nauw omsluiten."
+            },
+            {
+              "type": "kader",
+              "soort": "gewest",
+              "titel": "Zware voertuigen",
+              "tekst": "Vlaanderen heeft extra regels om de lading van zware voertuigen vast te zetten.",
+              "gewest": {
+                "vlaanderen": "Extra regels voor het vastzetten van lading op zware voertuigen.",
+                "wallonie": "Geen extra regels van dit soort.",
+                "brussel": "Geen extra regels van dit soort."
+              }
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-lading"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "9.5",
+      "titel": "Lichten",
+      "paginas": [
+        {
+          "id": "h9-5-1",
+          "titel": "Wanneer rijd je met licht?",
+          "intro": "Je lichten gebruik je als het donker is of als je slecht ziet.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Gebruik je lichten van het vallen van de avond tot de dag.",
+                "Doe dat ook als je geen 200 meter ver ziet.",
+                "Denk aan mist, hevige regen of sneeuw.",
+                "Vooraan gebruik je dimlicht of grootlicht.",
+                "Achteraan branden de rode lichten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Licht"
+              ],
+              "rijen": [
+                [
+                  "Overdag, goed zicht",
+                  "Geen verplichte verlichting"
+                ],
+                [
+                  "Avond, nacht of zicht onder 200 m",
+                  "Dimlicht of grootlicht vooraan, rode lichten achteraan"
+                ],
+                [
+                  "Motorfiets of tweewielige bromfiets",
+                  "Altijd dimlicht en rood achterlicht, ook overdag"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Enkel dagrijlicht",
+              "tekst": "Dagrijlichten branden enkel vooraan, dus zet bij regen, mist of schemering zelf het dimlicht aan."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-lichten-wanneer"
+          ]
+        },
+        {
+          "id": "h9-5-2",
+          "titel": "Grootlicht of dimlicht?",
+          "intro": "Grootlicht mag je alleen gebruiken als je niemand verblindt.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Nadert een tegenligger? Schakel over op dimlicht.",
+                "Knippert een bestuurder met zijn grootlicht? Dim meteen.",
+                "Nadert een spoorvoertuig of boot? Gebruik dimlicht.",
+                "Volg je een voertuig op minder dan 50 m? Gebruik dimlicht.",
+                "Is de weg voldoende verlicht? Gebruik dimlicht."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Licht"
+              ],
+              "rijen": [
+                [
+                  "Tegenligger nadert",
+                  "Dimlicht"
+                ],
+                [
+                  "Je volgt een voertuig op minder dan 50 m",
+                  "Dimlicht, behalve tijdens het inhalen"
+                ],
+                [
+                  "Weg voldoende verlicht (zicht ongeveer 100 m)",
+                  "Dimlicht"
+                ],
+                [
+                  "Donkere weg, geen verkeer",
+                  "Grootlicht toegelaten"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Nooit verblinden",
+              "tekst": "Je lichten mogen andere weggebruikers nooit verblinden."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Tussen avond en dag mag je in plaats van te claxonneren kort afwisselend grootlicht en dimlicht gebruiken, behalve bij dreigend gevaar."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-grootlicht-dimlicht"
+          ]
+        },
+        {
+          "id": "h9-5-3",
+          "titel": "Mistlichten",
+          "intro": "Mistlichten gebruik je alleen bij slecht zicht.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Voormistlicht mag bij mist, sneeuwval of felle regen.",
+                "Het mag je dimlicht of grootlicht vervangen of erbij branden.",
+                "Achtermistlicht moet bij zicht onder ongeveer 100 m.",
+                "Ook bij felle regen moet het achtermistlicht branden.",
+                "In alle andere gevallen mag het niet branden."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Licht",
+                "Wanneer?"
+              ],
+              "rijen": [
+                [
+                  "Voormistlicht",
+                  "Bij mist, sneeuwval of felle regen (mag)"
+                ],
+                [
+                  "Achtermistlicht",
+                  "Zicht onder ongeveer 100 m of felle regen (verplicht), anders verboden"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Achtermistlicht uitzetten",
+              "tekst": "Een achtermistlicht verblindt de bestuurder achter jou, dus doof het zodra het zicht beter wordt."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-mistlichten"
+          ]
+        },
+        {
+          "id": "h9-5-4",
+          "titel": "Lichten bij stilstaan en parkeren",
+          "intro": "Ook een geparkeerde auto moet zichtbaar zijn.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Ook een stilstaande auto moet 's nachts zichtbaar zijn.",
+                "Vooraan brengen standlichten (wit of geel) licht.",
+                "Achteraan zijn er rode lichten.",
+                "Binnen de bebouwde kom mag je één parkeerlicht gebruiken.",
+                "Verplicht als je auto niet zichtbaar is van 100 m."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je mag één parkeerlicht gebruiken als de auto evenwijdig met de rijbaan staat en er geen aanhangwagen aan hangt."
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Aan de rijbaankant",
+              "tekst": "Het parkeerlicht dat brandt, is dat aan de kant van de rijbaan en niet aan de kant van het trottoir."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-parkeerlicht"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "9.6",
+      "titel": "Volgafstand en weer",
+      "paginas": [
+        {
+          "id": "h9-6-1",
+          "titel": "De volgafstand: tweeseconderegel",
+          "intro": "Houd altijd genoeg afstand om te kunnen stoppen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Houd een voldoende veiligheidsafstand tot je voorligger.",
+                "Je moet kunnen stoppen voor een voorzienbare hindernis.",
+                "Houd minstens 2 seconden afstand.",
+                "Op een nat wegdek tel je 3 seconden.",
+                "Ben je moe of onervaren? Houd nog meer afstand."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Zo tel je het: kies een vast punt, zoals een paal. Is je voorligger er voorbij, tel dan. Bereik je het punt voor twee seconden om zijn, dan rijd je te dicht."
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Zware voertuigen",
+              "tekst": "Voertuigen van meer dan 7,5 ton of langer dan 7 meter houden buiten de bebouwde kom minstens 50 meter afstand tot elkaar."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-volgafstand"
+          ]
+        },
+        {
+          "id": "h9-6-2",
+          "titel": "Rijden in de regen",
+          "intro": "Bij regen wordt je zicht slechter en je remafstand langer.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Nat wegdek geeft een langere remafstand.",
+                "Je zicht wordt slechter.",
+                "Pas je snelheid aan het weer en de weg aan.",
+                "Gebruik geen cruise control op gladde wegen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Maatregel",
+                "Hoe?"
+              ],
+              "rijen": [
+                [
+                  "Afstand",
+                  "3 seconden in plaats van 2"
+                ],
+                [
+                  "Dimlicht",
+                  "Aan als je niet meer 200 m ver ziet"
+                ],
+                [
+                  "Felle regen",
+                  "Achtermistlicht aan, als je auto er een heeft"
+                ]
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Het regent hard en je ziet maar 150 meter ver: dimlicht aan en drie seconden afstand houden."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-weer-regen"
+          ]
+        },
+        {
+          "id": "h9-6-3",
+          "titel": "Rijden in de mist",
+          "intro": "Mist beperkt je zicht, dus rij je trager en met licht.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Vertraag en houd extra afstand.",
+                "Gebruik dimlicht.",
+                "Voormistlicht mag.",
+                "Achtermistlicht is verplicht bij zicht onder ongeveer 100 m.",
+                "Doof het achtermistlicht zodra het zicht beter wordt."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je ziet nog 80 meter ver in de mist: dimlicht en achtermistlicht aan, en rij trager."
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Te lang laten branden",
+              "tekst": "Een achtermistlicht dat blijft branden bij beter zicht verblindt de bestuurder achter jou."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-weer-mist"
+          ]
+        },
+        {
+          "id": "h9-6-4",
+          "titel": "IJzel, sneeuw en gladheid",
+          "intro": "Op gladde wegen is alles trager en moeilijker.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De remafstand wordt veel langer.",
+                "Houd meer afstand en rij trager.",
+                "Op bruggen ontstaan ijsplekken het eerst.",
+                "Gebruik geen cruise control.",
+                "Winterbanden geven je geen vrijbrief voor risico."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een kijkgaatje in het ijs op je voorruit is niet genoeg: ontdooi en ontijs de hele ruit vóór je vertrekt."
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Zicht",
+              "tekst": "Een niet-ijsvrije voorruit is een overtreding en kan een boete opleveren."
+            }
+          ],
+          "theorieblokken": [
+            "gedrag-weer-ijs"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "9.7",
+      "titel": "Wat verandert er in 2027?",
+      "paginas": [
+        {
+          "id": "h9-7-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 gaat de nieuwe Code van de openbare weg in.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Tot 1 juni 2027 gelden de regels uit dit hoofdstuk.",
+                "Vanaf 1 juni 2027 verandert de volgafstand.",
+                "Het gsm-verbod geldt dan ook voor de begeleider.",
+                "Parkeerverlichting is binnen de bebouwde kom niet meer verplicht."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderwerp",
+                "Nu",
+                "Vanaf 1 juni 2027"
+              ],
+              "rijen": [
+                [
+                  "Gsm",
+                  "Verbod voor de bestuurder",
+                  "Ook voor de begeleider tijdens de rijopleiding"
+                ],
+                [
+                  "Volgafstand",
+                  "Geen vast getal voor personenwagens",
+                  "Minstens 2 seconden op wegen boven 50 km/u"
+                ],
+                [
+                  "Parkeerverlichting",
+                  "Verplicht als je auto niet te zien is",
+                  "Binnen de bebouwde kom niet meer verplicht"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Aangekondigd, nog niet van kracht",
+              "tekst": "Een grens van 0,2 promille voor bestuurders met minder dan 3 jaar rijbewijs is aangekondigd voor 2027, maar de wettekst en de ingangsdatum zijn nog niet gepubliceerd."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "De alcoholgrens voor een gewone bestuurder is 0,5 promille, of 0,22 mg/l in de adem.",
+    "Een positieve test geeft 12 uur rijverbod; daarna blaas je opnieuw.",
+    "Voor illegale drugs geldt nultolerantie.",
+    "Alcohol, drugs, medicijnen, vermoeidheid en afleiding verlengen je reactietijd.",
+    "Een scherm in je hand is verboden; handsfree bellen of een houder mag.",
+    "Kinderen onder 18 jaar en kleiner dan 135 cm zitten in een geschikt zitje.",
+    "Houd minstens 2 seconden afstand, op nat wegdek 3 seconden.",
+    "Achtermistlicht gebruik je alleen bij zicht onder ongeveer 100 m of felle regen."
+  ]
+}

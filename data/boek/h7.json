@@ -1,0 +1,1085 @@
+{
+  "hoofdstuk": 7,
+  "titel": "Plaats op de weg",
+  "les": 3,
+  "intro": {
+    "tekst": "Op de weg moet je weten waar je rijdt, hoe je voorbijrijdt en waar je je voertuig laat staan. Dit hoofdstuk legt het stap voor stap uit.",
+    "doelen": [
+      "Je leert waar je op de rijbaan rijdt en hoe je een rijstrook kiest.",
+      "Je leert veilig kruisen, inhalen en seinen.",
+      "Je leert wat je doet bij file: reddingsstrook en ritsen.",
+      "Je leert waar je mag stilstaan en parkeren, en waar niet.",
+      "Je leert hoe je keert en achteruit rijdt."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "7.1",
+      "titel": "Je plaats op de rijbaan",
+      "paginas": [
+        {
+          "id": "h7-1-1",
+          "titel": "Rechts rijden",
+          "intro": "Je rijdt altijd zo dicht mogelijk bij de rechterrand van de rijbaan.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-plaats-rechts-rijden",
+              "bijschrift": "Op een weg met twee rijrichtingen rij je rechts van de middenlijn.",
+              "punten": [
+                "Tegenliggers hebben recht op hun helft van de weg.",
+                "Dit geldt ook op de autosnelweg en de autoweg."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Op een rotonde hoef je niet helemaal rechts te rijden.",
+                "Op een plein mag je van de rechterrand afwijken.",
+                "Bij gescheiden rijbanen rij je nooit op de rijbaan links van je."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Midden op de weg rijden",
+              "tekst": "Op een weg zonder rijstroken kies je nooit zelf het midden omdat er genoeg plaats lijkt."
+            }
+          ],
+          "theorieblokken": [
+            "plaats-rechts-rijden"
+          ]
+        },
+        {
+          "id": "h7-1-2",
+          "titel": "Rijstrookmarkeringen",
+          "intro": "De witte strepen op de weg vertellen je waar je mag rijden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Rijstrookmarkeringen volg je altijd.",
+                "Je rijdt binnen je eigen rijstrook.",
+                "Op een rijbaan zonder rijstroken blijf je rechts."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Streep",
+                "Wat betekent het?"
+              ],
+              "rijen": [
+                [
+                  "Doorlopende witte streep",
+                  "Niet overschrijden en niet links ervan rijden als ze twee rijrichtingen scheidt"
+                ],
+                [
+                  "Onderbroken witte streep",
+                  "Overschrijden mag om in te halen, links af te slaan, te keren of van rijstrook te veranderen"
+                ],
+                [
+                  "Korte, dichte strepen",
+                  "Ze kondigen een doorlopende streep aan"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Dichte korte strepen",
+              "tekst": "Zie je korte, dichte strepen, dan volgt er een doorlopende streep en kun je daar niet meer inhalen."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h7-1-3",
+          "titel": "Een rijstrook kiezen",
+          "intro": "In de bebouwde kom mag je in twee gevallen zelf een rijstrook kiezen.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Weg",
+                "Je rijstrook"
+              ],
+              "rijen": [
+                [
+                  "Eenrichtingsrijbaan met rijstroken",
+                  "Vrij te kiezen in de bebouwde kom"
+                ],
+                [
+                  "Tweerichtingsrijbaan met minstens vier rijstroken",
+                  "Vrij te kiezen, enkel in je eigen richting"
+                ],
+                [
+                  "Gewone weg buiten de bebouwde kom",
+                  "Zo dicht mogelijk bij de rechterrand"
+                ]
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij veel verkeer mag je in meerdere rijen rijden.",
+                "Rechts afslaan doe je vanuit de rechterstrook.",
+                "Links afslaan doe je vanuit de linkerstrook.",
+                "Volg de richtingsborden boven of langs de rijstroken."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Sneller is niet inhalen",
+              "tekst": "Rij je in meerdere rijen en ben je sneller dan de rij naast je, dan haal je niet in."
+            }
+          ],
+          "theorieblokken": [
+            "plaats-rijstroken-bebouwde-kom"
+          ]
+        },
+        {
+          "id": "h7-1-4",
+          "titel": "Het fietspad",
+          "intro": "Een fietspad is geen deel van de rijbaan, maar je moet er wel rekening mee houden.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Een fietspad is voor fietsen en tweewielige bromfietsen klasse A.",
+                "Zij volgen een bruikbaar fietspad dat rechts van hen ligt.",
+                "Ze mogen eraf om in te halen of een hindernis te ontwijken.",
+                "Fietsers jonger dan 10 jaar mogen altijd het trottoir volgen."
+              ]
+            },
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "D7",
+                  "naam": "Verplicht fietspad",
+                  "uitleg": "Fietsers moeten dit pad volgen.",
+                  "letop": "Stilstaan en parkeren op een fietspad is verboden."
+                }
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Voorrang aan het fietspad",
+              "tekst": "Wie een manoeuvre uitvoert, verleent voorrang aan wie het trottoir of het fietspad gebruikt."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je slaat rechts af. Kijk eerst in je rechterspiegel en over je schouder, want een fietser kan langs rechts komen."
+            }
+          ],
+          "theorieblokken": [
+            "plaats-fietspad-zwakke-weggebruikers"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "7.2",
+      "titel": "Kruisen en inhalen",
+      "paginas": [
+        {
+          "id": "h7-2-1",
+          "titel": "Kruisen",
+          "intro": "Kruisen is voorbijrijden aan een tegenligger.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-kruisen",
+              "bijschrift": "Beide auto's blijven rechts en houden ruim afstand tot elkaar.",
+              "punten": [
+                "Je kruist aan je rechterkant.",
+                "Wijk zo nodig naar rechts uit."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Houd voldoende zijdelingse afstand.",
+                "Word je gehinderd, dan vertraag je of stop je.",
+                "Is de rijbaan te smal, dan mag je de gelijkgrondse berm gebruiken."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Kruisen is rechts",
+              "tekst": "Kruis tegenliggers aan je rechterkant, met voldoende ruimte opzij."
+            }
+          ],
+          "theorieblokken": [
+            "kruisen"
+          ]
+        },
+        {
+          "id": "h7-2-2",
+          "titel": "Links inhalen in vier stappen",
+          "intro": "Inhalen betekent een bewegend voertuig voorbijrijden, en dat doe je links.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-inhalen-links",
+              "bijschrift": "De blauwe auto controleert, seint, haalt links in en keert terug naar rechts.",
+              "punten": [
+                "Je rijdt voldoende sneller dan het voertuig dat je inhaalt."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Stap",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "1. Controleren",
+                  "Is de weg voor je vrij en kan niemand je inhalen?"
+                ],
+                [
+                  "2. Seinen",
+                  "Linker richtingaanwijzer, tijdig"
+                ],
+                [
+                  "3. Voorbijrijden",
+                  "Met voldoende zijdelingse afstand"
+                ],
+                [
+                  "4. Terugkeren",
+                  "Rechter richtingaanwijzer, terug naar rechts zodra het veilig kan"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Altijd links",
+              "tekst": "Inhalen gebeurt links, tenzij de voorligger links afslaat of links staat opgesteld."
+            }
+          ],
+          "theorieblokken": [
+            "inhalen-regels"
+          ]
+        },
+        {
+          "id": "h7-2-3",
+          "titel": "Ingehaald worden en rechts voorbijrijden",
+          "intro": "Ook als je zelf wordt ingehaald, heb je een taak.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Word je links ingehaald, wijk dan zo ver mogelijk naar rechts.",
+                "Versnel niet terwijl iemand je inhaalt.",
+                "Een tram haal je rechts in.",
+                "Slaat de voorligger links af, dan haal je hem rechts in."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Rechts voorbijrijden",
+              "tekst": "Rechts voorbijrijden aan een voertuig op een andere rijstrook mag niet, behalve in druk verkeer, in een file of om een andere richting te volgen."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een auto zet zijn linker richtingaanwijzer aan om je in te halen. Je blijft rechts en houdt je snelheid gelijk, zodat hij veilig voorbij kan."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h7-2-4",
+          "titel": "Wanneer mag je niet inhalen?",
+          "intro": "Zonder goed zicht en op sommige plaatsen haal je niet in.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-inhaalverbod-zicht",
+              "bijschrift": "Achter de heuvelkruin zie je niet of er een tegenligger komt, dus je haalt niet in.",
+              "punten": [
+                "Je ziet niet ver genoeg of de weg vrij is.",
+                "Over een doorlopende streep haal je niet in."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Bij een overweg zonder slagbomen of verkeerslichten.",
+                "Op kruispunten.",
+                "Bij een heuvelkruin of bocht met onvoldoende zicht.",
+                "Als je voorligger zelf al inhaalt: niet tripleren.",
+                "Als je voorligger stopt voor een oversteekplaats."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Geen zicht, geen inhaalmanoeuvre",
+              "tekst": "Je haalt links enkel in als je tegenliggers ver genoeg kunt zien."
+            }
+          ],
+          "theorieblokken": [
+            "inhaalverbod"
+          ]
+        },
+        {
+          "id": "h7-2-5",
+          "titel": "Borden met inhaalverbod",
+          "intro": "Twee borden verbieden het inhalen, en twee borden heffen het weer op.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "C35",
+                  "naam": "Verbod links in te halen",
+                  "uitleg": "Geldt voor voertuigen met meer dan twee wielen en gespannen.",
+                  "letop": "Het verbod loopt tot en met het volgende kruispunt."
+                },
+                {
+                  "afb": "C37",
+                  "naam": "Einde van het inhaalverbod",
+                  "uitleg": "Je mag weer links inhalen."
+                },
+                {
+                  "afb": "C39",
+                  "naam": "Inhaalverbod voor goederenvoertuigen",
+                  "uitleg": "Geldt voor goederenvoertuigen en combinaties boven 3.500 kg.",
+                  "letop": "Het verbod loopt tot en met het volgende kruispunt."
+                },
+                {
+                  "afb": "C41",
+                  "naam": "Einde van het inhaalverbod voor goederenvoertuigen",
+                  "uitleg": "Het inhaalverbod voor zware voertuigen stopt hier."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Het ene bord geldt voor voertuigen met meer dan twee wielen.",
+                "Het andere bord geldt voor zware goederenvoertuigen.",
+                "Elk bord heeft een eigen bord dat het verbod opheft."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Let op wie het verbod treft",
+              "tekst": "Lees goed voor welke voertuigen het bord geldt voordat je beslist of je mag inhalen."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "7.3",
+      "titel": "Seinen en van richting veranderen",
+      "paginas": [
+        {
+          "id": "h7-3-1",
+          "titel": "Richtingaanwijzers",
+          "intro": "Met je richtingaanwijzer kondig je tijdig aan wat je gaat doen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Sein vóór de beweging begint.",
+                "Stop met seinen zodra de beweging klaar is.",
+                "Een richtingaanwijzer geeft jou geen voorrang.",
+                "Zonder richtingaanwijzers geef je indien mogelijk een armteken."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Manoeuvre",
+                "Sein"
+              ],
+              "rijen": [
+                [
+                  "Links inhalen",
+                  "Links, tijdig"
+                ],
+                [
+                  "Terugkeren naar rechts na het inhalen",
+                  "Rechts"
+                ],
+                [
+                  "Rechts afslaan",
+                  "Rechts"
+                ],
+                [
+                  "Links afslaan",
+                  "Links"
+                ],
+                [
+                  "Een rotonde oprijden",
+                  "Geen sein"
+                ],
+                [
+                  "Een rotonde verlaten",
+                  "Rechts"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Alarmlichten",
+              "tekst": "Alle richtingaanwijzers tegelijk gebruik je enkel in de voorziene gevallen of om te waarschuwen voor dreigend gevaar."
+            }
+          ],
+          "theorieblokken": [
+            "richtingaanwijzers-gebruik"
+          ]
+        },
+        {
+          "id": "h7-3-2",
+          "titel": "Rechts en links afslaan",
+          "intro": "Vergewis je eerst dat afslaan veilig kan, ook voor wie achter je rijdt.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Afslag",
+                "Waar rijd je?"
+              ],
+              "rijen": [
+                [
+                  "Rechts",
+                  "Zo dicht mogelijk bij de rechterkant, korte bocht"
+                ],
+                [
+                  "Links op een tweerichtingsweg",
+                  "Links van de middenlijn, tegenliggers niet hinderen"
+                ],
+                [
+                  "Links op een eenrichtingsweg",
+                  "Zo dicht mogelijk bij de linkerrand"
+                ]
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-afslaan-voetgangers",
+              "bijschrift": "Wie afslaat, wacht op voetgangers en fietsers die de zijstraat oversteken.",
+              "punten": [
+                "Neem de bocht met matige snelheid.",
+                "Verleen voorrang aan tegenliggers."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Voorrang aan voetgangers",
+              "tekst": "Wie afslaat, laat voetgangers voorgaan die de weg oversteken waar hij gaat binnenrijden."
+            }
+          ],
+          "theorieblokken": [
+            "richting-wijzigen-afslaan"
+          ]
+        },
+        {
+          "id": "h7-3-3",
+          "titel": "Voorsorteren",
+          "intro": "Voorsorteren is tijdig de juiste rijstrook kiezen voor je richting.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Kies je rijstrook ruim voor het kruispunt.",
+                "Volg de markeringen en de borden boven of langs de rijstroken.",
+                "Op een rotonde sein je enkel bij het verlaten."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Richting",
+                "Rijstrook"
+              ],
+              "rijen": [
+                [
+                  "Rechts",
+                  "Rechterrand of rechterstrook"
+                ],
+                [
+                  "Links op een tweerichtingsweg",
+                  "Links van de middenlijn, tegenliggers niet hinderen"
+                ],
+                [
+                  "Links op een eenrichtingsweg",
+                  "Zo dicht mogelijk bij de linkerrand"
+                ],
+                [
+                  "Rechtdoor",
+                  "Volgens de pijlen en borden"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Tijdig kiezen",
+              "tekst": "Kies je rijstrook ruim voor het kruispunt en pas dan aan het verkeer aan."
+            }
+          ],
+          "theorieblokken": [
+            "voorsorteren"
+          ]
+        },
+        {
+          "id": "h7-3-4",
+          "titel": "Van rijstrook veranderen",
+          "intro": "Van rijstrook veranderen is een manoeuvre, dus je geeft voorrang.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Je geeft voorrang aan wie op de andere rijstrook rijdt.",
+                "Kijk in je spiegels en over je schouder.",
+                "Geef tijdig een richtingaanwijzer.",
+                "Een onderbroken streep mag je overschrijden, een doorlopende niet."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "De juiste volgorde",
+              "tekst": "Eerst spiegel, dan richtingaanwijzer, dan schouderblik, en pas dan beweeg je."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je wilt naar de linkerstrook. Je kijkt in de spiegel, zet je sein aan, kijkt over je schouder en wacht tot er plaats is."
+            }
+          ],
+          "theorieblokken": [
+            "van-rijstrook-veranderen"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "7.4",
+      "titel": "Bij file",
+      "paginas": [
+        {
+          "id": "h7-4-1",
+          "titel": "De reddingsstrook",
+          "intro": "Bij file vorm je een vrije strook voor de hulpdiensten.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Verplicht op elke weg met minstens twee rijstroken in dezelfde richting.",
+                "Ook binnen de bebouwde kom.",
+                "Vanaf het begin van de file, niet pas bij een sirene.",
+                "Blijf op de rijbaan."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-reddingsstrook-2",
+              "bijschrift": "Bij twee rijstroken rijdt links uiterst links en rechts uiterst rechts.",
+              "punten": [
+                "Zo ontstaat in het midden een vrije strook."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-reddingsstrook-3",
+              "bijschrift": "Bij drie of meer rijstroken gaat links uiterst links en gaan alle andere uiterst rechts.",
+              "punten": [
+                "Alleen de linkse strook gaat naar links."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Vorm de strook meteen",
+              "tekst": "Je rijdt niet op de pechstrook of het fietspad, tenzij er niets anders kan wanneer een hulpdienst van achter nadert."
+            }
+          ],
+          "theorieblokken": [
+            "plaats-reddingsstrook-file"
+          ]
+        },
+        {
+          "id": "h7-4-2",
+          "titel": "Ritsen",
+          "intro": "Ritsen is verplicht bij sterk vertraagd verkeer als een rijstrook eindigt.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-ritsen",
+              "bijschrift": "Vier auto's voegen om beurten in vlak voor de versmalling.",
+              "punten": [
+                "Rij door tot vlak voor de versmalling.",
+                "Daar laat je beurtelings één voertuig voor."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Ritsen geldt voor alle bestuurders, ook zonder bord.",
+                "Het geldt vanaf twee rijstroken in dezelfde richting.",
+                "Zijn beide stroken geblokkeerd: eerst rechts, dan links.",
+                "Een inhaalverbod houdt het ritsen niet tegen.",
+                "Bij het oprijden van de autosnelweg ritsen we niet."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Te vroeg invoegen",
+              "tekst": "Voeg in bij de versmalling zelf en niet al 100 meter ervoor."
+            }
+          ],
+          "theorieblokken": [
+            "ritsen"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "7.5",
+      "titel": "Stilstaan en parkeren",
+      "paginas": [
+        {
+          "id": "h7-5-1",
+          "titel": "Stilstaan of parkeren: het verschil",
+          "intro": "Stilstaan en parkeren zijn niet hetzelfde, want de verboden verschillen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Stilstaan: niet langer dan nodig voor in- of uitstappen of laden.",
+                "Parkeren: langer stilstaan dan dat.",
+                "Tanken of een elektrische auto opladen telt als parkeren."
+              ]
+            },
+            {
+              "type": "vergelijk",
+              "titel": "Twee verbodsborden",
+              "links": {
+                "afb": "E1",
+                "tekst": "Parkeerverbod: kort stilstaan mag nog."
+              },
+              "rechts": {
+                "afb": "E3",
+                "tekst": "Stilstaan- en parkeerverbod: geen van beide mag."
+              },
+              "verschil": "Bij het parkeerverbod mag je nog kort stilstaan, bij het andere bord niet."
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Jij blijft verantwoordelijk",
+              "tekst": "Je voertuig stilzetten mag nooit gevaar of onnodige hinder voor anderen veroorzaken."
+            }
+          ],
+          "theorieblokken": [
+            "stilstaan-parkeren-definities"
+          ]
+        },
+        {
+          "id": "h7-5-2",
+          "titel": "Hoe en waar parkeer je?",
+          "intro": "Je parkeert rechts in je rijrichting en in één rij.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-parkeren-rijbaan",
+              "bijschrift": "Op de rijbaan sta je rechts, zo ver mogelijk van de middenlijn en in één rij.",
+              "punten": [
+                "Sta evenwijdig met de rand van de weg.",
+                "Dubbel parkeren is niet toegelaten."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-parkeren-berm",
+              "bijschrift": "Op de berm laat je minstens 1,50 meter vrij voor voetgangers.",
+              "punten": [
+                "Parkeer bij voorkeur naast de rijbaan, op een gelijkgrondse berm."
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Op een eenrichtingsweg mag je aan beide kanten staan.",
+                "Is de berm te smal, dan sta je deels op de rijbaan.",
+                "Fietsen en bromfietsen staan buiten de rijbaan, zonder te hinderen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Geen onnodige hinder",
+              "tekst": "Ook zonder verbod parkeer je nooit zo dat anderen onnodig gehinderd worden."
+            }
+          ],
+          "theorieblokken": [
+            "parkeren-plaats-en-manier"
+          ]
+        },
+        {
+          "id": "h7-5-3",
+          "titel": "Waar mag je niet stilstaan? Deel 1",
+          "intro": "Op sommige plaatsen mag je niet stilstaan en ook niet parkeren.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Op het trottoir en op verhoogde bermen in de bebouwde kom.",
+                "Op een fietspad.",
+                "Minder dan 5 meter vóór waar fietsers het fietspad op- of afrijden.",
+                "Op een overweg.",
+                "Op een oversteekplaats en op minder dan 5 meter ervoor."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-stilstaanverbod-zebrapad",
+              "bijschrift": "Op en minder dan 5 meter voor een zebrapad mag je niet stilstaan of parkeren.",
+              "punten": [
+                "De 5 meter geldt op de rijbaan vóór het zebrapad."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Plaatselijke regels",
+              "tekst": "Veel verboden gelden behoudens plaatselijke regels, dus volg altijd de borden en markeringen ter plaatse."
+            }
+          ],
+          "theorieblokken": [
+            "stilstaan-parkeerverbod-plaatsen"
+          ]
+        },
+        {
+          "id": "h7-5-4",
+          "titel": "Waar mag je niet stilstaan? Deel 2",
+          "intro": "Ook bij kruispunten, lichten en plaatsen met weinig zicht mag je niet stilstaan.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Op een kruispunt en minder dan 5 meter van de kruisende rijbaanrand.",
+                "Op minder dan 20 meter vóór verkeerslichten.",
+                "Op de rijbaan in een tunnel, een onderdoorgang of onder een brug.",
+                "Op de rijbaan bij een heuvelkruin of in een bocht zonder zicht."
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-parkeerafstanden",
+              "bijschrift": "Rode zones tonen de afstanden: 5 meter bij het zebrapad en 20 meter bij verkeerslichten.",
+              "punten": [
+                "Het schema toont ook de afstanden bij een halte."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Onthoud de afstanden",
+              "tekst": "Vijf meter bij een oversteekplaats en een kruispunt, twintig meter bij verkeerslichten."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h7-5-5",
+          "titel": "Waar mag je niet parkeren?",
+          "intro": "Op deze plaatsen mag je nog kort stilstaan, maar niet parkeren.",
+          "blokken": [
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Plaats",
+                "Wat geldt?"
+              ],
+              "rijen": [
+                [
+                  "Bij een ander voertuig",
+                  "Minder dan 1 meter ervoor of erachter"
+                ],
+                [
+                  "Bij een bus-, trolleybus- of tramhalte",
+                  "Minder dan 15 meter aan weerszijden van het haltebord"
+                ],
+                [
+                  "Voor een oprit",
+                  "Verboden, tenzij je nummerplaat leesbaar zichtbaar is vanaf de oprit"
+                ],
+                [
+                  "Als de vrije rijbaan smaller dan 3 meter blijft",
+                  "Verboden"
+                ],
+                [
+                  "Langs een gele onderbroken streep op de rijbaanrand",
+                  "Verboden"
+                ]
+              ]
+            },
+            {
+              "type": "schema",
+              "afb": "schema-gele-streep",
+              "bijschrift": "Een auto die langs de gele onderbroken streep staat, parkeert fout.",
+              "punten": [
+                "Kort stilstaan mag er nog."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Bijzondere plaatsen",
+              "tekst": "Op plaatsen voor personen met een handicap parkeer je enkel met de bijhorende kaart."
+            }
+          ],
+          "theorieblokken": [
+            "parkeerverbod-plaatsen"
+          ]
+        },
+        {
+          "id": "h7-5-6",
+          "titel": "Parkeerborden",
+          "intro": "Een bord langs de weg zegt je of je er mag stilstaan of parkeren.",
+          "blokken": [
+            {
+              "type": "kaarten",
+              "items": [
+                {
+                  "afb": "E1",
+                  "naam": "Parkeerverbod",
+                  "uitleg": "Je mag hier niet parkeren.",
+                  "letop": "Kort stilstaan mag nog."
+                },
+                {
+                  "afb": "E3",
+                  "naam": "Stilstaan en parkeren verboden",
+                  "uitleg": "Je mag hier niet stilstaan en niet parkeren."
+                },
+                {
+                  "afb": "E5",
+                  "naam": "Parkeerverbod van de 1e tot de 15e",
+                  "uitleg": "Van de 1e tot de 15e mag je hier niet parkeren."
+                },
+                {
+                  "afb": "E7",
+                  "naam": "Parkeerverbod van de 16e tot het einde van de maand",
+                  "uitleg": "Van de 16e tot het einde van de maand: niet parkeren."
+                },
+                {
+                  "afb": "E11",
+                  "naam": "Halfmaandelijks parkeren in de hele bebouwde kom",
+                  "uitleg": "De wissel van de maandhelft geldt in de hele bebouwde kom."
+                }
+              ]
+            },
+            {
+              "type": "punten",
+              "items": [
+                "Het bord geldt aan de kant waar het staat.",
+                "Het geldt tot het volgende kruispunt of tot een bord einde.",
+                "Een onderbord kan de regel verfijnen.",
+                "Een brede witte doorlopende streep kan een deel voor parkeren afbakenen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Geldigheid van het bord",
+              "tekst": "Het bord geldt aan de kant van de weg waar het staat, tot het volgende kruispunt of tot een bord einde."
+            }
+          ],
+          "theorieblokken": [
+            "parkeerborden-en-markeringen"
+          ]
+        },
+        {
+          "id": "h7-5-7",
+          "titel": "Blauwe zone en betalend parkeren",
+          "intro": "Op sommige plaatsen moet je een parkeerschijf leggen of betalen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "In een blauwe zone leg je de parkeerschijf achter de voorruit.",
+                "Is de toegestane tijd om, dan moet je vertrekken.",
+                "Motorfietsen hebben in een blauwe zone geen parkeerschijf nodig."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "Blauwe zone",
+                  "Parkeerschijf achter de voorruit"
+                ],
+                [
+                  "Betalende zone",
+                  "Betalen aan de parkeerautomaat of met een kaart"
+                ],
+                [
+                  "Defecte parkeerautomaat",
+                  "Parkeerschijf gebruiken"
+                ],
+                [
+                  "Plaats voor personen met een handicap",
+                  "Speciale kaart achter de voorruit vervangt de schijf"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "De schijf verdraaien",
+              "tekst": "Een valse aanduiding op de parkeerschijf is verboden."
+            }
+          ],
+          "theorieblokken": [
+            "blauwe-zone-betalend-parkeren"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "7.6",
+      "titel": "Keren en achteruitrijden",
+      "paginas": [
+        {
+          "id": "h7-6-1",
+          "titel": "Keren en achteruitrijden",
+          "intro": "Keren en achteruitrijden zijn manoeuvres, dus je geeft voorrang aan iedereen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Kies een plaats waar je goed zicht hebt.",
+                "Kijk in je spiegels en over je schouder.",
+                "Rij achteruit traag en met zicht op alle zijden.",
+                "Tijdens het achteruitrijden geldt de gordelplicht niet."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Plaats",
+                "Keren en achteruit"
+              ],
+              "rijen": [
+                [
+                  "Gewone weg",
+                  "Toegelaten als het veilig kan en je voorrang verleent"
+                ],
+                [
+                  "Over een doorlopende witte streep",
+                  "Niet toegelaten"
+                ],
+                [
+                  "Over een onderbroken witte streep",
+                  "Keren is toegelaten"
+                ],
+                [
+                  "Autosnelweg en autoweg",
+                  "Altijd verboden"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Voorrang aan iedereen",
+              "tekst": "Wie keert of achteruit rijdt, geeft voorrang aan voetgangers, fietsers en voertuigen."
+            }
+          ],
+          "theorieblokken": [
+            "keren-achteruitrijden"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "7.7",
+      "titel": "Wat verandert er in 2027?",
+      "paginas": [
+        {
+          "id": "h7-7-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 treedt de nieuwe Code van de openbare weg in werking.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De nieuwe code was voorzien voor 1 september 2026.",
+                "De start is uitgesteld tot 1 juni 2027.",
+                "Tot die datum gelden de regels uit dit boek."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderwerp",
+                "Nu",
+                "Vanaf 1 juni 2027"
+              ],
+              "rijen": [
+                [
+                  "Beurtelings parkeren",
+                  "Bestaat nog",
+                  "Wordt afgeschaft"
+                ],
+                [
+                  "Verbod links in te halen",
+                  "Voor voertuigen met meer dan twee wielen en gespannen",
+                  "Geldt ook voor motorfietsen"
+                ],
+                [
+                  "Tripleren",
+                  "Mag met minstens drie rijstroken in je richting",
+                  "Wordt strenger beperkt"
+                ],
+                [
+                  "Motorfiets op de reddingsstrook",
+                  "Enkel onder voorwaarden",
+                  "Mag de reddingsstrook gebruiken"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Nog niet van toepassing",
+              "tekst": "Voor het examen tot 1 juni 2027 leer je de regels zoals ze nu gelden."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Je rijdt zo dicht mogelijk bij de rechterrand en volgt de rijstrookmarkeringen.",
+    "Je kruist rechts en haalt links in, met tijdig sein en voldoende afstand.",
+    "Je haalt niet in zonder zicht, op kruispunten of bij een overweg zonder slagbomen.",
+    "Een richtingaanwijzer geeft geen voorrang, en keren en van rijstrook veranderen zijn manoeuvres.",
+    "Bij file vorm je een reddingsstrook en rits je vlak voor de versmalling.",
+    "Stilstaan en parkeren zijn niet hetzelfde: een parkeerverbod laat kort stilstaan nog toe.",
+    "Je parkeert rechts, in één rij en nooit met onnodige hinder.",
+    "Op de autosnelweg en autoweg is keren en achteruit rijden altijd verboden."
+  ]
+}

@@ -19,7 +19,7 @@ const bordIndex = JSON.parse(fs.readFileSync(path.join(root, 'data', 'borden-ind
 const bordOk = k => bordIndex[k] && bordIndex[k].gecontroleerd === true;
 const bestaat = (map, afb) => fs.existsSync(path.join(root, 'site', 'img', map, afb + '.svg'));
 
-const CODE = /(^|[^A-Za-z0-9])([A-F]|M|Z|G)\d{1,3}[a-z]?(\d)?(_|\b)/;
+const CODE = /(^|[^A-Za-z0-9])(?!M(12|18|36)\b)([A-F]|M|Z|G)\d{1,3}[a-z]?(\d)?(_|\b)/;
 const ARTIKEL = /\bart(ikel|\.)\s*\d/i;
 const eindigtNetjes = t => /[.?!)]$/.test(t.trim()) && !/\b(bv|o\.a|enz|etc|nr|vs)\.$/i.test(t.trim());
 const woorden = t => t.trim().split(/\s+/).length;

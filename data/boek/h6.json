@@ -183,7 +183,7 @@
               "tekst": "Zonder symbool, woord of onderbord mag buiten bus en tram niemand op deze stroken."
             }
           ],
-          "theorieblokken": ["openbaar-busstrook", "openbaar-bob", "openbaar-borden-overzicht"]
+          "theorieblokken": ["openbaar-busstrook", "openbaar-bob", "openbaar-borden-overzicht", "plaats-busstrook"]
         },
         {
           "id": "h6-2-2",

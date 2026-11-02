@@ -1,0 +1,865 @@
+{
+  "hoofdstuk": 10,
+  "titel": "Ongeval en EHBO",
+  "les": 4,
+  "intro": {
+    "tekst": "Een ongeval kan iedereen overkomen. In dit hoofdstuk leer je wat je doet, in welke volgorde en wie je belt.",
+    "doelen": [
+      "Je kent het stappenplan bij een ongeval.",
+      "Je weet wanneer en waar je de gevarendriehoek plaatst.",
+      "Je weet welke nummers je belt en wat je zegt.",
+      "Je kent de basis van eerste hulp.",
+      "Je weet wat je doet bij een aanrijding met enkel blikschade."
+    ]
+  },
+  "paragrafen": [
+    {
+      "nr": "10.1",
+      "titel": "Het stappenplan en je plichten",
+      "paginas": [
+        {
+          "id": "h10-1-1",
+          "titel": "Het stappenplan bij een ongeval",
+          "intro": "Bij een ongeval ga je rustig en in vaste volgorde te werk.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Stap 1: beveilig de plaats.",
+                "Stap 2: breng mensen in veiligheid.",
+                "Stap 3: alarmeer 112.",
+                "Stap 4: verleen eerste hulp.",
+                "Stap 5: blijf ter plaatse."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Eerst zorg je dat er niet nog meer slachtoffers vallen, dan roep je hulp, en pas dan help je zelf verder."
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Veiligheid is een plicht",
+              "tekst": "Iedereen die bij een ongeval betrokken is, moet de nodige maatregelen nemen om de veiligheid en vlotheid van het verkeer te verzekeren."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-stappenplan"
+          ]
+        },
+        {
+          "id": "h10-1-2",
+          "titel": "Stap 1 en 2: beveiligen",
+          "intro": "Eerst maak je de plaats van het ongeval veilig.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Zet je voertuig veilig of scherm het verkeer ermee af.",
+                "Schakel de alarmlichten in.",
+                "Draag een fluohesje.",
+                "Plaats zo nodig de gevarendriehoek.",
+                "Laat passagiers en omstanders uit de gevarenzone gaan."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Wacht met passagiers en omstanders op een veilige plaats, bijvoorbeeld achter de vangrail."
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Voertuig niet verplaatsen bij gewonden",
+              "tekst": "Is er lichamelijk letsel, dan mag je het voertuig niet verplaatsen; pas bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h10-1-3",
+          "titel": "Je plichten na een ongeval",
+          "intro": "Welke plichten je hebt, hangt af van het soort ongeval.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Zorg altijd voor de veiligheid van het verkeer.",
+                "Toon je identiteitskaart als je ouder bent dan 15.",
+                "Blijf ter plaatse tot de vaststellingen gedaan zijn.",
+                "Is er een gewonde, dan verleen of haal je hulp."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Soort ongeval",
+                "Plichten"
+              ],
+              "rijen": [
+                [
+                  "Enkel stoffelijke schade",
+                  "Veiligheid, identiteitskaart tonen, ter plaatse blijven"
+                ],
+                [
+                  "Lichamelijk letsel",
+                  "Dezelfde plichten, zo nodig hulp verlenen en het voertuig niet verplaatsen"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Even weggaan mag",
+              "tekst": "Wie tijdelijk weggaat om hulp te verlenen of de politie te bereiken, schendt de plicht om te blijven niet, als hij eerst naam en adres aan een aanwezige geeft."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-hulpverlening-blijven"
+          ]
+        },
+        {
+          "id": "h10-1-4",
+          "titel": "Aangifte bij de politie",
+          "intro": "Is er niemand te bereiken, dan doe je aangifte.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Is er niemand van de politie te bereiken, doe dan aangifte.",
+                "Ga naar het dichtstbijzijnde politiebureau of dat van je woonplaats.",
+                "Is de benadeelde niet aanwezig, geef dan naam en adres op.",
+                "Meld het zo snel mogelijk, rechtstreeks of via de politie."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Soort ongeval",
+                "Wanneer aangifte?"
+              ],
+              "rijen": [
+                [
+                  "Enkel stoffelijke schade",
+                  "Zodra mogelijk"
+                ],
+                [
+                  "Met gewonden",
+                  "Binnen 24 uur"
+                ]
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je beschadigt een geparkeerde auto en de eigenaar is er niet: geef ter plaatse zoveel mogelijk naam en adres op en meld het snel."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h10-1-5",
+          "titel": "Vluchtmisdrijf: nooit doorrijden",
+          "intro": "Na een ongeval rijd je nooit zomaar door.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Blijf ter plaatse, zeker als er gewonden zijn.",
+                "Je moet je naam en identiteit kunnen geven.",
+                "Vluchtmisdrijf is strafbaar.",
+                "Mogelijke straffen zijn gevangenisstraf, geldboete en rijverbod."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Doorrijden na een ongeval",
+              "tekst": "Niet ter plaatse blijven na een ongeval, zeker niet bij gewonden, is een zware fout omdat je gewonden zonder hulp achterlaat."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Slachtoffers van een gevluchte of onverzekerde bestuurder kunnen mogelijk terecht bij het Belgisch Gemeenschappelijk Waarborgfonds."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-vluchtmisdrijf"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "10.2",
+      "titel": "Signaleren en alarmeren",
+      "paginas": [
+        {
+          "id": "h10-2-1",
+          "titel": "De gevarendriehoek: wanneer?",
+          "intro": "De gevarendriehoek waarschuwt het naderend verkeer.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Plaats hem als je auto niet verplaatst kan worden.",
+                "Plaats hem ook als je staat waar stilstaan verboden is.",
+                "Zet hem ongeveer rechtop, tussen je voertuig en het naderend verkeer.",
+                "Naderende bestuurders moeten hem van ongeveer 50 meter zien."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je auto valt stil op een plaats waar stilstaan verboden is: dan zet je de gevarendriehoek neer."
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Ook bij defecte lichten",
+              "tekst": "Een auto of aanhangwagen met defecte verlichting die niet duidelijk zichtbaar is van op ongeveer 100 meter, moet op dezelfde manier gesignaleerd worden."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h10-2-2",
+          "titel": "De gevarendriehoek: op welke afstand?",
+          "intro": "Op de snelweg rijdt het verkeer harder, dus staat de driehoek verder.",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-gevarendriehoek-afstand",
+              "bijschrift": "Links een gewone weg met de driehoek op 30 meter, rechts een autosnelweg met de driehoek op minstens 100 meter.",
+              "punten": [
+                "Gewone weg: minstens 30 meter.",
+                "Autosnelweg: minstens 100 meter."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Wegtype",
+                "Minimale afstand"
+              ],
+              "rijen": [
+                [
+                  "Gewone weg",
+                  "30 meter"
+                ],
+                [
+                  "Autosnelweg",
+                  "100 meter"
+                ],
+                [
+                  "Bebouwde kom, waar 30 m niet kan",
+                  "Kleinere afstand, eventueel op het voertuig zelf"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Geheugensteun",
+              "tekst": "30 op de gewone weg, 100 op de autosnelweg: op de snelweg heeft het verkeer meer afstand nodig om te reageren."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-gevarendriehoek"
+          ]
+        },
+        {
+          "id": "h10-2-3",
+          "titel": "Uitrusting in de auto",
+          "intro": "In elke auto moet een minimum aan veiligheidsmateriaal zitten.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Elke auto heeft een gevaarsdriehoek.",
+                "Elke auto heeft een of twee blustoestellen.",
+                "Elke auto heeft een verbandkist of -etui.",
+                "Dit materiaal moet aan het technisch reglement voldoen."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Toebehoren",
+                "Waarvoor?"
+              ],
+              "rijen": [
+                [
+                  "Gevaarsdriehoek",
+                  "Voertuig of hindernis op afstand signaleren"
+                ],
+                [
+                  "Blustoestel",
+                  "Een beginnende brand blussen"
+                ],
+                [
+                  "Verbandkist of -etui",
+                  "Eerste hulp bij kleine verwondingen"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Blustoestel",
+              "tekst": "Een beginnende brand kan je met het blustoestel proberen te blussen, maar bij brand- of ontploffingsgevaar breng je zwaargewonden uit de gevarenzone en bel je 112."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-uitrusting"
+          ]
+        },
+        {
+          "id": "h10-2-4",
+          "titel": "Alarmlichten en fluohesje",
+          "intro": "Alarmlichten en een hesje maken jou en je auto zichtbaar.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Alarmlichten zijn alle richtingaanwijzers die tegelijk knipperen.",
+                "Je mag ook een draagbaar oranjegeel knipperlicht plaatsen.",
+                "Alarmlichten vervangen de gevarendriehoek niet.",
+                "Op een autosnelweg of autoweg draag je een fluohesje zodra je uitstapt."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Hesje aan vóór je uitstapt",
+              "tekst": "Op autosnelwegen en autowegen draag je het hesje zodra je het voertuig verlaat, dus houd het binnen handbereik en niet in de koffer."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je valt stil op de autosnelweg: alarmlichten aan, hesje aan, uitstappen en wachten achter de vangrail."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-alarmlichten-hesje"
+          ]
+        },
+        {
+          "id": "h10-2-5",
+          "titel": "Alarmnummers: 112, 100 en 101",
+          "intro": "Bij een ongeval met gewonden bel je 112.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "112 is het gratis Europese noodnummer voor ambulance en brandweer.",
+                "Het nummer 100 komt bij dezelfde noodcentrale uit.",
+                "101 is voor dringende politiehulp.",
+                "Je kan bellen met een vast toestel, een gsm of de 112-app.",
+                "Je kan ook de praatpaal langs de weg gebruiken."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Nummer",
+                "Voor wie?"
+              ],
+              "rijen": [
+                [
+                  "112",
+                  "Ambulance en brandweer, gratis"
+                ],
+                [
+                  "100",
+                  "Komt bij dezelfde noodcentrale uit als 112"
+                ],
+                [
+                  "101",
+                  "Dringende politiehulp, gratis"
+                ],
+                [
+                  "1722",
+                  "Geen noodnummer: niet-dringende brandweerinterventies bij extreem weer"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Politie rechtstreeks bellen",
+              "tekst": "Vraag je via 112 de politie, dan word je doorverbonden naar 101, dus bel bij een zuivere politievraag liefst rechtstreeks 101."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-alarmnummers"
+          ]
+        },
+        {
+          "id": "h10-2-6",
+          "titel": "Wat vertel je bij een noodoproep?",
+          "intro": "De operator stelt vragen; geef rustig en duidelijk antwoord.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Waar: de exacte locatie.",
+                "Wat: wat er gebeurd is en hoeveel voertuigen betrokken zijn.",
+                "Wie: zijn er gewonden, hoeveel en hoe zijn ze eraan toe?",
+                "Jij: wie je bent."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Op de autosnelweg geef je de kilometerpaal, de dichtstbijzijnde afrit en de rijrichting; op een gewone weg de gemeente, straat of het kruispunt."
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Niet ophangen",
+              "tekst": "Hang niet op voor de operator klaar is, want anders beland je opnieuw aan het begin van de wachtlijst."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-noodoproep"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "10.3",
+      "titel": "Eerste hulp",
+      "paginas": [
+        {
+          "id": "h10-3-1",
+          "titel": "EHBO: de vier stappen",
+          "intro": "Het Rode Kruis leert eerste hulp in vier stappen.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Stap 1: zorg voor veiligheid, van jezelf, het slachtoffer en de omstanders.",
+                "Stap 2: beoordeel de toestand van het slachtoffer.",
+                "Stap 3: alarmeer 112.",
+                "Stap 4: verleen verdere hulp.",
+                "Begin pas als de plaats beveiligd is."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "ABC",
+                "Wat controleer je?"
+              ],
+              "rijen": [
+                [
+                  "Bewustzijn",
+                  "Reageert het slachtoffer?"
+                ],
+                [
+                  "Luchtweg",
+                  "Open de luchtweg"
+                ],
+                [
+                  "Ademhaling",
+                  "Kijken, luisteren en voelen, maximaal 10 seconden"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Zwaargewonden",
+              "tekst": "Verplaats zwaargewonden niet, tenzij er brand- of ontploffingsgevaar is, en geef slachtoffers niets te eten of te drinken."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-ehbo-stappen"
+          ]
+        },
+        {
+          "id": "h10-3-2",
+          "titel": "Stabiele zijligging",
+          "intro": "Een bewusteloos slachtoffer dat normaal ademt, leg je op zijn zij.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Het slachtoffer is bewusteloos maar ademt normaal.",
+                "Zo blijft de luchtweg open.",
+                "Het slachtoffer kan niet stikken in braaksel of speeksel.",
+                "Laat 112 alarmeren.",
+                "Controleer elke minuut de ademhaling."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Een slachtoffer reageert niet maar ademt normaal: zijligging, 112 laten bellen en elke minuut de ademhaling controleren."
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Wanneer niet",
+              "tekst": "Leg een slachtoffer niet in zijligging bij vermoeden van wervelletsel, bijvoorbeeld na een zware val of botsing."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-stabiele-zijligging"
+          ]
+        },
+        {
+          "id": "h10-3-3",
+          "titel": "Reanimatie en AED",
+          "intro": "Reageert het slachtoffer niet en ademt het niet normaal, dan reanimeer je.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Alarmeer 112 en laat een AED halen.",
+                "Start met 30 borstcompressies in het midden van de borstkas.",
+                "Geef daarna 2 beademingen.",
+                "Wissel 30 borstcompressies en 2 beademingen af."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderdeel",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Verhouding",
+                  "30 borstcompressies, dan 2 beademingen"
+                ],
+                [
+                  "AED",
+                  "Activeren, aanwijzingen volgen, 2 elektroden op de ontblote borstkas"
+                ],
+                [
+                  "Tijdens analyse of schok",
+                  "Niemand raakt het slachtoffer aan"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Telefonische begeleiding",
+              "tekst": "Volg de instructies van de operator van de noodcentrale."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-reanimatie-aed"
+          ]
+        },
+        {
+          "id": "h10-3-4",
+          "titel": "Brandwonden",
+          "intro": "Bij een brandwonde koel je snel en lang.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Was of ontsmet je handen en trek handschoenen aan.",
+                "Koel de brandwonde 20 minuten met stromend water.",
+                "Bedek de wonde met verbandmateriaal.",
+                "Bij een ernstige brandwonde bel je 112.",
+                "Leg een nat verband aan of dek af met plastic folie."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "zwarefout",
+              "titel": "Geen ijs en geen zalf",
+              "tekst": "Gebruik geen ijs of ijskoud water en geen zalf, en prik blaren niet open."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je brandt je hand aan een heet voorwerp: houd de hand 20 minuten onder stromend water."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-brandwonden"
+          ]
+        },
+        {
+          "id": "h10-3-5",
+          "titel": "Ernstige bloeding en bloedneus",
+          "intro": "Bij een bloeding druk je op de wonde.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Trek handschoenen aan en laat het slachtoffer neerliggen.",
+                "Alarmeer 112.",
+                "Druk 10 minuten op de bloeding.",
+                "Gebruik een drukverband of een propere doek.",
+                "Blijf drukken tot de hulpdiensten aankomen."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Bloedneus",
+              "tekst": "Laat het slachtoffer voorovergebogen zitten en knijp de neus 10 minuten dicht."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Het slachtoffer kan zelf drukken op de bloeding als dat lukt."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-bloeding"
+          ]
+        }
+      ]
+    },
+    {
+      "nr": "10.4",
+      "titel": "Aanrijding en verzekering",
+      "paginas": [
+        {
+          "id": "h10-4-1",
+          "titel": "Het aanrijdingsformulier",
+          "intro": "Bij enkel blikschade vul je samen met de andere partij een formulier in.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Gebruik het formulier bij een aanrijding met enkel stoffelijke schade.",
+                "Je vindt het op papier of digitaal in de Crashform-app.",
+                "Vermelden van de feiten is geen erkenning van aansprakelijkheid.",
+                "De verzekeraars beslissen wie verantwoordelijk is."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderdeel",
+                "Regel"
+              ],
+              "rijen": [
+                [
+                  "Voorzijde",
+                  "Samen invullen en ondertekenen"
+                ],
+                [
+                  "Keerzijde",
+                  "Elke partij apart invullen"
+                ],
+                [
+                  "Bij onenigheid",
+                  "Eigen versie in Opmerkingen en Aansprakelijkheden"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "regel",
+              "titel": "Niet wettelijk verplicht",
+              "tekst": "Het aanrijdingsformulier is geen wettelijk verplicht boorddocument, maar wel sterk aanbevolen."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-aanrijdingsformulier"
+          ]
+        },
+        {
+          "id": "h10-4-2",
+          "titel": "Zo vul je het formulier in",
+          "intro": "Op de voorzijde noteer je de feiten, op de keerzijde je mening.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Voorzijde: datum, plaats, voertuigen, verzekeringen en bestuurders.",
+                "Noteer ook getuigen, omstandigheden, zichtbare schade en een schets.",
+                "Keerzijde: politiegegevens, technische gegevens en je eigen mening.",
+                "In de app teken je en voeg je foto's toe."
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Na ondertekening in de Crashform-app gaat het formulier naar jou, je verzekeraar en je tussenpersoon."
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Bewijs verzamelen",
+              "tekst": "Neem foto's van de situatie, de nummerplaten, de schade en relevante verkeersborden, en noteer naam en adres van getuigen."
+            }
+          ],
+          "theorieblokken": []
+        },
+        {
+          "id": "h10-4-3",
+          "titel": "Wanneer het formulier niet volstaat",
+          "intro": "Bij gewonden is een formulier alleen niet genoeg.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Zijn er gewonden, haal dan de politie erbij.",
+                "De politie maakt een proces-verbaal op.",
+                "Roep eerst hulp (112) en help de gewonden als je kan.",
+                "Komt de politie, vraag dan of ze je met het formulier helpt."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Situatie",
+                "Wat doe je?"
+              ],
+              "rijen": [
+                [
+                  "Enkel blikschade",
+                  "Formulier samen invullen"
+                ],
+                [
+                  "Gewonden",
+                  "112 bellen, politie erbij, proces-verbaal"
+                ],
+                [
+                  "Onbekende of onverzekerde tegenpartij",
+                  "Vraag uitleg aan je verzekeraar"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "tip",
+              "titel": "Schade snel melden",
+              "tekst": "Meld de schade zo snel mogelijk aan je verzekeraar, want hij neemt je schade meestal over en verhaalt ze achteraf op de aansprakelijke partij."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-formulier-wanneer-niet"
+          ]
+        },
+        {
+          "id": "h10-4-4",
+          "titel": "De BA-verzekering",
+          "intro": "Elk motorvoertuig moet verzekerd zijn voor burgerlijke aansprakelijkheid.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "De BA-verzekering is verplicht.",
+                "Ze vergoedt de schade die jij aan anderen veroorzaakt.",
+                "Je eigen schade is niet door de BA-verzekering gedekt.",
+                "Daarvoor heb je bijvoorbeeld een omnium of een bestuurdersverzekering."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Verzekering",
+                "Wat dekt ze?"
+              ],
+              "rijen": [
+                [
+                  "BA (burgerlijke aansprakelijkheid)",
+                  "Schade die jij aan anderen berokkent (verplicht)"
+                ],
+                [
+                  "Omnium",
+                  "Eigen voertuigschade, volgens contract"
+                ],
+                [
+                  "Bestuurders- of ongevallenverzekering",
+                  "Eigen letsels"
+                ]
+              ]
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Je rijdt tegen een geparkeerde auto: de BA-verzekering betaalt de schade aan die auto, niet de schade aan jouw eigen wagen."
+            }
+          ],
+          "theorieblokken": [
+            "ongeval-verzekering"
+          ]
+        },
+        {
+          "id": "h10-4-5",
+          "titel": "Verzekeringsbewijs en alcohol",
+          "intro": "Je moet kunnen bewijzen dat je verzekerd bent.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Het bewijs heet het verzekeringsbewijs, vroeger de groene kaart.",
+                "Het is een verplicht boorddocument.",
+                "Toon het bij een controle.",
+                "Het mag ook elektronisch zijn.",
+                "Het vermeldt in welke landen en welke periode je gedekt bent."
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Alcohol en verhaal",
+              "tekst": "Veroorzaak je een ongeval onder invloed, dan vergoedt de BA-verzekering nog steeds de slachtoffers, maar de verzekeraar kan het bedrag nadien op jou verhalen als hij bewijst dat je dronkenschap de oorzaak was."
+            },
+            {
+              "type": "voorbeeld",
+              "tekst": "Na zo'n ongeval zijn je eigen letsels niet gedekt en kan je premie stijgen of je polis opgezegd worden."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    },
+    {
+      "nr": "10.5",
+      "titel": "Wat verandert er in 2027?",
+      "paginas": [
+        {
+          "id": "h10-5-1",
+          "titel": "Wat verandert er in 2027?",
+          "intro": "Op 1 juni 2027 gaat de nieuwe Code van de openbare weg in.",
+          "blokken": [
+            {
+              "type": "punten",
+              "items": [
+                "Tot 1 juni 2027 gelden de regels uit dit hoofdstuk.",
+                "Volgens de nieuwe wegcode is de driehoek niet meer altijd verplicht.",
+                "Eerst gebruik je alle alarmlichten.",
+                "Kan dat niet, dan plaats je nog een driehoek.",
+                "Op autosnelwegen staat die op 100 meter."
+              ]
+            },
+            {
+              "type": "tabel",
+              "kolommen": [
+                "Onderwerp",
+                "Nu",
+                "Vanaf 1 juni 2027"
+              ],
+              "rijen": [
+                [
+                  "Gevarendriehoek",
+                  "Plaatsen als je niet weg kan",
+                  "Eerst alarmlichten, driehoek enkel als dat niet kan"
+                ]
+              ]
+            },
+            {
+              "type": "kader",
+              "soort": "letop",
+              "titel": "Leer de huidige regels",
+              "tekst": "Leer voor het examen de huidige regels, want tot 1 juni 2027 blijft de gevarendriehoek gewoon van toepassing zoals je hier leerde."
+            }
+          ],
+          "theorieblokken": []
+        }
+      ]
+    }
+  ],
+  "samenvatting": [
+    "Stappenplan: beveilig, breng mensen in veiligheid, alarmeer 112, verleen eerste hulp, blijf ter plaatse.",
+    "Gevarendriehoek: 30 meter op een gewone weg, 100 meter op de autosnelweg.",
+    "Op autosnelwegen en autowegen draag je het fluohesje zodra je uitstapt.",
+    "112 is het gratis noodnummer; 101 is voor dringende politiehulp.",
+    "Bij een noodoproep geef je waar, wat, wie en jij, en hang je niet op.",
+    "EHBO: veiligheid, toestand beoordelen, 112 alarmeren, verder helpen.",
+    "Bij enkel blikschade vul je samen het aanrijdingsformulier in; bij gewonden komt de politie.",
+    "Na een ongeval rijd je nooit door: vluchtmisdrijf is strafbaar."
+  ]
+}
