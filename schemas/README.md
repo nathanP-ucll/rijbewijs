@@ -44,3 +44,6 @@ Lijst onderwerpen met id, les, naam, thema, en checklist-vlaggen: theorie, oefen
 
 ## data/verificatie.json
 { "<oefening-id>": { "status": "ok|twijfel|fout", "opmerking": "...", "bronnen": ["url"] } }
+
+## Oefeningenmix (wens van de gebruiker)
+Voelt als een schoolboek, niet als een quiz. Per les een mix van: koppelen/verbinden (bord <-> betekenis, vaak met echte bordafbeeldingen), aankruisen (meerdere juiste antwoorden), invullen/aanvullen (invulvraag en cloze), en gewone meerkeuze (ook met afbeelding). Daarnaast de overige types als afwisseling. Richtlijn per les (25-40 oefeningen): ca. 25% koppel, 20% aankruisen/meerkeuze meerdere juist, 20% invullen/cloze, 15% gewone meerkeuze, rest situatie/hotspot/volgorde/waar-onwaar/tabel/bord. Elk theorieblok krijgt minstens 1-2 oefeningen direct erna.
