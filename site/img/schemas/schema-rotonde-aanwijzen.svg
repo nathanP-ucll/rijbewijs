@@ -15,11 +15,11 @@
 <circle cx="400" cy="340" r="74" fill="#74a85a" stroke="#d9d9d3" stroke-width="5"/>
 <g transform="translate(420 520) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#d64545" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
 <g transform="translate(550 360) rotate(90)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
-<rect x="91.6" y="502" width="286.8" height="47.76" rx="9" fill="#fff"  opacity="0.95"/>
-<text x="235" y="520" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="235" dy="0">Oprijden: je hoeft geen</tspan><tspan x="235" dy="18.88">richtingaanwijzer te gebruiken</tspan></text>
-<rect x="520.56" y="412" width="268.88" height="47.76" rx="9" fill="#ff9d00"  opacity="0.95"/>
-<text x="655" y="430" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="655" dy="0">Verlaten: je gebruikt</tspan><tspan x="655" dy="18.88">de rechter richtingaanwijzer</tspan></text>
-<line x1="655" y1="436" x2="560" y2="370" stroke="#1c2230" stroke-width="2" />
+<rect x="71.6" y="502" width="286.8" height="47.76" rx="9" fill="#fff"  opacity="0.95"/>
+<text x="215" y="520" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="215" dy="0">Oprijden: je hoeft geen</tspan><tspan x="215" dy="18.88">richtingaanwijzer te gebruiken</tspan></text>
+<line x1="600" y1="440" x2="568" y2="374" stroke="#1c2230" stroke-width="2" />
+<rect x="520.56" y="452" width="268.88" height="47.76" rx="9" fill="#ff9d00"  opacity="0.95"/>
+<text x="655" y="470" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="655" dy="0">Verlaten: je gebruikt</tspan><tspan x="655" dy="18.88">de rechter richtingaanwijzer</tspan></text>
 <rect x="0" y="0" width="800" height="66" fill="#1c2230" opacity="0.9"/>
 <text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Op de rotonde aanwijzen</tspan></text>
 <text x="400" y="57" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#d6dbe6" text-anchor="middle" ><tspan x="400" dy="0">bovenaanzicht</tspan></text>

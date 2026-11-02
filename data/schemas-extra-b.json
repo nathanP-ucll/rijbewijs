@@ -56,6 +56,14 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-nieuwe-wegcode-2027-snelweg",
+  "bestand": "img/schemas/schema-nieuwe-wegcode-2027-snelweg.svg",
+  "titel": "De nieuwe wegcode begint op 1 juni 2027",
+  "beschrijving": "Een tijdlijn. Tot 1 juni 2027 gelden de regels uit dit boek. De nieuwe Code van de openbare weg was voorzien voor 1 september 2026 en is uitgesteld tot 1 juni 2027. Onderaan staan de onderwerpen waarop de nieuwe code iets verandert.",
+  "borden": [],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-overweg-pech",
   "bestand": "img/schemas/schema-overweg-pech.svg",
   "titel": "Pech op een overweg: eerst uit, dan bellen",
@@ -77,6 +85,20 @@
   "bronnen": [
    "PLAA-001",
    "PLAA-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-pech-snelweg",
+  "bestand": "img/schemas/schema-pech-snelweg.svg",
+  "titel": "Pech op de autosnelweg: vijf stappen",
+  "beschrijving": "Bovenaanzicht van een autosnelweg met pechstrook en vangrail. Een auto staat op de pechstrook met alarmlichten aan. Een gevarendriehoek staat minstens 100 meter achter de auto. De bestuurder is uitgestapt aan de kant van de vangrail met een fluohesje en staat ver van de rijbaan. Links staat de lijst met de vijf stappen, de laatste is 112 bellen.",
+  "borden": [],
+  "theorieblok": "snelweg-pech",
+  "bronnen": [
+   "SNWG-002",
+   "SNWG-004",
+   "SNWG-007"
   ],
   "type": "uitleg"
  },
@@ -133,6 +155,64 @@
   "theorieblok": "openbaar-schoolvervoer",
   "bronnen": [
    "OPEN-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelweg-rijstroken",
+  "bestand": "img/schemas/schema-snelweg-rijstroken.svg",
+  "titel": "Autosnelweg: rijstroken en inhalen",
+  "beschrijving": "Bovenaanzicht van een autosnelweg met drie rijstroken. Een blauwe personenwagen haalt een gele auto links in en keert daarna terug naar de rechterstrook. In de middelste strook rijdt een vrachtwagen (toegelaten); in de linkerstrook staat een vrachtwagen met een rood kruis: die mag daar niet rijden.",
+  "borden": [],
+  "theorieblok": "snelweg-rijstroken-inhalen",
+  "bronnen": [
+   "SNWG-001",
+   "SNWG-002",
+   "SNWG-003"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelweg-ritsen-file",
+  "bestand": "img/schemas/schema-snelweg-ritsen-file.svg",
+  "titel": "Ritsen, oprit en file: drie situaties",
+  "beschrijving": "Drie kleine scènes. Links: een rijstrook eindigt en het verkeer is sterk vertraagd, dus de auto's ritsen en voegen beurtelings in. Midden: een auto op een oprit verleent voorrang aan het verkeer op de autosnelweg (bord voorrang verlenen). Rechts: bij file op twee rijstroken vormen de auto's een reddingsstrook waar een ziekenwagen doorrijdt.",
+  "borden": [
+   "Voorrang verlenen"
+  ],
+  "theorieblok": "snelweg-ritsen-file",
+  "bronnen": [
+   "SNWG-001",
+   "SNWG-002",
+   "SNWG-005"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelweg-toegang",
+  "bestand": "img/schemas/schema-snelweg-toegang.svg",
+  "titel": "Wie mag op de autosnelweg en de autoweg?",
+  "beschrijving": "Twee kaarten naast elkaar. Autosnelweg: toegelaten zijn motorvoertuigen die 70 km/u kunnen halen; voetgangers, fietsers, bromfietsers, dieren en landbouwvoertuigen zijn niet toegelaten (rode doorstreepte pictogrammen). Autoweg: toegelaten zijn motorvoertuigen en hun aanhangwagens; bromfietsen, landbouwvoertuigen en vierwielers zonder passagiersruimte zijn niet toegelaten.",
+  "borden": [
+   "Begin van een autosnelweg",
+   "Autoweg"
+  ],
+  "theorieblok": "snelweg-toegelaten-voertuigen",
+  "bronnen": [
+   "SNWG-001",
+   "SNWG-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-snelweg-verboden",
+  "bestand": "img/schemas/schema-snelweg-verboden.svg",
+  "titel": "Wat is op de autosnelweg en autoweg verboden?",
+  "beschrijving": "Vier verbodskaarten met een rode doorgestreepte cirkel: keren, achteruit rijden of tegen de rijrichting in rijden, stilstaan of parkeren, en een dwarsverbinding gebruiken. Onderaan staat dat je bij een gemiste afrit doorrijdt tot de volgende.",
+  "borden": [],
+  "theorieblok": "snelweg-verboden-manoeuvres",
+  "bronnen": [
+   "SNWG-001"
   ],
   "type": "uitleg"
  },

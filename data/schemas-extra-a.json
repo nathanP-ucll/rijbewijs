@@ -17,6 +17,30 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-bevoegde-personen-wie",
+  "bestand": "img/schemas/schema-bevoegde-personen-wie.svg",
+  "titel": "Wie is een bevoegde persoon?",
+  "beschrijving": "Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen op de openbare weg bewaakt of bedient. Soms ook anderen, zoals de brandweer bij een interventie.",
+  "borden": [],
+  "theorieblok": "bevoegde-personen-wie",
+  "bronnen": [
+   "LICH-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-bevoegde-seinen-overzicht",
+  "bestand": "img/schemas/schema-bevoegde-seinen-overzicht.svg",
+  "titel": "Wat de seinen van een bevoegde persoon betekenen",
+  "beschrijving": "Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Armen horizontaal: stoppen voor wie de armen dwarst. Een rood licht heen en weer zwaaien: stoppen voor wie het licht ziet.",
+  "borden": [],
+  "theorieblok": "bevoegde-personen-seinen",
+  "bronnen": [
+   "LICH-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-blauw-oranje-licht",
   "bestand": "img/schemas/schema-blauw-oranje-licht.svg",
   "titel": "Blauw of oranje knipperlicht?",
@@ -26,6 +50,30 @@
   "bronnen": [
    "VOOR-001",
    "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-bromfiets-fietspad",
+  "bestand": "img/schemas/schema-bromfiets-fietspad.svg",
+  "titel": "Bromfietsen op het fietspad",
+  "beschrijving": "Een tabel met drie rijen en twee kolommen. Weg tot 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec mogen het fietspad volgen. Weg boven 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec moeten het volgen.",
+  "borden": [],
+  "theorieblok": "bromfiets-fietspad-gebruik",
+  "bronnen": [
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-bromfiets-soorten",
+  "bestand": "img/schemas/schema-bromfiets-soorten.svg",
+  "titel": "Soorten bromfietsen en elektrische fietsen",
+  "beschrijving": "Vier kaartjes: een gewone elektrische fiets (tot 25 km/u, telt als fiets), bromfiets klasse A (maximaal 25 km/u), bromfiets klasse B (maximaal 45 km/u) en een speed pedelec (ondersteuning tot 45 km/u, telt als bromfiets).",
+  "borden": [],
+  "theorieblok": "bromfiets-klassen-speed-pedelec",
+  "bronnen": [
+   "KWET-001"
   ],
   "type": "uitleg"
  },
@@ -59,6 +107,18 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-fietsen-zonder-fietspad",
+  "bestand": "img/schemas/schema-fietsen-zonder-fietspad.svg",
+  "titel": "Fietsen zonder fietspad",
+  "beschrijving": "Twee bovenaanzichten van een straat zonder fietspad. Boven: twee fietsers rijden naast elkaar dicht bij de rechterrand van de rijbaan, dat mag. Onder: er komt een auto aan en kruisen is niet mogelijk, dus rijden de fietsers achter elkaar.",
+  "borden": [],
+  "theorieblok": "fietsers-zonder-fietspad",
+  "bronnen": [
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-geen-voorrang-rechts",
   "bestand": "img/schemas/schema-geen-voorrang-rechts.svg",
   "titel": "Wanneer geldt voorrang van rechts niet?",
@@ -76,6 +136,32 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-gelijkgesteld-voetganger-fietser",
+  "bestand": "img/schemas/schema-gelijkgesteld-voetganger-fietser.svg",
+  "titel": "Telt als voetganger of als fietser",
+  "beschrijving": "Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.",
+  "borden": [],
+  "theorieblok": "kwetsbaar-algemeen",
+  "bronnen": [
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-kinderen-oversteken",
+  "bestand": "img/schemas/schema-kinderen-oversteken.svg",
+  "titel": "Kinderen steken onverwacht over",
+  "beschrijving": "Bovenaanzicht van een straat met geparkeerde auto's langs de rand. Tussen twee geparkeerde auto's komen kinderen plots de rijbaan op. Een blauwe auto nadert en rijdt traag. Links boven het waarschuwingsbord voor een plaats waar veel kinderen komen.",
+  "borden": [
+   "Plaats waar speciaal veel kinderen komen"
+  ],
+  "theorieblok": "voetgangers-kinderen-handicap",
+  "bronnen": [
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-laagste-limiet",
   "bestand": "img/schemas/schema-laagste-limiet.svg",
   "titel": "De laagste limiet wint: weg of voertuig",
@@ -85,6 +171,20 @@
   "bronnen": [
    "SNEL-001",
    "SNEL-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-lichten-werken-borden",
+  "bestand": "img/schemas/schema-lichten-werken-borden.svg",
+  "titel": "Werkende lichten gaan voor op voorrangsborden",
+  "beschrijving": "Twee kaarten naast elkaar. Links werken de verkeerslichten (groen licht): het voorrangsbord is doorgekruist en speelt daar geen rol. Rechts zijn de lichten uitgevallen (alle lampen uit): het voorrangsbord en de regels gelden weer.",
+  "borden": [
+   "Voorrang verlenen"
+  ],
+  "theorieblok": "lichten-rangorde",
+  "bronnen": [
+   "LICH-001"
   ],
   "type": "uitleg"
  },
@@ -124,6 +224,18 @@
   "bronnen": [
    "VOOR-001",
    "VOOR-002"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-oranje-doorrijden",
+  "bestand": "img/schemas/schema-oranje-doorrijden.svg",
+  "titel": "Oranje: in de regel stoppen",
+  "beschrijving": "Een rijbaan met een stopstreep en een verkeerslicht dat oranje is. Een blauwe auto is nog ver van de streep en kan veilig stoppen: hij stopt. Een rode auto is vlak bij de streep en kan niet meer veilig stoppen: hij rijdt door. Gas geven om oranje te halen is fout.",
+  "borden": [],
+  "theorieblok": "lichten-oranje-doorrijden",
+  "bronnen": [
+   "LICH-001"
   ],
   "type": "uitleg"
  },
@@ -199,6 +311,20 @@
    "SNEL-001",
    "SNEL-003",
    "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-veilig-oversteken",
+  "bestand": "img/schemas/schema-veilig-oversteken.svg",
+  "titel": "Veilig oversteken als voetganger",
+  "beschrijving": "Bovenaanzicht van een straat met aan de rechterkant een zebrapad. Links steekt een voetganger haaks over (goed). In het midden steekt een voetganger schuin over vlak bij het zebrapad (fout). Rechts gebruikt een voetganger het zebrapad.",
+  "borden": [
+   "Oversteekplaats voor voetgangers"
+  ],
+  "theorieblok": "voetganger-oversteken",
+  "bronnen": [
+   "KWET-001"
   ],
   "type": "uitleg"
  },
@@ -293,6 +419,31 @@
    "SNEL-001",
    "SNEL-003",
    "SNEL-007"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-wegcode-2027",
+  "bestand": "img/schemas/schema-wegcode-2027.svg",
+  "titel": "Van het huidige reglement naar nieuwe codes op 1 juni 2027",
+  "beschrijving": "Een tijdlijn. Links: nu geldt het huidige verkeersreglement. Rechts: vanaf 1 juni 2027 komen een federale code en een Vlaamse, Brusselse en Waalse code. Voor een examen vandaag gelden de regels van nu; controleer vlak voor je examen welke code geldt.",
+  "borden": [],
+  "theorieblok": "lichten-wijzigingen-2027",
+  "bronnen": [
+   "LICH-001",
+   "KWET-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-zebrapad-situaties",
+  "bestand": "img/schemas/schema-zebrapad-situaties.svg",
+  "titel": "Het zebrapad en jij als bestuurder",
+  "beschrijving": "Drie kleine scènes. Zebrapad zonder agent of licht: matig naderen en voorrang geven. Voetganger is al bezig terwijl jouw licht groen wordt: laat hem uitlopen. Het licht of de agent sluit jouw richting: stop voor het zebrapad. Onderaan: extra attent bij een bus of grote auto voor het zebrapad.",
+  "borden": [],
+  "theorieblok": "zebrapad-voorrang-bestuurder",
+  "bronnen": [
+   "KWET-001"
   ],
   "type": "uitleg"
  }

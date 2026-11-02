@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Autosnelweg: rijstroken en inhalen</title>
+<desc id="d">Bovenaanzicht van een autosnelweg met drie rijstroken. Een blauwe personenwagen haalt een gele auto links in en keert daarna terug naar de rechterstrook. In de middelste strook rijdt een vrachtwagen (toegelaten); in de linkerstrook staat een vrachtwagen met een rood kruis: die mag daar niet rijden.</desc>
+<defs><marker id="ah2f6fd6" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#2f6fd6"/></marker></defs>
+<rect width="800" height="600" fill="#86b96b"/>
+<rect x="50" y="48" width="300" height="552" fill="#4a4f57" />
+<line x1="50" y1="48" x2="50" y2="600" stroke="#fff" stroke-width="4" />
+<line x1="350" y1="48" x2="350" y2="600" stroke="#fff" stroke-width="4" />
+<line x1="150" y1="48" x2="150" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="22 18"/>
+<line x1="250" y1="48" x2="250" y2="600" stroke="#fff" stroke-width="3" stroke-dasharray="22 18"/>
+<rect x="68.6" y="77" width="62.8" height="28.88" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="100" y="95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="100" dy="0">links</tspan></text>
+<rect x="164.12" y="77" width="71.76" height="28.88" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="200" y="95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="200" dy="0">midden</tspan></text>
+<rect x="264.12" y="77" width="71.76" height="28.88" rx="9" fill="#ffffff"  opacity="0.95"/>
+<text x="300" y="95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="300" dy="0">rechts</tspan></text>
+<g transform="translate(200 260) rotate(0)"><rect x="-19" y="-58" width="38" height="28" rx="6" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-13" y="-52" width="26" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-21" y="-28" width="42" height="86" rx="3" fill="#f1f1ee" stroke="#1c2230" stroke-width="2.5"/></g>
+<circle cx="262" cy="215" r="15" fill="#1f9d55" stroke="#fff" stroke-width="2.5"/>
+<path d="M255.25,215 L259.75,220.4 L268.75,210.28" fill="none" stroke="#fff" stroke-width="3.75" stroke-linecap="round" stroke-linejoin="round"/>
+<g transform="translate(100 470) rotate(0)"><rect x="-19" y="-58" width="38" height="28" rx="6" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-13" y="-52" width="26" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.2"/><rect x="-21" y="-28" width="42" height="86" rx="3" fill="#f1f1ee" stroke="#1c2230" stroke-width="2.5"/></g>
+<g stroke="#d63a3a" stroke-width="14" stroke-linecap="round" opacity="0.92"><line x1="72" y1="442" x2="128" y2="498"/><line x1="128" y1="442" x2="72" y2="498"/></g>
+<g transform="translate(300 320) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#f0b429" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(300 530) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><circle cx="-15" cy="-27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/><circle cx="-15" cy="27" r="5" fill="#ff9d00" stroke="#fff" stroke-width="1.5"/></g>
+<path d="M300,490 C300,420 100,430 100,360 L100,200 C100,140 300,150 300,100" fill="none" stroke="#fff" stroke-width="9" stroke-linecap="round" stroke-linejoin="round" opacity="0.75"/>
+<path d="M300,490 C300,420 100,430 100,360 L100,200 C100,140 300,150 300,100" fill="none" stroke="#2f6fd6" stroke-width="5" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="11 8" marker-end="url(#ah2f6fd6)"/>
+<rect x="385" y="70" width="405" height="520" rx="14" fill="rgba(255,255,255,.95)" stroke="#c9d1de" stroke-width="2"/>
+<rect x="402" y="92" width="8" height="132" rx="4" fill="#1f9d55"/>
+<text x="424" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="424" dy="0">Personenwagen</tspan></text>
+<text x="424" y="149" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#5b6577" text-anchor="start" ><tspan x="424" dy="0">Rechterrijstrook. Links enkel om</tspan><tspan x="424" dy="18.88">in te halen, daarna terug naar</tspan><tspan x="424" dy="18.88">rechts.</tspan></text>
+<rect x="402" y="252" width="8" height="132" rx="4" fill="#f08a1c"/>
+<text x="424" y="278" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="424" dy="0">Bus, autocar en voertuigen</tspan><tspan x="424" dy="22.42">boven 3,5 ton</tspan></text>
+<text x="424" y="332" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#5b6577" text-anchor="start" ><tspan x="424" dy="0">Bij drie of meer rijstroken</tspan><tspan x="424" dy="18.88">enkel de twee rechtse</tspan><tspan x="424" dy="18.88">rijstroken.</tspan></text>
+<rect x="402" y="412" width="8" height="132" rx="4" fill="#d63a3a"/>
+<text x="424" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="424" dy="0">Middenstrookrijden</tspan></text>
+<text x="424" y="469" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#5b6577" text-anchor="start" ><tspan x="424" dy="0">Op de middelste strook blijven</tspan><tspan x="424" dy="18.88">rijden terwijl rechts vrij is,</tspan><tspan x="424" dy="18.88">is een overtreding.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Autosnelweg: rechts rijden, links inhalen</tspan></text>
+</svg>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Bromfietsen op het fietspad</title>
+<desc id="d">Een tabel met drie rijen en twee kolommen. Weg tot 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec mogen het fietspad volgen. Weg boven 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec moeten het volgen.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="284" y="72" width="246" height="62" rx="14" fill="#1c2230" stroke="#1c2230" stroke-width="2.5" />
+<text x="407" y="111" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="407" dy="0">Weg tot 50 km/u</tspan></text>
+<rect x="540" y="72" width="236" height="62" rx="14" fill="#1c2230" stroke="#1c2230" stroke-width="2.5" />
+<text x="658" y="111" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="658" dy="0">Weg boven 50 km/u</tspan></text>
+<rect x="24" y="148" width="250" height="108" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(64 202) scale(1.3)" fill="none" stroke="#1c2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1c2230" stroke="none"/></g>
+<text x="100" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="100" dy="0">Bromfiets klasse A</tspan></text>
+<rect x="284" y="148" width="246" height="108" rx="14" fill="#2d57a8" stroke="#1c2230" stroke-width="2.5" />
+<text x="407" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="407" dy="0">fietspad volgen</tspan></text>
+<rect x="540" y="148" width="236" height="108" rx="14" fill="#2d57a8" stroke="#1c2230" stroke-width="2.5" />
+<text x="658" y="210" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="658" dy="0">fietspad volgen</tspan></text>
+<rect x="24" y="268" width="250" height="108" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(64 322) scale(1.3)" fill="none" stroke="#1c2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1c2230" stroke="none"/></g>
+<text x="100" y="330" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="100" dy="0">Bromfiets klasse B</tspan></text>
+<rect x="284" y="268" width="246" height="108" rx="14" fill="#1f9d55" stroke="#1c2230" stroke-width="2.5" />
+<text x="407" y="318" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="407" dy="0">mag het</tspan><tspan x="407" dy="24.78">fietspad volgen</tspan></text>
+<rect x="540" y="268" width="236" height="108" rx="14" fill="#2d57a8" stroke="#1c2230" stroke-width="2.5" />
+<text x="658" y="318" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="658" dy="0">moet het</tspan><tspan x="658" dy="24.78">fietspad volgen</tspan></text>
+<rect x="24" y="388" width="250" height="108" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(64 442) scale(1.3)" fill="none" stroke="#1c2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1c2230" stroke="none"/></g>
+<text x="100" y="450" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="100" dy="0">Speed pedelec</tspan></text>
+<rect x="284" y="388" width="246" height="108" rx="14" fill="#1f9d55" stroke="#1c2230" stroke-width="2.5" />
+<text x="407" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="407" dy="0">mag het</tspan><tspan x="407" dy="24.78">fietspad volgen</tspan></text>
+<rect x="540" y="388" width="236" height="108" rx="14" fill="#2d57a8" stroke="#1c2230" stroke-width="2.5" />
+<text x="658" y="438" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="658" dy="0">moet het</tspan><tspan x="658" dy="24.78">fietspad volgen</tspan></text>
+<text x="400" y="540" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Bromfiets klasse B en speed pedelec: tot en met 50 km/u mag het, erboven moet het.</tspan></text>
+<text x="400" y="566" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Is er geen bruikbaar fietspad, dan volg je de rijbaan.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Bromfietsen op het fietspad</tspan></text>
+</svg>

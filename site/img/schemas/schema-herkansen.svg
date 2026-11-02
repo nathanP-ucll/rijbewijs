@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 462" width="800" height="462" role="img" aria-labelledby="t d">
+<title id="t">Gezakt? Herkansen en geldigheid</title>
+<desc id="d">Een reeks van vijf mislukte pogingen met drie gevolgen. Na 2 keer: 12 uur theorieopleiding en een getuigschrift voor je derde poging. Na 4 keer: je volgt die lessen niet opnieuw. Na 5 keer: je kan ook zonder attest een vertraagd examen vragen. Onderaan: een geslaagd theorie-examen blijft 3 jaar geldig.</desc>
+
+<rect width="800" height="462" fill="#fffdf7"/>
+<rect x="215.64" y="62.5" width="368.72" height="31" rx="15.5" fill="#1c2230"/>
+<text x="400" y="83.95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Herkansen kan, maar niet op dezelfde dag</tspan></text>
+<line x1="70" y1="142" x2="730" y2="142" stroke="#8a8f98" stroke-width="5" stroke-linecap="round"/>
+<circle cx="110" cy="142" r="26" fill="#fff" stroke="#8a8f98" stroke-width="4"/>
+<text x="110" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#4d5668" text-anchor="middle"><tspan x="110" dy="0">1</tspan></text>
+<circle cx="255" cy="142" r="26" fill="#d63a3a" stroke="#fff" stroke-width="4"/>
+<text x="255" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="255" dy="0">2</tspan></text>
+<circle cx="400" cy="142" r="26" fill="#fff" stroke="#8a8f98" stroke-width="4"/>
+<text x="400" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">3</tspan></text>
+<circle cx="545" cy="142" r="26" fill="#d63a3a" stroke="#fff" stroke-width="4"/>
+<text x="545" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="545" dy="0">4</tspan></text>
+<circle cx="690" cy="142" r="26" fill="#d63a3a" stroke="#fff" stroke-width="4"/>
+<text x="690" y="150" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="690" dy="0">5</tspan></text>
+<text x="400" y="192" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">aantal mislukte pogingen</tspan></text>
+<rect x="30" y="216" width="238.67" height="172.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="212" width="238.67" height="172.32" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="3"/>
+<g transform="translate(121.33 222) scale(0.52)"><path d="M10 20 Q30 12 50 22 Q70 12 90 20 V82 Q70 74 50 84 Q30 74 10 82 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 22 V84" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M20 34 Q32 30 42 36 M20 48 Q32 44 42 50 M58 36 Q68 30 80 34 M58 50 Q68 44 80 48" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="147.33" y="300.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#2f6fd6" text-anchor="middle"><tspan x="147.33" dy="0">Na 2 keer</tspan></text>
+<text x="147.33" y="322.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="147.33" dy="0">12 uur theorieopleiding en</tspan><tspan x="147.33" dy="19.52">een getuigschrift voor je 3de</tspan><tspan x="147.33" dy="19.52">poging.</tspan></text>
+<rect x="282.67" y="216" width="238.67" height="172.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="280.67" y="212" width="238.67" height="172.32" rx="14" fill="#fff" stroke="#f08a1c" stroke-width="3"/>
+<g transform="translate(374 222) scale(0.52)"><path d="M20 52 L42 74 L82 28" fill="none" stroke="#2f9e5a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="400" y="300.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#f08a1c" text-anchor="middle"><tspan x="400" dy="0">Na 4 keer</tspan></text>
+<text x="400" y="322.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Je moet die lessen niet</tspan><tspan x="400" dy="19.52">opnieuw volgen.</tspan></text>
+<rect x="535.33" y="216" width="238.67" height="172.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="533.33" y="212" width="238.67" height="172.32" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="3"/>
+<g transform="translate(626.67 222) scale(0.52)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="652.67" y="300.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#2f9e5a" text-anchor="middle"><tspan x="652.67" dy="0">Na 5 keer</tspan></text>
+<text x="652.67" y="322.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="652.67" dy="0">Je kan ook zonder attest een</tspan><tspan x="652.67" dy="19.52">vertraagd examen vragen.</tspan></text>
+<path d="M255 168 C255 198 147.33333333333331 182 147.33333333333331 210" fill="none" stroke="#8a8f98" stroke-width="2.5" stroke-dasharray="5 5"/>
+<path d="M545 168 C545 198 399.99999999999994 182 399.99999999999994 210" fill="none" stroke="#8a8f98" stroke-width="2.5" stroke-dasharray="5 5"/>
+<path d="M690 168 C690 198 652.6666666666666 182 652.6666666666666 210" fill="none" stroke="#8a8f98" stroke-width="2.5" stroke-dasharray="5 5"/>
+<rect x="28" y="400.32" width="744" height="42.74" rx="12" fill="#2f9e5a"/>
+<text x="400" y="427.47" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Een geslaagd theorie-examen blijft 3 jaar geldig. Doe in die tijd je praktijkexamen.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Gezakt? Herkansen en geldigheid</tspan></text>
+</svg>

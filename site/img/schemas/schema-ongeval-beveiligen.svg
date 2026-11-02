@@ -59,7 +59,7 @@
 <rect x="422" y="360" width="352" height="92" rx="14" fill="#1c2230" opacity=".10"/>
 <rect x="420" y="356" width="352" height="92" rx="14" fill="#fff4f0" stroke="#d63a3a" stroke-width="2.5"/>
 <g transform="translate(436 382) scale(0.4)"><circle cx="50" cy="50" r="40" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="45" y="22" width="10" height="34" rx="5" fill="#fff"/><circle cx="50" cy="70" r="6" fill="#fff"/></g>
-<text x="486" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1c2230" text-anchor="start"><tspan x="486" dy="0">Gewonden? Verplaats het voertuig</tspan><tspan x="486" dy="18.91">niet. Pas bij enkel blikschade haal je</tspan><tspan x="486" dy="18.91">de voertuigen uit het verkeer.</tspan></text>
+<text x="486" y="392" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="600" fill="#1c2230" text-anchor="start"><tspan x="486" dy="0">Gewonden? Verplaats het voertuig</tspan><tspan x="486" dy="18.91">niet. Bij enkel blikschade haal je de</tspan><tspan x="486" dy="18.91">voertuigen indien mogelijk uit het</tspan><tspan x="486" dy="18.91">verkeer.</tspan></text>
 <rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
 <text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Stap 1 en 2: beveilig de plaats</tspan></text>
 </svg>

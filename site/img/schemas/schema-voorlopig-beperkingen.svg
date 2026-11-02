@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 440" width="800" height="440" role="img" aria-labelledby="t d">
+<title id="t">Wat mag je niet met een voorlopig rijbewijs?</title>
+<desc id="d">Vijf pictogrammen. Een L-teken staat goed zichtbaar op de achterruit. Niet rijden van 22 u tot 6 u op vrijdag, zaterdag, zondag, de vooravond van een feestdag en op feestdagen. Geen commercieel goederenvervoer. Geen aanhangwagen. Enkel rijden in België.</desc>
+
+<rect width="800" height="440" fill="#fffdf7"/>
+<rect x="30" y="68" width="238.67" height="181.26" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="238.67" height="181.26" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="3"/>
+<g transform="translate(115.33 74) scale(0.64)"><rect x="12" y="12" width="76" height="76" rx="7" fill="#fff" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><text x="50" y="74" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#1c2230">L</text></g>
+<text x="147.33" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2f9e5a" text-anchor="middle"><tspan x="147.33" dy="0">L-teken</tspan></text>
+<text x="147.33" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="147.33" dy="0">Goed zichtbaar op de</tspan><tspan x="147.33" dy="18.91">achterruit.</tspan></text>
+<rect x="282.67" y="68" width="238.67" height="181.26" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="280.67" y="64" width="238.67" height="181.26" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(370.56 76.56) scale(0.59)"><path d="M62 8 A42 42 0 1 0 92 66 A34 34 0 0 1 62 8 Z" fill="#f2c230" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/></g>
+<g transform="translate(368 74) scale(0.64)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g>
+<text x="400" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="400" dy="0">Niet van 22 u tot 6 u</tspan></text>
+<text x="400" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Op vr, za, zo, de vooravond</tspan><tspan x="400" dy="18.91">van een feestdag en op</tspan><tspan x="400" dy="18.91">feestdagen.</tspan></text>
+<rect x="535.33" y="68" width="238.67" height="181.26" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="533.33" y="64" width="238.67" height="181.26" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(623.23 76.56) scale(0.59)"><rect x="6" y="30" width="54" height="42" rx="3" fill="#f1f1ee" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M60 42 H80 L94 58 V72 H60 Z" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="24" cy="76" r="9" fill="#1c2230"/><circle cx="78" cy="76" r="9" fill="#1c2230"/></g>
+<g transform="translate(620.67 74) scale(0.64)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g>
+<text x="652.67" y="163.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="652.67" dy="0">Geen goederenvervoer</tspan></text>
+<text x="652.67" y="185.38" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="652.67" dy="0">Niet commercieel.</tspan></text>
+<rect x="30" y="263.26" width="365" height="162.04" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="259.26" width="365" height="162.04" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(181.06 271.82) scale(0.59)"><rect x="30" y="34" width="62" height="38" rx="5" fill="#9aa3ad" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M30 60 H8" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round" fill="none"/><circle cx="62" cy="76" r="10" fill="#1c2230"/><circle cx="62" cy="76" r="4" fill="#ccc"/></g>
+<g transform="translate(178.5 269.26) scale(0.64)"><circle cx="50" cy="50" r="42" fill="none" stroke="#d63a3a" stroke-width="9"/><path d="M20 80 L80 20" stroke="#d63a3a" stroke-width="9" stroke-linecap="round"/></g>
+<text x="210.5" y="358.36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="210.5" dy="0">Geen aanhangwagen</tspan></text>
+<text x="210.5" y="380.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="210.5" dy="0">Je trekt er geen.</tspan></text>
+<rect x="409" y="263.26" width="365" height="162.04" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="407" y="259.26" width="365" height="162.04" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="3"/>
+<g transform="translate(557.5 269.26) scale(0.64)"><path d="M50 94 C30 64 22 54 22 38 A28 28 0 0 1 78 38 C78 54 70 64 50 94 Z" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="38" r="11" fill="#fff"/></g>
+<text x="589.5" y="358.36" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#2f6fd6" text-anchor="middle"><tspan x="589.5" dy="0">Enkel in België</tspan></text>
+<text x="589.5" y="380.64" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="589.5" dy="0">Het hele Belgische grondgebied, maar niet in</tspan><tspan x="589.5" dy="18.91">het buitenland.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Wat mag je niet met een voorlopig rijbewijs?</tspan></text>
+</svg>

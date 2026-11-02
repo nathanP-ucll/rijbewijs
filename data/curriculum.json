@@ -346,7 +346,7 @@
   "naam": "Europees aanrijdingsformulier, verzekering, vluchtmisdrijf",
   "theorie": true,
   "oefeningen3": true,
-  "afbeelding": false,
+  "afbeelding": true,
   "bron": true
  },
  {

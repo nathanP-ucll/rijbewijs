@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 371" width="800" height="371" role="img" aria-labelledby="t d">
+<title id="t">Geldigheid, vernieuwen en verlies</title>
+<desc id="d">Een tijdlijn van 10 jaar (kaartmodel) met de laatste 3 maanden gemarkeerd als moment om te vernieuwen. Daaronder drie kaarten: vernieuwen online via BelDrive of bij je gemeente, gestolen rijbewijs (eerst naar de politie, dan naar je gemeente) en een rijgeschiktheidsattest of verval (geen BelDrive, ga naar het gemeentebestuur).</desc>
+
+<rect width="800" height="371" fill="#fffdf7"/>
+<text x="400" y="76" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Een rijbewijs in kaartmodel is 10 jaar geldig</tspan></text>
+<rect x="40" y="96" width="720" height="40" rx="8" fill="#2f6fd6"/><rect x="742" y="96" width="18" height="40" fill="#d63a3a"/><rect x="732" y="96" width="10" height="40" fill="#2f6fd6"/>
+<text x="370" y="123" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="370" dy="0">10 jaar</tspan></text>
+<path d="M751 142 V160" stroke="#d63a3a" stroke-width="3"/>
+<text x="751" y="178" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#d63a3a" text-anchor="end"><tspan x="751" dy="0">Vernieuw minstens 3 maanden voor de einddatum</tspan></text>
+<rect x="30" y="200" width="238.67" height="156.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="196" width="238.67" height="156.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(119.33 206) scale(0.56)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<text x="147.33" y="288.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="147.33" dy="0">Vernieuwen</tspan></text>
+<text x="147.33" y="310.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="147.33" dy="0">Online via BelDrive of bij je</tspan><tspan x="147.33" dy="19.52">gemeente.</tspan></text>
+<rect x="282.67" y="200" width="238.67" height="156.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="280.67" y="196" width="238.67" height="156.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(372 206) scale(0.56)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,26 55.29,40.72 70.92,41.2 58.56,50.78 62.93,65.8 50,57 37.07,65.8 41.44,50.78 29.08,41.2 44.71,40.72" fill="#fff"/></g>
+<text x="400" y="288.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Gestolen</tspan></text>
+<text x="400" y="310.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Eerst naar de politie, dan</tspan><tspan x="400" dy="19.52">naar je gemeente.</tspan></text>
+<rect x="535.33" y="200" width="238.67" height="156.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="533.33" y="196" width="238.67" height="156.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(624.67 206) scale(0.56)"><polygon points="50,8 94,32 6,32" fill="#c9c9c4" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="36" width="72" height="8" fill="#e6e6e2" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#f4f4f0" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="20" y="46" width="10" height="32"/><rect x="40" y="46" width="10" height="32"/><rect x="60" y="46" width="10" height="32"/></g><rect x="8" y="78" width="84" height="10" fill="#c9c9c4" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="652.67" y="288.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="652.67" dy="0">Attest of verval</tspan></text>
+<text x="652.67" y="310.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="652.67" dy="0">Geen BelDrive: ga naar het</tspan><tspan x="652.67" dy="19.52">gemeentebestuur.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Geldigheid, vernieuwen en verlies</tspan></text>
+</svg>

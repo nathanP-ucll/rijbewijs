@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Telt als voetganger of als fietser</title>
+<desc id="d">Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.</desc>
+
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="24" y="72" width="372" height="420" rx="14" fill="#dce8f8" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(80 120) scale(1.8)" fill="none" stroke="#1c2230" stroke-width="3.6" stroke-linecap="round" stroke-linejoin="round"><circle cx="1" cy="-14" r="4.2" fill="#1c2230" stroke="none"/><path d="M1,-8 L-1,4 M1,-8 L-6,-1 M1,-8 L7,-2 M-1,4 L-7,16 M-1,4 L6,10 L4,17"/></g>
+<text x="124" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="124" dy="0">Telt als voetganger</tspan></text>
+<rect x="40" y="168" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="210" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Step zonder motor,</tspan><tspan x="210" dy="20.06">stapvoets</tspan></text>
+<rect x="40" y="274" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="210" y="312" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Persoon met beperkte mobiliteit</tspan><tspan x="210" dy="20.06">op eigen toestel, stapvoets</tspan></text>
+<rect x="40" y="380" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="210" y="418" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Wie een fiets of bromfiets</tspan><tspan x="210" dy="20.06">aan de hand leidt</tspan></text>
+<rect x="404" y="72" width="372" height="420" rx="14" fill="#fde6cf" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(460 120) scale(1.8)" fill="none" stroke="#1c2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1c2230" stroke="none"/></g>
+<text x="504" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="504" dy="0">Telt als fietser</tspan></text>
+<rect x="420" y="168" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="590" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">Step zonder motor,</tspan><tspan x="590" dy="20.06">sneller dan stapvoets</tspan></text>
+<rect x="420" y="274" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="590" y="312" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">Elektrische step</tspan><tspan x="590" dy="20.06">(maximaal 25 km/u)</tspan></text>
+<rect x="420" y="380" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<text x="590" y="418" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="590" dy="0">Elektrische fiets</tspan><tspan x="590" dy="20.06">tot 25 km/u</tspan></text>
+<text x="400" y="538" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Een elektrische step telt als fietser, niet als voetganger.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Telt als voetganger of als fietser</tspan></text>
+</svg>

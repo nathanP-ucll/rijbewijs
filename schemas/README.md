@@ -74,3 +74,12 @@ Voelt als een schoolboek, niet als een quiz. Per les een mix van: koppelen/verbi
 - "afbeelding" (bij de vraag) mag ook een lijst zijn: "afbeeldingen": [..] voor 2-3 beelden naast elkaar.
 - Voorkeur in de eindtest: 'welk bord betekent...', 'wat betekent dit bord/deze markering/dit licht', situatie en hotspot waar er een schema is, koppel met borden aan beide kanten.
 - Geen verklappende tekst in de afbeelding; geen bordcodes in zichtbare tekst.
+
+### Boekpagina's (data/boek/h<N>.json) – engine-details
+- Alle blokken worden door de engine in een 12-koloms raster gelegd: `punten` (7 kolommen) + `kader` of `voorbeeld` (5 kolommen) komen naast elkaar; `kaarten`, `vergelijk`, `schema`, `tabel` krijgen de volle breedte.
+- `punten.genummerd: true` toont grote cijfercirkels (stappen); `schema.punten` worden altijd als genummerde stappen naast het schema getoond.
+- `vergelijk.midden` ({afb, tekst}, optioneel) maakt er een kaart met 3 kolommen van; de balk 'Het verschil' staat eronder.
+- `kader.soort: "tip"` wordt als markeerstift-tekst getoond (geen balk, geen afgeronde hoeken).
+- Elke pagina krijgt automatisch: kopband in de hoofdstukkleur, nummer N.M.K, een 'Onthoud dit'-balk (uit het eerste `punten`-blok) als er geen mini-oefening is.
+- `data/hoofdstukken.json`: volgorde = hoofdstuknummer; titels en lestitels staan daar.
+- Build-controles (fout in strikte modus): onbekende afbeelding, onbekend bloktype, zinnen die niet op . ? ! ) eindigen of op 'bv.' of ':' eindigen. Waarschuwing: < 3 blokken, > 1 kader, > 5 punten, > 6 kaarten, bordcode of artikelnummer in tekst.

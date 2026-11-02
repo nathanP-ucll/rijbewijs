@@ -354,7 +354,7 @@ const VOOR = ['VOOR-001', 'VOOR-002'];
   s.car(620, 310, 270, 'blauw', null); s.route('M575,310 L225,310', CAR.blauw);
   s.car(430, 500, 0, 'rood', null, { brake: true });
   s.label(620, 262, 'van rechts: rijdt door', { size: 18, bg: '#1f9d55', fg: '#fff' });
-  s.label(250, 520, 'jij: voorrang verlenen,\nrij pas verder als het veilig is', { size: 17, bg: '#d63a3a', fg: '#fff' });
+  s.label(650, 520, 'jij: voorrang verlenen,\nrij pas verder\nals het veilig is', { size: 17, bg: '#d63a3a', fg: '#fff' });
   out(s, 'voorrang-van-rechts', VOOR);
 })();
 
@@ -366,7 +366,7 @@ const VOOR = ['VOOR-001', 'VOOR-002'];
   s.car(520, 310, 270, 'blauw', null, { brake: true });
   s.car(430, 500, 0, 'rood', null);
   s.label(600, 262, 'stopt even,\nmaar houdt voorrang', { size: 17, bg: '#1f9d55', fg: '#fff' });
-  s.label(250, 520, 'wacht: de blauwe auto\nbehoudt zijn voorrang', { size: 17, bg: '#d63a3a', fg: '#fff' });
+  s.label(650, 520, 'wacht: de blauwe auto\nbehoudt zijn voorrang', { size: 17, bg: '#d63a3a', fg: '#fff' });
   out(s, 'voorrang-van-rechts', VOOR);
 })();
 
@@ -383,7 +383,7 @@ const VOOR = ['VOOR-001', 'VOOR-002'];
     const y = 76 + i * 150;
     box(s, 30, y, 470, 126, '#fff');
     s.badge(62, y + 63, i + 1, { r: 20 });
-    s.text(96, y + (q.includes('\n') ? 56 : 70), q, { size: 21, anchor: 'start', weight: 800 });
+    s.text(90, y + (q.includes('\n') ? 56 : 70), q, { size: 19, anchor: 'start', weight: 800 });
     s.arrow(504, y + 63, 540, y + 63, INK, 6);
     box(s, 544, y, 226, 126, col);
     s.text(657, y + 58, a, { size: 20, fill: '#fff', weight: 800 });
@@ -469,9 +469,9 @@ function rotonde(s, cx, cy, ringR, ringW) {
   rotonde(s, cx, cy, 112, 76);
   s.car(cx + 20, 520, 0, 'rood', null);
   s.car(cx + 150, cy + 20, 90, 'blauw', null, { blink: 'R' });
-  s.label(235, 520, 'Oprijden: je hoeft geen\nrichtingaanwijzer te gebruiken', { size: 16, bg: '#fff' });
-  s.label(655, 430, 'Verlaten: je gebruikt\nde rechter richtingaanwijzer', { size: 16, bg: '#ff9d00', fg: INK });
-  s.line(655, 436, cx + 160, cy + 30, INK, 2);
+  s.label(215, 520, 'Oprijden: je hoeft geen\nrichtingaanwijzer te gebruiken', { size: 16, bg: '#fff' });
+  s.line(600, 440, cx + 168, cy + 34, INK, 2);
+  s.label(655, 470, 'Verlaten: je gebruikt\nde rechter richtingaanwijzer', { size: 16, bg: '#ff9d00', fg: INK });
   out(s, 'voorrang-rotonde', VOOR);
 })();
 
@@ -540,4 +540,247 @@ function rotonde(s, cx, cy, ringR, ringW) {
   out(s, 'voorrang-bijzondere-voertuigen', VOOR);
 })();
 
-// @@DEEL4@@
+// =====================================================================
+// H4 — verkeerslichten en bevoegde personen
+// =====================================================================
+(function () { // 4.1.2
+  const s = new Svg('schema-oranje-doorrijden', 'Oranje: in de regel stoppen',
+    'Een rijbaan met een stopstreep en een verkeerslicht dat oranje is. Een blauwe auto is nog ver van de streep en kan veilig stoppen: hij stopt. Een rode auto is vlak bij de streep en kan niet meer veilig stoppen: hij rijdt door. Gas geven om oranje te halen is fout.', {});
+  s.titel('Oranje: in de regel stoppen', 'rij je door oranje, dan omdat stoppen niet meer veilig kan');
+  s.rect(320, 66, 160, 534, C.road); s.line(400, 66, 400, 600, '#fff', 3, 'stroke-dasharray="16 14"');
+  s.rect(320, 300, 160, 8, '#fff');
+  licht(s, 560, 190, 'oranje', 22, 60);
+  s.car(360, 510, 0, 'blauw', null, { brake: true }); s.car(440, 356, 0, 'rood', null);
+  s.arrow(440, 318, 440, 250, '#1f9d55', 6);
+  s.label(160, 510, 'kan nog veilig\nstoppen: stop', { size: 18, bg: '#d63a3a', fg: '#fff' });
+  s.label(160, 360, 'vlak bij de streep en\nniet meer veilig te\nstoppen: rij door', { size: 18, bg: '#1f9d55', fg: '#fff' });
+  s.label(645, 520, 'Gas geven om oranje\nte halen is fout', { size: 17, bg: '#fff', stroke: '#d63a3a' });
+  out(s, 'lichten-oranje-doorrijden', ['LICH-001']);
+})();
+
+(function () { // 4.4.1
+  const s = new Svg('schema-bevoegde-personen-wie', 'Wie is een bevoegde persoon?',
+    'Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen op de openbare weg bewaakt of bedient. Soms ook anderen, zoals de brandweer bij een interventie.', { bg: BG });
+  s.titel('Wie is een bevoegde persoon?');
+  const t = [
+    ['Politie', 'federale en lokale politie', '#2d57a8'],
+    ['Wegbeheerder', 'personeel dat toezicht\nhoudt op de weg', '#f08a1c'],
+    ['Douane', 'douanepersoneel\ntijdens hun dienst', '#2e7d4f'],
+    ['Brugbediening', 'personeel dat bruggen\nbewaakt of bedient', '#6b7280'],
+  ];
+  t.forEach(([naam, sub, col], i) => {
+    const x = 24 + (i % 2) * 380, y = 72 + Math.floor(i / 2) * 226;
+    box(s, x, y, 372, 212, '#fff');
+    person(s, x + 76, y + 196, 0.82, 'down', col);
+    s.text(x + 150, y + 90, naam, { size: 24, anchor: 'start', weight: 800 });
+    s.text(x + 150, y + 124, sub, { size: 17, anchor: 'start', weight: 600 });
+  });
+  s.text(400, 562, 'Soms ook anderen, zoals de brandweer bij een interventie.', { size: 17, weight: 600 });
+  out(s, 'bevoegde-personen-wie', ['LICH-001']);
+})();
+
+(function () { // 4.4.4
+  const s = new Svg('schema-bevoegde-seinen-overzicht', 'Wat de seinen van een bevoegde persoon betekenen',
+    'Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Armen horizontaal: stoppen voor wie de armen dwarst. Een rood licht heen en weer zwaaien: stoppen voor wie het licht ziet.', { bg: BG });
+  s.titel('De seinen van een bevoegde persoon');
+  const t = [
+    ['Arm rechtop', 'Alle weggebruikers\nstoppen.', 'up'],
+    ['Armen horizontaal', 'Stoppen voor wie\nde armen dwarst.', 'horiz'],
+    ['Rood licht heen\nen weer zwaaien', 'Stoppen voor wie\nhet licht ziet.', 'lamp'],
+  ];
+  t.forEach(([naam, sub, pose], i) => {
+    const x = 24 + i * 254, y = 72;
+    box(s, x, y, 240, 478, '#fff');
+    person(s, x + (pose === 'lamp' ? 100 : 120), y + 290, 0.95, pose);
+    if (pose === 'lamp') s.add(`<g fill="none" stroke="#e5322d" stroke-width="4" stroke-linecap="round"><path d="M${x + 205} ${y + 128} q12 14 0 28"/><path d="M${x + 218} ${y + 120} q16 22 0 44"/></g>`);
+    s.text(x + 120, y + 348, naam, { size: 21, weight: 800 });
+    s.text(x + 120, y + (naam.includes('\n') ? 418 : 388), sub, { size: 18, weight: 600 });
+  });
+  out(s, 'bevoegde-personen-seinen', ['LICH-001']);
+})();
+
+(function () { // 4.5.2
+  const s = new Svg('schema-lichten-werken-borden', 'Werkende lichten gaan voor op voorrangsborden',
+    'Twee kaarten naast elkaar. Links werken de verkeerslichten (groen licht): het voorrangsbord is doorgekruist en speelt daar geen rol. Rechts zijn de lichten uitgevallen (alle lampen uit): het voorrangsbord en de regels gelden weer.', { bg: BG });
+  s.titel('Werkende lichten en voorrangsborden');
+  const paneel = (x, kleur, kop, werkt, tekst) => {
+    box(s, x, 72, 372, 428, kleur);
+    s.text(x + 186, 112, kop, { size: 24, weight: 800 });
+    licht(s, x + 100, 140, werkt ? 'groen' : null, 24, 40);
+    if (werkt) {
+      s.add('<g opacity="0.3">'); s.sign('B1', x + 270, 230, 100, { pole: false }); s.add('</g>');
+      cross(s, x + 270, 230, 64);
+    } else s.sign('B1', x + 270, 230, 100, { pole: false });
+    s.text(x + 186, 420, tekst, { size: 20, weight: 700 });
+  };
+  paneel(24, '#dff3e3', 'De lichten werken', true, 'De voorrangsborden spelen\ndaar geen rol.');
+  paneel(404, '#e3e6ec', 'De lichten vallen uit', false, 'De borden en regels\ngelden weer.');
+  s.text(400, 540, 'Bij knipperend oranje en bij lichten boven de rijstroken blijven de borden wel gelden.', { size: 16, weight: 600 });
+  out(s, 'lichten-rangorde', ['LICH-001']);
+})();
+
+function tijdlijn(naam, title, desc, theorieblok) {
+  const s = new Svg(naam, title, desc, { bg: BG });
+  s.titel('Van nu naar 1 juni 2027');
+  s.rect(60, 320, 680, 10, '#9aa3ad', 'rx="5"'); s.rect(60, 320, 350, 10, '#1f9d55', 'rx="5"');
+  box(s, 40, 100, 350, 170, '#1f9d55');
+  s.text(215, 150, 'Nu', { size: 34, fill: '#fff', weight: 800 });
+  s.text(215, 196, 'Het huidige verkeersreglement\ngeldt.', { size: 20, fill: '#fff', weight: 600 });
+  box(s, 430, 100, 330, 170, '#2d57a8');
+  s.text(595, 146, 'Vanaf 1 juni 2027', { size: 28, fill: '#fff', weight: 800 });
+  s.text(595, 190, 'Een federale code en een\nVlaamse, Brusselse en\nWaalse code', { size: 19, fill: '#fff', weight: 600 });
+  s.circle(410, 325, 22, '#fff', `stroke="${INK}" stroke-width="4"`); s.circle(410, 325, 9, '#2d57a8');
+  s.arrow(215, 272, 215, 312, INK, 5); s.arrow(595, 272, 595, 312, INK, 5);
+  box(s, 40, 380, 350, 120, '#fff'); box(s, 430, 380, 330, 120, '#fff');
+  s.text(215, 430, 'Voor een examen vandaag\ngelden de regels van nu.', { size: 19, weight: 700 });
+  s.text(595, 430, 'Controleer vlak voor je examen\nwelke code geldt.', { size: 19, weight: 700 });
+  out(s, theorieblok, ['LICH-001', 'KWET-001']);
+}
+tijdlijn('schema-wegcode-2027', 'Van het huidige reglement naar nieuwe codes op 1 juni 2027',
+  'Een tijdlijn. Links: nu geldt het huidige verkeersreglement. Rechts: vanaf 1 juni 2027 komen een federale code en een Vlaamse, Brusselse en Waalse code. Voor een examen vandaag gelden de regels van nu; controleer vlak voor je examen welke code geldt.', 'lichten-wijzigingen-2027');
+
+// =====================================================================
+// H5 — voetgangers en fietsers
+// =====================================================================
+const KWET = ['KWET-001'];
+(function () { // 5.1.2
+  const s = new Svg('schema-gelijkgesteld-voetganger-fietser', 'Telt als voetganger of als fietser',
+    'Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.', { bg: BG });
+  s.titel('Telt als voetganger of als fietser');
+  const kol = (x, kleur, kop, icoon, items) => {
+    box(s, x, 72, 372, 420, kleur);
+    s.add(sym(icoon, x + 56, 120, 36, INK));
+    s.text(x + 100, 130, kop, { size: 24, anchor: 'start', weight: 800 });
+    items.forEach((t, i) => { box(s, x + 16, 168 + i * 106, 340, 92, '#fff', { rx: 10 }); s.text(x + 186, 206 + i * 106 - (t.split('\n').length > 2 ? 8 : 0), t, { size: 17, weight: 700 }); });
+  };
+  kol(24, '#dce8f8', 'Telt als voetganger', 'voet', ['Step zonder motor,\nstapvoets', 'Persoon met beperkte mobiliteit\nop eigen toestel, stapvoets', 'Wie een fiets of bromfiets\naan de hand leidt']);
+  kol(404, '#fde6cf', 'Telt als fietser', 'fiets', ['Step zonder motor,\nsneller dan stapvoets', 'Elektrische step\n(maximaal 25 km/u)', 'Elektrische fiets\ntot 25 km/u']);
+  s.text(400, 538, 'Een elektrische step telt als fietser, niet als voetganger.', { size: 18, weight: 700 });
+  out(s, 'kwetsbaar-algemeen', KWET);
+})();
+
+function voetganger(s, x, y, k = 1.8, col = '#2d57a8') {
+  s.add(`<g transform="translate(${x} ${y}) scale(${k})"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="${col}" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="${INK}" stroke-width="1.5"/></g>`);
+}
+(function () { // 5.1.3
+  const s = new Svg('schema-kinderen-oversteken', 'Kinderen steken onverwacht over',
+    'Bovenaanzicht van een straat met geparkeerde auto\'s langs de rand. Tussen twee geparkeerde auto\'s komen kinderen plots de rijbaan op. Een blauwe auto nadert en rijdt traag. Links boven het waarschuwingsbord voor een plaats waar veel kinderen komen.', {});
+  s.titel('Kinderen steken onverwacht over');
+  s.rect(0, 160, 800, 50, C.sidewalk); s.rect(0, 210, 800, 40, '#6b717b'); s.rect(0, 250, 800, 120, C.road);
+  s.line(0, 310, 800, 310, '#fff', 3, 'stroke-dasharray="16 14"');
+  [150, 250, 540, 640].forEach((x, i) => s.car(x, 232, 90, ['geel', 'wit', 'oranje', 'paars'][i], null));
+  [388, 412, 400].forEach((x, i) => voetganger(s, x, 188 + (i === 2 ? 22 : 0), 1.7, ['#d63a3a', '#2f6fd6', '#f2c230'][i]));
+  s.arrow(400, 232, 400, 330, '#fff', 4); s.arrow(380, 232, 380, 310, '#fff', 3);
+  s.car(200, 342, 90, 'blauw', null);
+  s.sign('A23', 720, 112, 76);
+  s.label(400, 112, 'Kinderen kunnen plots tussen geparkeerde\nauto\'s de rijbaan op rennen.', { size: 18, bg: '#fff' });
+  s.label(400, 470, 'Rij daarom traag in de buurt van\nscholen en speelplaatsen.', { size: 19, bg: '#1f9d55', fg: '#fff' });
+  out(s, 'voetgangers-kinderen-handicap', KWET);
+})();
+
+(function () { // 5.2.2
+  const s = new Svg('schema-veilig-oversteken', 'Veilig oversteken als voetganger',
+    'Bovenaanzicht van een straat met aan de rechterkant een zebrapad. Links steekt een voetganger haaks over (goed). In het midden steekt een voetganger schuin over vlak bij het zebrapad (fout). Rechts gebruikt een voetganger het zebrapad.', {});
+  s.titel('Veilig oversteken', 'haaks op de weg, en gebruik het zebrapad in de buurt');
+  s.rect(0, 160, 800, 56, C.sidewalk); s.rect(0, 216, 800, 130, C.road); s.rect(0, 346, 800, 56, C.sidewalk);
+  s.line(0, 281, 800, 281, '#fff', 3, 'stroke-dasharray="16 14"');
+  s.zebra(560, 216, 90, 130, 'v');
+  voetganger(s, 150, 188, 1.8); s.arrow(150, 200, 150, 355, '#1f9d55', 5); tick(s, 150, 440, 44);
+  voetganger(s, 380, 188, 1.8, '#d63a3a'); s.arrow(380, 200, 460, 355, '#d63a3a', 5); cross(s, 420, 440, 40);
+  voetganger(s, 605, 188, 1.8, '#2f6fd6'); s.arrow(605, 200, 605, 355, '#1f9d55', 5);
+  s.sign('F49', 700, 190, 60);
+  s.label(150, 475, 'haaks oversteken', { size: 18, bg: '#fff' });
+  s.label(420, 515, 'niet schuin', { size: 18, bg: '#fff' });
+  s.label(605, 475, 'zebrapad in de buurt\n(ongeveer 20 m)?\nGebruik het.', { size: 17, bg: '#fff' });
+  out(s, 'voetganger-oversteken', KWET);
+})();
+
+(function () { // 5.3.2
+  const s = new Svg('schema-zebrapad-situaties', 'Het zebrapad en jij als bestuurder',
+    'Drie kleine scènes. Zebrapad zonder agent of licht: matig naderen en voorrang geven. Voetganger is al bezig terwijl jouw licht groen wordt: laat hem uitlopen. Het licht of de agent sluit jouw richting: stop voor het zebrapad. Onderaan: extra attent bij een bus of grote auto voor het zebrapad.', { bg: BG });
+  s.titel('Het zebrapad en jij als bestuurder');
+  const scenes = [
+    ['Zebrapad zonder agent\nof licht', 'Matig naderen en voorrang\ngeven aan voetgangers\nerop of ertegen.', (sc) => { sc.car(110, 200, 0, 'blauw', null); voetganger(sc, 90, 118, 1.6); sc.arrow(90, 118, 150, 118, '#fff', 3); }],
+    ['Voetganger is al bezig,\njouw licht wordt groen', 'Hem met normale gang\nlaten uitlopen.', (sc) => { sc.car(110, 200, 0, 'blauw', null); voetganger(sc, 135, 118, 1.6); sc.arrow(135, 118, 165, 118, '#fff', 3); licht(sc, 205, 30, 'groen', 12, 0); }],
+    ['Licht of agent sluit\njouw richting', 'Stoppen voor het\nzebrapad.', (sc) => { sc.car(110, 200, 0, 'blauw', null, { brake: true }); licht(sc, 205, 30, 'rood', 12, 0); }],
+  ];
+  scenes.forEach(([kop, sub, fn], i) => {
+    const x = 24 + i * 254, y = 72;
+    box(s, x, y, 240, 392, '#fff');
+    scene(s, x + 12, y + 12, 216, 250, (sc) => {
+      sc.rect(0, 0, 216, 250, C.grass); sc.rect(48, 0, 120, 250, C.road); sc.line(108, 0, 108, 250, '#fff', 3, 'stroke-dasharray="14 12"');
+      sc.zebra(48, 90, 120, 56, 'h');
+      fn(sc);
+    });
+    s.text(x + 120, y + 292, kop, { size: 17, weight: 800 });
+    s.text(x + 120, y + 336, sub, { size: 15, weight: 600 });
+  });
+  s.label(400, 530, 'Extra attent bij een bus of grote auto voor het zebrapad:\nzij kunnen voetgangers aan het zicht onttrekken.', { size: 17, bg: '#fff', stroke: '#c27d00' });
+  out(s, 'zebrapad-voorrang-bestuurder', KWET);
+})();
+
+(function () { // 5.6.2
+  const s = new Svg('schema-fietsen-zonder-fietspad', 'Fietsen zonder fietspad',
+    'Twee bovenaanzichten van een straat zonder fietspad. Boven: twee fietsers rijden naast elkaar dicht bij de rechterrand van de rijbaan, dat mag. Onder: er komt een auto aan en kruisen is niet mogelijk, dus rijden de fietsers achter elkaar.', {});
+  s.titel('Fietsen zonder fietspad', 'fietsers rijden op de rijbaan, dicht bij de rechterrand');
+  const paneel = (y, kop, enkel) => {
+    box(s, 24, y, 752, 214, '#1c2230');
+    s.text(400, y + 28, kop, { size: 20, fill: '#fff', weight: 700 });
+    scene(s, 24, y + 40, 752, 174, (sc) => {
+      sc.rect(0, 0, 752, 174, C.grass); sc.rect(0, 14, 752, 120, C.road);
+      sc.line(0, 74, 752, 74, '#fff', 3, 'stroke-dasharray="16 14"');
+      sc.line(0, 124, 752, 124, '#fff', 2);
+    });
+  };
+  paneel(70, 'Er komt niemand aan: twee naast elkaar mag.', false);
+  paneel(300, 'Kruisen niet mogelijk: achter elkaar.', true);
+  // fietsers (buiten clip getekend, bovenop de panelen)
+  s.bike(330, 199, 90, null); s.bike(330, 224, 90, null);
+  s.bike(360, 300 + 40 + 106, 90, null); s.bike(440, 300 + 40 + 106, 90, null);
+  s.car(640, 300 + 40 + 44, 270, 'blauw', null);
+  s.line(170, 258, 170, 236, INK, 2); s.label(170, 276, 'rechterrand van de rijbaan', { size: 14, bg: '#fff' });
+  s.text(400, 556, 'Met een aanhangwagen rijd je altijd achter elkaar.', { size: 18, weight: 700 });
+  out(s, 'fietsers-zonder-fietspad', KWET);
+})();
+
+(function () { // 5.7.2
+  const s = new Svg('schema-bromfiets-soorten', 'Soorten bromfietsen en elektrische fietsen',
+    'Vier kaartjes: een gewone elektrische fiets (tot 25 km/u, telt als fiets), bromfiets klasse A (maximaal 25 km/u), bromfiets klasse B (maximaal 45 km/u) en een speed pedelec (ondersteuning tot 45 km/u, telt als bromfiets).', { bg: BG });
+  s.titel('Soorten bromfietsen');
+  const t = [
+    ['Gewone elektrische fiets', 'tot 25 km/u', 'telt als fiets', '#1f9d55'],
+    ['Bromfiets klasse A', 'max. 25 km/u', 'telt als bromfiets A', '#f08a1c'],
+    ['Bromfiets klasse B', 'max. 45 km/u', 'telt als bromfiets B', '#d63a3a'],
+    ['Speed pedelec', 'ondersteuning tot 45 km/u', 'telt als bromfiets', '#8e5bd1'],
+  ];
+  t.forEach(([naam, snel, telt, col], i) => {
+    const x = 24 + (i % 2) * 380, y = 72 + Math.floor(i / 2) * 226;
+    box(s, x, y, 372, 212, col);
+    s.circle(x + 70, y + 106, 46, '#fff', `stroke="${INK}" stroke-width="3"`);
+    s.add(sym('fiets', x + 70, y + 106, 40, INK));
+    s.text(x + 138, y + 70, naam, { size: i === 0 ? 20 : 22, anchor: 'start', fill: '#fff', weight: 800 });
+    s.text(x + 138, y + 114, snel, { size: snel.length > 14 ? 19 : 26, anchor: 'start', fill: '#fff', weight: 800 });
+    s.text(x + 138, y + 152, telt, { size: 18, anchor: 'start', fill: '#fff', weight: 600 });
+  });
+  s.text(400, 562, 'Voor een bromfiets geldt een minimumleeftijd van 16 jaar en een helm is verplicht.', { size: 17, weight: 600 });
+  out(s, 'bromfiets-klassen-speed-pedelec', KWET);
+})();
+
+(function () { // 5.7.3
+  const s = new Svg('schema-bromfiets-fietspad', 'Bromfietsen op het fietspad',
+    'Een tabel met drie rijen en twee kolommen. Weg tot 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec mogen het fietspad volgen. Weg boven 50 km/u: bromfiets klasse A volgt het fietspad, bromfiets klasse B en speed pedelec moeten het volgen.', { bg: BG });
+  s.titel('Bromfietsen op het fietspad');
+  const X = [24, 284, 540], Wd = [250, 246, 236];
+  ['', 'Weg tot 50 km/u', 'Weg boven 50 km/u'].forEach((h, j) => { if (h) { box(s, X[j], 72, Wd[j], 62, '#1c2230'); s.text(X[j] + Wd[j] / 2, 111, h, { size: 20, fill: '#fff', weight: 800 }); } });
+  const GR = '#1f9d55', BL = '#2d57a8';
+  const rows = [['Bromfiets klasse A', ['fietspad volgen', BL], ['fietspad volgen', BL]], ['Bromfiets klasse B', ['mag het\nfietspad volgen', GR], ['moet het\nfietspad volgen', BL]], ['Speed pedelec', ['mag het\nfietspad volgen', GR], ['moet het\nfietspad volgen', BL]]];
+  rows.forEach(([naam, a, b], i) => {
+    const y = 148 + i * 120;
+    box(s, X[0], y, Wd[0], 108, '#fff'); s.add(sym('fiets', X[0] + 40, y + 54, 26, INK));
+    s.text(X[0] + 76, y + 62, naam, { size: 18, anchor: 'start', weight: 800 });
+    [a, b].forEach(([t, col], j) => { box(s, X[j + 1], y, Wd[j + 1], 108, col); s.text(X[j + 1] + Wd[j + 1] / 2, y + (t.includes('\n') ? 50 : 62), t, { size: 21, fill: '#fff', weight: 800 }); });
+  });
+  s.text(400, 540, 'Bromfiets klasse B en speed pedelec: tot en met 50 km/u mag het, erboven moet het.', { size: 17, weight: 700 });
+  s.text(400, 566, 'Is er geen bruikbaar fietspad, dan volg je de rijbaan.', { size: 17, weight: 600 });
+  out(s, 'bromfiets-fietspad-gebruik', KWET);
+})();

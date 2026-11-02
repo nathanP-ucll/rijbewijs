@@ -1,6 +1,6 @@
 # Theorie rijbewijs B – Vlaanderen (statische cursus)
 
-Gratis online cursus voor het theorie-examen. Vier lessen als boek (één onderwerp per pagina, volledig scherm, zwevende balk met vorige/volgende, inhoud en lesmenu), proefexamen, oefenbank, mijn fouten, spiekbrief en een bronnenpagina. Geen backend, geen tracking. Voortgang staat enkel in `localStorage`.
+Gratis online cursus voor het theorie-examen. Vier lessen als boek (met de hand geschreven pagina's in `data/boek/h<N>.json`, één onderwerp per pagina, volledig scherm, zwevende balk met vorige/volgende, inhoud en lesmenu), proefexamen, oefenbank, mijn fouten, spiekbrief en een bronnenpagina. Geen backend, geen tracking. Voortgang staat enkel in `localStorage`.
 
 ## Openen
 - Gewoon `site/index.html` openen in een browser (werkt via `file://`), of
@@ -13,6 +13,7 @@ Alle inhoud staat als JSON in `data/`. De build (Node, geen dependencies) schrij
 node scripts/build.js                  # strikt: faalt (exit 1) als de curriculum-checklist niet groen is
 node scripts/build.js --lenient        # waarschuwt enkel; schrijft de vinkjes in data/curriculum.json bij
 node scripts/build.js --demo           # bouwt mee met data/_demo (voorbeeldoefeningen, alle types); impliceert --lenient
+node scripts/build.js --demo-only      # enkel demo-oefeningen en demo-boek (voor de QA-scripts)
 node scripts/build.js --allow-unverified   # ook oefeningen zonder 'ok' in data/verificatie.json
 ```
 - Alleen oefeningen met status `ok` in `data/verificatie.json` (of `data/verificatie/*.json`) komen in de site. Bestaat die niet, dan worden alle oefeningen opgenomen (enkel gelogd).
@@ -22,8 +23,11 @@ node scripts/build.js --allow-unverified   # ook oefeningen zonder 'ok' in data/
 
 ## Testen (Playwright, Chromium)
 ```
-node scripts/build.js --demo
+node scripts/build.js --demo-only
 QA_SHOTS=/pad/naar/map node scripts/qa/flow.js     # alle oefeningtypes, paginering, balk, eindtest, proefexamen, localStorage geblokkeerd
 QA_SHOTS=/pad/naar/map node scripts/qa/shots.js    # screenshots desktop 1440 en mobiel 390 + console-errors
+QA_SHOTS=/pad/naar/map node scripts/qa/interact.js # koppel-lijnen, volgorde-slepen (FLIP), visuele vragen, animaties; desktop + mobiel touch
+node scripts/qa/fill.js                            # meet hoe vol elke boekpagina is (bijna leeg / overvol)
+QA_SHOTS=/pad node scripts/qa/theme.js les2.html#p3  # licht/donker screenshots
 ```
 Playwright wordt lokaal of globaal gezocht (`npm i -g playwright`).

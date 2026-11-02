@@ -7,7 +7,7 @@
 <rect x="30" y="76" width="470" height="126" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
 <circle cx="62" cy="139" r="20" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
 <text x="62" y="146.6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="62" dy="0">1</tspan></text>
-<text x="96" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="96" dy="0">Is er een bevoegde persoon</tspan><tspan x="96" dy="24.78">of een werkend verkeerslicht?</tspan></text>
+<text x="90" y="132" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="90" dy="0">Is er een bevoegde persoon</tspan><tspan x="90" dy="22.42">of een werkend verkeerslicht?</tspan></text>
 <line x1="504" y1="139" x2="540" y2="139" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
 <rect x="544" y="76" width="226" height="126" rx="14" fill="#2d57a8" stroke="#1c2230" stroke-width="2.5" />
 <text x="657" y="134" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="657" dy="0">Dan volg</tspan><tspan x="657" dy="23.6">je die.</tspan></text>
@@ -20,7 +20,7 @@
 <rect x="30" y="226" width="470" height="126" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
 <circle cx="62" cy="289" r="20" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
 <text x="62" y="296.6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="62" dy="0">2</tspan></text>
-<text x="96" y="296" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="96" dy="0">Staan er borden?</tspan></text>
+<text x="90" y="296" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="90" dy="0">Staan er borden?</tspan></text>
 <line x1="504" y1="289" x2="540" y2="289" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
 <rect x="544" y="226" width="226" height="126" rx="14" fill="#c27d00" stroke="#1c2230" stroke-width="2.5" />
 <text x="657" y="284" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="657" dy="0">Dan volg je</tspan><tspan x="657" dy="23.6">de borden.</tspan></text>
@@ -28,7 +28,7 @@
 <rect x="30" y="376" width="470" height="126" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
 <circle cx="62" cy="439" r="20" fill="#fff" stroke="#1c2230" stroke-width="2.5"/>
 <text x="62" y="446.6" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="27" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="62" dy="0">3</tspan></text>
-<text x="96" y="446" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="21" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="96" dy="0">Is er niets van dat alles?</tspan></text>
+<text x="90" y="446" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="90" dy="0">Is er niets van dat alles?</tspan></text>
 <line x1="504" y1="439" x2="540" y2="439" stroke="#1c2230" stroke-width="6" stroke-linecap="round" marker-end="url(#ah1c2230)"/>
 <rect x="544" y="376" width="226" height="126" rx="14" fill="#6b7280" stroke="#1c2230" stroke-width="2.5" />
 <text x="657" y="434" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="657" dy="0">Dan geldt voorrang</tspan><tspan x="657" dy="23.6">van rechts.</tspan></text>

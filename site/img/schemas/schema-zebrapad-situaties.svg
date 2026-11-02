@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
+<title id="t">Het zebrapad en jij als bestuurder</title>
+<desc id="d">Drie kleine scènes. Zebrapad zonder agent of licht: matig naderen en voorrang geven. Voetganger is al bezig terwijl jouw licht groen wordt: laat hem uitlopen. Het licht of de agent sluit jouw richting: stop voor het zebrapad. Onderaan: extra attent bij een bus of grote auto voor het zebrapad.</desc>
+<defs><clipPath id="cl5"><rect x="0" y="0" width="216" height="250" rx="10"/></clipPath><marker id="ahfff" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="3.2" markerHeight="3.2" orient="auto" markerUnits="strokeWidth"><path d="M0 0 L10 5 L0 10 z" fill="#fff"/></marker><clipPath id="cl6"><rect x="0" y="0" width="216" height="250" rx="10"/></clipPath><clipPath id="cl7"><rect x="0" y="0" width="216" height="250" rx="10"/></clipPath></defs>
+<rect width="800" height="600" fill="#eef1f6"/>
+<rect x="24" y="72" width="240" height="392" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(36 84)"><g clip-path="url(#cl5)">
+<rect x="0" y="0" width="216" height="250" fill="#86b96b" />
+<rect x="48" y="0" width="120" height="250" fill="#4a4f57" />
+<line x1="108" y1="0" x2="108" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+<rect x="48" y="90" width="120" height="56" fill="none" />
+<rect x="48" y="90" width="9" height="56" fill="#fff"/><rect x="66" y="90" width="9" height="56" fill="#fff"/><rect x="84" y="90" width="9" height="56" fill="#fff"/><rect x="102" y="90" width="9" height="56" fill="#fff"/><rect x="120" y="90" width="9" height="56" fill="#fff"/><rect x="138" y="90" width="9" height="56" fill="#fff"/><rect x="156" y="90" width="9" height="56" fill="#fff"/>
+<g transform="translate(110 200) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(90 118) scale(1.6)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d57a8" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<line x1="90" y1="118" x2="150" y2="118" stroke="#fff" stroke-width="3" stroke-linecap="round" marker-end="url(#ahfff)"/>
+</g></g>
+<text x="144" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="144" dy="0">Zebrapad zonder agent</tspan><tspan x="144" dy="20.06">of licht</tspan></text>
+<text x="144" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="144" dy="0">Matig naderen en voorrang</tspan><tspan x="144" dy="17.7">geven aan voetgangers</tspan><tspan x="144" dy="17.7">erop of ertegen.</tspan></text>
+<rect x="278" y="72" width="240" height="392" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(290 84)"><g clip-path="url(#cl6)">
+<rect x="0" y="0" width="216" height="250" fill="#86b96b" />
+<rect x="48" y="0" width="120" height="250" fill="#4a4f57" />
+<line x1="108" y1="0" x2="108" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+<rect x="48" y="90" width="120" height="56" fill="none" />
+<rect x="48" y="90" width="9" height="56" fill="#fff"/><rect x="66" y="90" width="9" height="56" fill="#fff"/><rect x="84" y="90" width="9" height="56" fill="#fff"/><rect x="102" y="90" width="9" height="56" fill="#fff"/><rect x="120" y="90" width="9" height="56" fill="#fff"/><rect x="138" y="90" width="9" height="56" fill="#fff"/><rect x="156" y="90" width="9" height="56" fill="#fff"/>
+<g transform="translate(110 200) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/></g>
+<g transform="translate(135 118) scale(1.6)"><ellipse cx="0" cy="0" rx="12" ry="6.5" fill="#2d57a8" stroke="#fff" stroke-width="1.5"/><circle cx="0" cy="0" r="6" fill="#f1c9a5" stroke="#1c2230" stroke-width="1.5"/></g>
+<line x1="135" y1="118" x2="165" y2="118" stroke="#fff" stroke-width="3" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<rect x="183" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="205" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="52" r="9.600000000000001" fill="#4a1d1d"/>
+<circle cx="205" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="86" r="9.600000000000001" fill="#4d3410"/>
+<circle cx="205" cy="120" r="19" fill="#1fbf5a" opacity="0.28"/>
+<circle cx="205" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="120" r="9.600000000000001" fill="#1fbf5a"/>
+</g></g>
+<text x="398" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="398" dy="0">Voetganger is al bezig,</tspan><tspan x="398" dy="20.06">jouw licht wordt groen</tspan></text>
+<text x="398" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="398" dy="0">Hem met normale gang</tspan><tspan x="398" dy="17.7">laten uitlopen.</tspan></text>
+<rect x="532" y="72" width="240" height="392" rx="14" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
+<g transform="translate(544 84)"><g clip-path="url(#cl7)">
+<rect x="0" y="0" width="216" height="250" fill="#86b96b" />
+<rect x="48" y="0" width="120" height="250" fill="#4a4f57" />
+<line x1="108" y1="0" x2="108" y2="250" stroke="#fff" stroke-width="3" stroke-dasharray="14 12"/>
+<rect x="48" y="90" width="120" height="56" fill="none" />
+<rect x="48" y="90" width="9" height="56" fill="#fff"/><rect x="66" y="90" width="9" height="56" fill="#fff"/><rect x="84" y="90" width="9" height="56" fill="#fff"/><rect x="102" y="90" width="9" height="56" fill="#fff"/><rect x="120" y="90" width="9" height="56" fill="#fff"/><rect x="138" y="90" width="9" height="56" fill="#fff"/><rect x="156" y="90" width="9" height="56" fill="#fff"/>
+<g transform="translate(110 200) rotate(0)"><rect x="-16" y="-30" width="32" height="60" rx="9" fill="#2f6fd6" stroke="#1c2230" stroke-width="2.5"/><rect x="-11" y="-20" width="22" height="9" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5"/><rect x="-11" y="17" width="22" height="7" rx="3" fill="#b9d3e6" stroke="#1c2230" stroke-width="1.5"/><rect x="-13" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="6" y="-31" width="7" height="4" rx="2" fill="#fff3a8"/><rect x="-13" y="28" width="7" height="3" fill="#ff2d2d"/><rect x="6" y="28" width="7" height="3" fill="#ff2d2d"/></g>
+<rect x="183" y="30" width="44" height="112" rx="14" fill="#1d2128" stroke="#000" stroke-width="3"/>
+<circle cx="205" cy="52" r="19" fill="#e5322d" opacity="0.28"/>
+<circle cx="205" cy="52" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="52" r="9.600000000000001" fill="#e5322d"/>
+<circle cx="205" cy="86" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="86" r="9.600000000000001" fill="#4d3410"/>
+<circle cx="205" cy="120" r="12" fill="#0b0d10" stroke="#2c323b" stroke-width="2"/><circle cx="205" cy="120" r="9.600000000000001" fill="#143b24"/>
+</g></g>
+<text x="652" y="364" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="800" fill="#1c2230" text-anchor="middle" ><tspan x="652" dy="0">Licht of agent sluit</tspan><tspan x="652" dy="20.06">jouw richting</tspan></text>
+<text x="652" y="408" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="652" dy="0">Stoppen voor het</tspan><tspan x="652" dy="17.7">zebrapad.</tspan></text>
+<rect x="119.68" y="511" width="560.64" height="50.12" rx="9" fill="#fff" stroke="#c27d00" stroke-width="2" opacity="0.95"/>
+<text x="400" y="530" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Extra attent bij een bus of grote auto voor het zebrapad:</tspan><tspan x="400" dy="20.06">zij kunnen voetgangers aan het zicht onttrekken.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Het zebrapad en jij als bestuurder</tspan></text>
+</svg>

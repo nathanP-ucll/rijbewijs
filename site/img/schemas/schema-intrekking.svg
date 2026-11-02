@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 417" width="800" height="417" role="img" aria-labelledby="t d">
+<title id="t">Onmiddellijke intrekking</title>
+<desc id="d">Drie stappen: in de regel beveelt de procureur de intrekking (soms een officier van gerechtelijke politie), de politie vraagt je rijbewijs af, na 15 dagen krijg je het terug tenzij de politierechtbank de intrekking met maximaal 3 maanden verlengt. Onder de stappen een tijdlijn op schaal met 15 dagen en een mogelijke verlenging van maximaal 3 maanden.</desc>
+
+<rect width="800" height="417" fill="#fffdf7"/>
+<rect x="30" y="68" width="228" height="175.4" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="228" height="175.4" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(114 78) scale(0.56)"><polygon points="50,8 94,32 6,32" fill="#c9c9c4" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="36" width="72" height="8" fill="#e6e6e2" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#f4f4f0" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="20" y="46" width="10" height="32"/><rect x="40" y="46" width="10" height="32"/><rect x="60" y="46" width="10" height="32"/></g><rect x="8" y="78" width="84" height="10" fill="#c9c9c4" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="142" y="159.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="142" dy="0">Procureur</tspan></text>
+<text x="142" y="180.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="142" dy="0">Beveelt de intrekking in de</tspan><tspan x="142" dy="18.3">regel. Soms doet een officier</tspan><tspan x="142" dy="18.3">van gerechtelijke politie dat.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M266 140.7 L277 151.7 L266 162.7" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="288" y="68" width="228" height="175.4" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="286" y="64" width="228" height="175.4" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(372 78) scale(0.56)"><path d="M50 6 L87 19 V48 C87 70 71 85 50 94 C29 85 13 70 13 48 V19 Z" fill="#2f6fd6" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><polygon points="50,26 55.29,40.72 70.92,41.2 58.56,50.78 62.93,65.8 50,57 37.07,65.8 41.44,50.78 29.08,41.2 44.71,40.72" fill="#fff"/></g>
+<text x="400" y="159.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Rijbewijs afgeven</tspan></text>
+<text x="400" y="180.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">De politie kan vragen dat je</tspan><tspan x="400" dy="18.3">het meteen afgeeft.</tspan></text>
+<circle cx="306" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="306" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="306" dy="0">2</tspan></text>
+<path d="M524 140.7 L535 151.7 L524 162.7" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="546" y="68" width="228" height="175.4" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="544" y="64" width="228" height="175.4" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(630 78) scale(0.56)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<text x="658" y="159.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="658" dy="0">Na 15 dagen terug</tspan></text>
+<text x="658" y="180.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="658" dy="0">Tenzij de intrekking verlengd</tspan><tspan x="658" dy="18.3">wordt.</tspan></text>
+<circle cx="564" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="564" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="564" dy="0">3</tspan></text>
+<rect x="50" y="295.4" width="99" height="42" rx="8" fill="#f08a1c"/><rect x="149" y="295.4" width="594" height="42" rx="8" fill="#cfdcf6" stroke="#2f6fd6" stroke-width="2.5" stroke-dasharray="7 5"/><rect x="139" y="295.4" width="10" height="42" fill="#f08a1c"/>
+<text x="99.5" y="323.4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="99.5" dy="0">15 dagen</tspan></text>
+<text x="446" y="323.4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#2f6fd6" text-anchor="middle"><tspan x="446" dy="0">verlenging: maximaal 3 maanden</tspan></text>
+<text x="99.5" y="283.4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#b25f00" text-anchor="middle"><tspan x="99.5" dy="0">intrekking</tspan></text>
+<text x="446" y="283.4" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="446" dy="0">alleen door de politierechtbank</tspan></text>
+<rect x="28" y="355.4" width="744" height="42.74" rx="12" fill="#1c2230"/>
+<text x="400" y="382.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Intrekking is een tijdelijke maatregel: je krijgt je rijbewijs terug.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Onmiddellijke intrekking</tspan></text>
+</svg>

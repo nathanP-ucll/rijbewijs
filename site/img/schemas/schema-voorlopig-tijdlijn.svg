@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 438" width="800" height="438" role="img" aria-labelledby="t d">
+<title id="t">Voorlopig rijbewijs: M36, M18 en M12</title>
+<desc id="d">Drie balken op dezelfde schaal in maanden. M36: 36 maanden geldig, vanaf 17 jaar, met 1 of 2 begeleiders. M18: 18 maanden geldig, vanaf 18 jaar, zonder begeleider. M12: 12 maanden geldig, eenmalig, aan te vragen na een verlopen voorlopig rijbewijs, met begeleider. Geen enkel voorlopig rijbewijs is verlengbaar.</desc>
+
+<rect width="800" height="438" fill="#fffdf7"/>
+<line x1="330" y1="66" x2="330" y2="360" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="420" y1="66" x2="420" y2="360" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="6 5"/>
+<line x1="690" y1="66" x2="690" y2="360" stroke="#d9d4c4" stroke-width="2" stroke-dasharray="6 5"/>
+<text x="100" y="118" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#2f6fd6" text-anchor="middle"><tspan x="100" dy="0">M36</tspan></text>
+<rect x="150" y="80" width="540" height="48" rx="10" fill="#2f6fd6"/>
+<text x="420" y="112" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="420" dy="0">36 maanden geldig</tspan></text>
+<text x="150" y="154" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="150" dy="0">Vanaf 17 jaar, met 1 of 2 begeleiders</tspan></text>
+<text x="100" y="214" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#2f9e5a" text-anchor="middle"><tspan x="100" dy="0">M18</tspan></text>
+<rect x="150" y="176" width="270" height="48" rx="10" fill="#2f9e5a"/>
+<text x="285" y="208" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="285" dy="0">18 maanden geldig</tspan></text>
+<text x="150" y="250" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="150" dy="0">Vanaf 18 jaar, zonder begeleider</tspan></text>
+<text x="100" y="310" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#f08a1c" text-anchor="middle"><tspan x="100" dy="0">M12</tspan></text>
+<rect x="150" y="272" width="180" height="48" rx="10" fill="#f08a1c"/>
+<text x="240" y="304" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="240" dy="0">12 maanden geldig</tspan></text>
+<text x="150" y="346" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="600" fill="#4d5668" text-anchor="start"><tspan x="150" dy="0">Eenmalig, na een verlopen voorlopig rijbewijs, met begeleider</tspan></text>
+<rect x="28" y="376" width="744" height="43.96" rx="12" fill="#1c2230"/>
+<text x="400" y="404.1" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Alle voorlopige rijbewijzen zijn niet verlengbaar.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Voorlopig rijbewijs: M36, M18 en M12</tspan></text>
+</svg>

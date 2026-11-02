@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 344" width="800" height="344" role="img" aria-labelledby="t d">
+<title id="t">Zo verloopt het theorie-examen</title>
+<desc id="d">Vier kaarten: 50 meerkeuzevragen die voorgelezen en getoond worden, 15 seconden per vraag nadat de vraag volledig is voorgelezen, identiteitskaart meenemen (een kopie volstaat niet) en de kostprijs van 19 euro. Onderaan: oefenen kan op het officiële platform Mijn rijbewijs B.</desc>
+
+<rect width="800" height="344" fill="#fffdf7"/>
+<rect x="30" y="68" width="175.5" height="202.88" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="175.5" height="202.88" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(83.75 74) scale(0.64)"><rect x="8" y="14" width="84" height="56" rx="7" fill="#1c2230"/><rect x="14" y="20" width="72" height="44" rx="2" fill="#cfe6f7"/><text x="50" y="52" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1c2230">?</text><rect x="43" y="70" width="14" height="10" fill="#1c2230"/><rect x="30" y="80" width="40" height="7" rx="3.5" fill="#1c2230"/></g>
+<text x="115.75" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="115.75" dy="0">50 vragen</tspan></text>
+<text x="115.75" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="115.75" dy="0">Meerkeuze,</tspan><tspan x="115.75" dy="18.91">voorgelezen en</tspan><tspan x="115.75" dy="18.91">getoond op het</tspan><tspan x="115.75" dy="18.91">scherm.</tspan></text>
+<rect x="219.5" y="68" width="175.5" height="202.88" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="217.5" y="64" width="175.5" height="202.88" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(273.25 74) scale(0.64)"><circle cx="50" cy="50" r="40" fill="#fff" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 50 V24 M50 50 L68 60" fill="none" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="4" fill="#1c2230"/></g>
+<text x="305.25" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="305.25" dy="0">15 seconden</tspan></text>
+<text x="305.25" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="305.25" dy="0">Per vraag, nadat ze</tspan><tspan x="305.25" dy="18.91">volledig is</tspan><tspan x="305.25" dy="18.91">voorgelezen.</tspan></text>
+<rect x="409" y="68" width="175.5" height="202.88" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="407" y="64" width="175.5" height="202.88" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(462.75 74) scale(0.64)"><rect x="6" y="22" width="88" height="56" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="32" width="26" height="32" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="27" cy="43" r="5.5" fill="#f1c9a5"/><path d="M18 64 Q27 50 36 64 Z" fill="#f1c9a5"/><path d="M50 36 H84 M50 48 H84 M50 60 H72" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="494.75" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="494.75" dy="0">Identiteitskaart</tspan></text>
+<text x="494.75" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="494.75" dy="0">Neem ze mee, een</tspan><tspan x="494.75" dy="18.91">kopie volstaat niet.</tspan></text>
+<rect x="598.5" y="68" width="175.5" height="202.88" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="596.5" y="64" width="175.5" height="202.88" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(652.25 74) scale(0.64)"><circle cx="50" cy="50" r="40" fill="#f2c230" stroke="#1c2230" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"/><text x="50" y="66" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="48" font-weight="800" fill="#1c2230">€</text></g>
+<text x="684.25" y="165" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="684.25" dy="0">19 euro</tspan></text>
+<text x="684.25" y="187.28" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15.5" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="684.25" dy="0">Kostprijs. Je bent</tspan><tspan x="684.25" dy="18.91">minstens 17 jaar.</tspan></text>
+<rect x="28" y="282.88" width="744" height="42.74" rx="12" fill="#2f6fd6"/>
+<text x="400" y="310.03" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="400" dy="0">Oefenen kan op het officiële platform Mijn rijbewijs B. Rijschoollessen zijn optioneel.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Zo verloopt het theorie-examen</tspan></text>
+</svg>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 447" width="800" height="447" role="img" aria-labelledby="t d">
+<title id="t">Zo tellen de punten</title>
+<desc id="d">Een balk van 50 punten. Je start met 50 punten. Een gewone fout of onbeantwoorde vraag kost 1 punt, een zware fout 5 punten. Met 41 tot 50 punten ben je geslaagd, met 40 of minder niet. Onder de balk drie kaarten: gewone fout min 1, zware fout min 5, geslaagd vanaf 41.</desc>
+
+<rect width="800" height="447" fill="#fffdf7"/>
+<text x="400" y="82" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Je start met 50 punten</tspan></text>
+<rect x="745.6" y="134" width="14.4" height="22" rx="3" fill="#f08a1c"/>
+<text x="735.6" y="151" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#b25f00" text-anchor="end"><tspan x="735.6" dy="0">−1  gewone fout of onbeantwoord</tspan></text>
+<rect x="688" y="102" width="72" height="22" rx="3" fill="#d63a3a"/>
+<text x="678" y="119" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="700" fill="#d63a3a" text-anchor="end"><tspan x="678" dy="0">−5  zware fout</tspan></text>
+<rect x="40" y="174" width="576" height="46" rx="8" fill="#f3b9b9"/><rect x="616" y="174" width="144" height="46" rx="8" fill="#2f9e5a"/><rect x="616" y="174" width="14" height="46" fill="#2f9e5a"/><rect x="602" y="174" width="14" height="46" fill="#f3b9b9"/>
+<line x1="54.4" y1="174" x2="54.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="68.8" y1="174" x2="68.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="83.2" y1="174" x2="83.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="97.6" y1="174" x2="97.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="112" y1="174" x2="112" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="126.4" y1="174" x2="126.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="140.8" y1="174" x2="140.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="155.2" y1="174" x2="155.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="169.6" y1="174" x2="169.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="184" y1="174" x2="184" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="198.4" y1="174" x2="198.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="212.8" y1="174" x2="212.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="227.2" y1="174" x2="227.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="241.6" y1="174" x2="241.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="256" y1="174" x2="256" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="270.4" y1="174" x2="270.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="284.8" y1="174" x2="284.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="299.2" y1="174" x2="299.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="313.6" y1="174" x2="313.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="328" y1="174" x2="328" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="342.4" y1="174" x2="342.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="356.8" y1="174" x2="356.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="371.2" y1="174" x2="371.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="385.6" y1="174" x2="385.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="400" y1="174" x2="400" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="414.4" y1="174" x2="414.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="428.8" y1="174" x2="428.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="443.2" y1="174" x2="443.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="457.6" y1="174" x2="457.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="472" y1="174" x2="472" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="486.4" y1="174" x2="486.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="500.8" y1="174" x2="500.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="515.2" y1="174" x2="515.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="529.6" y1="174" x2="529.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="544" y1="174" x2="544" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="558.4" y1="174" x2="558.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="572.8" y1="174" x2="572.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="587.2" y1="174" x2="587.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="601.6" y1="174" x2="601.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="616" y1="174" x2="616" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="630.4" y1="174" x2="630.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="644.8" y1="174" x2="644.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="659.2" y1="174" x2="659.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="673.6" y1="174" x2="673.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="688" y1="174" x2="688" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="702.4" y1="174" x2="702.4" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="716.8" y1="174" x2="716.8" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="731.2" y1="174" x2="731.2" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<line x1="745.6" y1="174" x2="745.6" y2="220" stroke="#fff" stroke-width="1.2" opacity=".7"/>
+<text x="328" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#8a1f1f" text-anchor="middle"><tspan x="328" dy="0">40 punten of minder: niet geslaagd</tspan></text>
+<text x="688" y="204" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="18" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="688" dy="0">geslaagd</tspan></text>
+<path d="M616 226 V242 M760 226 V242 M616 234 H760" stroke="#1c2230" stroke-width="2.5" fill="none"/>
+<text x="608" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#1c2230" text-anchor="end"><tspan x="608" dy="0">41</tspan></text>
+<text x="764" y="248" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="800" fill="#1c2230" text-anchor="end"><tspan x="764" dy="0">50</tspan></text>
+<text x="688" y="262" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#1f6d3b" text-anchor="middle"><tspan x="688" dy="0">minstens 41 punten</tspan></text>
+<rect x="30" y="286" width="238.67" height="146.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="282" width="238.67" height="146.64" rx="14" fill="#fff" stroke="#f08a1c" stroke-width="3"/>
+<g transform="translate(123.33 292) scale(0.48)"><circle cx="50" cy="50" r="40" fill="#f08a1c" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="45" y="22" width="10" height="34" rx="5" fill="#fff"/><circle cx="50" cy="70" r="6" fill="#fff"/></g>
+<text x="147.33" y="364.15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#f08a1c" text-anchor="middle"><tspan x="147.33" dy="0">Gewone fout of</tspan><tspan x="147.33" dy="20.74">onbeantwoord</tspan></text>
+<text x="147.33" y="407.69" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="147.33" dy="0">Je verliest 1 punt.</tspan></text>
+<rect x="282.67" y="286" width="238.67" height="146.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="280.67" y="282" width="238.67" height="146.64" rx="14" fill="#fff" stroke="#d63a3a" stroke-width="3"/>
+<g transform="translate(376 292) scale(0.48)"><circle cx="50" cy="50" r="40" fill="#d63a3a" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="45" y="22" width="10" height="34" rx="5" fill="#fff"/><circle cx="50" cy="70" r="6" fill="#fff"/></g>
+<text x="400" y="364.15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#d63a3a" text-anchor="middle"><tspan x="400" dy="0">Zware fout</tspan></text>
+<text x="400" y="386.95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Je verliest 5 punten.</tspan></text>
+<rect x="535.33" y="286" width="238.67" height="146.64" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="533.33" y="282" width="238.67" height="146.64" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="3"/>
+<g transform="translate(628.67 292) scale(0.48)"><path d="M20 52 L42 74 L82 28" fill="none" stroke="#2f9e5a" stroke-width="14" stroke-linecap="round" stroke-linejoin="round"/></g>
+<text x="652.67" y="364.15" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#2f9e5a" text-anchor="middle"><tspan x="652.67" dy="0">Geslaagd</tspan></text>
+<text x="652.67" y="386.95" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="652.67" dy="0">Met minstens 41 van de 50</tspan><tspan x="652.67" dy="19.52">punten.</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Zo tellen de punten</tspan></text>
+</svg>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 449" width="800" height="449" role="img" aria-labelledby="t d">
+<title id="t">Van theorie naar rijbewijs B</title>
+<desc id="d">Zes genummerde stappen in twee rijen: 1 theorie-examen vanaf 17 jaar (3 jaar geldig), 2 voorlopig rijbewijs (M36 vanaf 17 jaar, M18 vanaf 18 jaar), 3 minstens 5 maanden oefenen op de openbare weg, 4 praktijkexamen vanaf 18 jaar, 5 definitief rijbewijs aanvragen, 6 terugkommoment van 4 uur, 6 tot 9 maanden na het definitieve rijbewijs.</desc>
+
+<rect width="800" height="449" fill="#fffdf7"/>
+<rect x="30" y="68" width="226.67" height="184.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="64" width="226.67" height="184.32" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(111.33 78) scale(0.6)"><rect x="8" y="14" width="84" height="56" rx="7" fill="#1c2230"/><rect x="14" y="20" width="72" height="44" rx="2" fill="#cfe6f7"/><text x="50" y="52" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1c2230">?</text><rect x="43" y="70" width="14" height="10" fill="#1c2230"/><rect x="30" y="80" width="40" height="7" rx="3.5" fill="#1c2230"/></g>
+<text x="141.33" y="164.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="141.33" dy="0">Theorie-examen</tspan></text>
+<text x="141.33" y="186.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="141.33" dy="0">Vanaf 17 jaar. Het</tspan><tspan x="141.33" dy="19.52">resultaat blijft 3 jaar</tspan><tspan x="141.33" dy="19.52">geldig.</tspan></text>
+<circle cx="48" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">1</tspan></text>
+<path d="M265.67 145.16 L276.67 156.16 L265.67 167.16" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="288.67" y="68" width="226.67" height="184.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="286.67" y="64" width="226.67" height="184.32" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(370 78) scale(0.6)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<text x="400" y="164.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Voorlopig rijbewijs</tspan></text>
+<text x="400" y="186.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">M36 vanaf 17 jaar, M18</tspan><tspan x="400" dy="19.52">vanaf 18 jaar.</tspan></text>
+<circle cx="306.67" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="306.67" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="306.67" dy="0">2</tspan></text>
+<path d="M524.33 145.16 L535.33 156.16 L524.33 167.16" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="547.33" y="68" width="226.67" height="184.32" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="545.33" y="64" width="226.67" height="184.32" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(628.67 78) scale(0.6)"><rect x="12" y="12" width="76" height="76" rx="7" fill="#fff" stroke="#1c2230" stroke-width="5" stroke-linejoin="round" stroke-linecap="round"/><text x="50" y="74" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="68" font-weight="800" fill="#1c2230">L</text></g>
+<text x="658.67" y="164.05" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="658.67" dy="0">Oefenen</tspan></text>
+<text x="658.67" y="186.85" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="658.67" dy="0">Minstens 5 maanden op de</tspan><tspan x="658.67" dy="19.52">openbare weg.</tspan></text>
+<circle cx="565.33" cy="84" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="565.33" y="89.55" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="565.33" dy="0">3</tspan></text>
+<rect x="30" y="270.32" width="226.67" height="164.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="266.32" width="226.67" height="164.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(111.33 280.32) scale(0.6)"><circle cx="50" cy="50" r="38" fill="none" stroke="#1c2230" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="9" fill="#1c2230"/><path d="M50 50 L14 58 M50 50 L86 58 M50 50 V88" stroke="#1c2230" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="141.33" y="366.37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="141.33" dy="0">Praktijkexamen</tspan></text>
+<text x="141.33" y="389.17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="141.33" dy="0">Vanaf 18 jaar.</tspan></text>
+<circle cx="48" cy="286.32" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="48" y="291.87" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="48" dy="0">4</tspan></text>
+<path d="M265.67 337.56 L276.67 348.56 L265.67 359.56" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="288.67" y="270.32" width="226.67" height="164.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="286.67" y="266.32" width="226.67" height="164.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(370 280.32) scale(0.6)"><polygon points="50,8 94,32 6,32" fill="#c9c9c4" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="36" width="72" height="8" fill="#e6e6e2" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/><g fill="#f4f4f0" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"><rect x="20" y="46" width="10" height="32"/><rect x="40" y="46" width="10" height="32"/><rect x="60" y="46" width="10" height="32"/></g><rect x="8" y="78" width="84" height="10" fill="#c9c9c4" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="400" y="366.37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="400" dy="0">Definitief rijbewijs</tspan></text>
+<text x="400" y="389.17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">Aanvragen bij je gemeente</tspan><tspan x="400" dy="19.52">of via BelDrive.</tspan></text>
+<circle cx="306.67" cy="286.32" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="306.67" y="291.87" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="306.67" dy="0">5</tspan></text>
+<path d="M524.33 337.56 L535.33 348.56 L524.33 359.56" fill="none" stroke="#8a8f98" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<rect x="547.33" y="270.32" width="226.67" height="164.48" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="545.33" y="266.32" width="226.67" height="164.48" rx="14" fill="#fff" stroke="#d9d4c4" stroke-width="2"/>
+<g transform="translate(628.67 280.32) scale(0.6)"><path d="M10 20 Q30 12 50 22 Q70 12 90 20 V82 Q70 74 50 84 Q30 74 10 82 Z" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><path d="M50 22 V84" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><path d="M20 34 Q32 30 42 36 M20 48 Q32 44 42 50 M58 36 Q68 30 80 34 M58 50 Q68 44 80 48" fill="none" stroke="#1c2230" stroke-width="2.5" stroke-linejoin="round" stroke-linecap="round"/></g>
+<text x="658.67" y="366.37" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="19" font-weight="700" fill="#1c2230" text-anchor="middle"><tspan x="658.67" dy="0">Terugkommoment</tspan></text>
+<text x="658.67" y="389.17" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#4d5668" text-anchor="middle"><tspan x="658.67" dy="0">4 uur, 6 tot 9 maanden na</tspan><tspan x="658.67" dy="19.52">je definitieve rijbewijs.</tspan></text>
+<circle cx="565.33" cy="286.32" r="15" fill="#1c2230" stroke="#fff" stroke-width="2.5"/>
+<text x="565.33" y="291.87" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17.25" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="565.33" dy="0">6</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Van theorie naar rijbewijs B</tspan></text>
+</svg>

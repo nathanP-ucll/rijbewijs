@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 334" width="800" height="334" role="img" aria-labelledby="t d">
+<title id="t">Wat doe je op welke leeftijd?</title>
+<desc id="d">Tijdlijn met twee leeftijden. Vanaf 17 jaar: theorie-examen, voorlopig rijbewijs M36 aanvragen en altijd oefenen met een begeleider. Vanaf 18 jaar: praktijkexamen, voorlopig rijbewijs M18 aanvragen en zonder begeleider rijden.</desc>
+
+<rect width="800" height="334" fill="#fffdf7"/>
+<line x1="60" y1="84" x2="720" y2="84" stroke="#8a8f98" stroke-width="6" stroke-linecap="round"/><path d="M716 72 L736 84 L716 96" fill="none" stroke="#8a8f98" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+<circle cx="210" cy="84" r="30" fill="#2f6fd6" stroke="#fff" stroke-width="5"/>
+<text x="210" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="210" dy="0">17</tspan></text>
+<circle cx="590" cy="84" r="30" fill="#2f9e5a" stroke="#fff" stroke-width="5"/>
+<text x="590" y="94" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#fff" text-anchor="middle"><tspan x="590" dy="0">18</tspan></text>
+<text x="400" y="72" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#4d5668" text-anchor="middle"><tspan x="400" dy="0">1 jaar later</tspan></text>
+<rect x="30" y="140" width="364" height="180" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="28" y="136" width="364" height="180" rx="14" fill="#fff" stroke="#2f6fd6" stroke-width="2.5"/>
+<path d="M28 188 V150 Q28 136 42 136 H378 Q392 136 392 150 V188 Z" fill="#2f6fd6"/>
+<circle cx="62" cy="162" r="22" fill="#fff"/>
+<g transform="translate(46 146) scale(0.32)"><rect x="8" y="14" width="84" height="56" rx="7" fill="#1c2230"/><rect x="14" y="20" width="72" height="44" rx="2" fill="#cfe6f7"/><text x="50" y="52" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1c2230">?</text><rect x="43" y="70" width="14" height="10" fill="#1c2230"/><rect x="30" y="80" width="40" height="7" rx="3.5" fill="#1c2230"/></g>
+<text x="238" y="169" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="238" dy="0">Vanaf 17 jaar</tspan></text>
+<g transform="translate(45 193) scale(0.38)"><rect x="8" y="14" width="84" height="56" rx="7" fill="#1c2230"/><rect x="14" y="20" width="72" height="44" rx="2" fill="#cfe6f7"/><text x="50" y="52" text-anchor="middle" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="30" font-weight="800" fill="#1c2230">?</text><rect x="43" y="70" width="14" height="10" fill="#1c2230"/><rect x="30" y="80" width="40" height="7" rx="3.5" fill="#1c2230"/></g>
+<text x="90" y="217.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Theorie-examen afleggen</tspan></text>
+<line x1="42" y1="232" x2="378" y2="232" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 233) scale(0.38)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<text x="90" y="257.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Voorlopig rijbewijs M36 aanvragen</tspan></text>
+<line x1="42" y1="272" x2="378" y2="272" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(45 273) scale(0.38)"><g transform="translate(32 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#2d4a8a" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g><g transform="translate(68 56) scale(0.85)"><circle cx="0" cy="-30" r="11" fill="#f1c9a5" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/><path d="M-22 22 V-6 A22 22 0 0 1 22 -6 V22 Z" fill="#c0562b" stroke="#1c2230" stroke-width="3.5294117647058822" stroke-linejoin="round" stroke-linecap="round"/></g></g>
+<text x="90" y="297.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="90" dy="0">Altijd oefenen met een begeleider</tspan></text>
+<rect x="410" y="140" width="364" height="180" rx="14" fill="#1c2230" opacity=".10"/>
+<rect x="408" y="136" width="364" height="180" rx="14" fill="#fff" stroke="#2f9e5a" stroke-width="2.5"/>
+<path d="M408 188 V150 Q408 136 422 136 H758 Q772 136 772 150 V188 Z" fill="#2f9e5a"/>
+<circle cx="442" cy="162" r="22" fill="#fff"/>
+<g transform="translate(426 146) scale(0.32)"><circle cx="50" cy="50" r="38" fill="none" stroke="#1c2230" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="9" fill="#1c2230"/><path d="M50 50 L14 58 M50 50 L86 58 M50 50 V88" stroke="#1c2230" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="618" y="169" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="700" fill="#fff" text-anchor="middle"><tspan x="618" dy="0">Vanaf 18 jaar</tspan></text>
+<g transform="translate(425 193) scale(0.38)"><circle cx="50" cy="50" r="38" fill="none" stroke="#1c2230" stroke-width="9" stroke-linejoin="round" stroke-linecap="round"/><circle cx="50" cy="50" r="9" fill="#1c2230"/><path d="M50 50 L14 58 M50 50 L86 58 M50 50 V88" stroke="#1c2230" stroke-width="7" stroke-linejoin="round" stroke-linecap="round" fill="none"/></g>
+<text x="470" y="217.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Praktijkexamen afleggen</tspan></text>
+<line x1="422" y1="232" x2="758" y2="232" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(425 233) scale(0.38)"><rect x="6" y="20" width="88" height="60" rx="8" fill="#fff" stroke="#1c2230" stroke-width="3.5" stroke-linejoin="round" stroke-linecap="round"/><rect x="14" y="30" width="28" height="34" rx="3" fill="#cfe6f7" stroke="#1c2230" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"/><circle cx="28" cy="42" r="6" fill="#f1c9a5"/><path d="M18 64 Q28 48 38 64 Z" fill="#f1c9a5"/><path d="M52 34 H84 M52 46 H84 M52 58 H70" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round" fill="none"/><rect x="72" y="58" width="14" height="12" rx="2" fill="#f2c230"/></g>
+<text x="470" y="257.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Voorlopig rijbewijs M18 aanvragen</tspan></text>
+<line x1="422" y1="272" x2="758" y2="272" stroke="#d9d4c4" stroke-width="1.5"/>
+<g transform="translate(425 273) scale(0.38)"><path d="M6 64 V52 Q6 46 12 45 L24 42 L35 27 Q37 25 41 25 H63 Q67 25 69 28 L79 41 L89 44 Q95 45 95 52 V64 Z" fill="#d64545" stroke="#1c2230" stroke-width="3" stroke-linejoin="round" stroke-linecap="round"/><path d="M39 30 H48 V41 H31 Z M54 30 H64 L72 41 H54 Z" fill="#cfe6f7" stroke="#1c2230" stroke-width="1.5" stroke-linejoin="round" stroke-linecap="round"/><circle cx="27" cy="67" r="10" fill="#1c2230"/><circle cx="27" cy="67" r="4" fill="#ccc"/><circle cx="75" cy="67" r="10" fill="#1c2230"/><circle cx="75" cy="67" r="4" fill="#ccc"/></g>
+<text x="470" y="297.78" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="500" fill="#1c2230" text-anchor="start"><tspan x="470" dy="0">Met M18 zonder begeleider rijden</tspan></text>
+<rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
+<text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Wat doe je op welke leeftijd?</tspan></text>
+</svg>

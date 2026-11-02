@@ -513,16 +513,16 @@ mk('schema-parkeerschijf-betalen', 'Blauwe zone en betalend parkeren',
       ['Defecte automaat', 'Gebruik de parkeerschijf', ORA],
       ['Plaats voor personen\nmet een handicap', 'De speciale kaart achter de voorruit\nvervangt de schijf', BLU]];
     kaarten.forEach(([t, sub, kl], i) => {
-      const x0 = 20 + (i % 2) * 388, y0 = 76 + Math.floor(i / 2) * 252, cx = x0 + 186, cy = y0 + 76;
+      const x0 = 20 + (i % 2) * 388, y0 = 76 + Math.floor(i / 2) * 252, cx = x0 + 186, cy = y0 + 66;
       card(s, x0, y0, 372, 238);
       s.add(`<rect x="${x0 + 20}" y="${y0}" width="332" height="6" rx="3" fill="${kl}"/>`);
       if (i === 0) { G(s, cx, cy, 0.95, windscreen); G(s, cx - 56, cy + 14, 0.8, disc); }
       if (i === 1) { G(s, cx - 60, cy, 1, machine); G(s, cx + 60, cy - 6, 0.9, `<rect x="-36" y="-26" width="72" height="50" rx="7" fill="#fff" stroke="${INK}" stroke-width="3"/><rect x="-36" y="-14" width="72" height="12" fill="${INK}"/><rect x="-26" y="8" width="30" height="6" rx="3" fill="#8d96a6"/>`); }
       if (i === 2) { G(s, cx - 56, cy, 1, machine); bigCross(s, cx - 56, cy, 56); parrow(s, `M${cx - 8},${cy} L${cx + 26},${cy}`, INK, 5); G(s, cx + 76, cy, 0.9, disc); }
       if (i === 3) { G(s, cx, cy, 0.95, windscreen); G(s, cx - 10, cy + 8, 0.9, kaart); }
-      s.text(cx, y0 + 152, t, { size: 19, fill: INK, weight: 700 });
+      s.text(cx, y0 + 164, t, { size: 19, fill: INK, weight: 700 });
       const n = t.split('\n').length;
-      s.text(cx, y0 + 152 + n * 22 + 2, sub, { size: 15, fill: MUTED, weight: 600 });
+      s.text(cx, y0 + 164 + n * 22 + 2, sub, { size: 15, fill: MUTED, weight: 600 });
     });
   }, { bg: PAPER });
 
@@ -594,6 +594,182 @@ function tijdlijn(naam, onderwerpen, tb) {
     }, { bg: PAPER });
 }
 tijdlijn('schema-nieuwe-wegcode-2027-plaats', ['Beurtelings parkeren', 'Verbod links in te halen', 'Tripleren', 'Motorfiets op de reddingsstrook']);
+
+// =====================================================================  HOOFDSTUK 8
+mk('schema-snelweg-toegang', 'Wie mag op de autosnelweg en de autoweg?',
+  'Twee kaarten naast elkaar. Autosnelweg: toegelaten zijn motorvoertuigen die 70 km/u kunnen halen; voetgangers, fietsers, bromfietsers, dieren en landbouwvoertuigen zijn niet toegelaten (rode doorstreepte pictogrammen). Autoweg: toegelaten zijn motorvoertuigen en hun aanhangwagens; bromfietsen, landbouwvoertuigen en vierwielers zonder passagiersruimte zijn niet toegelaten.',
+  'snelweg-toegelaten-voertuigen', (s) => {
+    s.titel('Wie mag er op?', 'Je rijdt er enkel op en af op de ingerichte plaatsen');
+    const nietIcoon = (x, y, naam, lbl, k) => {
+      s.circle(x, y, 34, '#fff', `stroke="${EDGE}" stroke-width="2"`);
+      G(s, x, y + 2, k * 0.82, ICON[naam]());
+      ban(s, x, y, 34);
+      s.text(x, y + 56, lbl, { size: 14, fill: INK, weight: 700 });
+    };
+    const kolommen = [
+      { x0: 20, bord: 'F5', naam: 'Autosnelweg', toe: 'Motorvoertuigen die\n70 km/u kunnen halen', niet: [['person', 'Voetgangers', 0.62], ['bike', 'Fietsers', 0.5], ['moped', 'Bromfietsers', 0.5], ['cow', 'Dieren', 0.5], ['tractor', 'Landbouw-\nvoertuigen', 0.5]] },
+      { x0: 408, bord: 'F9', naam: 'Autoweg', toe: 'Motorvoertuigen en\nhun aanhangwagens', niet: [['moped', 'Bromfietsen', 0.5], ['tractor', 'Landbouw-\nvoertuigen', 0.5], ['quad', 'Vierwielers zonder\npassagiersruimte', 0.5]] }];
+    kolommen.forEach((k) => {
+      card(s, k.x0, 76, 372, 510);
+      s.sign(k.bord, k.x0 + 52, 130, 64, { pole: false });
+      s.text(k.x0 + 98, 140, k.naam, { size: 26, fill: INK, weight: 800, anchor: 'start' });
+      pill(s, k.x0 + 70, 200, 'Toegelaten', { size: 17, bg: GRN, fg: '#fff' });
+      G(s, k.x0 + 70, 258, 0.95, ICON.car('#2f6fd6'));
+      s.text(k.x0 + 135, 256, k.toe, { size: 17, fill: INK, weight: 700, anchor: 'start' });
+      pill(s, k.x0 + 84, 336, 'Niet toegelaten', { size: 17, bg: RED, fg: '#fff' });
+      k.niet.forEach(([ic, lbl, sk], i) => {
+        const per = 3, r = Math.floor(i / per), c = i % per, cnt = Math.min(per, k.niet.length - r * per);
+        const x = k.x0 + 186 + (c - (cnt - 1) / 2) * 118, y = 408 + r * 112;
+        nietIcoon(x, y, ic, lbl, sk);
+      });
+    });
+  }, { bg: PAPER });
+
+mk('schema-snelweg-rijstroken', 'Autosnelweg: rijstroken en inhalen',
+  'Bovenaanzicht van een autosnelweg met drie rijstroken. Een blauwe personenwagen haalt een gele auto links in en keert daarna terug naar de rechterstrook. In de middelste strook rijdt een vrachtwagen (toegelaten); in de linkerstrook staat een vrachtwagen met een rood kruis: die mag daar niet rijden.',
+  'snelweg-rijstroken-inhalen', (s) => {
+    s.titel('Autosnelweg: rechts rijden, links inhalen');
+    s.rect(50, 48, 300, 552, C.road);
+    s.line(50, 48, 50, 600, '#fff', 4); s.line(350, 48, 350, 600, '#fff', 4);
+    s.line(150, 48, 150, 600, '#fff', 3, 'stroke-dasharray="22 18"'); s.line(250, 48, 250, 600, '#fff', 3, 'stroke-dasharray="22 18"');
+    s.label(100, 95, 'links', { size: 16 }); s.label(200, 95, 'midden', { size: 16 }); s.label(300, 95, 'rechts', { size: 16 });
+    s.truck(200, 260, 0, null);
+    mark(s, 262, 215, true, 15);
+    s.truck(100, 470, 0, null);
+    bigCross(s, 100, 470, 56);
+    s.car(300, 320, 0, 'geel', null);
+    s.car(300, 530, 0, 'blauw', null, { blink: 'L' });
+    s.route('M300,490 C300,420 100,430 100,360 L100,200 C100,140 300,150 300,100', CAR.blauw);
+    card(s, 385, 70, 405, 520, { fill: 'rgba(255,255,255,.95)' });
+    const regels = [
+      [GRN, 'Personenwagen', 'Rechterrijstrook. Links enkel om in te halen, daarna terug naar rechts.'],
+      [ORA, 'Bus, autocar en voertuigen boven 3,5 ton', 'Bij drie of meer rijstroken enkel de twee rechtse rijstroken.'],
+      [RED, 'Middenstrookrijden', 'Op de middelste strook blijven rijden terwijl rechts vrij is, is een overtreding.']];
+    regels.forEach(([kl, t, sub], i) => {
+      const y0 = 92 + i * 160;
+      s.add(`<rect x="402" y="${y0}" width="8" height="132" rx="4" fill="${kl}"/>`);
+      s.text(424, y0 + 26, wrap(t, 28), { size: 19, fill: INK, weight: 800, anchor: 'start' });
+      const n = wrap(t, 28).split('\n').length;
+      s.text(424, y0 + 26 + n * 23 + 8, wrap(sub, 32), { size: 16, fill: MUTED, weight: 600, anchor: 'start' });
+    });
+  });
+
+mk('schema-snelweg-ritsen-file', 'Ritsen, oprit en file: drie situaties',
+  'Drie kleine scènes. Links: een rijstrook eindigt en het verkeer is sterk vertraagd, dus de auto\'s ritsen en voegen beurtelings in. Midden: een auto op een oprit verleent voorrang aan het verkeer op de autosnelweg (bord voorrang verlenen). Rechts: bij file op twee rijstroken vormen de auto\'s een reddingsstrook waar een ziekenwagen doorrijdt.',
+  'snelweg-ritsen-file', (s) => {
+    s.titel('Ritsen, oprit en file');
+    const titels = [['Rijstrook eindigt', 'Sterk vertraagd verkeer: ritsen, om beurten invoegen'], ['Je rijdt de autosnelweg op', 'Niet ritsen: voorrang verlenen aan wie er al rijdt'], ['File op twee of meer rijstroken', 'Een reddingsstrook vormen']];
+    [0, 1, 2].forEach((i) => {
+      const x0 = 18 + i * 264, cx = x0 + 122;
+      card(s, x0, 70, 244, 520);
+      s.rect(x0 + 8, 78, 228, 380, C.grass, 'rx="10"');
+      if (i === 0) {
+        s.rect(cx - 70, 78, 140, 380, C.road);
+        s.add(`<polygon points="${cx - 70},260 ${cx},170 ${cx},78 ${cx - 70},78" fill="${C.grass}"/>`);
+        s.line(cx, 170, cx, 458, '#fff', 3, 'stroke-dasharray="16 12"');
+        s.add(`<path d="M${cx - 70},260 L${cx},170" stroke="#fff" stroke-width="4"/>`);
+        sc(s, cx + 35, 120, 0.8, () => s.car(0, 0, 0, 'rood', null));
+        sc(s, cx - 35, 245, 0.8, () => s.car(0, 0, 0, 'blauw', null));
+        parrow(s, `M${cx - 35},210 Q${cx - 35},180 ${cx + 25},170`, '#fff', 4, '8 7');
+        sc(s, cx + 35, 330, 0.8, () => s.car(0, 0, 0, 'geel', null));
+        sc(s, cx - 35, 400, 0.8, () => s.car(0, 0, 0, 'groen', null));
+        s.label(x0 + 62, 150, 'strook\neindigt', { size: 14 });
+      }
+      if (i === 1) {
+        s.rect(cx - 50, 78, 100, 380, C.road);
+        s.rect(cx + 50, 290, 62, 168, C.road);
+        s.add(`<polygon points="${cx + 112},290 ${cx + 50},225 ${cx + 50},290" fill="${C.road}"/>`);
+        s.line(cx, 78, cx, 458, '#fff', 3, 'stroke-dasharray="16 12"');
+        sc(s, cx + 25, 330, 0.8, () => s.car(0, 0, 0, 'groen', null));
+        sc(s, cx + 80, 410, 0.8, () => s.car(0, 0, 0, 'blauw', null));
+        s.sign('B1', cx - 95, 400, 50);
+        s.label(cx - 62, 160, 'verkeer op de\nautosnelweg', { size: 14 });
+      }
+      if (i === 2) {
+        s.rect(cx - 70, 78, 140, 380, C.road);
+        s.line(cx, 78, cx, 458, '#fff', 3, 'stroke-dasharray="16 12"');
+        s.rect(cx - 36, 78, 72, 380, 'rgba(255,214,64,.28)', 'stroke="#f2c230" stroke-width="3" stroke-dasharray="12 8"');
+        [130, 240, 350].forEach((y, j) => {
+          sc(s, cx - 53, y, 0.8, () => s.car(0, 0, 0, ['rood', 'wit', 'groen'][j], null));
+          sc(s, cx + 53, y + 40, 0.8, () => s.car(0, 0, 0, ['blauw', 'paars', 'grijs'][j], null));
+        });
+        sc(s, cx, 420, 0.85, () => s.ambulance(0, 0, 0, null));
+      }
+      T(s, x0 + 122, 494, wrap(titels[i][0], 24).split('\n')[0], 17, INK, 700);
+      const rest = wrap(titels[i][0], 24).split('\n').slice(1).join(' ');
+      let y = 494; if (rest) { y += 20; T(s, x0 + 122, y, rest, 17, INK, 700); }
+      s.text(x0 + 122, y + 26, wrap(titels[i][1], 28), { size: 15, fill: MUTED, weight: 600 });
+    });
+  }, { bg: PAPER });
+
+mk('schema-snelweg-verboden', 'Wat is op de autosnelweg en autoweg verboden?',
+  'Vier verbodskaarten met een rode doorgestreepte cirkel: keren, achteruit rijden of tegen de rijrichting in rijden, stilstaan of parkeren, en een dwarsverbinding gebruiken. Onderaan staat dat je bij een gemiste afrit doorrijdt tot de volgende.',
+  'snelweg-verboden-manoeuvres', (s) => {
+    s.titel('Verboden op autosnelweg en autoweg');
+    const kaarten = [
+      ['Keren', 'Altijd verboden', 'keren'],
+      ['Achteruit rijden of\ntegen de rijrichting in', 'Altijd verboden', 'achteruit'],
+      ['Stilstaan of parkeren', 'Enkel op parkeerstroken waar parkeren is toegelaten', 'parkeren'],
+      ['Een dwarsverbinding\ngebruiken', 'Niet toegelaten', 'dwars']];
+    kaarten.forEach(([t, sub, soort], i) => {
+      const x0 = 20 + (i % 2) * 388, y0 = 72 + Math.floor(i / 2) * 238, cx = x0 + 90, cy = y0 + 108;
+      card(s, x0, y0, 372, 224);
+      s.circle(cx, cy, 70, '#fff', `stroke="${EDGE}" stroke-width="2"`);
+      if (soort === 'keren') parrow(s, `M${cx - 22},${cy + 42} L${cx - 22},${cy - 8} C${cx - 22},${cy - 52} ${cx + 22},${cy - 52} ${cx + 22},${cy - 8} L${cx + 22},${cy + 20}`, INK, 10);
+      if (soort === 'achteruit') parrow(s, `M${cx},${cy - 40} L${cx},${cy + 38}`, INK, 12);
+      if (soort === 'parkeren') { G(s, cx, cy + 14, 0.62, ICON.car('#2f6fd6')); s.add(`<rect x="${cx - 22}" y="${cy - 52}" width="44" height="44" rx="8" fill="${BLU}"/>`); T(s, cx, cy - 18, 'P', 36, '#fff', 800); }
+      if (soort === 'dwars') {
+        s.add(`<g transform="translate(${cx} ${cy})"><rect x="-52" y="-52" width="40" height="104" fill="${C.road}"/><rect x="12" y="-52" width="40" height="104" fill="${C.road}"/><rect x="-12" y="-52" width="24" height="104" fill="${C.grass}"/><rect x="-14" y="-9" width="28" height="18" fill="${C.road}"/></g>`);
+        s.add(`<circle cx="${cx}" cy="${cy}" r="70" fill="none" stroke="#fff" stroke-width="10"/>`);
+        s.add(`<circle cx="${cx}" cy="${cy}" r="70" fill="none" stroke="${EDGE}" stroke-width="2"/>`);
+      }
+      ban(s, cx, cy, 70);
+      const tt = wrap(t.split('\n').join(' '), 15);
+      s.text(x0 + 178, y0 + 70, tt, { size: 20, fill: INK, weight: 800, anchor: 'start' });
+      const n = tt.split('\n').length;
+      s.text(x0 + 178, y0 + 70 + n * 24 + 8, wrap(sub, 20), { size: 16, fill: '#a52a2a', weight: 700, anchor: 'start' });
+    });
+    pill(s, 400, 568, 'Afrit gemist? Rij door tot de volgende afrit', { size: 19, bg: '#1c2230', fg: '#fff' });
+  }, { bg: PAPER });
+
+mk('schema-pech-snelweg', 'Pech op de autosnelweg: vijf stappen',
+  'Bovenaanzicht van een autosnelweg met pechstrook en vangrail. Een auto staat op de pechstrook met alarmlichten aan. Een gevarendriehoek staat minstens 100 meter achter de auto. De bestuurder is uitgestapt aan de kant van de vangrail met een fluohesje en staat ver van de rijbaan. Links staat de lijst met de vijf stappen, de laatste is 112 bellen.',
+  'snelweg-pech', (s) => {
+    s.titel('Pech op de autosnelweg');
+    card(s, 12, 66, 245, 524);
+    const stappen = ['Alarmlichten en fluohesje aan', 'Zo ver mogelijk naar rechts, bij voorkeur op de pechstrook', 'Uitstappen aan de kant van de vangrail, ver van de rijbaan', 'Gevarendriehoek op minstens 100 meter achter je voertuig', 'Bel 112'];
+    stappen.forEach((t, i) => {
+      const y = 112 + i * 100;
+      nbadge(s, 42, y, i + 1, 16);
+      s.text(68, y - 6, wrap(t, 20), { size: 16, fill: INK, weight: 700, anchor: 'start' });
+    });
+    s.rect(270, 48, 160, 552, C.road);
+    s.rect(430, 48, 70, 552, '#6b717c');
+    s.line(270, 48, 270, 600, '#fff', 4); s.line(430, 48, 430, 600, '#fff', 4);
+    s.line(350, 48, 350, 600, '#fff', 3, 'stroke-dasharray="22 18"');
+    s.line(520, 48, 520, 600, '#8d949e', 7, 'stroke-dasharray="3 22"');
+    s.line(520, 48, 520, 600, '#b7bcc4', 3);
+    s.car(465, 300, 0, 'rood', null, { blink: 'W' });
+    nbadge(s, 440, 262, 1, 14); nbadge(s, 497, 340, 2, 14);
+    // gevarendriehoek
+    s.add(`<g transform="translate(465 510)"><polygon points="0,-24 24,18 -24,18" fill="#fff" stroke="${RED}" stroke-width="7" stroke-linejoin="round"/></g>`);
+    nbadge(s, 440, 535, 4, 14);
+    s.add(`<g stroke="#fff" stroke-width="3"><line x1="486" y1="335" x2="486" y2="500"/><line x1="478" y1="335" x2="494" y2="335"/><line x1="478" y1="500" x2="494" y2="500"/></g>`);
+    pill(s, 650, 440, 'minstens\n100 meter', { size: 18 });
+    s.line(536, 418, 596, 430, '#fff', 3, 'stroke-dasharray="5 6"');
+    // persoon achter vangrail
+    G(s, 600, 262, 0.8, ICON.person('#f0b429'));
+    nbadge(s, 645, 215, 3, 14);
+    pill(s, 680, 330, 'Uitstappen aan de\nkant van de vangrail', { size: 16 });
+    card(s, 560, 505, 225, 80, { stroke: BLU });
+    icon(s, 'phone', 596, 545, 0.7);
+    nbadge(s, 632, 523, 5, 14, BLU);
+    s.text(700, 560, 'Bel 112', { size: 28, fill: BLU, weight: 800 });
+    parrow(s, 'M310,560 L310,490', '#fff', 6);
+    s.text(310, 585, 'verkeer', { size: 14, fill: '#fff', weight: 700 });
+  });
+
+tijdlijn('schema-nieuwe-wegcode-2027-snelweg', ['Motorfiets op de reddingsstrook', 'Gevarendriehoek bij pech']);
 
 // ---- registratie
 LIST.sort((a, b) => a.naam.localeCompare(b.naam));

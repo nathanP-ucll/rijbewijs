@@ -36,6 +36,30 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-begeleider-voorwaarden",
+  "bestand": "img/schemas/schema-begeleider-voorwaarden.svg",
+  "titel": "De begeleider: wie mag het zijn?",
+  "beschrijving": "Twee paneel. Links de voorwaarden voor een begeleider: ingeschreven in België met een Belgisch identiteitsdocument, minstens 8 jaar rijbewijs voor dat voertuig, niet vervallen verklaard van het recht tot sturen (ook niet in de laatste 3 jaar) en geen andere leerling begeleid in het afgelopen jaar. Rechts: maximaal 2 begeleiders, registratie bij het gemeentebestuur en de uitzondering voor familie.",
+  "borden": [],
+  "theorieblok": "rijbewijs-begeleider",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-beginner-verval",
+  "bestand": "img/schemas/schema-beginner-verval.svg",
+  "titel": "Beginnende bestuurders",
+  "beschrijving": "Vier stappen: je hebt minder dan 2 jaar rijbewijs B, je wordt veroordeeld voor een overtreding die tot verval kan leiden, de rechter spreekt het verval uit en herstel kan pas na opnieuw slagen voor een theorie- of praktijkexamen. Sinds 1 juli 2026 geldt dit ook voor een voorlopig rijbewijs.",
+  "borden": [],
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-bloeding",
   "bestand": "img/schemas/schema-bloeding.svg",
   "titel": "Ernstige bloeding en bloedneus",
@@ -96,6 +120,30 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-examenpunten",
+  "bestand": "img/schemas/schema-examenpunten.svg",
+  "titel": "Zo tellen de punten",
+  "beschrijving": "Een balk van 50 punten. Je start met 50 punten. Een gewone fout of onbeantwoorde vraag kost 1 punt, een zware fout 5 punten. Met 41 tot 50 punten ben je geslaagd, met 40 of minder niet. Onder de balk drie kaarten: gewone fout min 1, zware fout min 5, geslaagd vanaf 41.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-puntentelling",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-examenpunten-voorbeelden",
+  "bestand": "img/schemas/schema-examenpunten-voorbeelden.svg",
+  "titel": "Zware fouten en rekenvoorbeelden",
+  "beschrijving": "Vijf voorbeelden met een balk van 50 punten. 9 gewone fouten geeft 41 punten: geslaagd. 10 gewone fouten geeft 40: niet geslaagd. 1 zware fout en 4 gewone fouten geeft 41: geslaagd. 1 zware fout en 5 gewone fouten geeft 40: niet geslaagd. 2 zware fouten geeft 40: niet geslaagd.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-puntentelling",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-formulier-beslissing",
   "bestand": "img/schemas/schema-formulier-beslissing.svg",
   "titel": "Wanneer volstaat het formulier niet?",
@@ -120,6 +168,102 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-herkansen",
+  "bestand": "img/schemas/schema-herkansen.svg",
+  "titel": "Gezakt? Herkansen en geldigheid",
+  "beschrijving": "Een reeks van vijf mislukte pogingen met drie gevolgen. Na 2 keer: 12 uur theorieopleiding en een getuigschrift voor je derde poging. Na 4 keer: je volgt die lessen niet opnieuw. Na 5 keer: je kan ook zonder attest een vertraagd examen vragen. Onderaan: een geslaagd theorie-examen blijft 3 jaar geldig.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-herkansing-geldigheid",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-intrekking",
+  "bestand": "img/schemas/schema-intrekking.svg",
+  "titel": "Onmiddellijke intrekking",
+  "beschrijving": "Drie stappen: in de regel beveelt de procureur de intrekking (soms een officier van gerechtelijke politie), de politie vraagt je rijbewijs af, na 15 dagen krijg je het terug tenzij de politierechtbank de intrekking met maximaal 3 maanden verlengt. Onder de stappen een tijdlijn op schaal met 15 dagen en een mogelijke verlenging van maximaal 3 maanden.",
+  "borden": [],
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-leeftijden",
+  "bestand": "img/schemas/schema-leeftijden.svg",
+  "titel": "Wat doe je op welke leeftijd?",
+  "beschrijving": "Tijdlijn met twee leeftijden. Vanaf 17 jaar: theorie-examen, voorlopig rijbewijs M36 aanvragen en altijd oefenen met een begeleider. Vanaf 18 jaar: praktijkexamen, voorlopig rijbewijs M18 aanvragen en zonder begeleider rijden.",
+  "borden": [],
+  "theorieblok": "rijbewijs-traject",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-m12-wisselen",
+  "bestand": "img/schemas/schema-m12-wisselen.svg",
+  "titel": "M12 en wisselen van model",
+  "beschrijving": "Twee paneel. Omwisselen: je mag één keer wisselen tussen M36 en M18, zolang je voorlopig rijbewijs en je theorie-examen nog geldig zijn. M12: aan te vragen nadat een eerder voorlopig rijbewijs is verlopen, met 6 uur rijles bij een erkende rijschool, 12 maanden geldig, met begeleider en maar één keer.",
+  "borden": [],
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-m18",
+  "bestand": "img/schemas/schema-m18.svg",
+  "titel": "M18: zonder begeleider",
+  "beschrijving": "Vier stappen: eerst minstens 20 uur rijles bij een erkende rijschool, dan een bekwaamheidsattest dat 3 jaar geldig is, dan de M18 aanvragen vanaf 18 jaar (18 maanden geldig), daarna zonder begeleider rijden met maximaal 2 passagiers. De passagiers voldoen aan dezelfde voorwaarden als een begeleider.",
+  "borden": [],
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-m36",
+  "bestand": "img/schemas/schema-m36.svg",
+  "titel": "M36: oefenen met begeleider",
+  "beschrijving": "Vier kaarten: een M36 is 36 maanden geldig en kan vanaf 17 jaar; je oefent met 1 of 2 begeleiders; het voertuig heeft een extra achteruitkijkspiegel voor de begeleider; andere passagiers zijn niet toegestaan. Rijlessen bij een rijschool zijn niet verplicht.",
+  "borden": [],
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-na-het-examen",
+  "bestand": "img/schemas/schema-na-het-examen.svg",
+  "titel": "Oogtest en je foute antwoorden",
+  "beschrijving": "Drie stappen na het theorie-examen: direct na het examen kun je je foute antwoorden bekijken (later niet meer), na het geslaagde examen volgt een oogtest in het examencentrum, en slaag je daar niet voor dan raadpleeg je een oogarts. Onderaan: op het aanvraagdocument verklaar je zelf dat je medisch in staat bent om veilig te rijden.",
+  "borden": [],
+  "theorieblok": "rijbewijs-geldigheid-verlies",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-na-praktijkexamen",
+  "bestand": "img/schemas/schema-na-praktijkexamen.svg",
+  "titel": "Slagen: definitief rijbewijs en terugkommoment",
+  "beschrijving": "Drie stappen na een geslaagd praktijkexamen: je krijgt het formulier Aanvraag om een rijbewijs (3 jaar geldig, maar nog geen rijbewijs), je vraagt het rijbewijs aan bij je gemeente of via BelDrive en daarna volgt het verplichte terugkommoment van 4 uur, 6 tot 9 maanden na je definitieve rijbewijs.",
+  "borden": [],
+  "theorieblok": "rijbewijs-praktijkexamen-terugkommoment",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-noodoproep",
   "bestand": "img/schemas/schema-noodoproep.svg",
   "titel": "Wat vertel je bij een noodoproep?",
@@ -128,6 +272,18 @@
   "theorieblok": "ongeval-noodoproep",
   "bronnen": [
    "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-oefenperiode",
+  "bestand": "img/schemas/schema-oefenperiode.svg",
+  "titel": "De oefenperiode",
+  "beschrijving": "Een tijdlijn van minstens 5 maanden oefenen op de openbare weg tot het praktijkexamen, in vijf maandvakken. Daaronder drie kaarten: M12-houders zijn vrijgesteld, je theorie-examen moet bij het praktijkexamen nog geldig zijn, en je oefent alleen met je begeleider(s) of een erkende rij-instructeur.",
+  "borden": [],
+  "theorieblok": "rijbewijs-oefenperiode-beperkingen",
+  "bronnen": [
+   "RIJB-001"
   ],
   "type": "uitleg"
  },
@@ -180,6 +336,18 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-praktijkexamen",
+  "bestand": "img/schemas/schema-praktijkexamen.svg",
+  "titel": "Het praktijkexamen",
+  "beschrijving": "Drie kaarten: voorwaarden (vanaf 18 jaar, geldig theorie-examen en voorlopig rijbewijs; kostprijs 51 euro), onderdeel 1 een gevaarherkenningstest op de computer en onderdeel 2 de proef op de openbare weg. Onderaan: twee keer na elkaar gezakt betekent minstens 6 uur rijles bij een erkende rijschool voor je opnieuw mag.",
+  "borden": [],
+  "theorieblok": "rijbewijs-praktijkexamen-terugkommoment",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-reanimatie-aed",
   "bestand": "img/schemas/schema-reanimatie-aed.svg",
   "titel": "Reanimatie en AED",
@@ -192,6 +360,66 @@
   "type": "uitleg"
  },
  {
+  "naam": "schema-rijbewijs-geldigheid",
+  "bestand": "img/schemas/schema-rijbewijs-geldigheid.svg",
+  "titel": "Geldigheid, vernieuwen en verlies",
+  "beschrijving": "Een tijdlijn van 10 jaar (kaartmodel) met de laatste 3 maanden gemarkeerd als moment om te vernieuwen. Daaronder drie kaarten: vernieuwen online via BelDrive of bij je gemeente, gestolen rijbewijs (eerst naar de politie, dan naar je gemeente) en een rijgeschiktheidsattest of verval (geen BelDrive, ga naar het gemeentebestuur).",
+  "borden": [],
+  "theorieblok": "rijbewijs-geldigheid-verlies",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-theorie-2027",
+  "bestand": "img/schemas/schema-theorie-2027.svg",
+  "titel": "Wat verandert er in 2027?",
+  "beschrijving": "Drie kaarten over de aangekondigde wijziging: vanaf 1 januari 2027 moet je theorie-examen in een Vlaams examencentrum gebeuren, dat geldt als je in Vlaanderen praktijkexamen wilt doen, en er zijn geen overgangsmaatregelen. Onderaan: principieel goedgekeurd, maar nog niet definitief bevestigd.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-verloop",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-theorie-examen",
+  "bestand": "img/schemas/schema-theorie-examen.svg",
+  "titel": "Zo verloopt het theorie-examen",
+  "beschrijving": "Vier kaarten: 50 meerkeuzevragen die voorgelezen en getoond worden, 15 seconden per vraag nadat de vraag volledig is voorgelezen, identiteitskaart meenemen (een kopie volstaat niet) en de kostprijs van 19 euro. Onderaan: oefenen kan op het officiële platform Mijn rijbewijs B.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-verloop",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-theorie-hulp",
+  "bestand": "img/schemas/schema-theorie-hulp.svg",
+  "titel": "Andere taal of meer tijd",
+  "beschrijving": "Twee paneel. Audiovertaling in het Frans, Duits of Engels: je hoort eerst Nederlands en dan je taal, een eigen tolk kan niet meer, 43 euro extra. Vertraagd examen voor leer- of leesstoornissen of analfabetisme: een examinator leest de vragen voor en je krijgt meer tijd, 19 euro, met attest of na 5 keer falen.",
+  "borden": [],
+  "theorieblok": "rijbewijs-theorie-examen-verloop",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-traject-rijbewijs",
+  "bestand": "img/schemas/schema-traject-rijbewijs.svg",
+  "titel": "Van theorie naar rijbewijs B",
+  "beschrijving": "Zes genummerde stappen in twee rijen: 1 theorie-examen vanaf 17 jaar (3 jaar geldig), 2 voorlopig rijbewijs (M36 vanaf 17 jaar, M18 vanaf 18 jaar), 3 minstens 5 maanden oefenen op de openbare weg, 4 praktijkexamen vanaf 18 jaar, 5 definitief rijbewijs aanvragen, 6 terugkommoment van 4 uur, 6 tot 9 maanden na het definitieve rijbewijs.",
+  "borden": [],
+  "theorieblok": "rijbewijs-traject",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
   "naam": "schema-uitrusting-ongeval",
   "bestand": "img/schemas/schema-uitrusting-ongeval.svg",
   "titel": "Uitrusting in de auto",
@@ -200,6 +428,30 @@
   "theorieblok": "ongeval-uitrusting",
   "bronnen": [
    "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-verval",
+  "bestand": "img/schemas/schema-verval.svg",
+  "titel": "Verval van het recht tot sturen",
+  "beschrijving": "Vier stappen: een rechter spreekt het verval uit (een straf, of je bent niet geschikt), het duurt minstens 8 dagen tot levenslang, je levert je rijbewijs in bij de griffier, en de rechter kan het herstel laten afhangen van een theorie-examen, een praktijkexamen of een medisch of psychologisch onderzoek.",
+  "borden": [],
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-verval-intrekking",
+  "bestand": "img/schemas/schema-verval-intrekking.svg",
+  "titel": "Verval of intrekking: het verschil",
+  "beschrijving": "Twee paneel naast elkaar. Verval: beslist door de rechter, minstens 8 dagen tot levenslang, een straf of maatregel, soms herstel na een examen of onderzoek. Intrekking: beslist door de procureur of soms de gerechtelijke politie, 15 dagen tenzij verlengd tot maximaal 3 maanden, een tijdelijke maatregel, je krijgt je rijbewijs terug.",
+  "borden": [],
+  "theorieblok": "rijbewijs-verval-intrekking",
+  "bronnen": [
+   "RIJB-001"
   ],
   "type": "uitleg"
  },
@@ -236,6 +488,42 @@
   "theorieblok": "ongeval-vluchtmisdrijf",
   "bronnen": [
    "ONGE-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorlopig-beperkingen",
+  "bestand": "img/schemas/schema-voorlopig-beperkingen.svg",
+  "titel": "Wat mag je niet met een voorlopig rijbewijs?",
+  "beschrijving": "Vijf pictogrammen. Een L-teken staat goed zichtbaar op de achterruit. Niet rijden van 22 u tot 6 u op vrijdag, zaterdag, zondag, de vooravond van een feestdag en op feestdagen. Geen commercieel goederenvervoer. Geen aanhangwagen. Enkel rijden in België.",
+  "borden": [],
+  "theorieblok": "rijbewijs-oefenperiode-beperkingen",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-voorlopig-tijdlijn",
+  "bestand": "img/schemas/schema-voorlopig-tijdlijn.svg",
+  "titel": "Voorlopig rijbewijs: M36, M18 en M12",
+  "beschrijving": "Drie balken op dezelfde schaal in maanden. M36: 36 maanden geldig, vanaf 17 jaar, met 1 of 2 begeleiders. M18: 18 maanden geldig, vanaf 18 jaar, zonder begeleider. M12: 12 maanden geldig, eenmalig, aan te vragen na een verlopen voorlopig rijbewijs, met begeleider. Geen enkel voorlopig rijbewijs is verlengbaar.",
+  "borden": [],
+  "theorieblok": "rijbewijs-voorlopig-modellen",
+  "bronnen": [
+   "RIJB-001"
+  ],
+  "type": "uitleg"
+ },
+ {
+  "naam": "schema-vormingsmoment",
+  "bestand": "img/schemas/schema-vormingsmoment.svg",
+  "titel": "Het vormingsmoment voor begeleiders",
+  "beschrijving": "Vier kaarten: het vormingsmoment duurt 3 uur en is geen verkeersexamen; een erkende rijschool of lesgever geeft het ter plaatse of live online; het attest is 10 jaar geldig; je volgt het minstens 5 maanden voor het praktijkexamen. Een attest uit Wallonië wordt niet aanvaard.",
+  "borden": [],
+  "theorieblok": "rijbewijs-begeleider",
+  "bronnen": [
+   "RIJB-001"
   ],
   "type": "uitleg"
  },

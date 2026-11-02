@@ -331,7 +331,7 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
   y = labelkaart(s, 420, y, 352, 4, 'Passagiers en omstanders wachten achter de vangrail', GRN) + 18;
   card(s, 420, y, 352, 92, { fill: '#fff4f0', stroke: RED, sw: 2.5 });
   pic(s, 'uitroep', 456, y + 46, 40, RED);
-  tx(s, 486, y + 36, 'Gewonden? Verplaats het voertuig niet. Pas bij enkel blikschade haal je de voertuigen uit het verkeer.', { size: 15.5, weight: 600, anchor: 'start', maxW: 276 });
+  tx(s, 486, y + 36, 'Gewonden? Verplaats het voertuig niet. Bij enkel blikschade haal je de voertuigen indien mogelijk uit het verkeer.', { size: 15.5, weight: 600, anchor: 'start', maxW: 276 });
   done(s, { blok: 'ongeval-stappenplan' });
 })();
 
@@ -481,7 +481,7 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
     'Beslissingsschema. Het slachtoffer reageert niet, daarna de vraag: ademt het normaal? Bij ja: stabiele zijligging, de luchtweg blijft open, laat 112 alarmeren en controleer elke minuut de ademhaling. Bij nee: reanimeren met 112 en een AED. Niet in zijligging bij vermoeden van wervelletsel.', 400);
   const r = cards(s, s.top + 16, [
     { pic: 'liggend', kop: 'Het slachtoffer reageert niet', tekst: 'Bewusteloos.' },
-    { pic: 'adem', kop: 'Ademt het normaal?', tekst: 'Kijken, luisteren en voelen, maximaal 10 seconden.' }], { gap: 40, arrows: true, pic: 56, x: 150, w: 500, headSize: 19, bodySize: 16 });
+    { pic: 'adem', kop: 'Ademt het normaal?', tekst: 'Kijken, luisteren en voelen, maximaal 10 seconden.' }], { gap: 40, arrows: true, pic: 64, x: 150, w: 500, headSize: 19, bodySize: 16 });
   const y = r.bottom + 16;
   const pb = panels(s, y, [
     { x: 28, w: 400, o: { kop: 'Ja: zijligging', kleur: GRN, hpic: 'schild', rows: [
@@ -504,7 +504,7 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
     { n: 4, pic: 'hart', kop: 'Blijf afwisselen', tekst: '30 compressies, dan 2 beademingen.' }], { gap: 22, arrows: true, pic: 60, headSize: 18, bodySize: 15.5 });
   const y = r.bottom + 16;
   const b1 = panel(s, 28, y, 744, { kop: 'De AED', kleur: GRN, hpic: 'aed', size: 17, rows: [
-    { pic: 'aed', tekst: 'Activeer de AED en volg de aanwijzingen' }, { pic: 'hesje', tekst: 'Plak 2 elektroden op de ontblote borstkas' },
+    { pic: 'aed', tekst: 'Activeer de AED en volg de aanwijzingen' }, { pic: 'hart', tekst: 'Plak 2 elektroden op de ontblote borstkas' },
     { pic: 'handstop', tekst: 'Tijdens analyse of schok raakt niemand het slachtoffer aan' }] });
   const b = banner(s, b1 + 14, 'Volg de instructies van de operator van de noodcentrale.', INK);
   end(s, b, { blok: 'ongeval-reanimatie-aed' });
@@ -568,10 +568,10 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
   });
   const my = top + 82 + 4 * 44 + 4;
   tx(s, px + pw / 2, my + 14, 'Schets', { size: 14, weight: 700, fill: MUTE });
-  s.add(`<rect x="${colA}" y="${my + 20}" width="${pw - 28}" height="110" rx="6" fill="#f6f7f4" stroke="${LINE}"/>`);
-  s.add(`<rect x="${px + 30}" y="${my + 62}" width="${pw - 60}" height="24" fill="#d5d8de"/><rect x="${px + pw / 2 - 12}" y="${my + 24}" width="24" height="102" fill="#d5d8de"/>`);
-  s.add(`<g transform="translate(${px + pw / 2 - 40} ${my + 74}) rotate(90)"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#9db9ea" stroke="${INK}" stroke-width="1.5"/></g><g transform="translate(${px + pw / 2 + 2} ${my + 100})"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#f0d36b" stroke="${INK}" stroke-width="1.5"/></g>`);
-  const sy = my + 142;
+  s.add(`<rect x="${colA}" y="${my + 20}" width="${pw - 28}" height="92" rx="6" fill="#f6f7f4" stroke="${LINE}"/>`);
+  s.add(`<rect x="${px + 30}" y="${my + 62}" width="${pw - 60}" height="24" fill="#d5d8de"/><rect x="${px + pw / 2 - 12}" y="${my + 24}" width="24" height="84" fill="#d5d8de"/>`);
+  s.add(`<g transform="translate(${px + pw / 2 - 40} ${my + 74}) rotate(90)"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#9db9ea" stroke="${INK}" stroke-width="1.5"/></g><g transform="translate(${px + pw / 2 + 2} ${my + 92})"><rect x="-8" y="-14" width="16" height="28" rx="4" fill="#f0d36b" stroke="${INK}" stroke-width="1.5"/></g>`);
+  const sy = my + 122;
   [colA, colB].forEach((cx) => { s.add(`<line x1="${cx}" y1="${sy + 24}" x2="${cx + 140}" y2="${sy + 24}" stroke="#9aa3b2" stroke-width="2"/>`); tx(s, cx + 70, sy + 42, 'Handtekening', { size: 12, weight: 600, fill: MUTE }); });
   // uitleg
   const b1 = panel(s, 420, top, 352, { kop: 'Zo werkt het', kleur: BLU, size: 16, rows: [
@@ -646,7 +646,6 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
     tx(s, 58, top + dy + 18, l, { size: 14, weight: 700, fill: MUTE, anchor: 'start' });
     s.add(`<line x1="58" y1="${top + dy + 32}" x2="300" y2="${top + dy + 32}" stroke="#c4c9d2" stroke-width="3" stroke-linecap="round"/>`);
   });
-  pic(s, 'kaart', 310, top + 196, 40);
   const b1 = panel(s, 380, top, 392, { kop: 'Wat moet je weten?', kleur: BLU, size: 16, rows: [
     { pic: 'document', tekst: 'Een verplicht boorddocument' }, { pic: 'politie', tekst: 'Toon het bij een controle' },
     { pic: 'telefoon', tekst: 'Mag ook elektronisch' }, { pic: 'kalender', tekst: 'Vermeldt landen en periode van dekking' }] });
@@ -666,6 +665,401 @@ function labelkaart(s, x, y, w, nr, tekst, kleur = INK) {
       { pic: 'autoachter', tekst: 'Eerst gebruik je alle alarmlichten' }, { pic: 'driehoek', tekst: 'Kan dat niet? Dan plaats je nog een driehoek' }, { pic: 'pin', tekst: 'Op autosnelwegen op 100 meter' }] } }]);
   const b = banner(s, pb + 14, 'Leer voor het examen de huidige regels.', RED);
   end(s, b, { blok: 'ongeval-gevarendriehoek' });
+})();
+
+// =====================================================================
+// HOOFDSTUK 11 - RIJBEWIJS EN EXAMEN
+// =====================================================================
+const RB = ['RIJB-001'];
+// 11.1.1 traject
+(function () {
+  const s = make('schema-traject-rijbewijs', 'Van theorie naar rijbewijs B',
+    'Zes genummerde stappen in twee rijen: 1 theorie-examen vanaf 17 jaar (3 jaar geldig), 2 voorlopig rijbewijs (M36 vanaf 17 jaar, M18 vanaf 18 jaar), 3 minstens 5 maanden oefenen op de openbare weg, 4 praktijkexamen vanaf 18 jaar, 5 definitief rijbewijs aanvragen, 6 terugkommoment van 4 uur, 6 tot 9 maanden na het definitieve rijbewijs.', 400);
+  const r1 = cards(s, s.top + 16, [
+    { n: 1, pic: 'monitor', kop: 'Theorie-examen', tekst: 'Vanaf 17 jaar. Het resultaat blijft 3 jaar geldig.' },
+    { n: 2, pic: 'kaart', kop: 'Voorlopig rijbewijs', tekst: 'M36 vanaf 17 jaar, M18 vanaf 18 jaar.' },
+    { n: 3, pic: 'lplaat', kop: 'Oefenen', tekst: 'Minstens 5 maanden op de openbare weg.' }], { gap: 32, arrows: true, pic: 60, bodySize: 16 });
+  const r2 = cards(s, r1.bottom + 18, [
+    { n: 4, pic: 'stuur', kop: 'Praktijkexamen', tekst: 'Vanaf 18 jaar.' },
+    { n: 5, pic: 'gebouw', kop: 'Definitief rijbewijs', tekst: 'Aanvragen bij je gemeente of via BelDrive.' },
+    { n: 6, pic: 'boek', kop: 'Terugkommoment', tekst: '4 uur, 6 tot 9 maanden na je definitieve rijbewijs.' }], { gap: 32, arrows: true, pic: 60, bodySize: 16 });
+  end(s, r2.bottom, { blok: 'rijbewijs-traject', bron: RB });
+})();
+
+// 11.1.2 leeftijden
+(function () {
+  const s = make('schema-leeftijden', 'Wat doe je op welke leeftijd?',
+    'Tijdlijn met twee leeftijden. Vanaf 17 jaar: theorie-examen, voorlopig rijbewijs M36 aanvragen en altijd oefenen met een begeleider. Vanaf 18 jaar: praktijkexamen, voorlopig rijbewijs M18 aanvragen en zonder begeleider rijden.', 400);
+  const y = s.top + 36;
+  s.add(`<line x1="60" y1="${y}" x2="720" y2="${y}" stroke="${GREY}" stroke-width="6" stroke-linecap="round"/><path d="M716 ${y - 12} L736 ${y} L716 ${y + 12}" fill="none" stroke="${GREY}" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>`);
+  [[210, '17', BLU], [590, '18', GRN]].forEach(([x, t, c]) => {
+    s.add(`<circle cx="${x}" cy="${y}" r="30" fill="${c}" stroke="#fff" stroke-width="5"/>`);
+    tx(s, x, y + 10, t, { size: 30, weight: 800, fill: '#fff' });
+  });
+  tx(s, 400, y - 12, '1 jaar later', { size: 15, weight: 600, fill: MUTE });
+  const pb = panels(s, y + 52, [
+    { x: 28, w: 364, o: { kop: 'Vanaf 17 jaar', kleur: BLU, hpic: 'monitor', rows: [
+      { pic: 'monitor', tekst: 'Theorie-examen afleggen' }, { pic: 'kaart', tekst: 'Voorlopig rijbewijs M36 aanvragen' }, { pic: 'mensen', tekst: 'Altijd oefenen met een begeleider' }] } },
+    { x: 408, w: 364, o: { kop: 'Vanaf 18 jaar', kleur: GRN, hpic: 'stuur', rows: [
+      { pic: 'stuur', tekst: 'Praktijkexamen afleggen' }, { pic: 'kaart', tekst: 'Voorlopig rijbewijs M18 aanvragen' }, { pic: 'auto', tekst: 'Met M18 zonder begeleider rijden' }] } }]);
+  end(s, pb, { blok: 'rijbewijs-traject', bron: RB });
+})();
+
+// 11.2.1 theorie-examen verloop
+(function () {
+  const s = make('schema-theorie-examen', 'Zo verloopt het theorie-examen',
+    'Vier kaarten: 50 meerkeuzevragen die voorgelezen en getoond worden, 15 seconden per vraag nadat de vraag volledig is voorgelezen, identiteitskaart meenemen (een kopie volstaat niet) en de kostprijs van 19 euro. Onderaan: oefenen kan op het officiële platform Mijn rijbewijs B.', 400);
+  const r = cards(s, s.top + 16, [
+    { pic: 'monitor', kop: '50 vragen', tekst: 'Meerkeuze, voorgelezen en getoond op het scherm.' },
+    { pic: 'klok', kop: '15 seconden', tekst: 'Per vraag, nadat ze volledig is voorgelezen.' },
+    { pic: 'idkaart', kop: 'Identiteitskaart', tekst: 'Neem ze mee, een kopie volstaat niet.' },
+    { pic: 'euro', kop: '19 euro', tekst: 'Kostprijs. Je bent minstens 17 jaar.' }], { gap: 14, pic: 64, headSize: 20, bodySize: 15.5 });
+  const b = banner(s, r.bottom + 16, 'Oefenen kan op het officiële platform Mijn rijbewijs B. Rijschoollessen zijn optioneel.', BLU, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-theorie-examen-verloop', bron: RB });
+})();
+
+// 11.2.2 andere taal of meer tijd
+(function () {
+  const s = make('schema-theorie-hulp', 'Andere taal of meer tijd',
+    'Twee paneel. Audiovertaling in het Frans, Duits of Engels: je hoort eerst Nederlands en dan je taal, een eigen tolk kan niet meer, 43 euro extra. Vertraagd examen voor leer- of leesstoornissen of analfabetisme: een examinator leest de vragen voor en je krijgt meer tijd, 19 euro, met attest of na 5 keer falen.', 400);
+  const pb = panels(s, s.top + 16, [
+    { x: 28, w: 364, o: { kop: 'Audiovertaling', kleur: BLU, hpic: 'spraak', rows: [
+      { pic: 'spraak', tekst: 'Frans, Duits of Engels' }, { pic: 'adem', tekst: 'Je hoort eerst het Nederlands, dan jouw taal' },
+      { ok: false, tekst: 'Een eigen tolk meebrengen kan niet meer' }, { pic: 'euro', tekst: '43 euro extra' }] } },
+    { x: 408, w: 364, o: { kop: 'Vertraagd examen', kleur: GRN, hpic: 'klok', rows: [
+      { pic: 'boek', tekst: 'Voor leer- of leesstoornissen of analfabetisme' }, { pic: 'persoon', tekst: 'Een examinator leest de vragen voor' },
+      { pic: 'klok', tekst: 'Je krijgt meer tijd' }, { pic: 'euro', tekst: '19 euro' }] } }]);
+  const b = banner(s, pb + 14, 'Voor het vertraagd examen heb je een attest nodig, of je hebt al 5 keer gefaald.', INK, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-theorie-examen-verloop', bron: RB });
+})();
+
+// 11.2.3 examenpunten
+(function () {
+  const s = make('schema-examenpunten', 'Zo tellen de punten',
+    'Een balk van 50 punten. Je start met 50 punten. Een gewone fout of onbeantwoorde vraag kost 1 punt, een zware fout 5 punten. Met 41 tot 50 punten ben je geslaagd, met 40 of minder niet. Onder de balk drie kaarten: gewone fout min 1, zware fout min 5, geslaagd vanaf 41.', 400);
+  const top = s.top + 16, x0 = 40, u = 14.4, by = top + 110, bh = 46;
+  tx(s, 400, top + 18, 'Je start met 50 punten', { size: 22, weight: 700 });
+  // verlies-blokjes boven het einde van de balk
+  s.add(`<rect x="${x0 + 49 * u}" y="${by - 40}" width="${u}" height="22" rx="3" fill="${ORG}"/>`);
+  tx(s, x0 + 49 * u - 10, by - 23, '−1  gewone fout of onbeantwoord', { size: 16, weight: 700, anchor: 'end', fill: '#b25f00' });
+  s.add(`<rect x="${x0 + 45 * u}" y="${by - 72}" width="${5 * u}" height="22" rx="3" fill="${RED}"/>`);
+  tx(s, x0 + 45 * u - 10, by - 55, '−5  zware fout', { size: 16, weight: 700, anchor: 'end', fill: RED });
+  // balk
+  s.add(`<rect x="${x0}" y="${by}" width="${40 * u}" height="${bh}" rx="8" fill="#f3b9b9"/><rect x="${x0 + 40 * u}" y="${by}" width="${10 * u}" height="${bh}" rx="8" fill="${GRN}"/><rect x="${x0 + 40 * u}" y="${by}" width="14" height="${bh}" fill="${GRN}"/><rect x="${x0 + 40 * u - 14}" y="${by}" width="14" height="${bh}" fill="#f3b9b9"/>`);
+  for (let i = 1; i < 50; i++) s.add(`<line x1="${f(x0 + i * u)}" y1="${by}" x2="${f(x0 + i * u)}" y2="${by + bh}" stroke="#fff" stroke-width="1.2" opacity=".7"/>`);
+  tx(s, x0 + 20 * u, by + 30, '40 punten of minder: niet geslaagd', { size: 19, weight: 700, fill: '#8a1f1f' });
+  tx(s, x0 + 45 * u, by + 30, 'geslaagd', { size: 18, weight: 700, fill: '#fff' });
+  s.add(`<path d="M${x0 + 40 * u} ${by + bh + 6} V${by + bh + 22} M${x0 + 50 * u} ${by + bh + 6} V${by + bh + 22} M${x0 + 40 * u} ${by + bh + 14} H${x0 + 50 * u}" stroke="${INK}" stroke-width="2.5" fill="none"/>`);
+  tx(s, x0 + 40 * u - 8, by + bh + 28, '41', { size: 20, weight: 800, anchor: 'end' });
+  tx(s, x0 + 50 * u + 4, by + bh + 28, '50', { size: 20, weight: 800, anchor: 'end' });
+  tx(s, x0 + 45 * u, by + bh + 42, 'minstens 41 punten', { size: 15, weight: 600, fill: '#1f6d3b' });
+  const r = cards(s, by + bh + 62, [
+    { pic: 'uitroep', picArg: ORG, kop: 'Gewone fout of onbeantwoord', tekst: 'Je verliest 1 punt.', kleur: ORG },
+    { pic: 'uitroep', picArg: RED, kop: 'Zware fout', tekst: 'Je verliest 5 punten.', kleur: RED },
+    { pic: 'vink', kop: 'Geslaagd', tekst: 'Met minstens 41 van de 50 punten.', kleur: GRN }], { gap: 14, pic: 48, headSize: 17, bodySize: 16 });
+  end(s, r.bottom, { blok: 'rijbewijs-theorie-examen-puntentelling', bron: RB });
+})();
+
+// 11.2.4 rekenvoorbeelden
+(function () {
+  const s = make('schema-examenpunten-voorbeelden', 'Zware fouten en rekenvoorbeelden',
+    'Vijf voorbeelden met een balk van 50 punten. 9 gewone fouten geeft 41 punten: geslaagd. 10 gewone fouten geeft 40: niet geslaagd. 1 zware fout en 4 gewone fouten geeft 41: geslaagd. 1 zware fout en 5 gewone fouten geeft 40: niet geslaagd. 2 zware fouten geeft 40: niet geslaagd.', 400);
+  const top = s.top + 14, bx = 300, u = 5.6, rowH = 54;
+  // legenda
+  [[GRN, 'behouden punten', 40], ['#f19b9b', 'gewone fout (−1)', 214], ['#a42020', 'zware fout (−5)', 410]].forEach(([c, t, x]) => {
+    s.add(`<rect x="${x}" y="${top + 6}" width="18" height="18" rx="3" fill="${c}"/>`); tx(s, x + 26, top + 21, t, { size: 15, weight: 600, anchor: 'start' });
+  });
+  const rows = [['9 gewone fouten', 0, 9], ['10 gewone fouten', 0, 10], ['1 zware fout en 4 gewone fouten', 1, 4], ['1 zware fout en 5 gewone fouten', 1, 5], ['2 zware fouten', 2, 0]];
+  const y0 = top + 44;
+  rows.forEach(([t, z, g], i) => {
+    const y = y0 + i * rowH, lost = z * 5 + g, score = 50 - lost, ok = score >= 41;
+    card(s, 28, y, 744, rowH - 8, { rx: 10, fill: ok ? '#f2faf4' : '#fdf3f3', stroke: ok ? '#bfe3c9' : '#efc4c4' });
+    tx(s, 42, y + (rowH - 8) / 2 + 6, t, { size: 16, weight: 700, anchor: 'start', maxW: 240 });
+    s.add(`<rect x="${bx}" y="${y + 8}" width="${f(score * u)}" height="${rowH - 24}" rx="3" fill="${GRN}"/>`);
+    let x = bx + score * u;
+    for (let k = 0; k < z; k++) { s.add(`<rect x="${f(x)}" y="${y + 8}" width="${f(5 * u - 1.4)}" height="${rowH - 24}" rx="3" fill="#a42020"/>`); x += 5 * u; }
+    for (let k = 0; k < g; k++) { s.add(`<rect x="${f(x)}" y="${y + 8}" width="${f(u - 1.4)}" height="${rowH - 24}" rx="2" fill="#f19b9b"/>`); x += u; }
+    tick(s, 612, y + (rowH - 8) / 2, ok, 13);
+    tx(s, 634, y + (rowH - 8) / 2 + 6, `${score} punten`, { size: 17, weight: 800, anchor: 'start' });
+    tx(s, 740, y + (rowH - 8) / 2 + 6, ok ? 'geslaagd' : 'gezakt', { size: 14.5, weight: 700, anchor: 'end', fill: ok ? '#1f6d3b' : '#a42020' });
+  });
+  const lx = bx + 41 * u;
+  s.add(`<line x1="${f(lx)}" y1="${y0 - 6}" x2="${f(lx)}" y2="${y0 + rows.length * rowH - 4}" stroke="${INK}" stroke-width="2.5" stroke-dasharray="6 4"/>`);
+  tx(s, lx, y0 - 10, '41', { size: 15, weight: 800 });
+  const b = banner(s, y0 + rows.length * rowH + 6, 'Twee zware fouten betekent altijd gezakt, want 50 min 10 is 40.', RED, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-theorie-examen-puntentelling', bron: RB });
+})();
+
+// 11.2.5 herkansen
+(function () {
+  const s = make('schema-herkansen', 'Gezakt? Herkansen en geldigheid',
+    'Een reeks van vijf mislukte pogingen met drie gevolgen. Na 2 keer: 12 uur theorieopleiding en een getuigschrift voor je derde poging. Na 4 keer: je volgt die lessen niet opnieuw. Na 5 keer: je kan ook zonder attest een vertraagd examen vragen. Onderaan: een geslaagd theorie-examen blijft 3 jaar geldig.', 400);
+  const top = s.top + 16;
+  pill(s, 400, top + 14, 'Herkansen kan, maar niet op dezelfde dag', { size: 17, fill: INK });
+  const cx = [110, 255, 400, 545, 690], cy = top + 78;
+  s.add(`<line x1="70" y1="${cy}" x2="730" y2="${cy}" stroke="${GREY}" stroke-width="5" stroke-linecap="round"/>`);
+  cx.forEach((x, i) => {
+    const hot = [1, 3, 4].includes(i);
+    s.add(`<circle cx="${x}" cy="${cy}" r="26" fill="${hot ? RED : '#fff'}" stroke="${hot ? '#fff' : GREY}" stroke-width="${hot ? 4 : 4}"/>`);
+    tx(s, x, cy + 8, String(i + 1), { size: 24, weight: 800, fill: hot ? '#fff' : MUTE });
+  });
+  tx(s, 400, cy + 50, 'aantal mislukte pogingen', { size: 15, weight: 600, fill: MUTE });
+  const r = cards(s, cy + 70, [
+    { pic: 'boek', kop: 'Na 2 keer', tekst: '12 uur theorieopleiding en een getuigschrift voor je 3de poging.', kleur: BLU },
+    { pic: 'vink', kop: 'Na 4 keer', tekst: 'Je moet die lessen niet opnieuw volgen.', kleur: ORG },
+    { pic: 'klok', kop: 'Na 5 keer', tekst: 'Je kan ook zonder attest een vertraagd examen vragen.', kleur: GRN }], { gap: 14, pic: 52, headSize: 19, bodySize: 16 });
+  // verbindingslijnen
+  [[255, r.xs[0] + r.w / 2], [545, r.xs[1] + r.w / 2], [690, r.xs[2] + r.w / 2]].forEach(([a, b]) => s.add(`<path d="M${a} ${cy + 26} C${a} ${cy + 56} ${b} ${cy + 40} ${b} ${cy + 68}" fill="none" stroke="${GREY}" stroke-width="2.5" stroke-dasharray="5 5"/>`));
+  const b = banner(s, r.bottom + 16, 'Een geslaagd theorie-examen blijft 3 jaar geldig. Doe in die tijd je praktijkexamen.', GRN, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-theorie-examen-herkansing-geldigheid', bron: RB });
+})();
+
+// 11.2.6 oogtest en foute antwoorden
+(function () {
+  const s = make('schema-na-het-examen', 'Oogtest en je foute antwoorden',
+    'Drie stappen na het theorie-examen: direct na het examen kun je je foute antwoorden bekijken (later niet meer), na het geslaagde examen volgt een oogtest in het examencentrum, en slaag je daar niet voor dan raadpleeg je een oogarts. Onderaan: op het aanvraagdocument verklaar je zelf dat je medisch in staat bent om veilig te rijden.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'document', kop: 'Foute antwoorden', tekst: 'Je bekijkt ze meteen na het examen. Later kan dat niet meer.' },
+    { n: 2, pic: 'oog', kop: 'Oogtest', tekst: 'Direct na het geslaagde examen, in het examencentrum.' },
+    { n: 3, pic: 'persoon', kop: 'Niet geslaagd?', tekst: 'Dan raadpleeg je een oogarts.' }], { gap: 30, arrows: true, pic: 64, headSize: 19, bodySize: 16 });
+  const b = banner(s, r.bottom + 16, 'Op het aanvraagdocument verklaar je zelf dat je medisch in staat bent om veilig te rijden.', INK, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-geldigheid-verlies', bron: RB });
+})();
+
+// 11.3.1 M36, M18, M12 (balken op schaal in maanden)
+(function () {
+  const s = make('schema-voorlopig-tijdlijn', 'Voorlopig rijbewijs: M36, M18 en M12',
+    'Drie balken op dezelfde schaal in maanden. M36: 36 maanden geldig, vanaf 17 jaar, met 1 of 2 begeleiders. M18: 18 maanden geldig, vanaf 18 jaar, zonder begeleider. M12: 12 maanden geldig, eenmalig, aan te vragen na een verlopen voorlopig rijbewijs, met begeleider. Geen enkel voorlopig rijbewijs is verlengbaar.', 400);
+  const top = s.top + 18, x0 = 150, mu = 15;
+  const data = [['M36', 36, BLU, 'Vanaf 17 jaar, met 1 of 2 begeleiders'], ['M18', 18, GRN, 'Vanaf 18 jaar, zonder begeleider'], ['M12', 12, ORG, 'Eenmalig, na een verlopen voorlopig rijbewijs, met begeleider']];
+  [12, 18, 36].forEach((m) => { s.add(`<line x1="${x0 + m * mu}" y1="${top}" x2="${x0 + m * mu}" y2="${top + 3 * 96 + 6}" stroke="${LINE}" stroke-width="2" stroke-dasharray="6 5"/>`); });
+  data.forEach(([naam, m, col, uitleg], i) => {
+    const y = top + 14 + i * 96;
+    tx(s, 100, y + 38, naam, { size: 34, weight: 800, fill: col });
+    s.add(`<rect x="${x0}" y="${y}" width="${m * mu}" height="48" rx="10" fill="${col}"/>`);
+    tx(s, x0 + (m * mu) / 2, y + 32, m + ' maanden geldig', { size: 20, weight: 700, fill: '#fff' });
+    tx(s, x0, y + 74, uitleg, { size: 16, weight: 600, anchor: 'start', fill: MUTE, maxW: 600 });
+  });
+  const b = banner(s, top + 3 * 96 + 22, 'Alle voorlopige rijbewijzen zijn niet verlengbaar.', INK, { size: 18 });
+  end(s, b, { blok: 'rijbewijs-voorlopig-modellen', bron: RB });
+})();
+
+// 11.3.2 M36
+(function () {
+  const s = make('schema-m36', 'M36: oefenen met begeleider',
+    'Vier kaarten: een M36 is 36 maanden geldig en kan vanaf 17 jaar; je oefent met 1 of 2 begeleiders; het voertuig heeft een extra achteruitkijkspiegel voor de begeleider; andere passagiers zijn niet toegestaan. Rijlessen bij een rijschool zijn niet verplicht.', 400);
+  const r = cards(s, s.top + 16, [
+    { pic: 'kalender', kop: '36 maanden', tekst: 'Aan te vragen vanaf 17 jaar.' },
+    { pic: 'mensen', kop: '1 of 2 begeleiders', tekst: 'Je oefent altijd samen met een begeleider.' },
+    { pic: 'spiegel', kop: 'Tweede spiegel', tekst: 'Een extra achteruitkijkspiegel voor de begeleider.' },
+    { picFn: (s2, cx, cy, sz) => { pic(s2, 'persoon', cx, cy, sz); s2.add(`<g transform="translate(${f(cx - sz / 2)} ${f(cy - sz / 2)}) scale(${f(sz / 100)})">${PIC.verbod()}</g>`); }, kop: 'Geen andere passagiers', tekst: 'Andere passagiers zijn niet toegestaan.' }], { gap: 14, pic: 64, headSize: 18, bodySize: 15.5 });
+  const b = banner(s, r.bottom + 16, 'Rijlessen bij een rijschool zijn niet verplicht.', BLU, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-voorlopig-modellen', bron: RB });
+})();
+
+// 11.3.3 M18
+(function () {
+  const s = make('schema-m18', 'M18: zonder begeleider',
+    'Vier stappen: eerst minstens 20 uur rijles bij een erkende rijschool, dan een bekwaamheidsattest dat 3 jaar geldig is, dan de M18 aanvragen vanaf 18 jaar (18 maanden geldig), daarna zonder begeleider rijden met maximaal 2 passagiers. De passagiers voldoen aan dezelfde voorwaarden als een begeleider.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'stuur', kop: 'Rijles', tekst: 'Minstens 20 uur bij een erkende rijschool.' },
+    { n: 2, pic: 'document', kop: 'Bekwaamheidsattest', tekst: '3 jaar geldig.' },
+    { n: 3, pic: 'kaart', kop: 'M18 aanvragen', tekst: 'Vanaf 18 jaar, 18 maanden geldig.' },
+    { n: 4, pic: 'mensen', kop: 'Zonder begeleider', tekst: 'Je mag maximaal 2 passagiers meenemen.' }], { gap: 24, arrows: true, pic: 60, headSize: 18, bodySize: 15.5 });
+  const b = banner(s, r.bottom + 16, 'Je passagiers moeten aan dezelfde voorwaarden voldoen als een begeleider.', INK, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-voorlopig-modellen', bron: RB });
+})();
+
+// 11.3.4 M12 en wisselen
+(function () {
+  const s = make('schema-m12-wisselen', 'M12 en wisselen van model',
+    'Twee paneel. Omwisselen: je mag één keer wisselen tussen M36 en M18, zolang je voorlopig rijbewijs en je theorie-examen nog geldig zijn. M12: aan te vragen nadat een eerder voorlopig rijbewijs is verlopen, met 6 uur rijles bij een erkende rijschool, 12 maanden geldig, met begeleider en maar één keer.', 400);
+  const pb = panels(s, s.top + 16, [
+    { x: 28, w: 364, o: { kop: 'Omwisselen: M36 en M18', kleur: BLU, hpic: 'pijl', rows: [
+      { pic: 'pijl', tekst: 'Eén keer wisselen tussen M36 en M18' }, { pic: 'kaart', tekst: 'Zolang je voorlopig rijbewijs nog geldig is' }, { pic: 'monitor', tekst: 'En je theorie-examen nog geldig is' }] } },
+    { x: 408, w: 364, o: { kop: 'Een extra kans: M12', kleur: ORG, hpic: 'kalender', rows: [
+      { pic: 'kalender', tekst: 'Je vraagt hem aan nadat een voorlopig rijbewijs is verlopen' }, { pic: 'stuur', tekst: 'Je volgt 6 uur rijles bij een erkende rijschool' },
+      { pic: 'mensen', tekst: '12 maanden geldig, met begeleider' }, { pic: 'slot', tekst: 'Je kan hem maar één keer aanvragen' }] } }]);
+  end(s, pb, { blok: 'rijbewijs-voorlopig-modellen', bron: RB });
+})();
+
+// 11.3.5 begeleider
+(function () {
+  const s = make('schema-begeleider-voorwaarden', 'De begeleider: wie mag het zijn?',
+    'Twee paneel. Links de voorwaarden voor een begeleider: ingeschreven in België met een Belgisch identiteitsdocument, minstens 8 jaar rijbewijs voor dat voertuig, niet vervallen verklaard van het recht tot sturen (ook niet in de laatste 3 jaar) en geen andere leerling begeleid in het afgelopen jaar. Rechts: maximaal 2 begeleiders, registratie bij het gemeentebestuur en de uitzondering voor familie.', 400);
+  const pb = panels(s, s.top + 16, [
+    { x: 28, w: 420, o: { kop: 'Een begeleider', kleur: GRN, hpic: 'persoon', size: 16.5, rows: [
+      { ok: true, tekst: 'Ingeschreven in België, met een Belgisch identiteitsdocument' }, { ok: true, tekst: 'Minstens 8 jaar rijbewijs voor dat voertuig' },
+      { ok: true, tekst: 'Niet vervallen verklaard van het recht tot sturen, ook niet in de laatste 3 jaar' }, { ok: true, tekst: 'Geen andere leerling begeleid in het afgelopen jaar' }] } },
+    { x: 464, w: 308, o: { kop: 'Goed om te weten', kleur: BLU, hpic: 'mensen', size: 16.5, rows: [
+      { pic: 'mensen', tekst: 'Je kiest maximaal 2 begeleiders' }, { pic: 'gebouw', tekst: 'Zij laten zich registreren bij het gemeentebestuur' },
+      { pic: 'hart', tekst: 'Familie telt niet als andere leerling (kinderen, kleinkinderen, broers, zussen, pleegkinderen)' }] } }]);
+  end(s, pb, { blok: 'rijbewijs-begeleider', bron: RB });
+})();
+
+// 11.3.6 vormingsmoment
+(function () {
+  const s = make('schema-vormingsmoment', 'Het vormingsmoment voor begeleiders',
+    'Vier kaarten: het vormingsmoment duurt 3 uur en is geen verkeersexamen; een erkende rijschool of lesgever geeft het ter plaatse of live online; het attest is 10 jaar geldig; je volgt het minstens 5 maanden voor het praktijkexamen. Een attest uit Wallonië wordt niet aanvaard.', 400);
+  const r = cards(s, s.top + 16, [
+    { pic: 'klok', kop: '3 uur', tekst: 'Het is geen verkeersexamen.' },
+    { pic: 'monitor', kop: 'Erkende rijschool of lesgever', tekst: 'Ter plaatse of live online.' },
+    { pic: 'document', kop: 'Attest', tekst: '10 jaar geldig.' },
+    { pic: 'kalender', kop: 'Minstens 5 maanden vooraf', tekst: 'Voor het praktijkexamen. Niet bij M12 of bij wisselen van M18 naar M36.' }], { gap: 12, pic: 60, headSize: 17, bodySize: 15 });
+  const b = banner(s, r.bottom + 16, 'Een attest uit Wallonië wordt niet aanvaard.', RED, { size: 18 });
+  end(s, b, { blok: 'rijbewijs-begeleider', bron: RB });
+})();
+
+// 11.3.7 oefenperiode
+(function () {
+  const s = make('schema-oefenperiode', 'De oefenperiode',
+    'Een tijdlijn van minstens 5 maanden oefenen op de openbare weg tot het praktijkexamen, in vijf maandvakken. Daaronder drie kaarten: M12-houders zijn vrijgesteld, je theorie-examen moet bij het praktijkexamen nog geldig zijn, en je oefent alleen met je begeleider(s) of een erkende rij-instructeur.', 400);
+  const top = s.top + 20, x0 = 60;
+  tx(s, 400, top + 8, 'Minstens 5 maanden oefenen op de openbare weg', { size: 21, weight: 700 });
+  for (let i = 0; i < 5; i++) {
+    s.add(`<rect x="${x0 + i * 116}" y="${top + 28}" width="110" height="52" rx="${i === 0 ? 14 : 4}" fill="${BLU}" opacity="${0.55 + i * 0.1}"/>`);
+    tx(s, x0 + i * 116 + 55, top + 62, 'maand ' + (i + 1), { size: 18, weight: 700, fill: '#fff' });
+  }
+  s.add(`<path d="M${x0 + 5 * 116 + 4} ${top + 54} H${x0 + 5 * 116 + 24}" stroke="${GREY}" stroke-width="5" stroke-linecap="round"/>`);
+  pic(s, 'stuur', 700, top + 54, 56);
+  tx(s, 700, top + 98, 'Praktijkexamen', { size: 16, weight: 700 });
+  const r = cards(s, top + 116, [
+    { pic: 'vink', kop: 'M12: vrijgesteld', tekst: 'Houders van een M12 moeten niet 5 maanden oefenen.' },
+    { pic: 'monitor', kop: 'Theorie-examen geldig', tekst: 'Het moet bij het praktijkexamen nog geldig zijn.' },
+    { pic: 'mensen', kop: 'Met wie?', tekst: 'Met je begeleider(s) of een erkende rij-instructeur.' }], { gap: 14, pic: 52, headSize: 18, bodySize: 15.5 });
+  end(s, r.bottom, { blok: 'rijbewijs-oefenperiode-beperkingen', bron: RB });
+})();
+
+// 11.3.8 beperkingen
+(function () {
+  const s = make('schema-voorlopig-beperkingen', 'Wat mag je niet met een voorlopig rijbewijs?',
+    'Vijf pictogrammen. Een L-teken staat goed zichtbaar op de achterruit. Niet rijden van 22 u tot 6 u op vrijdag, zaterdag, zondag, de vooravond van een feestdag en op feestdagen. Geen commercieel goederenvervoer. Geen aanhangwagen. Enkel rijden in België.', 400);
+  const nee = (p) => (s2, cx, cy, sz) => { pic(s2, p, cx, cy, sz * 0.92); s2.add(`<g transform="translate(${f(cx - sz / 2)} ${f(cy - sz / 2)}) scale(${f(sz / 100)})">${PIC.verbod()}</g>`); };
+  const r1 = cards(s, s.top + 16, [
+    { pic: 'lplaat', kop: 'L-teken', tekst: 'Goed zichtbaar op de achterruit.', kleur: GRN },
+    { picFn: nee('maan'), kop: 'Niet van 22 u tot 6 u', tekst: 'Op vr, za, zo, de vooravond van een feestdag en op feestdagen.', kleur: RED },
+    { picFn: nee('vrachtje'), kop: 'Geen goederenvervoer', tekst: 'Niet commercieel.', kleur: RED }], { gap: 14, pic: 64, headSize: 18, bodySize: 15.5 });
+  const r2 = cards(s, r1.bottom + 14, [
+    { picFn: nee('aanhanger'), kop: 'Geen aanhangwagen', tekst: 'Je trekt er geen.', kleur: RED },
+    { pic: 'pin', kop: 'Enkel in België', tekst: 'Het hele Belgische grondgebied, maar niet in het buitenland.', kleur: BLU }], { gap: 14, pic: 64, headSize: 18, bodySize: 15.5, x: 28, w: 744 });
+  end(s, r2.bottom, { blok: 'rijbewijs-oefenperiode-beperkingen', bron: RB });
+})();
+
+// 11.4.1 praktijkexamen
+(function () {
+  const s = make('schema-praktijkexamen', 'Het praktijkexamen',
+    'Drie kaarten: voorwaarden (vanaf 18 jaar, geldig theorie-examen en voorlopig rijbewijs; kostprijs 51 euro), onderdeel 1 een gevaarherkenningstest op de computer en onderdeel 2 de proef op de openbare weg. Onderaan: twee keer na elkaar gezakt betekent minstens 6 uur rijles bij een erkende rijschool voor je opnieuw mag.', 400);
+  const r = cards(s, s.top + 16, [
+    { pic: 'kaart', kop: 'Voorwaarden', tekst: 'Vanaf 18 jaar, met een geldig theorie-examen en voorlopig rijbewijs. Kostprijs: 51 euro.' },
+    { n: 1, pic: 'monitor', kop: 'Gevaarherkenningstest', tekst: 'Eerst op de computer.' },
+    { n: 2, pic: 'auto', kop: 'Proef op de weg', tekst: 'Daarna rijd je op de openbare weg.' }], { gap: 30, arrows: true, pic: 64, headSize: 18, bodySize: 15.5 });
+  const b = banner(s, r.bottom + 16, 'Twee keer na elkaar gezakt? Dan volg je minstens 6 uur rijles bij een erkende rijschool voor je opnieuw mag.', RED, { size: 16.5 });
+  end(s, b, { blok: 'rijbewijs-praktijkexamen-terugkommoment', bron: RB });
+})();
+
+// 11.4.2 na het praktijkexamen
+(function () {
+  const s = make('schema-na-praktijkexamen', 'Slagen: definitief rijbewijs en terugkommoment',
+    'Drie stappen na een geslaagd praktijkexamen: je krijgt het formulier Aanvraag om een rijbewijs (3 jaar geldig, maar nog geen rijbewijs), je vraagt het rijbewijs aan bij je gemeente of via BelDrive en daarna volgt het verplichte terugkommoment van 4 uur, 6 tot 9 maanden na je definitieve rijbewijs.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'document', kop: 'Formulier', tekst: 'Aanvraag om een rijbewijs: 3 jaar geldig, maar nog geen rijbewijs.' },
+    { n: 2, pic: 'gebouw', kop: 'Rijbewijs aanvragen', tekst: 'Bij je gemeente of via BelDrive.' },
+    { n: 3, pic: 'boek', kop: 'Terugkommoment', tekst: 'Verplicht: 4 uur, 6 tot 9 maanden na je definitieve rijbewijs.' }], { gap: 30, arrows: true, pic: 64, headSize: 19, bodySize: 16 });
+  const b = banner(s, r.bottom + 16, 'Het formulier na je examen is nog geen rijbewijs.', ORG, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-praktijkexamen-terugkommoment', bron: RB });
+})();
+
+// 11.5.1 geldigheid
+(function () {
+  const s = make('schema-rijbewijs-geldigheid', 'Geldigheid, vernieuwen en verlies',
+    'Een tijdlijn van 10 jaar (kaartmodel) met de laatste 3 maanden gemarkeerd als moment om te vernieuwen. Daaronder drie kaarten: vernieuwen online via BelDrive of bij je gemeente, gestolen rijbewijs (eerst naar de politie, dan naar je gemeente) en een rijgeschiktheidsattest of verval (geen BelDrive, ga naar het gemeentebestuur).', 400);
+  const top = s.top + 20, x0 = 40, mu = 6;
+  tx(s, 400, top + 8, 'Een rijbewijs in kaartmodel is 10 jaar geldig', { size: 20, weight: 700 });
+  s.add(`<rect x="${x0}" y="${top + 28}" width="${120 * mu}" height="40" rx="8" fill="${BLU}"/><rect x="${x0 + 117 * mu}" y="${top + 28}" width="${3 * mu}" height="40" fill="${RED}"/><rect x="${x0 + 117 * mu - 10}" y="${top + 28}" width="10" height="40" fill="${BLU}"/>`);
+  tx(s, x0 + 55 * mu, top + 55, '10 jaar', { size: 20, weight: 700, fill: '#fff' });
+  s.add(`<path d="M${x0 + 118.5 * mu} ${top + 74} V${top + 92}" stroke="${RED}" stroke-width="3"/>`);
+  tx(s, x0 + 118.5 * mu, top + 110, 'Vernieuw minstens 3 maanden voor de einddatum', { size: 16, weight: 700, anchor: 'end', fill: RED, extra: '' });
+  const r = cards(s, top + 128, [
+    { pic: 'kaart', kop: 'Vernieuwen', tekst: 'Online via BelDrive of bij je gemeente.' },
+    { pic: 'politie', kop: 'Gestolen', tekst: 'Eerst naar de politie, dan naar je gemeente.' },
+    { pic: 'gebouw', kop: 'Attest of verval', tekst: 'Geen BelDrive: ga naar het gemeentebestuur.' }], { gap: 14, pic: 56, headSize: 19, bodySize: 16 });
+  end(s, r.bottom, { blok: 'rijbewijs-geldigheid-verlies', bron: RB });
+})();
+
+// 11.5.2 verval
+(function () {
+  const s = make('schema-verval', 'Verval van het recht tot sturen',
+    'Vier stappen: een rechter spreekt het verval uit (een straf, of je bent niet geschikt), het duurt minstens 8 dagen tot levenslang, je levert je rijbewijs in bij de griffier, en de rechter kan het herstel laten afhangen van een theorie-examen, een praktijkexamen of een medisch of psychologisch onderzoek.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'hamer', kop: 'De rechter', tekst: 'Spreekt het verval uit, ook rijverbod genoemd.' },
+    { n: 2, pic: 'kalender', kop: 'Duur', tekst: 'Minstens 8 dagen tot levenslang.' },
+    { n: 3, pic: 'kaart', kop: 'Inleveren', tekst: 'Je levert je rijbewijs in bij de griffier.' }], { gap: 30, arrows: true, pic: 60, headSize: 19, bodySize: 16 });
+  const y = r.bottom + 16;
+  tx(s, 400, y + 18, 'Herstel kan afhangen van', { size: 19, weight: 700 });
+  const r2 = cards(s, y + 30, [
+    { pic: 'monitor', kop: 'Theorie-examen', tekst: 'Opnieuw slagen.', fill: SOFT },
+    { pic: 'stuur', kop: 'Praktijkexamen', tekst: 'Opnieuw slagen.', fill: SOFT },
+    { pic: 'persoon', kop: 'Onderzoek', tekst: 'Medisch of psychologisch.', fill: SOFT }], { gap: 14, pic: 48, headSize: 18, bodySize: 16 });
+  end(s, r2.bottom, { blok: 'rijbewijs-verval-intrekking', bron: RB });
+})();
+
+// 11.5.3 intrekking
+(function () {
+  const s = make('schema-intrekking', 'Onmiddellijke intrekking',
+    'Drie stappen: in de regel beveelt de procureur de intrekking (soms een officier van gerechtelijke politie), de politie vraagt je rijbewijs af, na 15 dagen krijg je het terug tenzij de politierechtbank de intrekking met maximaal 3 maanden verlengt. Onder de stappen een tijdlijn op schaal met 15 dagen en een mogelijke verlenging van maximaal 3 maanden.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'gebouw', kop: 'Procureur', tekst: 'Beveelt de intrekking in de regel. Soms doet een officier van gerechtelijke politie dat.' },
+    { n: 2, pic: 'politie', kop: 'Rijbewijs afgeven', tekst: 'De politie kan vragen dat je het meteen afgeeft.' },
+    { n: 3, pic: 'kaart', kop: 'Na 15 dagen terug', tekst: 'Tenzij de intrekking verlengd wordt.' }], { gap: 30, arrows: true, pic: 56, headSize: 18, bodySize: 15 });
+  const top = r.bottom + 22, x0 = 50, du = 6.6;
+  s.add(`<rect x="${x0}" y="${top + 34}" width="${15 * du}" height="42" rx="8" fill="${ORG}"/><rect x="${x0 + 15 * du}" y="${top + 34}" width="${90 * du}" height="42" rx="8" fill="#cfdcf6" stroke="${BLU}" stroke-width="2.5" stroke-dasharray="7 5"/><rect x="${x0 + 15 * du - 10}" y="${top + 34}" width="10" height="42" fill="${ORG}"/>`);
+  tx(s, x0 + 7.5 * du, top + 62, '15 dagen', { size: 17, weight: 700, fill: '#fff' });
+  tx(s, x0 + 15 * du + 45 * du, top + 62, 'verlenging: maximaal 3 maanden', { size: 17, weight: 700, fill: BLU });
+  tx(s, x0 + 7.5 * du, top + 22, 'intrekking', { size: 16, weight: 700, fill: '#b25f00' });
+  tx(s, x0 + 15 * du + 45 * du, top + 22, 'alleen door de politierechtbank', { size: 16, weight: 600, fill: MUTE });
+  const b = banner(s, top + 94, 'Intrekking is een tijdelijke maatregel: je krijgt je rijbewijs terug.', INK, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-verval-intrekking', bron: RB });
+})();
+
+// 11.5.4 verval of intrekking
+(function () {
+  const s = make('schema-verval-intrekking', 'Verval of intrekking: het verschil',
+    'Twee paneel naast elkaar. Verval: beslist door de rechter, minstens 8 dagen tot levenslang, een straf of maatregel, soms herstel na een examen of onderzoek. Intrekking: beslist door de procureur of soms de gerechtelijke politie, 15 dagen tenzij verlengd tot maximaal 3 maanden, een tijdelijke maatregel, je krijgt je rijbewijs terug.', 400);
+  const pb = panels(s, s.top + 16, [
+    { x: 28, w: 364, o: { kop: 'Verval', kleur: RED, hpic: 'hamer', rows: [
+      { pic: 'hamer', tekst: 'Beslist door de rechter' }, { pic: 'kalender', tekst: 'Minstens 8 dagen tot levenslang' },
+      { pic: 'uitroep', picArg: RED, tekst: 'Een straf of maatregel' }, { pic: 'monitor', tekst: 'Soms herstel na een examen of onderzoek' }] } },
+    { x: 408, w: 364, o: { kop: 'Intrekking', kleur: BLU, hpic: 'klok', rows: [
+      { pic: 'gebouw', tekst: 'Beslist door de procureur, soms de gerechtelijke politie' }, { pic: 'kalender', tekst: '15 dagen, tenzij verlengd tot maximaal 3 maanden' },
+      { pic: 'klok', tekst: 'Een tijdelijke maatregel' }, { pic: 'kaart', tekst: 'Je krijgt je rijbewijs terug' }] } }]);
+  end(s, pb, { blok: 'rijbewijs-verval-intrekking', bron: RB });
+})();
+
+// 11.5.5 beginnende bestuurders
+(function () {
+  const s = make('schema-beginner-verval', 'Beginnende bestuurders',
+    'Vier stappen: je hebt minder dan 2 jaar rijbewijs B, je wordt veroordeeld voor een overtreding die tot verval kan leiden, de rechter spreekt het verval uit en herstel kan pas na opnieuw slagen voor een theorie- of praktijkexamen. Sinds 1 juli 2026 geldt dit ook voor een voorlopig rijbewijs.', 400);
+  const r = cards(s, s.top + 16, [
+    { n: 1, pic: 'kaart', kop: 'Minder dan 2 jaar', tekst: 'Je bent minder dan 2 jaar houder van rijbewijs B.' },
+    { n: 2, pic: 'uitroep', picArg: ORG, kop: 'Veroordeeld', tekst: 'Voor een overtreding die tot verval kan leiden.' },
+    { n: 3, pic: 'hamer', kop: 'Verval', tekst: 'De rechter spreekt het verval uit.' },
+    { n: 4, pic: 'monitor', kop: 'Opnieuw slagen', tekst: 'Herstel pas na een nieuw theorie- of praktijkexamen.' }], { gap: 22, arrows: true, pic: 56, headSize: 17, bodySize: 15 });
+  const b = banner(s, r.bottom + 16, 'Sinds 1 juli 2026 geldt dit ook voor een voorlopig rijbewijs.', ORG, { size: 17 });
+  end(s, b, { blok: 'rijbewijs-verval-intrekking', bron: RB });
+})();
+
+// 11.6.1 2027
+(function () {
+  const s = make('schema-theorie-2027', 'Wat verandert er in 2027?',
+    'Drie kaarten over de aangekondigde wijziging: vanaf 1 januari 2027 moet je theorie-examen in een Vlaams examencentrum gebeuren, dat geldt als je in Vlaanderen praktijkexamen wilt doen, en er zijn geen overgangsmaatregelen. Onderaan: principieel goedgekeurd, maar nog niet definitief bevestigd.', 400);
+  const r = cards(s, s.top + 16, [
+    { pic: 'kalender', kop: '1 januari 2027', tekst: 'Vanaf dan geldt de aangekondigde regel.' },
+    { pic: 'monitor', kop: 'Vlaams examencentrum', tekst: 'Je theorie-examen moet daar gebeuren.' },
+    { pic: 'stuur', kop: 'Praktijkexamen in Vlaanderen', tekst: 'Dat geldt als je in Vlaanderen praktijkexamen wilt doen.' }], { gap: 14, pic: 60, headSize: 18, bodySize: 15.5 });
+  const y = r.bottom + 14;
+  pill(s, 400, y + 16, 'Er zijn geen overgangsmaatregelen', { size: 16, fill: MUTE });
+  const b = banner(s, y + 44, 'Principieel goedgekeurd, maar nog niet definitief bevestigd. Controleer de actuele regels op vlaanderen.be.', ORG, { size: 16.5 });
+  end(s, b, { blok: 'rijbewijs-theorie-examen-verloop', bron: RB });
 })();
 
 // ---------- registratie ----------
