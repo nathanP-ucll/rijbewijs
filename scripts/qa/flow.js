@@ -30,8 +30,8 @@ async function solve(page, art, ex, right) {
       const n = ex.paren.length;
       for (let i = 0; i < n; i++) {
         const want = right ? ex.paren[i].rechts : ex.paren[(i + 1) % n].rechts;
-        await L('.match-slot').nth(i).click();
-        await L('.match-pool .chip-item', { hasText: want }).first().click();
+        await L('.mitem.left').nth(i).click();
+        await L('.mitem.right', { hasText: want }).first().click();
       }
       break;
     }

@@ -62,7 +62,9 @@
               "tekst": "Een autosnelweg begint met het beginbord of een oprit met dat bord, een autoweg met het autowegbord."
             }
           ],
-          "theorieblokken": ["snelweg-autosnelweg-autoweg"]
+          "theorieblokken": [
+            "snelweg-autosnelweg-autoweg"
+          ]
         },
         {
           "id": "h8-1-2",
@@ -71,10 +73,22 @@
           "blokken": [
             {
               "type": "tabel",
-              "kolommen": ["Weg", "Toegelaten", "Niet toegelaten"],
+              "kolommen": [
+                "Weg",
+                "Toegelaten",
+                "Niet toegelaten"
+              ],
               "rijen": [
-                ["Autosnelweg", "Motorvoertuigen die 70 km/u kunnen halen", "Voetgangers, fietsers, bromfietsers, dieren en landbouwvoertuigen"],
-                ["Autoweg", "Motorvoertuigen en hun aanhangwagens", "Bromfietsen, landbouwvoertuigen en vierwielers zonder passagiersruimte"]
+                [
+                  "Autosnelweg",
+                  "Motorvoertuigen die 70 km/u kunnen halen",
+                  "Voetgangers, fietsers, bromfietsers, dieren en landbouwvoertuigen"
+                ],
+                [
+                  "Autoweg",
+                  "Motorvoertuigen en hun aanhangwagens",
+                  "Bromfietsen, landbouwvoertuigen en vierwielers zonder passagiersruimte"
+                ]
               ]
             },
             {
@@ -93,7 +107,9 @@
               "tekst": "Slepen met een nood- of hulpkoppeling is op beide wegen niet toegelaten, ook niet op de pechstrook."
             }
           ],
-          "theorieblokken": ["snelweg-toegelaten-voertuigen"]
+          "theorieblokken": [
+            "snelweg-toegelaten-voertuigen"
+          ]
         }
       ]
     },
@@ -142,7 +158,9 @@
               "tekst": "Bij het oprijden van de autosnelweg verleen je steeds voorrang aan wie er al rijdt."
             }
           ],
-          "theorieblokken": ["snelweg-op-en-afrit"]
+          "theorieblokken": [
+            "snelweg-op-en-afrit"
+          ]
         },
         {
           "id": "h8-2-2",
@@ -154,16 +172,26 @@
               "items": [
                 "Zo dicht mogelijk bij de rechterrand betekent: de rechterrijstrook.",
                 "Haal je links in, dan keer je daarna terug naar rechts.",
-                "Haal je binnen 10 seconden niemand meer in, ga dan terug naar rechts.",
-                "Rechts inhalen is verboden, behalve bij druk verkeer, file of om een richting te volgen."
+                "Haal je binnen 10 seconden niet meer in, ga terug naar rechts.",
+                "Rechts inhalen is verboden, behalve bij druk verkeer of file.",
+                "Rechts inhalen mag ook om een andere richting te volgen."
               ]
             },
             {
               "type": "tabel",
-              "kolommen": ["Voertuig", "Rijstrook"],
+              "kolommen": [
+                "Voertuig",
+                "Rijstrook"
+              ],
               "rijen": [
-                ["Personenwagen", "Rechterrijstrook, links enkel om in te halen"],
-                ["Bus, autocar, voertuig of combinatie boven 3,5 ton op een weg met drie of meer rijstroken", "Enkel de twee rechtse rijstroken"]
+                [
+                  "Personenwagen",
+                  "Rechterrijstrook, links enkel om in te halen"
+                ],
+                [
+                  "Bus, autocar, voertuig of combinatie boven 3,5 ton op een weg met drie of meer rijstroken",
+                  "Enkel de twee rechtse rijstroken"
+                ]
               ]
             },
             {
@@ -173,7 +201,9 @@
               "tekst": "Op de middelste rijstrook blijven rijden terwijl de rechterstrook vrij is, is een overtreding, ook bij weinig verkeer."
             }
           ],
-          "theorieblokken": ["snelweg-rijstroken-inhalen"]
+          "theorieblokken": [
+            "snelweg-rijstroken-inhalen"
+          ]
         },
         {
           "id": "h8-2-3",
@@ -182,12 +212,27 @@
           "blokken": [
             {
               "type": "tabel",
-              "kolommen": ["Signaal", "Betekenis"],
+              "kolommen": [
+                "Signaal",
+                "Betekenis"
+              ],
               "rijen": [
-                ["Groene pijl", "Je mag de spitsstrook gebruiken"],
-                ["Schuine oranje pijl", "Enkel om af te rijden"],
-                ["Rood kruis", "Verboden"],
-                ["Geen signalisatie", "Enkel om op of af te rijden of van richting te veranderen"]
+                [
+                  "Groene pijl",
+                  "Je mag de spitsstrook gebruiken"
+                ],
+                [
+                  "Schuine oranje pijl",
+                  "Enkel om af te rijden"
+                ],
+                [
+                  "Rood kruis",
+                  "Verboden"
+                ],
+                [
+                  "Geen signalisatie",
+                  "Enkel om op of af te rijden of van richting te veranderen"
+                ]
               ]
             },
             {
@@ -205,7 +250,7 @@
               "tekst": "Groene pijl is toegelaten, schuine oranje pijl is enkel afrijden en rood kruis is verboden."
             }
           ],
-          "theorieblokken": ["snelweg-rijstroken-inhalen"]
+          "theorieblokken": []
         },
         {
           "id": "h8-2-4",
@@ -214,11 +259,23 @@
           "blokken": [
             {
               "type": "tabel",
-              "kolommen": ["Situatie", "Wat doe je?"],
+              "kolommen": [
+                "Situatie",
+                "Wat doe je?"
+              ],
               "rijen": [
-                ["Een rijstrook eindigt en het verkeer is sterk vertraagd", "Ritsen: beurtelings invoegen bij de versmalling"],
-                ["Je rijdt de autosnelweg op", "Niet ritsen, maar voorrang verlenen"],
-                ["File op twee of meer rijstroken", "Een reddingsstrook vormen"]
+                [
+                  "Een rijstrook eindigt en het verkeer is sterk vertraagd",
+                  "Ritsen: beurtelings invoegen bij de versmalling"
+                ],
+                [
+                  "Je rijdt de autosnelweg op",
+                  "Niet ritsen, maar voorrang verlenen"
+                ],
+                [
+                  "File op twee of meer rijstroken",
+                  "Een reddingsstrook vormen"
+                ]
               ]
             },
             {
@@ -236,7 +293,9 @@
               "tekst": "Ritsen staat sinds 1 maart 2014 in de wegcode, en niet ritsen is een overtreding."
             }
           ],
-          "theorieblokken": ["snelweg-ritsen-file"]
+          "theorieblokken": [
+            "snelweg-ritsen-file"
+          ]
         }
       ]
     },
@@ -251,12 +310,27 @@
           "blokken": [
             {
               "type": "tabel",
-              "kolommen": ["Verbod", "Toegelaten?"],
+              "kolommen": [
+                "Verbod",
+                "Toegelaten?"
+              ],
               "rijen": [
-                ["Keren", "Nee"],
-                ["Achteruit rijden of tegen de rijrichting in rijden", "Nee"],
-                ["Stilstaan of parkeren", "Nee, enkel op parkeerstroken waar parkeren is toegelaten"],
-                ["Een dwarsverbinding gebruiken", "Nee"]
+                [
+                  "Keren",
+                  "Nee"
+                ],
+                [
+                  "Achteruit rijden of tegen de rijrichting in rijden",
+                  "Nee"
+                ],
+                [
+                  "Stilstaan of parkeren",
+                  "Nee, enkel op parkeerstroken waar parkeren is toegelaten"
+                ],
+                [
+                  "Een dwarsverbinding gebruiken",
+                  "Nee"
+                ]
               ]
             },
             {
@@ -274,7 +348,9 @@
               "tekst": "Rij door tot de volgende afrit, want keren of achteruit rijden is nooit toegelaten."
             }
           ],
-          "theorieblokken": ["snelweg-verboden-manoeuvres"]
+          "theorieblokken": [
+            "snelweg-verboden-manoeuvres"
+          ]
         },
         {
           "id": "h8-3-2",
@@ -305,7 +381,9 @@
               "tekst": "Sinds 1 oktober 2020 vorm je bij file een reddingsstrook, vanaf de eerste stilstand en niet pas wanneer een hulpdienst nadert."
             }
           ],
-          "theorieblokken": ["snelweg-pechstrook-reddingsstrook"]
+          "theorieblokken": [
+            "snelweg-pechstrook-reddingsstrook"
+          ]
         },
         {
           "id": "h8-3-3",
@@ -314,13 +392,31 @@
           "blokken": [
             {
               "type": "tabel",
-              "kolommen": ["Stap", "Wat doe je?"],
+              "kolommen": [
+                "Stap",
+                "Wat doe je?"
+              ],
               "rijen": [
-                ["1", "Alarmlichten aan en fluohesje aan"],
-                ["2", "Zo ver mogelijk naar rechts, bij voorkeur op de pechstrook"],
-                ["3", "Uitstappen aan de kant van de vangrail, ver van de rijbaan"],
-                ["4", "Gevarendriehoek op minstens 100 meter achter je voertuig"],
-                ["5", "Bel 112"]
+                [
+                  "1",
+                  "Alarmlichten aan en fluohesje aan"
+                ],
+                [
+                  "2",
+                  "Zo ver mogelijk naar rechts, bij voorkeur op de pechstrook"
+                ],
+                [
+                  "3",
+                  "Uitstappen aan de kant van de vangrail, ver van de rijbaan"
+                ],
+                [
+                  "4",
+                  "Gevarendriehoek op minstens 100 meter achter je voertuig"
+                ],
+                [
+                  "5",
+                  "Bel 112"
+                ]
               ]
             },
             {
@@ -338,7 +434,9 @@
               "tekst": "Jouw veiligheid en die van je passagiers gaan voor op je voertuig, dus ga uit de buurt van het verkeer."
             }
           ],
-          "theorieblokken": ["snelweg-pech"]
+          "theorieblokken": [
+            "snelweg-pech"
+          ]
         }
       ]
     },
@@ -361,10 +459,22 @@
             },
             {
               "type": "tabel",
-              "kolommen": ["Onderwerp", "Nu", "Vanaf 1 juni 2027"],
+              "kolommen": [
+                "Onderwerp",
+                "Nu",
+                "Vanaf 1 juni 2027"
+              ],
               "rijen": [
-                ["Motorfiets op de reddingsstrook", "Enkel onder voorwaarden", "Mag de reddingsstrook gebruiken"],
-                ["Gevarendriehoek bij pech", "Altijd verplicht", "Niet altijd verplicht: eerst alarmlichten, driehoek enkel als dat niet kan"]
+                [
+                  "Motorfiets op de reddingsstrook",
+                  "Enkel onder voorwaarden",
+                  "Mag de reddingsstrook gebruiken"
+                ],
+                [
+                  "Gevarendriehoek bij pech",
+                  "Altijd verplicht",
+                  "Niet altijd verplicht: eerst alarmlichten, driehoek enkel als dat niet kan"
+                ]
               ]
             },
             {

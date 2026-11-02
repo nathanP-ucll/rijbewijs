@@ -105,7 +105,7 @@
   "thema": "voorrang",
   "naam": "Rangorde van voorrang en voorrang van rechts",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -115,7 +115,7 @@
   "thema": "voorrang",
   "naam": "Voorrangsborden op kruispunten, T-kruispunt, uitzonderingen op voorrang van rechts",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -125,7 +125,7 @@
   "thema": "voorrang",
   "naam": "Rotonde en verkeersplein",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -135,7 +135,7 @@
   "thema": "voorrang",
   "naam": "Linksafslaan, tegenliggers, middenberm/gescheiden rijbanen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -145,7 +145,7 @@
   "thema": "lichten",
   "naam": "Verkeerslichten (3-kleuren, knipperend geel/oranje, pijlen, fietslichten)",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -155,7 +155,7 @@
   "thema": "lichten",
   "naam": "Bevoegde personen en hun seinen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -165,7 +165,7 @@
   "thema": "kwetsbaar",
   "naam": "Voetgangers, zebrapad, oversteken",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -175,7 +175,7 @@
   "thema": "kwetsbaar",
   "naam": "Fietsers, fietspaden, fietsstraten, bromfietsklasse A/B",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -185,7 +185,7 @@
   "thema": "openbaar",
   "naam": "Tram: trambaan, tramlichten, tramhalte, voorrang",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -195,7 +195,7 @@
   "thema": "openbaar",
   "naam": "Bus: busstrook, bushalte, voorrang bus, schoolbus",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -205,7 +205,7 @@
   "thema": "openbaar",
   "naam": "Overweg (spoorweg) en bijhorende signalisatie",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -215,7 +215,7 @@
   "thema": "voorrang",
   "naam": "Voorrangsvoertuigen en bijzondere voertuigen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -285,7 +285,7 @@
   "thema": "gedrag",
   "naam": "Alcohol (BAC, jonge bestuurder, BOB) en drugs",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -295,7 +295,7 @@
   "thema": "gedrag",
   "naam": "Gsm, handsfree, afleiding, vermoeidheid, medicatie",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -305,7 +305,7 @@
   "thema": "gedrag",
   "naam": "Gordel, kinderzitjes, vervoer van kinderen en lading",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -315,7 +315,7 @@
   "thema": "gedrag",
   "naam": "Lichten van het voertuig, mist, zicht",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -325,7 +325,7 @@
   "thema": "gedrag",
   "naam": "Reactietijd, remweg, volgafstand, 2-secondenregel, weersomstandigheden",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -335,7 +335,7 @@
   "thema": "ongeval",
   "naam": "Ongeval: veiligheid, alarmnummers, EHBO, gevarendriehoek, hulpverlening",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -345,7 +345,7 @@
   "thema": "ongeval",
   "naam": "Europees aanrijdingsformulier, verzekering, vluchtmisdrijf",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -355,7 +355,7 @@
   "thema": "rijbewijs",
   "naam": "Rijbewijs B: leerperiode, begeleider, voorlopig rijbewijs, punten, intrekking, vervallenverklaring",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -365,7 +365,7 @@
   "thema": "rijbewijs",
   "naam": "Theorie-examen: regels, puntentelling, duur, aantal vragen, wijzigingen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -375,7 +375,7 @@
   "thema": "techniek",
   "naam": "Voertuigtechniek: banden, onderhoud, keuring, verplichte uitrusting",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  },
@@ -385,7 +385,7 @@
   "thema": "techniek",
   "naam": "Dashboard: controlelampjes en symbolen",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": true,
   "bron": true
  },
@@ -395,7 +395,7 @@
   "thema": "techniek",
   "naam": "Milieu en zuinig rijden, lage-emissiezones",
   "theorie": true,
-  "oefeningen3": false,
+  "oefeningen3": true,
   "afbeelding": false,
   "bron": true
  }

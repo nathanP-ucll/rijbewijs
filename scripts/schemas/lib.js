@@ -33,6 +33,16 @@ function signData(code) {
   return signCache[code];
 }
 
+// leesbare naam van een bord (zonder code), uit data/borden-index.json
+let _bordenIndex = null;
+function signNaam(code) {
+  if (!_bordenIndex) {
+    try { _bordenIndex = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'borden-index.json'), 'utf8')); } catch (e) { _bordenIndex = {}; }
+  }
+  const n = _bordenIndex[code] && _bordenIndex[code].naam_nl;
+  return (n || 'verkeersbord').replace(/s*([^)]*)s*$/, '');
+}
+
 class Svg {
   constructor(naam, title, desc, opt = {}) {
     this.naam = naam; this.title = title; this.desc = desc;
@@ -94,7 +104,7 @@ class Svg {
   sign(code, x, y, size = 64, o = {}) {
     this.borden.add(code);
     if (o.pole !== false) this.line(x, y + size / 2 - 2, x, y + size / 2 + 12, '#8d949e', 4);
-    return this.add(`<image href="${signData(code)}" x="${f(x - size / 2)}" y="${f(y - size / 2)}" width="${size}" height="${size}" preserveAspectRatio="xMidYMid meet"><title>Verkeersbord ${esc(code)}</title></image>`);
+    return this.add(`<image href="${signData(code)}" x="${f(x - size / 2)}" y="${f(y - size / 2)}" width="${size}" height="${size}" preserveAspectRatio="xMidYMid meet"><title>Verkeersbord: ${esc(signNaam(code))}</title></image>`);
   }
   // voertuigen
   car(x, y, rot, kleur, nr, o = {}) {
@@ -225,7 +235,7 @@ class Svg {
     const defs = this.defs.length ? `<defs>${this.defs.join('')}</defs>` : '';
     const svg = `<?xml version="1.0" encoding="UTF-8"?>\n<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 ${this.w} ${this.h}" width="${this.w}" height="${this.h}" role="img" aria-labelledby="t d">\n<title id="t">${esc(this.title)}</title>\n<desc id="d">${esc(this.desc)}</desc>\n${defs}\n${this.b.join('\n')}\n</svg>\n`;
     fs.writeFileSync(path.join(OUT, this.naam + '.svg'), svg);
-    return { naam: this.naam, bestand: 'img/schemas/' + this.naam + '.svg', titel: this.title, beschrijving: this.desc, borden: [...this.borden], ...info };
+    return { naam: this.naam, bestand: 'img/schemas/' + this.naam + '.svg', titel: this.title, beschrijving: this.desc, borden: [...this.borden].map(signNaam), ...info };
   }
 }
 

@@ -68,3 +68,9 @@ Voelt als een schoolboek, niet als een quiz. Per les een mix van: koppelen/verbi
 - `tabel.rijen[].cellen[].correct` mag een string, een array varianten of een boolean (checkbox) zijn; `opties` maakt er een dropdown van.
 - Elke oefening komt op een eigen lespagina, direct na de theoriepagina(s) van haar `theorieblok`.
 - Bordkaarten (optioneel, op borden-blokken): `kaarten` [{ "afb" (bordbestand zonder .svg, gecontroleerd), "naam", "uitleg", "letop"? , "groep"? }] en `vergelijk` [{ "titel", "afbs": [..], "verschil" }] voor borden die op elkaar lijken.
+
+## Visuele vragen (wens gebruiker: eindtest zo visueel mogelijk)
+- Meerkeuze/aankruisen: optioneel veld "optiesAfb": array even lang als "opties" (bestandsnaam of null per optie; borden uit site/img/borden, schema's uit site/img/schemas). De optie toont de afbeelding groot met de tekst eronder (of alleen de afbeelding als de tekst leeg is).
+- "afbeelding" (bij de vraag) mag ook een lijst zijn: "afbeeldingen": [..] voor 2-3 beelden naast elkaar.
+- Voorkeur in de eindtest: 'welk bord betekent...', 'wat betekent dit bord/deze markering/dit licht', situatie en hotspot waar er een schema is, koppel met borden aan beide kanten.
+- Geen verklappende tekst in de afbeelding; geen bordcodes in zichtbare tekst.
