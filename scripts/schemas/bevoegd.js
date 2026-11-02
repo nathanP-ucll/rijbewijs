@@ -51,7 +51,7 @@ function mini(s, cx, cy) {
   s.circle(500, 230, 14, '#2d57a8', 'stroke="#fff" stroke-width="3"'); s.circle(500, 230, 6, '#f1c9a5');
   s.sign('C3', 440, 230, 56);
   s.label(600, 190, 'auto stopt', { size: 20, bg: '#d63a3a', fg: '#fff' });
-  s.label(600, 560, 'Zij geven alleen aanwijzingen\nin de gevallen die de wegcode\nvoorziet (bv. werven, evenementen).', { size: 14, bg: '#fff' });
+  s.label(600, 535, 'Zij geven alleen aanwijzingen\nin de gevallen die de wegcode\nvoorziet (bv. werven, evenementen).', { size: 14, bg: '#fff' });
   register(s.finish({ theorieblok: 'bevoegde-personen-signaalgevers-werf', bronnen: ['LICH-001'] }));
 })();
 

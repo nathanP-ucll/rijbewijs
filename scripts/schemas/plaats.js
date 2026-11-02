@@ -287,8 +287,8 @@ mk('schema-zijdelingse-afstand', 'Een fietser voorbijrijden: 1 m of 1,5 m afstan
       const bx = 295, cx = bx - d - 16 - 8;
       s.car(cx, 330, 0, 'blauw', null);
       s.bike(bx, 320, 0, null);
-      s.add(`<g stroke="#fff" stroke-width="3"><line x1="${cx + 16}" y1="260" x2="${bx - 8}" y2="260"/><line x1="${cx + 16}" y1="252" x2="${cx + 16}" y2="268"/><line x1="${bx - 8}" y1="252" x2="${bx - 8}" y2="268"/></g>`);
-      s.label(200, 238, 'minstens ' + txt, { size: 20, bg: '#fff' });
+      s.add(`<g stroke="#fff" stroke-width="3"><line x1="${cx + 16}" y1="410" x2="${bx - 8}" y2="410"/><line x1="${cx + 16}" y1="402" x2="${cx + 16}" y2="418"/><line x1="${bx - 8}" y1="402" x2="${bx - 8}" y2="418"/></g>`);
+      s.label(200, 460, 'minstens ' + txt, { size: 20, bg: '#fff' });
       s.route(`M${cx},260 L${cx},110`, CAR.blauw);
       s.label(200, 120, t2, { size: 18, bg: '#fff' });
       s.add('</g>');
