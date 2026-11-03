@@ -647,7 +647,7 @@
               "type": "tekst",
               "alineas": [
                 "Een verbodsbord met een rode rand verbiedt je iets. Het symbool in het bord toont wie of wat niet mag.",
-                "Een bromfiets klasse A kan maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u. Een speed pedelec is een elektrische fiets met een snelheid tussen 25 en 45 km/u en is ook een bromfiets."
+                "Een bromfiets klasse A kan maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u. Een speed pedelec is een fiets met trapondersteuning tot 45 km/u; wettelijk is dat een bromfiets. Een gewone elektrische fiets (tot 25 km/u) blijft een fiets."
               ]
             },
             {
@@ -702,7 +702,7 @@
                 {
                   "afb": "C22",
                   "naam": "Verboden voor autocars (touringbussen)",
-                  "uitleg": "Autocars (touringbussen) mogen hier niet rijden."
+                  "uitleg": "Autocars mogen hier niet rijden; een gewone lijnbus wel."
                 },
                 {
                   "afb": "C23",
@@ -1273,8 +1273,8 @@
                 },
                 {
                   "afb": "E9h",
-                  "naam": "Parkeren voor kampeerwagens",
-                  "uitleg": "Alleen kampeerwagens mogen hier staan; andere voertuigen niet."
+                  "naam": "Parkeren voor kampeerauto's",
+                  "uitleg": "Alleen kampeerauto's mogen hier staan; andere voertuigen niet."
                 },
                 {
                   "afb": "E9i",

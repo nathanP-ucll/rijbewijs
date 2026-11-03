@@ -46,11 +46,11 @@ function mini(s, cx, cy) {
   s.label(170, 570, 'signaalgever / werfopzichter', { size: 18, bg: '#fff' });
   s.rect(470, 70, 240, 530, C.road);
   s.line(590, 70, 590, 600, '#fff', 3, 'stroke-dasharray="16 14"');
-  s.rect(530, 235, 60, 6, '#fff'); s.rect(590, 100, 0, 0, '#fff');
-  s.car(560, 430, 0, 'rood', null, { brake: 1 });
-  s.circle(500, 230, 14, '#2d57a8', 'stroke="#fff" stroke-width="3"'); s.circle(500, 230, 6, '#f1c9a5');
-  s.sign('C3', 440, 230, 56);
-  s.label(600, 190, 'auto stopt', { size: 20, bg: '#d63a3a', fg: '#fff' });
+  s.rect(590, 235, 120, 6, '#fff');
+  s.car(650, 430, 0, 'rood', null, { brake: 1 });
+  s.circle(722, 230, 14, '#2d57a8', 'stroke="#fff" stroke-width="3"'); s.circle(722, 230, 6, '#f1c9a5');
+  s.sign('C3', 762, 230, 44);
+  s.label(650, 190, 'auto stopt', { size: 20, bg: '#d63a3a', fg: '#fff' });
   s.label(600, 515, 'Zij geven alleen aanwijzingen\nin de gevallen die de wegcode\nvoorziet (bv. werven, evenementen).', { size: 14, bg: '#fff' });
   register(s.finish({ theorieblok: 'bevoegde-personen-signaalgevers-werf', bronnen: ['LICH-001'] }));
 })();
@@ -74,7 +74,7 @@ function trap(naam, title, desc, theorieblok, steps) {
 const iconAgent = (s, x, y) => { figure(s, x - 8, y + 36, 0.42, 'up'); };
 const iconLicht = (s, x, y) => { s.add(`<rect x="${x - 14}" y="${y - 38}" width="28" height="76" rx="8" fill="#1d2128" stroke="#000" stroke-width="2"/>`); s.circle(x, y - 22, 9, COL.rood); s.circle(x, y, 9, '#4d3410'); s.circle(x, y + 22, 9, '#143b24'); };
 const iconBord = (s, x, y) => { s.sign('B1', x, y, 62, { pole: false }); };
-const iconRegel = (s, x, y) => { s.rect(x - 38, y - 9, 76, 18, '#2b2f36', 'rx="4"'); s.rect(x - 9, y - 38, 18, 76, '#2b2f36', 'rx="4"'); s.arrow(x + 36, y + 22, x + 36, y + 2, '#fff', 4); s.text(x + 36, y + 36, 'van rechts', { size: 11, fill: '#fff', weight: 600 }); };
+const iconRegel = (s, x, y) => { s.rect(x - 38, y - 9, 76, 18, '#2b2f36', 'rx="4"'); s.rect(x - 9, y - 38, 18, 76, '#2b2f36', 'rx="4"'); s.arrow(x + 54, y, x + 4, y, '#fff', 4); s.text(x + 22, y + 32, 'van rechts', { size: 11, fill: '#fff', weight: 600 }); };
 trap('schema-rangorde-voorrang', 'Rangorde: wie of wat bepaalt de voorrang?',
   'Een trap met vier treden van boven naar onder: 1 bevoegde persoon, 2 verkeerslichten, 3 verkeersborden, 4 algemene verkeersregels (voorrang van rechts). Wat hoger staat, gaat voor wat lager staat.',
   'voorrang-rangorde', [

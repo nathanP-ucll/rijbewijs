@@ -26,8 +26,8 @@
 <text x="260" y="422" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="16" font-weight="500" fill="#fff" text-anchor="start" ><tspan x="260" dy="0">bv. voorrang van rechts</tspan></text>
 <rect x="652" y="391" width="76" height="18" fill="#2b2f36" rx="4"/>
 <rect x="681" y="362" width="18" height="76" fill="#2b2f36" rx="4"/>
-<line x1="726" y1="422" x2="726" y2="402" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
-<text x="726" y="436" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="726" dy="0">van rechts</tspan></text>
+<line x1="744" y1="400" x2="694" y2="400" stroke="#fff" stroke-width="4" stroke-linecap="round" marker-end="url(#ahfff)"/>
+<text x="712" y="432" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="11" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="712" dy="0">van rechts</tspan></text>
 <text x="400" y="588" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Hoger op de trap = gaat voor. Je volgt de eerste die van toepassing is.</tspan></text>
 <rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
 <text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="22" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Rangorde: bevoegde persoon, lichten, borden en regels</tspan></text>

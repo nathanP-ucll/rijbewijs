@@ -11,7 +11,7 @@
       "Verkeerstekens (bv. verkeersborden)",
       "Gewone verkeersregels"
     ],
-    "uitleg": "Bevelen van een bevoegd persoon gaan boven verkeerstekens. Verkeerstekens gaan boven de gewone verkeersregels.",
+    "uitleg": "Bevelen van een bevoegde persoon gaan boven verkeerstekens. Verkeerstekens gaan boven de gewone verkeersregels.",
     "bronnen": [
       "LICH-001",
       "LICH-002"
@@ -456,7 +456,7 @@
       },
       {
         "links": "Bord 3",
-        "rechts": "Parkeren voor kampeerwagens",
+        "rechts": "Parkeren voor kampeerauto's",
         "linksAfb": "E9h"
       },
       {
@@ -2115,7 +2115,7 @@
       },
       {
         "links": "Bord 4",
-        "rechts": "Parkeren voor kampeerwagens",
+        "rechts": "Parkeren voor kampeerauto's",
         "linksAfb": "E9h"
       },
       {
@@ -5444,7 +5444,7 @@
     "onderwerp": "T16",
     "theorieblok": "bevoegde-personen-signaalgevers-werf",
     "type": "meerkeuze",
-    "vraag": "Wie geeft aanwijzingen aan een groep fietsers en motorfietsers?",
+    "vraag": "Wie regelt het verkeer om een groep fietsers en motorfietsers te beveiligen?",
     "opties": [
       "Een wegkapitein",
       "Een werfopzichter",
@@ -5454,7 +5454,7 @@
       0
     ],
     "meerdere": false,
-    "uitleg": "Een wegkapitein geeft aanwijzingen aan groepen fietsers en motorfietsers.",
+    "uitleg": "Een wegkapitein beveiligt een groep fietsers of motorfietsers en geeft daarvoor aanwijzingen aan het andere verkeer.",
     "bronnen": [
       "LICH-001",
       "LICH-002"
@@ -5465,7 +5465,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-P04",
@@ -5630,7 +5630,7 @@
       0
     ],
     "meerdere": false,
-    "uitleg": "Je stopt voor de bestuurders naar wie het licht gericht is.",
+    "uitleg": "Je stopt als het licht naar jou gericht is.",
     "bronnen": [
       "LICH-001",
       "LICH-002"
@@ -5641,7 +5641,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-P10",
@@ -5649,11 +5649,11 @@
     "onderwerp": "T16",
     "theorieblok": "bevoegde-personen-seinen",
     "type": "meerkeuze",
-    "vraag": "Je komt van links van de bevoegde persoon, in de richting van zijn uitgestrekte armen. Wat geldt voor jou?",
+    "vraag": "Een bevoegde persoon strekt beide armen horizontaal uit, naar links en naar rechts. Jij nadert van opzij, in de richting van een van zijn armen. Wat geldt voor jou?",
     "opties": [
       "Voor dit teken hoef je niet te stoppen",
       "Je moet stoppen",
-      "Je moet stoppen omdat de bevoegde persoon je ziet"
+      "Je mag alleen doorrijden als hij je een teken geeft"
     ],
     "correct": [
       0
