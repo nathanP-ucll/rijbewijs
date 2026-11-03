@@ -176,7 +176,7 @@ function weg(s, ox, met, oef) {
     s.text(98, y + (r.naam.includes('\n') ? 66 : 78), r.naam, { size: 18, anchor: 'start', weight: 800 });
     ['Vlaanderen', 'Wallonië', 'Brussel'].forEach((g, j) => gewChip(s, 276 + j * 170, y, 160, 144, g, r.v[j], r.note ? r.note[j] : ''));
   });
-  s.text(400, 580, 'Een snelheidsbord gaat altijd voor op deze tabel.', { size: 17, weight: 600 });
+  s.text(400, 560, 'Een snelheidsbord gaat voor op de gewestregel.\nVoor je voertuig kan een lagere limiet gelden: de laagste telt.', { size: 17, weight: 600 });
   out(s, 'snelheden-overzicht-gewest', SNEL);
 })();
 
@@ -324,7 +324,7 @@ function weg(s, ox, met, oef) {
     'Vier stappen onder elkaar met pijlen ertussen: 1 zoek een snelheidsbord, 2 kijk naar de plaats en het gewest, 3 kijk naar je voertuig, 4 pas je snelheid aan de omstandigheden aan.', { bg: BG });
   s.titel('Zo kom je tot de juiste snelheid');
   const st = [
-    ['Zoek een snelheidsbord', 'Een bord gaat altijd voor op de tabel.', '#c0261c'],
+    ['Zoek een snelheidsbord', 'Een bord gaat voor op de gewestregel.\nVoor je voertuig kan een lagere limiet gelden: de laagste telt.', '#c0261c'],
     ['Kijk naar plaats en gewest', 'Bebouwde kom of niet; Vlaanderen, Wallonië of Brussel.', '#1d5fa8'],
     ['Kijk naar je voertuig', 'Een bus, zwaar voertuig of bromfiets heeft een eigen limiet.', '#a85f00'],
     ['Pas je snelheid aan', 'Weer, zicht, drukte en wegdek bepalen hoe snel je echt rijdt.', '#1f7a46'],
@@ -333,8 +333,8 @@ function weg(s, ox, met, oef) {
     const y = 72 + i * 126;
     box(s, 40, y, 720, 96, col);
     s.badge(92, y + 48, i + 1, { r: 24 });
-    s.text(140, y + 42, t, { size: 26, fill: '#fff', weight: 800, anchor: 'start' });
-    s.text(140, y + 72, sub, { size: 16, fill: '#fff', weight: 500, anchor: 'start' });
+    s.text(140, y + (sub.includes('\n') ? 34 : 42), t, { size: 26, fill: '#fff', weight: 800, anchor: 'start' });
+    s.text(140, y + (sub.includes('\n') ? 60 : 72), sub, { size: sub.includes('\n') ? 15 : 16, fill: '#fff', weight: 500, anchor: 'start' });
     if (i < 3) s.arrow(400, y + 98, 400, y + 124, INK, 6);
     box(s, 650, y + 12, 96, 72, '#fff', { rx: 10 });
     if (i === 0) s.sign('C43_70', 698, y + 48, 62, { pole: false });

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 540" width="800" height="540" role="img" aria-labelledby="t d">
+<title id="t">De drie gewesten van België</title>
+<desc id="d">Een vereenvoudigd kaartje van België met drie gekleurde delen: Vlaanderen in het noorden (geel), Wallonië in het zuiden (rood) en het Brussels Hoofdstedelijk Gewest als klein deel in het midden (blauw). Op elk deel staat de naam.</desc>
+
+<rect width="800" height="540" fill="#eaf2f8"/>
+<polygon points="125.26,123.78 250.44,56.96 331.34,83.21 384.77,54.57 407.67,28.32 465.67,33.09 514.52,73.66 575.58,73.66 621.38,133.32 609.17,202.53 567.95,207.31 514.52,209.69 476.36,197.76 438.2,200.15 404.61,216.85 369.51,212.08 331.34,204.92 285.55,212.08 239.75,207.31 193.96,202.53 186.33,207.31 140.53,183.44" fill="#f6d86a" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="193.96,202.53 239.75,207.31 285.55,212.08 331.34,204.92 369.51,212.08 404.61,216.85 438.2,200.15 476.36,197.76 514.52,209.69 567.95,207.31 609.17,202.53 644.28,204.92 656.49,264.58 712.97,307.54 670.23,355.27 629.01,431.64 621.38,491.3 560.32,498.46 499.26,431.64 476.36,352.88 392.4,395.84 369.51,312.31 293.18,276.51 224.49,252.65 201.59,221.63" fill="#e98a7e" stroke="#fff" stroke-width="4" stroke-linejoin="round"/>
+<polygon points="376.37,190.6 387.82,161.96 406.14,158.38 422.17,165.54 429.04,183.44 417.59,204.92 394.69,208.5 378.66,201.34" fill="#5b8fd9" stroke="#fff" stroke-width="3.5" stroke-linejoin="round"/>
+<text x="135.26" y="78.44" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="20" font-weight="600" fill="#5d8aa8" text-anchor="middle" ><tspan x="135.26" dy="0">Noordzee</tspan></text>
+<text x="377.14" y="97.53" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#5c4a00" text-anchor="middle" ><tspan x="377.14" dy="0">Vlaanderen</tspan></text>
+<text x="491.63" y="324.24" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="34" font-weight="800" fill="#6b1f14" text-anchor="middle" ><tspan x="491.63" dy="0">Wallonië</tspan></text>
+<line x1="620" y1="90" x2="407.56" y2="179.44" stroke="#1c2230" stroke-width="3" />
+<circle cx="407.56" cy="179.44" r="5" fill="#1c2230" />
+<rect x="592" y="42" width="196" height="52" rx="12" fill="#fff" stroke="#5b8fd9" stroke-width="3"/>
+<text x="690" y="80" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="28" font-weight="800" fill="#1f4a99" text-anchor="middle" ><tspan x="690" dy="0">Brussel</tspan></text>
+</svg>

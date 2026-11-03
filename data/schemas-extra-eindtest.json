@@ -1,0 +1,122 @@
+[
+ {
+  "naam": "schema-belgie-gewesten-oefening",
+  "bestand": "img/schemas/schema-belgie-gewesten-oefening.svg",
+  "titel": "De drie gewesten van België",
+  "beschrijving": "Een vereenvoudigd kaartje van België met drie gekleurde delen: Vlaanderen in het noorden (geel), Wallonië in het zuiden (rood) en het Brussels Hoofdstedelijk Gewest als klein deel in het midden (blauw). Op elk deel staat de naam.",
+  "borden": [],
+  "theorieblok": "snelheden-brussel-30",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-004",
+   "SNEL-006"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-markering-driehoeken-oefening",
+  "bestand": "img/schemas/schema-markering-driehoeken-oefening.svg",
+  "titel": "Markering voor een kruispunt",
+  "beschrijving": "Bovenaanzicht van een smalle weg die van onder op een brede dwarsweg uitkomt. Een blauwe auto rijdt in de rechterrijstrook naar het kruispunt. Vlak voor het kruispunt staat in die rijstrook een rij witte driehoeken met de punt naar de auto. Op de dwarsweg rijdt een rode auto van links naar rechts.",
+  "borden": [],
+  "theorieblok": "markeringen-dwars-pijlen",
+  "bronnen": [
+   "BORD-001"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-optie-parkeerverbod",
+  "bestand": "img/schemas/schema-optie-parkeerverbod.svg",
+  "titel": "Verkeersbord: Parkeerverbod",
+  "beschrijving": "Het verkeersbord parkeerverbod, groot afgebeeld op een witte achtergrond.",
+  "borden": [
+   "Parkeerverbod"
+  ],
+  "theorieblok": "borden-zonale-geldigheid",
+  "bronnen": [
+   "BORD-001",
+   "BORD-002",
+   "BORD-007"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-optie-stilstaan-parkeerverbod",
+  "bestand": "img/schemas/schema-optie-stilstaan-parkeerverbod.svg",
+  "titel": "Verkeersbord: Stilstaan- en parkeerverbod",
+  "beschrijving": "Het verkeersbord stilstaan- en parkeerverbod, groot afgebeeld op een witte achtergrond.",
+  "borden": [
+   "Stilstaan en parkeren verboden"
+  ],
+  "theorieblok": "borden-zonale-geldigheid",
+  "bronnen": [
+   "BORD-001",
+   "BORD-002",
+   "BORD-007"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-optie-verbod-keren",
+  "bestand": "img/schemas/schema-optie-verbod-keren.svg",
+  "titel": "Verkeersbord: Verbod te keren",
+  "beschrijving": "Het verkeersbord verbod te keren, groot afgebeeld op een witte achtergrond.",
+  "borden": [
+   "Verbod te keren tot het volgende kruispunt"
+  ],
+  "theorieblok": "borden-zonale-geldigheid",
+  "bronnen": [
+   "BORD-001",
+   "BORD-002",
+   "BORD-007"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-optie-verboden-richting",
+  "bestand": "img/schemas/schema-optie-verboden-richting.svg",
+  "titel": "Verkeersbord: Verboden richting",
+  "beschrijving": "Het verkeersbord verboden richting, groot afgebeeld op een witte achtergrond.",
+  "borden": [
+   "Verboden richting voor iedere bestuurder"
+  ],
+  "theorieblok": "borden-zonale-geldigheid",
+  "bronnen": [
+   "BORD-001",
+   "BORD-002",
+   "BORD-007"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-plaatsen-drie-oefening",
+  "bestand": "img/schemas/schema-plaatsen-drie-oefening.svg",
+  "titel": "Drie soorten plaatsen langs de weg",
+  "beschrijving": "Drie stroken onder elkaar, in bovenaanzicht. Boven: een straat in een bebouwde kom met huizen, trottoirs en het bord begin van de bebouwde kom. Midden: een gewone weg buiten de bebouwde kom tussen weilanden en bomen. Onder: een autosnelweg met een middenberm, twee rijstroken per richting en het bord begin van een autosnelweg.",
+  "borden": [
+   "Begin van de bebouwde kom",
+   "Begin van een autosnelweg"
+  ],
+  "theorieblok": "snelheden-overzicht-gewest",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-002",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "oefening"
+ },
+ {
+  "naam": "schema-streep-aankondiging-oefening",
+  "bestand": "img/schemas/schema-streep-aankondiging-oefening.svg",
+  "titel": "Streepmarkering op de weg",
+  "beschrijving": "Bovenaanzicht van een weg met twee rijrichtingen waarop een auto naar boven rijdt. Onderaan ligt een middenlijn met lange trekken en grote tussenruimten. Daarboven ligt een gemarkeerd stuk met korte trekken dicht bij elkaar. Verder vooruit is de middenlijn onzichtbaar en staat er een vraagteken.",
+  "borden": [],
+  "theorieblok": "markeringen-strepen",
+  "bronnen": [
+   "BORD-001"
+  ],
+  "type": "oefening"
+ }
+]

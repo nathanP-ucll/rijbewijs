@@ -50,7 +50,7 @@
 <text x="696" y="412" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="696" dy="0">Brussel</tspan></text>
 <text x="696" y="478" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="40" font-weight="800" fill="#fff" text-anchor="middle" ><tspan x="696" dy="0">120</tspan></text>
 <text x="696" y="500" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="15" font-weight="600" fill="#fff" text-anchor="middle" ><tspan x="696" dy="0">km/u</tspan></text>
-<text x="400" y="580" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Een snelheidsbord gaat altijd voor op deze tabel.</tspan></text>
+<text x="400" y="560" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="600" fill="#1c2230" text-anchor="middle" ><tspan x="400" dy="0">Een snelheidsbord gaat voor op de gewestregel.</tspan><tspan x="400" dy="20.06">Voor je voertuig kan een lagere limiet gelden: de laagste telt.</tspan></text>
 <rect x="0" y="0" width="800" height="48" fill="#1c2230" opacity="0.9"/>
 <text x="400" y="33" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="26" font-weight="700" fill="#fff" text-anchor="middle" ><tspan x="400" dy="0">Snelheid zonder bord: plaats én gewest</tspan></text>
 </svg>

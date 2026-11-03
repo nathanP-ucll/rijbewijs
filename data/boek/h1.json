@@ -147,7 +147,7 @@
     {
       "nr": "1.2",
       "titel": "Gevaarsborden",
-      "intro": "Een gevaarsbord waarschuwt je vooraf voor een gevaarlijke plaats. In Vlaanderen staat het in principe rechts van de weg en ongeveer 150 meter voor het gevaar.",
+      "intro": "Een gevaarsbord waarschuwt je vooraf voor een gevaarlijke plaats. In Vlaanderen en Brussel staat het in principe rechts van de weg en ongeveer 150 meter voor het gevaar.",
       "paginas": [
         {
           "id": "h1-2-1",
@@ -160,12 +160,12 @@
                 {
                   "afb": "A1a",
                   "naam": "Gevaarlijke bocht naar links",
-                  "uitleg": "Een gevaarlijke bocht naar links."
+                  "uitleg": "Verderop buigt de weg gevaarlijk naar links af: pas je snelheid aan."
                 },
                 {
                   "afb": "A1b",
                   "naam": "Gevaarlijke bocht naar rechts",
-                  "uitleg": "Een gevaarlijke bocht naar rechts."
+                  "uitleg": "Verderop buigt de weg gevaarlijk naar rechts af: pas je snelheid aan."
                 },
                 {
                   "afb": "A1c",
@@ -226,13 +226,13 @@
                 },
                 {
                   "afb": "A7b",
-                  "naam": "Rijbaanversmalling aan één kant",
-                  "uitleg": "Het symbool toont aan welke kant de weg smaller wordt."
+                  "naam": "Rijbaanversmalling links",
+                  "uitleg": "De rijbaan wordt smaller aan de linkerkant."
                 },
                 {
                   "afb": "A7c",
-                  "naam": "Rijbaanversmalling aan één kant",
-                  "uitleg": "Het symbool toont aan welke kant de weg smaller wordt."
+                  "naam": "Rijbaanversmalling rechts",
+                  "uitleg": "De rijbaan wordt smaller aan de rechterkant."
                 },
                 {
                   "afb": "A9",
@@ -259,7 +259,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Een verhoogde inrichting is een verkeersdrempel of -plateau. Je rijdt er hoogstens 30 km/u over, en je mag daar niet links inhalen, stilstaan of parkeren."
+                "Een verhoogde inrichting is een verkeersdrempel of -plateau. Bij een aangekondigde verhoogde inrichting rijd je er hoogstens 30 km/u over, en je mag daar niet links inhalen, stilstaan of parkeren."
               ]
             },
             {
@@ -424,12 +424,12 @@
                 {
                   "afb": "A41",
                   "naam": "Overweg met slagbomen",
-                  "uitleg": "Aankondiging van een overweg met slagbomen."
+                  "uitleg": "Je nadert een overweg met slagbomen; de overweg zelf komt nog."
                 },
                 {
                   "afb": "A43",
                   "naam": "Overweg zonder slagbomen",
-                  "uitleg": "Aankondiging van een overweg zonder slagbomen."
+                  "uitleg": "Je nadert een overweg zonder slagbomen; de overweg zelf komt nog."
                 },
                 {
                   "afb": "A45",
@@ -498,7 +498,7 @@
                 {
                   "afb": "B5",
                   "naam": "Stoppen en voorrang verlenen",
-                  "uitleg": "Je stopt altijd aan de stopstreep en verleent voorrang."
+                  "uitleg": "Je stopt altijd (aan de stopstreep, indien aanwezig) en verleent voorrang."
                 },
                 {
                   "afb": "B7",
@@ -518,7 +518,7 @@
                 {
                   "afb": "B13",
                   "naam": "Aankondiging: einde voorrangsweg",
-                  "uitleg": "Het einde van de voorrangsweg komt verderop."
+                  "uitleg": "Het einde-bord komt nog, op de aangeduide afstand; dan eindigt je voorrang."
                 }
               ]
             },
@@ -582,7 +582,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Voorrangsborden gelden alleen als de verkeerslichten uit staan of niet werken. Werken de lichten wel, dan gaan die voor."
+                "In de regel gaan werkende verkeerslichten voor op voorrangsborden. Bij een oranjegeel knipperlicht gelden de borden wel. De borden voor fietsers bij rood gelden net bij een rood of oranjegeel licht."
               ]
             },
             {
@@ -639,12 +639,12 @@
                 {
                   "afb": "C7",
                   "naam": "Verboden voor motorfietsen",
-                  "uitleg": "Geen motorfietsen."
+                  "uitleg": "Motorfietsen mogen hier niet rijden, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C9",
                   "naam": "Verboden voor bromfietsen",
-                  "uitleg": "Geen bromfietsen."
+                  "uitleg": "Bromfietsen mogen hier niet rijden, tot en met het volgende kruispunt."
                 }
               ]
             },
@@ -681,32 +681,32 @@
                 {
                   "afb": "C11",
                   "naam": "Verboden voor fietsers",
-                  "uitleg": "Geen fietsen."
+                  "uitleg": "Fietsers mogen hier niet door, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C13",
                   "naam": "Verboden voor gespannen",
-                  "uitleg": "Geen paard en kar."
+                  "uitleg": "Een gespan is een kar met een trekdier, zoals paard en kar."
                 },
                 {
                   "afb": "C15",
                   "naam": "Verboden voor ruiters",
-                  "uitleg": "Geen ruiters."
+                  "uitleg": "Ruiters mogen hier niet door, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C17",
                   "naam": "Verboden voor handkarren",
-                  "uitleg": "Geen handkarren."
+                  "uitleg": "Handkarren mogen hier niet door, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C19",
                   "naam": "Verboden voor voetgangers",
-                  "uitleg": "Voetgangers mogen hier niet."
+                  "uitleg": "Voetgangers mogen deze weg niet gebruiken, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C22",
                   "naam": "Verboden voor autocars",
-                  "uitleg": "Geen autocars."
+                  "uitleg": "Autocars mogen hier niet rijden, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C23",
@@ -795,7 +795,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Met massa bedoelen we de maximaal toegelaten massa in beladen toestand. Bij lengte, breedte en hoogte telt de lading mee."
+                "Bij het massabord telt de massa van het voertuig met lading en inzittenden. Bij het bord voor vrachtvoertuigen met een onderbord telt de maximaal toegelaten massa. Bij lengte, breedte en hoogte telt de lading mee."
               ]
             },
             {
@@ -850,7 +850,7 @@
                 {
                   "afb": "C37",
                   "naam": "Einde van het inhaalverbod",
-                  "uitleg": "Het inhaalverbod eindigt."
+                  "uitleg": "Vanaf hier mag je weer links inhalen."
                 },
                 {
                   "afb": "C39",
@@ -917,7 +917,7 @@
                 {
                   "afb": "C45_50",
                   "naam": "Einde van de snelheidsbeperking",
-                  "uitleg": "De snelheidsbeperking eindigt."
+                  "uitleg": "Het eerdere snelheidsbord geldt vanaf hier niet meer."
                 },
                 {
                   "afb": "C46",
@@ -1112,7 +1112,7 @@
                 {
                   "afb": "E3",
                   "naam": "Stilstaan en parkeren verboden",
-                  "uitleg": "Je mag hier niet stilstaan en niet parkeren."
+                  "uitleg": "Ook kort stilstaan mag niet; het bord heeft een kruis."
                 },
                 {
                   "afb": "E5",
@@ -1127,7 +1127,7 @@
                 {
                   "afb": "E11",
                   "naam": "Beurtelings parkeren in de bebouwde kom",
-                  "uitleg": "Het geldt in heel de bebouwde kom."
+                  "uitleg": "Staat boven het kombord: beurtelings parkeren in heel de bebouwde kom."
                 }
               ]
             },
@@ -1164,7 +1164,7 @@
                 {
                   "afb": "E9",
                   "naam": "Parkeren toegelaten",
-                  "uitleg": "Hier mag je parkeren."
+                  "uitleg": "Basisbord voor parkeren; onderborden kunnen de regeling aanvullen."
                 },
                 {
                   "afb": "E9a_Parkeerschijf",
@@ -1174,7 +1174,7 @@
                 {
                   "afb": "E9e",
                   "naam": "Verplicht parkeren op de berm of het trottoir",
-                  "uitleg": "Je staat volledig op de berm of het trottoir."
+                  "uitleg": "Je moet volledig op de berm of het trottoir staan."
                 },
                 {
                   "afb": "E9f",
@@ -1184,7 +1184,7 @@
                 {
                   "afb": "E9g",
                   "naam": "Verplicht parkeren op de rijbaan",
-                  "uitleg": "Je moet op de rijbaan parkeren."
+                  "uitleg": "Parkeer op de rijbaan zelf, niet op de berm of het trottoir."
                 },
                 {
                   "afb": "E9j",
@@ -1226,7 +1226,7 @@
                 {
                   "afb": "E9a_Handicap",
                   "naam": "Parkeerplaats voor personen met een handicap",
-                  "uitleg": "Voorbehouden voor personen met een handicap."
+                  "uitleg": "Alleen voor personen met een handicap; andere bestuurders parkeren elders."
                 },
                 {
                   "afb": "E9b",
@@ -1236,22 +1236,22 @@
                 {
                   "afb": "E9c",
                   "naam": "Parkeren voor bestelwagens en vrachtauto's",
-                  "uitleg": "Voorbehouden voor deze voertuigen."
+                  "uitleg": "Alleen bestelwagens en vrachtauto's mogen hier staan."
                 },
                 {
                   "afb": "E9d",
                   "naam": "Parkeren voor autocars",
-                  "uitleg": "Voorbehouden voor autocars."
+                  "uitleg": "Alleen autocars mogen hier staan; andere voertuigen niet."
                 },
                 {
                   "afb": "E9h",
                   "naam": "Parkeren voor kampeerwagens",
-                  "uitleg": "Voorbehouden voor kampeerauto's."
+                  "uitleg": "Alleen kampeerwagens mogen hier staan; andere voertuigen niet."
                 },
                 {
                   "afb": "E9i",
                   "naam": "Parkeren voor motorfietsen",
-                  "uitleg": "Voorbehouden voor motorfietsen."
+                  "uitleg": "Alleen motorfietsen mogen hier staan; andere voertuigen niet."
                 }
               ]
             },
@@ -1305,7 +1305,7 @@
                 {
                   "afb": "F3a_horizontaal",
                   "naam": "Einde van de bebouwde kom",
-                  "uitleg": "Je verlaat de bebouwde kom."
+                  "uitleg": "Vanaf hier gelden de regels van de bebouwde kom niet meer."
                 },
                 {
                   "afb": "F3b_horizontaal",
@@ -1330,7 +1330,7 @@
                 {
                   "afb": "F12b",
                   "naam": "Einde van een woonerf of erf",
-                  "uitleg": "Je verlaat het woonerf of erf."
+                  "uitleg": "Vanaf hier gelden de regels van het woonerf of erf niet meer."
                 }
               ]
             },
@@ -1372,7 +1372,7 @@
                 {
                   "afb": "F7",
                   "naam": "Einde van een autosnelweg",
-                  "uitleg": "De autosnelwegregels eindigen."
+                  "uitleg": "Vanaf hier gelden de regels van de autosnelweg niet meer."
                 },
                 {
                   "afb": "F9",
@@ -1382,7 +1382,7 @@
                 {
                   "afb": "F11",
                   "naam": "Einde van een autoweg",
-                  "uitleg": "De autowegregels eindigen."
+                  "uitleg": "Vanaf hier gelden de regels van de autoweg niet meer."
                 },
                 {
                   "afb": "F8",
@@ -1402,7 +1402,7 @@
                 {
                   "afb": "F52",
                   "naam": "Nooduitgang",
-                  "uitleg": "Aankondiging van een nooduitgang in een tunnel."
+                  "uitleg": "Verderop in de tunnel is een nooduitgang."
                 }
               ]
             },
@@ -1511,17 +1511,17 @@
                 {
                   "afb": "F81",
                   "naam": "Uitwijking van rijstroken",
-                  "uitleg": "Kondigt een uitwijking van de rijstroken aan."
+                  "uitleg": "Voorwegwijzer bij werken: de rijstroken wijken verderop uit."
                 },
                 {
                   "afb": "F83",
                   "naam": "Doorsteek in de middenberm",
-                  "uitleg": "Aankondiging bij werken."
+                  "uitleg": "Bij werken: verderop is een doorsteek in de middenberm."
                 },
                 {
                   "afb": "F87",
                   "naam": "Verhoogde inrichting",
-                  "uitleg": "Aankondiging van een drempel of plateau."
+                  "uitleg": "Staat bij de drempel of het plateau zelf, na een gevaarsbord."
                 },
                 {
                   "afb": "F89",
@@ -1543,7 +1543,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Veel van deze borden staan vooraf bij werken en kondigen aan wat verderop verandert. Sommige regels gelden enkel voor een bepaalde rijstrook."
+                "Sommige van deze borden staan vooraf bij werken en kondigen aan wat verderop verandert. Sommige regels gelden enkel voor een bepaalde rijstrook."
               ]
             },
             {
@@ -1578,20 +1578,21 @@
                 {
                   "afb": "F18",
                   "naam": "Overrijdbare bedding",
-                  "uitleg": "Andere voertuigen mogen enkel een hindernis omzeilen of de bedding dwarsen."
+                  "uitleg": "Bijzondere bedding voor tram of bus, voorbehouden aan het openbaar vervoer."
                 }
               ]
             },
             {
               "type": "tekst",
               "alineas": [
-                "Een busstrook is bedoeld voor voertuigen van geregeld openbaar vervoer. Ze maakt geen deel uit van de rijbaan."
+                "Een busstrook is bedoeld voor voertuigen van geregeld openbaar vervoer. Ze maakt geen deel uit van de rijbaan.",
+                "Op een overrijdbare bedding mogen andere voertuigen enkel een hindernis omzeilen, de bedding op kruispunten dwarsen of een eigendom of parking bereiken. Op de busstrook mag een auto pas vlak voor het kruispunt even van richting veranderen; eerder op de busstrook rijden mag niet."
               ]
             },
             {
               "type": "schema",
               "afb": "schema-busstrook-rechtsaf",
-              "bijschrift": "Een auto rijdt vlak voor het kruispunt even op de busstrook om rechts af te slaan, verder terug mag niet."
+              "bijschrift": "Een auto rijdt op de gewone rijstrook en gaat pas vlak voor het kruispunt even op de busstrook om rechts af te slaan."
             },
             {
               "type": "tip",
@@ -1616,7 +1617,8 @@
             {
               "type": "tekst",
               "alineas": [
-                "Naast het openbaar vervoer mogen alleen voertuigen met een symbool of vermelding op de busstrook. Zonder symbool voor jouw voertuig rijd je er niet op, behalve om een hindernis te omzeilen."
+                "Naast het openbaar vervoer mogen alleen voertuigen met een symbool of vermelding op de busstrook. Zonder symbool voor jouw voertuig rijd je er niet op.",
+                "Uitzonderingen zijn: een hindernis omzeilen, vlak bij een kruispunt van richting veranderen, de strook dwarsen op een kruispunt of een eigendom of parkeerplaats bereiken."
               ]
             },
             {
@@ -1647,15 +1649,15 @@
                   "De bestuurder telt niet mee."
                 ],
                 [
-                  "Voertuigen met 2, 3 of 4 inzittenden",
+                  "Voertuigen met ten minste 2, 3 of 4 inzittenden",
                   "Naargelang de vermelding."
                 ]
               ]
             },
             {
               "type": "tip",
-              "titel": "Fietsers en schoolvervoer",
-              "tekst": "Fietsers op de busstrook rijden achter elkaar. Schoolvervoer en woon-werkverkeer hebben ook een bord op het voertuig nodig."
+              "titel": "Fietsers en vervoer met een bord",
+              "tekst": "Fietsers op de busstrook rijden achter elkaar. Schoolvervoer, woon-werkverkeer, duurzame mobiliteit en vervoer van personen met een handicap hebben ook een bord op het voertuig nodig."
             },
             {
               "type": "oefening",
@@ -1679,22 +1681,22 @@
                 {
                   "afb": "F23a",
                   "naam": "Nummer van een gewone weg",
-                  "uitleg": "Het wegnummer van een gewone weg."
+                  "uitleg": "Toont welk nummer de weg heeft waarop je rijdt."
                 },
                 {
                   "afb": "F23b",
                   "naam": "Nummer van een autosnelweg",
-                  "uitleg": "Het wegnummer van een autosnelweg."
+                  "uitleg": "Toont het nummer van de autosnelweg waarop je rijdt."
                 },
                 {
                   "afb": "F23c",
                   "naam": "Nummer van een internationale weg",
-                  "uitleg": "Het nummer van een internationale weg."
+                  "uitleg": "Toont het internationale nummer van de weg die je volgt."
                 },
                 {
                   "afb": "F23d",
                   "naam": "Nummer van een ring",
-                  "uitleg": "Het nummer van een ringweg."
+                  "uitleg": "Toont het nummer van de ring waarop je rijdt."
                 },
                 {
                   "afb": "F43",
@@ -1726,7 +1728,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Wegwijzers vertellen je waar een weg naartoe gaat. Voor het examen leer je vooral de soort herkennen."
+                "Wegwijzers vertellen je waar een weg naartoe gaat. Probeer vooral de soort bord te herkennen: wegnummer, plaatsnaam of wegwijzer."
               ]
             },
             {
@@ -1776,7 +1778,7 @@
                 {
                   "afb": "F39",
                   "naam": "Voorwegwijzer van een omleiding",
-                  "uitleg": "Kondigt een omleiding aan."
+                  "uitleg": "Staat voor de omleiding; de route zelf volgt later."
                 },
                 {
                   "afb": "F41",
@@ -1947,8 +1949,8 @@
             },
             {
               "type": "tip",
-              "titel": "Voor het examen",
-              "tekst": "Voor het examen herken je vooral de soort voorziening op het bord."
+              "titel": "Herken de soort",
+              "tekst": "Probeer vooral de soort voorziening op het bord te herkennen."
             },
             {
               "type": "oefening",
@@ -2039,24 +2041,24 @@
                 {
                   "afb": "F105",
                   "naam": "Einde van een voetgangerszone",
-                  "uitleg": "Je verlaat de voetgangerszone."
+                  "uitleg": "Vanaf hier gelden de regels van de voetgangerszone niet meer."
                 },
                 {
                   "afb": "F111",
                   "naam": "Begin van een fietszone",
-                  "uitleg": "Fietsers rijden op de rijbaan; maximaal 30 km/u, niet inhalen."
+                  "uitleg": "Motorvoertuigen mogen fietsers niet inhalen; maximaal 30 km/u."
                 },
                 {
                   "afb": "F113",
                   "naam": "Einde van een fietszone",
-                  "uitleg": "Je verlaat de fietszone."
+                  "uitleg": "Vanaf hier gelden de regels van de fietszone niet meer."
                 }
               ]
             },
             {
               "type": "tekst",
               "alineas": [
-                "In een voetgangerszone mogen enkel voetgangers komen, met uitzonderingen. In een fietszone rijden fietsers op de rijbaan en mogen auto's hen niet inhalen."
+                "In een voetgangerszone mogen enkel voetgangers komen, met uitzonderingen. In een fietszone rijden fietsers op de rijbaan en mogen motorvoertuigen hen niet inhalen."
               ]
             },
             {
@@ -2066,8 +2068,8 @@
             },
             {
               "type": "tip",
-              "titel": "Fietsstraat is nu fietszone",
-              "tekst": "Sinds 1 april 2023 heet een fietsstraat een fietszone. Oude borden met het woord fietsstraat mogen nog tot 1 januari 2035 blijven staan."
+              "titel": "Op de borden staat nog Fietsstraat",
+              "tekst": "Sinds 1 april 2023 heet een fietsstraat een fietszone. De borden hierboven dragen nog het opschrift Fietsstraat: dat mag op oude borden blijven staan tot 1 januari 2035."
             },
             {
               "type": "oefening",
@@ -2281,7 +2283,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Een onderbord met het woord uitgezonderd zegt voor wie het bord erboven niet geldt. Zo'n onderbord staat bijvoorbeeld bij verboden richting, verboden toegang, een verplichte richting of eenrichtingsverkeer."
+                "Een onderbord met het woord uitgezonderd zegt voor wie het bord erboven niet geldt. Zo'n onderbord staat bijvoorbeeld bij verboden richting, verboden toegang, een verbod om af te slaan of een verplichte richting. Bij eenrichtingsverkeer staat een ander onderbord dat fietsers in beide richtingen toelaat."
               ]
             },
             {
@@ -2311,22 +2313,22 @@
                 {
                   "afb": "M6",
                   "naam": "Bromfietsen klasse B verplicht op het fietspad",
-                  "uitleg": "Ook bromfietsen klasse B moeten het fietspad volgen."
+                  "uitleg": "Onderbord bij het verplichte fietspad: ook bromfietsen klasse B volgen het."
                 },
                 {
                   "afb": "M7",
                   "naam": "Bromfietsen klasse B verboden op het fietspad",
-                  "uitleg": "Bromfietsen klasse B mogen het fietspad niet volgen."
+                  "uitleg": "Onderbord bij het verplichte fietspad: bromfietsen klasse B mogen er niet op."
                 },
                 {
                   "afb": "M13",
                   "naam": "Speed pedelecs verplicht op het fietspad",
-                  "uitleg": "Speed pedelecs moeten het fietspad volgen."
+                  "uitleg": "Onderbord bij het verplichte fietspad: speed pedelecs moeten het volgen."
                 },
                 {
                   "afb": "M15",
                   "naam": "Speed pedelecs verboden op het fietspad",
-                  "uitleg": "Speed pedelecs mogen het fietspad niet volgen."
+                  "uitleg": "Onderbord bij het verplichte fietspad: speed pedelecs mogen er niet op."
                 }
               ]
             },
@@ -2373,7 +2375,7 @@
                 {
                   "afb": "E11",
                   "naam": "Beurtelings parkeren in de bebouwde kom",
-                  "uitleg": "Geldt in heel de bebouwde kom."
+                  "uitleg": "Staat boven het kombord; geldt in heel de bebouwde kom."
                 },
                 {
                   "afb": "E9j",
@@ -2431,7 +2433,7 @@
               "rijen": [
                 [
                   "Zonale snelheid",
-                  "30, 50 of 70 km/u; 70 enkel buiten de bebouwde kom."
+                  "30 km/u; 50 of 70 km/u enkel buiten de bebouwde kom."
                 ],
                 [
                   "Zone met maximale massa",
@@ -2544,7 +2546,8 @@
             {
               "type": "tekst",
               "alineas": [
-                "Oranje strepen of spijkers horen bij werken. Ze hebben dezelfde betekenis als witte strepen en maken de witte markeringen op die plaats waardeloos."
+                "Oranje strepen of spijkers horen bij werken. Ze hebben dezelfde betekenis als witte strepen en maken de witte markeringen op die plaats waardeloos.",
+                "Een spitsstrook herken je aan een onderbroken streep met korte tussenafstanden en lange trekken."
               ]
             },
             {
@@ -2559,7 +2562,7 @@
             {
               "type": "tip",
               "titel": "Spitsstrook",
-              "tekst": "Een spitsstrook gebruik je enkel met signalisatie of werkende verkeerslichten, behalve om de autosnelweg op of af te rijden."
+              "tekst": "Een spitsstrook gebruik je in principe enkel met signalisatie of werkende verkeerslichten. Uitzonderingen zijn onder meer de autosnelweg op- of afrijden en van richting veranderen."
             },
             {
               "type": "oefening",
@@ -2701,7 +2704,7 @@
     {
       "nr": "1.12",
       "titel": "Wat verandert er in 2027?",
-      "intro": "Op 1 juni 2027 verandert de wegcode. Tot die datum gelden de borden uit dit hoofdstuk.",
+      "intro": "Op 1 juni 2027 treedt de nieuwe wegcode in werking. Tot die datum geldt de huidige wegcode, en veel oude borden blijven tijdens een overgangsperiode geldig.",
       "paginas": [
         {
           "id": "h1-12-1",
@@ -2711,7 +2714,7 @@
               "type": "tekst",
               "alineas": [
                 "De nieuwe Code van de openbare weg treedt in werking op 1 juni 2027. De invoering is uitgesteld van 1 september 2026, en de nieuwe code brengt vernieuwde borden.",
-                "Oude borden behouden tijdens een overgangsperiode hun betekenis."
+                "Veel oude borden behouden tijdens een overgangsperiode hun betekenis."
               ]
             },
             {
@@ -2732,6 +2735,10 @@
                 [
                   "Busstrook-borden en -markeringen",
                   "Verliezen hun betekenis op 1 juni 2030"
+                ],
+                [
+                  "Oude borden met het opschrift Fietsstraat",
+                  "Verliezen hun betekenis op 1 januari 2035"
                 ]
               ]
             },
@@ -2793,7 +2800,7 @@
   "samenvatting": [
     "Er zijn zes soorten borden: gevaar, voorrang, verbod, gebod, parkeren en aanwijzing.",
     "Een agent gaat boven de verkeerstekens, en verkeerstekens gaan boven de gewone regels.",
-    "Een gevaarsbord staat in principe ongeveer 150 m voor het gevaar.",
+    "In Vlaanderen en Brussel staat een gevaarsbord in principe ongeveer 150 m voor het gevaar.",
     "Voorrang verlenen: stop enkel als het nodig is. Stopbord: stop altijd.",
     "Een aankondigingsbord wijst vooruit: het echte bord komt verderop.",
     "Een verbod geldt tot het volgende kruispunt, tenzij een einde-bord het eerder beëindigt.",

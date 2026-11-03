@@ -352,7 +352,7 @@
     "onderwerp": "T03",
     "theorieblok": "borden-verbod-manoeuvres-snelheid",
     "type": "meerkeuze",
-    "vraag": "Wat klopt voor het bord maximumsnelheid? Kruis alle juiste antwoorden aan.",
+    "vraag": "Wat klopt voor dit bord? Kruis alle juiste antwoorden aan.",
     "opties": [
       "Het getal is de bovengrens",
       "Het bord geldt tot en met het volgende kruispunt, tenzij een ander bord het beëindigt of wijzigt",
@@ -372,7 +372,9 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "C43_50",
+    "gewijzigd": true
   },
   {
     "id": "L1-012",
@@ -895,7 +897,13 @@
     "gewicht": "gewoon",
     "examen": false,
     "eindtest": true,
-    "gewijzigd": true
+    "gewijzigd": true,
+    "optiesAfb": [
+      "schema-optie-parkeerverbod",
+      "schema-optie-stilstaan-parkeerverbod",
+      "schema-optie-verbod-keren",
+      "schema-optie-verboden-richting"
+    ]
   },
   {
     "id": "L1-027",
@@ -943,7 +951,7 @@
     "onderwerp": "T10",
     "theorieblok": "markeringen-strepen",
     "type": "cloze",
-    "vraag": "Vul aan.",
+    "vraag": "Bekijk de markering op de weg en vul aan.",
     "tekst": "Een onderbroken witte streep met korte trekken dicht bij elkaar kondigt een {{1}} streep aan.",
     "gaten": [
       {
@@ -962,7 +970,9 @@
     "moeilijkheid": 2,
     "gewicht": "gewoon",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "schema-streep-aankondiging-oefening",
+    "gewijzigd": true
   },
   {
     "id": "L1-029",
@@ -996,7 +1006,7 @@
     "onderwerp": "T10",
     "theorieblok": "markeringen-dwars-pijlen",
     "type": "meerkeuze",
-    "vraag": "Wat betekent een rij witte driehoeken dwars op de weg?",
+    "vraag": "Wat betekent de markering vlak voor het kruispunt?",
     "opties": [
       "Je moet hier zo nodig stoppen om voorrang te verlenen",
       "Je moet hier altijd stoppen",
@@ -1014,7 +1024,9 @@
     "moeilijkheid": 2,
     "gewicht": "gewoon",
     "examen": true,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "schema-markering-driehoeken-oefening",
+    "gewijzigd": true
   },
   {
     "id": "L1-031",
@@ -1167,7 +1179,8 @@
     "gewicht": "zwaar",
     "examen": false,
     "eindtest": true,
-    "gewijzigd": true
+    "gewijzigd": true,
+    "afbeelding": "schema-plaatsen-drie-oefening"
   },
   {
     "id": "L1-033",
@@ -1295,7 +1308,9 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "schema-belgie-gewesten-oefening",
+    "gewijzigd": true
   },
   {
     "id": "L1-037",
@@ -1307,23 +1322,28 @@
     "paren": [
       {
         "links": "Brussel, in de bebouwde kom",
-        "rechts": "30 km/u"
+        "rechts": "30 km/u",
+        "linksAfb": "F1b_horizontaal"
       },
       {
         "links": "Vlaanderen, in de bebouwde kom",
-        "rechts": "50 km/u"
+        "rechts": "50 km/u",
+        "linksAfb": "F1b_horizontaal"
       },
       {
         "links": "Vlaanderen, gewone weg buiten de bebouwde kom",
-        "rechts": "70 km/u"
+        "rechts": "70 km/u",
+        "linksAfb": "F3b_horizontaal"
       },
       {
         "links": "Wallonië, gewone weg buiten de bebouwde kom",
-        "rechts": "90 km/u"
+        "rechts": "90 km/u",
+        "linksAfb": "F3b_horizontaal"
       },
       {
         "links": "Autosnelweg, in elk gewest",
-        "rechts": "120 km/u"
+        "rechts": "120 km/u",
+        "linksAfb": "F5"
       }
     ],
     "uitleg": "Brussel: 30 in de bebouwde kom. Vlaanderen: 50, en 70 buiten de kom. Wallonië: 90 buiten de kom. Autosnelweg: overal 120.",
@@ -1536,7 +1556,7 @@
     "onderwerp": "T09",
     "theorieblok": "snelheden-woonerf-erf",
     "type": "meerkeuze",
-    "vraag": "Wat geldt in een woonerf of erf? Kruis alle juiste antwoorden aan.",
+    "vraag": "Wat geldt in het gebied dat met dit bord begint? Kruis alle juiste antwoorden aan.",
     "opties": [
       "Voetgangers mogen de hele breedte van de weg gebruiken",
       "Je mag maximaal 20 km/u rijden",
@@ -1557,7 +1577,9 @@
     "moeilijkheid": 2,
     "gewicht": "zwaar",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "F12a",
+    "gewijzigd": true
   },
   {
     "id": "L1-045",
@@ -1708,7 +1730,9 @@
     "moeilijkheid": 2,
     "gewicht": "gewoon",
     "examen": false,
-    "eindtest": true
+    "eindtest": true,
+    "afbeelding": "schema-snelheid-aanpassen",
+    "gewijzigd": true
   },
   {
     "id": "L1-050",

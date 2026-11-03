@@ -25,9 +25,9 @@
               "type": "punten",
               "items": [
                 "Kijk eerst: binnen of buiten de bebouwde kom?",
-                "Kijk dan naar het soort weg.",
-                "Kijk ook in welk gewest je rijdt.",
-                "Een verkeersbord gaat altijd voor op de algemene regel.",
+                "Kijk dan naar het soort weg en het gewest.",
+                "Een snelheidsbord gaat voor op de regel van gewest en weg.",
+                "Limieten voor je voertuigtype blijven gelden: de laagste telt.",
                 "Het schema geldt voor personenwagens tot 3,5 ton."
               ]
             },
@@ -50,7 +50,7 @@
         {
           "id": "h2-1-2",
           "titel": "Het snelheidsbord",
-          "intro": "Een bord met een maximumsnelheid gaat voor op de tabel.",
+          "intro": "Een bord met een maximumsnelheid gaat voor op de regel van het gewest.",
           "blokken": [
             {
               "type": "kaarten",
@@ -58,38 +58,38 @@
                 {
                   "afb": "C43_30",
                   "naam": "Maximumsnelheid 30 km/u",
-                  "uitleg": "Je rijdt hoogstens 30 km/u."
+                  "uitleg": "Zonder bord is dit de standaard in de Brusselse bebouwde kom."
                 },
                 {
                   "afb": "C43_50",
                   "naam": "Maximumsnelheid 50 km/u",
-                  "uitleg": "Je rijdt hoogstens 50 km/u."
+                  "uitleg": "Zonder bord is dit de standaard in de bebouwde kom (Vlaanderen, Wallonië)."
                 },
                 {
                   "afb": "C43_70",
                   "naam": "Maximumsnelheid 70 km/u",
-                  "uitleg": "Je rijdt hoogstens 70 km/u."
+                  "uitleg": "Zonder bord is dit de standaard buiten de kom (Vlaanderen, Brussel)."
                 },
                 {
                   "afb": "C43_90",
                   "naam": "Maximumsnelheid 90 km/u",
-                  "uitleg": "Je rijdt hoogstens 90 km/u."
+                  "uitleg": "In Vlaanderen enkel met dit bord; in Wallonië de standaard."
                 }
               ]
             },
             {
               "type": "punten",
               "items": [
-                "Het bord geldt in plaats van de tabel.",
+                "Het bord vervangt de regel van het gewest en de weg.",
                 "Het getal kan lager of hoger zijn dan de standaardsnelheid.",
-                "Het bord geldt tot het einde van de maatregel."
+                "Het geldt tot en met het volgende kruispunt of einde-bord."
               ]
             },
             {
               "type": "kader",
               "soort": "letop",
-              "titel": "Een bord wint van de algemene regel",
-              "tekst": "Staat er een snelheidsbord, dan geldt dat bord in plaats van de tabel."
+              "titel": "Het laagste getal telt",
+              "tekst": "Heeft je voertuig een lagere limiet dan het bord, dan geldt die lagere limiet."
             }
           ],
           "theorieblokken": [
@@ -140,7 +140,7 @@
                 "Een zonaal bord geldt in de hele zone.",
                 "Het geldt tot het bord dat het einde van de zone aangeeft.",
                 "In zo'n zone staat geen bord met een hogere snelheid.",
-                "Een afwijkend bord geldt tot het volgende kruispunt, daarna weer de zone.",
+                "Een lager snelheidsbord geldt tot het volgende kruispunt, daarna weer de zone.",
                 "Een vakantiezone buiten de kom krijgt zo 50 of 70."
               ]
             },
@@ -183,7 +183,7 @@
                 {
                   "afb": "F1a_horizontaal",
                   "naam": "Begin van de bebouwde kom",
-                  "uitleg": "Je rijdt de bebouwde kom binnen."
+                  "uitleg": "Vanaf hier gelden de regels van de bebouwde kom."
                 },
                 {
                   "afb": "F1b_horizontaal",
@@ -193,7 +193,7 @@
                 {
                   "afb": "F3a_horizontaal",
                   "naam": "Einde van de bebouwde kom",
-                  "uitleg": "Je verlaat de bebouwde kom."
+                  "uitleg": "Vanaf hier gelden de regels van de bebouwde kom niet meer."
                 },
                 {
                   "afb": "F3b_horizontaal",
@@ -365,7 +365,7 @@
                 "Vlaanderen: 70 km/u.",
                 "Brussel: 70 km/u.",
                 "Wallonië: 90 km/u.",
-                "Wallonië: 70 km/u op de middenrijbaan.",
+                "Wallonië: 70 km/u op de middenrijbaan, afgebakend door onderbroken strepen.",
                 "Vlaanderen: 90 km/u enkel waar een bord dat toelaat."
               ]
             },
@@ -388,10 +388,10 @@
               "type": "kader",
               "soort": "gewest",
               "titel": "Gewone weg buiten de bebouwde kom, zonder bord",
-              "tekst": "Dit is het meest gevraagde verschil tussen de gewesten.",
+              "tekst": "Een middenrijbaan is het deel van de weg dat door twee onderbroken strepen is afgebakend, met telkens twee paar korte trekken.",
               "gewest": {
                 "vlaanderen": "70 km/u (sinds 1 januari 2017). 90 km/u enkel met een bord.",
-                "wallonie": "90 km/u.",
+                "wallonie": "90 km/u (70 km/u op de middenrijbaan).",
                 "brussel": "70 km/u."
               }
             }
@@ -442,9 +442,9 @@
             {
               "type": "punten",
               "items": [
-                "Fysieke middenberm tussen de rijrichtingen: overal 120 km/u.",
+                "Minstens twee rijstroken per richting plus een fysieke middenberm: overal 120 km/u.",
                 "Alleen markeringen tussen de rijrichtingen: de gewone gewestlimiet.",
-                "Een gewone weg buiten de bebouwde kom volgt de gewestlimiet."
+                "Eén rijstrook per richting, ook met middenberm: de gewone gewestlimiet."
               ]
             },
             {
@@ -468,7 +468,7 @@
                   "70"
                 ],
                 [
-                  "Middenrijbaan",
+                  "Middenrijbaan (tussen onderbroken strepen)",
                   "70",
                   "70",
                   "70"
@@ -491,7 +491,7 @@
               "type": "kader",
               "soort": "tip",
               "titel": "120 is een kwestie van scheiding",
-              "tekst": "Buiten de autosnelweg haal je enkel 120 als de rijrichtingen echt gescheiden zijn door een middenberm of ander fysiek obstakel, witte lijnen volstaan niet."
+              "tekst": "Buiten de autosnelweg haal je enkel 120 als er minstens twee rijstroken per richting zijn en de rijrichtingen gescheiden zijn door een middenberm of ander fysiek obstakel; witte lijnen volstaan niet."
             }
           ],
           "theorieblokken": [
@@ -540,10 +540,10 @@
             {
               "type": "punten",
               "items": [
-                "Een middenberm of ander fysiek obstakel scheidt de rijrichtingen.",
+                "Twee rijstroken per richting, gescheiden door een middenberm of ander fysiek obstakel.",
                 "Buiten de autosnelweg haal je dan 120 km/u.",
                 "Dat geldt in alle drie de gewesten.",
-                "Voertuigen boven 3,5 ton rijden hier 90 km/u."
+                "Voertuigen boven 3,5 ton en bussen rijden hier 90 km/u."
               ]
             },
             {
@@ -609,7 +609,7 @@
               "type": "kader",
               "soort": "gewest",
               "titel": "Autosnelweg: overal gelijk",
-              "tekst": "De 120 is niet gewestgebonden, maar een bord gaat altijd voor.",
+              "tekst": "De 120 is niet gewestgebonden. Een snelheidsbord kan een lagere snelheid opleggen.",
               "gewest": {
                 "vlaanderen": "120 km/u (bussen en voertuigen boven 3,5 ton: 90).",
                 "wallonie": "120 km/u (bussen en voertuigen boven 3,5 ton: 90).",
@@ -696,7 +696,7 @@
                 {
                   "afb": "F4b",
                   "naam": "Einde van een zone 30",
-                  "uitleg": "Hier houdt de zone op."
+                  "uitleg": "Vanaf hier geldt de zone 30 niet meer."
                 }
               ]
             },
@@ -728,7 +728,7 @@
         {
           "id": "h2-5-2",
           "titel": "Drempels",
-          "intro": "Een verhoogde inrichting neem je altijd traag.",
+          "intro": "Een aangekondigde verhoogde inrichting neem je traag.",
           "blokken": [
             {
               "type": "kaarten",
@@ -736,19 +736,19 @@
                 {
                   "afb": "A14",
                   "naam": "Verhoogde inrichting (verkeersdrempel)",
-                  "uitleg": "Je nadert een drempel."
+                  "uitleg": "Kondigt een drempel of plateau verderop aan."
                 },
                 {
                   "afb": "F87",
                   "naam": "Verhoogde inrichting",
-                  "uitleg": "Hier ligt een drempel op de weg."
+                  "uitleg": "Staat bij de drempel zelf, na het waarschuwingsbord."
                 }
               ]
             },
             {
               "type": "punten",
               "items": [
-                "Je overrijdt een verhoogde inrichting met hoogstens 30 km/u.",
+                "Bij een aangekondigde verhoogde inrichting rij je er hoogstens 30 km/u over.",
                 "Wees extra voorzichtig.",
                 "In een zone 30 volgt dit al uit de zone zelf."
               ]
@@ -757,7 +757,7 @@
               "type": "kader",
               "soort": "tip",
               "titel": "Drempel in een zone",
-              "tekst": "Een drempel neem je met hoogstens 30 km/u."
+              "tekst": "In een zone 30 of bij een aangekondigde drempel rijd je hoogstens 30 km/u."
             }
           ],
           "theorieblokken": []
@@ -778,7 +778,7 @@
                 {
                   "afb": "F12b",
                   "naam": "Einde van een woonerf of erf",
-                  "uitleg": "Hier houdt het woonerf of erf op."
+                  "uitleg": "Vanaf hier gelden de regels van het woonerf of erf niet meer."
                 }
               ]
             },
@@ -854,12 +854,12 @@
                 {
                   "afb": "A23",
                   "naam": "Plaats waar veel kinderen komen",
-                  "uitleg": "Dit waarschuwingsbord staat bij het begin, voor een school."
+                  "uitleg": "Wordt bij het begin-bord van de zone gevoegd."
                 },
                 {
                   "afb": "F4a",
                   "naam": "Begin van de zone",
-                  "uitleg": "Hier begint de schoolomgeving."
+                  "uitleg": "Samen met het schoolbord begint hier de schoolomgeving."
                 },
                 {
                   "afb": "F4b",
@@ -1146,7 +1146,7 @@
               "type": "kader",
               "soort": "regel",
               "titel": "Zo kom je tot het antwoord",
-              "tekst": "Bord eerst, dan plaats en gewest, dan je voertuig, en altijd aangepast aan de omstandigheden."
+              "tekst": "Eerst het bord, dan plaats en gewest, dan je voertuig: heeft dat een lagere limiet, dan geldt die. Pas je altijd aan de omstandigheden aan."
             }
           ],
           "theorieblokken": []
@@ -1155,7 +1155,7 @@
     }
   ],
   "samenvatting": [
-    "Een snelheidsbord gaat voor op de algemene regel.",
+    "Een snelheidsbord gaat voor op de gewestregel; de laagste limiet telt.",
     "Bebouwde kom: Vlaanderen en Wallonië 50, Brussel 30.",
     "Buiten de bebouwde kom: Vlaanderen en Brussel 70, Wallonië 90.",
     "In Vlaanderen is 90 buiten de bebouwde kom enkel toegelaten met een bord.",

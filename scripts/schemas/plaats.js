@@ -362,9 +362,9 @@ mk('schema-fietszone', 'Fietszone: fietsers voorop, 30 km/u, niet inhalen',
     s.car(475, 440, 0, 'rood', null);
     s.route('M475,385 L475,350 Q380,330 360,260 Q340,200 340,150', '#bbb', { dash: '4 8' });
     cross(s, 365, 300, 34);
-    s.sign('F111', 190, 130, 90); s.sign('C43_30', 190, 280, 80);
-    s.label(655, 250, 'Fietsers: rechterhelft\n(bij eenrichting de\nhele breedte)', { size: 17, bg: '#fff' });
-    s.label(655, 440, 'Max. 30 km/u\nvoor iedereen', { size: 18, bg: '#fff' });
+    s.sign('F111', 610, 130, 90); s.sign('C43_30', 610, 280, 80); // borden rechts van de rijbaan
+    s.label(125, 250,'Fietsers: rechterhelft\n(bij eenrichting de\nhele breedte)', { size: 17, bg: '#fff' });
+    s.label(125, 440, 'Max. 30 km/u\nvoor iedereen', { size: 18, bg: '#fff' });
   });
 
 // ---- zebrapad

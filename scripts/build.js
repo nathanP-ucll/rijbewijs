@@ -135,7 +135,7 @@ function verwerkSchemaIndex(raw) {
     Object.entries(raw.schemas || raw).forEach(([k, o]) => put(k.replace(/\.\w+$/, ''), typeof o === 'object' ? o : { beschrijving: String(o) }));
   }
 }
-['schemas-index.json', 'schemas-extra-a.json', 'schemas-extra-b.json', 'schemas-extra-c.json'].forEach((f) => {
+['schemas-index.json', 'schemas-extra-a.json', 'schemas-extra-b.json', 'schemas-extra-c.json', 'schemas-extra-eindtest.json'].forEach((f) => {
   const p = path.join(DATA, f);
   if (fs.existsSync(p)) verwerkSchemaIndex(readJSON(p, null));
 });
