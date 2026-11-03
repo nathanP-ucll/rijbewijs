@@ -82,7 +82,7 @@
               "type": "punten",
               "items": [
                 "Het bord vervangt de regel van het gewest en de weg.",
-                "Het getal kan lager of hoger zijn dan de standaardsnelheid.",
+                "Op gewone wegen kan het getal lager of hoger zijn.",
                 "Het geldt tot en met het volgende kruispunt of einde-bord."
               ]
             },
@@ -138,25 +138,25 @@
             {
               "type": "punten",
               "items": [
-                "Een zonaal bord geldt in de hele zone.",
+                "Een zonebord is wit en geldt in de hele zone.",
                 "Het geldt tot het bord dat het einde van de zone aangeeft.",
                 "In zo'n zone staat geen bord met een hogere snelheid.",
                 "Een lager snelheidsbord geldt tot het volgende kruispunt, daarna weer de zone.",
-                "Een vakantiezone buiten de kom krijgt zo 50 of 70."
+                "Een zonale 50 of 70 kan enkel buiten de bebouwde kom."
               ]
             },
             {
               "type": "kaarten",
               "items": [
                 {
-                  "afb": "C43_30",
-                  "naam": "Maximumsnelheid 30 km/u",
-                  "uitleg": "Zonaal: de snelheid geldt in de hele zone."
+                  "afb": "F4a",
+                  "naam": "Begin van een zone 30",
+                  "uitleg": "Op een wit bord: 30 geldt in de hele zone."
                 },
                 {
-                  "afb": "C43_50",
-                  "naam": "Maximumsnelheid 50 km/u",
-                  "uitleg": "Zonaal: de snelheid geldt in de hele zone."
+                  "afb": "F4b",
+                  "naam": "Einde van een zone 30",
+                  "uitleg": "Hier houdt de zone op: weer de gewone regel van de plek."
                 }
               ]
             },
@@ -470,7 +470,7 @@
                 ],
                 [
                   "Middenrijbaan (tussen onderbroken strepen)",
-                  "70",
+                  "70 (90 met bord)",
                   "70",
                   "70"
                 ],
@@ -633,7 +633,7 @@
                 {
                   "afb": "F9",
                   "naam": "Autoweg",
-                  "uitleg": "Alleen motorvoertuigen en hun aanhangwagens mogen hier.",
+                  "uitleg": "Enkel auto's, motorfietsen en hun aanhangwagens; geen bromfietsen of landbouwvoertuigen.",
                   "letop": "Geen eigen snelheidsregel."
                 }
               ]
@@ -873,7 +873,7 @@
               "type": "punten",
               "items": [
                 "De zone heeft een begin- en een eindbord.",
-                "Maximum 30 km/u, binnen of buiten de bebouwde kom.",
+                "Maximum 30 km/u in de hele schoolomgeving.",
                 "Kinderen steken onverwacht over.",
                 "Hou rekening met je stopafstand."
               ]

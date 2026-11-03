@@ -111,7 +111,7 @@
   "naam": "schema-streep-aankondiging-oefening",
   "bestand": "img/schemas/schema-streep-aankondiging-oefening.svg",
   "titel": "Streepmarkering op de weg",
-  "beschrijving": "Bovenaanzicht van een weg met twee rijrichtingen waarop een auto naar boven rijdt. Onderaan ligt een middenlijn met lange trekken en grote tussenruimten. Daarboven ligt een gemarkeerd stuk met korte trekken dicht bij elkaar. Verder vooruit is de middenlijn onzichtbaar en staat er een vraagteken.",
+  "beschrijving": "Bovenaanzicht van een weg met twee rijrichtingen waarop een auto naar boven rijdt. Onderaan ligt een middenlijn met lange trekken en grote tussenruimten. Daarboven ligt een stuk met korte trekken dicht bij elkaar; een accolade op het gras naast de weg wijst dat stuk aan. Verder vooruit is de middenlijn onzichtbaar en staat er een vraagteken.",
   "borden": [],
   "theorieblok": "markeringen-strepen",
   "bronnen": [

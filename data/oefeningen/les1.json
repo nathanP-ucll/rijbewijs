@@ -1986,7 +1986,7 @@
       },
       {
         "links": "Bord 5",
-        "rechts": "Einde van alle verbodsbepalingen voor rijdende voertuigen",
+        "rechts": "Einde van de verbodsbepalingen",
         "linksAfb": "C46"
       }
     ],
@@ -3564,7 +3564,7 @@
       },
       {
         "links": "Bord 5",
-        "rechts": "Einde van alle verbodsbepalingen",
+        "rechts": "Einde van de verbodsbepalingen",
         "linksAfb": "C46"
       }
     ],
@@ -3578,7 +3578,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M53",
@@ -3605,7 +3605,7 @@
       },
       {
         "links": "Bord 4",
-        "rechts": "Langs de linkerkant voorbijrijden",
+        "rechts": "Langs de linkerkant voorbijrijden (bord op een hindernis)",
         "linksAfb": "D1c"
       },
       {
@@ -3891,7 +3891,7 @@
     "paren": [
       {
         "links": "Bord 1",
-        "rechts": "Er komen minder rijstroken",
+        "rechts": "Oranje aankondiging bij werken: een rijstrook verdwijnt verderop",
         "linksAfb": "F79"
       },
       {
@@ -3906,16 +3906,11 @@
       },
       {
         "links": "Bord 4",
-        "rechts": "Regel die geldt voor de aangeduide rijstroken",
-        "linksAfb": "F91"
-      },
-      {
-        "links": "Bord 5",
-        "rechts": "Versmalling die de omvang van een rijstrook heeft",
+        "rechts": "Een rijstrook voegt samen met de andere",
         "linksAfb": "F97"
       }
     ],
-    "uitleg": "Deze borden gaan over rijstroken: er verdwijnt een rijstrook, de rijstroken wijken uit, er is een drempel of er geldt een regel per rijstrook. Bij de versmalling ter grootte van een rijstrook voegt een rijstrook samen met de andere.",
+    "uitleg": "Bij werken kondigt een oranje bord aan dat verderop een rijstrook verdwijnt. Een ander bord toont dat de rijstroken uitwijken, en bij een versmalling ter grootte van een rijstrook voegt een rijstrook samen met de andere. Een drempel of plateau is een verhoogde inrichting.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4029,7 +4024,7 @@
       },
       {
         "links": "Bord 3",
-        "rechts": "Wegwijzer naar hotels en restaurants",
+        "rechts": "Wegwijzer naar overnachting en eten",
         "linksAfb": "F37"
       },
       {
@@ -4058,7 +4053,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M63",

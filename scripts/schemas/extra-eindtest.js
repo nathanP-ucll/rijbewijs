@@ -33,7 +33,7 @@ const house = (s, x, y, w, h, col = '#c8553d') => {
 (function () {
   const W = 600, H = 560;
   const s = new Svg('schema-streep-aankondiging-oefening', 'Streepmarkering op de weg',
-    'Bovenaanzicht van een weg met twee rijrichtingen waarop een auto naar boven rijdt. Onderaan ligt een middenlijn met lange trekken en grote tussenruimten. Daarboven ligt een gemarkeerd stuk met korte trekken dicht bij elkaar. Verder vooruit is de middenlijn onzichtbaar en staat er een vraagteken.', { w: W, h: H, bg: C.grass });
+    'Bovenaanzicht van een weg met twee rijrichtingen waarop een auto naar boven rijdt. Onderaan ligt een middenlijn met lange trekken en grote tussenruimten. Daarboven ligt een stuk met korte trekken dicht bij elkaar; een accolade op het gras naast de weg wijst dat stuk aan. Verder vooruit is de middenlijn onzichtbaar en staat er een vraagteken.', { w: W, h: H, bg: C.grass });
   const rx = 150, rw = 300, cx = rx + rw / 2;
   s.rect(0, 0, W, H, C.grass);
   for (let y = 0; y < H; y += 60) s.rect(0, y, W, 30, C.grass2, 'opacity=".35"');
@@ -45,8 +45,9 @@ const house = (s, x, y, w, h, col = '#c8553d') => {
   // korte dichte trekken (gemarkeerd stuk)
   const zoneTop = 190, zoneBot = 350;
   for (let y = zoneBot; y > zoneTop; y -= 17) s.rect(cx - 3, y - 9, 6, 9, '#fff');
-  // markeerkader rond het stuk
-  s.add(`<rect x="${cx - 46}" y="${zoneTop - 14}" width="92" height="${zoneBot - zoneTop + 28}" rx="18" fill="none" stroke="${C.yellow}" stroke-width="5" stroke-dasharray="3 9" stroke-linecap="round"/>`);
+  // neutrale accolade naast de weg (op het gras, dus geen wegmarkering) rond het stuk met korte trekken
+  { const bx = rx - 18, y1 = zoneTop - 8, y2 = zoneBot + 8, ym = (y1 + y2) / 2, r = 14;
+    s.add(`<path d="M ${bx} ${y1} Q ${bx - r} ${y1} ${bx - r} ${y1 + r} L ${bx - r} ${ym - r} Q ${bx - r} ${ym} ${bx - 2 * r} ${ym} Q ${bx - r} ${ym} ${bx - r} ${ym + r} L ${bx - r} ${y2 - r} Q ${bx - r} ${y2} ${bx} ${y2}" fill="none" stroke="${INK}" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>`); }
   // vraagteken verder vooruit
   s.circle(cx, 95, 42, '#fff', `stroke="${INK}" stroke-width="4"`);
   s.text(cx, 118, '?', { size: 68, weight: 800, fill: INK });
@@ -113,7 +114,7 @@ const house = (s, x, y, w, h, col = '#c8553d') => {
   for (let x = 20; x < W; x += 70) s.rect(x, y0 + 84, 38, 4, '#fff');
   [[120, 22], [200, 128], [290, 24], [400, 146], [520, 20], [610, 140], [730, 26], [680, 24]].forEach(([x, y]) => tree(s, x, y0 + y, 13));
   house(s, 330, y0 + 128, 60, 30, '#b8814f');
-  s.car(340, y0 + 98, 270, 'blauw', null);
+  s.car(340, y0 + 74, 270, 'blauw', null); // rechts rijdend verkeer: naar het westen = noordelijke helft
   // --- strook 3: autosnelweg met middenberm
   y0 = strip(2);
   s.rect(0, y0, W, rh, '#86b96b');
@@ -122,9 +123,9 @@ const house = (s, x, y, w, h, col = '#c8553d') => {
   s.rect(0, y0 + 76, W, 20, '#74a85a', 'stroke="#c9c9c4" stroke-width="3"');
   for (let x = 6; x < W; x += 44) s.circle(x + 10, y0 + 86, 6, '#3f8f4a');
   for (let x = 20; x < W; x += 70) { s.rect(x, y0 + 45, 36, 4, '#fff'); s.rect(x, y0 + 124, 36, 4, '#fff'); }
-  s.car(360, y0 + 30, 90, 'geel', null);
-  s.car(520, y0 + 142, 270, 'rood', null);
-  s.car(180, y0 + 62, 90, 'groen', null);
+  s.car(360, y0 + 142, 90, 'geel', null); // oost-rijdend = zuidelijke rijbaan (rechts rijdend verkeer)
+  s.car(520, y0 + 30, 270, 'rood', null); // west-rijdend = noordelijke rijbaan
+  s.car(180, y0 + 110, 90, 'groen', null);
   s.sign('F5', 62, y0 + 86, 66, { pole: false });
   // scheiding tussen de stroken
   for (let i = 1; i < 3; i++) s.rect(0, strip(i) - gap, W, gap, '#eef0f3');
