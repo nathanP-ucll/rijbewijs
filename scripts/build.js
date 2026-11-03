@@ -192,7 +192,7 @@ const creditByCode = Object.fromEntries(credits.map((c) => [c.code, c]));
 
 // oefeningen
 let verif = null;
-const verifFiles = [path.join(DATA, 'verificatie.json'), ...jsonFiles(path.join(DATA, 'verificatie'))];
+const verifFiles = [path.join(DATA, 'verificatie.json')]; // alleen het samengevoegde bestand (scripts/merge-verificatie.js)
 for (const vf of verifFiles) {
   if (fs.existsSync(vf)) {
     verif = verif || {};

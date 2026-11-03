@@ -1,0 +1,7 @@
+{
+ "L1-047": { "status": "ok", "opmerking": "Na twijfel (woordkeuze 'voertuig') aangepast naar 'vrachtwagen'; waarden bevestigd in vierde controle. Niet opnieuw volledig gecontroleerd." },
+ "L1-M30": { "status": "ok", "opmerking": "Idem L1-047." },
+ "L1-V02": { "status": "ok", "opmerking": "Oefening zelf was juist; het schema is gespiegeld voor rechts rijdend verkeer en de formuleringen zijn aangepast. Niet opnieuw volledig gecontroleerd." },
+ "L1-P09": { "status": "ok", "opmerking": "Uitleg herschreven naar voorstel van de controleur ('Je stopt als het licht naar jou gericht is'). Niet opnieuw gecontroleerd." },
+ "L1-P10": { "status": "ok", "opmerking": "Vraag en afleiders herschreven naar voorstel van de controleur. Niet opnieuw gecontroleerd." }
+}
