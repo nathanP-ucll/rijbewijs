@@ -6,7 +6,7 @@ const root = path.join(__dirname, '..');
 const boekDir = path.join(root, 'data', 'boek');
 const files = process.argv.slice(2).length
   ? process.argv.slice(2).map(f => path.resolve(f))
-  : fs.readdirSync(boekDir).filter(f => /^h\d+\.json$/.test(f)).map(f => path.join(boekDir, f));
+  : fs.readdirSync(boekDir).filter(f => /^h[a-z0-9]+\.json$/.test(f)).map(f => path.join(boekDir, f));
 
 // bekende ids en afbeeldingen
 const blokIds = new Set();

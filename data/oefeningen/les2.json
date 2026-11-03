@@ -2,31 +2,6 @@
   {
     "les": 2,
     "onderwerp": "T11",
-    "theorieblok": "voorrang-rangorde",
-    "type": "volgorde",
-    "vraag": "Zet de volgorde van voorrang: wat gaat boven wat? Het belangrijkste staat bovenaan.",
-    "items": [
-      "Bevoegde persoon (bv. politie)",
-      "Verkeerstekens (verkeerslichten, verkeersborden, wegmarkeringen)",
-      "Algemene verkeersregels (bv. voorrang van rechts)"
-    ],
-    "uitleg": "Bevelen van een bevoegde persoon gaan boven de verkeerstekens, en de verkeerstekens gaan boven de algemene verkeersregels.",
-    "bronnen": [
-      "VOOR-001",
-      "VOOR-002",
-      "VOOR-005",
-      "VOOR-006"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": true,
-    "id": "L2-001",
-    "gewijzigd": true
-  },
-  {
-    "les": 2,
-    "onderwerp": "T11",
     "theorieblok": "voorrang-van-rechts",
     "type": "situatie",
     "vraag": "Er zijn geen borden of lichten. In welke volgorde mogen de auto's doorrijden?",
@@ -178,7 +153,7 @@
     "moeilijkheid": 1,
     "gewicht": "gewoon",
     "examen": false,
-    "eindtest": false,
+    "eindtest": true,
     "id": "L2-005"
   },
   {
@@ -700,7 +675,7 @@
     "moeilijkheid": 1,
     "gewicht": "gewoon",
     "examen": true,
-    "eindtest": false,
+    "eindtest": true,
     "id": "L2-021"
   },
   {
@@ -798,7 +773,7 @@
     "moeilijkheid": 2,
     "gewicht": "gewoon",
     "examen": true,
-    "eindtest": false,
+    "eindtest": true,
     "id": "L2-025"
   },
   {
@@ -946,121 +921,6 @@
     "examen": true,
     "eindtest": false,
     "id": "L2-030"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-wie",
-    "type": "meerkeuze",
-    "vraag": "Wie is een bevoegde persoon? Kruis aan.",
-    "opties": [
-      "Een politieagent",
-      "Douanepersoneel tijdens zijn dienst",
-      "Een wegeninspecteur in Vlaanderen",
-      "Een voorbijganger die het verkeer regelt"
-    ],
-    "correct": [
-      0,
-      1,
-      2
-    ],
-    "meerdere": true,
-    "uitleg": "Niet elke persoon die het verkeer regelt, is een bevoegde persoon.",
-    "bronnen": [
-      "LICH-001"
-    ],
-    "moeilijkheid": 2,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "id": "L2-031"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-seinen",
-    "type": "koppel",
-    "vraag": "Koppel het sein aan de betekenis.",
-    "paren": [
-      {
-        "links": "Arm rechtop",
-        "rechts": "Alle weggebruikers stoppen; wie al op het kruispunt is, maakt het vrij"
-      },
-      {
-        "links": "Armen horizontaal uitgestrekt",
-        "rechts": "Stoppen voor wie uit een richting komt die de armen dwars snijdt"
-      },
-      {
-        "links": "Een rood licht dwars heen en weer zwaaien",
-        "rechts": "Stoppen voor de bestuurders naar wie het licht gekeerd is"
-      }
-    ],
-    "uitleg": "Dit zijn de bevelen van een bevoegde persoon.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 2,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": true,
-    "id": "L2-032"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-signaalgevers-werf",
-    "type": "meerkeuze",
-    "vraag": "Wiens aanwijzingen moet je opvolgen? Kruis aan.",
-    "opties": [
-      "Een signaalgever bij een wielerwedstrijd",
-      "Een wegkapitein bij een groep fietsers",
-      "Een werfopzichter bij wegenwerken",
-      "Een willekeurige voorbijganger"
-    ],
-    "correct": [
-      0,
-      1,
-      2
-    ],
-    "meerdere": true,
-    "uitleg": "Signaalgevers, wegkapiteins, groepsleiders en werfopzichters geven aanwijzingen die je moet volgen.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 2,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "id": "L2-033"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "lichten-rangorde",
-    "type": "meerkeuze",
-    "vraag": "Het licht is groen, maar een agent laat je stoppen. Wat doe je?",
-    "opties": [
-      "Doorrijden want het is groen",
-      "Rustig afremmen en dan doorrijden",
-      "Stoppen",
-      "Toeteren"
-    ],
-    "correct": [
-      2
-    ],
-    "meerdere": false,
-    "uitleg": "Het bevel van een bevoegde persoon gaat boven de lichten.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": true,
-    "eindtest": true,
-    "id": "L2-034"
   },
   {
     "les": 2,
@@ -2609,119 +2469,6 @@
     "eindtest": false,
     "mini": true,
     "id": "L2-M27"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-wie",
-    "type": "meerkeuze",
-    "vraag": "Is elke persoon die het verkeer regelt een bevoegde persoon?",
-    "opties": [
-      "Nee, niet elke persoon",
-      "Ja, iedereen die het verkeer regelt",
-      "Ja, maar enkel overdag"
-    ],
-    "correct": [
-      0
-    ],
-    "meerdere": false,
-    "uitleg": "Enkel bepaalde personen zoals de politie zijn bevoegde personen.",
-    "bronnen": [
-      "LICH-001"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "mini": true,
-    "id": "L2-M28"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-seinen",
-    "type": "koppel",
-    "vraag": "Koppel het sein aan de betekenis.",
-    "paren": [
-      {
-        "links": "Arm rechtop",
-        "rechts": "Iedereen stopt"
-      },
-      {
-        "links": "Armen horizontaal uitgestrekt",
-        "rechts": "Stoppen voor wie de armen dwarst"
-      }
-    ],
-    "uitleg": "Arm omhoog: iedereen stil. Armen opzij: wie de armen dwarst, stopt.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "mini": true,
-    "id": "L2-M29"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T16",
-    "theorieblok": "bevoegde-personen-signaalgevers-werf",
-    "type": "koppel",
-    "vraag": "Koppel de persoon aan de groep.",
-    "paren": [
-      {
-        "links": "Signaalgever",
-        "rechts": "Evenementen en wielerwedstrijden"
-      },
-      {
-        "links": "Wegkapitein",
-        "rechts": "Groepen fietsers en motorfietsers"
-      },
-      {
-        "links": "Werfopzichter",
-        "rechts": "Personeel dat op de openbare weg werkt"
-      },
-      {
-        "links": "Groepsleider",
-        "rechts": "Groepen voetgangers en ruiters"
-      }
-    ],
-    "uitleg": "Elke persoon geeft aanwijzingen aan zijn eigen groep of werf.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "mini": true,
-    "id": "L2-M30"
-  },
-  {
-    "les": 2,
-    "onderwerp": "T15",
-    "theorieblok": "lichten-rangorde",
-    "type": "volgorde",
-    "vraag": "Zet in volgorde, het sterkste bovenaan.",
-    "items": [
-      "Bevelen van een bevoegde persoon",
-      "Verkeerstekens: lichten, borden, markeringen",
-      "Verkeersregels (bv. voorrang van rechts)"
-    ],
-    "uitleg": "Een bevoegde persoon gaat boven de verkeerstekens, en die gaan boven de gewone regels.",
-    "bronnen": [
-      "LICH-001",
-      "LICH-002"
-    ],
-    "moeilijkheid": 1,
-    "gewicht": "gewoon",
-    "examen": false,
-    "eindtest": false,
-    "mini": true,
-    "id": "L2-M31"
   },
   {
     "les": 2,

@@ -1,15 +1,15 @@
 {
   "hoofdstuk": 4,
-  "titel": "Verkeerslichten en bevoegde personen",
+  "thema": "lichten",
+  "titel": "Verkeerslichten",
   "les": 2,
   "intro": {
-    "tekst": "Verkeerslichten en bevoegde personen regelen het verkeer op drukke plaatsen. In dit hoofdstuk leer je wat elk signaal betekent en wie je moet volgen als signalen elkaar tegenspreken.",
+    "tekst": "Verkeerslichten regelen het verkeer op drukke plaatsen. In dit hoofdstuk leer je wat elk licht betekent en hoe je je gedraagt bij rood, oranje, groen, pijlen en lichten voor fietsers en voetgangers.",
     "doelen": [
       "Je leert wat rood, oranje en groen betekenen.",
       "Je weet wanneer je bij oranje nog mag doorrijden.",
       "Je kent de lichten voor fietsers en voetgangers.",
-      "Je herkent de seinen van een agent.",
-      "Je weet wie of wat voorgaat: agent, lichten, borden of regels."
+      "Je weet wat er gebeurt met voorrangsborden als de lichten werken."
     ]
   },
   "paragrafen": [
@@ -409,205 +409,8 @@
     },
     {
       "nr": "4.4",
-      "titel": "Bevoegde personen",
+      "titel": "Lichten en voorrangsborden",
       "paginas": [
-        {
-          "id": "h4-4-1",
-          "titel": "Wie is een bevoegde persoon?",
-          "intro": "Een bevoegde persoon mag bevelen geven aan weggebruikers.",
-          "blokken": [
-            {
-              "type": "punten",
-              "items": [
-                "De federale en lokale politie.",
-                "Personeel van de wegbeheerders dat toezicht houdt op de weg.",
-                "Douanepersoneel tijdens hun dienst.",
-                "Personeel dat bruggen op de openbare weg bewaakt of bedient.",
-                "Soms ook anderen, zoals de brandweer bij een interventie."
-              ]
-            },
-            {
-              "type": "kader",
-              "soort": "letop",
-              "titel": "Herkenbare kentekens",
-              "tekst": "Bevelen aan rijdend verkeer mogen alleen gegeven worden door personen die de kentekens van hun functie dragen, zodat ze dag en nacht herkenbaar zijn."
-            },
-            {
-              "type": "voorbeeld",
-              "tekst": "Een politieagent staat op het kruispunt en geeft je een teken. Je volgt zijn bevel meteen op."
-            }
-          ],
-          "theorieblokken": ["bevoegde-personen-wie"]
-        },
-        {
-          "id": "h4-4-2",
-          "titel": "Arm rechtop: iedereen stopt",
-          "intro": "Het eerste sein dat je moet kennen is de rechtopgestoken arm.",
-          "blokken": [
-            {
-              "type": "schema",
-              "afb": "schema-bevoegde-persoon-stop",
-              "bijschrift": "Alle weggebruikers uit alle richtingen stoppen.",
-              "punten": [
-                "Arm rechtop: alle weggebruikers stoppen.",
-                "Sta je al op het kruispunt? Dan maak je het vrij."
-              ]
-            },
-            {
-              "type": "kader",
-              "soort": "tip",
-              "titel": "Zo onthoud je het",
-              "tekst": "Arm omhoog betekent dat iedereen stilstaat."
-            },
-            {
-              "type": "punten",
-              "items": [
-                "Je volgt het bevel onmiddellijk op.",
-                "Dat geldt ook als je zelf groen licht hebt."
-              ]
-            }
-          ],
-          "theorieblokken": ["bevoegde-personen-seinen"]
-        },
-        {
-          "id": "h4-4-3",
-          "titel": "Armen horizontaal",
-          "intro": "Bij uitgestrekte armen hangt het af van waar je rijdt.",
-          "blokken": [
-            {
-              "type": "schema",
-              "afb": "schema-bevoegde-persoon-armen",
-              "bijschrift": "Wie de armen dwarst, stopt. Wie langs de armen rijdt, krijgt doorgang.",
-              "punten": [
-                "Wie voor of achter de agent nadert, stopt.",
-                "Wie langs de uitgestrekte armen rijdt, mag doorrijden."
-              ]
-            },
-            {
-              "type": "punten",
-              "items": [
-                "Eén of twee armen horizontaal uitgestrekt.",
-                "Je stopt als je komt uit een richting die de arm of armen dwarsen.",
-                "Dat zijn de weggebruikers voor of achter de bevoegde persoon."
-              ]
-            },
-            {
-              "type": "kader",
-              "soort": "tip",
-              "titel": "Zo onthoud je het",
-              "tekst": "Rij je recht op de persoon af of van de persoon weg, dan stop je."
-            }
-          ],
-          "theorieblokken": []
-        },
-        {
-          "id": "h4-4-4",
-          "titel": "Rood licht en voertuig verplaatsen",
-          "intro": "Een bevoegde persoon kan nog meer bevelen geven.",
-          "blokken": [
-            {
-              "type": "tabel",
-              "kolommen": ["Sein", "Wat betekent het?"],
-              "rijen": [
-                ["Arm rechtop", "Alle weggebruikers stoppen."],
-                ["Armen horizontaal", "Stoppen voor wie de armen dwarst."],
-                ["Rood licht dwars heen en weer zwaaien", "Stoppen voor wie het licht ziet."]
-              ]
-            },
-            {
-              "type": "punten",
-              "items": [
-                "Bij een zwaaiend rood licht stop je als het licht naar jou gericht is.",
-                "Staat jouw voertuig stil of geparkeerd? Dan verplaats je het op bevel.",
-                "Weiger je, of ben je weg? Dan mag de agent het verplaatsen."
-              ]
-            },
-            {
-              "type": "kader",
-              "soort": "regel",
-              "titel": "Op jouw risico en kosten",
-              "tekst": "Een bevoegd persoon mag je voertuig verplaatsen op risico en kosten van de bestuurder."
-            }
-          ],
-          "theorieblokken": []
-        },
-        {
-          "id": "h4-4-5",
-          "titel": "Signaalgevers en werfopzichters",
-          "intro": "Soms mogen ook andere personen aanwijzingen geven.",
-          "blokken": [
-            {
-              "type": "punten",
-              "items": [
-                "Signaalgevers bij evenementen en wielerwedstrijden.",
-                "Wegkapiteins bij groepen fietsers en motorrijders.",
-                "Groepsleiders bij groepen voetgangers en ruiters.",
-                "Werfopzichters bij werken op de weg.",
-                "Begeleiders bij uitzonderlijke voertuigen."
-              ]
-            },
-            {
-              "type": "kaarten",
-              "items": [
-                {
-                  "afb": "C3",
-                  "naam": "Schijf om het verkeer stil te leggen",
-                  "uitleg": "Zij houden een ronde schijf met dit teken omhoog.",
-                  "letop": "Je stopt."
-                }
-              ]
-            },
-            {
-              "type": "schema",
-              "afb": "schema-werfzeiger-schijf",
-              "bijschrift": "De auto stopt voor de persoon met de schijf.",
-              "punten": [
-                "Je volgt hun aanwijzingen op.",
-                "Een bevoegde persoon gaat wel voor."
-              ]
-            }
-          ],
-          "theorieblokken": ["bevoegde-personen-signaalgevers-werf"]
-        }
-      ]
-    },
-    {
-      "nr": "4.5",
-      "titel": "Wie of wat gaat voor?",
-      "paginas": [
-        {
-          "id": "h4-5-1",
-          "titel": "De rangorde van de signalen",
-          "intro": "Spreken signalen elkaar tegen, dan geldt een vaste volgorde.",
-          "blokken": [
-            {
-              "type": "schema",
-              "afb": "schema-rangorde-lichten",
-              "bijschrift": "Wat hoger staat, gaat voor wat lager staat.",
-              "punten": [
-                "Eerst: de bevelen van een bevoegde persoon.",
-                "Dan: lichten, borden en markeringen.",
-                "Als laatste: de verkeersregels, zoals voorrang van rechts."
-              ]
-            },
-            {
-              "type": "tabel",
-              "kolommen": ["Plaats", "Wat?"],
-              "rijen": [
-                ["1", "Bevelen van een bevoegde persoon"],
-                ["2", "Verkeerstekens: lichten, borden, markeringen"],
-                ["3", "Verkeersregels, bijvoorbeeld voorrang van rechts"]
-              ]
-            },
-            {
-              "type": "kader",
-              "soort": "zwarefout",
-              "titel": "Groen licht, maar de agent zegt stop",
-              "tekst": "Staat er een bevoegde persoon die je laat stoppen, dan stop je, ook al heb je groen."
-            }
-          ],
-          "theorieblokken": ["lichten-rangorde"]
-        },
         {
           "id": "h4-5-2",
           "titel": "Werkende lichten en voorrangsborden",
@@ -630,15 +433,15 @@
             },
             {
               "type": "voorbeeld",
-              "tekst": "Een politieagent laat je doorrijden terwijl het licht rood is. Je volgt de agent. Laat hij je stoppen bij groen, dan stop je."
+              "tekst": "Werken de lichten op een kruispunt, dan volg je de lichten en niet de voorrangsborden op die weg."
             }
           ],
-          "theorieblokken": []
+          "theorieblokken": ["lichten-rangorde"]
         }
       ]
     },
     {
-      "nr": "4.6",
+      "nr": "4.5",
       "titel": "Vooruitblik",
       "paginas": [
         {
@@ -685,7 +488,6 @@
     "Een pijl geldt enkel voor zijn eigen richting.",
     "Maak een kruispunt vrij en blokkeer het nooit.",
     "Fietsers en voetgangers hebben soms eigen lichten.",
-    "Arm rechtop: iedereen stopt. Armen horizontaal: wie ze dwarst, stopt.",
-    "Rangorde: bevoegde persoon, dan lichten en borden, dan regels."
+    "Werken de lichten, dan spelen de voorrangsborden op die weg geen rol."
   ]
 }

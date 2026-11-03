@@ -1,5 +1,6 @@
 {
   "hoofdstuk": 1,
+  "thema": "borden",
   "titel": "Verkeersborden",
   "les": 1,
   "intro": {
@@ -66,14 +67,8 @@
             },
             {
               "type": "tip",
-              "titel": "Wie of wat gaat voor?",
-              "tekst": "Een bevel van een agent gaat boven de verkeerstekens, en de verkeerstekens gaan boven de gewone verkeersregels."
-            },
-            {
-              "type": "oefening",
-              "ids": [
-                "L1-M40"
-              ]
+              "titel": "Let op de details",
+              "tekst": "Kijk goed naar een bord: een pijl of een getal bepaalt wat het bord precies zegt."
             }
           ],
           "theorieblokken": [
@@ -643,15 +638,16 @@
                 },
                 {
                   "afb": "C9",
-                  "naam": "Verboden voor bromfietsen",
-                  "uitleg": "Bromfietsen mogen hier niet rijden, tot en met het volgende kruispunt."
+                  "naam": "Verboden voor bromfietsen (klasse A en B)",
+                  "uitleg": "Bromfietsen (klasse A en B) mogen hier niet rijden."
                 }
               ]
             },
             {
               "type": "tekst",
               "alineas": [
-                "Een verbodsbord met een rode rand verbiedt je iets. Het symbool in het bord toont wie of wat niet mag."
+                "Een verbodsbord met een rode rand verbiedt je iets. Het symbool in het bord toont wie of wat niet mag.",
+                "Een bromfiets klasse A rijdt maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u."
               ]
             },
             {
@@ -705,8 +701,8 @@
                 },
                 {
                   "afb": "C22",
-                  "naam": "Verboden voor autocars",
-                  "uitleg": "Autocars mogen hier niet rijden, tot en met het volgende kruispunt."
+                  "naam": "Verboden voor autocars (bussen)",
+                  "uitleg": "Autocars (bussen) mogen hier niet rijden, tot en met het volgende kruispunt."
                 },
                 {
                   "afb": "C23",
@@ -723,8 +719,8 @@
             },
             {
               "type": "tip",
-              "titel": "Autocars of vrachtvoertuigen?",
-              "tekst": "Het ene bord verbiedt autocars, het andere vrachtvoertuigen. Kijk dus goed naar het symbool."
+              "titel": "Autocars (bussen) of vrachtvoertuigen?",
+              "tekst": "Het ene bord verbiedt autocars (bussen), het andere vrachtvoertuigen. Kijk dus goed naar het symbool."
             },
             {
               "type": "oefening",
@@ -736,6 +732,37 @@
           "theorieblokken": [
             "borden-verbod-toegang"
           ]
+        },
+        {
+          "id": "h1-4-2b",
+          "titel": "Wanneer ben je voetganger?",
+          "blokken": [
+            {
+              "type": "schema",
+              "afb": "schema-gelijkgesteld-voetganger-fietser",
+              "bijschrift": "Wie telt als voetganger en wie als fietser?"
+            },
+            {
+              "type": "tekst",
+              "alineas": [
+                "Je bent voetganger als je een fiets of bromfiets aan de hand leidt. Dat geldt ook voor wie een kinderwagen aan de hand heeft.",
+                "Een step zonder motor die stapvoets gaat, telt als voetganger. Gaat hij sneller dan stapvoets, dan telt hij als fietser.",
+                "Een persoon met beperkte mobiliteit op een eigen toestel dat stapvoets rijdt, telt ook als voetganger. Een elektrische step (maximaal 25 km/u) telt als fietser."
+              ]
+            },
+            {
+              "type": "tip",
+              "titel": "Fiets aan de hand",
+              "tekst": "Stap je af en leid je je fiets aan de hand, dan ben je voetganger."
+            },
+            {
+              "type": "oefening",
+              "ids": [
+                "L1-P12"
+              ]
+            }
+          ],
+          "theorieblokken": []
         },
         {
           "id": "h1-4-3",
@@ -1240,8 +1267,8 @@
                 },
                 {
                   "afb": "E9d",
-                  "naam": "Parkeren voor autocars",
-                  "uitleg": "Alleen autocars mogen hier staan; andere voertuigen niet."
+                  "naam": "Parkeren voor autocars (bussen)",
+                  "uitleg": "Alleen autocars (bussen) mogen hier staan; andere voertuigen niet."
                 },
                 {
                   "afb": "E9h",
@@ -2149,7 +2176,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Een onderbord vult de betekenis van een bord aan, preciseert of beperkt ze. Onderborden zijn meestal wit op blauw, maar die voor fietsen en bromfietsen zijn zwart op wit.",
+                "Een onderbord vult de betekenis van een bord aan, preciseert of beperkt ze. Onderborden zijn meestal wit op blauw, maar die voor fietsen en bromfietsen (klasse A en B) zijn zwart op wit.",
                 "Op de volgende pagina's zie je de aanvullingen per soort: afstand, uitzonderingen, fietspad en tijd."
               ]
             },
@@ -2799,7 +2826,6 @@
   ],
   "samenvatting": [
     "Er zijn zes soorten borden: gevaar, voorrang, verbod, gebod, parkeren en aanwijzing.",
-    "Een agent gaat boven de verkeerstekens, en verkeerstekens gaan boven de gewone regels.",
     "In Vlaanderen en Brussel staat een gevaarsbord in principe ongeveer 150 m voor het gevaar.",
     "Voorrang verlenen: stop enkel als het nodig is. Stopbord: stop altijd.",
     "Een aankondigingsbord wijst vooruit: het echte bord komt verderop.",

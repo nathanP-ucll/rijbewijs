@@ -279,6 +279,15 @@ for (const f of jsonFiles(boekDir)) {
   const d = readJSON(f);
   if (!d || !Array.isArray(d.paragrafen)) { err(path.relative(ROOT, f) + ': geen paragrafen'); continue; }
   d._file = path.basename(f);
+  // nummering volgt data/hoofdstukken.json via het veld 'thema' (hoofdstuk- en paragraafnummers in het bestand zijn dan de bestandseigen nummers)
+  if (d.thema) {
+    if (!themaNr[d.thema]) err(path.relative(ROOT, f) + ": onbekend thema '" + d.thema + "' (staat niet in data/hoofdstukken.json)");
+    else if (d.hoofdstuk !== themaNr[d.thema]) {
+      const oud = String(d.hoofdstuk), nw = themaNr[d.thema];
+      d.hoofdstuk = nw;
+      d.paragrafen.forEach((p) => { if (typeof p.nr === 'string' && p.nr.startsWith(oud + '.')) p.nr = nw + p.nr.slice(oud.length); });
+    }
+  }
   hoofdstukken.push(d);
 }
 hoofdstukken.sort((x, y) => x.hoofdstuk - y.hoofdstuk);

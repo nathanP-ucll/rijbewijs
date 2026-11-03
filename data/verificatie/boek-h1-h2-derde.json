@@ -1,0 +1,458 @@
+{
+ "h1-2-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "A1a-A1d, A3, A5 + uitleg + 150 m + onderbord (art. 66.1/66.2, MB 7). SVG's bekeken: symbolen kloppen met de uitleg."
+ },
+ "h1-2-2": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "A7a/b/c (links/rechts correct in SVG), A9, A11, A13, A14; 30 km/u (art. 22ter.1), geen links inhalen (art. 17.2 7°), geen stilstaan/parkeren (art. 24 11°) bevestigd."
+ },
+ "h1-2-5": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "A33, A39, A41/A43 (aankondiging), A45/A47 (kruis aan de overweg, 1 of meerdere sporen), A49 bevestigd (art. 66.2, 66.4); SVG's kloppen met de uitleg."
+ },
+ "h1-3-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Alle uitleg onder B1-B13 klopt (art. 67; B5 nu \"aan de stopstreep, indien aanwezig\"; stopbord stop je altijd). Fix van de vorige ronde correct verwerkt."
+ },
+ "h1-3-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "De borden voor fietsers bij rood gelden net bij een rood of oranjegeel licht.",
+    "opmerking": "Klopt met art. 6.3 (uitzondering B22/B23) en art. 67.3 B22/B23 (rood of oranjegeel). Maar de zin ervoor gaat over een oranjegeel KNIPPERlicht; \"oranjegeel licht\" in de volgende zin is het vaste oranjegele licht. Een leerling kan die twee door elkaar halen. De uitzondering voor lichten boven rijstroken (art. 6.3) ontbreekt, wat met \"In de regel\" verdedigbaar is.",
+    "voorstel": "Eventueel \"bij een rood of (vast) oranjegeel licht\".",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   },
+   {
+    "ernst": "klein",
+    "tekst": "[B23] Fietsers mogen bij rood rechtdoor, zonder verkeer te dwarsen.",
+    "opmerking": "\"Zonder verkeer te dwarsen\" is de plaatsingsvoorwaarde van het bord (art. 67.4.3: B23 enkel als fietsers geen verkeersstroom moeten dwarsen), niet de gedragsregel. Regel voor de fietser (art. 67.3 B23): rechtdoor bij rood of oranjegeel, op voorwaarde dat hij voorrang verleent aan de andere weggebruikers.",
+    "voorstel": "\"Fietsers mogen bij rood rechtdoor, als ze voorrang verlenen.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Nieuwe zinnen over voorrangsborden en verkeerslichten kloppen met art. 6.3: werkende lichten gaan voor op voorrangsborden; oranjegeel knipperlicht: borden gelden wel; B22/B23 gelden bij rood/oranjegeel. Tip (enkel fietsers en speed pedelecs) klopt."
+ },
+ "h1-4-1": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[C7] ... tot en met het volgende kruispunt. [C9] ... tot en met het volgende kruispunt. (zelfde formule bij C11, C15, C17, C19, C22 op h1-4-2)",
+    "opmerking": "Art. 68.3 en MB 9.3 zeggen dit niet voor C5-C29. \"Tot en met het volgend kruispunt\" staat letterlijk alleen bij C31 (aan het volgend kruispunt), C33, C35, C39 en C43, en voor de E-borden in art. 70.2.2. Voor C7/C9/C11 enz. is het een gangbare didactische regel maar geen woordelijke bepaling; ook in de nieuwe Code staat ze niet bij C7-C24. De uitleg is categorisch.",
+    "voorstel": "Afzwakken: \"... mogen hier niet rijden.\" (zonder kruispuntclausule) of \"in principe tot het volgende kruispunt\".",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/0mocswfbry/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "C1, C3, C5 (ook motor met zijspan, onderbord 2+/3+), C6 (quad), C7, C9 en de SVG's kloppen met art. 68.3."
+ },
+ "h1-4-2": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[C11] Fietsers mogen hier niet door, tot en met het volgende kruispunt. (idem C15, C17, C19, C22)",
+    "opmerking": "Zie h1-4-1: de kruispuntclausule staat niet in art. 68.3/MB 9.3 voor deze borden. Overige uitleg klopt met de SVG's (fiets, gespan, ruiter, handkar, voetganger, autocar, vrachtwagen met onderbord massa).",
+    "voorstel": "Zelfde voorstel als h1-4-1.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ]
+ },
+ "h1-4-3": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Een onderbord met de letter B, C, D of E toont de tunnelcategorie van het voertuig.",
+    "opmerking": "Art. 68.3 C24a: de letter geeft aan dat het verbod geldt voor alle voertuigen die gevaarlijke goederen vervoeren waarvoor de toegang tot tunnels van die categorie verboden is (ADR). Het gaat om de categorie van de goederen/het vervoer, niet van het voertuig.",
+    "voorstel": "\"... toont de tunnelcategorie van de gevaarlijke goederen.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Nieuwe massa-uitleg klopt: C21 = massa in beladen toestand (art. 2.31: eigen massa + lading + bestuurder + inzittenden; art. 68.3 C21); C23 met onderbord = maximaal toegelaten massa (art. 2.28, 68.3 C23, MB 9.4 2°); lengte/breedte/hoogte lading inbegrepen (C25/C27/C29). Uitleg onder C21_3/5/7 ('beladen massa boven X ton') klopt met de SVG's."
+ },
+ "h1-4-4": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Een verbod om af te slaan of te keren geldt tot en met het volgende kruispunt.",
+    "opmerking": "Art. 68.3: C31 = verbod \"aan het volgend kruispunt\" af te slaan (bord vlak bij het kruispunt, MB 9.5); enkel C33 (keren) geldt \"vanaf het bord tot en met het volgend kruispunt\". De uitleg onder C31a/C31b is correct, de samenvattende zin stelt ze net iets te gelijk.",
+    "voorstel": "\"Een verbod om af te slaan geldt aan het volgende kruispunt; een verbod om te keren tot en met het volgende kruispunt.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "C35/C37/C39/C41/C47 en SVG's kloppen (C39: vervoer van zaken > 3.500 kg maximale massa, art. 68.3)."
+ },
+ "h1-4-5": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[C46] Einde van alle verbodsbepalingen :: Alle plaatselijke verboden voor rijdende voertuigen eindigen.",
+    "opmerking": "Naam volgt art. 68.3 (\"alle plaatselijke verbodsbepalingen opgelegd aan de voertuigen in beweging\"), maar MB 9.11 beperkt het gebruik: C46 maakt enkel een einde aan C33, C35, C39 en C43. \"Alle\" kan verkeerd gelezen worden (bv. C21 of C7).",
+    "voorstel": "\"Het einde van de keer-, inhaal- en snelheidsverboden (bv. C43).\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Geldigheid van C43 (tot en met volgend kruispunt, volgend C43, begin/einde bebouwde kom, woonerf/erf, voetgangerszone) klopt met art. 68.3 C43; C45 klopt."
+ },
+ "h1-6-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "E1 (1 streep), E3 (kruis), E5/E7/E11, kant wisselen tussen 19.30 en 20.00 (art. 70.2.1 2°b, 70.3 b), verbod geldt langs de kant van het bord tot het volgende kruispunt (art. 70.2.2) bevestigd; SVG's kloppen."
+ },
+ "h1-6-2": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "E9, E9a+parkeerschijf, E9e/f/g, E9j (fietsen overdag, auto's 's avonds), onderborden, tanken/opladen = parkeren (art. 2.23) bevestigd (art. 70.2.1 3°); SVG's kloppen."
+ },
+ "h1-6-3": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "E9a (handicap), E9b-E9d, E9h, E9i bevestigd; \"gelden alleen voor de parking waar ze staan\" klopt precies met art. 70.2.2 2° (E9a-E9d en E9h-E9j). Opm.: officieel heet E9h \"kampeerauto's\"; \"kampeerwagens\" is gangbaar."
+ },
+ "h1-7-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "F1a/F1b/F3a/F3b, F4a/F4b (30 km/u, ook over verhoogde inrichtingen: art. 22ter.1/22quater), F12a/F12b (20 km/u, art. 22bis) en \"rechts aan elke toegang\" (art. 71.2) bevestigd."
+ },
+ "h1-7-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[F95] Noodstopstrook :: Een strook om in nood te stoppen.",
+    "opmerking": "F95 is de noodstopstrook (uitloopstrook met grind voor voertuigen die niet meer kunnen remmen, zie SVG), geen pechstrook. \"Om in nood te stoppen\" kan aan een pechstrook doen denken (art. 9.7 regelt de pechstrook apart).",
+    "voorstel": "\"Een uitloopstrook waar een voertuig zonder remmen veilig kan stoppen.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "F5/F7/F9/F11, F8 (> 500 m, onderborden lengte/naam), F98 (onderbord noodtelefoon + brandblusser), F52 bevestigd (art. 71.2)."
+ },
+ "h1-7-4": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[F97] Versmalling :: De rijstrook wordt smaller.",
+    "opmerking": "Art. 71.2: F97 = \"versmalling die de omvang van een rijstrook heeft\" (MB 7.3). De SVG toont een rijstrook die wegvalt/samenvoegt. \"De rijstrook wordt smaller\" is dubbelzinnig.",
+    "voorstel": "\"Een versmalling ter grootte van een rijstrook: een rijstrook valt weg.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "F87 (staat bij de drempel zelf; MB: geplaatst ter hoogte van de verhoogde inrichting), F79/F81/F83 (voorwegwijzers bij werken), F89/F91 (art. 65.4) bevestigd; de eerdere tegenspraak met h2-5-2 is opgelost."
+ },
+ "h1-7-5": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[F17] Busstrook :: Openbaar vervoer mag erop; andere voertuigen enkel met een symbool. / [F18] ... voorbehouden aan het openbaar vervoer.",
+    "opmerking": "Vereenvoudiging: art. 72.5/72.6 laten ook voertuigen met symbool, woord of bord (taxi, fiets, ...) toe op F17 en F18, en andere voertuigen mogen onder voorwaarden even op de strook (zie h1-7-6). De tekst op de pagina zelf geeft de uitzonderingen correct weer.",
+    "voorstel": "Bij F18 eventueel \"voorbehouden aan geregeld openbaar vervoer (en voertuigen met een symbool op het bord)\".",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Busstrook: geen deel van de rijbaan; van richting veranderen enkel in de onmiddellijke nabijheid van een kruispunt; hindernis omzeilen; dwarsen op kruispunt; eigendom/parkeerplaats (art. 72.5 3° a-d). Overrijdbare bedding: enkel hindernis, dwarsen op kruispunten, eigendom/parkeerplaats (art. 72.6 3°); geen richtingsverandering. Schema en bijschrift kloppen met de SVG. Tip \"soms van richting veranderen\" klopt. Consistent met h6."
+ },
+ "h1-7-6": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "Taxi's | Enkel met het symbool of het woord TAXI op het bord of onderbord. / Naast het openbaar vervoer mogen alleen voertuigen met een symbool of vermelding op de busstrook.",
+    "opmerking": "Art. 85.33 (huidige KB): voertuigen voor schoolvervoer en taxi's mogen de busstroken tot 31 mei 2027 gebruiken, ook zonder het bord of het woord uit art. 72.5 a) en b). Dit is nu (nov. 2026) nog van kracht. In de nieuwe Code (art. 85 §2) loopt dit tot 1 juni 2030 (Vias-tijdlijn). De tabel en de eerste alinea zijn dus voorlopig te absoluut voor taxi's en schoolvervoer.",
+    "voorstel": "Toevoegen: \"Tot 31 mei 2027 mogen taxi's en schoolvervoer de busstrook ook zonder bord of woord gebruiken (volgens de nieuwe Code zelfs tot 1 juni 2030).\" Of dit in h1-12-1 vermelden.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/0mocswfbry/regulation_regulation",
+     "https://www.wegcode.be/nl/code-van-de-openbare-weg/verkeersborden"
+    ]
+   },
+   {
+    "ernst": "klein",
+    "tekst": "Voertuigen met meer dan 8 zitplaatsen | De bestuurder telt niet mee.",
+    "opmerking": "Klopt (art. 72.5 2° f). De tabel mist de categorieën schoolvervoer, woon-werkverkeer, duurzame mobiliteit en gehandicaptenvervoer; die staan (correct) in de tip: bord op het voertuig nodig (art. 72.5 2° a, g, i, j).",
+    "voorstel": "Optioneel rij toevoegen: \"Schoolvervoer, woon-werkverkeer, duurzame mobiliteit, vervoer van personen met een handicap | Symbool op het bord en een bord op het voertuig.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "De vier uitzonderingen kloppen met art. 72.5 3°; \"fietsers achter elkaar\" klopt (art. 43.2). De vorige tegenspraak met h1-7-5 is opgelost."
+ },
+ "h1-7-7": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "F23a-d (N, A, E, R), F43, F25, F29, F31 (reisweg over autosnelweg), F33a (art. 71.2) bevestigd; tip over snelweg-/autowegsymbool klopt met F5/F9 op wegwijzers."
+ },
+ "h1-7-8": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[F34a] Wegwijzer naar openbare instellingen :: Bijvoorbeeld bibliotheek, politie of school.",
+    "opmerking": "Het getoonde bord heeft een treinsymbool (station), terwijl de uitleg andere voorbeelden noemt. Art. 71.2 F34a noemt het station van gemeenschappelijk vervoer ook, dus de uitleg klopt, maar de leerling ziet iets anders dan er staat.",
+    "voorstel": "\"Bijvoorbeeld station, bibliotheek, politie of school.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   },
+   {
+    "ernst": "klein",
+    "tekst": "[F37] Wegwijzer naar hotels en restaurants :: Overnachting en eetgelegenheid.",
+    "opmerking": "Art. 71.2 F37: jeugdherberg, overnachtingsgelegenheden, kampeer- en caravanterrein, restaurant en vakantiedorp. De naam \"hotels en restaurants\" is smaller dan het bord.",
+    "voorstel": "\"Wegwijzer naar overnachting en eten\".",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "F34b1, F35, F39, F41, F47 en tekst/tip kloppen."
+ },
+ "h1-7-10": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "F63 (benzine, diesel, LPG, CNG, LNG, H2, elektriciteit), F65-F77 bevestigd (art. 71.2); SVG's kloppen."
+ },
+ "h1-7-12": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "F103/F105, F111/F113 (art. 22novies: niet inhalen, 30 km/u, rechterhelft bij tweerichtingsverkeer); 'motorvoertuigen' nu correct. Tip: de SVG's F111/F113 dragen inderdaad nog het opschrift Fietsstraat; art. 85.32 laat dit tot 1/1/2035 toe; term fietszone sinds 1 april 2023. Schema: borden staan nu rechts, correct."
+ },
+ "h1-9-3": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Onderborden M2/M3/M11/M12 en de opsomming C1, C3, C31, D1 (art. 68.4, 69.4) kloppen; eenrichtingsverkeer met apart onderbord (art. 71.3) klopt; SVG's tonen de juiste symbolen (A, P, A,P)."
+ },
+ "h1-9-4": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "M6/M7 (klasse B) en M13/M15 (speed pedelec) bij D7 kloppen met art. 69.4 2°-6°; SVG's tonen B/P + VERPLICHT/VERBODEN."
+ },
+ "h1-9-5": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "E5/E7/E11/E9j-uitleg en \"zonder einde-bord tot het volgende kruispunt\" (art. 70.2.2) kloppen; pijlen = begin/einde regeling. De titel \"Tijd en pijlen\" toont geen pijlbord, geen fout."
+ },
+ "h1-10-1": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Alle verbodsborden kunnen zonaal zijn, behalve verboden richting, afslaan, keren en tolpost",
+    "opmerking": "Klopt met MB 6.7.1 1° (uitgezonderd C1, C31, C33, C47). \"Alle\" is wel ruim: einde-borden (C37, C41, C45, C46) zijn geen zonaal begin en voor C43 kan enkel 30, 50 (buiten kom) of 70 (buiten kom); dat laatste staat in de tabel al juist.",
+    "voorstel": "Eventueel \"Bijna alle verbodsborden\".",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Zonale snelheid: \"30 km/u; 50 of 70 km/u enkel buiten de bebouwde kom\" klopt met MB 6.7.1 (50 enkel buiten de kom voor een bebouwde of drukbezochte zone; 70 enkel buiten de kom). Wit bord, rechts aan elke toegang, eigen einde-bord (art. 65.5.3-5). Parkeerborden behalve E5/E7/E11 klopt."
+ },
+ "h1-11-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Een spitsstrook gebruik je in principe enkel met signalisatie of werkende verkeerslichten. Uitzonderingen zijn onder meer de autosnelweg op- of afrijden en van richting veranderen.",
+    "opmerking": "Art. 22decies: zonder werkende signalisatie (art. 65.4) of lichten (art. 62bis) is verkeer op de spitsstrook niet toegelaten, behalve (1) de gevallen van art. 9.7 (pechstrook: prioritaire voertuigen, politie-opgeroepen personen, takelwagens), (2) op-/afrijden autosnelweg, (3) van richting veranderen. \"Onder meer\" klopt dus. \"Signalisatie\" is vaag voor een leerling (rijstrooksignalisatie/borden boven de strook).",
+    "voorstel": "\"...enkel als de rijstrooksignalisatie of de verkeerslichten boven de strook dat toelaten.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Markering: onderbroken streep met kortere tussenafstanden en langere trekken (art. 72.7) klopt. Oranje strepen/spijkers = zelfde betekenis als wit en maken witte markeringen waardeloos (art. 73). Gele onderbroken streep: parkeerverbod op de rijbaan (art. 75.1 2°, 25.1 10°)."
+ },
+ "h1-12-1": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Veel oude borden behouden tijdens een overgangsperiode hun betekenis. (tabel zonder 2045)",
+    "opmerking": "De overgangsdata kloppen: nieuwe Code 1/6/2027 (uitgesteld van 1/9/2026 volgens Vias-tijdlijn), E5/E7/E11 op 1/6/2027, F17/F18 + markeringen art. 72.5/72.6 op 1/6/2030, F111/F113 met Fietsstraat/zonale geldigheid op 1/1/2035. De einddatum van de overige borden, 1 januari 2045, ontbreekt, terwijl \"veel oude borden\" net daarover gaat.",
+    "voorstel": "Rij toevoegen: \"De meeste andere oude borden | Verliezen hun betekenis op 1 januari 2045\". Bij busstrook: \"Oude busstrook-borden en -markeringen\" (er komt een nieuw bord F17).",
+    "bronnen": [
+     "https://www.wegcode.be/nl/code-van-de-openbare-weg/tijdlijn",
+     "https://www.wegcode.be/nl/code-van-de-openbare-weg/verkeersborden",
+     "https://www.wegcode.be/nl/perma/0mocswfbry/regulation_regulation"
+    ]
+   },
+   {
+    "ernst": "klein",
+    "tekst": "Busstrook-borden en -markeringen | Verliezen hun betekenis op 1 juni 2030",
+    "opmerking": "Correct voor F17/F18 en markeringen conform het KB 1975. Wel: taxi's en schoolvervoer mogen de busstrook tot 31/5/2027 (huidig KB) resp. 1/6/2030 (nieuwe Code) ook zonder vermelding gebruiken; zie h1-7-6.",
+    "voorstel": "Korte verwijzing of noot toevoegen.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/0mocswfbry/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ]
+ },
+ "h1-intro-en-samenvatting": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "H1-intro, 4 doelen, 13 paragraaf-intro's (1.1-1.13) en 8 samenvattingspunten: 150 m (Vlaanderen en Brussel, art. 66.2), voorrang verlenen vs stopbord, verbod tot volgend kruispunt 'tenzij einde-bord' (intro 1.4 zegt 'Meestal', zie h1-4-1), E1/E3, zone 30 vs woonerf 20, 1/6/2027 correct. Geen afgebroken zinnen en geen bordcodes/artikelnummers in zichtbare tekst (enkel oefening-ID's en afb-velden)."
+ },
+ "h2-1-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "\"Een snelheidsbord gaat voor op de regel van gewest en weg. Limieten voor je voertuigtype blijven gelden: de laagste telt.\" klopt met art. 11.1, 11.2 (C43 lager/hoger; \"lagere beperkingen uit 11.3 blijven van toepassing\") en 11.3. Trio en schema (Vlaanderen 70, 90 enkel met bord) kloppen. Nuance: op de autosnelweg en 2x2-wegen met middenberm kan C43 enkel lager (art. 11.2 1°); niet vermeld maar niet fout."
+ },
+ "h2-1-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Het getal kan lager of hoger zijn dan de standaardsnelheid.",
+    "opmerking": "Geldt niet op autosnelwegen en 120-wegen: daar kan C43 enkel lager (art. 11.2 1°). Op deze pagina over gewone wegen verdedigbaar.",
+    "voorstel": "Eventueel \"Op gewone wegen kan het getal lager of hoger zijn.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Kaartuitleg C43_30 (Brussel), C43_50 (Vlaanderen/Wallonië), C43_70 (Vlaanderen/Brussel buiten kom), C43_90 (Vlaanderen enkel met bord, Wallonië standaard) klopt met art. 11 en de SVG's; 'de laagste telt'-kader klopt; geldigheid tot en met volgend kruispunt of einde-bord klopt (art. 68.3)."
+ },
+ "h2-1-4": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "[C43_30] Maximumsnelheid 30 km/u :: Zonaal: de snelheid geldt in de hele zone. / [C43_50] ... Zonaal: ...",
+    "opmerking": "De getoonde SVG's zijn gewone C43-borden (rond, rode rand). Een zonebord staat op een wit rechthoekig bord (art. 65.5.3; MB bijlage 7). De leerling kan op de pagina dus niet zien dat dit een zonaal bord is en niet het gewone C43 van h2-1-2. Ook ontbreekt dat een zonale 50 enkel buiten de bebouwde kom kan (MB 6.7.1), terwijl dit het enige voorbeeld met 50 is.",
+    "voorstel": "Zonale afbeeldingen gebruiken (wit bord met zone-aanduiding) of de uitleg aanpassen: \"Op een wit zonebord geldt dit getal in de hele zone.\" en bij 50: \"Zonale 50 kan enkel buiten de bebouwde kom.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Punten kloppen met art. 65.5.10: zone geldt tot het eindebord; geen hogere snelheid binnen de zone; afwijkend (lager) C43 geldt tot het volgende kruispunt, daarna weer de zone; vakantiezone buiten de kom met zonale 50/70 (art. 2.49). Voorbeeld \"30 boven het kombord geldt op alle openbare wegen in die kom\" klopt letterlijk met art. 68.3 C43 en MB 9.9 5°."
+ },
+ "h2-2-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "F1a/F1b/F3a/F3b-uitleg klopt; \"rechts, links herhalen\" (art. 71.2); grens bepaald door de borden (art. 2.12)."
+ },
+ "h2-3-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "70 Vlaanderen (sinds 1/1/2017) en Brussel, 90 Wallonië, 70 op de middenrijbaan Wallonië, 90 in Vlaanderen enkel met bord C43 (art. 11.2; Vias-tabel). Middenrijbaan-uitleg klopt met art. 75.3 (\"twee paar korte trekken\"). 70 sinds 1/1/2017: Vlaamse mobiliteitsbrief 172."
+ },
+ "h2-3-3": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Middenrijbaan (tussen onderbroken strepen) | 70 | 70 | 70",
+    "opmerking": "Klopt als standaard. In Vlaanderen kan een C43 toch 90 toelaten (art. 11.2 VG 2°b, \"andere openbare wegen\"), zoals in de rij \"Gewone weg\"; in Brussel bestaat geen aparte middenrijbaan-regel (70 als \"andere wegen\"). De rij suggereert een eigen regel in alle drie de gewesten.",
+    "voorstel": "\"70 (90 met bord)\" voor Vlaanderen, of de rij beperken tot Wallonië.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+     "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/snelheidsbeperkingen"
+    ]
+   }
+  ],
+  "gecontroleerd": "Middenberm-voorwaarde correct: 120 buiten de autosnelweg enkel op wegen met vier of meer rijstroken met minstens twee per rijrichting waarvan de rijrichtingen anders dan door markeringen gescheiden zijn (art. 11.2 1°b; middenberm = elke aanleg in de lengterichting behalve markeringen, art. 2.44). Eén rijstrook per richting met middenberm = gewone limiet; 2x2 met enkel markeringen: Vlaanderen 70 (90 bord), Wallonië 90, Brussel 70. Schema en tabel kloppen; vorige tegenstrijdigheid is opgelost."
+ },
+ "h2-3-5": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "120 in alle drie de gewesten; voertuigen > 3,5 ton en bussen/autocars 90 op deze wegen (art. 11.2 1°b); voorbeeld \"witte lijnen zonder middenberm: Vlaanderen weer 70\" klopt (of 90 met bord)."
+ },
+ "h2-4-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Max 120, min 70, lagere C43, toegang (art. 11.2 1°a, 21.1, 21.2) en bussen/> 3,5 ton 90 kloppen. De eerdere absolute zin \"een bord gaat altijd voor\" is verwijderd. Autocar met gordels + begrenzer 100 komt pas in h2-6-3 aan bod (consistent)."
+ },
+ "h2-4-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "[F9] Autoweg :: Alleen motorvoertuigen en hun aanhangwagens mogen hier.",
+    "opmerking": "Art. 22.1: motorvoertuigen en aanhangwagens, met uitzondering van bromfietsen, landbouwvoertuigen, slepen van kermisvoertuigen en vierwielers zonder passagiersruimte. De kaartuitleg zegt \"alle motorvoertuigen\", terwijl het derde punt op de pagina bromfietsen en landbouwvoertuigen uitsluit (bromfietsen zijn motorvoertuigen, art. 2.16/2.17).",
+    "voorstel": "\"Enkel auto's, motorfietsen en hun aanhangwagens; geen bromfietsen of landbouwvoertuigen.\"",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Geen minimumsnelheid (art. 21.2 geldt enkel voor autosnelwegen), maximum volgt kom/gewest/bord, 120 enkel bij 2x2 met middenberm (art. 11.2). Tabel en kader kloppen."
+ },
+ "h2-5-1": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Zone 30: 30 km/u, rechts + links herhalen, geldt in de hele zone, terug 50 (VL/WAL) of blijft 30 (BRU) in de bebouwde kom (art. 22quater, 71.2 F1a/F4a)."
+ },
+ "h2-5-2": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "A14 kondigt aan, F87 staat bij de drempel; hoogstens 30 km/u over aangekondigde verhoogde inrichtingen en in zone 30 (art. 22ter.1). De absolute formulering \"altijd\" is nu weggewerkt."
+ },
+ "h2-5-3": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Woonerf/erf: 20 km/u, voetgangers hele breedte, spelen toegestaan, niet hinderen, parkeren enkel op plaatsen met P of bord (art. 22bis). F12a/F12b-uitleg klopt."
+ },
+ "h2-5-5": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "klein",
+    "tekst": "Maximum 30 km/u, binnen of buiten de bebouwde kom.",
+    "opmerking": "Art. 22quater/2.37: binnen F4a/F4b geldt 30 km/u; een schoolomgeving wordt afgebakend met F4a + A23. \"Binnen of buiten de bebouwde kom\" staat nergens in de bronnen; MB 9.9 1° verbiedt A23 waar de toegelaten snelheid al 70 of meer is (buiten de kom is dat standaard 70 of 90). De bewering is niet verifieerbaar en mogelijk misleidend.",
+    "voorstel": "\"Maximum 30 km/u in de hele schoolomgeving.\" (zonder \"binnen of buiten de bebouwde kom\")",
+    "bronnen": [
+     "https://www.wegcode.be/nl/perma/j6siwtihko/regulation_regulation",
+     "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+   }
+  ],
+  "gecontroleerd": "Kaarten kloppen: A23 wordt bij F4a gevoegd (art. 2.37, MB 12.1ter); F4a + A23 = begin, F4b = einde schoolomgeving; na de schoolomgeving in de bebouwde kom terug 50 (VL/WAL) of 30 (BRU) (art. 71.2 F1a). Het verschil met een gewone zone 30 (A23 erbij) wordt nu in de uitleg genoemd."
+ },
+ "h2-7-3": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "Tabel 50/50/30, 70 (90 met bord)/90/70, 120, 30, 20 klopt; kader en schema (\"Een bord gaat voor op de gewestregel. Voor je voertuig kan een lagere limiet gelden: de laagste telt.\") nu correct en consistent met h2-1-1 en h2-6-1."
+ },
+ "h2-intro-en-samenvatting": {
+  "status": "ok",
+  "problemen": [],
+  "gecontroleerd": "H2-intro, 4 doelen, 27 pagina-intro's en 8 samenvattingspunten gecontroleerd: kloppen en spreken elkaar niet tegen. Opm. (geen fout): H2 heeft geen paragraaf-intro's (par.intro), enkel pagina-intro's; H1 heeft het omgekeerd. De build ondersteunt beide (par.intro optioneel). Geen afgebroken zinnen, bordcodes of artikelnummers in zichtbare tekst."
+ }
+}

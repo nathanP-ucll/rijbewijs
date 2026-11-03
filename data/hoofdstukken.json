@@ -1,7 +1,7 @@
 {
  "_info": "Indeling van de cursus. Volgorde = hoofdstuknummer (1..n). 'thema' = bestandsnaam-thema in data/theorie. Paragraaf- en onderdeelnummers (N.M.K) worden door de build gegenereerd uit de volgorde van de blokken.",
  "lessen": {
-  "1": { "titel": "Borden en snelheden", "ondertitel": "Alle verkeersborden en wegmarkeringen, en de snelheden per wegtype en gewest." },
+  "1": { "titel": "Borden en snelheden", "ondertitel": "Alle verkeersborden en wegmarkeringen, de snelheden per wegtype en gewest, en wie je opdrachten mag geven." },
   "2": { "titel": "Voorrang en weggebruikers", "ondertitel": "Wie heeft voorrang? Kruispunten, verkeerslichten, voetgangers, fietsers, tram en bus." },
   "3": { "titel": "Plaats op de weg en snelwegen", "ondertitel": "Rijstroken, kruisen en inhalen, parkeren en keren, en de regels op autosnelwegen." },
   "4": { "titel": "Gedrag, ongeval, rijbewijs en techniek", "ondertitel": "Alcohol en afleiding, ongeval en eerste hulp, het rijbewijs, het theorie-examen en je voertuig." }
@@ -9,8 +9,9 @@
  "hoofdstukken": [
   { "thema": "borden", "les": 1, "titel": "Verkeersborden" },
   { "thema": "snelheden", "les": 1, "titel": "Snelheden en zones" },
+  { "thema": "bevoegd", "les": 1, "titel": "Bevoegde personen" },
   { "thema": "voorrang", "les": 2, "titel": "Voorrang en kruispunten" },
-  { "thema": "lichten", "les": 2, "titel": "Verkeerslichten en bevoegde personen" },
+  { "thema": "lichten", "les": 2, "titel": "Verkeerslichten" },
   { "thema": "kwetsbaar", "les": 2, "titel": "Voetgangers en fietsers" },
   { "thema": "openbaar", "les": 2, "titel": "Openbaar vervoer" },
   { "thema": "plaats", "les": 3, "titel": "Plaats op de weg" },

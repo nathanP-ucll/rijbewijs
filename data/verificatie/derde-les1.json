@@ -1,0 +1,194 @@
+{
+  "L1-M33": {
+    "status": "ok",
+    "opmerking": "KB art. 11.2 (Vlaams, Brussels en Waals Gewest) 1° b: 120 km/u buiten de bebouwde kom op wegen met minstens vier rijstroken, minstens twee per rijrichting, die anders dan door wegmarkeringen gescheiden zijn (een middenberm); 70 en 90 gelden enkel voor andere wegen resp. met C43. De vraag specificeert nu terecht personenauto, buiten de bebouwde kom, zonder bord. Een juist antwoord, afleiders onjuist. Beeld (gerenderd en bekeken): geeft geen snelheid meer, enkel 'met middenberm / buiten de bebouwde kom, twee rijstroken per richting'; verkeer rijdt correct rechts; middenberm duidelijk als fysieke groene berm met boordstenen. Geen bordcodes, geen 2027-regels.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M42": {
+    "status": "ok",
+    "opmerking": "Borden gerenderd en bekeken: A1a = bocht naar links (weg gaat omhoog en buigt links), A1b = rechts, A1c = dubbele bocht eerst links, A1d = eerst rechts, A3 = daling (helling zakt naar rechts, 7 %), A5 = stijgend. Dat klopt met de labels en met KB art. 66 (A1 gevaarlijke bocht, A3 gevaarlijke daling, A5 steile helling). Rechterkanten onderling niet overlappend ('daling' vs 'steile opgaande helling' duidelijk door de richting). Geen bordcodes in tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M47": {
+    "status": "ok",
+    "opmerking": "KB art. 67.3: B17 kruispunt waar voorrang van rechts geldt; B19 smalle doorgang, gebod voorrang te verlenen aan tegenliggers; B21 smalle doorgang, voorrang op tegenliggers; B22 en B23 fietsers mogen bij rood/oranjegeel rechts af resp. rechtdoor mits voorrang verlenen. Beelden bekeken: B19 rode ring met kleine rode pijl omhoog (jij) en zwarte pijl omlaag (tegenligger); B21 blauw, grote witte pijl omhoog, kleine rode omlaag; B22 pijl naar rechts, B23 pijl omhoog. Labels zijn eenduidig, geen synoniemen. Kleine opmerking: B19 en B21 blijven door hun gelijkenis lastig, maar dat is inhoudelijk de bedoeling.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M53": {
+    "status": "ok",
+    "opmerking": "KB art. 69.3: D1 verplichting de pijl te volgen; D3 verplichting een van de pijlen te volgen. Beelden bekeken: D1a pijl omhoog, D1e gebogen pijl naar links, D1f gebogen pijl naar rechts, D3a omhoog+links, D3b omhoog+rechts: consistent met de labels. D1c (diagonale pijl omlaag-links): volgens KB art. 69.3 betekent een niet-gebogen D1 op een hindernis dat men langs die kant voorbij moet rijden; het label 'Langs de linkerkant voorbijrijden' is dus juist maar plaatsafhankelijk. Suggestie (niet verplicht): 'Langs links voorbijrijden (bord op een hindernis)'. Geen overlap met 'Verplicht links afslaan' want dat is een gebogen pijl.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.learndrivingtheory.com/en/belgium/road-sign/sign-d1c"
+    ]
+  },
+  "L1-M55": {
+    "status": "ok",
+    "opmerking": "KB art. 70.2.1 3°: E9a parkeren toegelaten (parkeerschijf mag op E9a worden afgebeeld), E9e verplicht parkeren op berm/trottoir, E9f deels, E9g op de rijbaan, E9j specifieke regeling met opschrift (fietsen/auto's per tijdstip). De labels onderscheiden E9a ('zonder bijzondere regel') nu goed van het schijfbord. Beelden bekeken: E9e wielen op verhoging, E9f half, E9g wielen op rijbaan met rood kruis op de berm, E9a_Parkeerschijf toont schijfje (klein maar herkenbaar). Zwakte (klein): E9e/f/g verschillen enkel door een klein wielschema; moeilijk maar legitiem.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M56": {
+    "status": "ok",
+    "opmerking": "KB art. 70.2.1 3°: E9b uitsluitend voor motorfietsen, personenauto's, auto's voor dubbelgebruik en minibussen; E9c bestelwagens en vrachtauto's; E9d autocars; E9h kampeerauto's; E9i uitsluitend voor motorfietsen; handicapsymbool mag op E9a. Beelden bekeken: E9b toont enkel een auto, E9i enkel een motor, zodat elk bord via zijn pictogram bij een eigen label past. Het eerder gemelde overlapprobleem is opgelost doordat E9b nu 'personenauto's' heet en de uitleg het motorfiets-detail geeft. Geen bordcodes.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M59": {
+    "status": "twijfel",
+    "opmerking": "Betekenissen kloppen met KB art. 71.2 (F79 voorwegwijzer vermindering aantal rijstroken; F81 uitwijking; F87 verhoogde inrichting; F91 regel voor aangeduide rijstroken; F97 versmalling ter grootte van een rijstrook). PROBLEEM (overlappende labels): F97 toont een rijstrook die samenvoegt met de andere, en dat is inhoudelijk ook 'er komt een rijstrook minder'; het label van F79 ('Er komen minder rijstroken') past dus ook bij F97 en omgekeerd. Een leerling die F97 aan 'Er komen minder rijstroken' koppelt, redeneert verdedigbaar. Verder is 'Versmalling die de omvang van een rijstrook heeft' ambtelijk jargon. Voorstel: F79 = 'Aankondiging (oranje, bij werken): over de aangegeven afstand verdwijnt een rijstrook' en F97 = 'Een rijstrook loopt hier dood en voegt samen met de andere'; of F97 uit de oefening halen. Daarnaast toont het F91-beeld 50 boven alle drie de rijstroken, wat 'enkel voor de aangeduide rijstroken' niet illustreert (wettelijk wel een geldig bord).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M60": {
+    "status": "ok",
+    "opmerking": "KB art. 72.6 3°: andere voertuigen mogen op de bijzondere overrijdbare bedding enkel (a) rijden om een hindernis op de rijbaan te omzeilen, (b) de bedding dwarsen op kruispunten, (c) de bedding dwarsen om een eigendom of parkeerplaats te bereiken. Dat is optie 2. Het verschil met de busstrook (art. 72.5 3° b: van richting veranderen in de nabijheid van een kruispunt mag wel) maakt optie 3 een geldige, onjuiste afleider. F18-beeld bekeken (blauw bord BUS/TRAM met pijlen), geen spoiler. Geen bordcodes.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M65": {
+    "status": "ok",
+    "opmerking": "KB art. 71.2: F99a begin weg voor voetgangers, fietsers, ruiters en speed pedelecs; F99b idem met aanduiding van de delen; F99c begin weg voorbehouden voor landbouwvoertuigen (naast voetgangers, fietsers, ruiters, speed pedelecs); F101a einde. Labels zijn nu volledig (speed pedelecs vermeld). Beelden bekeken: F99a vier pictogrammen, F99b verticaal gedeeld bord met fiets links en voetgangers rechts, F99c met tractor, F101a met rode streep; onderling duidelijk te onderscheiden.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M66": {
+    "status": "ok",
+    "opmerking": "KB art. 71.2: F103 begin voetgangerszone, F105 einde, F111 begin fietszone, F113 einde fietszone; KB overgangsbepaling (art. 85): tot 1 januari 2035 mogen F111/F113 met de vermelding 'Fietsstraat' behouden worden. Dat komt overeen met de uitleg. Beelden bekeken: F103 wit bord met ZONE en voetgangers; F105 verbleekt met zwarte streep; F111 blauw 'Fietsstraat' met fietser boven auto; F113 met rode streep. Geen overlap; geen 2027-regel als huidig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M67": {
+    "status": "ok",
+    "opmerking": "KB art. 67.3: B3 is het bord dat B1 (voorrang verlenen) aankondigt op de bij benadering aangeduide afstand. Beeld bekeken: omgekeerde driehoek met onderbord 150 m; correct. Antwoord 1 is ondubbelzinnig; afleiders (150 m verplicht, niet stoppen, voorrangsweg lang) zijn fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M70": {
+    "status": "ok",
+    "opmerking": "KB art. 70.2.1 2°: E5 parkeerverbod van de 1e tot de 15e van de maand (beurtelings parkeren, enkel aan die kant van de weg). Op de 10e dus geen parkeren langs die kant: optie 1 is juist. Optie 4 ('stilstaan mag ook niet') is fout omdat E5 enkel parkeren verbiedt; optie 2 en 3 fout. Beeld E5 bekeken: blauwe schijf, rode ring, 1 en 15 met schuine streep; klopt. De vraag geeft enkel de datum, dus geen verklapping.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-B01": {
+    "status": "ok",
+    "opmerking": "KB art. 66: A3 gevaarlijke daling (A5 steile helling, A7 rijbaanversmalling, A9 beweegbare brug). Beeld bekeken: helling zakt naar rechts, 7 %. De afleider 'Steile helling' is vervangen door 'Rijbaanversmalling': er is nu geen tweede verdedigbaar antwoord. Geen bordcode in tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-B07": {
+    "status": "ok",
+    "opmerking": "KB art. 67.3: B21 smalle doorgang waarbij je voorrang hebt ten opzichte van tegenliggers; B19 gebod voorrang te verlenen aan tegenliggers. Beeld bekeken: blauwe rechthoek, grote witte pijl omhoog, kleine rode pijl omlaag; de uitleg beschrijft dit juist. De twee opties over smalle doorgang hebben tegengestelde betekenis, dus geen overlap.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-B14": {
+    "status": "ok",
+    "opmerking": "KB art. 70.2.1 1°: E3 stilstaan en parkeren verboden (E1 parkeerverbod). Het eerder gemelde probleem is opgelost: optie 2 luidt nu 'Parkeerverbod (stilstaan mag wel)' en is dus fout voor E3. Beeld bekeken: rood kruis op blauw. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-B15": {
+    "status": "ok",
+    "opmerking": "KB art. 70.2.1 2°: E7 parkeerverbod van de 16e tot het einde van de maand (E5 1e-15e). Opties onderscheiden zich helder: 1-15, hele maand, stilstaan en parkeren, 16-einde. Beeld bekeken: 16 en 31 met schuine streep. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-B20": {
+    "status": "ok",
+    "opmerking": "KB art. 71.2: F103 begin van een voetgangerszone. Opties: einde van een voetgangerszone (fout: bord heeft geen schuine streep), begin van een voetgangerszone (juist), woonerf, zone 30. De afleider 'fietszone' is weggenomen, dus het fietssymbool op F103 (uitzondering voor fietsers) kan niet meer misleiden. Beeld bekeken: wit bord met ZONE, voetganger met kind, tekst over laden en lossen en een fiets.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-K03": {
+    "status": "ok",
+    "opmerking": "KB art. 71.2, 67 en 68: F5 begin of oprit autosnelweg; F11 einde autoweg (blauw met auto en rode streep, anders dan F5); F12b einde woonerf/erf; F103 begin voetgangerszone; C37 einde van het door C35 opgelegde inhaalverbod; B13 kondigt B11 (einde voorrangsweg) aan. Alle zes beelden bekeken en kloppend. Zes unieke rechterkanten, geen overlap.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-011": {
+    "status": "ok",
+    "opmerking": "KB art. 68 C43: vanaf het bord tot en met het volgend kruispunt, of tot een ander C43-bord of het begin/einde van een bebouwde kom, woonerf of voetgangerszone, is het verboden sneller te rijden dan aangeduid. Dus juist: A (bovengrens) en B (tot het volgende kruispunt, tenzij een ander bord het beëindigt of wijzigt); C en D onjuist. Beeld C43 50 bekeken: neutraal rond bord met 50, geen spoiler. Meerdere juiste antwoorden worden in de vraag expliciet gevraagd.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-026": {
+    "status": "ok",
+    "opmerking": "KB art. 65.5.1: zonale geldigheid kan worden gegeven aan verbodsborden en parkeerborden; MB 11/10/1976 art. 6.7.1: uitgezonderd C1 (verboden richting), C31 (afslaan), C33 (verbod te keren) en C47 (tolpost); bij parkeerborden uitgezonderd E5, E7 en E11 (beurtelings parkeren). Dus juist: parkeerverbod (E1) en stilstaan- en parkeerverbod (E3); fout: verbod te keren en verboden richting. De vier optiebeelden bekeken: E1 (één schuine streep), E3 (kruis), verbod te keren (keerpijl met streep), verboden richting (rood bord met witte balk): correct getekend. Geen bordcodes in tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/regelgeving/1976101105~j6siwtihko"
+    ]
+  },
+  "L1-028": {
+    "status": "twijfel",
+    "opmerking": "Regel klopt: KB art. 72.3: wanneer de trekken van een onderbroken streep korter zijn en dichter bij elkaar, kondigen zij het naderen van een doorlopende streep aan. Eén juist antwoord (doorlopende; gele en oranje zijn fout). PROBLEEM IN HET BEELD: de korte trekken zijn omringd door een GELE stippellijn (afgeronde rechthoek, bedoeld als markering van het onderwerp). In een vraag die juist 'doorlopende / gele / oranje streep' als opties geeft is een gele stippellijn op het wegdek misleidend (lijkt een gele wegmarkering) en komt niet voor in echte markering. Voorstel: de gele omlijning vervangen door een neutrale accolade of pijl naast de weg of een label buiten het wegdek, of ze weglaten. Verder correct: auto rijdt rechts, lange trekken, dan korte trekken, dan vraagteken.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-030": {
+    "status": "ok",
+    "opmerking": "KB art. 76.2: een dwarsstreep van witte driehoeken duidt de plaats aan waar bestuurders zo nodig moeten stoppen om voorrang te verlenen (bij B1); MB art. 18.2: top van de driehoeken gericht naar de bestuurders die voorrang moeten verlenen. Optie 1 juist; 'altijd stoppen' (stopstreep, 76.1), voetgangersoversteek (76.3) en schuine strepen (77.4) zijn fout. Beeld bekeken en feitelijk juist: weg van onder op een T-kruispunt, drie witte driehoeken in de rechterstrook met de punt naar de blauwe auto, doorgaande weg met rode auto die rechts rijdt, geen verzonnen details en geen bord (dus geen spoiler).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/regelgeving/1976101105~j6siwtihko"
+    ]
+  },
+  "L1-032": {
+    "status": "twijfel",
+    "opmerking": "Inhoud klopt met KB art. 11.1/11.2: bebouwde kom Vlaanderen 50, Wallonië 50, Brussel 30; buiten bebouwde kom zonder bord Vlaanderen 70, Wallonië 90, Brussel 70; autosnelweg 120 overal (personenwagen). Tabel eenduidig. PROBLEEM IN HET BEELD (schema-plaatsen-drie-oefening): twee van de drie stroken tonen verkeer aan de verkeerde kant (linksrijdend). Middenstrook: middenlijn op y=270, de blauwe auto (rotate 270, rijdt naar links/west) staat op y=282 in de zuidelijke helft; wie naar het westen rijdt hoort in de noordelijke helft (rechts) te zitten. Autosnelweg: de gele en groene auto rijden naar rechts/oost in de noordelijke rijbaan en de rode naar links/west in de zuidelijke; correct is oost in de zuidelijke en west in de noordelijke rijbaan. Alleen de bovenste straat (rode auto naar oost in de zuidelijke helft) is juist. Een Belgische cursus mag geen linksrijdend verkeer tonen. Voorstel: in de SVG de auto's spiegelen (blauwe auto naar y=258; op de snelweg de rijrichtingen/rotaties omruilen). Verder verklapt het beeld niets (geen cijfers); begin-bebouwde-kom-bord en autosnelwegbord zijn herkenbaar.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-036": {
+    "status": "ok",
+    "opmerking": "KB art. 11.1: bebouwde kom Vlaams Gewest 50, Waals Gewest 50, Brussels Hoofdstedelijk Gewest 30 (zonder C43). Juiste antwoorden Vlaanderen en Wallonië; de uitleg met 'sinds 1 januari 2021' voor Brussel is correct. Beeld bekeken: vereenvoudigde kaart van België met geel noorden (Vlaanderen), rood zuiden (Wallonië) en klein blauw Brussel met label; herkenbaar als België, namen kloppen, geen snelheden getoond. Kleine kanttekeningen: de omtrek is hoekig, en Brussel raakt in de tekening de grens met Wallonië terwijl het Brussels Gewest in werkelijkheid volledig door Vlaams-Brabant omgeven is; het blauwe vlak mag iets naar boven. Geen fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-037": {
+    "status": "ok",
+    "opmerking": "KB art. 11.1 en 11.2: Brussel in de kom 30; Vlaanderen in de kom 50 en buiten de kom 70; Wallonië buiten de kom 90 (11.2 2°); autosnelweg 120 in alle gewesten (personenwagen). Vijf unieke rechterkanten (30/50/70/90/120), geen overlappende labels. Beelden bekeken: F1b (begin bebouwde kom), F3b (einde bebouwde kom, doorgestreept) en F5 (autosnelweg) correct; hergebruik van hetzelfde bord voor twee rijen is geen probleem omdat de labels de gewesten onderscheiden. Opmerking: F3b (einde bebouwde kom) illustreert 'buiten de kom'; aanvaardbaar.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-044": {
+    "status": "ok",
+    "opmerking": "KB art. 22bis: in woonerven en erven mogen voetgangers de ganse breedte gebruiken, spelen is toegelaten (1°), snelheid beperkt tot 20 km/u (3°), parkeren verboden behalve op aangeduide plaatsen (4°). Dus juist: optie 1 en 2; fout: 'overal parkeren' en 'spelen verboden'. Beeld F12a bekeken (voetganger, auto, huis, spelend kind): correct en geen spoiler van de antwoorden.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-049": {
+    "status": "ok",
+    "opmerking": "KB art. 10.1: de bestuurder regelt zijn snelheid naar andere weggebruikers, weer, plaatsgesteldheid, verkeersdichtheid, zicht, staat van de weg en staat/lading van het voertuig; de maximumsnelheid is een bovengrens (art. 11). Cloze: 'maximum' en 'omstandigheden' juist. Beeld bekeken: sterdiagram met factoren (kwetsbare weggebruikers, weer/zicht/verkeersdichtheid, voertuig, weg, afstand): correct en geeft niet meer weg dan de zin zelf. Zwakte (stijl, niet fout): de afleiders 'kleur/merk van je voertuig' zijn erg voor de hand liggend.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  }
+}
