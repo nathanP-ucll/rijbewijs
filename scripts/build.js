@@ -348,8 +348,10 @@ for (const les of [1, 2, 3, 4]) {
     for (const par of h.paragrafen) {
       let k = 0;
       const parBlokken = new Set();
+      const secties = [];
+      if (par.intro) zin('h' + hn + ' ' + par.nr + ' intro', par.intro);
       (par.paginas || []).forEach((pg, pi) => {
-        const where = 'h' + hn + ' ' + par.nr + ' pagina ' + (pi + 1);
+        const where = 'h' + hn + ' ' + par.nr + ' sectie ' + (pi + 1);
         if (paginaIds.has(pg.id)) err('Dubbele pagina-id ' + pg.id); paginaIds.add(pg.id);
         valideerPagina(pg, where);
         k++;
@@ -358,19 +360,22 @@ for (const les of [1, 2, 3, 4]) {
         (pg.theorieblokken || []).forEach((id) => {
           parBlokken.add(id);
           (oefPerBlok[id] || []).forEach((eid) => { const e = exLookup.get(eid); if (e && e.mini && !gekoppeld.has(eid)) { minis.push(eid); gekoppeld.add(eid); } });
-          if (!blokPagina[id]) blokPagina[id] = { les, pagina: pages.length + 1 };
         });
-        pages.push({ t: 'pagina', id: pg.id, titel: pg.titel, intro: pg.intro || '', blokken: pg.blokken || [], theorieblokken: pg.theorieblokken || [], mini: minis, hn, hoofdstuk, par: par.nr, parTitel: par.titel, parEerste: pi === 0, nr: par.nr + '.' + k, toc: pi === 0 });
+        secties.push({ id: pg.id, nr: par.nr + '.' + k, titel: pg.titel, intro: pg.intro || '', blokken: pg.blokken || [], theorieblokken: pg.theorieblokken || [], mini: minis });
       });
-      // gewone oefeningen van deze paragraaf op eigen pagina's
+      // gewone oefeningen van deze paragraaf: onderaan dezelfde pagina
+      const oefs = [];
       for (const id of parBlokken) {
         for (const eid of oefPerBlok[id] || []) {
           const e = exLookup.get(eid);
           if (!e || e.mini || gekoppeld.has(eid)) continue;
           gekoppeld.add(eid); k++;
-          pages.push({ t: 'oef', ex: eid, blok: id, hn, hoofdstuk, par: par.nr, nr: par.nr + '.' + k, titel: 'Oefening' });
+          oefs.push({ ex: eid, blok: id, nr: par.nr + '.' + k });
         }
       }
+      const pageNr = pages.length + 1;
+      secties.forEach((sc) => sc.theorieblokken.forEach((id) => { if (!blokPagina[id]) blokPagina[id] = { les, pagina: pageNr, sectie: sc.nr }; }));
+      pages.push({ t: 'paragraaf', hn, hoofdstuk, par: par.nr, parTitel: par.titel, parIntro: par.intro || '', titel: par.titel, nr: par.nr + '.0', secties, oefeningen: oefs, toc: true });
     }
   }
   chs.forEach((h, ti) => {
@@ -381,8 +386,10 @@ for (const les of [1, 2, 3, 4]) {
   });
   pages.push({ t: 'eindtest', titel: 'Eindtest les ' + les, toc: true });
   pages.forEach((p, i) => {
-    if (p.t === 'oef') exLoc[p.ex] = { les, pagina: i + 1, nr: p.nr || null };
-    (p.mini || []).forEach((id) => { exLoc[id] = { les, pagina: i + 1, nr: p.nr || null }; });
+    if (p.t === 'paragraaf') {
+      p.secties.forEach((sc) => sc.mini.forEach((id) => { exLoc[id] = { les, pagina: i + 1, nr: sc.nr }; }));
+      p.oefeningen.forEach((o) => { exLoc[o.ex] = { les, pagina: i + 1, nr: o.nr }; });
+    }
   });
   boeken[les] = { les, titel: LES_TITELS[les], ondertitel: LES_ONDERTITELS[les], themas: chs.map((h) => ({ id: 'h' + h.hoofdstuk, naam: h.titel, nr: h.hoofdstuk })), pages, leeg: chs.length === 0 };
 }

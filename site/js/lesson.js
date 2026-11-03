@@ -128,9 +128,9 @@
     var book = C.boeken && C.boeken[les];
     if (!book) { wrap.textContent = 'Deze les is nog niet beschikbaar.'; return; }
     var pages = book.pages, N = pages.length, cur = 0;
-    var contentIdx = []; pages.forEach(function (p, i) { if (p.t === 'pagina') contentIdx.push(i); });
+    var contentIdx = []; pages.forEach(function (p, i) { if (p.t === 'paragraaf') contentIdx.push(i); });
     var NC = contentIdx.length;
-    var totalEx = pages.filter(function (p) { return p.t === 'oef'; }).length + pages.reduce(function (n, p) { return n + (p.mini ? p.mini.length : 0); }, 0);
+    var totalEx = pages.reduce(function (n, p) { return n + (p.t === 'paragraaf' ? p.oefeningen.length + p.secties.reduce(function (m, sc) { return m + sc.mini.length; }, 0) : 0); }, 0);
     var eindPool = (function () {
       var all = C.oefeningen.filter(function (o) { return o.les === les && !o.mini; });
       var ex = all.filter(function (o) { return o.examen !== false; });
@@ -178,38 +178,52 @@
       var two = el('div', { class: 'opener-two' });
       if (p.doelen && p.doelen.length) two.appendChild(el('section', { class: 'opener-col' }, el('h2', {}, 'Dit leer je'), el('ul', { class: 'plain-list' }, p.doelen.map(function (t) { return el('li', { html: App.inline(t) }); }))));
       var pars = [];
-      pages.forEach(function (q, i) { if (q.hn === p.hn && q.t === 'pagina' && q.parEerste) pars.push([i, q]); });
+      pages.forEach(function (q, i) { if (q.hn === p.hn && q.t === 'paragraaf') pars.push([i, q]); });
       if (pars.length) two.appendChild(el('section', { class: 'opener-col' }, el('h2', {}, 'In dit hoofdstuk'), el('ol', { class: 'par-list' }, pars.map(function (x) { return el('li', {}, el('a', { href: '#p' + (x[0] + 1) }, el('span', { class: 'par-nr' }, x[1].par), ' ', App.clean(x[1].parTitel))); }))));
       d.appendChild(two);
       return d;
     }
 
-    function pagePagina(p) {
-      var d = el('section', { class: 'slide slide-pagina' });
-      kopband(d, p);
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(p.titel)));
-      if (p.intro) d.appendChild(el('p', { class: 'lead-sent', html: App.inline(p.intro) }));
-      d.appendChild(layoutBlokken(p.blokken));
-      return d;
-    }
+    function firstSentence(t) { var m = /^(.+?[.!?])(\s|$)/.exec(String(t || '').trim()); return m ? m[1] : String(t || ''); }
 
-    function pageOef(p, idx) {
-      var ex = App.exById(p.ex);
-      var d = el('section', { class: 'slide slide-oef' });
-      kopband(d, p, 'Oefening');
-      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, 'Al eens oefenen'));
-      if (!ex) { d.appendChild(el('p', {}, 'Deze oefening ontbreekt.')); return d; }
-      var nr = pages.slice(0, idx + 1).filter(function (q) { return q.t === 'oef' && q.par === p.par; }).length;
-      App.mountExercise(ex, d, { nr: nr, plain: true, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } });
-      return d;
-    }
-
-    function miniSection(p, idx) {
-      var exs = (p.mini || []).map(App.exById).filter(Boolean);
+    function miniSection(sc, idx) {
+      var exs = (sc.mini || []).map(App.exById).filter(Boolean);
       if (!exs.length) return null;
-      var sec = el('section', { class: 'mini-ex', 'aria-label': 'Al eens oefenen' }, el('h2', { class: 'mini-title' }, 'Al eens oefenen'));
-      exs.forEach(function (ex) { App.mountExercise(ex, sec, { plain: true, mini: true, nolink: true, onResult: function () { App.markDone(les, idx); paintBar(); } }); });
+      var sec = el('div', { class: 'mini-ex', 'aria-label': 'Al eens oefenen' }, el('h3', { class: 'mini-title' }, 'Al eens oefenen'));
+      exs.forEach(function (ex) { App.mountExercise(ex, sec, { plain: true, mini: true, nolink: true, onResult: function () { sectionDone(idx); } }); });
       return sec;
+    }
+    function sectionDone() { /* paragraaf geldt als gedaan bij 'Volgende' of onderaan scrollen */ }
+
+    function pageParagraaf(p, idx) {
+      var d = el('article', { class: 'slide slide-par' });
+      d.appendChild(el('p', { class: 'pnr' }, p.nr));
+      d.appendChild(el('h1', { class: 'page-title', tabindex: '-1', id: 'page-title' }, App.clean(p.parTitel)));
+      var fallback = !p.parIntro && p.secties[0] && p.secties[0].intro;
+      var intro = p.parIntro || (p.secties[0] ? firstSentence(p.secties[0].intro || '') : '');
+      if (intro) d.appendChild(el('p', { class: 'lead-sent', html: App.inline(intro) }));
+      p.secties.forEach(function (sc, si) {
+        var sec = el('section', { class: 'sectie', id: 's-' + sc.nr, 'data-nr': sc.nr, 'aria-labelledby': 'st-' + sc.nr });
+        sec.appendChild(el('p', { class: 'pnr' }, sc.nr));
+        sec.appendChild(el('h2', { class: 'page-title sec-title', id: 'st-' + sc.nr }, App.clean(sc.titel)));
+        if (sc.intro && !(fallback && si === 0 && firstSentence(sc.intro) === sc.intro)) sec.appendChild(el('p', { class: 'lead-sent', html: App.inline(sc.intro) }));
+        sec.appendChild(layoutBlokken(sc.blokken));
+        var mini = miniSection(sc, idx);
+        if (mini) sec.appendChild(mini); else { var o = onthoudVan(sc); if (o) sec.appendChild(o); }
+        d.appendChild(sec);
+      });
+      if (p.oefeningen.length) {
+        var os = el('section', { class: 'sectie oef-sectie', id: 's-oef-' + p.par }, el('h2', { class: 'page-title sec-title' }, 'Oefeningen bij ' + p.par));
+        p.oefeningen.forEach(function (o) {
+          var ex = App.exById(o.ex); if (!ex) return;
+          var w = el('div', { class: 'oef-item', id: 's-' + o.nr, 'data-nr': o.nr }, el('p', { class: 'pnr' }, o.nr));
+          App.mountExercise(ex, w, { plain: true, nolink: true, onResult: function () { /* gedaan */ } });
+          os.appendChild(w);
+        });
+        d.appendChild(os);
+      }
+      d.appendChild(el('div', { class: 'end-sentinel', 'aria-hidden': 'true' }));
+      return d;
     }
 
     function pageSamenvatting(p) {
@@ -287,24 +301,35 @@
       document.addEventListener('keydown', function (e) { if (e.key === 'Escape') closeAll(true); });
       bar.next.addEventListener('click', function () { if (cur < N - 1) App.markDone(les, cur); });
     }
-    var openChap = {};
+    var userMoved = false;
+    ['wheel', 'touchstart', 'keydown', 'mousedown'].forEach(function (ev) { window.addEventListener(ev, function () { userMoved = true; }, { passive: true }); });
+    var openChap = {}, curSec = null, secObs = null, endObs = null;
     function paintToc() {
       bar.tocPop.innerHTML = '';
       bar.tocPop.appendChild(el('p', { class: 'pop-title' }, 'Les ' + les + ': ' + book.titel));
       var curK = tocOf(cur), curP = pages[cur];
       var body = el('div', { class: 'pop-body' });
-      function entry(i, k, label, num) {
+      function entry(i, k, label, num, secs) {
         var done = App.isDone(les, rangeEnd(k));
-        return el('li', {}, el('a', { href: '#p' + (i + 1), class: 'pop-link' + (k === curK ? ' current' : '') + (done ? ' done' : ''), 'aria-current': k === curK ? 'page' : null },
+        var li = el('li', {}, el('a', { href: '#p' + (i + 1), class: 'pop-link' + (k === curK ? ' current' : '') + (done ? ' done' : ''), 'aria-current': k === curK ? 'page' : null },
           el('span', { class: 'pop-n', html: done ? App.icon('check', 14) : '' }), el('span', { class: 'pop-num' }, num || ''), el('span', { class: 'pop-t' }, label), done ? el('span', { class: 'sr' }, ' (gedaan)') : null));
+        if (secs && secs.length) li.appendChild(el('ul', { class: 'pop-secs' }, secs.map(function (x) {
+          return el('li', {}, el('a', { href: '#p' + (i + 1) + '-' + x.nr, class: 'pop-sec' + (k === curK && curSec === x.nr ? ' sec-current' : ''), 'data-nr': x.nr }, el('span', { class: 'pop-num' }, x.nr), el('span', { class: 'pop-t' }, App.clean(x.titel))));
+        })));
+        return li;
       }
       var chapters = {}, order = [], end = [];
       tocIdx.forEach(function (i, k) {
         var p = pages[i];
         if (p.t === 'intro') body.appendChild(el('ul', { class: 'pop-list' }, entry(i, k, 'Inleiding')));
-        else if (p.t === 'opener' || p.t === 'pagina') {
+        else if (p.t === 'opener' || p.t === 'paragraaf') {
           var h = p.hn; if (!chapters[h]) { chapters[h] = { hn: h, titel: p.hoofdstuk, items: [] }; order.push(h); }
-          chapters[h].items.push(p.t === 'opener' ? entry(i, k, 'Overzicht van het hoofdstuk') : entry(i, k, App.clean(p.parTitel || p.titel), p.par));
+          if (p.t === 'opener') chapters[h].items.push(entry(i, k, 'Overzicht van het hoofdstuk'));
+          else {
+            var secs = p.secties.map(function (sc) { return { nr: sc.nr, titel: sc.titel }; });
+            if (p.oefeningen.length) secs.push({ nr: p.oefeningen[0].nr, titel: 'Oefeningen bij ' + p.par });
+            chapters[h].items.push(entry(i, k, App.clean(p.parTitel), p.par, secs));
+          }
         } else end.push(entry(i, k, p.t === 'samenvatting' ? 'Samenvatting' : p.titel));
       });
       order.forEach(function (h) {
@@ -320,8 +345,7 @@
     }
     function paintBar() {
       var p = pages[cur], before = contentIdx.filter(function (i) { return i <= cur; }).length, lbl;
-      if (p.t === 'pagina') lbl = 'Pagina <strong>' + before + '</strong> van ' + NC;
-      else if (p.t === 'oef') lbl = 'Oefening <strong>' + p.nr + '</strong>';
+      if (p.t === 'paragraaf') lbl = 'Pagina <strong>' + before + '</strong> van ' + NC;
       else if (p.t === 'opener') lbl = 'Hoofdstuk <strong>' + p.hn + '</strong>';
       else if (p.t === 'samenvatting') lbl = '<strong>Samenvatting</strong>';
       else if (p.t === 'eindtest') lbl = '<strong>Eindtest</strong>';
@@ -336,6 +360,39 @@
       paintToc();
     }
 
+    /* ----- huidige sectie volgen tijdens het scrollen ----- */
+    function markSec(nr) {
+      if (!nr || nr === curSec) return;
+      curSec = nr;
+      Array.prototype.forEach.call(bar.tocPop.querySelectorAll('.pop-sec'), function (a) { a.classList.toggle('sec-current', a.getAttribute('data-nr') === nr); });
+      try { history.replaceState(null, '', '#p' + (cur + 1) + '-' + nr); } catch (e) { /* file:// of geblokkeerd */ }
+    }
+    function setupObservers() {
+      if (secObs) { secObs.disconnect(); secObs = null; }
+      if (endObs) { endObs.disconnect(); endObs = null; }
+      curSec = null;
+      if (!('IntersectionObserver' in window)) return;
+      var secs = wrap.querySelectorAll('.sectie[data-nr], .oef-item[data-nr]');
+      if (secs.length) {
+        secObs = new IntersectionObserver(function (entries) {
+          entries.forEach(function (en) { if (en.isIntersecting) markSec(en.target.getAttribute('data-nr')); });
+        }, { rootMargin: '-25% 0px -65% 0px' });
+        Array.prototype.forEach.call(secs, function (n) { secObs.observe(n); });
+      }
+      var sent = wrap.querySelector('.end-sentinel');
+      if (sent) {
+        var pageIdx = cur;
+        endObs = new IntersectionObserver(function (entries) { entries.forEach(function (en) { if (en.isIntersecting) { App.markDone(les, pageIdx); paintToc(); } }); });
+        endObs.observe(sent);
+      }
+    }
+    function scrollToSec(nr, instant) {
+      var t = document.getElementById('s-' + nr) || document.getElementById('s-oef-' + nr);
+      if (!t) return false;
+      t.scrollIntoView({ behavior: (instant || App.reducedMotion()) ? 'auto' : 'smooth', block: 'start' });
+      return true;
+    }
+
     /* ----- tonen ----- */
     function show(i, opts) {
       opts = opts || {};
@@ -348,37 +405,49 @@
       document.body.setAttribute('data-h', p.hn || '0');
       if (p.t === 'intro') content = pageIntro();
       else if (p.t === 'opener') content = pageOpener(p);
-      else if (p.t === 'pagina') content = pagePagina(p);
-      else if (p.t === 'oef') content = pageOef(p, i);
+      else if (p.t === 'paragraaf') content = pageParagraaf(p, i);
       else if (p.t === 'samenvatting') content = pageSamenvatting(p);
       else content = pageEind(i);
-      if (p.t === 'pagina') {
-        var mini = miniSection(p, i);
-        if (mini) content.appendChild(mini); else { var o = onthoudVan(p); if (o) content.appendChild(o); }
-      }
       wrap.appendChild(content);
-      // gespreide start van kaarten e.d. (stagger)
-      Array.prototype.forEach.call(wrap.querySelectorAll('.blocks > *, .cell, .vcol, .chap-card, .opener-col, .mini-ex, .onthoud'), function (n, k) { n.style.setProperty('--i', Math.min(k, 12)); });
+      Array.prototype.forEach.call(wrap.querySelectorAll('.cell, .vcol, .chap-card, .opener-col'), function (n, k) { n.style.setProperty('--i', Math.min(k % 9, 8)); });
       wrap.classList.remove('enter-next', 'enter-prev'); void wrap.offsetWidth; wrap.classList.add('enter-' + dir);
       if (p.t === 'samenvatting' || p.t === 'opener') App.markDone(les, i);
       App.state.last[les] = i + 1; App.state.recent = les; App.save();
-      document.title = (p.t === 'oef' ? 'Oefening ' + p.nr : p.titel) + ' · Les ' + les + ' · Theorie rijbewijs B';
+      document.title = p.titel + ' · Les ' + les + ' · Theorie rijbewijs B';
       paintBar();
+      setupObservers();
       if (opts.scroll !== false) {
-        window.scrollTo({ top: 0, behavior: 'auto' });
-        var h = document.getElementById('page-title'); if (h) h.focus({ preventScroll: true });
+        if (opts.sec && scrollToSec(opts.sec, true)) { userMoved = false; [250, 700, 1400].forEach(function (ms) { setTimeout(function () { if (!userMoved && cur === i) scrollToSec(opts.sec, true); }, ms); }); }
+        else if (opts.restoreY != null) window.scrollTo({ top: opts.restoreY, behavior: 'auto' });
+        else window.scrollTo({ top: 0, behavior: 'auto' });
+        var h = document.getElementById('page-title'); if (h && !opts.sec) h.focus({ preventScroll: true });
       }
     }
-    function fromHash() { var m = /^#p(\d+)$/.exec(location.hash); return m ? Number(m[1]) - 1 : null; }
-    window.addEventListener('hashchange', function () { var h = fromHash(); if (h != null) show(h, { fromNav: true }); });
-    buildBar();
-    var start = fromHash();
-    if (start == null) {
-      var l = App.state.last[les];
-      start = l && l > 1 && l <= N ? l - 1 : 0;
-      try { history.replaceState(null, '', '#p' + (start + 1)); } catch (e) { /* file:// of geblokkeerd */ }
+    function parseHash() {
+      var m = /^#p(\d+)(?:-([\w.\-]+))?$/.exec(location.hash);
+      return m ? { i: Number(m[1]) - 1, sec: m[2] || null } : null;
     }
-    show(start, { scroll: false });
+    window.addEventListener('hashchange', function () {
+      var h = parseHash(); if (!h) return;
+      if (h.i === cur) { if (h.sec) { scrollToSec(h.sec, false); } else window.scrollTo({ top: 0, behavior: App.reducedMotion() ? 'auto' : 'smooth' }); return; }
+      show(h.i, { fromNav: true, sec: h.sec });
+    });
+    buildBar();
+    var h0 = parseHash(), sv = App.state.scroll && App.state.scroll[les];
+    var startI = h0 ? h0.i : (function () { var l = App.state.last[les]; return l && l > 1 && l <= N ? l - 1 : 0; })();
+    var restoreY = (!h0 || !h0.sec) && sv && sv.p === startI + 1 ? sv.y : null;
+    if (!h0) { try { history.replaceState(null, '', '#p' + (startI + 1)); } catch (e) { /* file:// of geblokkeerd */ } }
+    show(startI, { sec: h0 && h0.sec, restoreY: restoreY, scroll: !!(restoreY != null || (h0 && h0.sec)) });
+    var scrollTimer = null;
+    window.addEventListener('scroll', function () {
+      if (scrollTimer) return;
+      scrollTimer = setTimeout(function () {
+        scrollTimer = null;
+        App.state.scroll = App.state.scroll || {};
+        App.state.scroll[les] = { p: cur + 1, y: Math.round(window.pageYOffset) };
+        App.save();
+      }, 500);
+    }, { passive: true });
 
     document.addEventListener('keydown', function (e) {
       if (e.altKey || e.ctrlKey || e.metaKey || e.shiftKey) return;

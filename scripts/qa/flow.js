@@ -137,7 +137,7 @@ async function solve(page, art, ex, right) {
   ok(page.url().endsWith('#p2'), 'Volgende -> #p2');
   await page.waitForTimeout(150);
   await page.keyboard.press('ArrowRight');
-  ok(page.url().endsWith('#p3'), 'pijl rechts -> #p3');
+  ok(page.url().includes('#p3'), 'pijl rechts -> #p3');
   await page.waitForTimeout(150);
   await page.keyboard.press('ArrowLeft');
   ok(page.url().endsWith('#p2'), 'pijl links -> #p2');
@@ -153,7 +153,7 @@ async function solve(page, art, ex, right) {
   const cnt = await page.evaluate(() => window.CURSUS.boeken[1].pages.length);
   await page.goto(url('les1.html')); await page.waitForSelector('.fb-count');
   const hashNow = page.url().split('#p')[1];
-  ok(Number(hashNow) > 2, 'terug naar laatst bezochte pagina (localStorage): p' + hashNow + ' van ' + cnt);
+  ok(parseInt(hashNow, 10) > 2, 'terug naar laatst bezochte pagina (localStorage): p' + hashNow + ' van ' + cnt);
   await page.getByRole('button', { name: /Inhoud/ }).click();
   ok((await page.locator('#pop-toc .pop-link.done').count()) >= 1, "vinkjes voor gedane onderdelen");
   await page.keyboard.press('Escape');

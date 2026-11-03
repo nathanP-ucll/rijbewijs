@@ -732,7 +732,7 @@
       nr != null ? el('span', { class: 'ex-num', 'aria-hidden': 'true' }, String(nr)) : null,
       el('span', { class: 'ex-type' }, TYPE_LABEL[ex.type] || ex.type),
       el('span', { class: 'ex-diff', title: 'Moeilijkheid ' + d + ' van 3' }, el('span', { class: 'sr' }, 'Moeilijkheid ' + d + ' van 3'), [1, 2, 3].map(function (i) { return el('i', { class: i <= d ? 'on' : '', 'aria-hidden': 'true' }); })),
-      loc && loc.nr ? el('a', { class: 'ex-loc', href: 'les' + loc.les + '.html#p' + loc.pagina, title: 'Ga naar dit onderdeel in de cursus' }, 'Onderdeel ' + loc.nr) : null,
+      loc && loc.nr ? el('a', { class: 'ex-loc', href: 'les' + loc.les + '.html#p' + loc.pagina + '-' + loc.nr, title: 'Ga naar dit onderdeel in de cursus' }, 'Onderdeel ' + loc.nr) : null,
       ex.gewicht === 'zwaar' ? el('span', { class: 'ex-heavy', title: 'Zware fout op het examen: -5 punten' }, 'Zware fout') : null);
   }
   function question(ex) {
@@ -767,7 +767,7 @@
     var bShow = el('button', { type: 'button', class: 'btn', hidden: true }, 'Toon het juiste antwoord');
     var bRetry = el('button', { type: 'button', class: 'btn', hidden: true, html: App.icon('retry', 16) + ' Probeer opnieuw' });
     var href = ex.theorieblok ? App.theorieHref(ex.theorieblok) : null;
-    var bTheory = href && !opts.mini ? el('a', { class: 'btn btn-ghost', href: href, html: App.icon('theory', 16) + ' Toon theorie' }) : null;
+    var bTheory = href && !opts.mini && !opts.plain ? el('a', { class: 'btn btn-ghost', href: href, html: App.icon('theory', 16) + ' Toon theorie' }) : null;
     var art = el('article', { class: 'ex ex-' + ex.type + (opts.mini ? ' ex-mini' : '') + (opts.plain ? ' ex-plain' : ''), 'data-id': ex.id, 'aria-label': 'Oefening ' + (opts.nr || '') });
     var done = false;
 

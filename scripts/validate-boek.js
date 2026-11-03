@@ -15,6 +15,12 @@ for (const f of fs.readdirSync(path.join(root, 'data', 'theorie'))) {
   const d = JSON.parse(fs.readFileSync(path.join(root, 'data', 'theorie', f), 'utf8'));
   for (const b of d.blokken || []) blokIds.add(b.id);
 }
+const oefIds = new Set();
+const oefDir = path.join(root, 'data', 'oefeningen');
+if (fs.existsSync(oefDir)) for (const f of fs.readdirSync(oefDir)) {
+  if (!f.endsWith('.json')) continue;
+  try { for (const o of JSON.parse(fs.readFileSync(path.join(oefDir, f), 'utf8'))) oefIds.add(o.id); } catch (e) { /* genegeerd */ }
+}
 const bordIndex = JSON.parse(fs.readFileSync(path.join(root, 'data', 'borden-index.json'), 'utf8'));
 const bordOk = k => bordIndex[k] && bordIndex[k].gecontroleerd === true;
 const bestaat = (map, afb) => fs.existsSync(path.join(root, 'site', 'img', map, afb + '.svg'));
@@ -59,17 +65,21 @@ for (const file of files) {
   const gebruiktBlok = new Map();
   for (const p of d.paragrafen || []) {
     kop(`${naam} ${p.nr}`, p.titel);
+    // intro van de paragraaf (optioneel; als aanwezig: 1-3 zinnen, netjes eindigend)
+    if (p.intro !== undefined) tekst(`${naam} ${p.nr} intro`, p.intro, { max: 60 });
     if (!p.nr || !p.nr.startsWith(d.hoofdstuk + '.')) fout(naam, `paragraafnummer ${p.nr} past niet bij hoofdstuk`);
-    if (!p.paginas || p.paginas.length < 1 || p.paginas.length > 8) waarschuw(`${naam} ${p.nr}`, `aantal pagina's: ${(p.paginas || []).length}`);
+    if (!p.paginas || p.paginas.length < 1 || p.paginas.length > 16) waarschuw(`${naam} ${p.nr}`, `aantal pagina's: ${(p.paginas || []).length}`);
     for (const pg of p.paginas || []) {
       aantal++;
       const c = `${naam} ${pg.id}`;
       if (!pg.id || ids.has(pg.id)) fout(c, 'id ontbreekt of dubbel'); ids.add(pg.id);
       kop(c + ' titel', pg.titel);
-      tekst(c + ' intro', pg.intro, { max: 25 });
+      if (pg.intro !== undefined) tekst(c + ' intro', pg.intro, { max: 25 }); // optioneel bij pagina's met grid/tekst/tip/oefening
       const bl = pg.blokken || [];
-      if (bl.length < 3 || bl.length > 6) fout(c, `${bl.length} blokken (moet 3-6 zijn)`);
-      if (bl.filter(b => b.type === 'kader').length > 1) fout(c, 'meer dan 1 kader');
+      const heeftOef = bl.some(b => b.type === 'oefening');
+      if (bl.length < (heeftOef ? 2 : 3) || bl.length > 6) fout(c, `${bl.length} blokken (moet ${heeftOef ? 2 : 3}-6 zijn)`);
+      if (bl.filter(b => b.type === 'kader' || b.type === 'tip').length > 1) fout(c, 'meer dan 1 kader/tip');
+      if (bl.filter(b => b.type === 'oefening').length > 1) fout(c, 'meer dan 1 oefening-blok');
       for (const [i, b] of bl.entries()) {
         const bc = `${c} blok ${i + 1} (${b.type})`;
         switch (b.type) {
@@ -118,13 +128,33 @@ for (const file of files) {
           case 'voorbeeld':
             tekst(bc, b.tekst, { max: 40 });
             break;
+          case 'grid':
+            if (!b.items || !b.items.length || b.items.length > 9) fout(bc, 'grid moet 1-9 items hebben');
+            if (b.kolommen !== undefined && !(b.kolommen >= 1 && b.kolommen <= 4)) fout(bc, 'kolommen moet 1-4 zijn');
+            for (const k of b.items || []) {
+              afb(bc, k.afb, 'borden'); kop(bc + ' naam', k.naam);
+              tekst(bc + ' uitleg ' + k.afb, k.uitleg, { max: 12 });
+            }
+            break;
+          case 'tekst':
+            if (!Array.isArray(b.alineas) || !b.alineas.length) fout(bc, 'alineas ontbreken');
+            (b.alineas || []).forEach((t, j) => tekst(`${bc} alinea ${j + 1}`, t, { max: 60 }));
+            break;
+          case 'tip':
+            kop(bc + ' titel', b.titel);
+            tekst(bc + ' tekst', b.tekst, { max: 35 });
+            break;
+          case 'oefening':
+            if (!Array.isArray(b.ids) || !b.ids.length) fout(bc, 'ids ontbreken');
+            for (const id of b.ids || []) if (!oefIds.has(id)) waarschuw(bc, `oefening bestaat niet in data/oefeningen: ${id}`);
+            break;
           default:
             fout(bc, 'onbekend bloktype');
         }
       }
       for (const t of pg.theorieblokken || []) {
         if (!blokIds.has(t)) fout(c, `theorieblok bestaat niet: ${t}`);
-        if (gebruiktBlok.has(t)) waarschuw(c, `theorieblok ${t} ook gebruikt op ${gebruiktBlok.get(t)} (mini-oefening dubbel)`);
+        if (gebruiktBlok.has(t) && !bl.some(b => b.type === 'oefening')) waarschuw(c, `theorieblok ${t} ook gebruikt op ${gebruiktBlok.get(t)} (mini-oefening dubbel)`);
         gebruiktBlok.set(t, pg.id);
       }
     }
