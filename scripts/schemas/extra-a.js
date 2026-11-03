@@ -9,7 +9,7 @@ const { Svg, C, CAR, f, ROOT } = require('./lib');
 const BG = '#eef1f6';
 const INK = C.ink;
 const REG = [];
-const reg = (e) => { REG.push({ ...e, type: 'uitleg' }); return e; };
+const reg = (e) => { REG.push({ ...e, type: e.type || 'uitleg' }); return e; };
 process.on('exit', () => {
   REG.sort((a, b) => a.naam.localeCompare(b.naam));
   fs.writeFileSync(path.join(ROOT, 'data', 'schemas-extra-a.json'), JSON.stringify(REG, null, 1) + '\n');
@@ -102,7 +102,7 @@ const SNEL = ['SNEL-001', 'SNEL-003', 'SNEL-007'];
 // =====================================================================
 // H2 — wegen met en zonder middenberm
 // =====================================================================
-function weg(s, ox, met) {
+function weg(s, ox, met, oef) {
   const X = (x) => ox + x;
   s.rect(ox, 0, 600, 560, C.grass);
   s.rect(ox, 0, 600, 62, '#1c2230');
@@ -138,7 +138,7 @@ function weg(s, ox, met) {
     s.label(X(365), 124, 'middenberm:\nfysieke scheiding\ntussen de\nrijrichtingen', { size: 18, anchor: 'start' });
     s.line(X(310), 360, X(365), 360, INK, 3); s.circle(X(310), 360, 6, INK, 'stroke="#fff" stroke-width="2"');
     s.label(X(365), 366, 'twee rijstroken\nper richting', { size: 18, anchor: 'start' });
-    s.label(X(300), 512, 'Snelheid: 120 km/u,\nin elk gewest', { size: 20, bg: '#dff3e3', stroke: '#1f9d55' });
+    if (!oef) s.label(X(300), 512, 'Snelheid: 120 km/u,\nin elk gewest', { size: 20, bg: '#dff3e3', stroke: '#1f9d55' });
   }
 }
 (function () {
@@ -147,7 +147,10 @@ function weg(s, ox, met) {
   let s = new Svg('schema-weg-zonder-middenberm', 'Weg zonder middenberm: alleen een witte lijn', d1, { w: 600, h: 560 });
   weg(s, 0, false); out(s, 'snelheden-buiten-bebouwde-kom', SNEL);
   s = new Svg('schema-weg-met-middenberm', 'Weg met middenberm: fysieke scheiding', d2, { w: 600, h: 560 });
-  weg(s, 0, true); out(s, 'snelheden-buiten-bebouwde-kom', SNEL);
+  weg(s, 0, true); out(s, 'snelheden-buiten-bebouwde-kom', SNEL, { partner: 'schema-weg-met-middenberm-oefening' });
+  const d3 = 'Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn gescheiden door een middenberm, een brede groene strook met een stoeprand en struiken. Auto\'s rijden in beide richtingen.';
+  s = new Svg('schema-weg-met-middenberm-oefening', 'Weg met middenberm (oefening)', d3, { w: 600, h: 560 });
+  weg(s, 0, true, true); out(s, 'snelheden-buiten-bebouwde-kom', SNEL, { type: 'oefening', partner: 'schema-weg-met-middenberm' });
   s = new Svg('schema-weg-middenberm-vergelijk', 'Zonder of met middenberm: twee rijstroken per richting',
     'Twee bovenaanzichten naast elkaar van een weg buiten de bebouwde kom met twee rijstroken per richting. Links zonder middenberm: de rijrichtingen zijn alleen gescheiden door een witte lijn en de snelheid is de gewone limiet van het gewest. Rechts met middenberm: de rijrichtingen zijn gescheiden door een fysieke middenberm en de snelheid is 120 km/u in elk gewest.', { w: 1200, h: 560 });
   weg(s, 0, false); weg(s, 600, true); s.rect(597, 0, 6, 560, '#fff');

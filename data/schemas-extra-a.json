@@ -392,7 +392,23 @@
    "SNEL-003",
    "SNEL-007"
   ],
+  "partner": "schema-weg-met-middenberm-oefening",
   "type": "uitleg"
+ },
+ {
+  "naam": "schema-weg-met-middenberm-oefening",
+  "bestand": "img/schemas/schema-weg-met-middenberm-oefening.svg",
+  "titel": "Weg met middenberm (oefening)",
+  "beschrijving": "Bovenaanzicht van een weg buiten de bebouwde kom met twee rijstroken per richting. De twee rijrichtingen zijn gescheiden door een middenberm, een brede groene strook met een stoeprand en struiken. Auto's rijden in beide richtingen.",
+  "borden": [],
+  "theorieblok": "snelheden-buiten-bebouwde-kom",
+  "bronnen": [
+   "SNEL-001",
+   "SNEL-003",
+   "SNEL-007"
+  ],
+  "type": "oefening",
+  "partner": "schema-weg-met-middenberm"
  },
  {
   "naam": "schema-weg-middenberm-vergelijk",

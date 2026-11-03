@@ -25,6 +25,36 @@
     next();
   };
 
+  /** Reeks oefeningen na elkaar (vraag 1 van 20), met feedback per vraag en een score aan het einde. */
+  App.runSeries = function (container, exs) {
+    var i = 0, score = 0;
+    function run() {
+      container.innerHTML = ''; i = 0; score = 0; next();
+    }
+    function next() {
+      container.innerHTML = '';
+      if (i >= exs.length) return end();
+      var head = el('div', { class: 'series-head' }, el('p', { class: 'series-count' }, 'Vraag ', el('strong', {}, String(i + 1)), ' van ' + exs.length), el('div', { class: 'progress', role: 'progressbar', 'aria-valuemin': 0, 'aria-valuemax': exs.length, 'aria-valuenow': i, 'aria-label': 'Voortgang van de reeks' }, el('span', { class: 'progress-fill', style: 'transform:scaleX(' + (i / exs.length).toFixed(3) + ');width:100%;transform-origin:left' })), el('p', { class: 'series-score' }, 'Score: ' + score));
+      container.appendChild(head);
+      var holder = el('div', { class: 'series-q' }); container.appendChild(holder);
+      var nextBtn = el('button', { type: 'button', class: 'btn btn-primary', hidden: true }, i + 1 < exs.length ? 'Volgende vraag' : 'Bekijk je score');
+      var m = App.mountExercise(exs[i], holder, { plain: true, nolink: true, onResult: function (ex, ok) { if (ok) score++; nextBtn.hidden = false; head.querySelector('.series-score').textContent = 'Score: ' + score; nextBtn.focus(); } });
+      var show = holder.querySelector('.btn:not([hidden])');
+      holder.appendChild(el('div', { class: 'series-next' }, nextBtn));
+      nextBtn.addEventListener('click', function () { i++; next(); container.scrollIntoView({ block: 'start', behavior: App.reducedMotion() ? 'auto' : 'smooth' }); });
+      // ook na 'toon het juiste antwoord' mag je verder
+      holder.addEventListener('click', function (e) { if (e.target.closest && e.target.closest('.btn') && /juiste antwoord/.test(e.target.textContent)) nextBtn.hidden = false; });
+      void m; void show;
+    }
+    function end() {
+      container.innerHTML = '';
+      var pct = Math.round(100 * score / exs.length);
+      container.appendChild(el('div', { class: 'series-end' }, el('p', { class: 'series-big' }, score + ' van ' + exs.length), el('p', {}, pct >= 80 ? 'Sterk gedaan.' : pct >= 60 ? 'Goed op weg, nog even oefenen.' : 'Herhaal de borden en probeer opnieuw.'),
+        el('button', { type: 'button', class: 'btn btn-primary', on: { click: run } }, 'Opnieuw proberen')));
+    }
+    run();
+  };
+
   /** Resultaatscherm voor eindtest / proefexamen. */
   App.renderResults = function (container, rows, cfg, elapsed) {
     var total = rows.length;

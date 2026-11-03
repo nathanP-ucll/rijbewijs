@@ -87,7 +87,7 @@ async function volgordeTests(page, tag) {
   ok(await art.locator('.seq-item.placeholder-slot').count() === 1, tag + ' volgorde: plaats waar het landt is zichtbaar');
   const tr = await art.locator('.seq-item.lifted').evaluate((n) => getComputedStyle(n).transform);
   ok(tr !== 'none', tag + ' volgorde: gesleept item volgt de pointer (transform ' + tr.slice(0, 30) + ')');
-  await page.screenshot({ path: `${SHOTS}/qa-volgorde-${tag}-slepen.png` });
+  if (tag === 'desktop') await page.screenshot({ path: `${SHOTS}/qa-volgorde-${tag}-slepen.png` });
   const lb = await art.locator('.seq').boundingBox(); for (let y = g.y - 20; y > lb.y + 6; y -= 14) await page.mouse.move(g.x, y); await page.mouse.move(g.x, lb.y + 4, { steps: 3 }); await page.mouse.up(); await page.waitForTimeout(400);
   const texts2 = await art.locator('.seq-text').allTextContents();
   ok(texts2[0] === texts1[3], tag + ' volgorde: gesleept item landt bovenaan ' + JSON.stringify([texts1, texts2]));

@@ -1,0 +1,179 @@
+{
+  "L1-B01": {
+    "status": "twijfel",
+    "opmerking": "Bord klopt: A3 = 'Gevaarlijke daling' (KB art. 66.4; afbeelding toont dalende helling 7%, vergeleken met Commons-A3 en A5). Probleem is de afleider 'Steile helling': dat is de officiële naam van A5 (opgaande helling, ander bord), maar in gewoon taalgebruik past 'steile helling' ook op een bord dat een steile DALING toont. Leerlingen kunnen dit terecht betwisten. Voorstel: vervang 'Steile helling' door een duidelijk ander bord (bv. 'Rijbaanversmalling' of 'Uitholling overdwars') of formuleer de afleider als 'Gevaarlijke stijging (steile opgaande helling)'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B02": {
+    "status": "ok",
+    "opmerking": "A21 = 'Oversteekplaats voor voetgangers' (KB art. 66.4). SVG toont voetganger op zebrapad in rode driehoek: klopt. Afleiders (A25 fietsers/bromfietsen, A23 kinderen, A29 vee) zijn andere borden en passen niet bij het getoonde bord. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B03": {
+    "status": "ok",
+    "opmerking": "A15 = 'Glibberige rijbaan' (KB art. 66.4); SVG toont auto met slipsporen: klopt. Afleiders Kiezelprojectie (A17), Vallende stenen (A19), Zijwind (A37) zijn andere borden. Alleen optie 4 past.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B04": {
+    "status": "ok",
+    "opmerking": "A43 = 'Overweg zonder slagbomen' (KB art. 66.4); SVG toont stoomlocomotief zonder slagboomsymbool, identiek aan Commons-A43. Afleiders: A41 (met slagbomen, ander symbool), A49 (sporen in de rijbaan), A33 (verkeerslichten): geen overlap met het getoonde bord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B05": {
+    "status": "ok",
+    "opmerking": "B5 = 'Stoppen en voorrang verlenen' (KB art. 67.3). SVG is een rood achthoekig STOP-bord. Afleiders (voorrang verlenen B1, voorrangsweg B9, einde voorrangsweg B11) hebben een andere vorm; één juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B06": {
+    "status": "ok",
+    "opmerking": "B9 = 'Voorrangsweg' (KB art. 67.3); SVG toont oranje ruit met zwarte rand. Afleiders: Einde voorrangsweg (B11, met streep), Kruispunt voorrang van rechts (B17), Voorrang verlenen (B1): passen niet bij het getoonde bord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B07": {
+    "status": "ok",
+    "opmerking": "B21 = 'Smalle doorgang: voorrang ten opzichte van de bestuurders uit de tegenovergestelde richting'; B19 = gebod voorrang te verlenen aan tegenliggers (KB art. 67.3). SVG B21 (blauwe rechthoek, grote witte pijl omhoog, kleine rode pijl omlaag) komt overeen met Commons-B21 (wit/omhoog = eigen richting heeft voorrang). Opties 1 en 4 zijn precies elkaars tegendeel, dus uitsluitend juist is optie 4. Opmerking: dit is de lastigste vraag van de reeks, de leerling moet de kleurregel kennen (wit = jij, rood = tegenligger); zorg dat de les dit uitlegt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/File:Belgian_road_sign_B21.svg",
+      "https://commons.wikimedia.org/wiki/File:Belgian_road_sign_B19.svg"
+    ]
+  },
+  "L1-B08": {
+    "status": "ok",
+    "opmerking": "C35 = verbod (tot en met het volgend kruispunt) een gespan of voertuig met meer dan twee wielen links in te halen (KB art. 68.3). SVG toont rode en zwarte auto in rode cirkel. 'Inhaalverbod' is een aanvaardbare vereenvoudiging. Afleiders: einde inhaalverbod (C37, grijze auto's met balk), verbod te keren (C33), verbod links af te slaan (C31a): geen overlap.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B09": {
+    "status": "ok",
+    "opmerking": "C19 = 'Verboden toegang voor voetgangers' (KB art. 68.3). SVG: voetganger in rode cirkel. Afleiders fietsers (C11), ruiters (C15), handkarren (C17) zijn andere borden met andere pictogrammen.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B10": {
+    "status": "ok",
+    "opmerking": "C43 met cijfer 70 = maximumsnelheid 70 km/u (KB art. 68.3). SVG toont duidelijk 70. Afleiders 50/90/30 zijn uitgesloten door het getoonde cijfer.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B11": {
+    "status": "ok",
+    "opmerking": "C45 = 'Einde van de snelheidsbeperking opgelegd door C43' (KB art. 68.3); SVG toont grijs '50' met zwarte schuine balk, identiek aan Commons-C45. 'Einde van alle plaatselijke verbodsbepalingen' is een echt ander bord (C46, geen cijfer) en past niet bij een bord dat enkel de snelheid beeindigt. Eén juist antwoord. Kleine pedagogische noot: C46 (zonder cijfer) kan in de les ernaast worden gezet zodat deze afleider niet als gok voelt.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B12": {
+    "status": "ok",
+    "opmerking": "D5 = 'Verplicht rondgaand verkeer' (KB art. 69.3). SVG: blauwe cirkel met drie witte pijlen tegen de klok in, gelijk aan Commons-D05. Afleiders: D1 (rechts afslaan), D11 (voetgangers), D7 (fietspad): andere pictogrammen.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B13": {
+    "status": "ok",
+    "opmerking": "D7 = 'Verplicht fietspad' (KB art. 69.3); SVG: wit fietssymbool op blauwe cirkel. Afleiders ruiters (D13), voetgangers (D11), rondgaand verkeer (D5) passen niet. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B14": {
+    "status": "twijfel",
+    "opmerking": "Bord klopt: E3 = 'Stilstaan en parkeren verboden' (KB art. 70.2.1; SVG: rode ring, blauw veld, rood kruis). Maar de afleider 'Parkeerverbod' (officiele naam van E1) is inhoudelijk ook waar voor E3: wie niet mag stilstaan, mag evenmin parkeren. Een leerling kan terecht beweren dat optie 2 ook past. Voorstel: optie 2 herformuleren naar 'Parkeerverbod (stilstaan mag wel)' of 'Alleen parkeren verboden, stilstaan toegelaten'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation"
+    ]
+  },
+  "L1-B15": {
+    "status": "twijfel",
+    "opmerking": "Bord klopt: E7 = 'Parkeerverbod van de 16e tot het einde van de maand' (KB art. 70.2.1 2deg; SVG toont 16 en 31 met schuine balk, gelijk aan Commons-E7; E5 toont 1 en 15). Lichte zwakte: afleider 'Parkeerverbod' is ook gedeeltelijk waar voor E7 (er is immers een parkeerverbod, enkel in een periode); 'Stilstaan en parkeren verboden' is fout. Voorstel: optie 2 verduidelijken als 'Parkeerverbod de hele maand' of 'Parkeerverbod zonder tijdsbeperking'. Verder geen fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/File:Belgian_road_sign_E7.svg"
+    ]
+  },
+  "L1-B16": {
+    "status": "ok",
+    "opmerking": "F4a = 'Begin van een zone met een snelheidsbeperking van 30 km per uur' (KB art. 71.2). SVG: rechthoek met 'ZONE' en rode ring met 30, gelijk aan Commons-F4a. Afleiders woonerf (F12a), bebouwde kom (F1a/F1b), voetgangerszone (F103) hebben ander uiterlijk. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B17": {
+    "status": "ok",
+    "opmerking": "F5 = 'Begin of oprit van een autosnelweg' (KB art. 71.2); SVG = blauw bord met wegbeeld/brug, gelijk aan Commons-F5. Afleiders: begin van een autoweg (F9, autosymbool), einde autosnelweg (F7, met balk) en tunnel zijn andere borden. Let op: autosnelweg en autoweg lopen bij leerlingen vaak door elkaar, maar hier is de vraag eenduidig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B18": {
+    "status": "ok",
+    "opmerking": "F19 = 'Openbare weg met eenrichtingsverkeer' (KB art. 71.2); SVG: wit pijl omhoog in blauw vierkant/rechthoek, gelijk aan Commons-F19. Afleiders: doodlopende weg (F45), 'links of rechts voorbijrijden' en busstrook zijn andere borden/begrippen. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B19": {
+    "status": "ok",
+    "opmerking": "F45 = 'Doodlopende weg' (KB art. 71.2); SVG: witte balk met rode dwarsbalk op blauw, gelijk aan Commons-F45. Afleiders eenrichtingsverkeer (F19), tunnel, opstelvak fietsers: passen niet. Eén juist antwoord.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-B20": {
+    "status": "twijfel",
+    "opmerking": "Bord klopt: F103 = 'Begin van een voetgangerszone' (KB art. 71.2). De SVG toont het bord inclusief uitzonderingstekst ('Uitgezonderd laden en lossen van 6 tot 10 h') en een fietspictogram onderaan (gelijk aan de variant op Commons). Daardoor kan de afleider 'Begin van een fietszone' (F111) visueel verleidelijk zijn, omdat er een fiets op het bord staat. Het antwoord blijft ondubbelzinnig juist (ZONE + voetgangerspictogram), dus geen fout. Voorstel: een schone F103 zonder uitzonderingsregel gebruiken, of de afleider 'Begin van een fietszone' vervangen door een niet-fietsgerelateerd antwoord (bv. 'Einde van een voetgangerszone'), en in elk geval in de uitleg melden dat het fietssymbool 'uitgezonderd fietsers' betekent.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-K01": {
+    "status": "ok",
+    "opmerking": "Alle zes paren bevestigd: A25 = oversteekplaats voor fietsers en bestuurders van tweewielige bromfietsen (art. 66.4); B21 = smalle doorgang met voorrang op tegenliggers (art. 67.3); C33 = verbod te keren (art. 68.3); D13 = verplichte weg voor ruiters (art. 69.3); E9d = parkeren uitsluitend voor autocars (art. 70.2.1 3deg; SVG toont P met bus, gelijk aan Commons-E9d); F95 = noodstopstrook (art. 71.2; SVG gelijk aan Commons-F95). De zes rechterkanten zijn onderling duidelijk onderscheiden (zes verschillende bordsoorten, geen twee passen op hetzelfde bord) en de zes linkerafbeeldingen zijn visueel verschillend. Uitleg noemt 'zes soorten' (gevaar, voorrang, verbod, gebod, parkeren, aanwijzing) wat klopt met de gekozen borden.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-K02": {
+    "status": "ok",
+    "opmerking": "KB art. 68.4 en 69.4: M2 = uitgezonderd fietsers; M3 = uitgezonderd fietsers en tweewielige bromfietsen klasse A; M6 = fietspad (D7) moet gevolgd worden door tweewielige bromfietsen klasse B; M7 = niet door klasse B; M13 = door speed pedelecs verplicht; M15 = niet door speed pedelecs. Alle SVG's komen overeen (M2 fiets; M3 fiets + bromfiets met A; M6 'B VERPLICHT'; M7 'B VERBODEN'; M13 'P VERPLICHT'; M15 'P VERBODEN'; M7/M13/M15 vergeleken met Commons). Rechterkanten zijn allemaal verschillend. Let op: het onderscheid tussen M6/M7 en M13/M15 zit enkel in de letter B of P en in 'verplicht/verboden'; dat is correct maar moeilijk, en M3 vs M2 verschilt alleen in het extra bromfietssymbool. Geen fout.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  },
+  "L1-K03": {
+    "status": "ok",
+    "opmerking": "F5 = begin (of oprit) van een autosnelweg; F11 = einde van een autoweg; F12b = einde van een woonerf of erf; F103 = begin van een voetgangerszone; C37 = einde van het verbod opgelegd door C35 (inhaalverbod); B13 = aankondiging van B11 (einde voorrangsweg) op aangeduide afstand (KB art. 67.3, 68.3, 71.2). Alle SVG's komen overeen met Commons (F5, F11, F12b, C37, B13, F103). Rechterkanten zijn onderling onderscheidend. Kleine kanttekeningen: (1) de uitleg ('begin-bord en einde-bord komen in paren') suggereert dat F5 en F11 een paar vormen, terwijl het einde van F5 eigenlijk F7 (einde autosnelweg) is; F11 hoort bij autoweg (F9). Voorstel: uitleg aanpassen zoals 'Veel borden hebben een begin- en een eindbord; let goed op het verschil tussen autosnelweg en autoweg'. (2) F103 toont uitzonderingsregel + fietssymbool (zie L1-B20), maar geen afleider in deze oefening past daarop.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/perma/hra8v386pu/regulation_regulation",
+      "https://commons.wikimedia.org/wiki/Category:Road_signs_of_Belgium"
+    ]
+  }
+}

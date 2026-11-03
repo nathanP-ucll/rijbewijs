@@ -6,6 +6,7 @@
  *   node scripts/build.js --lenient       waarschuwt enkel
  *   node scripts/build.js --demo-only      alleen demo-oefeningen en demo-boek (voor de QA-scripts)
  *   node scripts/build.js --demo          bouwt mee met data/_demo (impliceert --lenient, schrijft curriculum.json niet bij)
+ *   node scripts/build.js --lessen=1,2    checklist enkel voor die lessen afdwingen
  *   node scripts/build.js --allow-unverified   neemt ook oefeningen zonder 'ok' in verificatie.json op
  */
 'use strict';
@@ -20,6 +21,7 @@ const DEMO_ONLY = args.has('--demo-only');
 const DEMO = args.has('--demo') || DEMO_ONLY;
 const LENIENT = args.has('--lenient') || DEMO;
 const ALLOW_UNVERIFIED = args.has('--allow-unverified');
+const LESSEN = (process.argv.find((a) => a.startsWith('--lessen=')) || '').replace('--lessen=', '').split(',').filter(Boolean).map(Number); // bv. --lessen=1,2: checklist enkel voor die lessen afdwingen
 
 const errors = [];
 const warnings = [];
@@ -157,7 +159,7 @@ function resolveImg(name) {
   let r = null;
   if (bordFiles[name]) {
     const bi = bordenIndex[name] || {};
-    r = { src: 'img/borden/' + bordFiles[name], soort: 'bord', alt: bi.naam_nl || ('Verkeersbord ' + name), cat: bi.categorie || null, naam: bi.naam_nl || null };
+    r = { src: 'img/borden/' + bordFiles[name], soort: 'bord', alt: bi.naam_nl || 'Verkeersbord', cat: bi.categorie || null, naam: bi.naam_nl || null };
   } else if (schemaFiles[name]) {
     r = { src: 'img/schemas/' + schemaFiles[name], soort: 'schema', alt: schemaInfo[name] || humanize(name) };
   } else if (demoFiles[name]) {
@@ -321,7 +323,7 @@ function valideerPagina(pg, where) {
       case 'tabel': if (!Array.isArray(k.kolommen) || !Array.isArray(k.rijen) || !k.rijen.length) err(w + ': kolommen/rijen'); else if (k.rijen.length > 6) warn(w + ': meer dan 6 rijen'); break;
       case 'voorbeeld': zin(w, k.tekst); break;
       case 'grid': if (!Array.isArray(k.items) || !k.items.length) err(w + ': geen items'); else { if (k.items.length > 9) warn(w + ': meer dan 9 cellen'); k.items.forEach((c) => { img(w, c.afb); if (!c.naam) err(w + ': cel zonder naam'); if (c.uitleg) zin(w + ' uitleg', c.uitleg, { maxWoorden: 16 }); if (c.letop) zin(w + ' letop', c.letop); }); } break;
-      case 'tekst': { const ts = Array.isArray(k.items) ? k.items : [k.tekst]; ts.forEach((t) => zin(w, t)); break; }
+      case 'tekst': { const ts = Array.isArray(k.alineas) ? k.alineas : (Array.isArray(k.items) ? k.items : [k.tekst]); ts.forEach((t) => zin(w, t)); break; }
       case 'tip': zin(w + ' tekst', k.tekst); break;
       case 'oefening': (k.ids || [k.id]).forEach((id) => { if (!id || !exLookup.has(id)) err(w + ': onbekende oefening ' + id); }); break;
     }
@@ -329,6 +331,8 @@ function valideerPagina(pg, where) {
   (pg.theorieblokken || []).forEach((id) => { if (!blokIds.has(id)) err(where + ': onbekend theorieblok ' + id); });
 }
 
+const expliciet = new Set(); // ids die een boekpagina zelf via een 'oefening'-blok aanwijst
+hoofdstukken.forEach((h) => h.paragrafen.forEach((par) => (par.paginas || []).forEach((pg) => (pg.blokken || []).filter((x) => x.type === 'oefening').forEach((x) => (x.ids || [x.id]).forEach((id) => expliciet.add(id))))));
 const boeken = {};
 const exLoc = {};
 const blokPagina = {};
@@ -349,26 +353,29 @@ for (const les of [1, 2, 3, 4]) {
       let k = 0;
       const parBlokken = new Set();
       const secties = [];
-      if (par.intro) zin('h' + hn + ' ' + par.nr + ' intro', par.intro);
+      if (par.intro !== undefined) { if (!String(par.intro).trim()) err('h' + hn + ' ' + par.nr + ': lege intro'); else zin('h' + hn + ' ' + par.nr + ' intro', par.intro); }
       (par.paginas || []).forEach((pg, pi) => {
         const where = 'h' + hn + ' ' + par.nr + ' sectie ' + (pi + 1);
         if (paginaIds.has(pg.id)) err('Dubbele pagina-id ' + pg.id); paginaIds.add(pg.id);
         valideerPagina(pg, where);
         k++;
         const minis = [];
-        (pg.blokken || []).filter((x) => x.type === 'oefening').forEach((x) => (x.ids || [x.id]).forEach((id) => { if (exLookup.has(id) && !gekoppeld.has(id)) { minis.push(id); gekoppeld.add(id); } }));
+        let reeks = false;
+        const oefBlokken = (pg.blokken || []).filter((x) => x.type === 'oefening');
+        oefBlokken.forEach((x) => { const ids = x.ids || [x.id]; if (ids.length >= 3) reeks = true; ids.forEach((id) => { if (exLookup.has(id) && !gekoppeld.has(id)) { minis.push(id); gekoppeld.add(id); } }); });
         (pg.theorieblokken || []).forEach((id) => {
           parBlokken.add(id);
-          (oefPerBlok[id] || []).forEach((eid) => { const e = exLookup.get(eid); if (e && e.mini && !gekoppeld.has(eid)) { minis.push(eid); gekoppeld.add(eid); } });
+          if (oefBlokken.length) return; // pagina met een eigen oefening-blok: geen extra mini's van de theorieblokken
+          (oefPerBlok[id] || []).forEach((eid) => { const e = exLookup.get(eid); if (e && e.mini && !gekoppeld.has(eid) && !expliciet.has(eid)) { minis.push(eid); gekoppeld.add(eid); } });
         });
-        secties.push({ id: pg.id, nr: par.nr + '.' + k, titel: pg.titel, intro: pg.intro || '', blokken: pg.blokken || [], theorieblokken: pg.theorieblokken || [], mini: minis });
+        secties.push({ id: pg.id, nr: par.nr + '.' + k, titel: pg.titel, intro: pg.intro || '', blokken: pg.blokken || [], theorieblokken: pg.theorieblokken || [], mini: minis, reeks });
       });
       // gewone oefeningen van deze paragraaf: onderaan dezelfde pagina
       const oefs = [];
       for (const id of parBlokken) {
         for (const eid of oefPerBlok[id] || []) {
           const e = exLookup.get(eid);
-          if (!e || e.mini || gekoppeld.has(eid)) continue;
+          if (!e || e.mini || gekoppeld.has(eid) || expliciet.has(eid)) continue;
           gekoppeld.add(eid); k++;
           oefs.push({ ex: eid, blok: id, nr: par.nr + '.' + k });
         }
@@ -430,7 +437,7 @@ const nieuweCurriculum = curriculum.map((c) => {
     bron: heeftBron,
   });
   const missing = ['theorie', 'oefeningen3', 'afbeelding', 'bron'].filter((k) => !nc[k]);
-  if (missing.length) checklistFouten.push(`${c.id} (${c.naam}): ontbreekt ${missing.join(', ')}${nOef < 3 ? ` [${nOef} oefeningen]` : ''}`);
+  if (missing.length && (!LESSEN.length || LESSEN.includes(c.les))) checklistFouten.push(`${c.id} (${c.naam}): ontbreekt ${missing.join(', ')}${nOef < 3 ? ` [${nOef} oefeningen]` : ''}`);
   return nc;
 });
 if (!DEMO) {

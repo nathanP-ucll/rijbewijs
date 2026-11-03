@@ -48,7 +48,12 @@
     var cr = creditLine(info); if (cr) cell.appendChild(cr);
     return cell;
   }
-  function rKaarten(k) { return el('div', { class: 'cell-grid cg-' + Math.min(k.items.length, 3) }, k.items.map(bordKaart)); }
+  function rKaarten(k) {
+    var cols = Math.max(1, Math.min(k.kolommen || 3, 4, k.items.length));
+    var grid = el('div', { class: 'cell-grid', style: '--cols:' + cols }, k.items.map(bordKaart));
+    Array.prototype.forEach.call(grid.children, function (c, i) { if ((i + 1) % cols === 0) c.classList.add('c-last'); });
+    return grid;
+  }
   function vcol(side) {
     var info = App.imgInfo(side.afb);
     return el('figure', { class: 'vcol' }, el('div', { class: 'vcol-media' }, App.img(side.afb, { alt: (info && info.naam) || 'Afbeelding', class: 'vcol-img' })),
@@ -93,7 +98,7 @@
     return el('aside', { class: 'voorbeeld' }, el('span', { class: 'voorbeeld-ic', html: App.icon('car', 34) }), el('div', {}, el('p', { class: 'voorbeeld-l' }, 'In de praktijk'), el('p', { class: 'voorbeeld-t', html: App.inline(k.tekst) })));
   }
   function rTekst(k) {
-    var ts = Array.isArray(k.items) ? k.items : [k.tekst];
+    var ts = Array.isArray(k.alineas) ? k.alineas : (Array.isArray(k.items) ? k.items : [k.tekst]);
     return el('div', { class: 'tekst' }, ts.map(function (t) { return el('p', { html: App.inline(t) }); }));
   }
   function rTip(k) { return rKader({ soort: 'tip', titel: k.titel || '', tekst: k.tekst }); }
@@ -190,6 +195,7 @@
       var exs = (sc.mini || []).map(App.exById).filter(Boolean);
       if (!exs.length) return null;
       var sec = el('div', { class: 'mini-ex', 'aria-label': 'Al eens oefenen' }, el('h3', { class: 'mini-title' }, 'Al eens oefenen'));
+      if (sc.reeks) { var box = el('div', { class: 'series' }); sec.appendChild(box); App.runSeries(box, exs); return sec; }
       exs.forEach(function (ex) { App.mountExercise(ex, sec, { plain: true, mini: true, nolink: true, onResult: function () { sectionDone(idx); } }); });
       return sec;
     }

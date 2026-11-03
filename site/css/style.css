@@ -764,3 +764,19 @@ body[data-page="les"]::before { display: none; }
 .end-sentinel { height: 1px; }
 .pop-secs { list-style: none; margin: 0 0 .4rem 2.4rem; padding: 0; } .pop-sec { display: flex; gap: .6rem; padding: .3rem .5rem; text-decoration: none; color: var(--muted); font-size: .98rem; min-height: 36px; align-items: center; } .pop-sec:hover { background: var(--surface-2); } .pop-sec.sec-current { color: var(--ink); font-weight: 700; background: var(--surface-2); }
 .pop-sec .pop-num { min-width: 3rem; }
+
+/* grid: kolommen via --cols, 2 op mobiel */
+.cell-grid { grid-template-columns: repeat(var(--cols, 3), minmax(0, 1fr)); }
+.cell { border-right: 1px solid var(--line); } .cell.c-last { border-right: 0; }
+@media (max-width: 700px) { .cell-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .cell, .cell.c-last { border-right: 1px solid var(--line); } .cell:nth-child(2n) { border-right: 0 !important; } }
+/* reeks */
+.series-head { display: grid; grid-template-columns: auto 1fr auto; gap: 1rem; align-items: center; margin: 0 0 1.5rem; } .series-count { margin: 0; font-size: 1.1rem; } .series-score { margin: 0; font-weight: 700; } .series-next { margin-top: 1.2rem; }
+.series-head .progress { height: 6px; background: var(--line); } .series-head .progress-fill { background: var(--ink); transition: transform .4s; }
+.series-end { padding: 1.5rem 0; } .series-big { font: 700 3rem var(--font-head); margin: 0; }
+@media (max-width: 560px) { .series-head { grid-template-columns: 1fr auto; } .series-head .progress { grid-column: 1 / -1; grid-row: 2; } }
+/* koppel: grote borden links */
+.mitem { min-height: 72px; } .mitem img { height: 96px; max-width: 150px; } .mitem.left:has(img) { min-height: 116px; }
+@media (max-width: 600px) { .mitem img { height: 60px; max-width: 80px; } .mitem.left:has(img) { min-height: 76px; } }
+.ex-figs.figs-1 .fig-ex img { height: 220px; max-height: none; width: auto; background: none; border: 0; padding: 0; } .ex-figs.figs-2 .fig-ex img, .ex-figs.figs-3 .fig-ex img { height: 170px; max-height: none; width: auto; background: none; border: 0; padding: 0; }
+@media (max-width: 560px) { .ex-figs.figs-1 .fig-ex img { height: 170px; } }
+.gewest.is-main { border: 0 !important; border-top: 2px solid var(--ink) !important; }

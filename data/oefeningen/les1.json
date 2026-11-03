@@ -3012,7 +3012,7 @@
     "onderwerp": "T08",
     "theorieblok": "snelheden-buiten-bebouwde-kom",
     "type": "meerkeuze",
-    "vraag": "Je rijdt buiten de bebouwde kom op deze weg: twee rijstroken per richting, gescheiden door een middenberm. Wat is de maximumsnelheid zonder bord?",
+    "vraag": "Je rijdt als bestuurder van een personenauto buiten de bebouwde kom op deze weg: twee rijstroken per richting, gescheiden door een middenberm. Wat is de maximumsnelheid zonder bord?",
     "opties": [
       "70 km/u",
       "90 km/u",
@@ -3022,8 +3022,8 @@
       2
     ],
     "meerdere": false,
-    "afbeelding": "schema-weg-met-middenberm",
-    "uitleg": "Een fysieke middenberm scheidt de rijrichtingen: buiten de bebouwde kom geldt dan in elk gewest 120 km/u.",
+    "afbeelding": "schema-weg-met-middenberm-oefening",
+    "uitleg": "Een fysieke middenberm scheidt de rijrichtingen: buiten de bebouwde kom geldt dan voor een personenauto in elk gewest 120 km/u.",
     "bronnen": [
       "SNEL-001",
       "SNEL-003",
@@ -3034,7 +3034,8 @@
     "examen": false,
     "eindtest": false,
     "mini": true,
-    "nieuw": true
+    "nieuw": true,
+    "gewijzigd": true
   },
   {
     "id": "L1-M40",
@@ -3151,11 +3152,11 @@
       },
       {
         "links": "Bord 6",
-        "rechts": "Steile helling",
+        "rechts": "Steile opgaande helling",
         "linksAfb": "A5"
       }
     ],
-    "uitleg": "Het symbool toont of de bocht naar links of naar rechts gaat.",
+    "uitleg": "Het symbool toont of de bocht naar links of naar rechts gaat. Bij een gevaarlijke daling gaat de weg steil naar beneden, bij een steile opgaande helling gaat hij steil omhoog.",
     "bronnen": [
       "BORD-001"
     ],
@@ -3165,7 +3166,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M43",
@@ -3381,26 +3382,26 @@
       },
       {
         "links": "Bord 2",
-        "rechts": "Smalle doorgang: voorrang verlenen",
+        "rechts": "Smalle doorgang: tegenliggers hebben voorrang",
         "linksAfb": "B19"
       },
       {
         "links": "Bord 3",
-        "rechts": "Smalle doorgang: voorrang",
+        "rechts": "Smalle doorgang: je hebt voorrang op tegenliggers",
         "linksAfb": "B21"
       },
       {
         "links": "Bord 4",
-        "rechts": "Fietsers rechts af bij rood",
+        "rechts": "Fietsers mogen bij rood rechts af",
         "linksAfb": "B22"
       },
       {
         "links": "Bord 5",
-        "rechts": "Fietsers rechtdoor bij rood",
+        "rechts": "Fietsers mogen bij rood rechtdoor",
         "linksAfb": "B23"
       }
     ],
-    "uitleg": "Deze borden regelen voorrang op een kruispunt, bij een smalle doorgang en voor fietsers bij rood.",
+    "uitleg": "Deze borden regelen voorrang op een kruispunt, bij een smalle doorgang en voor fietsers bij rood. Bij een smalle doorgang is de grote pijl voor wie voorrang heeft, de kleine pijl voor de tegenligger. Fietsers die bij rood doorrijden, moeten voorrang verlenen.",
     "bronnen": [
       "BORD-001"
     ],
@@ -3410,7 +3411,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M48",
@@ -3682,7 +3683,7 @@
       },
       {
         "links": "Bord 4",
-        "rechts": "Hindernis links voorbijrijden",
+        "rechts": "Langs de linkerkant voorbijrijden",
         "linksAfb": "D1c"
       },
       {
@@ -3706,7 +3707,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M54",
@@ -3764,12 +3765,12 @@
     "paren": [
       {
         "links": "Bord 1",
-        "rechts": "Parkeren toegelaten",
-        "linksAfb": "E9"
+        "rechts": "Parkeren toegelaten, zonder bijzondere regel",
+        "linksAfb": "E9a"
       },
       {
         "links": "Bord 2",
-        "rechts": "Parkeerplaats met parkeerschijf",
+        "rechts": "Parkeren met beperkte duur (parkeerschijf)",
         "linksAfb": "E9a_Parkeerschijf"
       },
       {
@@ -3789,11 +3790,11 @@
       },
       {
         "links": "Bord 6",
-        "rechts": "Parkeren met tijdsgebonden regeling",
+        "rechts": "Parkeren met een uurregeling (fietsen of auto's)",
         "linksAfb": "E9j"
       }
     ],
-    "uitleg": "Deze borden tonen waar en hoe je mag parkeren.",
+    "uitleg": "Deze borden tonen waar en hoe je mag parkeren. Het bord met de parkeerschijf beperkt de parkeerduur; het bord met de uren geeft een aparte regeling per tijdstip.",
     "bronnen": [
       "BORD-001"
     ],
@@ -3803,7 +3804,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M56",
@@ -3820,7 +3821,7 @@
       },
       {
         "links": "Bord 2",
-        "rechts": "Parkeren voor personenauto's en motorfietsen",
+        "rechts": "Parkeren voor personenauto's",
         "linksAfb": "E9b"
       },
       {
@@ -3835,16 +3836,16 @@
       },
       {
         "links": "Bord 5",
-        "rechts": "Parkeren voor kampeerwagens",
+        "rechts": "Parkeren voor kampeerauto's",
         "linksAfb": "E9h"
       },
       {
         "links": "Bord 6",
-        "rechts": "Parkeren voor motorfietsen",
+        "rechts": "Parkeren uitsluitend voor motorfietsen",
         "linksAfb": "E9i"
       }
     ],
-    "uitleg": "Deze parkeerplaatsen zijn voorbehouden voor bepaalde voertuigen of personen.",
+    "uitleg": "Deze parkeerplaatsen zijn voorbehouden voor bepaalde voertuigen of personen. Op de plaats voor personenauto's mogen ook motorfietsen staan; het motorfietsbord is uitsluitend voor motorfietsen.",
     "bronnen": [
       "BORD-001"
     ],
@@ -3854,7 +3855,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M57",
@@ -3968,31 +3969,31 @@
     "paren": [
       {
         "links": "Bord 1",
-        "rechts": "Aankondiging: er komen minder rijstroken",
+        "rechts": "Er komen minder rijstroken",
         "linksAfb": "F79"
       },
       {
         "links": "Bord 2",
-        "rechts": "Aankondiging van een uitwijking van de rijstroken",
+        "rechts": "De rijstroken wijken uit",
         "linksAfb": "F81"
       },
       {
         "links": "Bord 3",
-        "rechts": "Aankondiging van een drempel of plateau",
+        "rechts": "Verhoogde inrichting: drempel of plateau",
         "linksAfb": "F87"
       },
       {
         "links": "Bord 4",
-        "rechts": "Regel of gevaar enkel voor de aangeduide rijstroken",
+        "rechts": "Regel die geldt voor de aangeduide rijstroken",
         "linksAfb": "F91"
       },
       {
         "links": "Bord 5",
-        "rechts": "De rijstrook wordt smaller",
+        "rechts": "Versmalling die de omvang van een rijstrook heeft",
         "linksAfb": "F97"
       }
     ],
-    "uitleg": "Deze borden kondigen vooraf aan wat er verderop verandert.",
+    "uitleg": "Deze borden gaan over rijstroken: er verdwijnt een rijstrook, de rijstroken wijken uit, er is een drempel of er geldt een regel per rijstrook. Bij de versmalling ter grootte van een rijstrook voegt een rijstrook samen met de andere.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4002,7 +4003,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M60",
@@ -4013,7 +4014,7 @@
     "vraag": "Wat mag je als bestuurder van een gewone auto op een overrijdbare bedding?",
     "opties": [
       "Er altijd op rijden",
-      "Er niet op rijden, behalve om een hindernis te omzeilen, de bedding te dwarsen of een eigendom of parking te bereiken",
+      "Er niet op rijden, behalve om een hindernis te omzeilen, de bedding op kruispunten te dwarsen of een eigendom of parking te bereiken",
       "Er van richting veranderen zoals op een busstrook",
       "Er enkel 's nachts op rijden"
     ],
@@ -4033,7 +4034,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M61",
@@ -4249,7 +4250,7 @@
     "paren": [
       {
         "links": "Bord 1",
-        "rechts": "Begin weg voor voetgangers, fietsers en ruiters",
+        "rechts": "Begin weg voor voetgangers, fietsers, ruiters en speed pedelecs",
         "linksAfb": "F99a"
       },
       {
@@ -4264,7 +4265,7 @@
       },
       {
         "links": "Bord 4",
-        "rechts": "Einde weg voor voetgangers, fietsers en ruiters",
+        "rechts": "Einde weg voor voetgangers, fietsers, ruiters en speed pedelecs",
         "linksAfb": "F101a"
       }
     ],
@@ -4278,7 +4279,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M66",
@@ -4300,16 +4301,16 @@
       },
       {
         "links": "Bord 3",
-        "rechts": "Begin van een fietszone",
+        "rechts": "Begin van een fietszone (fietsstraat)",
         "linksAfb": "F111"
       },
       {
         "links": "Bord 4",
-        "rechts": "Einde van een fietszone",
+        "rechts": "Einde van een fietszone (fietsstraat)",
         "linksAfb": "F113"
       }
     ],
-    "uitleg": "Een voetgangerszone en een fietszone hebben elk een begin-bord en een einde-bord.",
+    "uitleg": "Een voetgangerszone en een fietszone hebben elk een begin-bord en een einde-bord. Op de borden voor een fietszone staat nog het opschrift \"Fietsstraat\"; dat opschrift mag tot 1 januari 2035 gebruikt worden.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4319,7 +4320,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-B01",
@@ -4329,7 +4330,7 @@
     "type": "meerkeuze",
     "vraag": "Wat betekent dit bord?",
     "opties": [
-      "Steile helling",
+      "Rijbaanversmalling",
       "Gevaarlijke bocht naar links",
       "Gevaarlijke daling",
       "Beweegbare brug"
@@ -4349,7 +4350,7 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-B02",
@@ -4519,7 +4520,7 @@
     ],
     "meerdere": false,
     "afbeelding": "B21",
-    "uitleg": "Dit bord betekent: smalle doorgang: je hebt voorrang op tegenliggers.",
+    "uitleg": "Dit bord betekent: smalle doorgang: je hebt voorrang op tegenliggers. Let op de pijlen: de grote witte pijl omhoog is voor jou, de kleine rode pijl omlaag is voor de tegenligger. Wie de grote pijl heeft, mag eerst.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4529,7 +4530,7 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-B08",
@@ -4720,7 +4721,7 @@
     "vraag": "Wat betekent dit bord?",
     "opties": [
       "Stilstaan en parkeren verboden",
-      "Parkeerverbod",
+      "Parkeerverbod (stilstaan mag wel)",
       "Parkeren toegelaten",
       "Verplicht parkeren op de rijbaan"
     ],
@@ -4729,7 +4730,7 @@
     ],
     "meerdere": false,
     "afbeelding": "E3",
-    "uitleg": "Dit bord betekent: stilstaan en parkeren verboden.",
+    "uitleg": "Dit bord betekent: stilstaan en parkeren verboden. Je mag er dus ook niet even stilstaan.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4739,7 +4740,7 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-B15",
@@ -4750,7 +4751,7 @@
     "vraag": "Wat betekent dit bord?",
     "opties": [
       "Parkeerverbod van de 1e tot de 15e van de maand",
-      "Parkeerverbod",
+      "Parkeerverbod de hele maand",
       "Stilstaan en parkeren verboden",
       "Parkeerverbod van de 16e tot het einde van de maand"
     ],
@@ -4759,7 +4760,7 @@
     ],
     "meerdere": false,
     "afbeelding": "E7",
-    "uitleg": "Dit bord betekent: parkeerverbod van de 16e tot het einde van de maand.",
+    "uitleg": "Dit bord betekent: parkeerverbod van de 16e tot het einde van de maand. De cijfers 16 en 31 tonen de periode.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4769,7 +4770,7 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-B16",
@@ -4899,7 +4900,7 @@
     "type": "meerkeuze",
     "vraag": "Wat betekent dit bord?",
     "opties": [
-      "Begin van een fietszone",
+      "Einde van een voetgangerszone",
       "Begin van een voetgangerszone",
       "Begin van een woonerf of erf",
       "Begin van een zone 30"
@@ -4909,7 +4910,7 @@
     ],
     "meerdere": false,
     "afbeelding": "F103",
-    "uitleg": "Dit bord betekent: begin van een voetgangerszone.",
+    "uitleg": "Dit bord betekent: begin van een voetgangerszone. Onder op het bord staan de uitzonderingen, zoals laden en lossen en fietsers.",
     "bronnen": [
       "BORD-001"
     ],
@@ -4919,7 +4920,7 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M67",
@@ -4929,7 +4930,7 @@
     "type": "meerkeuze",
     "vraag": "Wat betekent dit bord?",
     "opties": [
-      "Het bord voorrang verlenen staat nog 150 m verderop",
+      "Het bord voorrang verlenen staat ongeveer 150 m verderop",
       "Je moet nu 150 m lang voorrang verlenen",
       "Je mag 150 m lang niet stoppen",
       "De voorrangsweg is 150 m lang"
@@ -4939,7 +4940,7 @@
     ],
     "meerdere": false,
     "afbeelding": "B3",
-    "uitleg": "Een bord met een afstand kondigt aan dat het echte bord verderop komt. Hier staat het bord voorrang verlenen nog 150 m verderop.",
+    "uitleg": "Een bord met een afstand kondigt aan dat het echte bord verderop komt. Hier staat het bord voorrang verlenen ongeveer 150 m verderop.",
     "bronnen": [
       "BORD-001",
       "BORD-006",
@@ -4951,7 +4952,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M68",
@@ -5044,7 +5045,7 @@
     "type": "meerkeuze",
     "vraag": "Het is de 10e van de maand. Mag je parkeren bij dit bord?",
     "opties": [
-      "Nee, het verbod geldt van de 1e tot de 15e",
+      "Nee, langs die kant van de weg geldt het verbod van de 1e tot de 15e",
       "Ja, het verbod geldt pas vanaf de 16e",
       "Ja, het verbod geldt enkel 's nachts",
       "Nee, maar stilstaan mag ook niet"
@@ -5054,7 +5055,7 @@
     ],
     "meerdere": false,
     "afbeelding": "E5",
-    "uitleg": "Dit bord verbiedt parkeren van de 1e tot de 15e van de maand. Op de 10e mag je er dus niet parkeren.",
+    "uitleg": "Dit bord verbiedt parkeren langs die kant van de weg van de 1e tot de 15e van de maand. Op de 10e mag je er dus niet parkeren.",
     "bronnen": [
       "BORD-001",
       "BORD-002",
@@ -5066,7 +5067,7 @@
     "eindtest": false,
     "mini": true,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   },
   {
     "id": "L1-M71",
@@ -5320,7 +5321,7 @@
         "linksAfb": "B13"
       }
     ],
-    "uitleg": "Veel borden komen in paren: een begin-bord en een einde-bord.",
+    "uitleg": "Veel borden hebben een begin-bord en een einde-bord. Let goed op het verschil tussen een autosnelweg en een autoweg.",
     "bronnen": [
       "BORD-001"
     ],
@@ -5330,6 +5331,6 @@
     "eindtest": false,
     "mini": false,
     "nieuw": true,
-    "gewijzigd": false
+    "gewijzigd": true
   }
 ]
