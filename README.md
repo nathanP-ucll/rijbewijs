@@ -31,3 +31,6 @@ node scripts/qa/fill.js                            # meet hoe vol elke boekpagin
 QA_SHOTS=/pad node scripts/qa/theme.js les2.html#p3  # licht/donker screenshots
 ```
 Playwright wordt lokaal of globaal gezocht (`npm i -g playwright`).
+
+## GitHub Pages
+De `index.html` in de root stuurt door naar `site/index.html` (relatief pad, werkt ook onder `/repo-naam/`). Zet in de repo-instellingen bij Pages de bron op de branch en de map `/ (root)`. Het bestand `.nojekyll` zorgt dat GitHub de mappen onveranderd serveert.
