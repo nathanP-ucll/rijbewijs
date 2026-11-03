@@ -212,12 +212,13 @@ function figure(s, x, y, k, pose) {
   const cx = 530, cy = 330;
   s.rect(cx - 55, 80, 110, 500, C.road); s.rect(280, cy - 55, 500, 110, C.road);
   s.circle(cx, cy, 16, '#2d57a8', `stroke="#fff" stroke-width="3"`); s.circle(cx, cy, 7, '#f1c9a5');
-  const stops = [[cx - 27, cy + 130, 0], [cx + 27, cy - 130, 180], [cx + 130, cy + 27, 270], [cx - 130, cy - 27, 90]];
+  // rechtsrijdend verkeer: noord op de oostelijke helft, zuid op de westelijke, west op de noordelijke, oost op de zuidelijke
+  const stops = [[cx + 27, cy + 130, 0], [cx - 27, cy - 130, 180], [cx + 130, cy - 27, 270], [cx - 130, cy + 27, 90]];
   stops.forEach(([x, y, r], i) => {
     s.car(x, y + (i === 0 ? 40 : i === 1 ? -40 : 0), r, ['rood', 'blauw', 'geel', 'groen'][i], null);
   });
-  s.rect(cx - 55, cy + 70, 55, 6, '#d63a3a'); s.rect(cx, cy - 76, 55, 6, '#d63a3a');
-  s.rect(cx + 70, cy, 6, 55, '#d63a3a'); s.rect(cx - 76, cy - 55, 6, 55, '#d63a3a');
+  s.rect(cx, cy + 70, 55, 6, '#d63a3a'); s.rect(cx - 55, cy - 76, 55, 6, '#d63a3a');
+  s.rect(cx + 70, cy - 55, 6, 55, '#d63a3a'); s.rect(cx - 76, cy, 6, 55, '#d63a3a');
   s.label(cx, 108, 'Alle richtingen: stoppen', { size: 20, bg: '#d63a3a', fg: '#fff' });
   s.label(cx, 565, 'Wie al op het kruispunt staat, maakt het vrij.', { size: 17, bg: '#fff' });
   register(s.finish({ theorieblok: 'bevoegde-personen-seinen', bronnen: ['LICH-001'] }));

@@ -11,12 +11,12 @@ function mini(s, cx, cy) {
 
 // ---- armen horizontaal
 (function () {
-  const s = new Svg('schema-bevoegde-persoon-armen', 'Bevoegde persoon: armen horizontaal',
-    'Links een bevoegde persoon die je van voren ziet met beide armen horizontaal uitgestrekt. Rechts een kruispunt van boven gezien met de bevoegde persoon in het midden. De weggebruikers voor en achter hem (van onder en van boven) moeten stoppen, want de armen dwarsen hun richting. De weggebruikers die langs de uitgestrekte armen rijden (van links en van rechts) krijgen doorgang.',
+  const s = new Svg('schema-bevoegde-persoon-armen', 'Bevoegde persoon: arm of armen horizontaal',
+    'Links een bevoegde persoon die je van voren ziet met beide armen horizontaal uitgestrekt. Rechts een kruispunt van boven gezien met de bevoegde persoon in het midden. De weggebruikers voor en achter hem (van onder en van boven) moeten stoppen, want de armen dwarsen hun richting. De weggebruikers die uit de richting van de uitgestrekte arm of armen komen (van links en van rechts) moeten voor dit teken niet stoppen.',
     { bg: BG });
-  s.titel('Armen horizontaal: voor en achter stoppen');
+  s.titel('Arm of armen horizontaal: voor en achter stoppen');
   figure(s, 140, 480, 1.2, 'horiz');
-  s.label(140, 560, 'armen horizontaal', { size: 20, bg: '#fff' });
+  s.label(140, 545, 'arm of armen\nhorizontaal', { size: 20, bg: '#fff' });
   const cx = 530, cy = 330;
   mini(s, cx, cy);
   // auto's: onder (voor de agent) en boven (achter hem) stoppen; links/rechts mogen door
@@ -26,11 +26,11 @@ function mini(s, cx, cy) {
   s.arrow(cx - 120, cy + 27, cx - 80, cy + 27, '#1f9d55', 7); s.arrow(cx + 120, cy - 27, cx + 80, cy - 27, '#1f9d55', 7);
   s.label(cx + 120, cy + 170, 'stoppen', { size: 18, bg: '#d63a3a', fg: '#fff' });
   s.label(cx - 120, cy - 170, 'stoppen', { size: 18, bg: '#d63a3a', fg: '#fff' });
-  s.label(cx - 150, cy + 80, 'mag door', { size: 18, bg: '#1f9d55', fg: '#fff' });
-  s.label(cx + 150, cy - 80, 'mag door', { size: 18, bg: '#1f9d55', fg: '#fff' });
+  s.label(cx - 150, cy + 80, 'hoeft niet\nte stoppen', { size: 18, bg: '#1f9d55', fg: '#fff' });
+  s.label(cx + 150, cy - 80, 'hoeft niet\nte stoppen', { size: 18, bg: '#1f9d55', fg: '#fff' });
   s.arrow(cx - 40, cy + 2, cx - 24, cy + 2, '#2d57a8', 3);
   s.line(cx - 36, cy, cx + 36, cy, '#2d57a8', 4);
-  s.label(cx, 565, 'De agent kijkt naar onder; zijn armen wijzen naar links en rechts.', { size: 15, bg: '#fff' });
+  s.label(cx + 40, 545, 'De agent kijkt naar onder;\nzijn armen wijzen naar links en rechts.', { size: 15, bg: '#fff' });
   register(s.finish({ theorieblok: 'bevoegde-personen-seinen', bronnen: ['LICH-001'] }));
 })();
 
@@ -40,8 +40,8 @@ function mini(s, cx, cy) {
     'Links een werfopzichter die een ronde schijf met het verkeersbord verboden toegang omhoog houdt. Rechts een auto die stopt voor de signaalgever. Het bord op de schijf betekent: stoppen.',
     { bg: BG });
   s.titel('Schijf met bord verboden toegang: stoppen');
+  s.line(246, 232, 246, 150, '#8d949e', 6);
   figure(s, 170, 500, 1.45, 'disc');
-  s.line(246, 195, 246, 150, '#8d949e', 6);
   s.sign('C3', 246, 120, 110, { pole: false });
   s.label(170, 570, 'signaalgever / werfopzichter', { size: 18, bg: '#fff' });
   s.rect(470, 70, 240, 530, C.road);
@@ -51,7 +51,7 @@ function mini(s, cx, cy) {
   s.circle(500, 230, 14, '#2d57a8', 'stroke="#fff" stroke-width="3"'); s.circle(500, 230, 6, '#f1c9a5');
   s.sign('C3', 440, 230, 56);
   s.label(600, 190, 'auto stopt', { size: 20, bg: '#d63a3a', fg: '#fff' });
-  s.label(600, 535, 'Zij geven alleen aanwijzingen\nin de gevallen die de wegcode\nvoorziet (bv. werven, evenementen).', { size: 14, bg: '#fff' });
+  s.label(600, 515, 'Zij geven alleen aanwijzingen\nin de gevallen die de wegcode\nvoorziet (bv. werven, evenementen).', { size: 14, bg: '#fff' });
   register(s.finish({ theorieblok: 'bevoegde-personen-signaalgevers-werf', bronnen: ['LICH-001'] }));
 })();
 

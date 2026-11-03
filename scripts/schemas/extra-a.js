@@ -563,13 +563,13 @@ function rotonde(s, cx, cy, ringR, ringW) {
 
 (function () { // 4.4.1
   const s = new Svg('schema-bevoegde-personen-wie', 'Wie is een bevoegde persoon?',
-    'Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen op de openbare weg bewaakt of bedient. Soms ook anderen, zoals de brandweer bij een interventie.', { bg: BG });
+    'Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen bewaakt of bedient, voor het verkeer op en vlak bij die brug. Ook de brandweer is bevoegd bij een interventie, maar alleen voor bevelen en als de politie er niet is.', { bg: BG });
   s.titel('Wie is een bevoegde persoon?');
   const t = [
     ['Politie', 'federale en lokale politie', '#2d57a8'],
     ['Wegbeheerder', 'personeel dat toezicht\nhoudt op de weg', '#f08a1c'],
     ['Douane', 'douanepersoneel\ntijdens hun dienst', '#2e7d4f'],
-    ['Brugbediening', 'personeel dat bruggen\nbewaakt of bedient', '#6b7280'],
+    ['Brugbediening', 'personeel dat een brug\nbewaakt of bedient,\nop en vlak bij de brug', '#6b7280'],
   ];
   t.forEach(([naam, sub, col], i) => {
     const x = 24 + (i % 2) * 380, y = 72 + Math.floor(i / 2) * 226;
@@ -578,18 +578,18 @@ function rotonde(s, cx, cy, ringR, ringW) {
     s.text(x + 150, y + 90, naam, { size: 24, anchor: 'start', weight: 800 });
     s.text(x + 150, y + 124, sub, { size: 17, anchor: 'start', weight: 600 });
   });
-  s.text(400, 562, 'Soms ook anderen, zoals de brandweer bij een interventie.', { size: 17, weight: 600 });
+  s.text(400, 556, 'Ook de brandweer is bevoegd bij een interventie,\nmaar alleen voor bevelen en als de politie er niet is.', { size: 17, weight: 600 });
   out(s, 'bevoegde-personen-wie', ['LICH-001']);
 })();
 
 (function () { // 4.4.4
   const s = new Svg('schema-bevoegde-seinen-overzicht', 'Wat de seinen van een bevoegde persoon betekenen',
-    'Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Armen horizontaal: stoppen voor wie de armen dwarst. Een rood licht heen en weer zwaaien: stoppen voor wie het licht ziet.', { bg: BG });
+    'Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Arm of armen horizontaal: stoppen als je uit een richting komt die de arm of armen dwarst. Een rood licht heen en weer zwaaien: stoppen als het licht naar jou gericht is.', { bg: BG });
   s.titel('De seinen van een bevoegde persoon');
   const t = [
     ['Arm rechtop', 'Alle weggebruikers\nstoppen.', 'up'],
-    ['Armen horizontaal', 'Stoppen voor wie\nde armen dwarst.', 'horiz'],
-    ['Rood licht heen\nen weer zwaaien', 'Stoppen voor wie\nhet licht ziet.', 'lamp'],
+    ['Arm of armen\nhorizontaal', 'Stoppen als je uit een\nrichting komt die de\narmen dwarst.', 'horiz'],
+    ['Rood licht heen\nen weer zwaaien', 'Stoppen als het licht\nnaar jou gericht is.', 'lamp'],
   ];
   t.forEach(([naam, sub, pose], i) => {
     const x = 24 + i * 254, y = 72;
@@ -648,7 +648,7 @@ tijdlijn('schema-wegcode-2027', 'Van het huidige reglement naar nieuwe codes op 
 const KWET = ['KWET-001'];
 (function () { // 5.1.2
   const s = new Svg('schema-gelijkgesteld-voetganger-fietser', 'Telt als voetganger of als fietser',
-    'Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.', { bg: BG });
+    'Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een toestel dat voor hem bestemd is stapvoets, en wie een fiets of tweewielige bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.', { bg: BG });
   s.titel('Telt als voetganger of als fietser');
   const kol = (x, kleur, kop, icoon, items) => {
     box(s, x, 72, 372, 420, kleur);
@@ -656,7 +656,7 @@ const KWET = ['KWET-001'];
     s.text(x + 100, 130, kop, { size: 24, anchor: 'start', weight: 800 });
     items.forEach((t, i) => { box(s, x + 16, 168 + i * 106, 340, 92, '#fff', { rx: 10 }); s.text(x + 186, 206 + i * 106 - (t.split('\n').length > 2 ? 8 : 0), t, { size: 17, weight: 700 }); });
   };
-  kol(24, '#dce8f8', 'Telt als voetganger', 'voet', ['Step zonder motor,\nstapvoets', 'Persoon met beperkte mobiliteit\nop eigen toestel, stapvoets', 'Wie een fiets of bromfiets\naan de hand leidt']);
+  kol(24, '#dce8f8', 'Telt als voetganger', 'voet', ['Step zonder motor,\nstapvoets', 'Persoon met beperkte mobiliteit\nop een toestel voor hen\nbestemd, stapvoets', 'Wie een fiets of tweewielige\nbromfiets aan de hand leidt']);
   kol(404, '#fde6cf', 'Telt als fietser', 'fiets', ['Step zonder motor,\nsneller dan stapvoets', 'Elektrische step\n(maximaal 25 km/u)', 'Elektrische fiets\ntot 25 km/u']);
   s.text(400, 538, 'Een elektrische step telt als fietser, niet als voetganger.', { size: 18, weight: 700 });
   out(s, 'kwetsbaar-algemeen', KWET);

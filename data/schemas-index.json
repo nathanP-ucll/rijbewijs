@@ -264,8 +264,8 @@
  {
   "naam": "schema-bevoegde-persoon-armen",
   "bestand": "img/schemas/schema-bevoegde-persoon-armen.svg",
-  "titel": "Bevoegde persoon: armen horizontaal",
-  "beschrijving": "Links een bevoegde persoon die je van voren ziet met beide armen horizontaal uitgestrekt. Rechts een kruispunt van boven gezien met de bevoegde persoon in het midden. De weggebruikers voor en achter hem (van onder en van boven) moeten stoppen, want de armen dwarsen hun richting. De weggebruikers die langs de uitgestrekte armen rijden (van links en van rechts) krijgen doorgang.",
+  "titel": "Bevoegde persoon: arm of armen horizontaal",
+  "beschrijving": "Links een bevoegde persoon die je van voren ziet met beide armen horizontaal uitgestrekt. Rechts een kruispunt van boven gezien met de bevoegde persoon in het midden. De weggebruikers voor en achter hem (van onder en van boven) moeten stoppen, want de armen dwarsen hun richting. De weggebruikers die uit de richting van de uitgestrekte arm of armen komen (van links en van rechts) moeten voor dit teken niet stoppen.",
   "borden": [],
   "theorieblok": "bevoegde-personen-seinen",
   "bronnen": [

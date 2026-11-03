@@ -30,8 +30,8 @@
               "type": "tekst",
               "alineas": [
                 "Een bevoegde persoon mag toezicht houden op de verkeersregels en bevelen geven aan weggebruikers.",
-                "Dat zijn onder meer de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst en personeel dat bruggen op de openbare weg bewaakt of bedient.",
-                "Soms mag ook een andere persoon bevelen geven, zoals de brandweer op de plaats van een interventie."
+                "Dat zijn onder meer de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg (in Vlaanderen ook wegeninspecteurs), douanepersoneel tijdens hun dienst en personeel dat bruggen bewaakt of bedient, voor het verkeer op en vlak bij die brug.",
+                "Ook de brandweer is een bevoegde persoon op de plaats van een interventie, maar alleen voor bevelen en als de politie er niet is."
               ]
             },
             {
@@ -60,13 +60,13 @@
               "alineas": [
                 "Je geeft onmiddellijk gevolg aan de bevelen van een bevoegde persoon.",
                 "Een bestuurder van een stilstaand of geparkeerd voertuig moet dat voertuig verplaatsen zodra een bevoegde persoon dat vraagt.",
-                "Weigert hij, of is hij weg? Dan mag de bevoegde persoon het voertuig verplaatsen, op risico en kosten van de bestuurder."
+                "Weigert hij? Dan mag de bevoegde persoon het voertuig laten verplaatsen, op risico en kosten van de bestuurder. Is de bestuurder weg en staat het voertuig niet reglementair geparkeerd, dan geldt hetzelfde. Staat het wel reglementair geparkeerd, dan zijn de kosten niet voor de afwezige bestuurder."
               ]
             },
             {
               "type": "tip",
               "titel": "Je voertuig verplaatsen",
-              "tekst": "Vraagt een bevoegde persoon om je voertuig te verplaatsen? Doe dat meteen, anders gebeurt het op jouw risico en kosten."
+              "tekst": "Vraagt een bevoegde persoon om je voertuig te verplaatsen? Doe dat meteen. Weiger je, dan gebeurt het op jouw risico en kosten."
             },
             {
               "type": "oefening",
@@ -282,16 +282,16 @@
             {
               "type": "schema",
               "afb": "schema-bevoegde-persoon-armen",
-              "bijschrift": "Wie de armen dwarst, stopt. Wie langs de armen rijdt, krijgt doorgang.",
+              "bijschrift": "Wie de arm of armen dwarst, stopt. Wie uit de richting van de arm of armen komt, hoeft voor dit teken niet te stoppen.",
               "punten": [
                 "Wie voor of achter de bevoegde persoon nadert, stopt.",
-                "Wie langs de uitgestrekte armen rijdt, krijgt doorgang."
+                "Uit de richting van de arm of armen? Dan stop je niet."
               ]
             },
             {
               "type": "tekst",
               "alineas": [
-                "Strekt een bevoegde persoon zijn armen horizontaal uit, dan stop je als je komt uit een richting die de armen dwarsen. Dat zijn de weggebruikers die voor of achter de bevoegde persoon naderen."
+                "Strekt een bevoegde persoon een arm of beide armen horizontaal uit, dan stop je als je komt uit een richting die de arm of armen dwarsen. Dat zijn de weggebruikers die voor of achter de bevoegde persoon naderen."
               ]
             },
             {
@@ -343,7 +343,7 @@
             {
               "type": "schema",
               "afb": "schema-bevoegde-seinen-overzicht",
-              "bijschrift": "Arm rechtop, armen horizontaal en een rood licht dat zwaait."
+              "bijschrift": "Arm rechtop, arm of armen horizontaal en een rood licht dat zwaait."
             },
             {
               "type": "tekst",
@@ -373,7 +373,7 @@
     "Je volgt het bevel van een bevoegde persoon onmiddellijk op.",
     "Rangorde: bevoegde persoon, dan verkeerstekens, dan de gewone verkeersregels.",
     "Arm rechtop: alle weggebruikers stoppen.",
-    "Armen horizontaal: stoppen als je komt uit een richting die de armen dwarsen.",
+    "Arm of armen horizontaal: stoppen als je uit een richting komt die ze dwarst.",
     "Een rood licht dat zwaait: stoppen als het licht naar jou gericht is.",
     "Signaalgevers, wegkapiteins en werfopzichters geven aanwijzingen die je opvolgt."
   ]

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="800" height="600" role="img" aria-labelledby="t d">
 <title id="t">Telt als voetganger of als fietser</title>
-<desc id="d">Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.</desc>
+<desc id="d">Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een toestel dat voor hem bestemd is stapvoets, en wie een fiets of tweewielige bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.</desc>
 
 <rect width="800" height="600" fill="#eef1f6"/>
 <rect x="24" y="72" width="372" height="420" rx="14" fill="#dce8f8" stroke="#1c2230" stroke-width="2.5" />
@@ -10,9 +10,9 @@
 <rect x="40" y="168" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
 <text x="210" y="206" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Step zonder motor,</tspan><tspan x="210" dy="20.06">stapvoets</tspan></text>
 <rect x="40" y="274" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
-<text x="210" y="312" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Persoon met beperkte mobiliteit</tspan><tspan x="210" dy="20.06">op eigen toestel, stapvoets</tspan></text>
+<text x="210" y="304" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Persoon met beperkte mobiliteit</tspan><tspan x="210" dy="20.06">op een toestel voor hen</tspan><tspan x="210" dy="20.06">bestemd, stapvoets</tspan></text>
 <rect x="40" y="380" width="340" height="92" rx="10" fill="#fff" stroke="#1c2230" stroke-width="2.5" />
-<text x="210" y="418" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Wie een fiets of bromfiets</tspan><tspan x="210" dy="20.06">aan de hand leidt</tspan></text>
+<text x="210" y="418" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="17" font-weight="700" fill="#1c2230" text-anchor="middle" ><tspan x="210" dy="0">Wie een fiets of tweewielige</tspan><tspan x="210" dy="20.06">bromfiets aan de hand leidt</tspan></text>
 <rect x="404" y="72" width="372" height="420" rx="14" fill="#fde6cf" stroke="#1c2230" stroke-width="2.5" />
 <g transform="translate(460 120) scale(1.8)" fill="none" stroke="#1c2230" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><circle cx="-11" cy="8" r="7"/><circle cx="11" cy="8" r="7"/><path d="M-11,8 L-3,-4 L6,-4 L11,8 M-3,-4 L0,8 L-11,8 M6,-4 L4,-9 M1,-9 L8,-9"/><circle cx="-3" cy="-13" r="3.2" fill="#1c2230" stroke="none"/></g>
 <text x="504" y="130" font-family="Segoe UI, Helvetica, Arial, sans-serif" font-size="24" font-weight="800" fill="#1c2230" text-anchor="start" ><tspan x="504" dy="0">Telt als fietser</tspan></text>

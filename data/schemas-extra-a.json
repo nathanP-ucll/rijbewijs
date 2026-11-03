@@ -20,7 +20,7 @@
   "naam": "schema-bevoegde-personen-wie",
   "bestand": "img/schemas/schema-bevoegde-personen-wie.svg",
   "titel": "Wie is een bevoegde persoon?",
-  "beschrijving": "Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen op de openbare weg bewaakt of bedient. Soms ook anderen, zoals de brandweer bij een interventie.",
+  "beschrijving": "Vier kaartjes met een persoon in uniform: de federale en lokale politie, personeel van de wegbeheerders dat toezicht houdt op de weg, douanepersoneel tijdens hun dienst, en personeel dat bruggen bewaakt of bedient, voor het verkeer op en vlak bij die brug. Ook de brandweer is bevoegd bij een interventie, maar alleen voor bevelen en als de politie er niet is.",
   "borden": [],
   "theorieblok": "bevoegde-personen-wie",
   "bronnen": [
@@ -32,7 +32,7 @@
   "naam": "schema-bevoegde-seinen-overzicht",
   "bestand": "img/schemas/schema-bevoegde-seinen-overzicht.svg",
   "titel": "Wat de seinen van een bevoegde persoon betekenen",
-  "beschrijving": "Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Armen horizontaal: stoppen voor wie de armen dwarst. Een rood licht heen en weer zwaaien: stoppen voor wie het licht ziet.",
+  "beschrijving": "Drie kaartjes met een bevoegde persoon. Arm rechtop: alle weggebruikers stoppen. Arm of armen horizontaal: stoppen als je uit een richting komt die de arm of armen dwarst. Een rood licht heen en weer zwaaien: stoppen als het licht naar jou gericht is.",
   "borden": [],
   "theorieblok": "bevoegde-personen-seinen",
   "bronnen": [
@@ -139,7 +139,7 @@
   "naam": "schema-gelijkgesteld-voetganger-fietser",
   "bestand": "img/schemas/schema-gelijkgesteld-voetganger-fietser.svg",
   "titel": "Telt als voetganger of als fietser",
-  "beschrijving": "Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een eigen toestel stapvoets, en wie een fiets of bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.",
+  "beschrijving": "Twee kolommen. Telt als voetganger: een step zonder motor stapvoets, een persoon met beperkte mobiliteit op een toestel dat voor hem bestemd is stapvoets, en wie een fiets of tweewielige bromfiets aan de hand leidt. Telt als fietser: een step zonder motor sneller dan stapvoets, een elektrische step (maximaal 25 km/u) en een elektrische fiets tot 25 km/u.",
   "borden": [],
   "theorieblok": "kwetsbaar-algemeen",
   "bronnen": [

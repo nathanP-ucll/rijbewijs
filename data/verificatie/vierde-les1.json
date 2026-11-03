@@ -1,0 +1,105 @@
+{
+  "L1-028": {
+    "status": "ok",
+    "opmerking": "KB art. 72.3 (zelf gelezen): als de trekken van een onderbroken streep korter zijn en dichter bij elkaar, kondigen ze het naderen van een doorlopende streep aan. Eén juist antwoord (doorlopende); gele en oranje zijn fout en geen synoniemen. Beeld gerenderd (Playwright, ook in de site-engine): de gele stippellijn is weg; het onderwerp wordt nu aangeduid met een donkere accolade op het gras naast de weg; auto rijdt rechts naar boven, lange trekken, dan korte trekken, dan vraagteken. Geen bordcode of artikelnummer in zichtbare tekst. Opmerking (geen fout): de zin in de vraag geeft de regel al bijna weg; de leerwaarde zit in het herkennen van het beeld.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-032": {
+    "status": "ok",
+    "opmerking": "KB art. 11.1/11.2 (Vlaams, Waals en Brussels Gewest zelf gelezen): bebouwde kom Vlaanderen 50, Wallonië 50, Brussel 30; buiten de bebouwde kom op de andere openbare wegen Vlaanderen 70 (90 enkel met C43), Wallonië 90, Brussel 70; autosnelweg 120 overal (personenwagen). Vraag zegt 'zonder bord' en 'personenwagen': ondubbelzinnig, elke cel heeft één juist antwoord. Beeld gerenderd (schema-plaatsen-drie-oefening): ALLE drie de stroken rijden nu rechts. Gecontroleerd via de SVG-transformaties (rotate 90 = oost, 270 = west): bebouwde kom rode auto oost in de zuidelijke helft; gewone weg blauwe auto west in de noordelijke helft; autosnelweg rode auto west in de noordelijke rijbaan, gele en groene auto oost in de zuidelijke. Beeld verklapt geen cijfers; begin-bebouwde-kom-bord en autosnelwegbord zijn herkenbaar. Kleine onnauwkeurigheid (alleen toegankelijkheidstekst): de desc van de SVG spreekt van 'twee rijstroken per richting' op de autosnelweg, terwijl het beeld één strook per richting toont; pas de desc aan.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/snelheidsbeperkingen",
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+    ]
+  },
+  "L1-047": {
+    "status": "twijfel",
+    "opmerking": "Waarden kloppen met KB art. 11.3 (zelf gelezen): 11.3.2° tot 60 km/u voor 'andere voertuigen en slepen met luchtbanden en met een maximale toegelaten massa van meer dan 7,5 ton, behalve op de onder 11.2.1° en 11.2.2° a) bedoelde wegen' (autosnelwegen en 2x2-wegen met fysieke scheiding); 11.3.4° 45 voor bromfiets klasse B; 11.3.5° 25 voor bromfiets klasse A; 11.2.1° a) autosnelweg: voertuigen en slepen boven 3,5 ton en autobussen 90. De Vias/wegcode-tabel bevestigt 60 op 'andere wegen' voor MTM > 7,5 t (uitgezonderd autobussen en autocars). 'Gewone weg buiten de bebouwde kom' klopt dus voor de 60. Vier verschillende rechterkanten, uniek. Resterend punt (wording): 'Voertuig boven 7,5 ton op luchtbanden' omvat strikt genomen ook een bus, maar voor autobussen geldt 75 (11.3.1°), niet 60; en 'Voertuig boven 3,5 ton op de autosnelweg' laat autocars met gordels en begrenzer (100) buiten beschouwing. Voorstel: 'Vrachtwagen boven 7,5 ton (luchtbanden), gewone weg buiten de bebouwde kom' en 'Vrachtwagen boven 3,5 ton op de autosnelweg'. Geen bordcodes of artikelnummers, geen regels van 2027.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/snelheidsbeperkingen",
+      "https://www.veiligverkeer.be/veilig-rijden/snelheid/regels-snelheid-en-snelheidslimieten/"
+    ]
+  },
+  "L1-M30": {
+    "status": "twijfel",
+    "opmerking": "Zelfde als L1-047: waarden juist en volgorde eenduidig (25 < 45 < 60 < 90, geen gelijke waarden). KB art. 11.3.5° (25), 11.3.4° (45), 11.3.2° (60, behalve op autosnelwegen en 2x2-wegen met fysieke scheiding), 11.2.1° a) (90 boven 3,5 ton op de autosnelweg). Zelfde wording-voorbehoud: 'Voertuig' omvat strikt genomen ook een bus (75) of een autocar met gordels en begrenzer (100); gebruik 'Vrachtwagen boven 7,5 ton op luchtbanden, gewone weg buiten de bebouwde kom' en 'Vrachtwagen boven 3,5 ton, op de autosnelweg'. Didactisch: de volgorde volgt gewoon de zichtbare getallen, dus weinig leerwaarde, maar objectief juist.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+      "https://www.wegcode.be/nl/verkeersreglement/uitleg-bij-het-verkeersreglement/snelheidsbeperkingen"
+    ]
+  },
+  "L1-M59": {
+    "status": "ok",
+    "opmerking": "Betekenissen kloppen met KB art. 71.2 (zelf gelezen): F79 voorwegwijzer die de vermindering van het aantal rijstroken aankondigt, F81 voorwegwijzer die een uitwijking aankondigt, F87 verhoogde inrichting(en), F97 versmalling met de omvang van een rijstrook. F91 is uit de oefening gehaald; de overlappende labels uit de vorige ronde zijn weg (4 borden, 4 betekenissen). Gerenderd: F79 oranje, drie pijlen en 1500 m (rechter rijstrook valt weg), F81 oranje met uitwijking, F87 blauw met driehoek en drempel, F97 blauw met samenvoegende pijl. Restpunt (licht): F79 toont zelf ook een samenvoegende rijstrook, dus 'Een rijstrook voegt samen met de andere' past inhoudelijk ook een beetje bij F79; het onderscheid berust op de kleur (label 1 zegt 'Oranje') en op 'verdwijnt verderop' tegenover 'voegt samen'. Aanvaardbaar. LET OP: de gebouwde site (site/data/cursus.js, gebouwd 00:50 UTC) bevat nog de OUDE versie van L1-M59 (5 labels, F91, 'Er komen minder rijstroken') en ook van L1-M53, L1-M07, L1-M52 en L1-M62: opnieuw bouwen met scripts/build.js.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M53": {
+    "status": "ok",
+    "opmerking": "KB art. 69.3 (zelf gelezen): D1 verplichting de pijl te volgen, en een niet-gebogen pijl op een hindernis betekent langs die kant voorbijrijden; D3 verplichting één van de pijlen te volgen. Gerenderd: D1a pijl omhoog, D1e gebogen pijl links, D1f gebogen pijl rechts, D1c schuine pijl omlaag-links, D3a omhoog+links, D3b omhoog+rechts: allemaal consistent met de labels; zes verschillende betekenissen, geen synoniemen. 'Langs de linkerkant voorbijrijden (bord op een hindernis)' is juist en onderscheidt zich van 'Verplicht links afslaan' (gebogen pijl). Geen codes zichtbaar (alt van de beelden is leeg).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M07": {
+    "status": "ok",
+    "opmerking": "KB art. 68.3 (zelf gelezen): C31a/b verbod aan het volgend kruispunt af te slaan in de pijlrichting; C35 verbod een gespan of voertuig met meer dan twee wielen links in te halen; C37 einde van het verbod van C35; C45 einde van de snelheidsbeperking van C43; C46 einde van alle plaatselijke verbodsbepalingen voor voertuigen in beweging. Gerenderd en juist (C31b rechts, C35 twee auto's, C37 grijs doorgestreept, C45 met grijs getal 50, C46 leeg doorgestreept). Vijf unieke betekenissen. Kleine suggestie: bord 5 'Einde van de verbodsbepalingen' veranderen in 'Einde van alle verbodsbepalingen' (KB: 'alle'), zodat het niet ook 'einde van het inhaalverbod' lijkt te omvatten. 'Inhaalverbod' voor C35 is een aanvaardbare vereenvoudiging (strikt: links inhalen voor voertuigen met meer dan twee wielen).",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M52": {
+    "status": "ok",
+    "opmerking": "KB art. 68.3: C43 maximumsnelheid (30, 70 en 90 bestaan als waarden; 90 in Vlaanderen enkel waar toegelaten), C45 einde van de snelheidsbeperking, C46 einde van alle plaatselijke verbodsbepalingen voor voertuigen in beweging. Gerenderd: C43_30, C43_70, C43_90, C45 met grijs getal 50, C46 leeg: allemaal juist en onderscheidbaar. Zelfde suggestie als L1-M07: 'Einde van alle verbodsbepalingen'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-M62": {
+    "status": "ok",
+    "opmerking": "KB art. 71.2 (zelf gelezen): F34a bewegwijzeringsbord bij openbare inrichtingen van algemeen belang (treinsymbool), F35 wegwijzer sportcentrum/toeristische plaats, F37 wegwijzer jeugdherberg, overnachting, restaurant, F39 voorwegwijzer die een omlegging aankondigt, F41 wegwijzer omleggingsweg, F47 einde van de werken. Gerenderd en juist (F34a wit met trein, F35 bruin met toeristisch symbool, F37 geel met bestek, F39 oranje vierkant, F41 oranje pijlbord, F47 blauw met doorgestreepte werker). Restpunt: 'Voorwegwijzer van een omleiding' en 'Wegwijzer van de omleiding' lijken woordelijk sterk op elkaar; de vorm (vierkant tegenover pijl) onderscheidt ze, maar een leerling zonder voorkennis gokt 50/50. Eventueel: 'Voorwegwijzer: er komt een omleiding' en 'Wegwijzer langs de omleidingsroute'.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-003": {
+    "status": "ok",
+    "opmerking": "KB art. 6.1 en 6.2 (zelf gelezen): bevelen van bevoegde personen gaan boven de verkeerstekens en de verkeersregels; verkeerstekens gaan boven de verkeersregels. Eén vaste volgorde, drie verschillende items. Geen codes in de tekst.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-V01": {
+    "status": "ok",
+    "opmerking": "KB art. 3 (zelf gelezen): 1° operationeel personeel van de federale en lokale politie, 7° douanepersoneel bij de uitoefening van zijn dienst, 4° (Vlaams Gewest) voor het toezicht op de openbare weg aangestelde personeelsleden en wegeninspecteurs. Opties 1, 2 en 3 zijn juist; een voorbijganger is geen bevoegde persoon (art. 4.3 vereist bovendien functiekentekens). Geen overlap tussen de opties. Opmerking: signaalgevers, wegkapiteins en werfopzichters zijn volgens art. 3 geen bevoegde personen maar worden gevolgd via art. 41.3.1 (zie L1-V03). De uitleg 'Niet elke persoon die het verkeer regelt, is een bevoegde persoon' is juist maar mager: voeg één zin toe die dit onderscheid benoemt, anders ervaart een leerling V01 en V03 als tegenstrijdig.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-V02": {
+    "status": "twijfel",
+    "opmerking": "De oefening zelf klopt met KB art. 4.2 (zelf gelezen): 1° arm rechtop gestoken = stoppen voor alle weggebruikers, behalve wie op het kruispunt staat en dit moet vrijmaken; 2° arm of armen horizontaal = stoppen voor wie uit richtingen komt die de armen dwarsen; 3° overdwars zwaaien met een rood licht = stoppen voor de bestuurders naar wie het licht gekeerd is. Drie unieke paren. PROBLEEM IN HET ONDERSTEUNENDE BEELD (gerenderd; gebruikt in het boek, data/boek/hbevoegd.json): schema-bevoegde-persoon-stop toont linksrijdend verkeer. Rode auto rijdt noord op de westelijke (linker) helft van de verticale weg (x=503, middenas 530), blauwe auto rijdt zuid op de oostelijke helft (x=557), gele auto rijdt west in de zuidelijke helft (y=357) en groene auto rijdt oost in de noordelijke helft (y=303). In een Belgische cursus moet noord-rijdend verkeer rechts (oost) en west-rijdend verkeer in de noordelijke helft rijden. schema-bevoegde-persoon-armen (juist: rechtsrijdend, noord/zuid stoppen, oost/west mag door) en schema-bevoegde-seinen-overzicht zijn in orde. Fix: in scripts/schemas/lichten.js (schema-bevoegde-persoon-stop) de posities spiegelen (rood x=557, blauw x=503, geel y=303, groen y=357) en de schema's opnieuw bouwen.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-V03": {
+    "status": "ok",
+    "opmerking": "KB art. 41.3.1 (zelf gelezen): weggebruikers moeten de aanwijzingen opvolgen van daartoe gemachtigde signaalgevers (culturele en sportieve evenementen, wielerwedstrijden), van wegkapiteins (groepen fietsers en motorfietsers), groepsleiders (voetgangers en ruiters) en werfopzichters (personeel van werken op de openbare weg). Opties 1-3 juist, voorbijganger fout. Terminologie klopt: 'aanwijzingen' (art. 41), niet 'bevelen van bevoegde personen' (art. 4). Geen overlap, één juiste set.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  },
+  "L1-V04": {
+    "status": "ok",
+    "opmerking": "KB art. 4.1 en 6.1 (zelf gelezen): bevelen van bevoegde personen moeten onmiddellijk worden opgevolgd en gaan boven de verkeerstekens (dus ook boven het groene licht). Enkel 'Stoppen' is juist; 'Doorrijden', 'Rustig afremmen en dan doorrijden' en 'Toeteren' zijn fout en overlappen niet met het juiste antwoord. Geen codes. Zie bij L1-V02 het linksrijdende beeld schema-bevoegde-persoon-stop in hetzelfde boekblok.",
+    "bronnen": [
+      "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+  }
+}

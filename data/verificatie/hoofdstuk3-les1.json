@@ -1,0 +1,704 @@
+{
+ "_meta": {
+  "bron_kb": "KB 1/12/1975, geconsolideerde tekst op wegcode.be, laatst bijgewerkt 30 oktober 2026. Gelezen: art. 2.13, 2.15-2.17, 2.46, 2.65-2.66, 3, 4, 5, 6, 7bis, 7ter, 11.3, 41.3, 42, 43, 55 en 68.3 (C9, C22). Nieuwe Code (KB 3/6/2024, art. 4) alleen ter vergelijking: zelfde formulering voor armen horizontaal.",
+  "opmerking": "ernst: hoog/middel/laag/geen. De oefeningen L1-P01..P12, L1-V01..V04 en L1-003 hebben geen afbeelding, dus niets verklapt via een afbeelding. In de zichtbare tekst van hbevoegd.json en h1-4-2b staan geen bordcodes of artikelnummers, geen fluitsignalen, schoolbrigadier of werfseinen en geen 2027-regels als huidig. Schema's gerenderd met Playwright en bekeken.",
+  "verder_gevonden": "Dezelfde formuleringen 'autocars (bussen)' en 'bromfietsen (klasse A en B)' staan ook in andere oefeningen van les1.json: L1-009, L1-016, L1-M10, L1-M48, L1-M56, L1-K01 (niet in de opdracht, wel dezelfde bevinding)."
+ },
+ "hb-1-1": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Soms mag ook een andere persoon bevelen geven, zoals de brandweer op de plaats van een interventie.",
+    "opmerking": "Het KB rekent de interveniërende leden van brandweer en civiele bescherming zelf tot de bevoegde personen (art. 3, 13), maar alleen voor bevelen (art. 4) en alleen als er geen politie aanwezig is. De pagina noemt ze 'een andere persoon', wat niet klopt met de vraag 'Wie is een bevoegde persoon?'. Dezelfde zin staat in het schema.",
+    "voorstel": "Ook de brandweer is een bevoegde persoon op de plaats van een interventie, maar alleen voor bevelen en als de politie er niet is.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "personeel dat bruggen op de openbare weg bewaakt of bedient",
+    "opmerking": "Art. 3, 6: bevoegd 'voor wat het verkeer op die bruggen en in de nabijheid ervan betreft'. Zonder die beperking klinkt het als een algemene bevoegdheid.",
+    "voorstel": "personeel dat bruggen bewaakt of bedient, voor het verkeer op en vlak bij die brug",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Tip: Bevelen aan rijdend verkeer geeft een bevoegde persoon alleen met de kentekens van zijn functie, zodat je hem dag en nacht herkent.",
+    "opmerking": "Klopt met art. 4.3 (kentekens, dag en nacht herkenbaar). Eerste alinea en politie, wegbeheerders, douane en brugbediening kloppen met art. 3, 1, 4 (Vlaams Gewest), 6 en 7.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-1-2": {
+  "status": "fout",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "Weigert hij, of is hij weg? Dan mag de bevoegde persoon het voertuig verplaatsen, op risico en kosten van de bestuurder.",
+    "opmerking": "Art. 4.4: de verplaatsing gebeurt op risico en kosten van de bestuurder, 'behalve wanneer de bestuurder afwezig is en het voertuig reglementair is geparkeerd'. De pagina laat die uitzondering weg en stelt de kostenregel dus te absoluut voor voor een afwezige bestuurder.",
+    "voorstel": "Weigert hij? Dan mag de bevoegde persoon het voertuig verplaatsen, op risico en kosten van de bestuurder. Is hij weg en staat het voertuig niet reglementair geparkeerd, dan geldt hetzelfde. Staat het wel reglementair geparkeerd, dan zijn de kosten niet voor de afwezige bestuurder.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "middel",
+    "tekst": "Tip: Vraagt een bevoegde persoon om je voertuig te verplaatsen? Doe dat meteen, anders gebeurt het op jouw risico en kosten.",
+    "opmerking": "Juist voor wie aanwezig is en weigert. Voor wie afwezig is en reglementair geparkeerd staat klopt 'op jouw kosten' niet (art. 4.4).",
+    "voorstel": "Vraagt een bevoegde persoon om je voertuig te verplaatsen? Doe dat meteen. Weiger je, dan gebeurt het op jouw risico en kosten.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Een bestuurder van een stilstaand of geparkeerd voertuig moet dat voertuig verplaatsen zodra een bevoegde persoon dat vraagt.",
+    "opmerking": "Klopt (art. 4.4 'aangemaand'). 'Je geeft onmiddellijk gevolg aan de bevelen' klopt met art. 4.1.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-1-3": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Opsomming klopt met art. 41.3.1 (gemachtigde signaalgevers bij evenementen en wielerwedstrijden, wegkapiteins bij groepen fietsers en motorfietsers, groepsleiders bij groepen voetgangers en ruiters, werfopzichters, begeleiders en verkeerscoordinators bij uitzonderlijke voertuigen) en art. 41.3.2 (schijf met het bord verboden toegang). Geen werfseinen of handseinen genoemd. Schema: zie schema-werfzeiger-schijf.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-2-1": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Rangorde klopt met art. 5 (verkeerstekens = lichten, borden, markeringen) en art. 6.1 en 6.2. Tip over groen licht en agent klopt.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-2-2": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Tabel en drie voorbeeldzinnen kloppen met art. 6.1 en 6.2.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-2-3": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Geen nieuwe beweringen, herhaalt de rangorde; klopt.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-3-1": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Klopt met art. 4.2, 1 (arm rechtop: stoppen voor alle weggebruikers, behalve wie op het kruispunt staat en dat vrijmaakt). De lopende tekst noemt de uitzondering niet, de schema-punten wel; acceptabel. Schema gerenderd: stoplijnen en auto's in vier richtingen kloppen, rechtsrijdend verkeer correct.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-3-2": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Strekt een bevoegde persoon zijn armen horizontaal uit, dan stop je als je komt uit een richting die de armen dwarsen.",
+    "opmerking": "Het KB (art. 4.2, 2) zegt 'de arm of de armen horizontaal uitgestrekt': een arm geeft hetzelfde bevel. De pagina en de samenvatting noemen alleen 'armen'. De richting (voor en achter stoppen) klopt met de lezing 'wie de lijn van de arm(en) kruist, stopt', ook in het Verdrag van Wenen art. 6.3 b.",
+    "voorstel": "Strekt een bevoegde persoon een arm of beide armen horizontaal uit, dan stop je als je komt uit een richting die de arm of armen dwarsen. Pas ook de samenvatting en het overzichtsschema mee aan.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+     "https://www.inview.nl/document/id5bb56260d8ce5da9d09014fe718fcb99/convention-on-road-traffic-article-6-instructions-given-by-authorized-officials-21-05-1977-tot"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "Wie langs de uitgestrekte armen rijdt, krijgt doorgang.",
+    "opmerking": "'Krijgt doorgang' staat niet letterlijk in het KB; het KB zegt alleen wie moet stoppen. Het is een redelijke afleiding, maar absoluut geformuleerd. 'Langs' kan ook als 'naast de agent voorbij' gelezen worden. Staat ook in docs/TE-CONTROLEREN-lichten.md punt 7 (nog niet bevestigd door een brochure).",
+    "voorstel": "Wie uit de richting van de uitgestrekte arm of armen komt (links of rechts van de bevoegde persoon), moet voor dit teken niet stoppen.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+     "https://www.inview.nl/document/id5bb56260d8ce5da9d09014fe718fcb99/convention-on-road-traffic-article-6-instructions-given-by-authorized-officials-21-05-1977-tot"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "Schema armen: bijschrift 'De agent kijkt naar onder; zijn armen wijzen naar links en rechts.'",
+    "opmerking": "Gerenderd: de bijschriftbalk grenst aan het label 'armen horizontaal' en loopt tot aan de onderrand van de kaart. Inhoud klopt: voor en achter hem stoppen, zijkanten niet, auto's rechtsrijdend.",
+    "voorstel": "Bijschriftbalk iets hoger plaatsen.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Oefeningen L1-P08 en L1-P10 staan onder een schema dat 'stoppen' en 'mag door' al toont.",
+    "opmerking": "Normaal op een leerpagina, geen fout. Hergebruik dit schema niet in een eindtest- of oefenvariant.",
+    "voorstel": "",
+    "bronnen": []
+   }
+  ]
+ },
+ "hb-3-3": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Klopt met art. 4.2, 3 (overdwars zwaaien met een rood licht: stoppen voor de bestuurders naar wie het licht gekeerd is).",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hb-3-4": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Samenvatting van de drie tekens klopt. Het overzichtsschema heeft de formulering 'Stoppen voor wie het licht ziet' (zie schema-bevoegde-seinen-overzicht). De antwoorden van L1-V02 staan in het schema erboven: acceptabel op een leerpagina.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "hbevoegd-intro-en-samenvatting": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Intro, doelen en de acht samenvattingspunten kloppen met KB art. 3 tot 6. Geen absolute of verouderde beweringen. 'Armen horizontaal' zonder 'arm of': zie hb-3-2.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "h1-4-2b": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "Je bent voetganger als je een fiets of bromfiets aan de hand leidt.",
+    "opmerking": "Art. 2.46: gelijkgesteld worden wie 'een fiets, een gemotoriseerd rijwiel of een tweewielige bromfiets' aan de hand leidt. 'Bromfiets' is te ruim: een drie- of vierwielige bromfiets of een motorfiets aan de hand staat niet in de lijst. Een speedpedelec is wel een tweewielige bromfiets.",
+    "voorstel": "Je bent voetganger als je een fiets, een elektrische fiets of een tweewielige bromfiets aan de hand leidt.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "middel",
+    "tekst": "Een persoon met beperkte mobiliteit op een eigen toestel dat stapvoets rijdt, telt ook als voetganger.",
+    "opmerking": "Art. 7bis: alleen personen met verminderde mobiliteit op een gemotoriseerd toestel dat 'uitsluitend voor hen is bestemd' en waarmee niet sneller dan stapvoets wordt gereden (bv. een elektrische rolstoel). 'Eigen toestel' is niet het criterium. Zelfde formulering in het schema.",
+    "voorstel": "Een persoon met beperkte mobiliteit op een toestel dat speciaal voor hem bestemd is, zoals een elektrische rolstoel, telt als voetganger zolang hij niet sneller dan stapvoets rijdt.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "Dat geldt ook voor wie een kinderwagen aan de hand heeft.",
+    "opmerking": "Klopt. Art. 2.46 noemt ook kruiwagen, rolstoel en elk voertuig zonder motor dat niet meer plaats nodig heeft dan een voetganger. Een rolstoel aan de hand leiden staat niet op de pagina. Wie zelf in een niet-gemotoriseerde rolstoel zit, is gebruiker van een niet-gemotoriseerd voortbewegingstoestel (art. 7bis: voetganger bij stapvoets, anders fietser).",
+    "voorstel": "Dat geldt ook voor wie een kinderwagen of een rolstoel aan de hand leidt.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "Paard aan de hand (niet vermeld op de pagina).",
+    "opmerking": "Wie een paard aan de hand leidt, is geen voetganger: art. 2.13 noemt als 'bestuurder' ook wie trek-, last- en rijdieren of vee 'geleidt of bewaakt', en art. 2.46 gelijkt dieren niet met voetgangers. Er staat niets fout op de pagina, maar een leerling kan 'aan de hand' veralgemenen.",
+    "voorstel": "Optioneel: 'Leid je een paard aan de hand, dan ben je geen voetganger maar bestuurder van een rijdier.'",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Een step zonder motor die stapvoets gaat, telt als voetganger. Gaat hij sneller dan stapvoets, dan telt hij als fietser.",
+    "opmerking": "Klopt (art. 7bis, eerste en tweede lid).",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Een elektrische step (maximaal 25 km/u) telt als fietser.",
+    "opmerking": "Klopt (art. 2.15.2, 2 en art. 7bis, derde lid: gemotoriseerde voortbewegingstoestellen worden gelijkgesteld met fietsers). Enige uitzondering is het toestel dat uitsluitend voor personen met verminderde mobiliteit bestemd is.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "'stapvoets' wordt niet uitgelegd",
+    "opmerking": "Het KB definieert 'stapvoets' niet. Een korte uitleg ('ongeveer zo snel als wandelen') helpt de leerling.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "h1-4-1": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "C9: 'Verboden voor bromfietsen (klasse A en B)' / 'Bromfietsen (klasse A en B) mogen hier niet rijden.'",
+    "opmerking": "Het KB (art. 68.3, C9) zegt 'bestuurders van bromfietsen'. Art. 2.17 kent drie soorten bromfiets: klasse A, klasse B en speed pedelec. Het bord geldt dus ook voor speedpedelecs (Speedpedelec Vlaanderen: 'alle bromfietsen dus met inbegrip van speed pedelec'). 'Klasse A en B' laat de speedpedelec weg, zodat een leerling kan denken dat die wel mag. Zelfde formulering in L1-M48 en L1-K01.",
+    "voorstel": "Verboden voor bromfietsen. Uitleg: 'Alle bromfietsen, ook klasse A, klasse B en speedpedelecs, mogen hier niet rijden.'",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+     "https://speedpedelecvlaanderen.be/infrastructuur-en-regelgeving/wegcode/relevante-verkeersborden/",
+     "https://www.vlaanderen.be/mobiliteit-en-openbare-werken/te-voet-fiets-bromfiets/speedpedelec"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Een bromfiets klasse A rijdt maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u.",
+    "opmerking": "Klopt: art. 2.17 (door de constructie bepaalde maximumsnelheid 25 km/u voor klasse A, ten hoogste 45 km/u voor klasse B) en art. 11.3, 4 en 5 (snelheid beperkt tot 45 resp. 25 km/u). Ook mobilit.belgium.be: klasse A niet sneller dan 25 km/u, klasse B tot 45 km/u. Preciezer is 'kan maximaal', omdat het om de constructiesnelheid gaat.",
+    "voorstel": "Optioneel: 'Een bromfiets klasse A kan maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u.'",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+     "https://mobilit.belgium.be/nl/weg/rijden/rijbewijzen/belgisch-rijbewijs/bromfietsen-en-speedpedelec-categorie-am"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Overige borden en tip op de pagina (C1, C3, C5, C6, C7)",
+    "opmerking": "Niet in detail onderzocht buiten C9; omschrijvingen komen overeen met art. 68.3.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "h1-4-2": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "'Verboden voor autocars (bussen)' / 'Autocars (bussen) mogen hier niet rijden...' / Tip: 'Het ene bord verbiedt autocars (bussen), het andere vrachtvoertuigen.'",
+    "opmerking": "Het KB onderscheidt 'autobus' (ook staande passagiers, bv. een stadsbus; art. 2.65) van 'autocar' (uitsluitend zittende passagiers; art. 2.66). Het bord verbiedt alleen 'bestuurders van autocars' (art. 68.3, C22). Met '(bussen)' lijkt elke bus verboden, ook de lijnbus. Zelfde formulering in L1-009, L1-016, L1-M10, L1-M48, L1-M56, L1-K01 (ook 'Parkeren voor autocars (bussen)').",
+    "voorstel": "Verboden voor autocars (touringbussen). Tip: 'Het ene bord verbiedt autocars, het andere vrachtvoertuigen.' Pas ook de oefeningen aan.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "laag",
+    "tekst": "C23: 'Geen goederenvervoer; met onderbord enkel boven een aangeduide massa.'",
+    "opmerking": "Klopt met art. 68.3 (motorvoertuigen en slepen ontworpen voor goederenvervoer; onderbord met massa beperkt het verbod). Iets duidelijker: 'voertuigen voor goederenvervoer'.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "C11, C13, C15, C17, C19 en 'tot en met het volgende kruispunt'",
+    "opmerking": "Niet verder onderzocht; omschrijvingen komen overeen met art. 68.3.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-werfzeiger-schijf": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Afbeelding: grote schijf met rode rand boven het hoofd van de werfopzichter",
+    "opmerking": "De steel van de schijf eindigt in de lucht; de hand houdt hem niet vast. Inhoud klopt met art. 41.3.2 (schijf met verboden-toegang-bord legt verkeer stil; auto stopt voor de stoplijn). Geen bordcode of verzonnen detail zichtbaar.",
+    "voorstel": "Laat de hand de steel vasthouden.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-bevoegde-persoon-armen": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Bijschriftbalk onderaan raakt het label 'armen horizontaal' en de onderrand",
+    "opmerking": "Kleine layoutfout; de inhoud klopt.",
+    "voorstel": "Bijschrift iets hoger.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-bevoegde-persoon-stop": {
+  "status": "ok",
+  "problemen": []
+ },
+ "schema-bevoegde-personen-wie": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Vier figuurtjes met dezelfde helm; alleen de kleur verschilt",
+    "opmerking": "Geen inhoudelijke fout. Politie is niet herkenbaar als politie. Beperking 'op en bij de brug' ontbreekt (zie hb-1-1).",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-bevoegde-seinen-overzicht": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Stoppen voor wie het licht ziet. / Stoppen voor wie de armen dwarst.",
+    "opmerking": "KB: 'stoppen voor de bestuurders naar wie het licht gekeerd is'. 'Ziet' is slordig: je kunt het licht zien zonder dat het naar jou gericht is. 'Stoppen voor wie...' kan ook gelezen worden als 'stoppen om iemand door te laten'.",
+    "voorstel": "Stoppen als het licht naar jou gericht is. / Stoppen als je uit een richting komt die de armen dwarst.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-rangorde-lichten": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Figuurtje bij nummer 1",
+    "opmerking": "Inhoud klopt (art. 5 en 6). Het figuurtje is erg klein en de hand zweeft los van het lichaam; het kruisje bij 3 met 'van rechts' is kleinschalig. Cosmetisch.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "schema-gelijkgesteld-voetganger-fietser": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "'Persoon met beperkte mobiliteit op eigen toestel, stapvoets' / 'Wie een fiets of bromfiets aan de hand leidt'",
+    "opmerking": "Zie h1-4-2b: 'eigen toestel' moet 'toestel dat uitsluitend voor hen bestemd is' zijn, 'bromfiets' moet 'tweewielige bromfiets' zijn.",
+    "voorstel": "Persoon met beperkte mobiliteit op een toestel voor hen bestemd, stapvoets / Wie een fiets of tweewielige bromfiets aan de hand leidt",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Elektrische fiets tot 25 km/u, step zonder motor sneller dan stapvoets, elektrische step: fietser",
+    "opmerking": "Klopt met art. 7bis en 7ter.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P01": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Een juist antwoord (politie, art. 3, 1). Overige opties duidelijk niet bevoegd; geen synoniemen.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P02": {
+  "status": "fout",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "Een bevoegde persoon vraagt je om je geparkeerde voertuig te verplaatsen, maar je bent weg. Wat mag hij doen? Juist: 'Het voertuig laten verplaatsen op jouw risico en kosten'.",
+    "opmerking": "Twee problemen. (1) Het scenario is tegenstrijdig: hij 'vraagt je', maar je bent weg. (2) Art. 4.4: op risico en kosten van de bestuurder, behalve wanneer de bestuurder afwezig is en het voertuig reglementair geparkeerd staat. De vraag zegt niet of het voertuig reglementair staat, dus 'op jouw kosten' is niet ondubbelzinnig juist.",
+    "voorstel": "Herformuleer: 'Je auto staat in de weg. De agent vraagt je hem te verplaatsen, maar je weigert. Wat mag de agent doen?' Opties: 'Het voertuig laten verplaatsen op jouw risico en kosten' / 'Het voertuig laten staan en wachten' / 'Het voertuig laten verplaatsen op kosten van de gemeente'. Of schrap de oefening.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P03": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Wegkapitein is voor groepen fietsers en motorfietsers (art. 41.3.1 b). Werfopzichter en groepsleider van voetgangers zijn fout. Een juist antwoord, geen synoniemen.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P04": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Art. 6.1. 'Een verkeersbord' en 'Een verkeerslicht' zijn beide verkeerstekens en dus fout; 'Voorrang van rechts' is een regel. Een juist antwoord.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P05": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 4.1 en 6.1). Lichte opmerking: 'Stoppen, want het licht is rood' en 'Wachten tot het licht groen wordt' zijn twee varianten van stoppen en dus bijna synoniem als foute opties. Geen echte fout.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P06": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 6.1). De optie 'Wat het snelst gaat' is een vulling, niet fout.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P07": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 4.2, 1). De uitzondering voor wie op het kruispunt staat zit in L1-P11.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P08": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist: wie recht op de agent afrijdt komt uit een richting die de armen dwarst (art. 4.2, 2). 'Doorrijden' en 'Eerst toeteren' zijn duidelijk fout.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P09": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 4.2, 3).",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P10": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "middel",
+    "tekst": "Een bevoegde persoon strekt zijn armen horizontaal uit. Jij rijdt langs zijn armen. Wat geldt voor jou? Juist: 'Je krijgt doorgang'.",
+    "opmerking": "'Langs zijn armen rijden' is dubbelzinnig (naast de agent voorbij, of in de richting van de armen). Bovendien zegt het KB niet 'je krijgt doorgang', alleen wie moet stoppen (art. 4.2, 2). 'Je moet keren' is een lege vulling.",
+    "voorstel": "Vraag: 'Je komt van links van de bevoegde persoon, in de richting van zijn uitgestrekte armen. Wat geldt voor jou?' Juiste optie: 'Voor dit teken hoef je niet te stoppen'. Vervang 'Je moet keren' door een geloofwaardige fout, bv. 'Je moet stoppen omdat de agent je ziet'.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu",
+     "https://www.inview.nl/document/id5bb56260d8ce5da9d09014fe718fcb99/convention-on-road-traffic-article-6-instructions-given-by-authorized-officials-21-05-1977-tot"
+    ]
+   }
+  ]
+ },
+ "L1-P11": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 4.2, 1: wie op het kruispunt staat, maakt het vrij).",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-P12": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 2.46). Het KB zegt 'gelijkgesteld met voetgangers'; 'voetganger' is een aanvaardbare vereenvoudiging.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-V01": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Een wegeninspecteur in Vlaanderen",
+    "opmerking": "Juist volgens art. 3, 4 (Vlaams Gewest: wegeninspecteurs van het decreet van 3 mei 2013 over bijzonder wegtransport en de voor toezicht aangestelde personeelsleden). Maar 'wegeninspecteur' staat nergens in de theorie (hb-1-1 zegt 'personeel van de wegbeheerders dat toezicht houdt op de weg') en de bevoegdheid is gebonden aan een bijzondere context. Leerlingen kunnen dit niet afleiden.",
+    "voorstel": "Vervang door 'Personeel van de wegbeheerder dat toezicht houdt op de weg' of 'Een brugwachter die een brug bedient'.",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   },
+   {
+    "ernst": "geen",
+    "tekst": "Een politieagent / Douanepersoneel tijdens zijn dienst / Een voorbijganger die het verkeer regelt",
+    "opmerking": "Juist resp. fout (art. 3, 1 en 7). Meerdere juiste antwoorden past bij 'Kruis aan'.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-V02": {
+  "status": "twijfel",
+  "problemen": [
+   {
+    "ernst": "laag",
+    "tekst": "Stoppen voor wie uit een richting komt die de armen dwars snijdt / Stoppen voor de bestuurders naar wie het licht gekeerd is",
+    "opmerking": "Inhoud klopt met art. 4.2. 'Stoppen voor wie...' kan als 'stoppen om hen door te laten' gelezen worden. 'Dwars snijdt' wijkt af van de boekterm 'dwarsen'. Paren zijn onderling goed te onderscheiden; geen synoniemen.",
+    "voorstel": "Stoppen als je uit een richting komt die de armen dwarst / Stoppen als het licht naar jou gericht is",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-V03": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 41.3.1). 'Een signaalgever bij een wielerwedstrijd' is juist als 'gemachtigde signaalgever'; eventueel 'gemachtigde' toevoegen. 'Een willekeurige voorbijganger' is duidelijk fout.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-V04": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Juist (art. 6.1 en 4.1). 'Doorrijden' en 'Rustig afremmen en dan doorrijden' zijn beide fout; 'Toeteren' is vulling.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ },
+ "L1-003": {
+  "status": "ok",
+  "problemen": [
+   {
+    "ernst": "geen",
+    "tekst": "",
+    "opmerking": "Volgorde klopt met art. 6.1 en 6.2.",
+    "voorstel": "",
+    "bronnen": [
+     "https://www.wegcode.be/nl/regelgeving/1975120109~hra8v386pu"
+    ]
+   }
+  ]
+ }
+}

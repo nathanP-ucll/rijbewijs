@@ -638,8 +638,8 @@
                 },
                 {
                   "afb": "C9",
-                  "naam": "Verboden voor bromfietsen (klasse A en B)",
-                  "uitleg": "Bromfietsen (klasse A en B) mogen hier niet rijden."
+                  "naam": "Verboden voor bromfietsen (klasse A, klasse B en speed pedelecs)",
+                  "uitleg": "Alle bromfietsen mogen hier niet rijden, ook speed pedelecs."
                 }
               ]
             },
@@ -647,7 +647,7 @@
               "type": "tekst",
               "alineas": [
                 "Een verbodsbord met een rode rand verbiedt je iets. Het symbool in het bord toont wie of wat niet mag.",
-                "Een bromfiets klasse A rijdt maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u."
+                "Een bromfiets klasse A kan maximaal 25 km/u, een bromfiets klasse B maximaal 45 km/u. Een speed pedelec is een elektrische fiets met een snelheid tussen 25 en 45 km/u en is ook een bromfiets."
               ]
             },
             {
@@ -701,8 +701,8 @@
                 },
                 {
                   "afb": "C22",
-                  "naam": "Verboden voor autocars (bussen)",
-                  "uitleg": "Autocars (bussen) mogen hier niet rijden."
+                  "naam": "Verboden voor autocars (touringbussen)",
+                  "uitleg": "Autocars (touringbussen) mogen hier niet rijden."
                 },
                 {
                   "afb": "C23",
@@ -719,8 +719,8 @@
             },
             {
               "type": "tip",
-              "titel": "Autocars (bussen) of vrachtvoertuigen?",
-              "tekst": "Het ene bord verbiedt autocars (bussen), het andere vrachtvoertuigen. Kijk dus goed naar het symbool."
+              "titel": "Autocars (touringbussen) of vrachtvoertuigen?",
+              "tekst": "Het ene bord verbiedt autocars (touringbussen), het andere vrachtvoertuigen. Kijk dus goed naar het symbool."
             },
             {
               "type": "oefening",
@@ -745,9 +745,10 @@
             {
               "type": "tekst",
               "alineas": [
-                "Je bent voetganger als je een fiets of bromfiets aan de hand leidt. Dat geldt ook voor wie een kinderwagen aan de hand heeft.",
+                "Je bent voetganger als je een fiets, een elektrische fiets of een tweewielige bromfiets aan de hand leidt. Dat geldt ook voor wie een kinderwagen of een rolstoel aan de hand leidt.",
+                "Leid je een paard aan de hand, dan ben je geen voetganger maar bestuurder van een rijdier.",
                 "Een step zonder motor die stapvoets gaat, telt als voetganger. Gaat hij sneller dan stapvoets, dan telt hij als fietser.",
-                "Een persoon met beperkte mobiliteit op een eigen toestel dat stapvoets rijdt, telt ook als voetganger. Een elektrische step (maximaal 25 km/u) telt als fietser."
+                "Een persoon met beperkte mobiliteit op een toestel dat speciaal voor hem bestemd is, zoals een elektrische rolstoel, telt als voetganger zolang hij niet sneller dan stapvoets rijdt. Een elektrische step (maximaal 25 km/u) telt als fietser."
               ]
             },
             {
@@ -1267,8 +1268,8 @@
                 },
                 {
                   "afb": "E9d",
-                  "naam": "Parkeren voor autocars (bussen)",
-                  "uitleg": "Alleen autocars (bussen) mogen hier staan; andere voertuigen niet."
+                  "naam": "Parkeren voor autocars (touringbussen)",
+                  "uitleg": "Alleen autocars (touringbussen) mogen hier staan; andere voertuigen niet."
                 },
                 {
                   "afb": "E9h",
@@ -2177,7 +2178,7 @@
             {
               "type": "tekst",
               "alineas": [
-                "Een onderbord vult de betekenis van een bord aan, preciseert of beperkt ze. Onderborden zijn meestal wit op blauw, maar die voor fietsen en bromfietsen (klasse A en B) zijn zwart op wit.",
+                "Een onderbord vult de betekenis van een bord aan, preciseert of beperkt ze. Onderborden zijn meestal wit op blauw, maar die voor fietsen en bromfietsen zijn zwart op wit.",
                 "Op de volgende pagina's zie je de aanvullingen per soort: afstand, uitzonderingen, fietspad en tijd."
               ]
             },
